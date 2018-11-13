@@ -1,0 +1,29 @@
+baseUrl: 'https://major.io/'
+languageCode: en-us
+title: "major.io"
+theme: lanyon
+copyright: '&copy; Major Hayden'
+canonifyurls: true
+paginate: 5
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+pygmentsCodefencesGuessSyntax: true
+permalinks:
+  post: '/:year/:month/:day/:slug/'
+params:
+  Title: "major.io"
+  Tagline: "words of wisdom from a systems engineer"
+  Author: Major Hayden
+  DateForm: "2006-01-02"
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+menu:
+  main:
+    - weight: '1'
+      name: Home
+      url: /
+    - weight: '2'
+      name: About
+      url: /about

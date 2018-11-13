@@ -1,0 +1,28 @@
+---
+title: 'Plesk: Unable to make action: Unable to manage service by dnsmng: dnsmng: Service named failed to start'
+author: Major Hayden
+type: post
+date: 2007-08-03T02:43:35+00:00
+url: /2007/08/02/plesk-unable-to-make-action-unable-to-manage-service-by-dnsmng-dnsmng-service-named-failed-to-start/
+dsq_thread_id:
+  - 3645268076
+tags:
+  - plesk
+
+---
+This error means that Plesk attempted to make a DNS change and reload named, but it failed. The problem generally lies within some seemingly innocent RPM's that are causing problems with Plesk's installation of bind.
+
+Check your /var/log/messages for lines like these:
+
+`named[xxx]: could not configure root hints from 'named.root': file not found<br />
+      named[xxx]: loading configuration: file not found<br />
+      named[xxx]: exiting (due to fatal error)<br />
+      named: named startup failed`
+
+In this case, do a quick check for these RPM's and remove them if they are on the system:
+
+  * bind-chroot
+  * caching-nameserver
+
+`# rpm -ev bind-chroot<br />
+# rpm -ev caching-nameserver`

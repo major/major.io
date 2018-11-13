@@ -1,0 +1,60 @@
+#!/bin/sh
+#
+# Startup script for drbd loop device setup
+#
+# chkconfig: 2345 50 50
+# description: Startup script for drbd loop device setup
+#
+### BEGIN INIT INFO
+# Provides: drbdloop
+# Required-Start:
+# Required-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: set up drbd loop devices
+# Description: Startup script for drbd loop device setup
+### END INIT INFO
+ 
+DRBD_FILEDATA_SRC="/drbd-loop.img"
+DRBD_FILEDATA_DEVICE="/dev/loop7"
+LOSETUP_CMD=/sbin/losetup
+ 
+# Source function library
+. /etc/rc.d/init.d/functions 
+ 
+start () {
+  echo -n $"Setting up DRBD loop devices..."
+  $LOSETUP_CMD $DRBD_FILEDATA_DEVICE $DRBD_FILEDATA_SRC
+  echo
+}
+ 
+stop() {
+  echo -n $"Tearing down DRBD loop devices..."
+  $LOSETUP_CMD -d $DRBD_FILEDATA_DEVICE
+  echo
+}
+ 
+restart() {
+  stop
+  start
+}
+ 
+case "$1" in
+  start)
+      start
+      RETVAL=$?
+    ;;
+  stop)
+      stop
+      RETVAL=$?
+    ;;
+  restart)
+      restart
+      RETVAL=$?
+    ;;
+  *)
+    echo $"Usage: $0 {start|stop}" 
+    exit 1
+esac
+ 
+exit $RETVAL
