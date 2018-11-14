@@ -16,7 +16,9 @@ tags:
   - lenovo
 
 ---
-[<img src="/wp-content/uploads/2015/03/ThinkPad-Carbon-X1-300x212.jpg" alt="Thinkpad X1 Carbon 3rd gen" width="300" height="212" class="alignright size-medium wp-image-5452" srcset="/wp-content/uploads/2015/03/ThinkPad-Carbon-X1-300x212.jpg 300w, /wp-content/uploads/2015/03/ThinkPad-Carbon-X1.jpg 984w" sizes="(max-width: 300px) 100vw, 300px" />][1]After a [boatload of challenges][2] with what I thought would be my favorite Linux laptop, the [Dell XPS 13 9343][3], I decided to take the plunge on a new [Lenovo X1 Carbon (3rd gen)][4]. My late-2013 MacBook Pro Retina (MacbookPro11,1) had plenty of quirks when running Linux and I was eager to find a better platform.
+![1]
+
+After a [boatload of challenges][2] with what I thought would be my favorite Linux laptop, the [Dell XPS 13 9343][3], I decided to take the plunge on a new [Lenovo X1 Carbon (3rd gen)][4]. My late-2013 MacBook Pro Retina (MacbookPro11,1) had plenty of quirks when running Linux and I was eager to find a better platform.
 
 <!--more-->
 
@@ -42,12 +44,13 @@ The island-style keyboard takes a little getting used to when you're coming from
 
 The touchpad at the front of the laptop works quite well and the little trough right in front of the bottom of the pad is handy for click and drag gestures. The synaptics driver for X works right out of the box and libinput works, too.
 
-The trackpoint (also called "keyboard nipple") is fine but I can't use it worth a darn. I'm downright horrible at it. That's not Lenovo's fault - my brain is probably dysfunctional. The trackpoint buttons (below the space bar) are hooked up to the touchpad and this has caused some problems. There's a fix to get the left and middle buttons working in Linux 4.0 and you'll [find that patch backported][8] in some other distributions, like Arch and Fedora. I don't use those buttons much but I could see how some people might want to do some two-handed click and drag gestures with them.
+The trackpoint (also called &#8220;keyboard nipple&#8221;) is fine but I can't use it worth a darn. I'm downright horrible at it. That's not Lenovo's fault &#8212; my brain is probably dysfunctional. The trackpoint buttons (below the space bar) are hooked up to the touchpad and this has caused some problems. There's a fix to get the left and middle buttons working in Linux 4.0 and you'll [find that patch backported][8] in some other distributions, like Arch and Fedora. I don't use those buttons much but I could see how some people might want to do some two-handed click and drag gestures with them.
 
 All of the keys on the keyboard work as expected, but you'll need to [load up][9] the **thinkpad_acpi** module to get the brightness buttons working. In my case, I had to force the module to load since the module didn't recognize my embedded controller:
 
 ```
-
+modprobe thinkpad_acpi force_load=1
+```
 
 Another nice benefit of the module is that you can control some of the LED's on the laptop programmatically. For example, you could blink the power button to signify your own custom alerts. You could also disable it entirely.
 
@@ -70,7 +73,7 @@ Considering that the fix for the first issue is widely available in most distrib
 
 Thanks for reading this far! Let me know if I've missed anything and I'll be glad to update the post.
 
- [1]: /wp-content/uploads/2015/03/ThinkPad-Carbon-X1.jpg
+ [1]: https://major.io/wp-content/uploads/2015/03/ThinkPad-Carbon-X1.jpg
  [2]: /2015/02/03/linux-support-dell-xps-13-9343-2015-model/
  [3]: http://www.dell.com/us/p/xps-13-9343-laptop/pd
  [4]: http://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/

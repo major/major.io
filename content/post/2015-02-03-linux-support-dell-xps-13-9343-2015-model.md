@@ -14,7 +14,9 @@ tags:
   - linux
 
 ---
-[<img src="/wp-content/uploads/2015/02/dellXPS13-9343_2-300x176.jpg" alt="Dell XPS 13 9343 (2015 model)" width="300" height="176" class="alignright size-medium wp-image-5329" srcset="/wp-content/uploads/2015/02/dellXPS13-9343_2-300x176.jpg 300w, /wp-content/uploads/2015/02/dellXPS13-9343_2.jpg 624w" sizes="(max-width: 300px) 100vw, 300px" />][1]_<span style="color: #D42020;"><b>I'M ALL DONE:</b></span> I'm not working on Linux compatibility for the XPS 13 any longer. I've purchased a Lenovo X1 Carbon (3rd gen) and that's my preferred laptop. More on this change later._
+![1]
+
+_<span style="color: #D42020;"><b>I'M ALL DONE:</b></span> I'm not working on Linux compatibility for the XPS 13 any longer. I've purchased a Lenovo X1 Carbon (3rd gen) and that's my preferred laptop. More on this change later._
 
 * * *
 
@@ -33,7 +35,8 @@ The webcam works without any additional configuration the video quality is excel
 The wireless card in the laptop I received is a BCM4352:
 
 ```
-
+02:00.0 Network controller: Broadcom Corporation BCM4352 802.11ac Wireless Network Adapter (rev 03)
+```
 
 It's possible to get this card working with the b43 kernel modules but I've had better luck with the binary blob STA drivers from Broadcom. There are [plenty of guides][5] out there to help you install the kernel module for your Fedora kernel. I've had great network performance with the binary driver.
 
@@ -49,13 +52,13 @@ The touchpad and keyboard are on the I2C bus and this creates some problems. Man
 
 There are some open bugs and discussion about the touchpad issues:
 
-  * [Linux Support is Terrible on the New Dell XPS 13 (2015)][7] [Reddit]
-  * [touchpad does not respond to tap-to-clicks in I2C mode in Ubuntu 15.04 on 2015 XPS 13 (9343)][8] [Launchpad Bug]
-  * [Dell XPS 13 9343 (2015) touchpad freeze][9] [Red Hat Bug]
+* [Linux Support is Terrible on the New Dell XPS 13 (2015)][7] [Reddit]
+* [touchpad does not respond to tap-to-clicks in I2C mode in Ubuntu 15.04 on 2015 XPS 13 (9343)][8] [Launchpad Bug]
+* [Dell XPS 13 9343 (2015) touchpad freeze][9] [Red Hat Bug]
 
 You can connect up a mouse and keyboard to the laptop and work around those issues. However, dragging around some big peripherals with such a small laptop isn't a great long-term solution. Some users suggested blacklisting the i2c_hid module so that the touchpad shows up as a plain PS/2 touchpad but I'm still seeing freezes even after making that change.
 
-If you're having one of those "touchpad on the I2C bus?" moments like I had, read Synaptics' [brief page about Intertouch][10]. Using the I2C bus saves power, reduces USB port consumption, and allows for more powerful multi-touch gestures.
+If you're having one of those &#8220;touchpad on the I2C bus?&#8221; moments like I had, read Synaptics' [brief page about Intertouch][10]. Using the I2C bus saves power, reduces USB port consumption, and allows for more powerful multi-touch gestures.
 
 Oddly enough, the touchscreen is an ELAN Touchscreen and it runs over USB. It suffers from the same freezes that the touchpad does.
 
@@ -65,9 +68,9 @@ Sound is a big problem. The microphone, speakers and headphone port don't work u
 
 There's an open bug on Launchpad about the problem:
 
-  * [Audio broken on 2015 XPS 13 (9343) in I2S mode in Ubuntu 14.10/15.04][12] [Launchpad bug]
-  * [No sound on Dell XPS 13 9343 (2015 model)][13] [Red Hat bug]
-  * [broadwell-audio: rt286 device appears, no sound (Dell XPS 13 9343)][14] [Linux kernel bug]
+* [Audio broken on 2015 XPS 13 (9343) in I2S mode in Ubuntu 14.10/15.04][12] [Launchpad bug]
+* [No sound on Dell XPS 13 9343 (2015 model)][13] [Red Hat bug]
+* [broadwell-audio: rt286 device appears, no sound (Dell XPS 13 9343)][14] [Linux kernel bug]
 
 I connected up an old Syba USB audio device to the USB port and was able to get sound immediately. This is also a horrible workaround.
 
@@ -97,7 +100,7 @@ A post was made on [Barton's Blog][15] yesterday about Dell being aware of the L
 
 After about 35 kernel builds during the most frustrating git bisect of my life, I found the [problematic patch][16]. The [Red Hat bug][17] is updated now and I'm hoping that someone with a detailed knowledge of this part of the kernel can make sense of it:
 
-```
+```diff
 From d1c7e29e8d276c669e8790bb8be9f505ddc48888 Mon Sep 17 00:00:00 2001
 From: Gwendal Grignou &lt;gwendal@chromium.org>
 Date: Thu, 11 Dec 2014 16:02:45 -0800
@@ -133,7 +136,6 @@ index 747d544..9c014803b4 100644
  	if (ret != size) {
 ```
 
-
 I reverted the patch in Linux 3.19-rc7 and built the kernel. The touchpad works flawlessly. However, simply reverting the patch probably isn't the best idea long term. ;)
 
 #### 2015-02-07
@@ -157,7 +159,7 @@ This obviously isn't a long-term solution, but it's a fair workaround.
 
 There is now a [patch][20] that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze:
 
-```
+```diff
 From 2a2aa272447d0ad4340c73db91bd8e995f6a0c3f Mon Sep 17 00:00:00 2001
 From: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com>
 Date: Tue, 10 Feb 2015 12:40:13 -0500
@@ -197,16 +199,15 @@ index f65e78b..48b051e 100644
  		return ret;
 ```
 
-
 I've tested it against 3.19-rc7 as well as Fedora's 3.18.5. However, tapping still doesn't work yet with more than one finger. The touchpad jumps around a bit when you apply two fingers to it.
 
 #### 2015-02-12
 
-Rene commented below that he [found a post in alsa devel with a patch][21] for the "Dell Dino" that looks like it might help with the i2c audio issues. Another kernel maintainer replied and asked for some of the code to be rewritten to make it easier to handle audio quirks. UPDATE: Audio patch didn't work.
+Rene commented below that he [found a post in alsa devel with a patch][21] for the &#8220;Dell Dino&#8221; that looks like it might help with the i2c audio issues. Another kernel maintainer replied and asked for some of the code to be rewritten to make it easier to handle audio quirks. UPDATE: Audio patch didn't work.
 
 We've created an IRC channel on Freenode: #xps13.
 
-There's an interesting [kernel patch mentioning "Dell Dino"][22] that is line for inclusion in 3.20-rc1. Someone in IRC found "Dell Dino" mentioned on a [Dell business purchase page][23]. The board name from dmidecode in the patch is **0144P8** but that doesn't match other known board names. My i5-5200U with touch is **0TM99H** while a user with a non-touch i5 has a board name of **OTRX4F**. Other i5 touch models have the same board name as mine. All BIOS revisions found so far are A00 (the latest on Dell's site).
+There's an interesting [kernel patch mentioning &#8220;Dell Dino&#8221;][22] that is line for inclusion in 3.20-rc1. Someone in IRC found &#8220;Dell Dino&#8221; mentioned on a [Dell business purchase page][23]. The board name from dmidecode in the patch is **0144P8** but that doesn't match other known board names. My i5-5200U with touch is **0TM99H** while a user with a non-touch i5 has a board name of **OTRX4F**. Other i5 touch models have the same board name as mine. All BIOS revisions found so far are A00 (the latest on Dell's site).
 
 A [probe for the rt286 module][24] looks like it starts to happen and then it fails (skip to line 795):
 
@@ -226,12 +227,11 @@ A [probe for the rt286 module][24] looks like it starts to happen and then it fa
 [    4.160506] i2c-core: driver [rt286] registered
 ```
 
-
 **<a name="2015-02-16">2015-02-16</a>**
 
 I received an email from a Realtek developer about the sound card in the XPS:
 
-> I see "rt286 i2c-INT343A:00: Device with ID register 0 is not rt286" in the log. It means there are something wrong when the driver is trying to read the device id of codec. I believe that is due to I2C read/write issue. ALC3263 is a dual mode (I2S and HDA) codec. And BIOS will decide which mode according to OS type. So, if you want to use i2s mode, you need to configure your BIOS to set ALC3263 to I2S mode.
+> I see &#8220;rt286 i2c-INT343A:00: Device with ID register 0 is not rt286&#8221; in the log. It means there are something wrong when the driver is trying to read the device id of codec. I believe that is due to I2C read/write issue. ALC3263 is a dual mode (I2S and HDA) codec. And BIOS will decide which mode according to OS type. So, if you want to use i2s mode, you need to configure your BIOS to set ALC3263 to I2S mode.
 
 After poring through the [DSDT and other ACPI tables][25] over the weekend (and building way too many kernels with overriden DSDT's), it sounds like a BIOS update may be required for the sound card to function properly. The [sound devices][26] specified in the DSDT that are on the i2c bus are only activated after a BUNCH of checks succeed. One of them is the check of `OSYS`, the system's operating system. Setting `acpi_osi="Windows 2013"` does flip `OSYS` to `0x07DD`, but that's only part of the fix. There are other variables checked, like `CODS` (that shows up very often) that are instantiated early in the DSDT but I can't find them ever being set to a value anywhere in the DSDT code. These variables equal zero by default and that disables critical parts of the sound device.
 
@@ -239,7 +239,7 @@ My take: This laptop is going to need a BIOS update of some sort before we can g
 
 **<a name="2015-02-17">2015-02-17</a>**
 
-There's some progress on the sound card in Linux! After building the latest commits from [linux.git's master branch][27], my XPS started showing a device called "broadwell-rt286" in pavucontrol. It showed up as a normal audio device but it had no output support, only input. I tried to enable the microphone but I couldn't record any sound.
+There's some progress on the sound card in Linux! After building the latest commits from [linux.git's master branch][27], my XPS started showing a device called &#8220;broadwell-rt286&#8221; in pavucontrol. It showed up as a normal audio device but it had no output support, only input. I tried to enable the microphone but I couldn't record any sound.
 
 I found a [kernel bug][28] from a ThinkPad Helix 2 user with a very similar hardware setup. Their rt286 device is on the I2S bus with a Haswell SoC. Their fix was to copy over the latest firmware binaries from [linux-firmware.git][29] and reboot. I did the same and an output device suddenly showed up in pavucontrol after a reboot.
 
@@ -269,7 +269,7 @@ Stay tuned for a more in-depth write-up soon.
 
 After a few more reboots, I can't get sound working again. I'm wondering if I had an errant `acpi_osi` setting somewhere during my testing that brought sound up on the HDA bus. :/
 
- [1]: /wp-content/uploads/2015/02/dellXPS13-9343_2.jpg
+ [1]: https://major.io/wp-content/uploads/2015/02/dellXPS13-9343_2.jpg
  [2]: http://arstechnica.com/gadgets/2015/01/hands-on-dell-xps-13-packs-a-13-inch-screen-into-an-11-inch-laptop/
  [3]: http://en.community.dell.com/techcenter/b/techcenter/archive/2015/01/27/you-asked-for-it-ubuntu-officially-on-the-precision-m3800-worldwide
  [4]: https://gist.github.com/semenko/60015029e13c1de65ff6

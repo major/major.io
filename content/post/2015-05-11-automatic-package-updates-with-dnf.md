@@ -17,7 +17,9 @@ tags:
   - yum
 
 ---
-[<img src="/wp-content/uploads/2015/05/12428002945_bc47ae3529_b-e1431393503428.jpg" alt="12428002945_bc47ae3529_b" width="1024" height="284" class="aligncenter size-full wp-image-5563" srcset="/wp-content/uploads/2015/05/12428002945_bc47ae3529_b-e1431393503428.jpg 1024w, /wp-content/uploads/2015/05/12428002945_bc47ae3529_b-e1431393503428-300x83.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]With Fedora 22's release date [quickly approaching][2], it's time to familiarize yourself with [dnf][3]. It's especially important since clean installs of Fedora 22 [won't have yum][4].
+![1]
+
+With Fedora 22's release date [quickly approaching][2], it's time to familiarize yourself with [dnf][3]. It's especially important since clean installs of Fedora 22 [won't have yum][4].
 
 Almost all of the command line arguments are the same but automated updates are a little different. If you're used to yum-updatesd, then you'll want to look into [dnf-automatic][5].
 

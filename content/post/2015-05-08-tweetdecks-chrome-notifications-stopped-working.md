@@ -41,7 +41,7 @@ Chrome preferences are in different locations depending on your OS:
 
 I'm on Linux, so I'll open up `.config/google-chrome/Default/Preferences` in vim and make some edits. You're looking for some lines that look like this:
 
-```
+```json
 "https://tweetdeck.twitter.com:443,https://tweetdeck.twitter.com:443": {
    "last_used": {
       "notifications": 1431092689.014171
@@ -52,7 +52,7 @@ I'm on Linux, so I'll open up `.config/google-chrome/Default/Preferences` in vim
 
 Replace those lines with this:
 
-```
+```json
 "https://tweetdeck.twitter.com,*": {
    "last_used": {
       "notifications": 1414673538.301078

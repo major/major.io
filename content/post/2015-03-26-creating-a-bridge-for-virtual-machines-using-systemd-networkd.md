@@ -37,7 +37,7 @@ mkdir /etc/systemd/network
 
 In my case, the network adapter connected to my external network is _enp4s0_ but yours will vary. Run `ip addr` to get a list of your network cards. Let's create `/etc/systemd/network/uplink.network` and put the following in it:
 
-```
+```ini
 [Match]
 Name=enp4s0
 
@@ -52,7 +52,7 @@ I'm telling systemd to look for a device called _enp4s0_ and then add it to a br
 
 We need to tell systemd about our new bridge network device and we also need to specify the IP configuration for it. We start by creating `/etc/systemd/network/br0.netdev` to specify the device:
 
-```
+```ini
 [NetDev]
 Name=br0
 Kind=bridge
@@ -61,7 +61,7 @@ Kind=bridge
 
 This file is fairly self-explanatory. We're telling systemd that we want a device called _br0_ that functions as an ethernet bridge. Now create `/etc/systemd/network/br0.network` to specify the IP configuration for the _br0_ interface:
 
-```
+```ini
 [Match]
 Name=br0
 
@@ -78,7 +78,7 @@ This file tells systemd that we want to apply a simple static network configurat
 
 Some folks are brave enough to stop NetworkManager and start all of the systemd services here but I prefer to reboot so that everything comes up cleanly. That will also allow you to verify that future reboots will cause the server to come back online with the right configuration. After the reboot, run `networkctl` and you'll get something like this (with color):
 
-[<img src="/wp-content/uploads/2015/03/networkctl_screenshot.png" alt="networkctl screenshot" width="501" height="154" class="aligncenter size-full wp-image-5436" srcset="/wp-content/uploads/2015/03/networkctl_screenshot.png 501w, /wp-content/uploads/2015/03/networkctl_screenshot-300x92.png 300w" sizes="(max-width: 501px) 100vw, 501px" />][1]
+![1]
 
 Here's what's in the screenshot:
 

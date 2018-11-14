@@ -28,14 +28,13 @@ One of systemd's handy features is the ability to set up [systemd][4] unit files
 
 We first need a script that can rotate the background based on files in a particular directory. All of my wallpaper images are in `~/Pictures/wallpapers`. I adjusted this script that I found on GitHub so that it searches through files in my wallpaper directory and picks one at random to use:
 
-```
+```shell
 #!/bin/bash
 
 walls_dir=$HOME/Pictures/Wallpapers
 selection=$(find $walls_dir -type f -name "*.jpg" -o -name "*.png" | shuf -n1)
 gsettings set org.gnome.desktop.background picture-uri "file://$selection"
 ```
-
 
 I tossed this script into `~/bin/rotate_bg.sh` and made it executable with `chmod +x ~/bin/rotate_bg.sh`. Before you go any further, run the script manually in a terminal to verify that your background rotates to another image.
 
@@ -44,11 +43,12 @@ I tossed this script into `~/bin/rotate_bg.sh` and made it executable with `chmo
 You'll need to create a user-level systemd service file directory if it doesn't exist already:
 
 ```
-
+mkdir ~/.config/systemd/user/
+```
 
 Drop this file into `~/.config/systemd/user/gnome-background-change.service`:
 
-```
+```ini
 [Unit]
 Description=Rotate GNOME background
 
@@ -61,7 +61,6 @@ ExecStart=/usr/bin/bash /home/[USERNAME]/bin/rotate_bg.sh
 WantedBy=basic.target
 ```
 
-
 This unit file tells systemd that we have a oneshot script that will exit when it's finished. In addition, we also give the environment details to systemd so that it's aware of our existing X session.
 
 Don't enable or start the service file yet. We will let our timer handle that part.
@@ -72,7 +71,7 @@ Systemd's concept of [timers][5] is pretty detailed. You have plenty of control 
 
 Drop this into `~/.config/systemd/user/gnome-background-change.timer`:
 
-```
+```ini
 [Unit]
 Description=Rotate GNOME wallpaper timer
 
@@ -85,7 +84,6 @@ Unit=gnome-background-change.service
 WantedBy=gnome-background-change.service
 ```
 
-
 We're telling systemd that we want this timer to run every five minutes and we want to start our service unit file from the previous step. The `Persistent` line tells systemd that we want this unit file run if the last run was missed. For example, if you log in at 7:02AM, we don't want to wait until 7:05AM to rotate the background. We can rotate it immediately after login.
 
 If you'd like a different interval, be sure to review systemd's [time syntax][6] for the `OnCalendar` line. It's a little quirky if you're used to working with crontabs but it's very powerful once you understand it.
@@ -97,7 +95,6 @@ systemctl --user enable gnome-background-change.timer
 systemctl --user start gnome-background-change.timer
 ```
 
-
 ### Checking our work
 
 You can use systemctl to query the timer we just activated:
@@ -107,7 +104,6 @@ $ systemctl --user list-timers
 NEXT                         LEFT          LAST                         PASSED  UNIT                          ACTIVATES
 Wed 2015-02-11 08:15:00 CST  3min 53s left Wed 2015-02-11 08:10:49 CST  16s ago gnome-background-change.timer gnome-background-change.service
 ```
-
 
 In my case, this shows that the background rotation service last ran 16 seconds ago. It will run again in just under four minutes. If you find that the service runs but your wallpaper doesn't change, try running `journalctl -xe` to see if your service is throwing any errors.
 
