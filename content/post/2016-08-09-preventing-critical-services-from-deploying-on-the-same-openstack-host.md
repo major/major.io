@@ -16,7 +16,9 @@ tags:
   - python
 
 ---
-[<img src="/wp-content/uploads/2016/08/6312423035_2c53fe78e7_b-e1470762211193.jpg" alt="Houses on a hill" width="1024" height="330" class="aligncenter size-full wp-image-6391" srcset="/wp-content/uploads/2016/08/6312423035_2c53fe78e7_b-e1470762211193.jpg 1024w, /wp-content/uploads/2016/08/6312423035_2c53fe78e7_b-e1470762211193-300x97.jpg 300w, /wp-content/uploads/2016/08/6312423035_2c53fe78e7_b-e1470762211193-768x248.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]OpenStack's compute service, nova, manages all of the virtual machines within a OpenStack cloud. When you ask nova to build an instance, or a group of instances, nova's scheduler system determines which hypervisors should run each instance. The scheduler uses [filters][2] to figure out where each instance belongs.
+![1]
+
+OpenStack's compute service, nova, manages all of the virtual machines within a OpenStack cloud. When you ask nova to build an instance, or a group of instances, nova's scheduler system determines which hypervisors should run each instance. The scheduler uses [filters][2] to figure out where each instance belongs.
 
 However, there are situations where the scheduler might put more than one of your instances on the same host, especially when resources are constrained. This can be a problem when you deploy certain highly available applications, like MariaDB and Galera. If more than one of your database instances landed on the same physical host, a failure of that physical host could take down more than one database instance.
 

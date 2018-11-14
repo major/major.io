@@ -15,7 +15,9 @@ tags:
   - linux
 
 ---
-<a href="/wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562.jpg" rel="attachment wp-att-6105"><img src="/wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562.jpg" alt="computer mouse cursor missing out in the grass" width="1021" height="350" class="aligncenter size-full wp-image-6105" srcset="/wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562.jpg 1021w, /wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562-300x103.jpg 300w, /wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562-768x263.jpg 768w" sizes="(max-width: 1021px) 100vw, 1021px" /></a>**UPDATE:** The fixed version of mutter is now in the Fedora updates repository. You should be able to update the package with `dnf`:
+![mouse_photo]
+
+**UPDATE:** The fixed version of mutter is now in the Fedora updates repository. You should be able to update the package with `dnf`:
 
 ```
 dnf -y upgrade mutter
@@ -65,3 +67,4 @@ _Photo Credit: [Perfectance][5] via [Compfight][6] [cc][7]_
  [5]: https://www.flickr.com/photos/77395664@N00/7575830232/
  [6]: http://compfight.com
  [7]: https://creativecommons.org/licenses/by-nc-sa/2.0/
+ [mouse_photo]: /wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562.jpg

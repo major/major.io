@@ -20,13 +20,12 @@ Before we do that, let's go over something. I still don't understand why this is
 
 Take a look at the `postinst-systemd-start` script within the `init-systems-helpers` package ([source link][3]):
 
-```
+```shell
 if [ -d /run/systemd/system ]; then
     systemctl --system daemon-reload >/dev/null || true
     deb-systemd-invoke start #UNITFILES# >/dev/null || true
 fi
 ```
-
 
 The `daemon-reload` is totally reasonable. We must tell systemd that we just deployed a new unit file or it won't know we did it. However, the next line makes no sense. Why would you immediately force the daemon to start (or restart)? The `deb-systemd-invoke` script does check to see if the unit is disabled before taking action on it, which is definitely a good thing. However, this automatic management of running daemons shouldn't be handled by a package manager.
 
@@ -37,13 +36,12 @@ If you don't want your package manager handling your daemons, you have a few opt
 This method involves creating a script called `/usr/sbin/policy-rc.d` with a special exit code:
 
 ```
- /usr/sbin/policy-rc.d
+# echo -e '#!/bin/bash\nexit 101' > /usr/sbin/policy-rc.d
 # chmod +x /usr/sbin/policy-rc.d
 # /usr/sbin/policy-rc.d
 # echo $?
 101
 ```
-
 
 This script is checked by the `deb-systemd-invoke` script in the `init-systems-helpers package` ([source link][4]). As long as this script is in place, dpkg triggers won't cause daemons to start, stop, or restart.
 
@@ -59,14 +57,12 @@ However, since the package isn't installed yet, we can just mask it with a symli
 # ln -s /dev/null /etc/systemd/system/nginx.service
 ```
 
-
 You can install nginx now, configure it to meet your requirements, and start the service. Just run:
 
 ```
 # systemctl enable nginx
 # systemctl start nginx
 ```
-
 
  [1]: https://major.io/2015/10/14/what-i-learned-while-securing-ubuntu/
  [2]: https://major.io/2014/06/26/install-debian-packages-without-starting-daemons/

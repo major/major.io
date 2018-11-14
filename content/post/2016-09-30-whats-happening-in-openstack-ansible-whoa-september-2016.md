@@ -17,13 +17,15 @@ tags:
   - whoa
 
 ---
-[<img src="/wp-content/uploads/2011/11/openstack-justheo.png" alt="OpenStack" width="232" height="214" class="alignright size-full wp-image-2592" />][1]Welcome to the fourth post in the series of [What's Happening in OpenStack-Ansible (WHOA)][2] posts that I'm assembling each month. [OpenStack-Ansible][3] is a flexible framework for deploying enterprise-grade [OpenStack][4] clouds. In fact, I use OpenStack-Ansible to deploy the OpenStack cloud underneath the virtual machine that runs this blog!
+![1]
+
+Welcome to the fourth post in the series of [What's Happening in OpenStack-Ansible (WHOA)][2] posts that I'm assembling each month. [OpenStack-Ansible][3] is a flexible framework for deploying enterprise-grade [OpenStack][4] clouds. In fact, I use OpenStack-Ansible to deploy the OpenStack cloud underneath the virtual machine that runs this blog!
 
 My goal with these posts is to inform more people about what we're doing in the OpenStack-Ansible community and bring on more contributors to the project.
 
 There are plenty of updates since the [last post from August][5]. The race is on to finish up the Newton release and start new developments for the Ocata release! We hope to see lots of contributors in Barcelona!
 
-[<img src="/wp-content/uploads/2016/09/1024px-Arc_de_Triomf_Barcelona.jpg" alt="Arc de Triomf Barcelona Spain" width="1024" height="576" class="aligncenter size-full wp-image-6495" srcset="/wp-content/uploads/2016/09/1024px-Arc_de_Triomf_Barcelona.jpg 1024w, /wp-content/uploads/2016/09/1024px-Arc_de_Triomf_Barcelona-300x169.jpg 300w, /wp-content/uploads/2016/09/1024px-Arc_de_Triomf_Barcelona-768x432.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][6]
+![6]
 
 ## New releases
 

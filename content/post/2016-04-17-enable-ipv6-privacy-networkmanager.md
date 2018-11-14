@@ -16,7 +16,7 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2016/04/25587307903_3ec82a6dde_b-e1460910591232.jpg" alt="Hiding in the grass" width="1024" height="302" class="aligncenter size-full wp-image-6144" srcset="/wp-content/uploads/2016/04/25587307903_3ec82a6dde_b-e1460910591232.jpg 1024w, /wp-content/uploads/2016/04/25587307903_3ec82a6dde_b-e1460910591232-300x88.jpg 300w, /wp-content/uploads/2016/04/25587307903_3ec82a6dde_b-e1460910591232-768x227.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]
+![1]
 
 On most IPv6-enabled networks, network addresses are distributed via [stateless address autoconfiguration (SLAAC)][2]. That is a fancy way to say that hosts on an IPv6 network will configure their own IP addresses.
 
@@ -42,7 +42,7 @@ Most systems allow for [temporary addressing][6], and some even enable it by def
 
 There is a kernel tunable that controls temporary addressing on Linux systems:
 
-```
+```ini
 # Do not use a temporary address
 net.ipv6.conf.all.use_tempaddr = 0
 # Set a temporary address, but do not make it the default

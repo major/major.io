@@ -15,7 +15,9 @@ tags:
   - ubuntu
 
 ---
-[<img src="/wp-content/uploads/2016/05/15843531002_f92f4e6c50_o-e1464316716989.jpg" alt="Security padlock" width="1018" height="300" class="aligncenter size-full wp-image-6263" srcset="/wp-content/uploads/2016/05/15843531002_f92f4e6c50_o-e1464316716989.jpg 1018w, /wp-content/uploads/2016/05/15843531002_f92f4e6c50_o-e1464316716989-300x88.jpg 300w, /wp-content/uploads/2016/05/15843531002_f92f4e6c50_o-e1464316716989-768x226.jpg 768w" sizes="(max-width: 1018px) 100vw, 1018px" />][1]Lots of work has gone into the [openstack-ansible-security][2] Ansible role since I delivered [a talk about it last month][3] at the OpenStack Summit in Austin. Attendees asked for quite a few new features and I've seen quite a few bug reports (and that's a good thing).
+![1]
+
+Lots of work has gone into the [openstack-ansible-security][2] Ansible role since I delivered [a talk about it last month][3] at the OpenStack Summit in Austin. Attendees asked for quite a few new features and I've seen quite a few bug reports (and that's a good thing).
 
 Here's a list of the newest additions since the Summit:
 

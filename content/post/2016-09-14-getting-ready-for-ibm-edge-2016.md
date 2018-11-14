@@ -14,7 +14,9 @@ tags:
   - power
 
 ---
-[<img src="/wp-content/uploads/2016/09/welcome-to-las-vegas-1086412_1920-e1473775447598.jpg" alt="IBM Edge 2016 Las Vegas" width="1024" height="212" class="aligncenter size-full wp-image-6418" srcset="/wp-content/uploads/2016/09/welcome-to-las-vegas-1086412_1920-e1473775447598.jpg 1024w, /wp-content/uploads/2016/09/welcome-to-las-vegas-1086412_1920-e1473775447598-300x62.jpg 300w, /wp-content/uploads/2016/09/welcome-to-las-vegas-1086412_1920-e1473775447598-768x159.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1][IBM Edge 2016][2] starts next week in Las Vegas with an emphasis on changing how we think about technology. I'll definitely be interested in the sessions on open source technology and advances in OpenPOWER.
+![1]
+
+[IBM Edge 2016][2] starts next week in Las Vegas with an emphasis on changing how we think about technology. I'll definitely be interested in the sessions on open source technology and advances in OpenPOWER.
 
 Here are a few of the sessions from my must-see list:
 

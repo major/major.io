@@ -12,7 +12,9 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502-1024x302.jpg" alt="Mandalay Bay Las Vegas IBM Interconnect 2017" width="1024" height="302" class="aligncenter size-large wp-image-6588" srcset="/wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502-1024x302.jpg 1024w, /wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502-300x88.jpg 300w, /wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502-768x226.jpg 768w, /wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502.jpg 1025w" sizes="(max-width: 1024px) 100vw, 1024px" />][1][IBM Interconnect 2017][2] is coming up next month in Las Vegas. Last year's conference was a whirlwind of useful talks, inspiring hallway conversations, and great networking opportunities. I was exhausted by the week's end, but it was totally worth it.
+![1]
+
+[IBM Interconnect 2017][2] is coming up next month in Las Vegas. Last year's conference was a whirlwind of useful talks, inspiring hallway conversations, and great networking opportunities. I was exhausted by the week's end, but it was totally worth it.
 
 One of my favorite sessions from last year was [Tanmay Bakshi's][3] keynote. It was truly inspiring to see someone so young take command of such a large stage and teach us all something. I can't wait to hear another of his talks.
 

@@ -14,7 +14,7 @@ tags:
   - sysadmin
 
 ---
-<a href="/wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400.jpg" rel="attachment wp-att-6094"><img src="/wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400.jpg" alt="Curiosity saved the cat" width="1024" height="399" class="aligncenter size-full wp-image-6094" srcset="/wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400.jpg 1024w, /wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400-300x117.jpg 300w, /wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400-768x299.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+![cover]
 
 I'm [always interested to talk to college students][1] about technology and business in general. They have amazing ideas and they don't place any limits on themselves. In particular, their curiosity is limitless.
 
@@ -104,3 +104,4 @@ _Photo Credit: [jinterwas][6] via [Compfight][7] [cc][8]_
  [6]: https://www.flickr.com/photos/32135758@N02/15447911129/
  [7]: http://compfight.com
  [8]: https://creativecommons.org/licenses/by-nc/2.0/
+ [cover]: /wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400.jpg

@@ -63,28 +63,28 @@ After running that command, search for one of the audit log lines in the output:
 
 ```
 _UID=0
-    _BOOT_ID=...
-    _MACHINE_ID=...
-    _HOSTNAME=arsenic
-    _TRANSPORT=audit
-    SYSLOG_FACILITY=4
-    SYSLOG_IDENTIFIER=audit
-    AUDIT_FIELD_HOSTNAME=?
-    AUDIT_FIELD_ADDR=?
-    AUDIT_FIELD_RES=success
-    _AUDIT_TYPE=1105
-    AUDIT_FIELD_OP=PAM:session_open
-    _SELINUX_CONTEXT=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
-    _AUDIT_LOGINUID=1000
-    _AUDIT_SESSION=3
-    AUDIT_FIELD_ACCT=root
-    AUDIT_FIELD_EXE=/usr/bin/sudo
-    AUDIT_FIELD_GRANTORS=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix
-    AUDIT_FIELD_TERMINAL=/dev/pts/4
-    _PID=2666
-    _SOURCE_REALTIME_TIMESTAMP=1483631103122000
-    _AUDIT_ID=385
-    MESSAGE=USER_START pid=2666 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+_BOOT_ID=...
+_MACHINE_ID=...
+_HOSTNAME=arsenic
+_TRANSPORT=audit
+SYSLOG_FACILITY=4
+SYSLOG_IDENTIFIER=audit
+AUDIT_FIELD_HOSTNAME=?
+AUDIT_FIELD_ADDR=?
+AUDIT_FIELD_RES=success
+_AUDIT_TYPE=1105
+AUDIT_FIELD_OP=PAM:session_open
+_SELINUX_CONTEXT=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+_AUDIT_LOGINUID=1000
+_AUDIT_SESSION=3
+AUDIT_FIELD_ACCT=root
+AUDIT_FIELD_EXE=/usr/bin/sudo
+AUDIT_FIELD_GRANTORS=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix
+AUDIT_FIELD_TERMINAL=/dev/pts/4
+_PID=2666
+_SOURCE_REALTIME_TIMESTAMP=1483631103122000
+_AUDIT_ID=385
+MESSAGE=USER_START pid=2666 uid=0 auid=1000 ses=3 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
 ```
 
 

@@ -15,7 +15,7 @@ tags:
   - security
 
 ---
-<a href="/wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758.jpg" rel="attachment wp-att-6058"><img src="/wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758.jpg" alt="black wallet that is a nice metaphor for kwallet" width="1024" height="299" class="aligncenter size-full wp-image-6058" srcset="/wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758.jpg 1024w, /wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758-300x88.jpg 300w, /wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758-768x224.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+![cover]
 
 Although I use GNOME 3 as my desktop environment, I prefer KDE's [kwallet][1] service to gnome-keyring for some functions. The user interface is a little easier to use and it's easier to link up to the [keyring module][2] in Python.
 
@@ -57,3 +57,4 @@ _Photo Credit: [Wei][4] via [Compfight][5] [cc][6]_
  [4]: https://www.flickr.com/photos/73589829@N00/14283880173/
  [5]: http://compfight.com
  [6]: https://creativecommons.org/licenses/by-nc-nd/2.0/
+ [cover]: /wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758.jpg

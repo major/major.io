@@ -17,11 +17,11 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2-300x169.png" alt="Holistic Security for OpenStack Clouds" width="300" height="169" class="alignright size-medium wp-image-6525" srcset="/wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2-300x169.png 300w, /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2-768x432.png 768w, /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2.png 960w" sizes="(max-width: 300px) 100vw, 300px" />][1]Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards.
+![1]
+
+Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards.
 
 If you weren't able to make it, don't fret! This post will cover some of the main points of the talk and link to the video and slides.
-
-<!--more-->
 
 ## Purpose
 

@@ -18,7 +18,9 @@ tags:
   - servers
 
 ---
-[<img src="/wp-content/uploads/2016/04/15401776380_f5c6e357a2_k-e1461296519292.jpg" alt="Network cables in a colocation datacenter" width="1021" height="327" class="aligncenter size-full wp-image-6175" srcset="/wp-content/uploads/2016/04/15401776380_f5c6e357a2_k-e1461296519292.jpg 1021w, /wp-content/uploads/2016/04/15401776380_f5c6e357a2_k-e1461296519292-300x96.jpg 300w, /wp-content/uploads/2016/04/15401776380_f5c6e357a2_k-e1461296519292-768x246.jpg 768w" sizes="(max-width: 1021px) 100vw, 1021px" />][1]Back in 2011, I decided to try out a new method for hosting my websites and other applications: [colocation][2]. Before that, I used shared hosting, VPS providers ("cloud" wasn't a popular thing back then), and dedicated servers. Each had their drawbacks in different areas. Some didn't perform well, some couldn't recover from failure well, and some were terribly time consuming to maintain.
+![1]
+
+Back in 2011, I decided to try out a new method for hosting my websites and other applications: [colocation][2]. Before that, I used shared hosting, VPS providers ("cloud" wasn't a popular thing back then), and dedicated servers. Each had their drawbacks in different areas. Some didn't perform well, some couldn't recover from failure well, and some were terribly time consuming to maintain.
 
 This post will explain why I decided to try colocation and will hopefully help you avoid some of my mistakes.
 

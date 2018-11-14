@@ -19,7 +19,7 @@ tags:
   - ubuntu
 
 ---
-<a href="/wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165.jpg" rel="attachment wp-att-6031"><img src="/wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165.jpg" alt="Dell PowerEdge Server" width="3850" height="999" class="size-full wp-image-6031" srcset="/wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165.jpg 3850w, /wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165-300x78.jpg 300w, /wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165-768x199.jpg 768w, /wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165-1024x266.jpg 1024w" sizes="(max-width: 3850px) 100vw, 3850px" /></a>
+![cover]
 
 Updating Dell PowerEdge firmware from Linux is quite easy, but it isn't documented very well. I ended up with a set of PowerEdge R710's at work for a lab environment and the BIOS versions were different on each server.
 
@@ -106,3 +106,4 @@ _Photo Credit: [vaxomatic][3] via [Compfight][4] [cc][5]_
  [3]: https://www.flickr.com/photos/21881956@N05/2466171910/
  [4]: http://compfight.com
  [5]: https://creativecommons.org/licenses/by/2.0/
+ [cover]: /wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165.jpg

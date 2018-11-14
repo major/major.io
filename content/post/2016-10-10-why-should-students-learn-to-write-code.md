@@ -16,15 +16,15 @@ tags:
   - information security
 
 ---
-[<img src="/wp-content/uploads/2016/10/computers-332238_1920-e1476155887912.jpg" alt="Classroom computers" width="1024" height="358" class="aligncenter size-full wp-image-6505" srcset="/wp-content/uploads/2016/10/computers-332238_1920-e1476155887912.jpg 1024w, /wp-content/uploads/2016/10/computers-332238_1920-e1476155887912-300x105.jpg 300w, /wp-content/uploads/2016/10/computers-332238_1920-e1476155887912-768x269.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]There are lots of efforts underway to get students (young and old) to learn to write code. There are far-reaching efforts, like the [Hour of Code][2], and plenty of smaller, more focused projects, such as the [Design and Technology Academy][3] (part of [Northeast ISD][4] here in San Antonio, Texas). These are excellent programs that enrich the education of many students.
+![1]
+
+There are lots of efforts underway to get students (young and old) to learn to write code. There are far-reaching efforts, like the [Hour of Code][2], and plenty of smaller, more focused projects, such as the [Design and Technology Academy][3] (part of [Northeast ISD][4] here in San Antonio, Texas). These are excellent programs that enrich the education of many students.
 
 I often hear a question from various people about these programs:
 
 > Why should a student learn to write code if they aren't going to become a software developer or IT professional?
 
 It's a completely legitimate question and I hope to provide a helpful response in this post.
-
-<!--more-->
 
 ## Some students will actually enter the IT field
 

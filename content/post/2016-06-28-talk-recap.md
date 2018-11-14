@@ -18,7 +18,9 @@ tags:
   - red hat
 
 ---
-[<img src="/wp-content/uploads/2016/06/When-flexibility-met-simplicity-The-friendship-of-OpenStack-and-Ansible-Red-Hat-Summit-2016.png" alt="When flexibility met simplicity: The friendship of OpenStack and Ansible" width="960" height="540" class="aligncenter size-full wp-image-6317" srcset="/wp-content/uploads/2016/06/When-flexibility-met-simplicity-The-friendship-of-OpenStack-and-Ansible-Red-Hat-Summit-2016.png 960w, /wp-content/uploads/2016/06/When-flexibility-met-simplicity-The-friendship-of-OpenStack-and-Ansible-Red-Hat-Summit-2016-300x169.png 300w, /wp-content/uploads/2016/06/When-flexibility-met-simplicity-The-friendship-of-OpenStack-and-Ansible-Red-Hat-Summit-2016-768x432.png 768w" sizes="(max-width: 960px) 100vw, 960px" />][1]The 2016 Red Hat Summit is underway in San Francisco this week and I delivered a talk with [Robyn Bergeron][2] earlier today. Our talk, _[When flexibility met simplicity: The friendship of OpenStack and Ansible][3]_, explained how Ansible can reduce the complexity of OpenStack environments without sacrificing the flexibility that private clouds offer.
+![1]
+
+The 2016 Red Hat Summit is underway in San Francisco this week and I delivered a talk with [Robyn Bergeron][2] earlier today. Our talk, _[When flexibility met simplicity: The friendship of OpenStack and Ansible][3]_, explained how Ansible can reduce the complexity of OpenStack environments without sacrificing the flexibility that private clouds offer.
 
 The talk started at the same time as lunch began and the Partner Pavilion first opened, so we had some stiff competition for attendees' attention. However, the live demo worked without issues and we had some good questions when the talk was finished.
 

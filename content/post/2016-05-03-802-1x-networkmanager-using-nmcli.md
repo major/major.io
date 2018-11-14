@@ -34,7 +34,7 @@ Be sure to set the `802-1x.eap` and `802-1x.phase2-auth` to the appropriate valu
 
 Create a new file called `/etc/NetworkManager/system-connections/CONNECTION_NAME` to hold your password. If your connection name has spaces in it, be sure to maintain those spaces in the filename. Add the following to that file:
 
-```
+```ini
 [connection]
 id=CONNECTION_NAME
 

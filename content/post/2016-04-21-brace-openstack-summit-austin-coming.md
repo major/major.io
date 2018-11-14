@@ -17,7 +17,9 @@ tags:
 ---
 OpenStack comes home to Austin on Monday for the [OpenStack Summit][1]! I will be there with [plenty of other Rackers][2] to learn, collaborate, and share our story.
 
-[<img src="/wp-content/uploads/2016/04/OpenStack-Summit-Austin-2016-Automated-Security-Hardening-with-OpenStack-Ansible-Major-Hayden-1-300x169.png" alt="OpenStack Summit Austin 2016 - Automated Security Hardening with OpenStack-Ansible - Major Hayden" width="300" height="169" class="alignright size-medium wp-image-6162" srcset="/wp-content/uploads/2016/04/OpenStack-Summit-Austin-2016-Automated-Security-Hardening-with-OpenStack-Ansible-Major-Hayden-1-300x169.png 300w, /wp-content/uploads/2016/04/OpenStack-Summit-Austin-2016-Automated-Security-Hardening-with-OpenStack-Ansible-Major-Hayden-1-768x432.png 768w, /wp-content/uploads/2016/04/OpenStack-Summit-Austin-2016-Automated-Security-Hardening-with-OpenStack-Ansible-Major-Hayden-1-1024x576.png 1024w, /wp-content/uploads/2016/04/OpenStack-Summit-Austin-2016-Automated-Security-Hardening-with-OpenStack-Ansible-Major-Hayden-1.png 1280w" sizes="(max-width: 300px) 100vw, 300px" />][3]If you're interested in applying automated security hardening to an OpenStack cloud, be sure to [drop by my talk][4] on Tuesday from 11:15 to 11:55 AM. I'll explain how Rackspace uses the [openstack-ansible-security][5] Ansible role to automatically apply hardening standards to servers in an OpenStack private cloud. If you aren't able to attend, don't worry. I will post my slides and a summary here on the blog.
+![3]
+
+If you're interested in applying automated security hardening to an OpenStack cloud, be sure to [drop by my talk][4] on Tuesday from 11:15 to 11:55 AM. I'll explain how Rackspace uses the [openstack-ansible-security][5] Ansible role to automatically apply hardening standards to servers in an OpenStack private cloud. If you aren't able to attend, don't worry. I will post my slides and a summary here on the blog.
 
 Here are the sessions on the top of my list:
 

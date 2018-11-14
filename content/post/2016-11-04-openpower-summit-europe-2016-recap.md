@@ -16,7 +16,9 @@ tags:
   - speaking
 
 ---
-[<img src="/wp-content/uploads/2016/11/barcelona_morning-1024x512.jpg" alt="Morning in Barcelona" width="1024" height="512" class="aligncenter size-large wp-image-6543" srcset="/wp-content/uploads/2016/11/barcelona_morning-1024x512.jpg 1024w, /wp-content/uploads/2016/11/barcelona_morning-300x150.jpg 300w, /wp-content/uploads/2016/11/barcelona_morning-768x384.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I was in Barcelona last week for two big events: the [OpenStack Summit][2] and the [OpenPOWER Summit][3]. Luckily, the events were separated only by a five minute walk. Many of the slides from the OpenPOWER Summit are already available [online][3].
+![1]
+
+I was in Barcelona last week for two big events: the [OpenStack Summit][2] and the [OpenPOWER Summit][3]. Luckily, the events were separated only by a five minute walk. Many of the slides from the OpenPOWER Summit are already available [online][3].
 
 One of my [favorite talks][4] was from Prof. Mateo Valero, the director of the Barcelona Supercomputer Center (Centro Nacional de Supercomputación). He was a great speaker and he talked a lot about how OpenPOWER has given them a new edge. It's part of what helps them stay on the forefront of supercomputer technology.
 

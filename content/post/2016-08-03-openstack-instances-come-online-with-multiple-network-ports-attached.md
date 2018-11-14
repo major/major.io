@@ -17,7 +17,9 @@ tags:
   - virtualization
 
 ---
-[<img src="/wp-content/uploads/2016/08/308357541_222d1b2e2a_b-e1470234736818.jpg" alt="ethernet cables" width="1024" height="299" class="aligncenter size-full wp-image-6371" srcset="/wp-content/uploads/2016/08/308357541_222d1b2e2a_b-e1470234736818.jpg 1024w, /wp-content/uploads/2016/08/308357541_222d1b2e2a_b-e1470234736818-300x88.jpg 300w, /wp-content/uploads/2016/08/308357541_222d1b2e2a_b-e1470234736818-768x224.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port.
+![1]
+
+I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port.
 
 ## The problem
 

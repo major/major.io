@@ -16,7 +16,7 @@ tags:
   - sqlite
 
 ---
-[<img src="/wp-content/uploads/2016/05/2191026054_2780871e26_b-e1462974197375.jpg" alt="gertty" width="1024" height="299" class="aligncenter size-full wp-image-6218" srcset="/wp-content/uploads/2016/05/2191026054_2780871e26_b-e1462974197375.jpg 1024w, /wp-content/uploads/2016/05/2191026054_2780871e26_b-e1462974197375-300x88.jpg 300w, /wp-content/uploads/2016/05/2191026054_2780871e26_b-e1462974197375-768x224.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]
+![1]
 
 When you're ready to commit code in an OpenStack project, your patch will eventually land in a [Gerrit][2] queue for review. The web interface works well for most users, but it can be challenging to use when you have a large amount of projects to monitor. I recently became a core developer on the OpenStack-Ansible project and I searched for a better solution to handle lots of active reviews.
 

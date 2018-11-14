@@ -4,10 +4,6 @@ author: Major Hayden
 type: post
 date: 2016-01-15T17:35:48+00:00
 url: /2016/01/15/nobody-using-software-project-now/
-medium_post:
-  - 'O:11:"Medium_Post":9:{s:16:"author_image_url";s:68:"https://cdn-images-1.medium.com/fit/c/200/200/0*0oSauxLPsThabN5E.jpg";s:10:"author_url";s:31:"https://medium.com/@majorhayden";s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"92485c5d39cb";s:21:"follower_notification";s:3:"yes";s:7:"license";s:11:"cc-40-by-sa";s:14:"publication_id";s:2:"-1";s:6:"status";s:6:"public";s:3:"url";s:91:"https://medium.com/@majorhayden/nobody-is-using-your-software-project-now-what-92485c5d39cb";}'
-dsq_thread_id:
-  - 4494299576
 categories:
   - Blog Posts
 tags:
@@ -16,7 +12,7 @@ tags:
   - python
 
 ---
-<img src="/wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307.jpg" alt="empty chair - open source community" width="1021" height="343" class="alignright size-full wp-image-6025" srcset="/wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307.jpg 1021w, /wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307-300x101.jpg 300w, /wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307-768x258.jpg 768w" sizes="(max-width: 1021px) 100vw, 1021px" />
+![cover]
 
 Working with open source software is an amazing experience. The collaborative process around creation, refinement, and even maintenance, drives more developers to work on open source software more often. However, every developer finds themselves writing code that very few people _actually use_.
 
@@ -82,3 +78,4 @@ _Photo Credit: [Wanaku][11] via [Compfight][12] [cc][13]_
  [11]: https://www.flickr.com/photos/56944665@N00/8627526293/
  [12]: http://compfight.com
  [13]: https://creativecommons.org/licenses/by-nc-nd/2.0/
+ [cover]: /wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307.jpg

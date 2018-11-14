@@ -15,7 +15,7 @@ tags:
   - virtualization
 
 ---
-[<img src="/wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280-1024x350.jpg" alt="Atlanta Georgia OpenStack PTG" width="1024" height="350" class="aligncenter size-large wp-image-6608" srcset="/wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280.jpg 1024w, /wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280-300x103.jpg 300w, /wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280-768x263.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]
+![1]
 
 _NOTE: The opinions shared in this post are mine alone and are not related to my employer in any way._
 

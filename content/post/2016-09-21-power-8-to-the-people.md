@@ -21,7 +21,7 @@ IBM Edge 2016 is almost over and I've learned a lot about Power 8 this week. I'v
 
 However, there's one remaining barrier for me: **Power 8 isn't really accessible for a tinkerer**.
 
-[<img src="/wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg" alt="Power 8 E870-2" width="1280" height="853" class="alignright size-full wp-image-6458" srcset="/wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg 1280w, /wp-content/uploads/2016/09/IBMPowerSystemE870-2-300x200.jpg 300w, /wp-content/uploads/2016/09/IBMPowerSystemE870-2-768x512.jpg 768w, /wp-content/uploads/2016/09/IBMPowerSystemE870-2-1024x682.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" />][3]
+![3]
 
 ## Tinkering?
 
