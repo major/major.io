@@ -17,7 +17,9 @@ tags:
   - suse
 
 ---
-[<img src="/wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake.jpg" alt="Fortress" width="1024" height="485" class="aligncenter size-full wp-image-6784" srcset="/wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake.jpg 1024w, /wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake-300x142.jpg 300w, /wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake-768x364.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]Tons of improvements made their way into the [ansible-hardening][2] role in preparation for the OpenStack Pike release [next month][3]. The role has a [new name][4], new [documentation][5] and extra tests.
+![1]
+
+Tons of improvements made their way into the [ansible-hardening][2] role in preparation for the OpenStack Pike release [next month][3]. The role has a [new name][4], new [documentation][5] and extra tests.
 
 The role uses the Security Technical Implementation Guide (STIG) produced by the Defense Information Systems Agency (DISA) and applies the guidelines to Linux hosts using Ansible. Every control is configurable via simple Ansible variables and each control is thoroughly documented.
 
