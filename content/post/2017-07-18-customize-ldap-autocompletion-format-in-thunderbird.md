@@ -32,7 +32,7 @@ In older Thunderbird versions, setting `ldap_2.servers.SERVER_NAME.autoComplete.
 
 ## Digging in
 
-After a fair amount of searching the Thunderbird source code with `awk`, I found a mention of `DisplayName` in [nsAbLDAPAutoCompleteSearch.js][2] that looked promising:
+After a fair amount of searching the Thunderbird source code with `awk`, I found a mention of `DisplayName` in `nsAbLDAPAutoCompleteSearch.js` that looked promising:
 
 ```javascript
 // Create a minimal map just for the display name and primary email.
@@ -68,4 +68,3 @@ ldap_2.servers.default.attrmap.DisplayName: displayName
 After making the change, quit Thunderbird and relaunch it. Compose a new email and start typing in the email address field. The user's first and last name should appear!
 
  [1]: /wp-content/uploads/2017/07/1280px-Mailbox_USA-e1500401199427.jpg
- [2]: https://dxr.mozilla.org/comm-central/source/mailnews/addrbook/src/nsAbLDAPAutoCompleteSearch.js#232-233
