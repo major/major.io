@@ -16,7 +16,9 @@ tags:
   - usb
 
 ---
-[<img src="/wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg" alt="Power lines" width="1024" height="399" class="aligncenter size-full wp-image-6796" srcset="/wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg 1024w, /wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664-300x117.jpg 300w, /wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664-768x299.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I have a [CyberPower BRG1350AVRLCD][2] at home and I've just connected it to a new device. However, the `pwrstat` command doesn't retrieve any useful data on the new system:
+![1]
+
+I have a [CyberPower BRG1350AVRLCD][2] at home and I've just connected it to a new device. However, the `pwrstat` command doesn't retrieve any useful data on the new system:
 
 ```
 # pwrstat -status
@@ -112,7 +114,7 @@ It appears that `pwrstatd` is trying to talk to my Cisco switch (through the USB
 
 The `/etc/pwrstatd.conf` has a relevant section:
 
-```
+```ini
 # The pwrstatd accepts four types of device node which includes the 'ttyS',
 # 'ttyUSB', 'hiddev', and 'libusb' for communication with UPS. The pwrstatd
 # defaults to enumerate all acceptable device nodes and pick up to use an
