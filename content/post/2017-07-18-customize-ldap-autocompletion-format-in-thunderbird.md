@@ -19,13 +19,13 @@ tags:
 Thunderbird can connect to an LDAP server and autocomplete email addresses as you type, but it needs some adjustment for some LDAP servers. One of the LDAP servers that I use regularly returns email addresses like this in the thunderbird interface:
 
 ```
-username &lt;firstname.lastname@domain.tld>
+username <firstname.lastname@domain.tld>
 ```
 
 The email address looks fine, but I'd much rather have the person's full name instead of the username. Here's what I'm looking for:
 
 ```
-Firstname Lastname &lt;firstname.lastname@domain.tld>
+Firstname Lastname <firstname.lastname@domain.tld>
 ```
 
 In older Thunderbird versions, setting `ldap_2.servers.SERVER_NAME.autoComplete.nameFormat` to `displayName` was enough. However, this option isn't used in recent versions of Thunderbird.
