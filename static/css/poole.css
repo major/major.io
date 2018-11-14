@@ -186,6 +186,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  font-size: .7rem;
   word-wrap: normal;
   overflow-x: auto;
   white-space: pre;
