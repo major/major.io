@@ -10,7 +10,9 @@ tags:
   - interconnect
 
 ---
-[<img src="/wp-content/uploads/2017/03/IMG_20170320_104424-e1490039929657.jpg" alt="IBM Interconnect 2017 Keynote Will Smith" width="1021" height="355" class="aligncenter size-full wp-image-6648" srcset="/wp-content/uploads/2017/03/IMG_20170320_104424-e1490039929657.jpg 1021w, /wp-content/uploads/2017/03/IMG_20170320_104424-e1490039929657-300x104.jpg 300w, /wp-content/uploads/2017/03/IMG_20170320_104424-e1490039929657-768x267.jpg 768w" sizes="(max-width: 1021px) 100vw, 1021px" />][1]The "Welcome to Interconnect" keynote kicked off the first day of IBM Interconnect 2017. The Mandalay Bay Event Center was quite full (which was evident as we began to file out!) and the speakers were engaging.
+![1]
+
+The "Welcome to Interconnect" keynote kicked off the first day of IBM Interconnect 2017. The Mandalay Bay Event Center was quite full (which was evident as we began to file out!) and the speakers were engaging.
 
 Some of the most memorable talks came from Indiegogo, Delos, and of course, Will Smith.
 

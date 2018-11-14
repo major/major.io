@@ -16,7 +16,9 @@ tags:
   - rackspace
 
 ---
-[<img src="/wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347.jpg" alt="Bunker Hill Monument Boston OpenStack Summit" width="1024" height="512" class="aligncenter size-full wp-image-6700" srcset="/wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347.jpg 1024w, /wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347-300x150.jpg 300w, /wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347-768x384.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]The OpenStack Summit wrapped up today in Boston and it was a great week! There were plenty of informative breakouts and some interesting keynotes.
+![1]
+
+The OpenStack Summit wrapped up today in Boston and it was a great week! There were plenty of informative breakouts and some interesting keynotes.
 
 ## Keynotes
 
@@ -40,13 +42,8 @@ Here are some links to my favorite breakouts:
 
 Although I couldn't make it to all of the OpenStack-Ansible sessions, we had a great turnout for the ones I attended! Every seat was taken during the developer onboarding session and we had some helpful comments from new contributors.
 
-<div id="attachment_6707" style="width: 1034px" class="wp-caption aligncenter">
-  <a href="/wp-content/uploads/2017/05/IMG_20170510_092327-e1494547255505.jpg"><img src="/wp-content/uploads/2017/05/IMG_20170510_092327-1024x768.jpg" alt="Andy McCrae leads the OpenStack-Ansible onboarding session" width="1024" height="768" class="size-large wp-image-6707" /></a>
-
-  <p class="wp-caption-text">
-    Andy McCrae leads the OpenStack-Ansible onboarding session
-  </p>
-</div>
+![16]
+Andy McCrae leads the OpenStack-Ansible onboarding session
 
 ## My talks
 
@@ -80,3 +77,4 @@ _Photo credit: [Luciot][15]_
  [13]: https://www.openstack.org/videos/boston-2017/the-open-open-open-cloud
  [14]: https://www.openstack.org/videos/boston-2017/openstack-security-team-update
  [15]: https://commons.wikimedia.org/wiki/File:Bunker_Hill_Monument_by_night_dfv.jpg
+ [16]: /wp-content/uploads/2017/05/IMG_20170510_092327-e1494547255505.jpg

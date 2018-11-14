@@ -15,7 +15,9 @@ tags:
   - vnc
 
 ---
-[<img src="/wp-content/uploads/2017/05/Televideo925Terminal-e1495126632469-1024x512.jpg" alt="Televideo console" width="1024" height="512" class="aligncenter size-large wp-image-6724" srcset="/wp-content/uploads/2017/05/Televideo925Terminal-e1495126632469.jpg 1024w, /wp-content/uploads/2017/05/Televideo925Terminal-e1495126632469-300x150.jpg 300w, /wp-content/uploads/2017/05/Televideo925Terminal-e1495126632469-768x384.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I opened up a noVNC console to a virtual machine today in my OpenStack cloud but found that the console wouldn't take keyboard input. The **Send Ctrl-Alt-Del** button in the top right of the window worked just fine, but I couldn't type anywhere in the console. This happened on an Ocata OpenStack cloud deployed with [OpenStack-Ansible][2] on CentOS 7.
+![1]
+
+I opened up a noVNC console to a virtual machine today in my OpenStack cloud but found that the console wouldn't take keyboard input. The **Send Ctrl-Alt-Del** button in the top right of the window worked just fine, but I couldn't type anywhere in the console. This happened on an Ocata OpenStack cloud deployed with [OpenStack-Ansible][2] on CentOS 7.
 
 ## Test the network path
 

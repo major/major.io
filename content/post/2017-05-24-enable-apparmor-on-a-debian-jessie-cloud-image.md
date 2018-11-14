@@ -16,12 +16,13 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942-1024x512.jpg" alt="Armor from the middle ages makes sense when you&#039;re talking about AppArmor, right?" width="1024" height="512" class="aligncenter size-large wp-image-6733" srcset="/wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942-1024x512.jpg 1024w, /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942-300x150.jpg 300w, /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942-768x384.jpg 768w, /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942.jpg 1025w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I merged some [initial Debian support][2] into the openstack-ansible-security role and ran into an issue enabling AppArmor. The `apparmor` service failed to start and I found this output in the system journal:
+![1]
+
+I merged some [initial Debian support][2] into the openstack-ansible-security role and ran into an issue enabling AppArmor. The `apparmor` service failed to start and I found this output in the system journal:
 
 ```
 kernel: AppArmor: AppArmor disabled by boot time parameter
 ```
-
 
 ## Digging in
 
