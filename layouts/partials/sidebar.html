@@ -1,0 +1,26 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>
+      My name is Major Hayden and I work on kernel testing at <a href="https://redhat.com">Red Hat</a>.
+      I hope you enjoy the blog!
+    </p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Blog Posts</a>
+    <a class="sidebar-nav-item" href="https://majorhayden.com/">Résumé</a>
+    <a class="sidebar-nav-item" href="https://github.com/major">GitHub</a>
+    <a class="sidebar-nav-item" href="https://twitter.com/majorhayden">Twitter</a>
+
+  </nav>
+
+  <div class="sidebar-item">
+    <img src="/images/cc-by-sa.png" alt="CC-BY-SA">
+  </div>
+</div>
