@@ -4,8 +4,6 @@ author: Major Hayden
 type: post
 date: 2015-09-29T02:08:22+00:00
 url: /2015/09/28/customizing-systemds-network-device-names/
-dsq_thread_id:
-  - 4175460613
 categories:
   - Blog Posts
 tags:
@@ -16,7 +14,9 @@ tags:
   - udev
 
 ---
-[<img src="/wp-content/uploads/2015/09/Wikimedia_Foundation_Servers-8055_17-e1443492445994.jpg" alt="Wikimedia_Foundation_Servers-8055_17" width="1280" height="348" class="aligncenter size-full wp-image-5949" srcset="/wp-content/uploads/2015/09/Wikimedia_Foundation_Servers-8055_17-e1443492445994.jpg 1280w, /wp-content/uploads/2015/09/Wikimedia_Foundation_Servers-8055_17-e1443492445994-300x82.jpg 300w, /wp-content/uploads/2015/09/Wikimedia_Foundation_Servers-8055_17-e1443492445994-1024x278.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" />][1]Earlier today, I wrote a post about my [first thoughts on the Supermicro 5028D-T4NT server][2]. The 10Gb interfaces on the server came up with the names `eth0` and `eth1`. That wasn't what I expected. There's tons of detail on the problem in the blog post as well as the [Github issue][3].
+![1]
+
+Earlier today, I wrote a post about my [first thoughts on the Supermicro 5028D-T4NT server][2]. The 10Gb interfaces on the server came up with the names `eth0` and `eth1`. That wasn't what I expected. There's tons of detail on the problem in the blog post as well as the [Github issue][3].
 
 Kay Sievers [gave a hint][4] about how to adjust the interfacing naming in a more granular way than simply disabling the predictable network names. The [documentation][5] on .link files is quite helpful. Skip to the `NamePolicy=` section under `[Link]` and look the options there.
 
@@ -24,7 +24,7 @@ Looking back to another post I wrote about [predictable device naming in systemd
 
 Here's the file I created:
 
-```
+```ini
 # cat /etc/systemd/network/10gb.link
 [Match]
 Driver=ixgbe

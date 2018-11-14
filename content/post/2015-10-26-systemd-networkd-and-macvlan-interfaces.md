@@ -31,7 +31,7 @@ In my scenario, I have a 1U server with an ethernet interface called `enp4s0` (r
 
 Start by creating a network device for our macvlan interface:
 
-```
+```ini
 # /etc/systemd/network/vmbridge.netdev
 [NetDev]
 Name=vmbridge
@@ -46,7 +46,7 @@ I've told systemd-networkd that I want a macvlan interface set up in bridge mode
 
 Now that we have a device configured, let's configure the IP address for the macvlan interface (similar to configuring a bridge):
 
-```
+```ini
 # /etc/systemd/network/vmbridge.network
 [Match]
 Name=vmbridge
@@ -61,7 +61,7 @@ DNS=192.168.250.1
 
 Let's tell systemd-networkd that our physical network interface, `enp4s0`, is part of this interface:
 
-```
+```ini
 # /etc/systemd/network/enp4s0.network
 [Match]
 Name=enp4s0
@@ -77,7 +77,7 @@ This is very similar to a configuration for a standard Linux bridge. Once you've
 
 Attaching a KVM virtual machine to the macvlan interface is quite easy. When you're creating a new VM using `virt-manager`, look for this setting in the wizard:
 
-[<img src="/wp-content/uploads/2015/10/Selection_036.png" alt="virt-manager macvlan" width="423" height="557" class="aligncenter size-full wp-image-5981" srcset="/wp-content/uploads/2015/10/Selection_036.png 423w, /wp-content/uploads/2015/10/Selection_036-228x300.png 228w" sizes="(max-width: 423px) 100vw, 423px" />][6]
+![6]
 
 If you're installing via `virt-install` just use the following argument for your network configuration:
 

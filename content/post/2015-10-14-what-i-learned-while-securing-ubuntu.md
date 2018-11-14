@@ -4,8 +4,6 @@ author: Major Hayden
 type: post
 date: 2015-10-14T20:53:12+00:00
 url: /2015/10/14/what-i-learned-while-securing-ubuntu/
-dsq_thread_id:
-  - 4225500224
 categories:
   - Blog Posts
 tags:
@@ -27,8 +25,8 @@ This means applying security hardening to Ubuntu 14.04 systems since that's the 
 
 Finding a complete hardening standard for Ubuntu 14.04 is challenging. The [Center for Internet Security][3] offers [Ubuntu security benchmarks][4] with two big caveats:
 
-  * There are very few controls to apply (relative to what's available for RHEL)
-  * The terms of use are highly restrictive (no derivative works allowed)
+* There are very few controls to apply (relative to what's available for RHEL)
+* The terms of use are highly restrictive (no derivative works allowed)
 
 With that idea off the table, I examined the other options that meet Requirement 2.2 of PCI-DSS 3.1 [[PDF]][5]. Anther choice was [ISO 27002][6], but it's not terribly specific or easy to automate with scripts. The same goes for [NIST 800-53][7].
 
@@ -43,7 +41,8 @@ The standard Ubuntu and Debian practice of automatically starting daemons has [p
 There are plenty of examples where automatically starting a daemon with its default configuration is a bad idea. Take the postfix package as an example. If you install the package in non-interactive mode (as Ansible does by default), postfix will come online wth the following configuration option set:
 
 ```
-
+inet_interfaces = all
+```
 
 Since Ubuntu doesn't come with a firewall enabled by default, your postfix server is listening on all interfaces for mail immediately. The `mynetworks` configuration should prevent relaying, but any potential vulnerabilities in your postfix daemon are exposed to the network without your consent. I would prefer to configure postfix first before I ever allow it to run on my server.
 
@@ -78,15 +77,13 @@ Say what you will about RPM packages and the `rpm` command, but the verification
 .........    /var/log/aide
 ```
 
-
 If the verification finds that nothing in the package has changed, it won't print anything. I've added the `-v` here to ensure that everything is printed to the console. In the output, you can see that everything is checked. That includes configuration files, log directories, libraries, and documentation. If I change the content of the `aide.conf` by adding a comment, I see that change:
 
 ```
- /etc/aide.conf
+# echo "# Comment" >> /etc/aide.conf
 # rpm -V aide
 S.5....T.  c /etc/aide.conf
 ```
-
 
 The `5` denotes that the MD5 checksum on the file has changed since the package was installed. What happens if I change the owner, group, and mode of the `aide.conf`?
 
@@ -96,13 +93,11 @@ The `5` denotes that the MD5 checksum on the file has changed since the package 
 S.5..UGT.  c /etc/aide.conf
 ```
 
-
 Now I have a `UG` there that denotes a user/group ownership change. Similar messages appear for changes to the permissions on files or directories. The `restorecon` command even lets you figure out when SELinux contexts have changed. If you set a file to have the wrong ownership or permission, one `rpm` command gets you back to normal:
 
 ```
 # rpm --setperms --setugids aide
 ```
-
 
 On the Ubuntu side, you can use the `debsums` package to help with some verification:
 
@@ -119,8 +114,7 @@ On the Ubuntu side, you can use the `debsums` package to help with some verifica
 ...
 ```
 
-
-But wait - where are the configuration files? Where are the log and library directories? If you type these commands on an Ubuntu system, you'll see that the configuration files and directories aren't checked. In addition, there's not a method for querying whether a particular file in a package has changed ownership or has had its mode changed. There's also no option to restore the right permissions and ownership after an errant `chown -R` or `chmod -R`.
+But wait &#8212; where are the configuration files? Where are the log and library directories? If you type these commands on an Ubuntu system, you'll see that the configuration files and directories aren't checked. In addition, there's not a method for querying whether a particular file in a package has changed ownership or has had its mode changed. There's also no option to restore the right permissions and ownership after an errant `chown -R` or `chmod -R`.
 
 ## Managing AIDE
 
@@ -133,7 +127,6 @@ One of the unique configuration files is this one:
 / Full
 ```
 
-
 This causes AIDE to wander all over the system, indexing all types of files. It's best to limit AIDE to a small number of directories whenever possible so that the AIDE runs complete quickly and the database file remains relatively small. Plenty of disk I/O can be used during AIDE runs, so it's best to limit the scope.
 
 Also, trying to initialize the database provides an unhelpful error:
@@ -142,7 +135,6 @@ Also, trying to initialize the database provides an unhelpful error:
 # aide --init
 Couldn't open file /var/lib/aide/please-dont-call-aide-without-parameters/aide.db.new for writing
 ```
-
 
 That path doesn't exist, and I'm confused because I did pass a parameter to `aide`. Long story short, you must use the `aideinit` command to initialize the aide database. That's actually a bash script which then calls on `aide.wrapper` (another bash script) to actually run the `aide` binary for you. Better yet, `aideinit` is in `/usr/sbin` while `aide.wrapper` is in `/usr/bin`. This leads to plenty of confusion.
 

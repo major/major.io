@@ -18,7 +18,9 @@ tags:
   - udev
 
 ---
-[<img src="/wp-content/uploads/2015/08/2229782090_838eaa8574_o-e1440191509854.jpg" alt="Ethernet cables" width="1280" height="393" class="aligncenter size-full wp-image-5837" srcset="/wp-content/uploads/2015/08/2229782090_838eaa8574_o-e1440191509854.jpg 1280w, /wp-content/uploads/2015/08/2229782090_838eaa8574_o-e1440191509854-300x92.jpg 300w, /wp-content/uploads/2015/08/2229782090_838eaa8574_o-e1440191509854-1024x314.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" />][1]I talked a bit about systemd's network device name in my earlier post about [systemd-networkd and bonding][2] and I received some questions about how systemd rolls through the possible names of network devices to choose the final name. These predictable network device names [threw me a curveball last summer][3] when I couldn't figure out how the names were constructed.
+![1]
+
+I talked a bit about systemd's network device name in my earlier post about [systemd-networkd and bonding][2] and I received some questions about how systemd rolls through the possible names of network devices to choose the final name. These predictable network device names [threw me a curveball last summer][3] when I couldn't figure out how the names were constructed.
 
 Let's walk through this process.
 
@@ -191,7 +193,7 @@ As we've seen above, udev makes a big list of names in the udev database. Howeve
 
 Let's wander back into the code. this time we're going to take a look in [src/udev/net/link-config.c][5] starting at around line 403:
 
-```
+```c
 name_policy) {
         NamePolicy *policy;
 
@@ -226,11 +228,11 @@ name_policy) {
 
 If we look at the overall case statement, you can see that the first match is the one that takes precedence. Working from top to bottom, udev takes the first match of:
 
-  * ID\_NET\_NAME\_FROM\_DATABASE
-  * ID\_NET\_NAME_ONBOARD
-  * ID\_NET\_NAME_SLOT
-  * ID\_NET\_NAME_PATH
-  * ID\_NET\_NAME_MAC
+  * `ID_NET_NAME_FROM_DATABASE`
+  * `ID_NET_NAME_ONBOARD`
+  * `ID_NET_NAME_SLOT`
+  * `ID_NET_NAME_PATH`
+  * `ID_NET_NAME_MAC`
 
 If we go back to our OnMetal example way at the top of the post, we can follow the logic. The udev database contained the following:
 

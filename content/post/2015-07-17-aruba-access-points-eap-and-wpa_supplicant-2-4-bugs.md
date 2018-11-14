@@ -22,7 +22,8 @@ There's an [open ticket on the Red Hat Bugzilla][1] about the issues in wpa_supp
 If this bug affects you, you can return to wpa\_supplicant-2.3-3.fc22.x86\_64 easily by running:
 
 ```
-
+dnf downgrade wpa_supplicant
+```
 
 This isn't a good long-term solution, but it fixes the bug and gets you back online.
 

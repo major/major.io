@@ -13,7 +13,9 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2015/05/5662811240_d686e98683_b-e1432125864107.jpg" alt="laptop keyboard" width="1024" height="299" class="aligncenter size-full wp-image-5579" srcset="/wp-content/uploads/2015/05/5662811240_d686e98683_b-e1432125864107.jpg 1024w, /wp-content/uploads/2015/05/5662811240_d686e98683_b-e1432125864107-300x88.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I really enjoy operating [icanhazip.com][2] and the [other domains][3]. It's fun to run some really busy services and find ways to reduce resource consumption and the overall cost of hosting.
+![1]
+
+I really enjoy operating [icanhazip.com][2] and the [other domains][3]. It's fun to run some really busy services and find ways to reduce resource consumption and the overall cost of hosting.
 
 My brain has a knack for optimization and improving the site is quite fun for me. So much so that I've decided to host all of icanhazip.com out of my own pocket starting today.
 

@@ -33,11 +33,12 @@ For this example, I've built one Rackspace Cloud Server in the DFW datacenter an
 I've [detailed out this process before][3] but I'll do it again here. First off, we will need a directory made on both servers to hold systemd-networkd configuration files:
 
 ```
-
+mkdir /etc/systemd/network
+```
 
 Let's add a very simple network configuration for our `eth0` interface on both hosts:
 
-```
+```ini
 # cat /etc/systemd/network/eth0.network
 [Match]
 Name=eth0
@@ -48,7 +49,6 @@ Gateway=x.x.x.x
 DNS=8.8.8.8
 DNS=8.8.4.4
 ```
-
 
 Do this on **both servers** and be sure to fill in the `Address` and `Gateway` lines with the correct data for your servers. Also, feel free to use something other than Google's DNS servers if needed.
 
@@ -64,7 +64,6 @@ rm -f /etc/resolv.conf
 ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ```
 
-
 **Don't start systemd-networkd yet.** Having systemd-networkd and NetworkManager fight over your interfaces can lead to a bad day.
 
 Reboot both hosts and wait for them to come back online.
@@ -77,7 +76,7 @@ If we want to route traffic over the GRE tunnel, we will need IP addresses on bo
 
 We need to tell systemd-networkd about a new network device that it doesn't know about. We do this with `.netdev` files. Create this file on both hosts:
 
-```
+```ini
 # cat /etc/systemd/network/gre-example.netdev
 [NetDev]
 Name=gre-example
@@ -88,14 +87,13 @@ MTUBytes=1480
 Remote=[public ip of remote server]
 ```
 
-
 We're making a new network device called `gre-example` here and we're telling systemd-networkd about the servers participating in the link. Add this configuration file to **both hosts** but be sure that your `Remote=` line is correct. If you're writing the configuration file for the **first** host, then the `Remote=` line should have the IP address of your **second** host. Do the same thing on the second host, but use the IP address of your first host there.
 
 Now that we have a network device, we need to tell systemd-networkd how to configure the IP address on these new GRE tunnels. Let's make a `.network` file for our GRE tunnel.
 
 On the first host:
 
-```
+```ini
 # cat /etc/systemd/network/gre-example.network
 [Match]
 Name=gre-example
@@ -104,10 +102,9 @@ Name=gre-example
 Address=192.168.254.1/24
 ```
 
-
 On the second host:
 
-```
+```ini
 # cat /etc/systemd/network/gre-example.network
 [Match]
 Name=gre-example
@@ -116,20 +113,14 @@ Name=gre-example
 Address=192.168.254.2/24
 ```
 
-
 ## Bringing up the tunnel
 
 Although systemd-networkd knows we have a tunnel configured now, it's not sure which interface should manage the tunnel. In our case, our public interface (`eth0`) is required to be up for this tunnel to function. Go back to your original `eth0.network` files and add one line under the `[Network]` section for our tunnel:
 
-```
-...
-
+```ini
 [Network]
 Tunnel=gre-example
-
-...
 ```
-
 
 Restart systemd-networkd on **both hosts** and check the network interfaces:
 
@@ -147,24 +138,21 @@ IDX LINK             TYPE               OPERATIONAL SETUP
 6 links listed.
 ```
 
-
 Hooray! Our GRE tunnel is up! However, we have a firewall in the way.
 
 ## Fixing the firewall
 
-We need to tell the firewall two things: trust the GRE interface and trust the public IP of the other server. Trusting the GRE interface is easy with firewalld - just add this on both hosts:
+We need to tell the firewall two things: trust the GRE interface and trust the public IP of the other server. Trusting the GRE interface is easy with firewalld &#8212; just add this on both hosts:
 
 ```
 firewall-cmd --add-interface=gre-example --zone=trusted
 ```
-
 
 Now, we need a rich rule to tell firewalld to trust the public IP of each host. I talked about this [last year][4] on the blog. Run this command on both hosts:
 
 ```
 firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="[IP ADDRESS]" accept'
 ```
-
 
 If you run this on your first host, use the public IP address of your second host in the `firewall-cmd` command. Use the first host's public IP address when you run the command on the second host.
 
@@ -173,7 +161,6 @@ Save your configuration permanently on **both hosts**:
 ```
 firewall-cmd --runtime-to-permanent
 ```
-
 
 Try to ping between your servers using the IP addresses we configured on the GRE tunnel and you should get some replies!
 

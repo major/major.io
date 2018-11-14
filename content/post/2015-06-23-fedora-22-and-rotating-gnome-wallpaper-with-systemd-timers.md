@@ -29,7 +29,7 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-xxxxxxxxxx,guid=fa6ff8ded93c1df
 
 That is actually set when `gnome-session` starts as your user on your machine. for the script to work, we need to add a few lines at the top:
 
-```
+```shell
 #!/bin/bash
 
 # These three lines are new

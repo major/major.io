@@ -13,7 +13,9 @@ tags:
   - pulseaudio
 
 ---
-[<img src="/wp-content/uploads/2015/06/8346700794_a9c0475bd8_b-e1433770480154.jpg" alt="PulseAudio popping in Fedora 22 with multiple sounds" width="1021" height="296" class="aligncenter size-full wp-image-5628" srcset="/wp-content/uploads/2015/06/8346700794_a9c0475bd8_b-e1433770480154.jpg 1021w, /wp-content/uploads/2015/06/8346700794_a9c0475bd8_b-e1433770480154-300x87.jpg 300w" sizes="(max-width: 1021px) 100vw, 1021px" />][1]My transition from Fedora 21 to 22 on the ThinkPad X1 Carbon was fairly uneventful even with over 2,400 packages involved in the upgrade. The only problem I dealt with on reboot was that my icons on the GNOME 3 desktop were way too large. That's a pretty easy problem to fix.
+![1]
+
+My transition from Fedora 21 to 22 on the ThinkPad X1 Carbon was fairly uneventful even with over 2,400 packages involved in the upgrade. The only problem I dealt with on reboot was that my icons on the GNOME 3 desktop were way too large. That's a pretty easy problem to fix.
 
 However, something else cropped up after a while. I started listening to music in Chrome and a Pidgin notification sound came through. There was a quiet pop before the Pidgin sound and a loud pop on the end. Thunderbird's notifications sounded the same. The pops at the end of the sound were sometimes **very** loud and hurt my ears.
 

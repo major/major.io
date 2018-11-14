@@ -13,7 +13,9 @@ tags:
   - kernel
 
 ---
-[<img src="/wp-content/uploads/2015/06/U28D590D_display-300x300.jpg" alt="Samsung U28D590D 4K display" width="300" height="300" class="alignright size-medium wp-image-5690" srcset="/wp-content/uploads/2015/06/U28D590D_display-300x300.jpg 300w, /wp-content/uploads/2015/06/U28D590D_display-150x150.jpg 150w, /wp-content/uploads/2015/06/U28D590D_display.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />][1]Woot [suckered me into buying a 4K display][2] at a fairly decent price and now I have a [Samsung U28D590D][3] sitting on my desk at home. I ordered a mini-DisplayPort to DisplayPort from Amazon and it arrived just before the monitor hit my doorstep. It's time to enter the world of 4K displays.
+![1]
+
+Woot [suckered me into buying a 4K display][2] at a fairly decent price and now I have a [Samsung U28D590D][3] sitting on my desk at home. I ordered a mini-DisplayPort to DisplayPort from Amazon and it arrived just before the monitor hit my doorstep. It's time to enter the world of 4K displays.
 
 The unboxing of the monitor was fairly uneventful and it powered up after small amount of assembly. I plugged my mini-DP to DP cable into the monitor and then into my X1 Carbon 3rd gen. After a bunch of flickering, the display sprang to life but the image looked fuzzy. After some hunting, I found that the resolution wasn't at the monitor's maximum:
 

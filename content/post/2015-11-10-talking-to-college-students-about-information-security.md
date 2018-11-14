@@ -15,7 +15,9 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2015/11/UIW_CIMG7805-e1447167032674.jpg" alt="The University of the Incarnate Word" width="1596" height="432" class="aligncenter size-full wp-image-5999" srcset="/wp-content/uploads/2015/11/UIW_CIMG7805-e1447167032674.jpg 1596w, /wp-content/uploads/2015/11/UIW_CIMG7805-e1447167032674-300x81.jpg 300w, /wp-content/uploads/2015/11/UIW_CIMG7805-e1447167032674-1024x277.jpg 1024w" sizes="(max-width: 1596px) 100vw, 1596px" />][1]</a>I was recently asked to talk to [Computer Information Systems][2] students at the [University of the Incarnate Word][3] here in San Antonio about information security in the business world. The students are learning plenty of the technical parts of information security and the complexity that comes from dealing with complicated computer networks. As we all know, it's the non-technical things that are often the most important in those tough situations.
+![1]
+
+I was recently asked to talk to [Computer Information Systems][2] students at the [University of the Incarnate Word][3] here in San Antonio about information security in the business world. The students are learning plenty of the technical parts of information security and the complexity that comes from dealing with complicated computer networks. As we all know, it's the non-technical things that are often the most important in those tough situations.
 
 My talk, "Five lessons I learned about information security", lasted for about 30 minutes and then I took plenty of technical and non-technical questions from the students. I've embedded the slides below and I'll go through the lessons within the post here.
 

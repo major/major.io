@@ -4,8 +4,6 @@ author: Major Hayden
 type: post
 date: 2015-08-22T19:42:52+00:00
 url: /2015/08/22/slides-from-my-texas-linux-fest-2015-talk/
-dsq_thread_id:
-  - 4057308704
 categories:
   - Blog Posts
 tags:

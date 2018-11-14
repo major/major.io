@@ -23,13 +23,11 @@ tags:
   - udev
 
 ---
-[<img src="/wp-content/uploads/2015/08/OnMetal_Graphic-300x180.png" alt="systemd-networkd with bonding on Rackspace OnMetal Servers" width="300" height="180" class="alignright size-medium wp-image-5818" srcset="/wp-content/uploads/2015/08/OnMetal_Graphic-300x180.png 300w, /wp-content/uploads/2015/08/OnMetal_Graphic.png 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]I've written about [systemd-networkd][2] in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a [pull request pending][3] for that).
+![1]
+
+I've written about [systemd-networkd][2] in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a [pull request pending][3] for that).
 
 [Rackspace's OnMetal Servers][4] are a good place to test since they have bonded networks configured by default. They're also quite fast and always fun for experiments.
-
-<!--more-->
-
-
 
 To get started, head on over to the [Rackspace Cloud control panel][5] and build a _compute-1_ OnMetal server and choose Fedora 22 as your operating system. Once it starts pinging and you're able to log in, start following the guide below.
 
@@ -119,7 +117,7 @@ Now we know our ethernet devices are called _ens9f0_ and _ens9f1_. It's time to 
 
 Ensure that you have a `/etc/systemd/network/` directory on your server and create the network device file:
 
-```
+```ini
 # /etc/systemd/network/bond1.netdev
 [NetDev]
 Name=bond1
@@ -137,7 +135,7 @@ We're telling systemd-networkd that we want a new bond interface called _bond1_ 
 
 Now that we have a device defined, we need to provide some network configuration:
 
-```
+```ini
 # /etc/systemd/network/bond1.network
 [Match]
 Name=bond1
@@ -153,7 +151,7 @@ This tells systemd-networkd that we have an interface called _bond1_ and it has 
 
 As one last step, we need to configure the physical interfaces themselves:
 
-```
+```ini
 # /etc/systemd/network/ens9f0.network
 [Match]
 Name=ens9f0
@@ -163,7 +161,7 @@ Bond=bond1
 ```
 
 
-```
+```ini
 # /etc/systemd/network/ens9f1.network
 [Match]
 Name=ens9f1
@@ -181,7 +179,7 @@ The public network for your OnMetal server is delivered via a VLAN. Packets are 
 
 Start by creating a network device file:
 
-```
+```ini
 # /etc/systemd/network/public.netdev
 [NetDev]
 Name=public
@@ -202,16 +200,16 @@ python -m json.tool /mnt/configdrive/openstack/latest/vendor_data.json
 ```
 
 
-Look inside the _network_info_ section for _vlan0_. It will look something like this:
+Look inside the `network_info` section for `vlan0`. It will look something like this:
 
-```
+```json
 {
-                "ethernet_mac_address": "xx:xx:xx:xx:xx:xx",
-                "id": "vlan0",
-                "type": "vlan",
-                "vlan_id": 101,
-                "vlan_link": "bond0"
-            },
+    "ethernet_mac_address": "xx:xx:xx:xx:xx:xx",
+    "id": "vlan0",
+    "type": "vlan",
+    "vlan_id": 101,
+    "vlan_link": "bond0"
+},
 ```
 
 
@@ -219,7 +217,7 @@ Take what you see in _ethernet\_mac\_address_ and use that MAC address on the `M
 
 Now that we have a network device, let's actually configure the network on it:
 
-```
+```ini
 # /etc/systemd/network/public.network
 [Match]
 Name=public
@@ -243,7 +241,7 @@ To get your IP address and gateway, you can use `ip addr` and `ip route`. Or, yo
 
 Rackspace's ServiceNet is the backend network that connects you to other servers as well as other Rackspace products, like Cloud Databases and Cloud Files. We will configure this network in the same fashion, starting with the network device file:
 
-```
+```ini
 # /etc/systemd/network/servicenet.netdev
 [NetDev]
 Name=servicenet
@@ -259,7 +257,7 @@ As we did before, go look in your config drive for the right MAC address to use.
 
 Now we're ready to create the network file:
 
-```
+```ini
 # /etc/systemd/network/servicenet.network
 [Match]
 Name=servicenet
@@ -302,7 +300,7 @@ ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
 Finally, there's one last gotcha that is only on OnMetal that needs to be removed. Comment out the second and third line in `/etc/rc.d/rc.local`:
 
-```
+```shell
 #!/usr/bin/sh
 #sleep 20
 #/etc/init.d/network restart
@@ -316,8 +314,8 @@ That's there as a workaround for some network issues that sometimes appear durin
 
 We're ready to test our new configuration! First, let's disable the forced old interface names on the kernel command line. Open `/boot/extlinux.conf` and ensure that the following two items are not in the kernel command line:
 
-  * net.ifnames=0
-  * biosdevname=0
+  * `net.ifnames=0`
+  * `biosdevname=0`
 
 Remove them from any kernel command lines you see and save the file. Reboot and cross your fingers.
 

@@ -17,7 +17,9 @@ tags:
   - wireless
 
 ---
-[<img src="/wp-content/uploads/2015/03/ThinkPad-Carbon-X1-300x212.jpg" alt="Thinkpad X1 Carbon 3rd gen" width="300" height="212" class="alignright size-medium wp-image-5452" srcset="/wp-content/uploads/2015/03/ThinkPad-Carbon-X1-300x212.jpg 300w, /wp-content/uploads/2015/03/ThinkPad-Carbon-X1.jpg 984w" sizes="(max-width: 300px) 100vw, 300px" />][1]My upgrade to Fedora 22 on the ThinkPad X1 Carbon was fairly uneventful and the hiccups were minor. One of the more annoying items that I've been struggling with for quite some time is how to boot up with the wireless LAN and Bluetooth disabled by default. Restoring wireless and Bluetooth state between reboots is normally handled quite well in Fedora.
+![1]
+
+My upgrade to Fedora 22 on the ThinkPad X1 Carbon was fairly uneventful and the hiccups were minor. One of the more annoying items that I've been struggling with for quite some time is how to boot up with the wireless LAN and Bluetooth disabled by default. Restoring wireless and Bluetooth state between reboots is normally handled quite well in Fedora.
 
 In Fedora 21, NetworkManager saved my settings between reboots. For example, if I shut down with wifi off and Bluetooth on, the laptop would boot up later with wifi off and Bluetooth on. This wasn't working well in Fedora 22: both the wifi and Bluetooth were always enabled by default.
 
@@ -116,7 +118,7 @@ Thanks to a coworker, I was able to make a NetworkManager script to automaticall
 
 If you want the same automation, just drop this script into `/etc/NetworkManager/dispatcher.d/70-wifi-wired-exclusive.sh` and make it executable:
 
-```
+```shell
 #!/bin/bash
 export LC_ALL=C
 

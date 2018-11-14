@@ -18,7 +18,9 @@ tags:
   - web
 
 ---
-[<img src="/wp-content/uploads/2013/07/selinux-penguin-new_medium-287x300.png" alt="selinux-penguin-new_medium" width="287" height="300" class="alignright size-medium wp-image-4460" srcset="/wp-content/uploads/2013/07/selinux-penguin-new_medium-287x300.png 287w, /wp-content/uploads/2013/07/selinux-penguin-new_medium.png 325w" sizes="(max-width: 287px) 100vw, 287px" />][1]I've decided to start a series of posts called "Chronicles of SELinux" where I hope to educate more users on how to handle SELinux denials with finesse rather than simply [disabling it entirely][2]. To kick things off, I'll be talking about dealing with web content in the first post.
+![1]
+
+I've decided to start a series of posts called "Chronicles of SELinux" where I hope to educate more users on how to handle SELinux denials with finesse rather than simply [disabling it entirely][2]. To kick things off, I'll be talking about dealing with web content in the first post.
 
 ## First steps
 

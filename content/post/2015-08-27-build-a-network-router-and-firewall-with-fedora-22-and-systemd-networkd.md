@@ -28,8 +28,8 @@ I've recently started using a small Linux server at home again as a network rout
 
 Our example router in this example has two network interfaces:
 
-  * eth0: public internet connectivity
-  * eth1: private LAN (192.168.3.1/24)
+* eth0: public internet connectivity
+* eth1: private LAN (192.168.3.1/24)
 
 We want machines on the private LAN to route their traffic through the router to the public internet via NAT. Also, we want clients on the LAN to get their IP addresses assigned automatically.
 
@@ -38,11 +38,12 @@ We want machines on the private LAN to route their traffic through the router to
 All of the systemd-networkd configuration files live within `/etc/systemd/network` and we need to create that directory:
 
 ```
-
+mkdir /etc/systemd/network
+```
 
 We need to write a network configuration file for our public interface that systemd-networkd can read. Open up `/etc/systemd/network/eth0.network` and write these lines:
 
-```
+```ini
 [Match]
 Name=eth0
 
@@ -54,14 +55,13 @@ DNS=8.8.4.4
 IPForward=yes
 ```
 
-
 If we break this configuration file down, we're telling systemd-networkd to apply this configuration to any devices that are called `eth0`. Also, we're specifying a public IP address and CIDR mask (like /24 or /22) so that the interface can be configured. The gateway address will be added to the routing table. We've also provided DNS servers to use with systemd-resolved (more on that later).
 
 I added `IPForward=yes` so that systemd-networkd will automatically enable forwarding for the interface via sysctl. (That always seems to be the step I forget when I build a Linux router.)
 
 Let's do the same for our LAN interface. Create this configuration file and store it as `/etc/systemd/network/eth1.network`:
 
-```
+```ini
 [Match]
 Name=eth1
 
@@ -69,7 +69,6 @@ Name=eth1
 Address=192.168.3.1/24
 IPForward=yes
 ```
-
 
 We don't need to specify a gateway address here because this interface will be the gateway for the LAN.
 
@@ -83,7 +82,6 @@ systemctl disable NetworkManager
 systemctl enable systemd-networkd
 ```
 
-
 Also, let's be sure to use systemd-resolved to handle our `/etc/resolv.conf`:
 
 ```
@@ -92,7 +90,6 @@ systemctl start systemd-resolved
 rm -f /etc/resolv.conf
 ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ```
-
 
 ## Reboot
 
@@ -108,7 +105,6 @@ IDX LINK             TYPE               OPERATIONAL SETUP
   3 eth1             ether              routable    configured
 ```
 
-
 ## DHCP
 
 Now that both network interfaces are online, we need something to tell our clients about the IP configuration they should be using. There are plenty of good options here, but I prefer [dnsmasq][3]. It has served me well over the years and it provides some handy features along with DHCP, such as DNS caching, TFTP and IPv6 router announcements.
@@ -120,22 +116,20 @@ dnf -y install dnsmasq
 systemctl enable dnsmasq
 ```
 
-
 Open `/etc/dnsmasq.conf` in your favorite text editor and edit a few lines:
 
-  * Uncomment `dhcp-authoritative`
-  * This tells dnsmasq that it's the exclusive DHCP server on the network and that it should answer all requests
-  * Uncomment `interface=` and add `eth1` on the end (should look like `interface=eth1` when you're done)
-  * Most ISP's filter DHCP replies on their public networks, but we don't want to take chances here. We need to restrict DHCP to our public interface only.
-  * Look for the `dhcp-range` line and change it to `dhcp-range=192.168.3.50,192.168.3.150,12h`
-  * We're giving clients 12 hour leases on 192.168.3.0/24
+* Uncomment `dhcp-authoritative`
+* This tells dnsmasq that it's the exclusive DHCP server on the network and that it should answer all requests
+* Uncomment `interface=` and add `eth1` on the end (should look like `interface=eth1` when you're done)
+* Most ISP's filter DHCP replies on their public networks, but we don't want to take chances here. We need to restrict DHCP to our public interface only.
+* Look for the `dhcp-range` line and change it to `dhcp-range=192.168.3.50,192.168.3.150,12h`
+* We're giving clients 12 hour leases on 192.168.3.0/24
 
 Save the file and start dnsmasq:
 
 ```
 systemctl start dnsmasq
 ```
-
 
 ## Firewall
 
@@ -148,7 +142,6 @@ firewall-cmd --add-masquerade
 firewall-cmd --add-service=dns --add-service=dhcp
 firewall-cmd --runtime-to-permanent
 ```
-
 
 ## Testing
 
@@ -166,7 +159,6 @@ PING icanhazip.com (104.238.141.75) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3005ms
 rtt min/avg/max/mdev = 69.659/69.758/69.874/0.203 ms
 ```
-
 
 ## Extras
 
@@ -187,7 +179,6 @@ Jul 31 01:46:15 router systemd-networkd[286]: eth0            : gained carrier
 Jul 31 01:46:15 router systemd-networkd[286]: eth0            : link configured
 Jul 31 01:46:16 router systemd-networkd[286]: eth1            : gained carrier
 ```
-
 
  [1]: http://fedoramagazine.org/build-network-router-firewall-fedora-22-systemd-networkd/
  [2]: http://www.freedesktop.org/software/systemd/man/systemd-networkd.html

@@ -14,7 +14,9 @@ tags:
   - yubikey
 
 ---
-[<img src="/wp-content/uploads/2015/06/YubiKey-NEO-finger.jpg" alt="Yubikey NEO" width="1430" height="296" class="aligncenter size-full wp-image-5658" srcset="/wp-content/uploads/2015/06/YubiKey-NEO-finger.jpg 1430w, /wp-content/uploads/2015/06/YubiKey-NEO-finger-300x62.jpg 300w, /wp-content/uploads/2015/06/YubiKey-NEO-finger-1024x212.jpg 1024w" sizes="(max-width: 1430px) 100vw, 1430px" />][1]After an unfortunate death of my [Yubikey NEO][2] and a huge mistake on backups, I've come to realize that it's time for a new GPG key. My new one is already up on [Keybase][3] and there's a [plain text copy on my resume site][4].
+![1]
+
+After an unfortunate death of my [Yubikey NEO][2] and a huge mistake on backups, I've come to realize that it's time for a new GPG key. My new one is already up on [Keybase][3] and there's a [plain text copy on my resume site][4].
 
 ### Action required
 

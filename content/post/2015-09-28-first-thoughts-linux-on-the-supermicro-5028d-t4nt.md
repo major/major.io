@@ -4,8 +4,6 @@ author: Major Hayden
 type: post
 date: 2015-09-28T12:55:51+00:00
 url: /2015/09/28/first-thoughts-linux-on-the-supermicro-5028d-t4nt/
-dsq_thread_id:
-  - 4173427110
 categories:
   - Blog Posts
 tags:
@@ -34,9 +32,9 @@ Once I started talking about my search on Twitter, someone piped in with a sugge
   </p>
 </blockquote>
 
+![1]
 
-
-[<img src="/wp-content/uploads/2015/09/SYS-5028D-TN4T_open.jpg" alt="SYS-5028D-TN4T_open" width="261" height="222" class="alignright size-full wp-image-5934" />][1]Supermicro, eh? I've had great success with two Supermicro boxes from Silicon Mechanics (and I can't say enough good things about both companies) in my colocation environment. I decided to take a closer look at the [Supermicro 5028D-TN4T][2].
+Supermicro, eh? I've had great success with two Supermicro boxes from Silicon Mechanics (and I can't say enough good things about both companies) in my colocation environment. I decided to take a closer look at the [Supermicro 5028D-TN4T][2].
 
 There's a great review on [AnandTech][3] about the Supermicro 5028D-TN4T. It gets plenty of praise for packing a lot of advanced features into a small, energy-efficient server. AnandTech found that the [idle power draw was around 30 watts][4] and as low as 27 watts in some cases. I haven't tested it with my [Kill A Watt][5] yet, but I intend to do so later this week.
 

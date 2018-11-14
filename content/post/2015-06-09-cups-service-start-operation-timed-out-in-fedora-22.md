@@ -30,7 +30,7 @@ If I tried to run `systemctl start cups`, the command would hang for quite a whi
 
 The strace output showed that cups was talking to my local DNS servers and was asking constantly for the IP address of my laptop's hostname.
 
-[<img src="/wp-content/uploads/2015/06/iWKad22.jpg" alt="facepalm - cups fails without an entry in /etc/hosts" width="480" height="270" class="aligncenter size-full wp-image-5635" srcset="/wp-content/uploads/2015/06/iWKad22.jpg 480w, /wp-content/uploads/2015/06/iWKad22-300x169.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" />][2]
+![2]
 
 Oh, I felt pretty stupid at this point.
 
