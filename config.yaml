@@ -1,9 +1,10 @@
-baseUrl: 'https://major.io/'
+#baseUrl: 'https://major.io/'
+baseUrl: "https://majorhayden.gitlab.io/major.io"
 languageCode: en-us
 title: "major.io"
 theme: lanyon
 copyright: '&copy; Major Hayden'
-canonifyurls: true
+canonifyURLs: true
 paginate: 5
 pygmentsCodeFences: true
 pygmentsUseClasses: true
