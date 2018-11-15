@@ -15,11 +15,15 @@ By default, views in MySQL 5.x are created with a security definer set to the ro
 
 You receive an error similar to the following:
 
-``mysqldump: Couldn't execute 'SHOW FIELDS FROM `some_tablename`': There is no 'root'@'localhost' registered (1449)``
+```
+mysqldump: Couldn't execute 'SHOW FIELDS FROM `some_tablename`': There is no 'root'@'localhost' registered (1449)
+```
 
-Usually, if you run a `` SHOW CREATE VIEW `tablename` ``, you'll see something like this:
+Usually, if you run a `SHOW CREATE VIEW tablename`, you'll see something like this:
 
-`` CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `some_tablename` AS select distinct `some_database`.`some_tablename`.`some_column` AS `alias` from `some_tablename` ``
+```sql
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `some_tablename` AS select distinct `some_database`.`some_tablename`.`some_column` AS `alias` from `some_tablename`
+```
 
 You have two options in this situation:
 

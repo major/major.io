@@ -17,28 +17,30 @@ tags:
 ---
 Thanks to [some work started by Ville Skyttä][1], MySQLTuner is now included in Fedora 9 repositories:
 
-`# cat /etc/fedora-release<br />
-Fedora release 9 (Sulphur)<br />
-# yum info mysqltuner<br />
-Loaded plugins: fastestmirror, priorities, refresh-packagekit<br />
-Loading mirror speeds from cached hostfile<br />
- * updates: mirrors.usc.edu<br />
- * fedora: mirror.unl.edu<br />
- * livna: mirrors.tummy.com<br />
-Available Packages<br />
-Name       : mysqltuner<br />
-Arch       : noarch<br />
-Version    : 0.9.1<br />
-Release    : 4<br />
-Size       : 11 k<br />
-Repo       : updates<br />
-Summary    : MySQL high performance tuning script<br />
-URL        : http://mysqltuner.com/<br />
-License    : GPLv3+<br />
-Description: MySQLTuner is a MySQL high performance tuning script written in perl that will provide you with a snapshot of a MySQL server's health. Based<br />
-           : on the statistics gathered, specific recommendations will be provided that will increase a MySQL server's efficiency and performance.  The<br />
+```
+# cat /etc/fedora-release
+Fedora release 9 (Sulphur)
+# yum info mysqltuner
+Loaded plugins: fastestmirror, priorities, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * updates: mirrors.usc.edu
+ * fedora: mirror.unl.edu
+ * livna: mirrors.tummy.com
+Available Packages
+Name       : mysqltuner
+Arch       : noarch
+Version    : 0.9.1
+Release    : 4
+Size       : 11 k
+Repo       : updates
+Summary    : MySQL high performance tuning script
+URL        : http://mysqltuner.com/
+License    : GPLv3+
+Description: MySQLTuner is a MySQL high performance tuning script written in perl that will provide you with a snapshot of a MySQL server's health. Based
+           : on the statistics gathered, specific recommendations will be provided that will increase a MySQL server's efficiency and performance.  The
            : script gives you automated MySQL tuning that is on the level of what you would receive from a MySQL DBA.`
 
 In addition to Ville, I'd like to thank Jason Tibbitts for reviewing and approving the new package.
+```
 
  [1]: https://bugzilla.redhat.com/show_bug.cgi?id=452172

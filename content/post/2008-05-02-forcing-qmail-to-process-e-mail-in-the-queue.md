@@ -13,10 +13,14 @@ tags:
 ---
 Normally, qmail will be able to process the mail queue without any interaction from the system administrator, however, if you want to force it to process everything that is in the queue right now, you can do so:
 
-`` kill -ALRM `pgrep qmail-send` ``
+```
+kill -ALRM `pgrep qmail-send`
+```
 
 If for some peculiar reason you don't have pgrep on your server, you can go about it a slightly different way:
 
-`` kill -ALRM `ps ax | grep qmail-send | grep -v grep | awk '{print $1}'` ``
+```
+kill -ALRM `ps ax | grep qmail-send | grep -v grep | awk '{print $1}'`
+```
 
 Your logs should begin filling up with data about e-mails rolling through the queue.

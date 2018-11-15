@@ -12,7 +12,9 @@ tags:
 ---
 Sometimes MySQL's process list will fill with unauthenticated login entries that look like this:
 
-`|  971 | unauthenticated user | xxx.xxx.xxx.xxx:35406 | NULL        | Connect | NULL | login | NULL             |`
+```
+|  971 | unauthenticated user | xxx.xxx.xxx.xxx:35406 | NULL        | Connect | NULL | login | NULL             |
+```
 
 Generally, this means one of two things are happening. First, this could be a brute force attack against your server from an external attacker. Be sure to firewall off access to port 3306 from the outside world or run MySQL with `skip-networking` in the /etc/my.cnf file, and that should curtail those login attempts quickly.
 

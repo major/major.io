@@ -17,7 +17,9 @@ I received an e-mail from [Tim Linden][1] about a [post he made in his blog][2] 
 
 The article goes over installing the Net::Amazon::S3 Perl module via WHM (which is handy for the cPanel users). However, if you're not a cPanel user, you can install it via CPAN:
 
-`# perl -MCPAN -e 'install Net::Amazon::S3'`
+```
+# perl -MCPAN -e 'install Net::Amazon::S3'
+```
 
 If you'd rather install it through Webmin, go to the 'Others' section, and click 'Perl Modules'.
 

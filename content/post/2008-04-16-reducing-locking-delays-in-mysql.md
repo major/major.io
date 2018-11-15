@@ -38,14 +38,18 @@ Situations like these are a little different. There's two main factors to consid
 
 If you already have state-of-the-art hardware, be sure that your tables and queries are optimized. Run `OPTIMIZE TABLES` regularly if your data changes often to defragment the tables and clear out any holes from removed or updated data. Slow `UPDATE` queries suggest that you are updating too many rows, or you may be using a column in the WHERE clause that is not indexed. If you do a large amount of `INSERT` queries, use this syntax to enter multiple rows simultaneously:
 
-`INSERT INTO table (col1,col2) VALUES ('a','1'), ('b','2'), ('c','3');`
+```sql
+INSERT INTO table (col1,col2) VALUES ('a','1'), ('b','2'), ('c','3');
+```
 
 This syntax tells MySQL to hold off on updating indexes until the entire query is complete. If you are updating a **very large** amount of rows, and you need to use multiple queries to avoid reaching the [max\_allowed\_packet][5] directive, you can do something like this:
 
-`ALTER TABLE table DISABLE KEYS;<br />
-INSERT INTO table (col1,col2) VALUES ('a','1'), ('b','2'), ('c','3');<br />
-~~~ many more inserts ~~~<br />
-ALTER TABLE table ENABLE KEYS;`
+```sql
+ALTER TABLE table DISABLE KEYS;
+INSERT INTO table (col1,col2) VALUES ('a','1'), ('b','2'), ('c','3');
+~~~ many more inserts ~~~
+ALTER TABLE table ENABLE KEYS;
+```
 
 This forces MySQL to not calculate any new index information until you re-enable the keys or run `OPTIMIZE TABLE`. If all of this does not help, consider using InnoDB as your storage engine. You can benefit from the row-level locking, which reduces locking in mixed read/write scenarios. In addition, InnoDB is able to write data much more efficiently than MyISAM.
 

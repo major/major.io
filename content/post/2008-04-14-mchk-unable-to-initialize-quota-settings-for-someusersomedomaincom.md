@@ -17,7 +17,9 @@ If you're working in Plesk and you receive this error:
 
 Run this command to fix the issue, but be patient:
 
-`find /var/qmail/mailnames -type d -name '.*' ! -name '.spamassassin' -ls -exec touch '{}'/maildirfolder \; -exec chown popuser:popuser '{}'/maildirfolder \;`
+```
+find /var/qmail/mailnames -type d -name '.*' ! -name '.spamassassin' -ls -exec touch '{}'/maildirfolder \; -exec chown popuser:popuser '{}'/maildirfolder \;
+```
 
 > Thanks to [Mike Jackson][1] for this one.
 

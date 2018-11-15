@@ -23,6 +23,7 @@ foreach $domain (@domains) {
 	chomp($domain);
 	$cmd = "nice -n 19 /usr/local/psa/bin/pleskbackup -vv domains $domain --skip-logs - | ssh someuser\@somehost -i /home/username/.ssh/id_rsa \"dd of=/home/username/pleskbackups/$domain-$today.dump\"";
 	`$cmd`;
-}</pre>
+}
+```
 
 It will transmit your backups to another server via SSH, and it will reduce the priority to the lowest available. This combination will reduce CPU usage and disk I/O throughout the backup.

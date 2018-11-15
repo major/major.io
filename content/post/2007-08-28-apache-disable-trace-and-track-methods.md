@@ -18,7 +18,8 @@ Lots of PCI Compliance and vulnerability scan vendors will complain about TRACE 
 ```
 RewriteEngine on
 RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
-RewriteRule .* - [F]</pre>
+RewriteRule .* - [F]
+```
 
 These directives will need to be added to each VirtualHost.
 

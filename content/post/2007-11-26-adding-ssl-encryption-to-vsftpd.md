@@ -19,19 +19,16 @@ There may be some situations where you want to encrypt FTP traffic with SSL cert
 
 First, you'll need to [make a new self-signed SSL certificate][1] (if you don't have a key and certificate available already):
 
-```
-
+<pre lang="html">openssl req -new -newkey rsa:1024 -days 365 -nodes -x509 -keyout server.key -out server.crt</pre>
 
 Once you have the key and certificate made, you'll need to concatenate them into a PEM file:
 
-```
- /etc/vsftpd/server.pem
+<pre lang="html"># cat server.key > /etc/vsftpd/server.pem
 # cat server.crt >> /etc/vsftpd/server.pem</pre>
 
 Now, simply adjust the vsftpd configuration file to enable SSL encryption:
 
-```
-ssl_enable=YES
+<pre lang="html">ssl_enable=YES
 force_local_data_ssl=NO
 force_local_logins_ssl=NO
 ssl_tlsv1=YES

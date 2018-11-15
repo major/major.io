@@ -17,9 +17,11 @@ Unfortunately, enabling this in conjunction with Plesk will cause problems with 
 
 To fix this issue, simply add the following LocationMatch to the bottom of your Apache configuration:
 
-`AddType application/x-httpd-php .php .html</p>
-<p><LocationMatch "/plesk-stat/(.*)"><br />
-AddType text/html .html<br />
-</LocationMatch>`
+```apache
+AddType application/x-httpd-php .php .html
+<LocationMatch "/plesk-stat/(.*)">
+AddType text/html .html
+</LocationMatch>
+```
 
 This will force Apache to serve HTML files from `/plesk-stat/` as text/html rather than application/x-http-php. Your web statistics will display in the browser rather than downloading as a PHP file.

@@ -14,8 +14,10 @@ tags:
 ---
 Here's a pretty weird kernel panic that I came across the other day:
 
-`Enforcing mode requested but no policy loaded. Halting now.<br />
-Kernel panic - not syncing: Attempted to kill init!`
+```
+Enforcing mode requested but no policy loaded. Halting now.
+Kernel panic - not syncing: Attempted to kill init!
+```
 
 This usually means that you've set SELINUX in enforcing mode within /etc/sysconfig/selinux or /etc/selinux/selinux.conf but you don't have the appropriate SELINUX packages installed. To fix the issue, boot the server into the Red Hat rescue environment and disable SELINUX until you can install the proper packages that contain the SELINUX targeted configuration.
 

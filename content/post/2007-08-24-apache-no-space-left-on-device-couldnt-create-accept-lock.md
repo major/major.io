@@ -20,10 +20,9 @@ This error completely stumped me a couple of weeks ago. Apparently someone was a
 
 Within the Apache error logs, this message appeared over and over:
 
-```
+<pre lang="html">[emerg] (28)No space left on device: Couldn't create accept lock</pre>
 
-
-Apache is basically saying "I want to start, but I need to write some things down before I can start, and I have nowhere to write them!" If this happens to you, check these items in order:
+Apache is basically saying &#8220;I want to start, but I need to write some things down before I can start, and I have nowhere to write them!&#8221; If this happens to you, check these items in order:
 
 **1. Check your disk space**
 
@@ -39,18 +38,15 @@ Semaphores? What the heck is a semaphore? Well, it's actually an [apparatus for 
 
 I'd assume if you're reading this article, Apache has stopped running. Run this command as root:
 
-```
-
+<pre lang="html"># ipcs -s</pre>
 
 If you see a list of semaphores, Apache has not cleaned up after itself, and some semaphores are stuck. Clear them out with this command:
 
-```
-
+<pre lang="html"># for i in `ipcs -s | awk '/httpd/ {print $2}'`; do (ipcrm -s $i); done</pre>
 
 Now, in almost all cases, Apache should start properly. If it doesn't, you may just be completely out of available semaphores. You may want to increase your available semaphores, and you'll need to tickle your kernel to do so. Add this to /etc/sysctl.conf:
 
-```
-kernel.msgmni = 1024
+<pre lang="html">kernel.msgmni = 1024
 kernel.sem = 250 256000 32 1024</pre>
 
 And then run `sysctl -p` to pick up the new changes.

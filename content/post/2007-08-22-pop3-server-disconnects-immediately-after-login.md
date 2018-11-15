@@ -16,9 +16,11 @@ When connecting to your server's POP3 service, your client might provide this er
 
 Your best bet is to check the mail log and see exactly what the problem is:
 
-`web pop3-login: Login: john [192.168.0.5]<br />
-pop3(john): Invalid mbox file /var/spool/mail/john: No such file or directory<br />
-pop3(john): Failed to create storage with data: mbox:/var/spool/mail/john<br />
-dovecot: child 29864 (pop3) returned error 89`
+```
+web pop3-login: Login: john [192.168.0.5]
+pop3(john): Invalid mbox file /var/spool/mail/john: No such file or directory
+pop3(john): Failed to create storage with data: mbox:/var/spool/mail/john
+dovecot: child 29864 (pop3) returned error 89
+```
 
 In this case, the mbox file has become corrupt (possible from malformed 'From' headers). You have the option of repairing the issues within the file, or you can simply create a new mail spool for the user.

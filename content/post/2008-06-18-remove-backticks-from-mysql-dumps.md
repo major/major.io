@@ -19,4 +19,6 @@ I made a MySQL 3.23 compatible dump with `--compatible=mysql323`, but the dump c
 
 This sed line came in handy to strip the backticks from the `USE` lines in the dump:
 
-``sed -e "s/^USE \`\(.*\)\`/USE \1/g"``
+```
+sed -e "s/^USE \`\(.*\)\`/USE \1/g"
+```

@@ -17,23 +17,20 @@ I really dislike qmail. But, since I use Plesk, I'm stuck with it. However, I fo
 
 First, toss a line like this into your /etc/fstab:
 
-`</p>
-<pre>none    /mailqueue      tmpfs   defaults,size=100m,nr_inodes=999k,mode=775      0       0</pre>
-<p>`
+```
+none    /mailqueue      tmpfs   defaults,size=100m,nr_inodes=999k,mode=775      0       0
+```
 
 This will make a 100MB ramdisk on /mailqueue. Now, just symlink /var/qmail/mqueue to /mailqueue and move your e-mail over:
 
-\# mount /mailqueue
-
-\# chmod 750 /mailqueue
-
-\# chown qmailq:qmail /mailqueue
-
-\# mv /var/qmail/mqueue /var/qmail/mqueue-old
-
-\# ln -s /mailqueue /var/qmail/mqueue
-
-\# rsync -av /var/qmail/mqueue-old /mailqueue
+```
+# mount /mailqueue
+# chmod 750 /mailqueue
+# chown qmailq:qmail /mailqueue
+# mv /var/qmail/mqueue /var/qmail/mqueue-old
+# ln -s /mailqueue /var/qmail/mqueue
+# rsync -av /var/qmail/mqueue-old /mailqueue
+```
 
 This has significantly cut the iowait on my server during heavy e-mail periods. In addition, tools like [qmHandle][1] now fly through my mail queue and give me reports very quickly.
 

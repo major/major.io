@@ -15,7 +15,9 @@ With Plesk 7.5.x, a PHP upgrade to version 5 will cause some issues with Horde. 
 
 To fix it, run these commands:
 
-`# pear upgrade DB<br />
-# cp -a /usr/share/pear/DB.php /usr/share/pear/DB/ /usr/share/psa-horde/pear/`
+```
+# pear upgrade DB
+# cp -a /usr/share/pear/DB.php /usr/share/pear/DB/ /usr/share/psa-horde/pear/
+```
 
 > Credit for this fix goes to Mike J.

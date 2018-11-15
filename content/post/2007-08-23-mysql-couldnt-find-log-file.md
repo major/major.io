@@ -13,15 +13,19 @@ tags:
 ---
 This error will pop up when binary logging is enabled, and someone thought it was a good idea to remove binary logs from the filesystem:
 
-`/usr/sbin/mysqld: File './mysql_bin.000025' not found (Errcode: 2)<br />
-[ERROR] Failed to open log (file './9531_mysql_bin.000025', errno 2)<br />
-[ERROR] Could not open log file<br />
-[ERROR] Can't init tc log<br />
-[ERROR] Aborting`
+```
+/usr/sbin/mysqld: File './mysql_bin.000025' not found (Errcode: 2)
+[ERROR] Failed to open log (file './9531_mysql_bin.000025', errno 2)
+[ERROR] Could not open log file
+[ERROR] Can't init tc log
+[ERROR] Aborting
+```
 
-`InnoDB: Starting shutdown...<br />
-InnoDB: Shutdown completed; log sequence number 0 2423986213<br />
-[Note] /usr/sbin/mysqld: Shutdown complete`
+```
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 0 2423986213
+[Note] /usr/sbin/mysqld: Shutdown complete
+```
 
 Basically, MySQL is looking in the **mysql-bin.index** file and it cannot find the log files that are listed within the index. This will keep MySQL from starting, but the fix is quick and easy. You have two options:
 

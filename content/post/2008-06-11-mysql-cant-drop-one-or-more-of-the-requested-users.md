@@ -15,8 +15,10 @@ tags:
 ---
 MySQL has quite a few cryptic error messages, and this one is one of the best:
 
-`mysql> DROP USER 'forums'@'db1.myserver.com';<br />
-ERROR 1268 (HY000): Can't drop one or more of the requested users`
+```
+mysql> DROP USER 'forums'@'db1.myserver.com';
+ERROR 1268 (HY000): Can't drop one or more of the requested users
+```
 
 Naturally, I was quite interested to know why MySQL wasn't going to allow me to remove this user. There was nothing special about the user, but then again, this wasn't a server that I personally managed, so I wasn't sure what kind of configuration was in place.
 
@@ -32,11 +34,15 @@ It's always a good idea to get your bearings, so I checked the current grants:
 
 The GRANT OPTION was causing my grief. It was the only privilege that the user had on the server. I revoked the privilege and attempted to drop the user yet again:
 
-`mysql> REVOKE GRANT OPTION ON *.* FROM 'forums'@'db1.myserver.com';<br />
-Query OK, 0 rows affected (0.00 sec)</p>
-<p>mysql> DROP USER 'forums'@'db1.myserver.com';<br />
-Query OK, 0 rows affected (0.00 sec)`
+```
+mysql> REVOKE GRANT OPTION ON *.* FROM 'forums'@'db1.myserver.com';
+Query OK, 0 rows affected (0.00 sec)
+mysql> DROP USER 'forums'@'db1.myserver.com';
+Query OK, 0 rows affected (0.00 sec)
+```
 
 It's key to remember that revoking the GRANT OPTION is a completely separate process. Revoking ALL PRIVILEGES doesn't include GRANT OPTION, so be sure to specify it separately:
 
-`mysql> REVOKE ALL PRIVILEGES, GRANT OPTION ON *.* FROM 'user'@'host';`
+```
+mysql> REVOKE ALL PRIVILEGES, GRANT OPTION ON *.* FROM 'user'@'host';
+```

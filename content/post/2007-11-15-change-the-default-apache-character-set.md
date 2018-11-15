@@ -15,12 +15,15 @@ By default, Red Hat Enterprise Linux 4 sets the default character set in Apache 
 
 First, adjust the AddDefaultCharset directive in /etc/httpd/conf/httpd.conf:
 
-`#AddDefaultCharset UTF-8<br />
-AddDefaultCharset ISO-8859-1`
+```
+#AddDefaultCharset UTF-8<br />
+AddDefaultCharset ISO-8859-1
+```
 
 Then, reload Apache and check your headers:
 
-`# /etc/init.d/httpd reload<br />
+```
+# /etc/init.d/httpd reload<br />
 # curl -I localhost<br />
 HTTP/1.1 403 Forbidden<br />
 Date: Thu, 08 Nov 2007 22:18:14 GMT<br />
@@ -28,6 +31,7 @@ Server: Apache/2.0.52 (Red Hat)<br />
 Accept-Ranges: bytes<br />
 Content-Length: 3985<br />
 Connection: close<br />
-Content-Type: text/html; charset=ISO-8859-1`
+Content-Type: text/html; charset=ISO-8859-1
+```
 
 _This was tested on Red Hat Enterprise Linux 4 Update 5_

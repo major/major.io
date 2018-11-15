@@ -14,8 +14,7 @@ tags:
 ---
 If you run a fairly busy and/or badly configured MySQL server, you may receive something like this when attempting to connect:
 
-```
-# mysql
+<pre lang="html"># mysql
 ERROR 1040: Too many connections</pre>
 
 MySQL is telling you that it is handling the maximum connections that you have configured it to handle. By default, MySQL will handle 100 connections simultaneously. This is very similar to the situation when Apache reaches the MaxClients setting. You won't even be able to connect to MySQL to find out what is causing the connections to be used up, so you will be forced to restart the MySQL daemon to troubleshoot the issue.

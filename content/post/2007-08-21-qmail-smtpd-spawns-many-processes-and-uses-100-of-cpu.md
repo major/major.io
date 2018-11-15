@@ -18,11 +18,13 @@ First off, check for two files in **/var/qmail/control** called **dh512.pem** an
 
 If the files aren't there, do the following:
 
-`# cd /var/qmail/control<br />
-# cp dhparam512.pem dh512.pem<br />
-# cp dhparam1024.pem dh1024.pem<br />
-# /etc/init.d/qmail restart<br />
-# /etc/init.d/xinetd restart`
+```
+# cd /var/qmail/control
+# cp dhparam512.pem dh512.pem
+# cp dhparam1024.pem dh1024.pem
+# /etc/init.d/qmail restart
+# /etc/init.d/xinetd restart
+```
 
 At this point, your CPU load should be reduced once the currently running processes for qmail clear out.
 

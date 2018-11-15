@@ -17,7 +17,9 @@ Installing new hardware may mean that new kernel need to be loaded when your ser
 
 **Next,** rebuild the initial ram disk after making a backup of the current one:
 
-`` # cp /boot/initrd-`uname -r`.img /boot/initrd-`uname -r`.img.bak<br />
-# mkinitrd -f initrd-`uname -r`.img `uname -r` ``
+```
+# cp /boot/initrd-`uname -r`.img /boot/initrd-`uname -r`.img.bak
+# mkinitrd -f initrd-`uname -r`.img `uname -r`
+```
 
 Reboot the server now and make sure the new driver is loaded properly.

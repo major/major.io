@@ -18,8 +18,10 @@ _Unable to allow the use of short mail names for POP3/IMAP accounts. There are m
 
 Forcing it back is easy with one SQL statement:
 
-``# mysql -u admin -p`cat /etc/psa/.psa.shadow` psa<br />
-mysql> UPDATE misc set val='enabled' where param='allow_short_pop3_names';``
+```
+# mysql -u admin -p`cat /etc/psa/.psa.shadow` psa
+mysql> UPDATE misc set val='enabled' where param='allow_short_pop3_names';
+```
 
 Keep in mind that users logging in with shortnames will get into the same mailbox if they have the same username and password.
 

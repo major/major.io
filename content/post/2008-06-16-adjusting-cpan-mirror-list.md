@@ -16,30 +16,42 @@ One of the most frustrating aspects of CPAN is connecting to mirrors via FTP. Mo
 
 I was struggling to find a way to reconfigure CPAN to use HTTP mirrors rather than FTP, but I couldn't figure out where CPAN was holding this data. It wasn't in ~/.cpan and there was nothing in /etc for it. However, I found that you can reconfigure CPAN by running the following command:
 
-`# perl -MCPAN -e shell<br />
-CPAN: File::HomeDir loaded ok (v0.69)</p>
-<p>cpan shell -- CPAN exploration and modules installation (v1.9205)<br />
-ReadLine support enabled</p>
-<p>cpan[1]> o conf init`
+```
+# perl -MCPAN -e shell
+CPAN: File::HomeDir loaded ok (v0.69)
+cpan shell -- CPAN exploration and modules installation (v1.9205)
+ReadLine support enabled
+cpan[1]> o conf init
+```
 
 The configuration script will run again as if you had never configured CPAN. Best of all, if you need to stop mid-way through the reconfiguration, your original configuration is still there. If you'd rather just adjust your mirror list rather than starting over completely with the CPAN configuration, use the following:
 
 Display your current mirrors:
 
-`o conf urllist`
+```
+o conf urllist
+```
 
 Delete the first mirror in your list:
 
-`o conf urllist shift`
+```
+o conf urllist shift
+```
 
 Delete the last mirror in your list:
 
-`o conf urllist pop`
+```
+o conf urllist pop
+```
 
 Add on a new mirror:
 
-`o conf urllist push http://cpan.mirror.facebook.com/`
+```
+o conf urllist push http://cpan.mirror.facebook.com/
+```
 
 Save your mirror changes:
 
-`o conf urllist commit`
+```
+o conf urllist commit
+```

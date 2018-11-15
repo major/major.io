@@ -15,9 +15,13 @@ tags:
 ---
 Apparently, a recent Red Hat Enterprise Linux update for ES3, 4 and 5 caused some Perl applications to throw errors like these:
 
-`unable to call function <em>somefunction</em> on undefined value`
+```
+unable to call function somefunction on undefined value
+```
 
 Of course, replace `somefunction` with your function of choice. To correct the issue, you can force CPAN to bring back a more sane version of Scalar::Util:
 
-`# perl -MCPAN -e shell<br />
-cpan> force install Scalar::Util`
+```
+# perl -MCPAN -e shell
+cpan> force install Scalar::Util
+```

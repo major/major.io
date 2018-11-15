@@ -17,32 +17,36 @@ Working with the RAID configurations on Linux can be a little involved if all yo
 
 Here's a bash script equivalent of hwraidinfo which will work in Linux:
 
-`#!/bin/sh<br />
-SLOTLIST=$(hpacucli ctrl all show | \<br />
-grep Slot | sed -e 's/^.*Slot //g' -e 's/ .*$//g')<br />
-for i in $SLOTLIST<br />
-do<br />
-echo<br />
-hpacucli ctrl slot=$i show | grep -v "^$"<br />
-echo<br />
-hpacucli ctrl slot=$i ld all show | grep -v "^$"<br />
-hpacucli ctrl slot=$i pd all show | grep -v "^$"<br />
-done<br />
-echo`
+```
+#!/bin/sh
+SLOTLIST=$(hpacucli ctrl all show | \
+grep Slot | sed -e 's/^.*Slot //g' -e 's/ .*$//g')
+for i in $SLOTLIST
+do
+echo
+hpacucli ctrl slot=$i show | grep -v "^$"
+echo
+hpacucli ctrl slot=$i ld all show | grep -v "^$"
+hpacucli ctrl slot=$i pd all show | grep -v "^$"
+done
+echo
+```
 
 And here is the script equivalent of hwraidstatus:
 
-`#!/bin/sh<br />
-SLOTLIST=$(hpacucli ctrl all show | \<br />
-grep Slot | sed -e 's/^.*Slot //g' -e 's/ .*$//g')<br />
-for i in $SLOTLIST<br />
-do<br />
-echo<br />
-hpacucli ctrl slot=$i show status | grep -v "^$"<br />
-echo<br />
-hpacucli ctrl slot=$i ld all show status | grep -v "^$"<br />
-hpacucli ctrl slot=$i pd all show status | grep -v "^$"<br />
-done<br />
-echo`
+```
+#!/bin/sh
+SLOTLIST=$(hpacucli ctrl all show | \
+grep Slot | sed -e 's/^.*Slot //g' -e 's/ .*$//g')
+for i in $SLOTLIST
+do
+echo
+hpacucli ctrl slot=$i show status | grep -v "^$"
+echo
+hpacucli ctrl slot=$i ld all show status | grep -v "^$"
+hpacucli ctrl slot=$i pd all show status | grep -v "^$"
+done
+echo
+```
 
 Save these to the filesystem, run `chmod +x` and move them to /usr/sbin (or /usr/local/sbin) so that the root user can use them.

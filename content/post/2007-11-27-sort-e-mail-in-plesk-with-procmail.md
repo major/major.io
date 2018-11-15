@@ -23,21 +23,27 @@ First, make sure procmail is installed on your server, and change to this direct
 
 Inside that directory, drop in a .procmailrc file which contains the following:
 
-`MAILDIR=/var/qmail/mailnames/yourdomain.com/yourusername/Maildir<br />
-DEFAULT=${MAILDIR}/<br />
-SPAMDIR=${MAILDIR}/.Junk/<br />
-:0<br />
-* ^X-Spam-Status: Yes.*<br />
-${SPAMDIR}`
+```
+MAILDIR=/var/qmail/mailnames/yourdomain.com/yourusername/Maildir
+DEFAULT=${MAILDIR}/
+SPAMDIR=${MAILDIR}/.Junk/
+:0
+* ^X-Spam-Status: Yes.*
+${SPAMDIR}
+```
 
 Once that file is in place, move the .qmail file out of the way, and replace it with this:
 
-`| /usr/local/psa/bin/psa-spamc accept<br />
-|preline /usr/bin/procmail -m -o .procmailrc`
+```
+| /usr/local/psa/bin/psa-spamc accept
+|preline /usr/bin/procmail -m -o .procmailrc
+```
 
 Please be aware that these changes will disappear if you make any adjustments to your mail configuration within Plesk. To get around this annoyance, just change the file attributes to immutable:
 
-`# chattr +i .qmail .procmailrc`
+```
+# chattr +i .qmail .procmailrc
+```
 
 _Credit for this trick goes to [Russ Wittmann][1]._
 
