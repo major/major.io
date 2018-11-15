@@ -14,7 +14,7 @@ tags:
   - xenserver
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/03/BBM-APN-MP57D.jpg" alt="AOpen MP57" title="AOpen MP57" width="200" height="200" class="alignright size-full wp-image-3165" srcset="/wp-content/uploads/2012/03/BBM-APN-MP57D.jpg 300w, /wp-content/uploads/2012/03/BBM-APN-MP57D-150x150.jpg 150w" sizes="(max-width: 200px) 100vw, 200px" />][1]Getting XenServer installed on some unusual platforms takes a bit of work and the [AOpen MP57][2] is a challenging platform for a XenServer 6.0.2 installation.
+[<img src="/wp-content/uploads/2012/03/BBM-APN-MP57D.jpg" alt="AOpen MP57" title="AOpen MP57" width="200" height="200" class="alignright size-full wp-image-3165" srcset="/wp-content/uploads/2012/03/BBM-APN-MP57D.jpg 300w, /wp-content/uploads/2012/03/BBM-APN-MP57D-150x150.jpg 150w" sizes="(max-width: 200px) 100vw, 200px" />][1]Getting XenServer installed on some unusual platforms takes a bit of work and the [AOpen MP57][2] is a challenging platform for a XenServer 6.0.2 installation.
 
 My MP57 box came with the i57QMx-vP motherboard. If yours came with something else, this post may or may not work for you.
 
@@ -32,6 +32,6 @@ label xe
 
 The `console=vga` adjustment ensures that the dom0 console is piped to the vga output and `acpi=off` fixes the lockup that will occur when the vga output is sent to your display. I also removed `splash` and `quiet` from the kernel line so that I could see all of the boot messages in detail.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2012/03/BBM-APN-MP57D.jpg
+ [1]: /wp-content/uploads/2012/03/BBM-APN-MP57D.jpg
  [2]: http://global.aopen.com/products_detail.aspx?Auno=3047
  [3]: https://www.citrix.com/lang/English/lp/lp_1688615.asp

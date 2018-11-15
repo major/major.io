@@ -17,7 +17,7 @@ tags:
 I was surprised to see coverage about [icanhazip.com][1] on [Lifehacker][2] last Sunday and I was curious to know what effect the story would have on my site's overall traffic. [Dave Drager][3] wrote a great summary of what the site offers and how people can use it in their daily work. It's pretty obvious that icanhazip.com really only serves a niche group of internet users, but even I was surprised at the level of interest.
 
 <div id="attachment_2249" style="width: 208px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg" alt="Lifehacker Effect on icanhazip.com" title="Lifehacker Effect on icanhazip.com" width="198" height="119" class="size-full wp-image-2249" /></a>
+  <a href="/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg"><img src="/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg" alt="Lifehacker Effect on icanhazip.com" title="Lifehacker Effect on icanhazip.com" width="198" height="119" class="size-full wp-image-2249" /></a>
 
   <p class="wp-caption-text">
     icanhazip.com traffic data - March 2011

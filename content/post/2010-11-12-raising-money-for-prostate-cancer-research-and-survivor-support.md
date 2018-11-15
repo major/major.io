@@ -13,7 +13,7 @@ tags:
 
 ---
 <div id="attachment_1862" style="width: 325px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2010/11/Movember.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2010/11/Movember.jpg" alt="Movember" title="Movember" width="315" height="206" class="size-full wp-image-1862" /></a>
+  <a href="/wp-content/uploads/2010/11/Movember.jpg"><img src="/wp-content/uploads/2010/11/Movember.jpg" alt="Movember" title="Movember" width="315" height="206" class="size-full wp-image-1862" /></a>
 
   <p class="wp-caption-text">
     Movember 2010

@@ -33,4 +33,4 @@ If you're lazy, you can [download my pre-made .nessusrc][3] that I made today wi
 
  [1]: http://nessus.org
  [2]: http://www.tifaware.com/perl/update-nessusrc/
- [3]: http://rackerhacker.com/wp-content/nessusrc.txt
+ [3]: /wp-content/nessusrc.txt

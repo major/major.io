@@ -15,7 +15,7 @@ tags:
   - python
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/11/openstack-justheo.png" alt="" title="openstack-justheo" width="232" height="214" class="alignright size-full wp-image-2592" />][1]My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on [OpenStack Nova][2]. Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again.
+[<img src="/wp-content/uploads/2011/11/openstack-justheo.png" alt="" title="openstack-justheo" width="232" height="214" class="alignright size-full wp-image-2592" />][1]My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on [OpenStack Nova][2]. Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again.
 
 One of the first things I wanted to tackle was understanding how a build request flows through Nova to a XenServer hypervisor. Following this process through the code is a bit tricky (I'm still learning python, so that could explain it). Here are the basic steps:
 
@@ -29,13 +29,13 @@ One of the first things I wanted to tackle was understanding how a build request
   * Once the networking details come back (via the queue), the compute node does the remaining adjustments on the hypervisor and starts up the actual instance.
   * When the instance starts successfully (or fails to do so), the database is updated and a message is dropped onto another message queue as a notification that the build is complete.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova-300x231.png" alt="Tracing an Instance Build Through Nova" title="Tracing an Instance Build Through Nova" width="300" height="231" class="alignright size-medium wp-image-2604" srcset="/wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova-300x231.png 300w, /wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova.png 778w" sizes="(max-width: 300px) 100vw, 300px" />][3]Click on the thumbnail on the right to see the flow chart I created to explain this process.
+[<img src="/wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova-300x231.png" alt="Tracing an Instance Build Through Nova" title="Tracing an Instance Build Through Nova" width="300" height="231" class="alignright size-medium wp-image-2604" srcset="/wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova-300x231.png 300w, /wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova.png 778w" sizes="(max-width: 300px) 100vw, 300px" />][3]Click on the thumbnail on the right to see the flow chart I created to explain this process.
 
 **Please note:** This information should be accurate to the Nova code as of November 1, 2011. There could be some refactoring of these build processes before [Essex][4] is released.
 
 <br style="clear: both;" />
 
- [1]: http://rackerhacker.com/wp-content/uploads/2011/11/openstack-justheo.png
+ [1]: /wp-content/uploads/2011/11/openstack-justheo.png
  [2]: http://openstack.org/projects/compute/
- [3]: http://rackerhacker.com/wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova.png
+ [3]: /wp-content/uploads/2011/11/Tracing-an-Instance-Build-Through-Nova.png
  [4]: https://launchpad.net/nova/essex

@@ -23,7 +23,7 @@ tags:
   - sysadmin
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/02/haters_gonna_hate_elephhant-238x300.jpg" alt="Haters gonna hate - elephant" title="Haters gonna hate - elephant" width="171" height="216" class="alignright size-medium wp-image-2953" srcset="/wp-content/uploads/2012/02/haters_gonna_hate_elephhant-238x300.jpg 238w, /wp-content/uploads/2012/02/haters_gonna_hate_elephhant.jpg 357w" sizes="(max-width: 171px) 100vw, 171px" />][1]As promised in my earlier post entitled [Kerberos for haters][2], I've assembled the simplest possible guide to get Kerberos up an running on two CentOS 5 servers.
+[<img src="/wp-content/uploads/2012/02/haters_gonna_hate_elephhant-238x300.jpg" alt="Haters gonna hate - elephant" title="Haters gonna hate - elephant" width="171" height="216" class="alignright size-medium wp-image-2953" srcset="/wp-content/uploads/2012/02/haters_gonna_hate_elephhant-238x300.jpg 238w, /wp-content/uploads/2012/02/haters_gonna_hate_elephhant.jpg 357w" sizes="(max-width: 171px) 100vw, 171px" />][1]As promised in my earlier post entitled [Kerberos for haters][2], I've assembled the simplest possible guide to get Kerberos up an running on two CentOS 5 servers.
 
 Also, I don't really _hate_ Kerberos. It's a bit of an inside joke with my coworkers who are studying for some of the [RHCA][3] exams at Rackspace. The additional security provided by Kerberos is quite good but the setup involves a lot of small steps. If you miss one of the steps or if you get something done out of order, you may have to scrap the whole setup and start over unless you can make sense of the errors in the log files. A lot of my dislikes for Kerberos comes from the number of steps required in the setup process and the difficulty in tracking down issues when they crop up.
 
@@ -310,7 +310,7 @@ From here, the sky's the limit. Another popular implementation of Kerberos is en
 
 Let me know if you have any questions about this post or if you spot any errors. With this many steps, there's bound to be a typo or two in this guide. Keep in mind that there are some obvious spots for network-level and service-level security improvements. This guide was intended to give you the basics and it doesn't cover all of the security implications involved with a Kerberos implementation.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2012/02/haters_gonna_hate_elephhant.jpg
+ [1]: /wp-content/uploads/2012/02/haters_gonna_hate_elephhant.jpg
  [2]: /2012/02/02/kerberos-for-haters/
  [3]: http://www.redhat.com/training/certifications/rhca/
  [4]: http://en.wikipedia.org/wiki/Network_Information_Service

@@ -24,7 +24,7 @@ First things first, it's a completely unofficial project that I worked on during
 The bot watches for ticket status changes in [OpenStack's Gerrit server][4] and makes a tweet about the change within a few minutes. Every tweet contains the commit's project, owner, status, and a brief summary of the change. In addition, you'll get a link directly to the review page on the Gerrit server. Here's an example:
 
 <div id="attachment_3452" style="width: 457px" class="wp-caption aligncenter">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/06/openstackwatchtweet.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/06/openstackwatchtweet.jpg" alt="" title="openstackwatchtweet" width="447" height="154" class="size-full wp-image-3452" srcset="/wp-content/uploads/2012/06/openstackwatchtweet.jpg 447w, /wp-content/uploads/2012/06/openstackwatchtweet-300x103.jpg 300w" sizes="(max-width: 447px) 100vw, 447px" /></a>
+  <a href="/wp-content/uploads/2012/06/openstackwatchtweet.jpg"><img src="/wp-content/uploads/2012/06/openstackwatchtweet.jpg" alt="" title="openstackwatchtweet" width="447" height="154" class="size-full wp-image-3452" srcset="/wp-content/uploads/2012/06/openstackwatchtweet.jpg 447w, /wp-content/uploads/2012/06/openstackwatchtweet-300x103.jpg 300w" sizes="(max-width: 447px) 100vw, 447px" /></a>
 
   <p class="wp-caption-text">
     Hey! It's Dan!

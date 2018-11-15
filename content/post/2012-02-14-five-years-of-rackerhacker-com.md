@@ -23,7 +23,7 @@ Today marks the fifth year that this blog has existed on the internet. I bought 
 
 
 <div id="attachment_3092" style="width: 310px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/02/birthday_cake.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/02/birthday_cake-300x199.jpg" alt="Birthday Cake" title="Birthday Cake" width="300" height="199" class="size-medium wp-image-3092" srcset="/wp-content/uploads/2012/02/birthday_cake-300x199.jpg 300w, /wp-content/uploads/2012/02/birthday_cake.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/wp-content/uploads/2012/02/birthday_cake.jpg"><img src="/wp-content/uploads/2012/02/birthday_cake-300x199.jpg" alt="Birthday Cake" title="Birthday Cake" width="300" height="199" class="size-medium wp-image-3092" srcset="/wp-content/uploads/2012/02/birthday_cake-300x199.jpg 300w, /wp-content/uploads/2012/02/birthday_cake.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Photo credit: <a href='http://www.flickr.com/photos/spool32/5045502202/'>Will Clayton</a>

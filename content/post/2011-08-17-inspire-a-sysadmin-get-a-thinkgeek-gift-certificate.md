@@ -12,7 +12,7 @@ categories:
 ---
 <strong style="color: red">UPDATE: THE STAKES ARE RAISED!</strong> Check the end of this post for details.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/08/giftcert-preview.png" alt="ThinkGeek Gift Certificate" title="ThinkGeek Gift Certificate" width="186" height="120" class="alignright size-full wp-image-2430" />][1]Today is my birthday and I'm doing things in reverse - you are getting gifts today. I'm giving away four $25 gift certificates to [ThinkGeek][2] today (yep, that's $100 out of my pocket) but you'll have to do something to earn them.
+[<img src="/wp-content/uploads/2011/08/giftcert-preview.png" alt="ThinkGeek Gift Certificate" title="ThinkGeek Gift Certificate" width="186" height="120" class="alignright size-full wp-image-2430" />][1]Today is my birthday and I'm doing things in reverse - you are getting gifts today. I'm giving away four $25 gift certificates to [ThinkGeek][2] today (yep, that's $100 out of my pocket) but you'll have to do something to earn them.
 
 I'm looking for words of wisdom and guidance from the readers of my blog for system administrators who are just getting started. I talk to brand new sysadmins and college graduates regularly and they're all hungry for what the seasoned folks in the industry know. They're not specifically on the hunt for hard facts and how-to's; they're looking for guidance on how to gain experience, reduce errors and learn efficiently.
 
@@ -34,7 +34,7 @@ _One last thing: This contest isn't affiliated with my employer or ThinkGeek. I'
 
 **UPDATE:** [The winners have been announced!][7]</p>
 
- [1]: http://rackerhacker.com/wp-content/uploads/2011/08/giftcert-preview.png
+ [1]: /wp-content/uploads/2011/08/giftcert-preview.png
  [2]: http://www.thinkgeek.com/
  [3]: http://www.timeanddate.com/worldclock/fixedtime.html?iso=20110817T2359&p1=400
  [4]: http://dictionary.reference.com/browse/inspiration

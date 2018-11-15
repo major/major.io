@@ -19,4 +19,4 @@ Save the new certificate to server.crt and the new key to server.key. If interme
 
 To perform the rest of the work, you will need a copy of the [KeyTool GUI][1]. In the GUI, make a new keystore in JKS format. Import the PKCS #12 key pair, and save the keystore as a JKS. Upload the keystore to the server and then configure the keystore within Tomcat/JBoss.
 
- [1]: http://rackerhacker.com/wp-content/ktg.tgz
+ [1]: /wp-content/ktg.tgz

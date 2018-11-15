@@ -6,7 +6,7 @@ date: 2008-06-04T21:15:43+00:00
 url: /2008/06/04/screencast-write-a-php-script-to-query-mysql/
 enclosure:
   - |
-    http://rackerhacker.com/wp-content/screencasts/PHPandMySQL.mov
+    /wp-content/screencasts/PHPandMySQL.mov
     84839968
     video/quicktime
 dsq_thread_id:

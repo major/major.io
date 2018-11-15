@@ -20,7 +20,7 @@ I was sitting at my desk yesterday when I [saw a tweet][1] from [@LinuxFoundatio
 
 
 <div id="attachment_3709" style="width: 474px" class="wp-caption aligncenter">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg" alt="" title="linuxfoundation_linuxcon_tweet" width="464" height="163" class="size-full wp-image-3709" srcset="/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg 464w, /wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1-300x105.jpg 300w" sizes="(max-width: 464px) 100vw, 464px" /></a>
+  <a href="/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg"><img src="/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg" alt="" title="linuxfoundation_linuxcon_tweet" width="464" height="163" class="size-full wp-image-3709" srcset="/wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1.jpg 464w, /wp-content/uploads/2012/08/linuxfoundation_linuxcon_tweet1-300x105.jpg 300w" sizes="(max-width: 464px) 100vw, 464px" /></a>
 
   <p class="wp-caption-text">
     The tweet that got the ball rolling.
@@ -32,7 +32,7 @@ I've always wanted to attend [LinuxCon][3], so I fired back with a reply: "@linu
 
 
 <div id="attachment_3711" style="width: 464px" class="wp-caption aligncenter">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/08/linuxcon_i_won.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/08/linuxcon_i_won.jpg" alt="" title="linuxcon_i_won" width="454" height="191" class="size-full wp-image-3711" srcset="/wp-content/uploads/2012/08/linuxcon_i_won.jpg 454w, /wp-content/uploads/2012/08/linuxcon_i_won-300x126.jpg 300w" sizes="(max-width: 454px) 100vw, 454px" /></a>
+  <a href="/wp-content/uploads/2012/08/linuxcon_i_won.jpg"><img src="/wp-content/uploads/2012/08/linuxcon_i_won.jpg" alt="" title="linuxcon_i_won" width="454" height="191" class="size-full wp-image-3711" srcset="/wp-content/uploads/2012/08/linuxcon_i_won.jpg 454w, /wp-content/uploads/2012/08/linuxcon_i_won-300x126.jpg 300w" sizes="(max-width: 454px) 100vw, 454px" /></a>
 
   <p class="wp-caption-text">
     Woot!

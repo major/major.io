@@ -18,7 +18,7 @@ _This is a [copy of a post][1] I wrote for the [Rackspace Talent][2] blog. Much 
 
 * * *
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg" alt="sledgehammer hitting a keyboard" title="success with stress" width="199" height="300" class="alignright size-medium wp-image-2356" srcset="/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg 199w, /wp-content/uploads/2011/07/BustTheKeyboard.jpg 682w" sizes="(max-width: 199px) 100vw, 199px" />][3]Although Rackspace has one of the best work environments of any company I’ve worked for, there are plenty of opportunities to become stressed.</p>
+[<img src="/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg" alt="sledgehammer hitting a keyboard" title="success with stress" width="199" height="300" class="alignright size-medium wp-image-2356" srcset="/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg 199w, /wp-content/uploads/2011/07/BustTheKeyboard.jpg 682w" sizes="(max-width: 199px) 100vw, 199px" />][3]Although Rackspace has one of the best work environments of any company I’ve worked for, there are plenty of opportunities to become stressed.</p>
 
 Stress can come from a variety of sources. Some of the obvious ones involve dealing with outages or tight deadlines, but there are some that aren’t so obvious, such as maintaining the customers’ trust and interpersonal issues.
 
@@ -44,4 +44,4 @@ As always, I’m interested to hear your comments. Which stress-reduction strate
 
  [1]: http://rackertalent.com/rackers/success-with-stress/
  [2]: http://rackertalent.com/rackers/
- [3]: http://rackerhacker.com/wp-content/uploads/2011/07/BustTheKeyboard.jpg
+ [3]: /wp-content/uploads/2011/07/BustTheKeyboard.jpg

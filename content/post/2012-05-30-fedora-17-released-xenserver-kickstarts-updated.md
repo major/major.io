@@ -16,7 +16,7 @@ tags:
   - xenserver
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/05/its-a-beefy-miracle.png" alt="Fedora 17 Beefy Miracle kickstarts" title="Fedora 17 Beefy Miracle kickstarts" width="600" height="304" class="alignnone size-full wp-image-3383" srcset="/wp-content/uploads/2012/05/its-a-beefy-miracle.png 600w, /wp-content/uploads/2012/05/its-a-beefy-miracle-300x152.png 300w" sizes="(max-width: 600px) 100vw, 600px" />][1]
+[<img src="/wp-content/uploads/2012/05/its-a-beefy-miracle.png" alt="Fedora 17 Beefy Miracle kickstarts" title="Fedora 17 Beefy Miracle kickstarts" width="600" height="304" class="alignnone size-full wp-image-3383" srcset="/wp-content/uploads/2012/05/its-a-beefy-miracle.png 600w, /wp-content/uploads/2012/05/its-a-beefy-miracle-300x152.png 300w" sizes="(max-width: 600px) 100vw, 600px" />][1]
 
 Fedora 17 was released yesterday and you can [download it now][2]!
 
@@ -24,6 +24,6 @@ In addition, I made some edits to my [kickstarts repository on GitHub][3] to mat
 
 **Fedora & XenServer users:** Would posting an actual XVA file for download make it easier for you to get started? I've considered doing this from time to time since you can easily import the VM directly into XenServer as a template via the command line or XenCenter. Let me know if you'd find this useful and I should be able to get it done this week.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2012/05/its-a-beefy-miracle.png
+ [1]: /wp-content/uploads/2012/05/its-a-beefy-miracle.png
  [2]: http://fedoraproject.org/en/get-fedora-options
  [3]: https://github.com/rackerhacker/kickstarts

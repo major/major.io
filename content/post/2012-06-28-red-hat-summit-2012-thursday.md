@@ -26,7 +26,7 @@ Thursday has felt like the busiest, most jam-packed day of the week. The morning
 
 HP's message centered around converged cloud and that customers don't need an all or nothing solution. They can pull the best pieces from every type of hosting to do what's best for their business. The presentation from Intel was extremely heavy on the marketing side and didn't have much to do with Red Hat. Pauline Nist talked about how chip fabs operate, the heavy costs involved, and how their processors have changed over time. It felt a bit more like a sales pitch than anything else. She wrapped up with a pretty interesting time lapse video of the construction of a fab building and how the chips are made within the fab.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-300x224.jpg" alt="Jim Curry talking about OpenStack during the Red Hat Summit 2012 keynote" title="Jim Curry talking about OpenStack during the Red Hat Summit 2012 keynote" width="300" height="224" class="alignright size-medium wp-image-3539" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-300x224.jpg 300w, /wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-1024x764.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1][Brian Stevens][2] talked a lot about keeping things in the open, reducing vendor lock-in, and pushing for innovation from multiple sources. He talked a lot about [OpenStack][3] and how it allows people to deliver a consistent user experience on a very open platform.
+[<img src="/wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-300x224.jpg" alt="Jim Curry talking about OpenStack during the Red Hat Summit 2012 keynote" title="Jim Curry talking about OpenStack during the Red Hat Summit 2012 keynote" width="300" height="224" class="alignright size-medium wp-image-3539" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-300x224.jpg 300w, /wp-content/uploads/2012/06/Photo-Jun-28-10-04-07-1024x764.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1][Brian Stevens][2] talked a lot about keeping things in the open, reducing vendor lock-in, and pushing for innovation from multiple sources. He talked a lot about [OpenStack][3] and how it allows people to deliver a consistent user experience on a very open platform.
 
 There was even a video with [Rackspace's][4] own [Jim Curry][5] talking about the unique challenges for building a cloud orchestration layer and how OpenStack solves quite a few of those challenges.
 
@@ -39,7 +39,7 @@ I met up with the Beefy Miracle himself just before lunch for a photo op:
 
 
 <div id="attachment_3549" style="width: 234px" class="wp-caption aligncenter">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-224x300.jpg" alt="Major and the Beefy Miracle" title="Major and the Beefy Miracle" width="224" height="300" class="size-medium wp-image-3549" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-224x300.jpg 224w, /wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-764x1024.jpg 764w" sizes="(max-width: 224px) 100vw, 224px" /></a>
+  <a href="/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07.jpg"><img src="/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-224x300.jpg" alt="Major and the Beefy Miracle" title="Major and the Beefy Miracle" width="224" height="300" class="size-medium wp-image-3549" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-224x300.jpg 224w, /wp-content/uploads/2012/06/Photo-Jun-28-10-42-07-e1340945453851-764x1024.jpg 764w" sizes="(max-width: 224px) 100vw, 224px" /></a>
 
   <p class="wp-caption-text">
     Major and the Beefy Miracle
@@ -52,13 +52,13 @@ Another good session was entitled "Using an Open Source Framework to Catch the B
 
 The last session I attended was Sanjay Rao's "Tuning Red Hat Systems for Databases" and it was tremendous. He talked about the differences between OLTP/DSS workloads and how all kinds of settings affect their performance. He covered everything from power management to disk elevators to NUMA. There were what seemed like a million slides and all of them contained some really good information. I really wish he could have cracked the presentation into two sessions to allow for some more discussion around details. If you can find the slides from this session, be sure to look through them.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-300x224.jpg" alt="Fenway Park Press Box" title="Fenway Park Press Box" width="300" height="224" class="alignleft size-medium wp-image-3545" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-300x224.jpg 300w, /wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-1024x764.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][11]As the day ended, a line of buses pulled up in front of the convention center and we were whisked away to Fenway Park for a private party sponsored by IBM. One of my childhood dreams was to travel to Fenway Park (and Wrigley Field) and I can say I'm halfway done! The park was amazing and it was truly an experience to walk up next to the Green Monster and look up to see how tall it really is.
+[<img src="/wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-300x224.jpg" alt="Fenway Park Press Box" title="Fenway Park Press Box" width="300" height="224" class="alignleft size-medium wp-image-3545" srcset="/wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-300x224.jpg 300w, /wp-content/uploads/2012/06/Photo-Jun-28-20-02-29-1024x764.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][11]As the day ended, a line of buses pulled up in front of the convention center and we were whisked away to Fenway Park for a private party sponsored by IBM. One of my childhood dreams was to travel to Fenway Park (and Wrigley Field) and I can say I'm halfway done! The park was amazing and it was truly an experience to walk up next to the Green Monster and look up to see how tall it really is.
 
 The food was great and there was plenty of Sam Adams on tap. I ran into quite a few Red Hat folks and eventually found Thomas Cameron so I could thank him for the great SELinux session he ran on Wednesday. I'm going to take his slides back and share them at work to inspire some confidence around managing systems with SELinux enabled. A few twitter friends came up and we had some great conversations about cloud computing, OpenStack, and good beer. For anyone who attends class or works at Harvard, be sure to sync up with Philip Durbin. He's a smart guy and he was a lot of fun to talk to.
 
 Friday's the last day and then the trip home begins. I'll try to write up a wrap-up post tomorrow from the airport.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-10-04-07.jpg
+ [1]: /wp-content/uploads/2012/06/Photo-Jun-28-10-04-07.jpg
  [2]: https://www.redhat.com/about/company/management/bios/management-team-brian-stevens-bio
  [3]: http://openstack.org/
  [4]: http://rackspace.com/
@@ -68,4 +68,4 @@ Friday's the last day and then the trip home begins. I'll try to write up a wrap
  [8]: https://fedoraproject.org/wiki/Features/Syscall_Filters
  [9]: http://people.redhat.com/sgrubb/audit/
  [10]: http://summitblog.redhat.com/2012/03/12/st-laurent-norman-mark/
- [11]: http://rackerhacker.com/wp-content/uploads/2012/06/Photo-Jun-28-20-02-29.jpg
+ [11]: /wp-content/uploads/2012/06/Photo-Jun-28-20-02-29.jpg

@@ -54,7 +54,7 @@ If one of the summary points interests a recipient, they'll scan your e-mail for
 ### Plain text
 
 <div id="attachment_2483" style="width: 310px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2011/08/mutt-screenshots_001.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2011/08/mutt-screenshots_001-300x195.jpg" alt="" title="mutt-screenshots_001" width="300" height="195" class="size-medium wp-image-2483" srcset="/wp-content/uploads/2011/08/mutt-screenshots_001-300x195.jpg 300w, /wp-content/uploads/2011/08/mutt-screenshots_001.jpg 852w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/wp-content/uploads/2011/08/mutt-screenshots_001.jpg"><img src="/wp-content/uploads/2011/08/mutt-screenshots_001-300x195.jpg" alt="" title="mutt-screenshots_001" width="300" height="195" class="size-medium wp-image-2483" srcset="/wp-content/uploads/2011/08/mutt-screenshots_001-300x195.jpg 300w, /wp-content/uploads/2011/08/mutt-screenshots_001.jpg 852w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Users of mutt prefer plain text e-mails

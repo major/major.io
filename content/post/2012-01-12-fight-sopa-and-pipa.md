@@ -14,7 +14,7 @@ tags:
   - sysadmin
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/sopacantspelldns.jpg" alt="SOPA - M. Chairman, with all due respect, you can&#039;t even spell DNS." title="SOPA - M. Chairman, with all due respect, you can&#039;t even spell DNS." width="625" height="374" class="alignnone size-full wp-image-2817" srcset="/wp-content/uploads/2012/01/sopacantspelldns.jpg 625w, /wp-content/uploads/2012/01/sopacantspelldns-300x179.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" />][1]
+[<img src="/wp-content/uploads/2012/01/sopacantspelldns.jpg" alt="SOPA - M. Chairman, with all due respect, you can&#039;t even spell DNS." title="SOPA - M. Chairman, with all due respect, you can&#039;t even spell DNS." width="625" height="374" class="alignnone size-full wp-image-2817" srcset="/wp-content/uploads/2012/01/sopacantspelldns.jpg 625w, /wp-content/uploads/2012/01/sopacantspelldns-300x179.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" />][1]
 
 Get informed about what the US government is trying to accomplish with SOPA and PIPA. Get involved and do what you can to prevent it from moving any further.
 
@@ -28,7 +28,7 @@ Get informed about what the US government is trying to accomplish with SOPA and 
 
 You may need a little humor after all of that reading. Head on over to [Know Your Meme][9] (warning: NSFW language in certain areas) for a laugh.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2012/01/sopacantspelldns.jpg
+ [1]: /wp-content/uploads/2012/01/sopacantspelldns.jpg
  [2]: http://wordpress.org/news/2012/01/help-stop-sopa-pipa/
  [3]: http://reddit.com/r/sopa
  [4]: http://americancensorship.org/

@@ -10,7 +10,7 @@ categories:
   - Blog Posts
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg" alt="Moscone Center San Francisco" width="300" height="200" class="alignright size-medium wp-image-4072" srcset="/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg 300w, /wp-content/uploads/2013/03/5482.04-moscone-center_2.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]This year was my first opportunity to attend the RSA Conference and I learned an unbelievable amount inside and outside the sessions. Here's are my takeaways from the conference:
+[<img src="/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg" alt="Moscone Center San Francisco" width="300" height="200" class="alignright size-medium wp-image-4072" srcset="/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg 300w, /wp-content/uploads/2013/03/5482.04-moscone-center_2.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]This year was my first opportunity to attend the RSA Conference and I learned an unbelievable amount inside and outside the sessions. Here's are my takeaways from the conference:
 
 **Be flexible and raise awareness**
 
@@ -40,6 +40,6 @@ Overall, the conference was well worth the trip. The delegate pass price was qui
 
 As a side note, I noticed that security awareness among conference attendees was extremely poor. I'll save that for another post.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2013/03/5482.04-moscone-center_2.jpg
+ [1]: /wp-content/uploads/2013/03/5482.04-moscone-center_2.jpg
  [2]: http://en.wikipedia.org/wiki/Winn_Schwartau
  [3]: https://ae.rsaconference.com/US13/connect/sessionDetail.ww?SESSION_ID=1582

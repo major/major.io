@@ -22,7 +22,7 @@ The [guide to redundant cloud hosting][1] that I wrote recently will need some a
 
 
 <div id="attachment_1987" style="width: 310px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png"><img src="http://rackerhacker.com/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png" alt="DRBD, OCFS2, apache, varnish, and LVS" title="DRBD, OCFS2, apache, varnish, and LVS" width="300" height="300" class="size-full wp-image-1987" /></a>
+  <a href="/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png"><img src="/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png" alt="DRBD, OCFS2, apache, varnish, and LVS" title="DRBD, OCFS2, apache, varnish, and LVS" width="300" height="300" class="size-full wp-image-1987" /></a>
 
   <p class="wp-caption-text">
     Diagram of two web nodes with a replicated filesystem using DRBD & OCFS2

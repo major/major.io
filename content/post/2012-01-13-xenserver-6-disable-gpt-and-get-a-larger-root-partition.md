@@ -19,31 +19,31 @@ tags:
 
 I'd rather use [MBR partition tables][3] and get a larger root partition. If you want to make these adjustments in your XenServer 6 installation, follow these steps after booting into the [XenServer 6 install disc][4]:
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/01-300x220.jpg" alt="xenserver_install_01" title="xenserver_install_01" width="300" height="220" class="alignleft size-medium wp-image-2744" srcset="/wp-content/uploads/2012/01/01-300x220.jpg 300w, /wp-content/uploads/2012/01/01.jpg 672w" sizes="(max-width: 300px) 100vw, 300px" />][5]
+[<img src="/wp-content/uploads/2012/01/01-300x220.jpg" alt="xenserver_install_01" title="xenserver_install_01" width="300" height="220" class="alignleft size-medium wp-image-2744" srcset="/wp-content/uploads/2012/01/01-300x220.jpg 300w, /wp-content/uploads/2012/01/01.jpg 672w" sizes="(max-width: 300px) 100vw, 300px" />][5]
 
 When the installer initially boots, press F2 to access the advanced installation options.
 
  <br style="clear: both;" />
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/02-300x220.jpg" alt="xenserver_install_02" title="xenserver_install_02" width="300" height="220" class="alignleft size-medium wp-image-2747" srcset="/wp-content/uploads/2012/01/02-300x220.jpg 300w, /wp-content/uploads/2012/01/02.jpg 672w" sizes="(max-width: 300px) 100vw, 300px" />][6]
+[<img src="/wp-content/uploads/2012/01/02-300x220.jpg" alt="xenserver_install_02" title="xenserver_install_02" width="300" height="220" class="alignleft size-medium wp-image-2747" srcset="/wp-content/uploads/2012/01/02-300x220.jpg 300w, /wp-content/uploads/2012/01/02.jpg 672w" sizes="(max-width: 300px) 100vw, 300px" />][6]
 
 Type `shell` and press enter. The installer should begin booting into a pre-installation shell where you can make your adjustments.
 
 <br style="clear: both;" />
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/04-300x164.jpg" alt="" title="xenserver_install_04" width="300" height="164" class="alignleft size-medium wp-image-2761" srcset="/wp-content/uploads/2012/01/04-300x164.jpg 300w, /wp-content/uploads/2012/01/04.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][7]
+[<img src="/wp-content/uploads/2012/01/04-300x164.jpg" alt="" title="xenserver_install_04" width="300" height="164" class="alignleft size-medium wp-image-2761" srcset="/wp-content/uploads/2012/01/04-300x164.jpg 300w, /wp-content/uploads/2012/01/04.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][7]
 
 Once you've booted into the pre-installation shell, type `vi /opt/xensource/installer/constants.py` and press enter.
 
 <br style="clear: both;" />
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/05-300x164.jpg" alt="xenserver_install_05" title="xenserver_install_05" width="300" height="164" class="alignleft size-medium wp-image-2765" srcset="/wp-content/uploads/2012/01/05-300x164.jpg 300w, /wp-content/uploads/2012/01/05.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][8]
+[<img src="/wp-content/uploads/2012/01/05-300x164.jpg" alt="xenserver_install_05" title="xenserver_install_05" width="300" height="164" class="alignleft size-medium wp-image-2765" srcset="/wp-content/uploads/2012/01/05-300x164.jpg 300w, /wp-content/uploads/2012/01/05.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][8]
 
 Change `GPT_SUPPORT = True` to `GPT_SUPPORT = False` to disable GPT and use MBR partition tables. Adjust the value of `root_size` from 4096 (the default) to a larger number to get a bigger root partition. The size is specified in MB, so 4096 is 4GB. Save the file and exit `vim`.
 
 <br style="clear: both;" />
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/01/06-300x164.jpg" alt="" title="xenserver_install_06" width="300" height="164" class="alignleft size-medium wp-image-2768" srcset="/wp-content/uploads/2012/01/06-300x164.jpg 300w, /wp-content/uploads/2012/01/06.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][9]
+[<img src="/wp-content/uploads/2012/01/06-300x164.jpg" alt="" title="xenserver_install_06" width="300" height="164" class="alignleft size-medium wp-image-2768" srcset="/wp-content/uploads/2012/01/06-300x164.jpg 300w, /wp-content/uploads/2012/01/06.jpg 752w" sizes="(max-width: 300px) 100vw, 300px" />][9]
 
 Type `exit` and the installer should start.
 
@@ -72,8 +72,8 @@ Units = cylinders of 16065 * 512 = 8225280 bytes
  [2]: http://en.wikipedia.org/wiki/GUID_Partition_Table
  [3]: http://en.wikipedia.org/wiki/Master_boot_record
  [4]: http://www.citrix.com/lang/English/lp/lp_1688615.asp
- [5]: http://rackerhacker.com/wp-content/uploads/2012/01/01.jpg
- [6]: http://rackerhacker.com/wp-content/uploads/2012/01/02.jpg
- [7]: http://rackerhacker.com/wp-content/uploads/2012/01/04.jpg
- [8]: http://rackerhacker.com/wp-content/uploads/2012/01/05.jpg
- [9]: http://rackerhacker.com/wp-content/uploads/2012/01/06.jpg
+ [5]: /wp-content/uploads/2012/01/01.jpg
+ [6]: /wp-content/uploads/2012/01/02.jpg
+ [7]: /wp-content/uploads/2012/01/04.jpg
+ [8]: /wp-content/uploads/2012/01/05.jpg
+ [9]: /wp-content/uploads/2012/01/06.jpg

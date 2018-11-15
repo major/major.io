@@ -22,7 +22,7 @@ tags:
 
 ---
 <div id="attachment_1897" style="width: 298px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png"><img src="http://rackerhacker.com/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png" alt="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" title="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" width="288" height="248" class="size-full wp-image-1897" /></a>
+  <a href="/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png"><img src="/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png" alt="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" title="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" width="288" height="248" class="size-full wp-image-1897" /></a>
 
   <p class="wp-caption-text">
     Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost

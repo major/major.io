@@ -18,7 +18,7 @@ tags:
 ---
 Anyone who has used a 3G ExpressCard or USB stick knows how handy they can be when you need internet access away from home (and away from Wi-Fi). I've run into some situations recently where I needed to share my 3G connection with more than one device without using internet sharing on my MacBook Pro.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/12/phs300-300x300.jpg" alt="" title="phs300" width="300" height="300" class="alignright size-medium wp-image-2691" srcset="/wp-content/uploads/2011/12/phs300-300x300.jpg 300w, /wp-content/uploads/2011/12/phs300-150x150.jpg 150w, /wp-content/uploads/2011/12/phs300-1024x1024.jpg 1024w, /wp-content/uploads/2011/12/phs300.jpg 1500w" sizes="(max-width: 300px) 100vw, 300px" />][1]That led me to pick up a CradlePoint PHS-300 (discontinued by the manufacturer, but available from [Amazon][2] for about $35). It's compatible with my AT&T USBConnect Mercury (a.k.a. Sierra Wireless Compass 885/885U) USB stick.
+[<img src="/wp-content/uploads/2011/12/phs300-300x300.jpg" alt="" title="phs300" width="300" height="300" class="alignright size-medium wp-image-2691" srcset="/wp-content/uploads/2011/12/phs300-300x300.jpg 300w, /wp-content/uploads/2011/12/phs300-150x150.jpg 150w, /wp-content/uploads/2011/12/phs300-1024x1024.jpg 1024w, /wp-content/uploads/2011/12/phs300.jpg 1500w" sizes="(max-width: 300px) 100vw, 300px" />][1]That led me to pick up a CradlePoint PHS-300 (discontinued by the manufacturer, but available from [Amazon][2] for about $35). It's compatible with my AT&T USBConnect Mercury (a.k.a. Sierra Wireless Compass 885/885U) USB stick.
 
 Configuring the PHS-300 was extremely easy since I could just associate with the wireless network and enter the password printed on the bottom of the unit. However, getting the 3G stick to work was an immense pain. If you're trying to pair up these products, these steps should help:
 
@@ -57,6 +57,6 @@ If you'd like to talk to your USBConnect Mercury stick with minicom, just instal
 
 For other Sierra Wireless cards and adapters, there's a [helpful page][3] on Sierra Wireless' site for Eee PC users.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2011/12/phs300.jpg
+ [1]: /wp-content/uploads/2011/12/phs300.jpg
  [2]: http://www.amazon.com/CradlePoint-PHS300-Personal-Hotspot-Wireless/dp/B001212ELY
  [3]: http://mycusthelp.net/SIERRAWIRELESS/_cs/AnswerDetail.aspx?aid=7

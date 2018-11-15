@@ -36,7 +36,7 @@ Here are the list of winners:
 
 > If you are starting in the system administration area, don't praise yourself only because you (blindly?) fixed an issue or helped that friend with his/her server. Ask yourself: Why what I did fixed the issue? Why that was happening in the first place? And more importantly, how to avoid it for all eternity? You won't but it doesn't hurt to aim high.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/08/giftcert-preview.png" alt="ThinkGeek Gift Certificate" title="ThinkGeek Gift Certificate" width="186" height="120" class="alignleft size-full wp-image-2430" />][7]Even though it isn't a runner-up, [Paul's comment][8] certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order.
+[<img src="/wp-content/uploads/2011/08/giftcert-preview.png" alt="ThinkGeek Gift Certificate" title="ThinkGeek Gift Certificate" width="186" height="120" class="alignleft size-full wp-image-2430" />][7]Even though it isn't a runner-up, [Paul's comment][8] certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order.
 
 Once again, **a big thanks** goes out to everyone who submitted a comment. I'll reach out to the winners today and get the gift certificates sent out to them.
 
@@ -46,5 +46,5 @@ Once again, **a big thanks** goes out to everyone who submitted a comment. I'll 
  [4]: http://rackerhacker.com/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/#comment-23911
  [5]: http://rackerhacker.com/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/#comment-23921
  [6]: http://rackerhacker.com/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/#comment-23907
- [7]: http://rackerhacker.com/wp-content/uploads/2011/08/giftcert-preview.png
+ [7]: /wp-content/uploads/2011/08/giftcert-preview.png
  [8]: http://rackerhacker.com/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/#comment-23919

@@ -19,7 +19,7 @@ tags:
 ---
 Vitalie Cherpec contacted me back in May about his new hosted DNS offering, [Luadns][1]. I gave it a try and I offered to write a review about the service.
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/07/luadns.png" alt="Luadns Logo" title="Luadns Logo" width="171" height="47" class="alignright size-full wp-image-3646" />][2]**DISCLAIMER:** I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns. **In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response.**
+[<img src="/wp-content/uploads/2012/07/luadns.png" alt="Luadns Logo" title="Luadns Logo" width="171" height="47" class="alignright size-full wp-image-3646" />][2]**DISCLAIMER:** I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns. **In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response.**
 
 At first glance, Luadns looks like many of the other hosted DNS services out there. Their DNS servers run [tinydns][3] and there are globally distributed DNS servers in Germany (Hetzner), California (Linode), New Jersey (Linode), Netherlands (LeaseWeb), and Japan (KDDI). The latency to the two US locations were reasonable from my home in San Antonio (on Time Warner Cable, usually under 70ms) but the overseas servers had reasonable latency except for the server in Germany. I was regularly seeing round trip times of over 300ms to that server.
 
@@ -46,7 +46,7 @@ I'd like to see Luadns improve by getting a more reliable European location that
 Overall, I'd recommend Luadns for DNS hosting due to the convenience provided by GitHub/Bitbucket and the audit trail provided by both. Vitalie was easy to work with and he was quick to respond to any inquiry I sent. There's a free pricing tier - why not [give it a try][8]?
 
  [1]: http://www.luadns.com/
- [2]: http://rackerhacker.com/wp-content/uploads/2012/07/luadns.png
+ [2]: /wp-content/uploads/2012/07/luadns.png
  [3]: http://en.wikipedia.org/wiki/Djbdns
  [4]: http://www.luadns.com/how.html
  [5]: http://github.com

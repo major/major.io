@@ -23,11 +23,11 @@ My phone is currently rooted with CyanogenMod 10 installed. Some of these steps 
 
 Get started by installing [Titanium Backup][2] and [Logcat to UDP][3]. Once they're installed, you'll need to enable USB debugging by accessing **Settings > Developer Options**:
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/11/2012-11-04-14.31.59.jpg" alt="" title="2012-11-04 14.31.59" width="255" height="453" class="aligncenter size-full wp-image-3820" />][4]
+[<img src="/wp-content/uploads/2012/11/2012-11-04-14.31.59.jpg" alt="" title="2012-11-04 14.31.59" width="255" height="453" class="aligncenter size-full wp-image-3820" />][4]
 
 Now, run Titanium Backup and click the **Backup/Restore** tab at the top. Find the "Logcat to UDP 0.5" application and hold your finger on it for a few seconds. Press **Convert to system app** and wait for that to complete:
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2012/11/2012-11-04-14.36.18.jpg" alt="" title="2012-11-04 14.36.18" width="255" height="453" class="aligncenter size-full wp-image-3822" />][5]
+[<img src="/wp-content/uploads/2012/11/2012-11-04-14.36.18.jpg" alt="" title="2012-11-04 14.36.18" width="255" height="453" class="aligncenter size-full wp-image-3822" />][5]
 
 Now, run the **Logcat to UDP** application and configure it. Put in a server IP address for the remote syslog server and choose a remote port where your syslog server is listening. Be sure to check the **Filter log messages** box and put in a reasonable set of things to watch. My standard filter is:
 
@@ -70,6 +70,6 @@ If you're not seeing logs on your remote server, be sure to check the remote ser
  [1]: https://twitter.com/rackerhacker/status/261292543965274113
  [2]: https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup&hl=en
  [3]: https://play.google.com/store/apps/details?id=sk.madzik.android.logcatudp
- [4]: http://rackerhacker.com/wp-content/uploads/2012/11/2012-11-04-14.31.59.jpg
- [5]: http://rackerhacker.com/wp-content/uploads/2012/11/2012-11-04-14.36.18.jpg
+ [4]: /wp-content/uploads/2012/11/2012-11-04-14.31.59.jpg
+ [5]: /wp-content/uploads/2012/11/2012-11-04-14.36.18.jpg
  [6]: http://developer.android.com/tools/debugging/debugging-log.html#filteringOutput

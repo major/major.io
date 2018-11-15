@@ -23,7 +23,7 @@ tags:
   - sysadmin
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/09/selinux-penguin-125.png" alt="SELinux Penguin" title="SELinux Penguin" width="125" height="113" class="alignright size-full wp-image-2532" />][1]I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:
+[<img src="/wp-content/uploads/2011/09/selinux-penguin-125.png" alt="SELinux Penguin" title="SELinux Penguin" width="125" height="113" class="alignright size-full wp-image-2532" />][1]I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:
 
 ```
 [Thu Sep 08 03:23:40 2011] [error] [client 11.22.33.44] PHP Warning:
@@ -105,5 +105,5 @@ httpd_use_nfs --> off
 
 If you're interested in SELinux, a good way to get your feet wet is to head over to the CentOS Wiki and review their [SELinux Howtos][2]
 
- [1]: http://rackerhacker.com/wp-content/uploads/2011/09/selinux-penguin-125.png
+ [1]: /wp-content/uploads/2011/09/selinux-penguin-125.png
  [2]: http://wiki.centos.org/HowTos/SELinux

@@ -29,7 +29,7 @@ Before we get started, I really ought to drop this here:
   </p>
 </blockquote>
 
-[<img src="http://rackerhacker.com/wp-content/uploads/2011/11/Logo_fedoralogo-300x91.png" alt="" title="Logo_fedoralogo" width="300" height="91" class="alignright size-medium wp-image-2662" srcset="/wp-content/uploads/2011/11/Logo_fedoralogo-300x91.png 300w, /wp-content/uploads/2011/11/Logo_fedoralogo.png 600w" sizes="(max-width: 300px) 100vw, 300px" />][1]This begs the question: _When should you use another method to upgrade Fedora? What other methods are there?_
+[<img src="/wp-content/uploads/2011/11/Logo_fedoralogo-300x91.png" alt="" title="Logo_fedoralogo" width="300" height="91" class="alignright size-medium wp-image-2662" srcset="/wp-content/uploads/2011/11/Logo_fedoralogo-300x91.png 300w, /wp-content/uploads/2011/11/Logo_fedoralogo.png 600w" sizes="(max-width: 300px) 100vw, 300px" />][1]This begs the question: _When should you use another method to upgrade Fedora? What other methods are there?_
 
 You have a few other methods to get the upgrade done:
 
@@ -59,7 +59,7 @@ I haven't seen too many issues after cleaning up some daemons that didn't start 
 
 Good luck during your upgrades. Keep in mind that Fedora 15 could be EOL'd as early as May or June 20102 when Fedora 17 is released.
 
- [1]: http://rackerhacker.com/wp-content/uploads/2011/11/Logo_fedoralogo.png
+ [1]: /wp-content/uploads/2011/11/Logo_fedoralogo.png
  [2]: http://joesdatacenter.com/
  [3]: https://bugzilla.redhat.com/show_bug.cgi?id=504826
  [4]: http://fedoraproject.org/wiki/Upgrading_Fedora_using_yum#Fedora_15_-.3E_Fedora_16

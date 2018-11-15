@@ -20,7 +20,7 @@ While cleaning up a room at home in preparation for some new flooring, I found m
 I [mentioned this][1] yesterday on Twitter and [Jesse Newland from GitHub][2] came back with a good reply:
 
 <div id="attachment_3345" style="width: 459px" class="wp-caption aligncenter">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/05/emtopstweet.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/05/emtopstweet.jpg" alt="EMT, ops, oncall, incident management tweet" title="EMT, ops, oncall, incident management tweet" width="449" height="286" class="size-full wp-image-3345" srcset="/wp-content/uploads/2012/05/emtopstweet.jpg 449w, /wp-content/uploads/2012/05/emtopstweet-300x191.jpg 300w" sizes="(max-width: 449px) 100vw, 449px" /></a>
+  <a href="/wp-content/uploads/2012/05/emtopstweet.jpg"><img src="/wp-content/uploads/2012/05/emtopstweet.jpg" alt="EMT, ops, oncall, incident management tweet" title="EMT, ops, oncall, incident management tweet" width="449" height="286" class="size-full wp-image-3345" srcset="/wp-content/uploads/2012/05/emtopstweet.jpg 449w, /wp-content/uploads/2012/05/emtopstweet-300x191.jpg 300w" sizes="(max-width: 449px) 100vw, 449px" /></a>
 
   <p class="wp-caption-text">
     The tweet that inspired this post
@@ -47,7 +47,7 @@ The same can be said about working on large incidents affecting your customers. 
 You might miss some things or not complete certain tasks as well as you'd like to. You might slip and make things worse than they were before. One step backward and two steps forward is painful, but it's still progress. Keep your mind clear and focused so that you can use your knowledge, skills, and experience to pave a path out.
 
 <div id="attachment_3362" style="width: 250px" class="wp-caption alignleft">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/05/ambuance-back.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/05/ambuance-back.jpg" alt="" title="ambuance back" width="240" height="204" class="size-full wp-image-3362" /></a>
+  <a href="/wp-content/uploads/2012/05/ambuance-back.jpg"><img src="/wp-content/uploads/2012/05/ambuance-back.jpg" alt="" title="ambuance back" width="240" height="204" class="size-full wp-image-3362" /></a>
 
   <p class="wp-caption-text">
     Flickr via instantvantage
@@ -63,7 +63,7 @@ Lots of this can be carried over into maintaining servers. When a big problem oc
 For example, if your database cluster gets out of sync, think of the things you can do to reduce the amount of bad data coming in. Could you have your load balancer send traffic elsewhere? Could you disable your application until the database problem is solved? If you lose sight of what's causing you immediate pain, you may spend all day trying to fix the broken database cluster only to find that you have many multitudes more data to sort out due to your application running throughout the whole process.
 
 <div id="attachment_3366" style="width: 250px" class="wp-caption alignright">
-  <a href="http://rackerhacker.com/wp-content/uploads/2012/05/head_in_hands.jpg"><img src="http://rackerhacker.com/wp-content/uploads/2012/05/head_in_hands.jpg" alt="Head in hands" title="Head in hands" width="240" height="240" class="size-full wp-image-3366" srcset="/wp-content/uploads/2012/05/head_in_hands.jpg 240w, /wp-content/uploads/2012/05/head_in_hands-150x150.jpg 150w" sizes="(max-width: 240px) 100vw, 240px" /></a>
+  <a href="/wp-content/uploads/2012/05/head_in_hands.jpg"><img src="/wp-content/uploads/2012/05/head_in_hands.jpg" alt="Head in hands" title="Head in hands" width="240" height="240" class="size-full wp-image-3366" srcset="/wp-content/uploads/2012/05/head_in_hands.jpg 240w, /wp-content/uploads/2012/05/head_in_hands-150x150.jpg 150w" sizes="(max-width: 240px) 100vw, 240px" /></a>
 
   <p class="wp-caption-text">
     Flickr via jar0d
