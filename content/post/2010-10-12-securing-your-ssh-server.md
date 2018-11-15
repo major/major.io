@@ -22,7 +22,7 @@ tags:
   - sysadmin
 
 ---
-One of the most common questions that I see in [my favorite IRC channel][1] is: "How can I secure sshd on my server?" There's no single right answer, but most systems administrators combine multiple techniques to provide as much security as possible with the least inconvenience to the end user.
+One of the most common questions that I see in [my favorite IRC channel][1] is: &#8220;How can I secure sshd on my server?&#8221; There's no single right answer, but most systems administrators combine multiple techniques to provide as much security as possible with the least inconvenience to the end user.
 
 Here are my favorite techniques listed from most effective to least effective:
 
@@ -41,7 +41,8 @@ The iptables rules would look something like this:
 ```
 iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.20
 iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.25
-iptables -A INPUT -j DROP -p tcp --dport 22</pre>
+iptables -A INPUT -j DROP -p tcp --dport 22
+```
 
 **Use a non-standard port**
 
@@ -55,7 +56,8 @@ If you have only certain users and groups who need ssh access to your server, se
 
 ```
 AllowGroups developers
-AllowUsers jsmith pjohnson asamuels</pre>
+AllowUsers jsmith pjohnson asamuels
+```
 
 Keep in mind that any users or groups not included in the sshd_config won't be able to access your ssh server.
 
@@ -75,7 +77,7 @@ A quick search on Google will give you instructions on [fail2ban configuration][
 
 **Port knocking**
 
-Although [port knocking][13] is another tried and true method to prevent unauthorized access, it can be annoying to use unless you have users who are willing to jump through additional hoops. Port knocking involves a "knock" on an arbitrary port that then allows the ssh daemon to be exposed to the user who sent the original knock.
+Although [port knocking][13] is another tried and true method to prevent unauthorized access, it can be annoying to use unless you have users who are willing to jump through additional hoops. Port knocking involves a &#8220;knock&#8221; on an arbitrary port that then allows the ssh daemon to be exposed to the user who sent the original knock.
 
 [Linux Journal][14] has a great article explaining how port knocking works and it provides some sample configurations as well.
 

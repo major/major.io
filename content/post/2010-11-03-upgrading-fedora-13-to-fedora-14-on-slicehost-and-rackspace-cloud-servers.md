@@ -29,7 +29,8 @@ yum -y upgrade
 wget http://mirror.rackspace.com/fedora/releases/14/Fedora/x86_64/os/Packages/fedora-release-14-1.noarch.rpm
 rpm -Uvh fedora-release-14-1.noarch.rpm
 yum -y install yum
-yum -y upgrade</pre>
+yum -y upgrade
+```
 
 If you happen to be upgrading a 32-bit instance on Slicehost, simply replace `x86_64` with `i386` in the url shown above.
 

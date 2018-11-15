@@ -16,8 +16,6 @@ tags:
   - php
 
 ---
-[<img class="alignright" title="Boxcheck Nannerpus" src="http://cdn.cloudfiles.mosso.com/c8031/boxchecknannerpus.jpg" alt="" width="228" height="174" />][1]
-
 I've been a bit slow on new posts lately for two main reasons. First, I've been working hard with my [new position at Slicehost][2], ([I'm still with Rackspace][3]). Also, I've thrown out the old code for Boxcheck.com and I'm re-writing it from scratch.
 
 Most of you probably know that the first version of Boxcheck threw out some odd errors for some tests and caused confusion for those that depended on the results. The code is being overhauled to handle errors and special cases much more efficiently. I'm implementing multiple technologies on the back-end to make the interface simpler and easier to use. There may also be an API that folks can script against - but I haven't gotten that far yet.

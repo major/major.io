@@ -20,8 +20,7 @@ I recently picked up a [Magic Mouse][1] and discovered that I like almost all of
 
 A quick Google search revealed a [support discussion post][2] where users were discussing possible solutions. Someone suggested running this in the terminal:
 
-```
-
+<pre lang="html">defaults write -g com.apple.mouse.scaling -1</pre>
 
 That improved things a little for me, but it's not perfect. If you adjust the tracking speed in System Preferences after running this command, the acceleration curve will be reset to the default.
 

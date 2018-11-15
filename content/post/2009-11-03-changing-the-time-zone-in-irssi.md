@@ -17,14 +17,12 @@ tags:
 ---
 I usually set the time zone on my servers to UTC, but that makes it a bit confusing for me when I use irssi. If you have perl support built into irssi, you can run these commands to alter your time zone within irssi only:
 
-```
-/load perl
+<pre lang="html">/load perl
 /script exec $ENV{'TZ'}='(nameofyourtimezone)';</pre>
 
 For example, I'm in Central Time, so I'd use:
 
-```
-
+<pre lang="html">/script exec $ENV{'TZ'}='CST6CDT';</pre>
 
 To update the time in your status bar, simply /whois yourself and you should see the updated time zone. If you want more handy irssi tips, look no further than [irssi's documentation][1].
 

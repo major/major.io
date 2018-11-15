@@ -19,7 +19,8 @@ tags:
 I try to keep up with the latest kernel update from [kernel.org][1], but parsing through the output can be a pain if there are a lot of changes taking place. Here's a handy one-liner to make it easier to read:
 
 ```
-
+wget --quiet -O - http://www.kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.31.8 | grep -A 4 ^commit | grep -B 1 "^--" | grep -v "^--"
+```
 
 It should give you some output like this:
 
@@ -30,6 +31,7 @@ Linux 2.6.31.8
     SCSI: scsi_lib_dma: fix bug with dma maps on nested scsi objects
     SCSI: osd_protocol.h: Add missing #include
     SCSI: megaraid_sas: fix 64 bit sense pointer truncation
-    ..</pre>
+    ..
+```
 
  [1]: http://kernel.org/

@@ -25,8 +25,7 @@ However, I stumbled upon some documentation that will allow you to VNC to a VMWa
 
 **Step 3.** Add the following lines to the end of the .vmx file:
 
-```
-RemoteDisplay.vnc.enabled = "TRUE"
+<pre lang="html">RemoteDisplay.vnc.enabled = "TRUE"
 RemoteDisplay.vnc.password = "vncpassword"
 RemoteDisplay.vnc.port = "5900"</pre>
 

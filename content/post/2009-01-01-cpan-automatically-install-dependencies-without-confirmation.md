@@ -19,13 +19,11 @@ I enjoy using [CPAN][1] because it installs Perl modules with a simple interface
 
 To do this, simply bring up a CPAN shell:
 
-```
-
+<pre lang="html">perl -MCPAN -e shell</pre>
 
 Run these two commands in the CPAN shell:
 
-```
-o conf prerequisites_policy follow
+<pre lang="html">o conf prerequisites_policy follow
 o conf commit</pre>
 
 Now, exit the CPAN shell, start the CPAN shell, and try to install a module that you need. All dependencies will be automatically confirmed, downloaded and installed.

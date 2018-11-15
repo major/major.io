@@ -15,8 +15,7 @@ tags:
 ---
 I've tested this Debian etch to lenny upgrade process a few times so far, and it seems to be working well.
 
-```
- 'lenny']
+<pre lang="html">sudo vim /etc/apt/sources.list     [change 'etch' -> 'lenny']
 sudo aptitude update
 sudo aptitude install apt dpkg aptitude
 sudo aptitude full-upgrade</pre>

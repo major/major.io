@@ -14,12 +14,11 @@ categories:
 ---
 Sending signals to processes using `<a href="http://en.wikipedia.org/wiki/Kill_(command)">kill</a>` on a Unix system is not a new topic for most systems administrators, but I've been asked many times about the difference between `kill` and `kill -9`.
 
-Anytime you use `kill` on a process, you're actually sending the process a signal (in almost all situations - I'll get into that soon). Standard C applications have a [header file][1] that contains the steps that the process should follow if it receives a particular signal. You can get an entire list of the available signals on your system by checking the man page for `kill`.
+Anytime you use `kill` on a process, you're actually sending the process a signal (in almost all situations &#8211; I'll get into that soon). Standard C applications have a [header file][1] that contains the steps that the process should follow if it receives a particular signal. You can get an entire list of the available signals on your system by checking the man page for `kill`.
 
 Consider a command like this:
 
-```
-
+<pre lang="html">kill 2563</pre>
 
 This would send a signal called [SIGTERM][2] to the process. Once the process receives the notice, a few different things can happen:
 
@@ -31,8 +30,7 @@ The application can determine what it wants to do once a SIGTERM is received. Wh
 
 Most system administrators will usually resort to the more abrupt signal when an application doesn't respond to a SIGTERM:
 
-```
-
+<pre lang="html">kill -9 2563</pre>
 
 The `-9` tells the `kill` command that you want to send signal #9, which is called [SIGKILL][3]. With a name like that, it's obvious that this signal carries a little more weight.
 

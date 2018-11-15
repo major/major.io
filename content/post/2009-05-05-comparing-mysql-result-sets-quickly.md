@@ -12,8 +12,7 @@ categories:
 ---
 I found a really helpful tip on [Xaprb][1] for comparing result sets in MySQL:
 
-```
- pager md5sum -
+<pre lang="html">mysql> pager md5sum -
 PAGER set to 'md5sum -'
 mysql> select * from test;
 a09bc56ac9aa0cbcc659c3d566c2c7e4  -

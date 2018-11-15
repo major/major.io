@@ -21,15 +21,7 @@ tags:
   - vpn
 
 ---
-<div id="attachment_1897" style="width: 298px" class="wp-caption alignright">
-  <a href="/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png"><img src="/wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png" alt="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" title="Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost" width="288" height="248" class="size-full wp-image-1897" /></a>
-
-  <p class="wp-caption-text">
-    Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost
-  </p>
-</div>
-
-
+![diagram] Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost
 
 A recent [blog post from Mixpanel][1] inspired me to write a quick how-to for Fedora users on using OpenVPN to talk to instances privately in the Rackspace Cloud.
 
@@ -40,7 +32,8 @@ There's one important thing to keep in mind here: even though you'll be utilizin
 You'll only need the openvpn package on the server side:
 
 ```
-
+yum -y install openvpn
+```
 
 Throw down this simple configuration file into /etc/openvpn/server.conf:
 
@@ -67,22 +60,23 @@ status log/openvpn-status.log
 verb 3
 ```
 
-
 Here's a bit of explanation for some things you may want to configure:
 
-  * `push` - These are the routes that will be sent over the VPN that are pushed to the clients. If you don't use any IP addresses in the 10.0.0.0/8 network block in your office, you can probably use the commented out line above. However, you may want to be more specific with the routes if you happen to use any 10.0.0.0/8 space in your office.
-  * `server` - These are the IP addresses that the VPN server will assign and NAT out through the private interface. I've used a /24 above, but you may want to adjust the netmask if you have a lot of users making tunnels to your VPN endpoint.
-  * `ca, cert, key` - You will need to create a certificate authority as well as a certificate/key pair for your VPN endpoint. I already use [SimpleAuthority][2] on my Mac to manage some other CA's and certificates, but you can use [openvpn's easy-rsa][3] scripts if you wish. They are already included with the openvpn installation.
+* `push`: These are the routes that will be sent over the VPN that are pushed to the clients. If you don't use any IP addresses in the 10.0.0.0/8 network block in your office, you can probably use the commented out line above. However, you may want to be more specific with the routes if you happen to use any 10.0.0.0/8 space in your office.
+* `server`: These are the IP addresses that the VPN server will assign and NAT out through the private interface. I've used a /24 above, but you may want to adjust the netmask if you have a lot of users making tunnels to your VPN endpoint.
+* `ca, cert, key`: You will need to create a certificate authority as well as a certificate/key pair for your VPN endpoint. I already use [SimpleAuthority][2] on my Mac to manage some other CA's and certificates, but you can use [openvpn's easy-rsa][3] scripts if you wish. They are already included with the openvpn installation.
 
 Build your Diffie-Hellman parameters file:
 
 ```
-
+cd /etc/openvpn/easy-rsa/2.0/ && ./build-dh
+```
 
 Tell iptables that you want to NAT your VPN endpoint traffic out to all 10.x.x.x IP addresses on the private network:
 
 ```
-
+iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth1 -j MASQUERADE
+```
 
 The last step on the server side is to ensure that the kernel will forward packets from the VPN endpoint out through the private interface. Ensure that your /etc/sysctl.conf looks like this:
 
@@ -91,16 +85,17 @@ The last step on the server side is to ensure that the kernel will forward packe
 net.ipv4.ip_forward = 1
 ```
 
-
 Adjusting your sysctl.conf ensures that forwarding is enabled at boot time, but you'll need to enable it on your VPN endpoint right now:
 
 ```
-
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
 
 Start the openvpn server:
 
 ```
-
+/etc/init.d/openvpn start
+```
 
 If all is well, you should see openvpn listening on port 1194:
 
@@ -108,7 +103,6 @@ If all is well, you should see openvpn listening on port 1194:
 [root@lb2 ~]# netstat -ntlp | grep openvpn
 tcp        0      0 0.0.0.0:1194      0.0.0.0:*         LISTEN      2020/openvpn
 ```
-
 
 You'll need to configure a client to talk to your VPN now. This involves three steps: creating a new certificate/key pair for the client (same procedure as making your server certificates), signing the client's certificate with your CA certificate (same one that you used above to sign your server certificates), and then configuring your client application to access the VPN.
 
@@ -122,3 +116,4 @@ If you're using a Linux desktop, you may want to consider using the [built-in VP
  [4]: http://geraner.typepad.com/blog/2009/10/how-to-create-an-openvpn-connect-in-linux-version-2.html
  [5]: http://www.thesparklabs.com/viscosity/
  [6]: http://code.google.com/p/tunnelblick/
+ [diagram]: /wp-content/uploads/2010/11/openvpn-to-rackspace-cloud-diagram.png

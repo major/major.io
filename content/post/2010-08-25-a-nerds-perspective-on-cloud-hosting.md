@@ -18,13 +18,15 @@ tags:
 ---
 Let's go ahead and get this out of the way: <b style="color: #D42020;">The following post contains only my personal opinions. These are not the opinions of my employer and should not be considered as such.</b>
 
-* * *The term "cloud hosting" has become more popular over the past few years and it seems like everyone is talking about it. I'm often asked by customers and coworkers about what cloud hosting really is. Where does traditional dedicated hosting end and cloud begin? Do they overlap? Who needs cloud and who doesn't?</p>
+* * *
+
+The term "cloud hosting" has become more popular over the past few years and it seems like everyone is talking about it. I'm often asked by customers and coworkers about what cloud hosting really is. Where does traditional dedicated hosting end and cloud begin? Do they overlap? Who needs cloud and who doesn't?</p>
 
 You can't talk about cloud hosting without defining it first. When I think of "cloud", these are the things that come to mind:
 
-  * quickly add/remove resources with little or no lead time
-  * hosting platforms that allow for quick provisioning of highly available systems
-  * self-service adjustment of tangible and intangible resources that normally require human intervention
+* quickly add/remove resources with little or no lead time
+* hosting platforms that allow for quick provisioning of highly available systems
+* self-service adjustment of tangible and intangible resources that normally require human intervention
 
 That list may seem a bit vague at first, but try to let it sink in just a bit. Hosting applications in a "cloud" shouldn't mean that you must have a virtual instance running on Xen, KVM or VMWare, and it shouldn't mean that you must have an account with Rackspace Cloud, Amazon EC2, or Microsoft Azure. It means that your hosting operations are highly automated and you can rapidly allocate and deallocate resources for the requirements of your current projects.
 

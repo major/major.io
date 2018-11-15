@@ -26,12 +26,11 @@ If you're using Snow Leopard, you'll find that the current version of MacFusion 
 
 First, quit MacFusion.
 
-Second, open System Preferences and then open the MacFUSE pane. Check the "Show Beta Versions" box and click "Check For Updates". Go ahead and update MacFUSE.
+Second, open System Preferences and then open the MacFUSE pane. Check the &#8220;Show Beta Versions&#8221; box and click &#8220;Check For Updates&#8221;. Go ahead and update MacFUSE.
 
 Third, open up a terminal and do the following:
 
-```
-
+<pre lang="html">rm /Applications/Macfusion.app/Contents/PlugIns/sshfs.mfplugin/Contents/Resources/sshnodelay.so</pre>
 
 Your MacFusion installation should now be working on Snow Leopard. I've tested SSH and FTP connectivity so far, and they both appear to be working. Thanks again to Geoff for the fix!
 

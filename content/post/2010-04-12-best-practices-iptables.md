@@ -48,13 +48,11 @@ _For those folks working towards their RHCE, this is a huge help during the test
 
 Try to make your rules as specific as possible for your needs. For example, I like to allow ICMP pings on my servers so that I can run network tests against them. I could easily toss a rule into my INPUT chain that looks like this:
 
-```
-
+<pre lang="html">iptables -A INPUT -p icmp -m icmp -j ACCEPT </pre>
 
 However, I don't want to simply allow all ICMP traffic. There have been some ICMP flaws from time to time and I'd rather keep as low of a profile as possible. There are [many types of ICMP control messages][3], but I only want to allow echo requests:
 
-```
-
+<pre lang="html">iptables -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT</pre>
 
 This will allow echo requests (standard ICMP pings), but it won't explicitly allow any other ICMP traffic to pass through the firewall.
 
@@ -62,8 +60,7 @@ This will allow echo requests (standard ICMP pings), but it won't explicitly all
 
 If you have rules to cover edge cases that other administrators might not understand, consider using iptables comments by adding the following arguments to your rules:
 
-```
-
+<pre lang="html">-m comment --comment "limit ssh access"</pre>
 
 The comments will appear in the iptables output if you list the current rules. They will also appear in your saved iptables rules.
 

@@ -21,14 +21,12 @@ Then I stumbled upon the [WordPress documentation][2] that shows you how to requ
 
 Require encryption just for the /wp-admin/ login, but leave the rest of the administrative area on HTTP:
 
-```
-# Add this line to wp-config.php
+<pre lang="php"># Add this line to wp-config.php
 define('FORCE_SSL_LOGIN', true);</pre>
 
 To encrypt the login and the entire administrative area:
 
-```
-# Add this line to wp-config.php
+<pre lang="php"># Add this line to wp-config.php
 define('FORCE_SSL_ADMIN', true);</pre>
 
 Of course, for this to work, you'll need virtual hosts on ports 80 and 443 for your blog. Also, you'll need an SSL certificate for your blog. You can snag one from a [reputable provider][3] or [make your own][4].

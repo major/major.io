@@ -18,12 +18,10 @@ Sometimes we find ourselves in places where we don't trust the network that we'r
 
 Create a simple SOCKS proxy with SSH by using the `-D` flag:
 
-```
-
+<pre lang="html">ssh -D 2400 username@some.host.com</pre>
 
 That command will open up a SOCKS proxy on your workstation on port 2400. If you configure your application to use the local SOCKS proxy, any traffic using the proxy will be sent through an encrypted SSH connection to your remote server and out to the internet. Inbound traffic through the proxy is encrypted through the same connection.
 
 You can pair that with autossh to keep your proxy connected at all times:
 
-```
-
+<pre lang="html">autossh -f -M 20000 -D 2400 username@some.host.com -N</pre>

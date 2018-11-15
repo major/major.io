@@ -21,24 +21,20 @@ If you want your iptables rules automatically loaded every time your networking 
 
 First, get your iptables rules set up the way you like them. Once you've verified that everything works, save the rules:
 
-```
-
+<pre lang="html">iptables-save > /etc/firewall.conf</pre>
 
 Next, open up `/etc/network/if-up.d/iptables` in your favorite text editor and add the following:
 
-```
-#!/bin/sh
-iptables-restore < /etc/firewall.conf</pre>
+<pre lang="bash">#!/bin/sh
+iptables-restore &lt; /etc/firewall.conf</pre>
 
 Once you save it, make it executable:
 
-```
-
+<pre lang="html">chmod +x /etc/network/if-up.d/iptables</pre>
 
 Now, the rules will be restored each time your networking scripts start (or restart). If you need to save changes to your rules in the future, you can manually edit `/etc/firewall.conf` or you can adjust your rules live and run:
 
-```
-
+<pre lang="html">iptables-save > /etc/firewall.conf</pre>
 
 _Thanks to [Ant][1] for this handy tip._
 

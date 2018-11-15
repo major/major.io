@@ -19,8 +19,7 @@ I found a [great post][1] on [Overstimulate][2] about handling the rotation of r
 
 Toss this into /etc/logrotate.d/yourrailsapplication:
 
-```
-/var/www/yourrailsapp/log/*.log {
+<pre lang="html">/var/www/yourrailsapp/log/*.log {
   daily
   missingok
   rotate 30

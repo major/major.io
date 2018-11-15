@@ -22,12 +22,10 @@ Setting up new servers can be a pain if you're not able to clone them from a ser
 
 First, pull a list of RPM package by name only:
 
-```
-
+<pre lang="html">rpm -qa --queryformat='%{NAME}\n' | sort > server.txt</pre>
 
 Once you've done that on both servers, just use diff to compare the two files:
 
-```
-
+<pre lang="html">diff serverold.txt servernew.txt</pre>
 
  [1]: http://slicehost.com/

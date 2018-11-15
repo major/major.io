@@ -27,15 +27,13 @@ Here's how to get started:
 
 First, install the _tweetstream_ and _xmpp4r-simple_ gems:
 
-```
-
+<pre lang="html">gem install tweetstream xmpp4r-simple</pre>
 
 Next, you'll need a jabber account. You'll probably want to make one for the exclusive use of your jabber bot. I chose to make up a quick account at [ChatMask][3] for mine.
 
 The last step is to drop a copy of this script on your server:
 
-```
-#!/usr/bin/ruby
+<pre lang="ruby">#!/usr/bin/ruby
 require 'rubygems'
 require 'tweetstream/client'
 require 'tweetstream/hash'

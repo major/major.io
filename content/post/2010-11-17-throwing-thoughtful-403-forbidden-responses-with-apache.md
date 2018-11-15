@@ -22,13 +22,14 @@ While many of the users have reasonable usage patterns, there are some users tha
 
 I added the following to my icanhazip.com virtual host definition to get the message across to those users that abuse the service:
 
-```
+```apache
 ErrorDocument 403 "No can haz IP. Stop abusing this service. \
     Contact major at mhtx dot net for details."
 RewriteEngine On
 RewriteCond %{REMOTE_ADDR} ^12.23.34.45$ [OR]
 RewriteCond %{REMOTE_ADDR} ^98.87.76.65$
-RewriteRule .* nocanhaz [F]</pre>
+RewriteRule .* nocanhaz [F]
+```
 
 The users that are caught on the business end of these 403 responses will see something like this:
 
@@ -43,6 +44,5 @@ Content-Type: text/html; charset=iso-8859-1
 
 No can haz IP. Stop abusing this service. Contact major at mhtx dot net for details.
 ```
-
 
  [1]: http://icanhazip.com/

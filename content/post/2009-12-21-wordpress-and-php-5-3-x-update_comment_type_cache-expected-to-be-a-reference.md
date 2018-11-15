@@ -17,17 +17,20 @@ I upgraded a Fedora 11 instance to Fedora 12 and found the following error at th
 
 ```
 Parameter 1 to update_comment_type_cache() expected to be a reference,
-value given in wp-includes/plugin.php on line 166</pre>
+value given in wp-includes/plugin.php on line 166
+```
 
 The problem wasn't in a plugin, actually. It was within my theme's ([R755-light][1]) functions.php:
 
+```php
+function update_comment_type_cache(&$queried_posts) {
 ```
-
 
 The temporary fix is to remove the `&` from that line so it looks like this:
 
+```php
+function update_comment_type_cache($queried_posts) {
 ```
-
 
 After clearing out the WP Super Cache, the page was loading properly again. It turns out that the function actually calculates how many comments are available for a given post, so that functionality is working properly right now. A few theme authors are already releasing new versions to fix this bug, but my theme's author has not.
 

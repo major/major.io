@@ -18,8 +18,7 @@ tags:
 ---
 This problem has cropped up for me a few times, but I've always forgotten to make a post about it. If you're working with a large InnoDB table and you're updating, inserting, or deleting a large volume of rows, you may stumble upon this error:
 
-```
-
+<pre lang="html">ERROR 1206 (HY000): The total number of locks exceeds the lock table size</pre>
 
 InnoDB stores its lock tables in the main buffer pool. This means that the number of locks you can have at the same time is limited by the `innodb_buffer_pool_size` variable that was set when MySQL was started. By default, MySQL leaves this at 8MB, which is pretty useless if you're doing anything with InnoDB on your server.
 

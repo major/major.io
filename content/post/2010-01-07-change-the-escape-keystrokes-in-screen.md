@@ -21,8 +21,7 @@ Detaching from a screen session is done by pressing CTRL-A and then d (for detac
 
 Luckily, this can be changed in your `~/.screenrc`:
 
-```
-
+<pre lang="html">escape ^Ww</pre>
 
 With this change, you can press CTRL-W, then press d, and you'll detach from the screen session. For all of the screen options, run `man screen` on your local machine or review the [man page online][2].
 

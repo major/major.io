@@ -19,13 +19,17 @@ Luckily, a smart fellow by the name of George Theall created [update-nessusrc][2
 
 First, I ran a batch scan to make a basic .nessurc file:
 
-`# nessus -xqV -T txt localhost 1241 username password targets.txt results.txt`
+```
+# nessus -xqV -T txt localhost 1241 username password targets.txt results.txt
+```
 
 The **x** skips the SSL certificate warning, **q** enables batch mode, **V** prints verbose status messages to the screen and **-T txt** makes the report come out in a text format.
 
 Once it started, I pressed CTRL-C to stop it, and then I had a .nessusrc file ready to go. I [downloaded update-nessusrc][2] and ran it to enable all plugins:
 
-`# ./update-nessusrc-2.37 -ds -c "_all_" .nessusrc`
+```
+# ./update-nessusrc-2.37 -ds -c "_all_" .nessusrc
+```
 
 The **d** enables debug mode (and saves the new .nessusrc to a new file name), the **s** prints a summary, and **-c "\_all\_"** tells the script to enable all plugin categories. You now have a .nessurc file for use with batch scans that will utilize all of the available plugins.
 

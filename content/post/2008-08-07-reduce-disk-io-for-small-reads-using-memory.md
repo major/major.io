@@ -28,12 +28,16 @@ Stock 2.6.9 kernels have a dirty\_background\_ratio of 10% and a dirty\_ratio of
 
 If you want to play with the variables, just use your standard echo:
 
-`echo 5 > /proc/sys/vm/dirty_background_ratio<br />
-echo 60 > /proc/sys/vm/dirty_ratio`
+```
+echo 5 > /proc/sys/vm/dirty_background_ratio
+echo 60 > /proc/sys/vm/dirty_ratio
+```
 
 Once you've found the right setting, you can set it permanently by adding lines to your /etc/sysctl.conf:
 
-`vm.dirty_background_ratio = 5<br />
-vm.dirty_ratio = 60`
+```
+vm.dirty_background_ratio = 5
+vm.dirty_ratio = 60
+```
 
 If you have a reliable server with a good RAID card and power supply, you could set the dirty\_ratio to 100 and the dirty\_background_ratio to 1. This was recommended by a buddy of mine who runs quite a few servers running virtual machines.

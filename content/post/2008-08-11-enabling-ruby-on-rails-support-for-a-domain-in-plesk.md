@@ -20,16 +20,20 @@ Go to your domain that you want to adjust, and click **Setup**. Make sure the **
 
 Once you've done that, create an **.htaccess** file in the **httpdocs** directory with the following text inside:
 
-`RewriteEngine On<br />
-RewriteRule ^$ /public/index.html [L]<br />
-RewriteCond % !^/railsapp/public<br />
-RewriteRule ^(.*)$ /public/$1 [L]<br />
-RewriteCond % !-f<br />
-RewriteRule ^(.*)$ public/dispatch.fcgi/$1 [QSA,L]`
+```apache
+RewriteEngine On
+RewriteRule ^$ /public/index.html [L]
+RewriteCond % !^/railsapp/public
+RewriteRule ^(.*)$ /public/$1 [L]
+RewriteCond % !-f
+RewriteRule ^(.*)$ public/dispatch.fcgi/$1 [QSA,L]
+```
 
 Remove the **.htaccess** file within the **public** directory of your application and add a file called **dispatch.fcgi** to that directory which contains:
 
-`#!/usr/bin/ruby`
+```
+#!/usr/bin/ruby
+```
 
 You should be able to access your application at http://domain.com/railsapp/.
 

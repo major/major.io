@@ -17,20 +17,17 @@ tags:
 ---
 When I tried to do an automatic upgrade from WordPress 2.7.1 to 2.8 yesterday, it failed miserably. The files were all put in place, but when I tried to load `/wp-admin/upgrade.php`, this error popped up:
 
-```
-Fatal error: Call to undefined method wpdb::has_cap() in
+<pre lang="html">Fatal error: Call to undefined method wpdb::has_cap() in
 /path/to/wordpress/wp-admin/includes/schema.php on line 22</pre>
 
 I was perplexed at the error, so I restored from a backup and began [upgrading manually][1]. The manual upgrades have always worked well for me in the past, so I figured this would probably fix the problem. After the upgrade, I went to `/wp-admin/upgrade.php` and saw:
 
-```
-Fatal error: Call to undefined method wpdb::has_cap() in
+<pre lang="html">Fatal error: Call to undefined method wpdb::has_cap() in
 /path/to/wordpress/wp-admin/includes/schema.php on line 22</pre>
 
 **What the heck is going on?** I restored from a backup, tried the manual upgrade again, and it still failed. I took a look at the lines causing the problem in `schema.php`:
 
-```
-has_cap( 'collation' ) ) {
+<pre lang="php">if ( $wpdb->has_cap( 'collation' ) ) {
 	if ( ! empty($wpdb->charset) )
 		$charset_collate = "DEFAULT CHARACTER SET $wpdb->charset";
 	if ( ! empty($wpdb->collate) )
@@ -39,8 +36,7 @@ has_cap( 'collation' ) ) {
 
 I figured I could comment out the if statement and probably still be safe:
 
-```
-has_cap( 'collation' ) ) {
+<pre lang="php">// if ( $wpdb->has_cap( 'collation' ) ) {
 	if ( ! empty($wpdb->charset) )
 		$charset_collate = "DEFAULT CHARACTER SET $wpdb->charset";
 	if ( ! empty($wpdb->collate) )

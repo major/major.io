@@ -34,69 +34,60 @@ What about the rest of us who want multiple active VM's with simple replicated s
 
 Consider a situation where you want to run a WordPress blog on two VM's with load balancers out front. You'll probably want to use GlusterFS's replicated volume mode (RAID 1-ish) so that the same files are on both nodes all of the time. To get started, build two small Slicehost slices or Rackspace Cloud Servers. I'll be using Fedora 13 in this example, but the instructions for other distributions should be very similar.
 
-First things first - be sure to set a new root password and update all of the packages on the system. This should go without saying, but it's important to remember. We can clear out the default iptables ruleset since we will make a customized set later:
+First things first &#8212; be sure to set a new root password and update all of the packages on the system. This should go without saying, but it's important to remember. We can clear out the default iptables ruleset since we will make a customized set later:
 
-```
-# iptables -F
+<pre lang="html"># iptables -F
 # /etc/init.d/iptables save
 iptables: Saving firewall rules to /etc/sysconfig/iptables:        [  OK  ]</pre>
 
 GlusterFS communicates over the network, so we will want to ensure that traffic only moves over the private network between the instances. We will need to add the private IP's and a special hostname for each instance to `/etc/hosts` on both instances. I'll call mine `gluster1` and `gluster2`:
 
-```
-10.xx.xx.xx gluster1
+<pre lang="html">10.xx.xx.xx gluster1
 10.xx.xx.xx gluster2</pre>
 
 You're now ready to install the required packages on both instances:
 
-```
-
+<pre lang="html">yum install glusterfs-client glusterfs-server glusterfs-common glusterfs-devel</pre>
 
 Make the directories for the GlusterFS volumes on each instance:
 
-```
-
+<pre lang="html">mkdir -p /export/store1</pre>
 
 We're ready to make the configuration files for our storage volumes. Since we want the same files on each instance, we will use the `--raid 1` option. **This only needs to be run on the first node:**
 
-```
-# glusterfs-volgen --name store1 --raid 1 gluster1:/export/store1 gluster2:/export/store1
+<pre lang="html"># glusterfs-volgen --name store1 --raid 1 gluster1:/export/store1 gluster2:/export/store1
 Generating server volfiles.. for server 'gluster2'
 Generating server volfiles.. for server 'gluster1'
 Generating client volfiles.. for transport 'tcp'</pre>
 
 Once that's done, you'll have four new files:
 
-  * `booster.fstab` - you won't need this file
-  * `gluster1-store1-export.vol` - server-side configuration file for the first instance
-  * `gluster2-store1-export.vol` - server-side configuration file for the second instance
-  * `store1-tcp.vol` - client side configuration file for GlusterFS clients
+  * `booster.fstab` &#8211; you won't need this file
+  * `gluster1-store1-export.vol` &#8211; server-side configuration file for the first instance
+  * `gluster2-store1-export.vol` &#8211; server-side configuration file for the second instance
+  * `store1-tcp.vol` &#8211; client side configuration file for GlusterFS clients
 
 Copy the `gluster1-store1-export.vol` file to `/etc/glusterfs/glusterfsd.vol` on your first instance. Then, copy `gluster2-store1-export.vol` to `/etc/glusterfs/glusterfsd.vol` on your second instance. The `store1-tcp.vol` should be copied to `/etc/glusterfs/glusterfs.vol` on both instances.
 
 At this point, you're ready to start the GlusterFS servers on each instance:
 
-```
-
+<pre lang="html">/etc/init.d/glusterfsd start</pre>
 
 You can now mount the GlusterFS volume on both instances:
 
-```
-mkdir -p /mnt/glusterfs
+<pre lang="html">mkdir -p /mnt/glusterfs
 glusterfs /mnt/glusterfs/</pre>
 
 You should now be able to see the new GlusterFS volume in both instances:
 
-```
-# df -h /mnt/glusterfs
+<pre lang="html"># df -h /mnt/glusterfs
 Filesystem            Size  Used Avail Use% Mounted on
 /etc/glusterfs/glusterfs.vol
                       9.4G  831M  8.1G  10% /mnt/glusterfs</pre>
 
 As a test, you can create a file on your first instance and verify that your second instance can read the data:
 
-```
- /mnt/glusterfs/test.txt
+<pre lang="html">[root@gluster1 ~]# echo "We're testing GlusterFS" > /mnt/glusterfs/test.txt
 .....
 [root@gluster2 ~]# cat /mnt/glusterfs/test.txt
 We're testing GlusterFS</pre>

@@ -18,8 +18,7 @@ tags:
 ---
 If you use Fedora 11 in a virtualized environment, you may have seen this error recently if you've updated to apr-1.3.8-1:
 
-```
-[root@f11 ~]# /etc/init.d/httpd start
+<pre lang="html">[root@f11 ~]# /etc/init.d/httpd start
 Starting httpd: [Fri Aug 14 17:05:24 2009] [crit] (22)Invalid argument: alloc_listener: failed to get a socket for (null)
 Syntax error on line 134 of /etc/httpd/conf/httpd.conf:
 Listen setup failed
@@ -31,8 +30,7 @@ The issue is related to three kernel calls that are used in apr-1.3.8-1: accept4
 
 **Deprecated solution:** There is a [bug open][2] with the Fedora team, and there is a [temporary fix][3] available:
 
-```
-
+<pre lang="html">yum --enablerepo=updates-testing update apr</pre>
 
  [1]: https://bugzilla.redhat.com/show_bug.cgi?id=516331#c12
  [2]: https://bugzilla.redhat.com/show_bug.cgi?id=516331
