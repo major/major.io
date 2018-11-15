@@ -16,6 +16,7 @@ If something horrible happened to your Urchin license key or you need to replace
 
 ```
 cd /usr/local/urchin/util
-./uconf-driver action=set_parameter recnum=1 ct_serial=[NEW SERIAL] uconf-driver action=set_parameter recnum=1 ct_license=0</pre>
+./uconf-driver action=set_parameter recnum=1 ct_serial=[NEW SERIAL] uconf-driver action=set_parameter recnum=1 ct_license=0
+```
 
 For some reason, this blows up on some Urchin versions. If it doesn't work, then the command will actually remove your license entirely. Don't worry! You can log into Urchin's web interface and put in the new key without a problem.

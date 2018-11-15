@@ -14,14 +14,18 @@ Using the InnoDB engine can be tricky due to the ibdata files' rather untraditio
 
 If you've restored the ibdata files from a previous backup, or if you just toss the .frm files into a database directory, you might find this when you start MySQL:
 
-`ERROR 1016 (HY000): Can't open file: 'files.ibd' (errno: 1)`
+```
+ERROR 1016 (HY000): Can't open file: 'files.ibd' (errno: 1)
+```
 
 Any good MySQL DBA will find out what error #1 means:
 
-`# perror 1<br />
-OS error code   1:  Operation not permitted`
+```
+# perror 1
+OS error code   1:  Operation not permitted
+```
 
-This error sure sounds like a permission error. Go ahead and check your permissions in /var/lib/mysql, but you'll probably find that they're properly set.
+This error sure sounds like a permission error. Go ahead and check your permissions in `/var/lib/mysql`, but you'll probably find that they're properly set.
 
 **So, why is the operation not permitted?**
 
@@ -33,9 +37,11 @@ The easiest fix is to obtain a mysqldump backup of your original data. When you 
 
 If you don't have mysqldump backups, then you've just realized how important it is to have a flatfile backup of your databases. :-) If you can restore your original ibdata file that you backed up with your .frm's, you should be able to stop MySQL, put the old ibdata file and transaction logs back, and start MySQL. However, if multiple databases have InnoDB tables, you're going to be reverting them to their previous state. This could cause BIG problems if you're not careful. You will want to begin running this on a regular basis:
 
-`mysqldump -Q --opt -A --single-transaction -u username -p > mysqldump.sql`
+```
+mysqldump -Q --opt -A --single-transaction -u username -p > mysqldump.sql
+```
 
-> As a sidenote, this error utterly stumped this DBA. I've never run into this issue before, and I assumed that the server was supposed to have tablespaces per table, but I couldn't find any mention in the /etc/my.cnf file. I found the [solution on MySQL's site][3] after some intense Google action.
+As a sidenote, this error utterly stumped this DBA. I've never run into this issue before, and I assumed that the server was supposed to have tablespaces per table, but I couldn't find any mention in the /etc/my.cnf file. I found the [solution on MySQL's site][3] after some intense Google action.
 
  [1]: http://dev.mysql.com/doc/refman/5.0/en/multiple-tablespaces.html
  [2]: http://bignerdranch.com/

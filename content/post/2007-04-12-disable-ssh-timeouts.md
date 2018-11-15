@@ -20,7 +20,8 @@ To pretty much completely disable SSH timeouts, simply adjust the following dire
 ```
 TCPKeepAlive yes
 ClientAliveInterval 30
-ClientAliveCountMax 99999</pre>
+ClientAliveCountMax 99999
+```
 
 **EDIT:** Once that's changed, be sure to restart your ssh daemon.
 

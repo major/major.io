@@ -13,8 +13,10 @@ tags:
 ---
 If you have weird SSL errors and this one appears, you are trying to speak SSL to a daemon that doesn't understand it:
 
-`$ openssl s_client -connect 222.222.222.222:443<br />
-CONNECTED(00000003)<br />
-5057:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:s23_clnt.c:567:`
+```
+$ openssl s_client -connect 222.222.222.222:443
+CONNECTED(00000003)
+5057:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:s23_clnt.c:567:
+```
 
 If you get this with Apache, be sure that you have `SSLEngine On` in the applicable VirtualHost and be sure that mod_ssl is being loaded.

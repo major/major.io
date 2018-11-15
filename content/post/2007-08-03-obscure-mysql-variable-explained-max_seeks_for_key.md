@@ -20,7 +20,7 @@ This is MySQL's own documentation:
 
 > [5.2.3. System Variables][2]
 
-> Limit the assumed maximum number of seeks when looking up rows based on a key. The MySQL optimizer assumes that no more than this number of key seeks are required when searching for matching rows in a table by scanning an index, regardless of the actual cardinality of the index (see [Section 13.5.4.13, â€œSHOW INDEX Syntaxâ€][3]). By setting this to a low value (say, 100), you can force MySQL to prefer indexes instead of table scans.
+> Limit the assumed maximum number of seeks when looking up rows based on a key. The MySQL optimizer assumes that no more than this number of key seeks are required when searching for matching rows in a table by scanning an index, regardless of the actual cardinality of the index (see [Section 13.5.4.13, "SHOW INDEX Syntax"][3]). By setting this to a low value (say, 100), you can force MySQL to prefer indexes instead of table scans.
 
 Just in case you need a quick refresher on cardinality, here you go:
 

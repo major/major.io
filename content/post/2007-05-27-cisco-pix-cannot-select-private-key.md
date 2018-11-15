@@ -12,15 +12,19 @@ tags:
 ---
 If you receive the following error, your PIX does not have a key set up for use with SSH:
 
-`Type help or '?' for a list of available commands.<br />
-pix><br />
-Cannot select private key`
+```
+Type help or '?' for a list of available commands.
+pix>
+Cannot select private key
+```
 
 Regenerating the key can be done by executing the following:
 
-`conf t<br />
-ca zeroize rsa<br />
-ca generate rsa key 1024<br />
-ca save all<br />
-write mem<br />
-reload`
+```
+conf t
+ca zeroize rsa
+ca generate rsa key 1024
+ca save all
+write mem
+reload
+```

@@ -12,7 +12,9 @@ tags:
 ---
 If you want to adjust how long e-mails will spend in the qmail queue before they're bounced, simple set the queuelifetime:
 
-`# echo "432000" > /var/qmail/control/queuelifetime<br />
-# /etc/init.d/qmail restart`
+```
+# echo "432000" > /var/qmail/control/queuelifetime
+# /etc/init.d/qmail restart
+```
 
 The above example is for 5 days (qmail needs the time length in seconds). Just take the days and multiply by 86,400 seconds to get your result.

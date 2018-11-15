@@ -14,15 +14,19 @@ This error means that Plesk attempted to make a DNS change and reload named, but
 
 Check your /var/log/messages for lines like these:
 
-`named[xxx]: could not configure root hints from 'named.root': file not found<br />
-      named[xxx]: loading configuration: file not found<br />
-      named[xxx]: exiting (due to fatal error)<br />
-      named: named startup failed`
+```
+named[xxx]: could not configure root hints from 'named.root': file not found
+named[xxx]: loading configuration: file not found
+named[xxx]: exiting (due to fatal error)
+named: named startup failed
+```
 
 In this case, do a quick check for these RPM's and remove them if they are on the system:
 
-  * bind-chroot
-  * caching-nameserver
+* bind-chroot
+* caching-nameserver
 
-`# rpm -ev bind-chroot<br />
-# rpm -ev caching-nameserver`
+```
+# rpm -ev bind-chroot
+# rpm -ev caching-nameserver
+```

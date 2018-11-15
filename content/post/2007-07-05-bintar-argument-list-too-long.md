@@ -12,6 +12,8 @@ tags:
 ---
 If you find yourself stuck with over 30,000 files in a directory (text files in this example), packing them into a tar file can be tricky. You can get around it with this:
 
-`find . -name '*.txt' -print >/tmp/test.manifest<br />
-tar -cvzf textfiles.tar.gz --files-from /tmp/test.manifest<br />
-find . -name '*.txt' | xargs rm -v`
+```
+find . -name '*.txt' -print >/tmp/test.manifest
+tar -cvzf textfiles.tar.gz --files-from /tmp/test.manifest
+find . -name '*.txt' | xargs rm -v
+```

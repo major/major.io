@@ -14,13 +14,15 @@ Normally, Postfix will reject e-mail sent to non-existent users if a catchall is
 
 Add the following to /etc/postfix/main.cf:
 
-`luser_relay = root<br />
-local_recipient_maps =`
+```
+luser_relay = root
+local_recipient_maps =
+```
 
 Then reload the Postfix configuration:
 
-`# postfix reload`
+```
+# postfix reload
+```
 
-For more information:
-
-<http://www.postfix.org/rewrite.html#luser_relay>
+For more information: http://www.postfix.org/rewrite.html#luser_relay

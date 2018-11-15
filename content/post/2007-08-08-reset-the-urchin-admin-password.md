@@ -13,7 +13,10 @@ tags:
 ---
 Should you find yourself in the situation where you've forgotten the Urchin admin password, don't worry. It's easily reset with the following command:
 
-`cd util ./uconf-driver action=set_parameter  table=user name="(admin)"  ct_password=urchin`
+```
+cd util
+./uconf-driver action=set_parameter  table=user name="(admin)"  ct_password=urchin
+```
 
 This will set the password to 'urchin', and then you can log into Urchin's web interface and change it to a secure password. The credit for this fix goes to [Urchin's site][1].
 

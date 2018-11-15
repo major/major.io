@@ -18,4 +18,5 @@ Enabling submission port support for Postfix is really easy. To have postfix lis
 
 ```
 smtp      inet  n       -       n       -       -       smtpd
-submission inet n      -       n       -       -       smtpd</pre>
+submission inet n      -       n       -       -       smtpd
+```

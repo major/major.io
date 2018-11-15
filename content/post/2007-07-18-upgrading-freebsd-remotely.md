@@ -12,10 +12,12 @@ tags:
 ---
 It can be best to upgrade FreeBSD in an offline state, but if you do it online, you can do it like this:
 
-`# csup -g -L 2 -h cvsup5.us.freebsd.org /usr/share/examples/cvsup/standard-supfile<br />
-# cd /usr/src<br />
-# make buildworld<br />
-# make buildkernel<br />
-# make installkernel<br />
-# make installworld<br />
-# shutdown -r now`
+```
+# csup -g -L 2 -h cvsup5.us.freebsd.org /usr/share/examples/cvsup/standard-supfile
+# cd /usr/src
+# make buildworld
+# make buildkernel
+# make installkernel
+# make installworld
+# shutdown -r now
+```

@@ -14,9 +14,11 @@ Installing mysql on FreeBSD from ports is one of the oddest installations I've e
 
 Get it compiled:
 
-`# portinstall mysql50-server<br />
--- OR --<br />
-# make -C /usr/ports/databases/mysql50-server install clean`
+```
+# portinstall mysql50-server
+-- OR --
+# make -C /usr/ports/databases/mysql50-server install clean
+```
 
 Once it's installed, copy my-small.cnf, my-medium.cnf or my-huge.cnf to /usr/local/etc/my.cnf:
 
@@ -36,8 +38,10 @@ Last, change the ownership on MySQL's data directory:
 
 If you miss the last step, you'll get something ugly like this:
 
-`mysqld started<br />
-[ERROR] /usr/local/libexec/mysqld: Can't find file: './mysql/host.frm' (errno: 13)<br />
-[ERROR] /usr/local/libexec/mysqld: Can't find file: './mysql/host.frm' (errno: 13)<br />
-[ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: './mysql/host.frm' (errno: 13)<br />
-mysqld ended`
+```
+mysqld started
+[ERROR] /usr/local/libexec/mysqld: Can't find file: './mysql/host.frm' (errno: 13)
+[ERROR] /usr/local/libexec/mysqld: Can't find file: './mysql/host.frm' (errno: 13)
+[ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: './mysql/host.frm' (errno: 13)
+mysqld ended
+```

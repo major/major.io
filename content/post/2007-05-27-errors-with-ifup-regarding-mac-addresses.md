@@ -12,21 +12,27 @@ tags:
 ---
 If Redhat, CentOS, Fedora, or any other similar OS provides the following error:
 
-`# ifup eth1<br />
-Device eth1 has different MAC address than expected, ignoring.`
+```
+# ifup eth1
+Device eth1 has different MAC address than expected, ignoring.
+```
 
 Check that someone didn't put an IP in as a hardware address:
 
-`DEVICE=eth1<br />
-HWADDR=10.240.11.100<br />
-NETMASK=255.255.224.0<br />
-ONBOOT=yes<br />
-TYPE=Ethernet`
+```
+DEVICE=eth1
+HWADDR=10.240.11.100
+NETMASK=255.255.224.0
+ONBOOT=yes
+TYPE=Ethernet
+```
 
 If they did, then fix it with the correct configuration directive:
 
-`DEVICE=eth1<br />
-IPADDR=10.240.11.100<br />
-NETMASK=255.255.224.0<br />
-ONBOOT=yes<br />
-TYPE=Ethernet`
+```
+DEVICE=eth1
+IPADDR=10.240.11.100
+NETMASK=255.255.224.0
+ONBOOT=yes
+TYPE=Ethernet
+```

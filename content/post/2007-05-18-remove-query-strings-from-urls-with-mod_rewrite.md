@@ -13,6 +13,8 @@ tags:
 ---
 If you need to strip query strings from a URL with mod_rewrite, you can use a rewrite syntax such as the following:
 
-`RewriteEngine on<br />
-RewriteCond %{QUERY_STRING} "action=register" [NC]<br />
-RewriteRule ^/. http://www.domain.com/registerpage.html? [R,L]`
+```apache2
+RewriteEngine on
+RewriteCond %{QUERY_STRING} "action=register" [NC]
+RewriteRule ^/. http://www.domain.com/registerpage.html? [R,L]
+```

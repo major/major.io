@@ -17,7 +17,8 @@ If you find yourself with the ever-so-peculiar **500 OOPS** error from vsftpd wh
 
 ```
 500 OOPS: cannot change directory:/home/someuser
-500 OOPS: child died</pre>
+500 OOPS: child died
+```
 
 You can search for a solution in this order:
 
@@ -27,7 +28,8 @@ Does the user's home directory even exist? Check `/etc/passwd` for the current h
 
 ```
 # grep someuser /etc/passwd
-someuser:x:10001:2524::/var/www/someuser:/bin/bash</pre>
+someuser:x:10001:2524::/var/www/someuser:/bin/bash
+```
 
 In this case, does `/var/www/someuser` exist? If it doesn't, fix that and then move onto the next solution if you're still having problems.
 
@@ -42,6 +44,7 @@ If SELINUX is rearing its ugly head on the server, this can be a problem. Check 
 ```
 # setenforce
 Enforcing
-# setenforce 0</pre>
+# setenforce 0
+```
 
 Try to login over FTP again and you should have a success. If you want to turn off SELINUX entirely, adjust `/etc/sysconfig/selinux` (RHEL4) or `/etc/selinux/config` (RHEL5).

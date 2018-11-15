@@ -16,4 +16,5 @@ tags:
 As with most things, turning off SSLv2 in Lighttpd is much easier than in Apache. Toss the following line in your lighttpd.conf and you're good to go:
 
 ```
-
+ssl.use-sslv2 = "disable"
+```

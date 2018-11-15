@@ -12,9 +12,13 @@ tags:
 ---
 On some operating systems, postgresql is not configured to listen on the network. To enable the TCP/IP connections, edit the /var/lib/pgsql/data/postgresql.conf and change the following:
 
-`tcpip_socket = true<br />
-port = 5432`
+```
+tcpip_socket = true
+port = 5432
+```
 
 Restart postgresql and you should be all set:
 
-`/etc/init.d/postgresql restart`
+```
+/etc/init.d/postgresql restart
+```

@@ -14,7 +14,7 @@ In some situations, the system time zone will be different than the one in MySQL
 
 <pre>$ date
 Sun Jul  1 11:32:56 CDT 2007
-mysql&gt; show variables like '%time_zone%';
+mysql> show variables like '%time_zone%';
 +------------------+--------+
 | Variable_name    | Value  |
 +------------------+--------+
@@ -25,7 +25,7 @@ mysql&gt; show variables like '%time_zone%';
 
 If you find yourself in this situation, just restart MySQL and the situation should be fixed:
 
-<pre>mysql&gt; show variables like '%time_zone%';
+<pre>mysql> show variables like '%time_zone%';
 +------------------+--------+
 | Variable_name    | Value  |
 +------------------+--------+

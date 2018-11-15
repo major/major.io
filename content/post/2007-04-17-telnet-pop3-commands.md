@@ -13,12 +13,14 @@ tags:
 ---
 If you ever need to communicate with a POP3 server via telnet to test it, here's some commands you can use:
 
-`USER userid<br />
-PASS password<br />
-STAT<br />
-LIST<br />
-RETR msg#<br />
-TOP msg# #lines<br />
-DELE msg#<br />
-RSET<br />
-QUIT`
+```
+USER userid
+PASS password
+STAT
+LIST
+RETR msg#
+TOP msg# #lines
+DELE msg#
+RSET
+QUIT
+```

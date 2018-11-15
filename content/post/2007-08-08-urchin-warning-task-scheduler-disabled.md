@@ -16,20 +16,26 @@ You'll see the "Warning! Task scheduler disabled." error in bright red print in 
 
 To correct the problem, completely stop Urchin as root:
 
-`# /etc/init.d/urchin stop<br />
--- OR --<br />
-# /usr/local/urchin/bin/urchinctl stop`
+```
+# /etc/init.d/urchin stop
+-- OR --
+# /usr/local/urchin/bin/urchinctl stop
+```
 
 Now, change to the /usr/local/urchin/bin directory and run:
 
-`# ./urchinctl status`
+```
+# ./urchinctl status
+```
 
 If the Urchin webserver is running, but the task scheduler isn't (which is the most likely situation), run:
 
-`# ./urchinctl -s start<br />
-# ./urchinctl status<br />
-Urchin webserver is running<br />
-Urchin scheduler is running`
+```
+# ./urchinctl -s start
+# ./urchinctl status
+Urchin webserver is running
+Urchin scheduler is running
+```
 
 You should be all set. Credit for this fix goes to [Urchin's site][1].
 

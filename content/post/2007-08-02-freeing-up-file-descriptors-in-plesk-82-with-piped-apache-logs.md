@@ -13,8 +13,10 @@ tags:
 ---
 If you've used Plesk with a large amount of domains, you know what a pain running out of file descriptors can be. Web pages begin acting oddly, Horde throws wild errors, and even squirrelmail rolls over onto itself. Luckily, Plesk introduced piped Apache logs (along with lots of bugs!) in Plesk 8.2, and you can enable piped logs with the following commands:
 
-``# mysql -uadmin -p`cat /etc/psa/.psa.shadow` psa -e "replace into misc (param,val) values ('apache_pipelog', 'true');"<br />
-# /usr/local/psa/admin/sbin/websrvmng -v -a``
+```
+# mysql -uadmin -p`cat /etc/psa/.psa.shadow` psa -e "replace into misc (param,val) values ('apache_pipelog', 'true');"
+# /usr/local/psa/admin/sbin/websrvmng -v -a
+```
 
 Technically, these changes will allow Plesk to host about 900 sites, but this is still a little extreme in my opinion, even on the best hardware money can buy. If you find yourself passing the 900 mark, then you should probably follow this [SWSoft KB][1] article, adjust your FD_SETSIZE and recompile.
 

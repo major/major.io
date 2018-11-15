@@ -22,33 +22,41 @@ Additional IP's to add: 192.168.1.10, 192.168.1.15, and 192.168.1.20
 
 Add it to /etc/rc.conf first (so you don't forget). In this example, we have a Realtek card called rl0:
 
-`ifconfig_rl0="inet 192.168.1.5 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias0="inet 192.168.1.10 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias1="inet 192.168.1.15 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias2="inet 192.168.1.20 netmask 255.255.255.0"`
+```
+ifconfig_rl0="inet 192.168.1.5 netmask 255.255.255.0"
+ifconfig_rl0_alias0="inet 192.168.1.10 netmask 255.255.255.0"
+ifconfig_rl0_alias1="inet 192.168.1.15 netmask 255.255.255.0"
+ifconfig_rl0_alias2="inet 192.168.1.20 netmask 255.255.255.0"
+```
 
-> **UBER-IMPORTANT NOTE:** Start with the number 0 (zero) any time that you make IP alias configurations in /etc/rc.conf.
+**UBER-IMPORTANT NOTE:** Start with the number 0 (zero) any time that you make IP alias configurations in /etc/rc.conf.
 
-> This is **BAD** form:
->
-> `ifconfig_rl0="inet 192.168.1.5 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias1="inet 192.168.1.10 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias2="inet 192.168.1.15 netmask 255.255.255.0"<br />
-ifconfig_rl0_alias3="inet 192.168.1.20 netmask 255.255.255.0"`
->
-> If you do it the wrong way (which means starting alias with anything but alias0), only the primary comes up. Keep that in mind.
+This is **BAD** form:
+
+```
+ifconfig_rl0="inet 192.168.1.5 netmask 255.255.255.0"
+ifconfig_rl0_alias1="inet 192.168.1.10 netmask 255.255.255.0"
+ifconfig_rl0_alias2="inet 192.168.1.15 netmask 255.255.255.0"
+ifconfig_rl0_alias3="inet 192.168.1.20 netmask 255.255.255.0"
+```
+
+If you do it the wrong way (which means starting alias with anything but alias0), only the primary comes up. Keep that in mind.
 
 **Bringing up the new IP's:**
 
 You can do things the extraordinarily dangerous way:
 
-`# /etc/rc.network restart`
+```
+# /etc/rc.network restart
+```
 
 Or, you can follow the recommended steps:
 
-`# ifconfig rl0 alias 192.168.1.10 netmask 255.255.255.0<br />
-# ifconfig rl0 alias 192.168.1.15 netmask 255.255.255.0<br />
-# ifconfig rl0 alias 192.168.1.20 netmask 255.255.255.0`
+```
+# ifconfig rl0 alias 192.168.1.10 netmask 255.255.255.0
+# ifconfig rl0 alias 192.168.1.15 netmask 255.255.255.0
+# ifconfig rl0 alias 192.168.1.20 netmask 255.255.255.0
+```
 
 **Test your work:**
 

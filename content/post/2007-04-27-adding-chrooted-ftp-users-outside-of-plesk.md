@@ -14,17 +14,19 @@ tags:
 ---
 To add a chrooted FTP user outside of Plesk properly, you need to:
 
-  * Create the user with the home directory as the root of what they can access
-  * Give the user a password
-  * Make their primary group psacln
-  * Add them to the psaserv group as well
+* Create the user with the home directory as the root of what they can access
+* Give the user a password
+* Make their primary group psacln
+* Add them to the psaserv group as well
 
-`# useradd username -d /var/www/html/website/slideshow/<br />
-# echo "password" | passwd username --stdin<br />
-Changing password for user username.<br />
-passwd: all authentication tokens updated successfully.<br />
-# usermod -g psacln username<br />
-# usermod -G psaserv username<br />
-# lftp username:password@localhost<br />
-lftp username@localhost:/> cd ..<br />
-lftp username@localhost:/>`
+```
+# useradd username -d /var/www/html/website/slideshow/
+# echo "password" | passwd username --stdin
+Changing password for user username.
+passwd: all authentication tokens updated successfully.
+# usermod -g psacln username
+# usermod -G psaserv username
+# lftp username:password@localhost
+lftp username@localhost:/> cd ..
+lftp username@localhost:/>
+```

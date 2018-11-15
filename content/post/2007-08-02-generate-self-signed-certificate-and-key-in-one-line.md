@@ -14,4 +14,6 @@ tags:
 ---
 If you need a quick self-signed certificate, you can generate the key/certificate pair, then sign it, all with one openssl line:
 
-`openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.crt`
+```
+openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.crt
+```

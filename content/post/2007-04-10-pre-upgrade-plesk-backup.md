@@ -13,7 +13,9 @@ tags:
 ---
 Before you upgrade Plesk, it's always a good idea to make a backup and also make your ip and shell maps:
 
-`/usr/local/psa/bin/psadump -f /path/to/psa.dump --nostop --nostop-domain<br />
-/usr/local/psa/bin/psarestore -t -f /path/to/psa.dump -m ip_map -s shell_map`
+```
+/usr/local/psa/bin/psadump -f /path/to/psa.dump --nostop --nostop-domain
+/usr/local/psa/bin/psarestore -t -f /path/to/psa.dump -m ip_map -s shell_map
+```
 
 If you need to restore data, just drop the `-t` on the `psarestore` command.

@@ -16,12 +16,16 @@ Depending on your situation, it may be handy to redirect e-mails that have a cer
 
 First, enable header checks in /etc/postfix/main.cf:
 
-`header_checks = regexp:/etc/postfix/header_checks`
+```
+header_checks = regexp:/etc/postfix/header_checks
+```
 
 Then, create /etc/postfix/header_checks and add the following:
 
- `/^Subject: Cialis*/<br />
-REDIRECT someotheruser@domain.com`
+```
+/^Subject: Cialis*/
+REDIRECT someotheruser@domain.com
+```
 
 For a lot more information about header checks in postfix, review the documentation here:
 

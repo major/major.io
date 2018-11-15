@@ -14,14 +14,20 @@ tags:
 ---
 If you have an open_basedir restriction that is causing issues with a domain, you can remove the restriction easily. First, put the following text in /home/httpd/vhosts/[domain]/conf/vhost.conf:
 
-`<Directory /home/httpd/vhosts/[domain]/httpdocs><br />
-php_admin_value open_basedir none<br />
-</Directory>`
+```apache
+<Directory /home/httpd/vhosts/[domain]/httpdocs>
+php_admin_value open_basedir none
+</Directory>
+```
 
 If there was already a vhost.conf in the directory, then just reload Apache. Otherwise, run the magic wand:
 
-`/usr/local/psa/admin/bin/websrvmng -av`
+```
+/usr/local/psa/admin/bin/websrvmng -av
+```
 
 Then reload Apache:
 
-`/etc/init.d/httpd reload`
+```
+/etc/init.d/httpd reload
+```

@@ -12,8 +12,10 @@ tags:
 ---
 These two commands will enable SpamAssassin for all users on a Plesk 8 server:
 
-``# mysql -u admin -p`cat /etc/psa/.psa.shadow` psa<br />
-mysql> update mail set spamfilter = 'true' where postbox = 'true';<br />
-# /usr/local/psa/admin/bin/mchk --with-spam``
+```
+# mysql -u admin -p`cat /etc/psa/.psa.shadow` psa
+mysql> update mail set spamfilter = 'true' where postbox = 'true';
+# /usr/local/psa/admin/bin/mchk --with-spam
+```
 
 Thanks to Sean R. for this one!
