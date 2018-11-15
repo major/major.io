@@ -17,7 +17,8 @@ tags:
 My [daily work][1] requires me to work with a lot of customer data and much of it involves IP address allocations. If you find that you need to sort a list by IP address with GNU sort on a Linux server, just use these handy arguments for sort:
 
 ```
-
+sort -n -t . -k 1,1 -k 2,2 -k 3,3 -k 4,4 somefile.txt
+```
 
 _For this to work, the file you're sorting needs to have the IP address as the first item on each line._
 

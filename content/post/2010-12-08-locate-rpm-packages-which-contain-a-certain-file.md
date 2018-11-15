@@ -27,14 +27,16 @@ Consider this: you're following a guide online and the author says you need to r
 
 ```
 # deallocvt
--bash: deallocvt: command not found</pre>
+-bash: deallocvt: command not found
+```
 
 Perhaps it's in a package with `deallocvt` in the name:
 
 ```
 # yum search deallocvt
 Warning: No matches found for: deallocvt
-No Matches found</pre>
+No Matches found
+```
 
 This is where yum's `whatprovides` (`provides` works in recent yum versions) command works really well:
 
@@ -43,7 +45,8 @@ This is where yum's `whatprovides` (`provides` works in recent yum versions) com
 kbd-1.15-11.fc14.x86_64 : Tools for configuring the console
 Repo        : fedora
 Matched from:
-Filename    : /usr/bin/deallocvt</pre>
+Filename    : /usr/bin/deallocvt
+```
 
 From there, you can install the `kbd` RPM package via yum and you'll be on your way.
 
@@ -53,4 +56,5 @@ _Author's note: Regular readers will probably think this is pretty basic, but I 
 
 ```
 # rpm -qf /usr/bin/free
-procps-3.2.8-14.fc14.x86_64</pre>
+procps-3.2.8-14.fc14.x86_64
+```

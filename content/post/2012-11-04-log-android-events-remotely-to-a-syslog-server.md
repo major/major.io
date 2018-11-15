@@ -23,16 +23,17 @@ My phone is currently rooted with CyanogenMod 10 installed. Some of these steps 
 
 Get started by installing [Titanium Backup][2] and [Logcat to UDP][3]. Once they're installed, you'll need to enable USB debugging by accessing **Settings > Developer Options**:
 
-[<img src="/wp-content/uploads/2012/11/2012-11-04-14.31.59.jpg" alt="" title="2012-11-04 14.31.59" width="255" height="453" class="aligncenter size-full wp-image-3820" />][4]
+![4]
 
-Now, run Titanium Backup and click the **Backup/Restore** tab at the top. Find the "Logcat to UDP 0.5" application and hold your finger on it for a few seconds. Press **Convert to system app** and wait for that to complete:
+Now, run Titanium Backup and click the **Backup/Restore** tab at the top. Find the &#8220;Logcat to UDP 0.5&#8221; application and hold your finger on it for a few seconds. Press **Convert to system app** and wait for that to complete:
 
-[<img src="/wp-content/uploads/2012/11/2012-11-04-14.36.18.jpg" alt="" title="2012-11-04 14.36.18" width="255" height="453" class="aligncenter size-full wp-image-3822" />][5]
+![5]
 
 Now, run the **Logcat to UDP** application and configure it. Put in a server IP address for the remote syslog server and choose a remote port where your syslog server is listening. Be sure to check the **Filter log messages** box and put in a reasonable set of things to watch. My standard filter is:
 
 ```
-
+Sensors:S dalvikvm:S MP-Decision:S overlay:S RichInputConnection:S *:V
+```
 
 That filter says that I don't want to see data from the Sensors process (and some other chatty daemons) but I want verbose logs from everything else. The full details on logcat filters can be found in [Google's Android Developer Documentation][6].
 
@@ -43,7 +44,6 @@ When all that is done, you can begin receiving syslog data pretty quickly on a C
 $ModLoad imudp
 $UDPServerRun 514
 ```
-
 
 The standard port is 514, but be sure to change it to match your configuration in the Logcat to UDP application on your phone. Restart rsyslog and you should be able to see logs flowing in from your Android device:
 

@@ -28,13 +28,11 @@ Although the packages will contain the latest code available, rest assured that 
 
 The package versions utilize a standard format:
 
-```
-
+<pre lang="html">[package]-[version]-[git commit count]-[short commit hash]</pre>
 
 If you need to check the git log up to that particular commit, just run `git log`:
 
-```
-
+<pre lang="html">git log [short commit hash]</pre>
 
 Instructions for configuring `pip` or `easy_install` are provided [within the repository][1].
 

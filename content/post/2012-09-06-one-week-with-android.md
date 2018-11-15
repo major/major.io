@@ -19,7 +19,9 @@ After getting Android-envy at [LinuxCon][1], I decided to push myself out of my 
 
 **The Good Stuff**
 
-[<img src="/wp-content/uploads/2012/09/41621v6-max-250x250.jpg" alt="Android" title="Android" width="250" height="230" class="alignright size-full wp-image-3747" />][3]One of my coworkers summed up Android devices pretty succinctly: "This will be the first phone that feels like _your_ phone." That's what I like about it the most. I have so much more control over what my phone does and when it does it. It seems like there's a checkbox or option list for almost every possible setting on the phone. Everything feels customizable (to a reasonable point). Even trivial things like configuring home screens and adjusting Wi-Fi settings seem to be more user-friendly.
+![3]
+
+One of my coworkers summed up Android devices pretty succinctly: "This will be the first phone that feels like _your_ phone." That's what I like about it the most. I have so much more control over what my phone does and when it does it. It seems like there's a checkbox or option list for almost every possible setting on the phone. Everything feels customizable (to a reasonable point). Even trivial things like configuring home screens and adjusting Wi-Fi settings seem to be more user-friendly.
 
 The raw performance of the S3 handset is impressive. All of the menus are responsive and I rarely find myself waiting on the phone to do something. 4G LTE is extremely fast (but it does chow down on your battery) and it's hard to tell when I'm on Wi-Fi and when I'm not. Photo adjustments are instantaneous and moving around in Chrome is snappy.
 
@@ -35,7 +37,9 @@ Battery life on the S3 is well below what I expected but it sounds like it might
 
 Finally, the pre-installed Samsung software was absolutely terrible. There were background processes running that were eating the battery and the interface was hard to use. I'm not sure what their target audience is, but it made coming over from the iPhone pretty difficult.
 
-[<img src="/wp-content/uploads/2012/09/cm7_logo-150x150.png" alt="CyanogenMod" title="CyanogenMod" width="150" height="150" class="alignleft size-thumbnail wp-image-3751" srcset="/wp-content/uploads/2012/09/cm7_logo-150x150.png 150w, /wp-content/uploads/2012/09/cm7_logo-300x300.png 300w, /wp-content/uploads/2012/09/cm7_logo.png 480w" sizes="(max-width: 150px) 100vw, 150px" />][11]**To Flash or Not To Flash**
+![11]
+
+**To Flash or Not To Flash**
 
 Voiding the warranty and flashing the phone had me pretty nervous, but then again, I had quite a few coworkers who were experienced in the process and they had rarely experienced problems. Luckily, [there is a great wiki page][12] that walks you through the process. It's a bit technical but I found it reasonably straightforward to follow. One of the nightly builds caused some problems with the GPS functionality on the phone but that was corrected in a day or two with another nightly build.
 

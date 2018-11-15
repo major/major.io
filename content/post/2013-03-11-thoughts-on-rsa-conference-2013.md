@@ -10,7 +10,9 @@ categories:
   - Blog Posts
 
 ---
-[<img src="/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg" alt="Moscone Center San Francisco" width="300" height="200" class="alignright size-medium wp-image-4072" srcset="/wp-content/uploads/2013/03/5482.04-moscone-center_2-300x200.jpg 300w, /wp-content/uploads/2013/03/5482.04-moscone-center_2.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]This year was my first opportunity to attend the RSA Conference and I learned an unbelievable amount inside and outside the sessions. Here's are my takeaways from the conference:
+![1]
+
+This year was my first opportunity to attend the RSA Conference and I learned an unbelievable amount inside and outside the sessions. Here's are my takeaways from the conference:
 
 **Be flexible and raise awareness**
 

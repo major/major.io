@@ -20,7 +20,9 @@ tags:
 ---
 <em style="color: grey;">I originally wrote this post for the <a href="http://www.rackspace.com/blog/why-technical-people-should-blog-but-dont/">Rackspace Blog</a> but I decided to post it here in case some of my readers might have missed it. Please feel free to leave your comments at the end of the post.</em>
 
-* * *Sometimes people talk to me about posts I've written on my blog, or posts they wish I would write. At some point during the discussion, I'll almost always ask the person why they don't start up their own blog or contribute to someone else's. Very few people actually seem interested when I probe them about writing posts on technical topics.</p>
+* * *
+
+Sometimes people talk to me about posts I've written on my blog, or posts they wish I would write. At some point during the discussion, I'll almost always ask the person why they don't start up their own blog or contribute to someone else's. Very few people actually seem interested when I probe them about writing posts on technical topics.</p>
 
 My mother was always the one who told me (and her students) that everyone has a story. She said that writing could be therapeutic in ways you probably won't consider until you've written something that someone else enjoys. Just as software developers exist to write software for their users, writers exist to write stories for their readers. There's nothing that says technical people can't become excellent writers who inspire others to learn and share their knowledge with others.
 

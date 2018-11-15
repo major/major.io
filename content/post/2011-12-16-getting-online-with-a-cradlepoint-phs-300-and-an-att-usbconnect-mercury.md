@@ -18,23 +18,27 @@ tags:
 ---
 Anyone who has used a 3G ExpressCard or USB stick knows how handy they can be when you need internet access away from home (and away from Wi-Fi). I've run into some situations recently where I needed to share my 3G connection with more than one device without using internet sharing on my MacBook Pro.
 
-[<img src="/wp-content/uploads/2011/12/phs300-300x300.jpg" alt="" title="phs300" width="300" height="300" class="alignright size-medium wp-image-2691" srcset="/wp-content/uploads/2011/12/phs300-300x300.jpg 300w, /wp-content/uploads/2011/12/phs300-150x150.jpg 150w, /wp-content/uploads/2011/12/phs300-1024x1024.jpg 1024w, /wp-content/uploads/2011/12/phs300.jpg 1500w" sizes="(max-width: 300px) 100vw, 300px" />][1]That led me to pick up a CradlePoint PHS-300 (discontinued by the manufacturer, but available from [Amazon][2] for about $35). It's compatible with my AT&T USBConnect Mercury (a.k.a. Sierra Wireless Compass 885/885U) USB stick.
+![1]
+
+That led me to pick up a CradlePoint PHS-300 (discontinued by the manufacturer, but available from [Amazon][2] for about $35). It's compatible with my AT&T USBConnect Mercury (a.k.a. Sierra Wireless Compass 885/885U) USB stick.
 
 Configuring the PHS-300 was extremely easy since I could just associate with the wireless network and enter the password printed on the bottom of the unit. However, getting the 3G stick to work was an immense pain. If you're trying to pair up these products, these steps should help:
 
-  * Access the PHS-300's web interface
-  * Click the **Modem** tab
-  * Click **Settings** on the left
-  * Click **Always on** under **Reconnect Mode**
-  * Uncheck **Aggressive Modem Reset**
-  * Put the following into the **AT Dial Script** text box: <pre lang="html">ATE0V1&F&D2&C1S0=0
+* Access the PHS-300's web interface
+* Click the **Modem** tab
+* Click **Settings** on the left
+* Click **Always on** under **Reconnect Mode**
+* Uncheck **Aggressive Modem Reset**
+* Put the following into the **AT Dial Script** text box:
+
+```
+ATE0V1&F&D2&C1S0=0
 ATDT*99***1#
 ```
 
-
-  * Add `ISP.CINGULAR` to the **Access Point Name (APN)** box
-  * Flip the **Connect Mode** under **Dual WiMAX/3G Settings** to **3G Only**
-  * Scroll up and push **Save Settings** and then **Reboot Now**
+* Add `ISP.CINGULAR` to the **Access Point Name (APN)** box
+* Flip the **Connect Mode** under **Dual WiMAX/3G Settings** to **3G Only**
+* Scroll up and push **Save Settings** and then **Reboot Now**
 
 Once the PHS-300 reboots, the USB stick may light up, then turn off, and the display on the PHS-300 might show a red light for the 3G card. Wait about 10-15 seconds for the light to turn green. The lights on the 3G stick should be glowing and blinking as well.
 
@@ -47,13 +51,13 @@ Fri Dec 16 00:37:51 2011 : Initializing phone: ATE0V1&F&D2&C1S0=0
 Fri Dec 16 00:37:51 2011 : Dialing: ATDT*99***1#
 ```
 
-
 I didn't have the exact initialization string in the PHS-300 and that was the cause of the failure the entire time.
 
 If you'd like to talk to your USBConnect Mercury stick with minicom, just install minicom from macports (`sudo port -v install minicom`) and start it up like so:
 
 ```
-
+sudo minicom -D /dev/cu.sierra04
+```
 
 For other Sierra Wireless cards and adapters, there's a [helpful page][3] on Sierra Wireless' site for Eee PC users.
 

@@ -20,16 +20,17 @@ I stumbled upon dmenu after trying out the [i3 tiling window manager][3] and I w
 Installing dmenu on Fedora is as easy as:
 
 ```
-
+yum install dmenu
+```
 
 XFCE is my desktop environment of choice and the dmenu integration is pretty simple:
 
-  * **Applications Menu** > **Settings** > **Keyboard**
-  * Click the **Application Shortcuts** tab
-  * Click **Add**
-  * In the **Command** box, enter `/usr/bin/dmenu` and press **OK**
-  * On the next screen, enter a key combination to launch dmenu (I use LCTRL-SPACE)
-  * Click **OK**
+* **Applications Menu** > **Settings** > **Keyboard**
+* Click the **Application Shortcuts** tab
+* Click **Add**
+* In the **Command** box, enter `/usr/bin/dmenu` and press **OK**
+* On the next screen, enter a key combination to launch dmenu (I use LCTRL-SPACE)
+* Click **OK**
 
 From now on, you can press your key combination and start typing the name of any executable application in your path for dmenu to run. If you launch dmenu accidentally, just press ESC to close it.
 

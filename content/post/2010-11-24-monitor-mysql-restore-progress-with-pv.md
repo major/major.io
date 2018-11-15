@@ -26,18 +26,15 @@ The usage certainly isn't complicated:
 
 A great application of pv is when you're restoring large amounts of data into MySQL, especially if you're restoring data under duress due to an accidentally-dropped table or database. (Who hasn't been there before?) The standard way of restoring data is something we're all familiar with:
 
-```
-
+<pre lang="html"># mysql my_database &lt; database_backup.sql</pre>
 
 The downside of this method is that you have no idea how quickly your restore is working or when it might be done. You could always open another terminal to monitor the tables and databases as they're created, but that can be hard to follow.
 
 Toss in pv and that problem is solved:
 
-```
-# pv database_backup.sql | mysql my_database
+<pre lang="html"># pv database_backup.sql | mysql my_database
 96.8MB 0:00:17 [5.51MB/s] [==>                                ] 11% ETA 0:02:10
-```
-
+</pre>
 
 When it comes to MySQL, your restore rate is going to be different based on some different factors, so the ETA might not be entirely accurate.
 

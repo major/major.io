@@ -16,7 +16,9 @@ tags:
 ---
 You've probably noticed that the blog has slowed down a bit recently. Part of the slowdown is due to an uptick in work required to get [OpenStack][1] [Nova][2] and its related software up and running at [Rackspace][3] for [Cloud Servers][4] and another part of it is a severe case of writer's block. I threw out some questions on Twitter about the topics people would like to see covered in some new posts and a commonly requested topic was employment at Rackspace.
 
-[<img src="http://major.io/wp-content/uploads/2012/04/boromir_rackspace_job-300x176.jpg" alt="Boromir - One Does Not Simply Get a Job at Rackspace" title="Boromir - One Does Not Simply Get a Job at Rackspace" width="300" height="176" class="alignright size-medium wp-image-3287" srcset="/wp-content/uploads/2012/04/boromir_rackspace_job-300x176.jpg 300w, /wp-content/uploads/2012/04/boromir_rackspace_job.jpg 551w" sizes="(max-width: 300px) 100vw, 300px" />][5]_First things first, getting a job at Rackspace isn't easy._ We don't _intentionally_ make the process difficult. It's just that the work we do is unique and demanding.
+![5]
+
+_First things first, getting a job at Rackspace isn't easy._ We don't _intentionally_ make the process difficult. It's just that the work we do is unique and demanding.
 
 We work in a fast-paced, extremely dynamic team-centric environment. While some people in the company work in extremely small teams or sometimes all by themselves, that's pretty few and far between. We look for people who can survive and flourish in this atmosphere and we look for people who can do it all while working as a team. Even with all of this hustle and bustle, we still remember why we're doing it: **the pursuit of Fanatical Support for our customers**.
 
@@ -38,5 +40,5 @@ Leave your comments if you have any! I'll be glad to answer any questions you ha
  [2]: http://nova.openstack.org/
  [3]: http://rackspace.com/
  [4]: http://www.rackspace.com/cloud/cloud_hosting_products/servers/
- [5]: http://major.io/wp-content/uploads/2012/04/boromir_rackspace_job.jpg
+ [5]: /wp-content/uploads/2012/04/boromir_rackspace_job.jpg
  [6]: /2011/05/02/do-your-homework-before-a-technical-interview/

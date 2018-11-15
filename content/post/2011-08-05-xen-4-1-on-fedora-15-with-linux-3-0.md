@@ -22,30 +22,26 @@ tags:
 ---
 If you haven't noticed already, [full Xen dom0 support][1] was added in the [Linux 3.0 kernel][2]. This means there's no longer a need to drag patches forward from old kernels and work from special branches and git repositories when building a kernel for [dom0][3].
 
-Something else you might not have noticed is that the Fedora kernel team has [quietly slipped Linux 3.0][4] into Fedora 15's update channels in disguise. Click that link, scroll down, and you'll see _"Rebase to 3.0. Version reports as 2.6.40 for compatibility with older userspace."_ Although I'm not a fan of calling something what it isn't (2.6.40 doesn't exist on kernel.org), I can understand some of the reasoning behind the choice.
+Something else you might not have noticed is that the Fedora kernel team has [quietly slipped Linux 3.0][4] into Fedora 15's update channels in disguise. Click that link, scroll down, and you'll see _&#8220;Rebase to 3.0. Version reports as 2.6.40 for compatibility with older userspace.&#8221;_ Although I'm not a fan of calling something what it isn't (2.6.40 doesn't exist on kernel.org), I can understand some of the reasoning behind the choice.
 
 This change makes the Xen installation on Fedora 15 pretty trivial. To get started, update your kernel to the latest if you're not already on Fedora's 2.6.40 kernels:
 
-```
-
+<pre lang="html">yum -y upgrade kernel</pre>
 
 We need three more packages (quite a few dependencies will roll in with them):
 
-```
-
+<pre lang="html">yum -y install xen libvirt python-virtinst</pre>
 
 The xen package reels in the hypervisor itself along with libraries and command line tools (like xl and xm). Libvirt gives us easy access to VM management with the `virsh` command and python-virtinst gives us the handy `virt-install` command to make OS installations easy.
 
 Once those packages are installed, we need to make some adjustments in your grub configuration. Open `/boot/grub/menu.lst` in your text editor of choice and add something like this at the bottom:
 
-```
-title Fedora + Xen (2.6.40-4.fc15.x86_64)
+<pre lang="html">title Fedora + Xen (2.6.40-4.fc15.x86_64)
         root (hd0,1)
 	kernel /boot/xen.gz
         module /boot/vmlinuz-2.6.40-4.fc15.x86_64 ro root=/dev/sda1
         module /boot/initramfs-2.6.40-4.fc15.x86_64.img
-```
-
+</pre>
 
 Ensure that the `root (hd0,1)` is applicable to your system (adjust it if it isn't). Also, check the kernel version to ensure it matches your installed kernel and adjust the `root=` portion to match your root volume. Flip the `default` line to a value which will boot your new grub entry and ensure the timeout is set to a reasonable number if you need to temporarily switch back to your original grub entry at boot time. (Hey, we all make mistakes.)
 
@@ -55,25 +51,21 @@ Cross your fingers and reboot. If your system doesn't reboot properly, reboot it
 
 Log in and verify that you booted into the dom0:
 
-```
-[root@xenbox ~]# xm dmesg | head -n 5
+<pre lang="html">[root@xenbox ~]# xm dmesg | head -n 5
  __  __            _  _    _   _   ____     __      _ ____
  \ \/ /___ _ __   | || |  / | / | |___ \   / _| ___/ | ___|
   \  // _ \ '_ \  | || |_ | | | |__ __) | | |_ / __| |___ \
   /  \  __/ | | | |__   _|| |_| |__/ __/ _|  _| (__| |___) |
  /_/\_\___|_| |_|    |_|(_)_(_)_| |_____(_)_|  \___|_|____/
-```
-
+</pre>
 
 Once you're done with that, make sure libvirtd is running:
 
-```
-
+<pre lang="html">/etc/init.d/libvirtd start; chkconfig libvirtd on</pre>
 
 Try installing a VM:
 
-```
-virt-install \
+<pre lang="html">virt-install \
   --paravirt \
   --name=testvm \
   --ram=512 \
@@ -82,8 +74,7 @@ virt-install \
   --graphics vnc,port=5905 --noautoconsole \
   --autostart --noreboot \
   --location=http://mirrors.kernel.org/debian/dists/squeeze/main/installer-amd64/
-```
-
+</pre>
 
 You should have a VM installation underway pretty quickly and it will be visible via port 5905 on the local host. Enjoy the power and freedom of your brand new [type 1 hypervisor][8].
 

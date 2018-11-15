@@ -16,13 +16,9 @@ tags:
 ---
 I was surprised to see coverage about [icanhazip.com][1] on [Lifehacker][2] last Sunday and I was curious to know what effect the story would have on my site's overall traffic. [Dave Drager][3] wrote a great summary of what the site offers and how people can use it in their daily work. It's pretty obvious that icanhazip.com really only serves a niche group of internet users, but even I was surprised at the level of interest.
 
-<div id="attachment_2249" style="width: 208px" class="wp-caption alignright">
-  <a href="/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg"><img src="/wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg" alt="Lifehacker Effect on icanhazip.com" title="Lifehacker Effect on icanhazip.com" width="198" height="119" class="size-full wp-image-2249" /></a>
+![lifehacker_graph] icanhazip.com traffic data - March 2011
 
-  <p class="wp-caption-text">
-    icanhazip.com traffic data - March 2011
-  </p>
-</div>The graph on the right shows some recent traffic data from March 2011. The Lifehacker story was published around 7AM on March 27th in Australia, so I first started seeing a spike on the 26th (my server's time zone is UTC-5). The yellow bar is a count of the unique visits while the other bars count page views, hits and total bandwidth.
+The graph on the right shows some recent traffic data from March 2011. The Lifehacker story was published around 7AM on March 27th in Australia, so I first started seeing a spike on the 26th (my server's time zone is UTC-5). The yellow bar is a count of the unique visits while the other bars count page views, hits and total bandwidth.
 
 The count of unique visitors certainly increased (by about 10-11x), but the overall hits didn't increase by much. I'd imagine that most visitors accessed the site, noticed that it displayed their public IP, and then they went on their way. As I've said before, this site is easy to re-create and will really only serve a niche segment of internet users.
 
@@ -30,13 +26,14 @@ On most days, I'll receive a very high number of hits from a relatively small nu
 
 Here's a bit of trivia about the site for those who are interested:
 
-  * Almost 40% of the traffic to the site is from Eastern European and Asian countries
-  * The average user on the site generates about 45 hits per day
-  * Linux users make up 91% of the traffic on the site (based on user agent strings)
-  * Over 88% of the hits to the site are requests made with curl or wget
-  * Most traffic is received between 4-5PM CDT
-  * Almost 98% of the visitors who reach the site do so via a direct link without a referrer
+* Almost 40% of the traffic to the site is from Eastern European and Asian countries
+* The average user on the site generates about 45 hits per day
+* Linux users make up 91% of the traffic on the site (based on user agent strings)
+* Over 88% of the hits to the site are requests made with curl or wget
+* Most traffic is received between 4-5PM CDT
+* Almost 98% of the visitors who reach the site do so via a direct link without a referrer
 
  [1]: http://rackerhacker.com/icanhazip-com-faq/
  [2]: http://www.lifehacker.com.au/2011/03/find-your-public-ip-anywhere-with-icanhazip-com/
  [3]: http://www.lifehacker.com.au/author/dave-drager/
+ [lifehacker_graph]: /wp-content/uploads/2011/03/icanhazip_lifehacker_traffic.jpg

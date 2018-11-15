@@ -19,7 +19,8 @@ E-mailing a binary e-mail attachment from a Linux server has always been difficu
 Someone finally showed me a simple, fool-proof method to send binary attachments reliably from various Linux systems:
 
 ```
-
+echo "Cheeseburger" | mutt -s "OHAI!" -a lolcat.jpg -- recipient@domain.com
+```
 
 If you e-mail doesn't arrive, remember to consider the size of the file that you're sending and the restrictions of the receiver's e-mail server. Keep in mind that encoding the binary attachment will cause the size of the e-mail to creep up a bit more (about 1.37x plus a little extra with [Base64][1]).
 

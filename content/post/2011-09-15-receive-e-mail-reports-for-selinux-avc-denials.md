@@ -31,11 +31,12 @@ The purpose behind setroubleshoot is to let users know when access has been deni
 Install a few packages to get started:
 
 ```
-
+yum install setroubleshoot{-server,-plugins,-doc}
+```
 
 Open `/etc/setroubleshoot/setroubleshoot.conf` in your favorite text editor and adjust the `[email]` section to fit your server:
 
-```
+```ini
 recipients_filepath = /var/lib/setroubleshoot/email_alert_recipients
 smtp_port = 25
 smtp_host = localhost
@@ -43,16 +44,17 @@ from_address = selinux@myserver.com
 subject = [MyServer] SELinux AVC Alert
 ```
 
-
 You could probably see it coming, but you need to put the e-mail addresses for your recipients into `/var/lib/setroubleshoot/email_alert_recipients`:
 
 ```
-
+echo "selinux@mycompany.com" >> /var/lib/setroubleshoot/email_alert_recipients
+```
 
 You'll notice that setroubleshoot doesn't have an init script and it doesn't exist in systemd in Fedora 15. It runs through the [dbus-daemon][2] and a quick bounce of the messagebus via its init script brings in the necessary components to run setroubleshoot:
 
 ```
-
+service messagebus restart
+```
 
 A really easy (and safe) test is to ask sshd to bind to a non-standard port. Simply define an additional port on in your `/etc/ssh/sshd_config` like this:
 
@@ -60,7 +62,6 @@ A really easy (and safe) test is to ask sshd to bind to a non-standard port. Sim
 Port 22
 Port 222
 ```
-
 
 When you restart sshd, it will bind to port 22 with success, but it won't be allowed to bind to port 222 (since that's blocked by SELinux as a non-standard port for the `ssh_port_t` port type). **DON'T WORRY!** Your sshd server will still be listening on port 22. If you wait a moment, you'll get an e-mail (perhaps two) that not only notify you of the denial, but they make suggestions for how to fix it:
 
@@ -76,21 +77,15 @@ Do
    where PORT_TYPE is one of the following: ...
 ```
 
-
 For this particular example, the quick fix would be to run:
 
 ```
 semanage port -a -t ssh_port_t -p tcp 222
 ```
 
-
 * * *
 
-_
-
-Much of this post's information was gathered from the detailed documentation on [Fedora's setroubleshoot User's FAQ][3] as well as [Dan Walsh's setroubleshoot blog post][4].
-
-_ </p>
+*Much of this post's information was gathered from the detailed documentation on [Fedora's setroubleshoot User's FAQ][3] as well as [Dan Walsh's setroubleshoot blog post][4].*
 
  [1]: https://fedorahosted.org/setroubleshoot/wiki/SETroubleShoot%20Overview
  [2]: http://en.wikipedia.org/wiki/D-Bus

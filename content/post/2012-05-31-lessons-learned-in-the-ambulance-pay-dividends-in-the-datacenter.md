@@ -46,14 +46,6 @@ The same can be said about working on large incidents affecting your customers. 
 
 You might miss some things or not complete certain tasks as well as you'd like to. You might slip and make things worse than they were before. One step backward and two steps forward is painful, but it's still progress. Keep your mind clear and focused so that you can use your knowledge, skills, and experience to pave a path out.
 
-<div id="attachment_3362" style="width: 250px" class="wp-caption alignleft">
-  <a href="/wp-content/uploads/2012/05/ambuance-back.jpg"><img src="/wp-content/uploads/2012/05/ambuance-back.jpg" alt="" title="ambuance back" width="240" height="204" class="size-full wp-image-3362" /></a>
-
-  <p class="wp-caption-text">
-    Flickr via instantvantage
-  </p>
-</div>
-
 **Triage, triage, triage**
 
 Going back to the multi-car collision scenario, you're well aware that you won't be able to take care of everyone at once. This is where skillful triaging is key. Find the people who are in the most dire situations and treat them first. Although it seems counterproductive, you may have to pass over the people who are hurt so badly that they have little chance of survival. Spending additional time with those people may cause patients with treatable conditions to deteriorate further unnecessarily. It may sound callous, but I'd rather have a few people with serious injuries get treated than lose all of them while I'm treating someone who is essentially near death.

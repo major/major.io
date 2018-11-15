@@ -27,7 +27,6 @@ $ sudo vpnc
 vpnc was built without openssl: Can't do hybrid or cert mode.
 ```
 
-
 This will cause some problems if you're trying to use VPN with a Cisco VPN concentrator which uses SSL VPN technology. The fix is an easy one. You'll find a variant within the portfile itself:
 
 ```
@@ -40,7 +39,6 @@ livecheck.type  regex
 livecheck.url   ${homepage}
 livecheck.regex "${name}-(\\d+(?:\\.\\d+)*)${extract.suffix}"
 ```
-
 
 Simply specify that you want the **hybrid_cert** variant on the command line when you install vpnc and you should be all set:
 
@@ -55,7 +53,8 @@ $ sudo port install vpnc +hybrid_cert
 --->  No broken files found.
 $ sudo vpnc
 unknown host `<gateway>'
-</gateway></pre>
+</gateway>
+```
 
  [1]: http://www.unix-ag.uni-kl.de/~massar/vpnc/
  [2]: http://www.macports.org/

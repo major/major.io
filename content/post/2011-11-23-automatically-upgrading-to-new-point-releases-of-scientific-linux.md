@@ -21,7 +21,8 @@ When you install Scientific Linux, it will keep you on the same point release th
 Getting it to behave like Red Hat Enterprise Linux and CentOS is a painless process. Just install the _sl6x_ repository with `yum`:
 
 ```
-
+yum install yum-conf-sl6x
+```
 
 Check to ensure that you're getting updates from the new repository:
 
@@ -34,4 +35,3 @@ sl6x               Scientific Linux 6x - x86_64                           6,251
 sl6x-security      Scientific Linux 6x - x86_64 - security updates          548
 repolist: 13,598
 ```
-

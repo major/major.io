@@ -23,7 +23,9 @@ tags:
   - sysadmin
 
 ---
-[<img src="/wp-content/uploads/2011/09/selinux-penguin-125.png" alt="SELinux Penguin" title="SELinux Penguin" width="125" height="113" class="alignright size-full wp-image-2532" />][1]I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:
+![1]
+
+I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:
 
 ```
 [Thu Sep 08 03:23:40 2011] [error] [client 11.22.33.44] PHP Warning:
@@ -32,14 +34,13 @@ the current setting of session.save_path is correct (127.0.0.1:11211)
 in Unknown on line 0
 ```
 
-
 I ran through my usual list of checks:
 
-  * netstat showed memcached bound to the correct ports/interfaces
-  * memcached was running and I could reach it via telnet
-  * memcached-tool could connect and pull stats from memcached
-  * double-checked my php.ini
-  * tested memcached connectivity via a PHP and ruby script - they worked
+* netstat showed memcached bound to the correct ports/interfaces
+* memcached was running and I could reach it via telnet
+* memcached-tool could connect and pull stats from memcached
+* double-checked my php.ini
+* tested memcached connectivity via a PHP and ruby script - they worked
 
 Even after all that, I still couldn't figure out what was wrong. I ran strace on memcached while I ran a curl against the page which creates a session and I found something significant - memcached wasn't seeing any connections whatsoever at that time. A quick check of the lo interface with tcpdump showed the same result. Just before I threw a chair, I remembered one thing:
 

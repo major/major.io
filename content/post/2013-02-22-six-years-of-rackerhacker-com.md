@@ -15,7 +15,8 @@ It's that time of year again:
 ```
 $ whois rackerhacker.com | grep date
 Creation date: 14 Feb 2007 00:22:00
-Expiration date: 14 Feb 2017 00:22:00</pre>
+Expiration date: 14 Feb 2017 00:22:00
+```
 
 **The blog is now six years old!** Thanks to everyone who has followed it, commented, and suggested new topics for posts.
 

@@ -17,8 +17,8 @@ Before I get started, I'd like to give a big thanks to all of the visitors who d
 
 Here are the list of winners:
 
-  * Grand Prize ($50 at ThinkGeek): **Dan Udey**
-  * Runners-Up ($25 at ThinkGeek): **Joe Wright, Susan Price, and Giovanni Tirloni**
+* Grand Prize ($50 at ThinkGeek): **Dan Udey**
+* Runners-Up ($25 at ThinkGeek): **Joe Wright, Susan Price, and Giovanni Tirloni**
 
 [Dan's comment rang true][3] with me since much of a sysadmin's job involves responding to crises regardless of how much planning you put forth:
 
@@ -36,7 +36,9 @@ Here are the list of winners:
 
 > If you are starting in the system administration area, don't praise yourself only because you (blindly?) fixed an issue or helped that friend with his/her server. Ask yourself: Why what I did fixed the issue? Why that was happening in the first place? And more importantly, how to avoid it for all eternity? You won't but it doesn't hurt to aim high.
 
-[<img src="/wp-content/uploads/2011/08/giftcert-preview.png" alt="ThinkGeek Gift Certificate" title="ThinkGeek Gift Certificate" width="186" height="120" class="alignleft size-full wp-image-2430" />][7]Even though it isn't a runner-up, [Paul's comment][8] certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order.
+![7]
+
+Even though it isn't a runner-up, [Paul's comment][8] certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order.
 
 Once again, **a big thanks** goes out to everyone who submitted a comment. I'll reach out to the winners today and get the gift certificates sent out to them.
 

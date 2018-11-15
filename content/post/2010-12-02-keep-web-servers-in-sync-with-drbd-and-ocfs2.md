@@ -19,15 +19,7 @@ tags:
 ---
 The [guide to redundant cloud hosting][1] that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option.
 
-
-
-<div id="attachment_1987" style="width: 310px" class="wp-caption alignright">
-  <a href="/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png"><img src="/wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png" alt="DRBD, OCFS2, apache, varnish, and LVS" title="DRBD, OCFS2, apache, varnish, and LVS" width="300" height="300" class="size-full wp-image-1987" /></a>
-
-  <p class="wp-caption-text">
-    Diagram of two web nodes with a replicated filesystem using DRBD & OCFS2
-  </p>
-</div>I've shared my configuration with my coworkers and I've received many good questions about it. Let's get to the Q&A:
+I've shared my configuration with my coworkers and I've received many good questions about it. Let's get to the Q&A:
 
 **How does the performance compare to GlusterFS?**
 
