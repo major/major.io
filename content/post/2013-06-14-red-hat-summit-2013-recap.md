@@ -25,19 +25,25 @@ tags:
   - virtualization
 
 ---
-[<img src="http://major.io/wp-content/uploads/2013/06/IMG_20130611_173516-300x225.jpg" alt="Red Hat Summit Opening Keynote" width="300" height="225" class="alignright size-medium wp-image-4394" srcset="/wp-content/uploads/2013/06/IMG_20130611_173516-300x225.jpg 300w, /wp-content/uploads/2013/06/IMG_20130611_173516-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]The 2013 Red Hat Summit was my second one and I enjoyed it more than last year. Quite a few people asked for a recap and some takeaways from the Summit and that's what I hope to do in this post.
+![1]
+
+The 2013 Red Hat Summit was my second one and I enjoyed it more than last year. Quite a few people asked for a recap and some takeaways from the Summit and that's what I hope to do in this post.
 
 **Keynotes**
 
 It's quite apparent that Red Hat is taking a more assertive - and sometimes aggressive - stance against closed source, overpriced solutions that prevent consumers from getting things done. Jim Whitehurst had a slide that showed "Open or Die" with a live plant on the left and a dead one on the right (see the photo in the post just below this paragraph). You could hear the gasp in the audience from some of the less technical crowd. Red Hat is making a big push to deliver on Openstack and to modernize their RHEL and RHEV platforms. Paul Cormier detailed some of the upcoming offerings and the overall strategy seems to be a double-down on virtualization via Openstack and further enhancement of Enterprise Linux.
 
-[<img src="http://major.io/wp-content/uploads/2013/06/IMG_20130611_180616-300x225.jpg" alt="Jim Whitehurst: Open or Die" width="300" height="225" class="alignright size-medium wp-image-4407" srcset="/wp-content/uploads/2013/06/IMG_20130611_180616-300x225.jpg 300w, /wp-content/uploads/2013/06/IMG_20130611_180616-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][2]Of the vendor keynotes, the Intel keynote from Dirk Hohndel was superb. He seemed a bit nervous at first and we were quickly losing interest but he brought us back in with some good anecdotes. Dirk went into detail about how a company with a ton of intellectual property could also embrace open source. Surprisingly, the speech really moved me and there were no slides involved; it was just Dirk talking.
+![2]
+
+Of the vendor keynotes, the Intel keynote from Dirk Hohndel was superb. He seemed a bit nervous at first and we were quickly losing interest but he brought us back in with some good anecdotes. Dirk went into detail about how a company with a ton of intellectual property could also embrace open source. Surprisingly, the speech really moved me and there were no slides involved; it was just Dirk talking.
 
 You can watch the keynotes on [Red Hat's Summit site][3]. If you only watch one of them, watch [Dirk Hohndel's talk][4] (direct link to MP4).
 
 **Sessions**
 
-[<img src="http://major.io/wp-content/uploads/2013/06/IMG_20130613_140551-300x225.jpg" alt="Jon Masters: Hyperscale ARM" width="300" height="225" class="alignright size-medium wp-image-4417" srcset="/wp-content/uploads/2013/06/IMG_20130613_140551-300x225.jpg 300w, /wp-content/uploads/2013/06/IMG_20130613_140551-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][5]The most memorable was [Jon Masters' demonstration of the 64-bit ARM platform][6] (AArch64). Although there was no bicycle or spandex involved this year (he apologized for the lack of both), it was amazing to see some firsts. It was the first time AArch64 has been demonstrated in public and the first time Gluster ran on 64-bit ARM. He had a 2U rackmount chassis and the fans were extremely loud. Jon commented that the chips are "rarer than gold" and that he wasn't going to chance turning the fans off. The server performed quite well during the demonstration and certainly outperformed what I'd expect from an ARM system.
+![5]
+
+The most memorable was [Jon Masters' demonstration of the 64-bit ARM platform][6] (AArch64). Although there was no bicycle or spandex involved this year (he apologized for the lack of both), it was amazing to see some firsts. It was the first time AArch64 has been demonstrated in public and the first time Gluster ran on 64-bit ARM. He had a 2U rackmount chassis and the fans were extremely loud. Jon commented that the chips are "rarer than gold" and that he wasn't going to chance turning the fans off. The server performed quite well during the demonstration and certainly outperformed what I'd expect from an ARM system.
 
 Dan Walsh led two informative sessions that I enjoyed. The first was a [session on Linux containers][7]. LXC confused me quite a bit before the talk but Dan and the product manager went through how containers work step by step. They gave real world use cases and made comparisons to the more prevalent virtualization methods, like KVM. As you might expect, Dan sprinkled in some useful security tips to make containers more safe to use.
 
@@ -53,7 +59,7 @@ As usual, the Red Hat Certified Professionals reception at McGreevy's was a grea
 
 The rain ruined Thursday night's plans but the Red Hat marketing folks put together a great alternative in less than 24 hours. We ended up at [Royale][10] and were treated to a ton of food and drinks. Some musicians set up late in the evening and we were all wondering what type of music they'd play. It was a group called [Alter Ego][11] from Montreal and they really rocked the place. They're famous for "60 costume changes in 90 minutes" and they took us through oldies, disco, and contemporary music. They hit every single music genre I could think of (except country) and everyone was amazed that they entertained us for 90 minutes without a single break. If you get the chance to see this group in person, don't miss it.
 
-[<img src="http://major.io/wp-content/uploads/2013/06/PANO_20130613_213602-1024x622.jpg" alt="Panorama: Alter Ego at Royale" width="580" height="352" class="aligncenter size-large wp-image-4421" srcset="/wp-content/uploads/2013/06/PANO_20130613_213602-1024x622.jpg 1024w, /wp-content/uploads/2013/06/PANO_20130613_213602-300x182.jpg 300w" sizes="(max-width: 580px) 100vw, 580px" />][12]
+![12]
 
 **Wrap-up**
 
@@ -61,15 +67,15 @@ The Red Hat Summits continue to be a good opportunity to learn, network, and exp
 
 Next year's summit will be in San Francisco in April. I hope to see you there!
 
- [1]: http://major.io/wp-content/uploads/2013/06/IMG_20130611_173516.jpg
- [2]: http://major.io/wp-content/uploads/2013/06/IMG_20130611_180616.jpg
+ [1]: /wp-content/uploads/2013/06/IMG_20130611_173516.jpg
+ [2]: /wp-content/uploads/2013/06/IMG_20130611_180616.jpg
  [3]: http://www.redhat.com/summit/2013/gallery/
  [4]: http://videos.cdn.redhat.com/2013-summit-keynotes-hohndel.mp4
- [5]: http://major.io/wp-content/uploads/2013/06/IMG_20130613_140551.jpg
+ [5]: /wp-content/uploads/2013/06/IMG_20130613_140551.jpg
  [6]: http://www.redhat.com/summit/sessions/index.html#232
  [7]: http://www.redhat.com/summit/sessions/index.html#418
  [8]: http://www.redhat.com/summit/sessions/index.html#67
  [9]: http://www.redhat.com/summit/sessions/index.html#499
  [10]: http://royaleboston.com/
  [11]: http://www.alteregobooking.com/
- [12]: http://major.io/wp-content/uploads/2013/06/PANO_20130613_213602.jpg
+ [12]: /wp-content/uploads/2013/06/PANO_20130613_213602.jpg

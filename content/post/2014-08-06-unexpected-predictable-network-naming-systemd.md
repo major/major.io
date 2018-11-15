@@ -17,7 +17,9 @@ tags:
   - systemd
 
 ---
-[<img src="/wp-content/uploads/2014/08/3240995967_04d7888d5c_o-e1407359174321.jpg" alt="3240995967_04d7888d5c_o" width="3887" height="476" class="aligncenter size-full wp-image-5098" srcset="/wp-content/uploads/2014/08/3240995967_04d7888d5c_o-e1407359174321.jpg 3887w, /wp-content/uploads/2014/08/3240995967_04d7888d5c_o-e1407359174321-300x36.jpg 300w, /wp-content/uploads/2014/08/3240995967_04d7888d5c_o-e1407359174321-1024x125.jpg 1024w" sizes="(max-width: 3887px) 100vw, 3887px" />][1]While using a Dell R720 at work today, we stumbled upon a problem where the [predictable network device naming with systemd][2] gave us some unpredictable results. The server has four onboard network ports (two 10GbE and two 1GbE) and an add-on 10GbE card with two additional ports.
+![1]
+
+While using a Dell R720 at work today, we stumbled upon a problem where the [predictable network device naming with systemd][2] gave us some unpredictable results. The server has four onboard network ports (two 10GbE and two 1GbE) and an add-on 10GbE card with two additional ports.
 
 Running _lspci_ gives this output:
 
@@ -34,9 +36,9 @@ Running _lspci_ gives this output:
 
 If you're not familiar with that output, it says:
 
-  * Two 10GbE ports on PCI bus 1 (ports 0 and 1)
-  * Two 1GbE ports on PCI bus 8 (ports 0 and 1)
-  * Two 10GbE ports on PCI bus 42 (ports 0 and 1)
+* Two 10GbE ports on PCI bus 1 (ports 0 and 1)
+* Two 1GbE ports on PCI bus 8 (ports 0 and 1)
+* Two 10GbE ports on PCI bus 42 (ports 0 and 1)
 
 When the system boots up, the devices are named based on [systemd-udevd's criteria][3]. Our devices looked like this after boot:
 
@@ -82,7 +84,7 @@ $ printf "%d\n" 0x42
 
 That also helps to explain why the devices on buses 1 and 8 were unaffected. Converting 1 and 8 in hex to decimal gives 1 and 8. If you're new to hex, this [conversion table][4] may help.
 
-<em style="font-size: 10px">Photo Credit: <a href="https://www.flickr.com/photos/90021863@N00/3240995967/">mindfieldz</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></em>
+*Photo Credit: <a href="https://www.flickr.com/photos/90021863@N00/3240995967/">mindfieldz</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>*
 
  [1]: /wp-content/uploads/2014/08/3240995967_04d7888d5c_o-e1407359174321.jpg
  [2]: http://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/

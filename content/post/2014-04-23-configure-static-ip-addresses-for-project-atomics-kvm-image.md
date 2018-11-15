@@ -22,12 +22,13 @@ There are [great instructions][5] on the site for firing up a test instance unde
 
 Create a one-line `/etc/sysconfig/network`:
 
+```ini
+NETWORKING=yes
 ```
-
 
 Drop in a basic network configuration into `/etc/sysconfig/network-scripts/ifcfg-eth0`:
 
-```
+```ini
 DEVICE=eth0
 IPADDR=10.127.92.32
 NETMASK=255.255.255.0
@@ -35,19 +36,18 @@ GATEWAY=10.127.92.1
 ONBOOT=yes
 ```
 
-
 All that's left is to set DNS servers and a hostname:
 
 ```
- /etc/resolv.conf
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
 hostnamectl set-hostname myatomichost.example.com
 ```
-
 
 Bring up the network interface:
 
 ```
-
+ifup eth0
+```
 
 Of course, you could do all of this via the `nmcli` tool if you prefer to go that route.
 

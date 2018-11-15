@@ -20,7 +20,9 @@ tags:
   - virtualization
 
 ---
-[<img src="/wp-content/uploads/2013/07/selinux-penguin-new_medium-287x300.png" alt="selinux-penguin-new_medium" width="287" height="300" class="alignright size-medium wp-image-4460" srcset="/wp-content/uploads/2013/07/selinux-penguin-new_medium-287x300.png 287w, /wp-content/uploads/2013/07/selinux-penguin-new_medium.png 325w" sizes="(max-width: 287px) 100vw, 287px" />][1]Getting started with [LXC][2] is a bit awkward and I've assembled this guide for anyone who wants to begin experimenting with LXC containers in Fedora 20. As an added benefit, you can follow almost every step shown here when creating LXC containers on [Red Hat Enterprise Linux 7][3] Beta (which is based on Fedora 19).
+![1]
+
+Getting started with [LXC][2] is a bit awkward and I've assembled this guide for anyone who wants to begin experimenting with LXC containers in Fedora 20. As an added benefit, you can follow almost every step shown here when creating LXC containers on [Red Hat Enterprise Linux 7][3] Beta (which is based on Fedora 19).
 
 You'll need a physical machine or a VM running Fedora 20 to get started. <span style="color: #888888">(You could put a container in a container, but things get a little dicey with that setup. Let's just avoid talking about nested containers for now. No, really, I shouldn't have even brought it up. Sorry about that.)</span>
 
@@ -29,7 +31,8 @@ You'll need a physical machine or a VM running Fedora 20 to get started. <span s
 Start by updating all packages to the latest versions available:
 
 ```
-
+yum -y upgrade
+```
 
 Verify that SELinux is in enforcing mode by running `getenforce`. If you see _Disabled_ or _Permissive_, get SELinux into enforcing mode with a quick configuration change:
 
@@ -37,13 +40,10 @@ Verify that SELinux is in enforcing mode by running `getenforce`. If you see _Di
 sed -i 's/^SELINUX=.*/SELINUX=enforcing/' /etc/selinux/config
 ```
 
-
 I recommend installing `setroubleshoot-server` to make it easier to find the root cause of AVC denials:
 
+```yum -y install setroubleshoot-server
 ```
-yum -y install setroubleshoot-server
-```
-
 
 Reboot now. This will ensure that SELinux comes up in enforcing mode (verify that with `getenforce` after reboot) and it ensures that auditd starts up sedispatch (for setroubleshoot).
 
@@ -55,14 +55,12 @@ Let's grab libvirt along with LXC support and a basic NAT networking configurati
 yum -y install libvirt-daemon-lxc libvirt-daemon-config-network
 ```
 
-
 Launch libvirtd via systemd and ensure that it always comes up on boot. This step will also adjust firewalld for your containers and ensure that dnsmasq is serving up IP addresses via DHCP on your default NAT network.
 
 ```
 systemctl start libvirtd.service
 systemctl enable libvirtd.service
 ```
-
 
 ### Bootstrap our container
 
@@ -72,13 +70,11 @@ Installing packages into the container's filesystem will take some time.
 yum -y --installroot=/var/lib/libvirt/filesystems/fedora20 --releasever=20 --nogpg install systemd passwd yum fedora-release vim-minimal openssh-server procps-ng iproute net-tools dhclient
 ```
 
-
 This step fills in the filesystem with the necessary packages to run a Fedora 20 container. We now need to tell libvirt about the container we've just created.
 
 ```
 virt-install --connect lxc:// --name fedora20 --ram 512 --filesystem /var/lib/libvirt/filesystems/fedora20/,/
 ```
-
 
 At this point, libvirt will know enough about the container to start it and you'll be connected to the console of the container! We need to adjust some configuration files within the container to use it properly. Detach from the console with CTRL-].
 
@@ -88,7 +84,6 @@ Let's stop the container so we can make some adjustments.
 virsh -c lxc:// shutdown fedora20
 ```
 
-
 ### Get the container ready for production
 
 Hop into your container and set a root password.
@@ -97,18 +92,16 @@ Hop into your container and set a root password.
 chroot /var/lib/libvirt/filesystems/fedora20 /bin/passwd root
 ```
 
-
 We will be logging in as root via the console occasionally and we need to allow that access.
 
 ```
- /var/lib/libvirt/filesystems/fedora20/etc/securetty
+echo "pts/0" >> /var/lib/libvirt/filesystems/fedora20/etc/securetty
 ```
-
 
 Since we will be using our NAT network with our auto-configured dnsmasq server (thanks to libvirt), we can configure a simple DHCP setup for eth0:
 
 ```
- /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network
+cat &lt; &lt; EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network
 NETWORKING=yes
 EOF
 cat &lt; &lt; EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network-scripts/ifcfg-eth0
@@ -118,7 +111,6 @@ DEVICE=eth0
 EOF
 ```
 
-
 Using ssh makes the container a lot easier to manage, so let's ensure that it starts when the container boots. (You could do this via systemctl after logging in at the console, but I'm lazy.)
 
 ```
@@ -126,7 +118,6 @@ chroot /var/lib/libvirt/filesystems/fedora20/
 ln -s /usr/lib/systemd/system/sshd.service /etc/systemd/system/multi-user.target.wants/
 exit
 ```
-
 
 ### Launch!
 
@@ -136,13 +127,11 @@ Cross your fingers and launch the container.
 virsh -c lxc:// start --console fedora20
 ```
 
-
 You'll be attached to the console during boot but don't worry, hold down CTRL-] to get back to your host prompt. Check the dnsmasq leases to find your container's IP address and you can login as root over ssh.
 
 ```
 cat /var/lib/libvirt/dnsmasq/default.leases
 ```
-
 
 ### Security
 
@@ -176,18 +165,15 @@ system_u:system_r:virtd_lxc_t:s0-s0:c0.c1023 root 412 0.0  0.5 66828 1328 ?    S
 system_u:system_r:virtd_lxc_t:s0-s0:c0.c1023 root 436 0.0  0.4 21980 1144 ?    Ss   03:19   0:00 /usr/lib/systemd/systemd-hostnamed
 ```
 
-
-You'll notice something interesting if you run `getenforce` now within the container - SELinux is disabled. Actually, it's not really disabled. The processing of SELinux policy is done on the host. The container isn't able to see what's going on outside of its own files and processes. The [libvirt documentation for LXC][4] hints at the importance of this isolation:
+You'll notice something interesting if you run `getenforce` now within the container &#8212; SELinux is disabled. Actually, it's not really disabled. The processing of SELinux policy is done on the host. The container isn't able to see what's going on outside of its own files and processes. The [libvirt documentation for LXC][4] hints at the importance of this isolation:
 
 > A suitably configured UID/GID mapping is a pre-requisite to making containers secure, in the absence of sVirt confinement.
 
-> In the absence of the "user" namespace being used, containers cannot be considered secure against exploits of the host OS. The sVirt SELinux driver provides a way to secure containers even when the "user" namespace is not used. The cost is that writing a policy to allow execution of arbitrary OS is not practical. The SELinux sVirt policy is typically tailored to work with an simpler application confinement use case, as provided by the "libvirt-sandbox" project.
+> In the absence of the &#8220;user&#8221; namespace being used, containers cannot be considered secure against exploits of the host OS. The sVirt SELinux driver provides a way to secure containers even when the &#8220;user&#8221; namespace is not used. The cost is that writing a policy to allow execution of arbitrary OS is not practical. The SELinux sVirt policy is typically tailored to work with an simpler application confinement use case, as provided by the &#8220;libvirt-sandbox&#8221; project.
 
 This leads to something really critical to understand:
 
-<h3 style="color: #D42020;">
-  Containers don't contain
-</h3>
+### Containers don't contain
 
 Dan Walsh has a [great post][5] that goes into the need for sVirt and the protections it can provide when you need to be insulated from potentially dangerous virtual machines or containers. If a user is root inside a container, they're root on the host as well. <span style="color: #888888">(There's an exception: <a href="https://lwn.net/Articles/436445/">UID namespaces</a>. But let's not talk about that now. Oh great, first it was nested containers and now I brought up UID namespaces. Sorry again.)</span>
 

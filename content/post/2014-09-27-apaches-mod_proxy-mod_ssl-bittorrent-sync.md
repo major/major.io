@@ -17,7 +17,9 @@ tags:
   - sync
 
 ---
-[<img src="/wp-content/uploads/2014/09/picjumbo.com_IMG_6970-e1411869964358.jpg" alt="Merging railway tracks" width="3887" height="660" class="aligncenter size-full wp-image-5223" srcset="/wp-content/uploads/2014/09/picjumbo.com_IMG_6970-e1411869964358.jpg 3887w, /wp-content/uploads/2014/09/picjumbo.com_IMG_6970-e1411869964358-300x50.jpg 300w, /wp-content/uploads/2014/09/picjumbo.com_IMG_6970-e1411869964358-1024x173.jpg 1024w" sizes="(max-width: 3887px) 100vw, 3887px" />][1][BitTorrent Sync][2] allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS.
+![1]
+
+[BitTorrent Sync][2] allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS.
 
 Using HTTP across the internet to administer Sync seems totally absurd, so I decided to enable HTTPS. I quickly realized two things:
 
@@ -28,9 +30,9 @@ I really wanted to keep things simple by wedging Sync into my existing Apache co
 
 ```
 ProxyPass /btsync http://127.0.0.1:8888
-  ProxyPassReverse /btsync http://127.0.0.1:8888
-  ProxyHTMLURLMap http://127.0.0.1:8888 /btsync
-  Redirect permanent /gui /btsync/gui
+ProxyPassReverse /btsync http://127.0.0.1:8888
+ProxyHTMLURLMap http://127.0.0.1:8888 /btsync
+Redirect permanent /gui /btsync/gui
 ```
 
 

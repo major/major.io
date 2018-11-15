@@ -17,12 +17,14 @@ tags:
 I just pushed [supernova 0.9.5 to pypi][1] and it's now available for installation using pip. You can get the latest version by running:
 
 ```
-
+pip install --upgrade supernova
+```
 
 Some of the new features include the ability to use suprernova [with other executables][2], like [glance][3]. Place a configuration option within your ~/.supernova file that looks like this:
 
+```ini
+OS_EXECUTABLE=/usr/bin/glance
 ```
-
 
 Once you do that, supernova will package up all of your environment variables as it normally would, but it will call glance instead of nova. Don't worry, nova is still the default unless you specify a different executable.
 

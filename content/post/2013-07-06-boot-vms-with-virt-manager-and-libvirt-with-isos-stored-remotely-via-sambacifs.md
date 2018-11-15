@@ -17,7 +17,9 @@ tags:
   - virtualization
 
 ---
-[<img src="http://major.io/wp-content/uploads/2013/07/qnap-300x264.jpg" alt="QNAP TS-419P" width="300" height="264" class="alignright size-medium wp-image-4469" srcset="/wp-content/uploads/2013/07/qnap-300x264.jpg 300w, /wp-content/uploads/2013/07/qnap.jpg 613w" sizes="(max-width: 300px) 100vw, 300px" />][1]Pairing [virt-manager][2] with KVM makes booting new VM's pretty darned easy. I have a [QNAP NAS][3] at home with a bunch of ISO's stored in share available to guests and I wanted to use that with libvirt to boot new VM's. (By the way, if you're looking for an off-the-shelf NAS that is built with solid hardware and pretty reliable software, try one of the QNAP devices. You still get access to many of the usual commands that you would normally find on a Linux box for emergencies. More on that in a later post.)
+![1]
+
+Pairing [virt-manager][2] with KVM makes booting new VM's pretty darned easy. I have a [QNAP NAS][3] at home with a bunch of ISO's stored in share available to guests and I wanted to use that with libvirt to boot new VM's. (By the way, if you're looking for an off-the-shelf NAS that is built with solid hardware and pretty reliable software, try one of the QNAP devices. You still get access to many of the usual commands that you would normally find on a Linux box for emergencies. More on that in a later post.)
 
 The first step was creating a mountpoint and configuring the mount in /etc/fstab:
 
@@ -29,7 +31,6 @@ qemu:x:107:107:qemu user:/:/sbin/nologin
 # mount /mnt/iso
 ```
 
-
 My QNAP is already in /etc/hosts so I didn't need to specify the IP in the file. Adding `_netdev` ensures that the network will be up before the mount is made. The `guest` option ensures that I won't be prompted for credentials and the `uid=107,gid=107` mounts the share as the qemu user. If you forget this, virt-manager will throw some ugly permissions errors from libvirt.
 
 From there, I had another permissions error and I suspected that SELinux was preventing libvirt from accessing the files in the share. A quick check of /var/log/messages revealed that I was right:
@@ -37,7 +38,6 @@ From there, I had another permissions error and I suspected that SELinux was pre
 ```
 Jul  6 16:12:51 nuc1 setroubleshoot: SELinux is preventing /usr/bin/qemu-system-x86_64 from open access on the file /mnt/iso/livecd.iso. For complete SELinux messages. run sealert -l c1c80b2c-b5df-4114-86c7-ffee98274552
 ```
-
 
 Here's the output from sealert:
 
@@ -54,13 +54,13 @@ Do
 setsebool -P virt_use_samba 1
 ```
 
-
 The fix is a quick one:
 
 ```
+# setsebool -P virt_use_samba 1
+```
 
-
-You should be all set after that. Press "Browse Local" in virt-manager when you look for your ISO to boot the virtual machine and navigate over to /mnt/iso for your list of ISO's.
+You should be all set after that. Press &#8220;Browse Local&#8221; in virt-manager when you look for your ISO to boot the virtual machine and navigate over to /mnt/iso for your list of ISO's.
 
  [1]: http://major.io/wp-content/uploads/2013/07/qnap.jpg
  [2]: http://virt-manager.org/

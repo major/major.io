@@ -15,7 +15,9 @@ tags:
   - mac
 
 ---
-[<img src="/wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439.jpg" alt="Apple Keyboard" width="2256" height="473" class="aligncenter size-full wp-image-5077" srcset="/wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439.jpg 2256w, /wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439-300x62.jpg 300w, /wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439-1024x214.jpg 1024w" sizes="(max-width: 2256px) 100vw, 2256px" />][1]My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week.
+![1]
+
+My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week.
 
 If your buttons stopped working as well, follow these steps to check your keyboard shortcuts in Chrome:
 

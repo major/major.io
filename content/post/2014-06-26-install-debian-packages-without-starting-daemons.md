@@ -20,28 +20,25 @@ My work at Rackspace has involved working with a bunch of Debian chroots lately.
 
 If you'd like to prevent daemons from starting after installing a package, just toss a few lines into _/usr/sbin/policy-rc.d_:
 
-```
- /usr/sbin/policy-rc.d &lt; &lt; EOF
+```shell
+cat > /usr/sbin/policy-rc.d << EOF
 #!/bin/sh
 echo "All runlevel operations denied by policy" >&2
 exit 101
 EOF
 ```
 
-
 Now, install any packages that you need and the daemons will remain stopped until you start them (or reboot the server). Be sure to remove the policy file you added once you're done installing your packages.
 
 * * *
 
-_This seems like a good opportunity to get on a soapbox about automatically starting daemons. ;)
-
-_
+This seems like a good opportunity to get on a soapbox about automatically starting daemons. ;)
 
 I still have a very difficult time understanding why Debian-based distributions start daemons as soon as the package is installed. Having an option to enable this might be useful for some situations, but this **shouldn't be the default**.
 
 You end up with situations like the one in this [puppet bug report][1]. The daemon shouldn't start until you're ready to configure it and use it. However, the logic is that the daemon is so horribly un-configured that it shouldn't hurt anything if starts immediately. So why start the daemon at all?
 
-When I run the command _apt-get install_ or _yum install_, I expect that packages will be installed to disk and nothing more. Even the [definition of the English word "install"][2] talks about "preparing" something for use, not actually using it:
+When I run the command _apt-get install_ or _yum install_, I expect that packages will be installed to disk and nothing more. Even the [definition of the English word "install"][2] talks about &#8220;preparing&#8221; something for use, not actually using it:
 
 > To connect, set up or prepare something for use
 

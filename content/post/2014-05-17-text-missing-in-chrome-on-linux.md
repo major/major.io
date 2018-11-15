@@ -20,12 +20,13 @@ It wasn't this way on the initial installation of Fedora but it cropped up somew
 
 The only commonality I could find is that all pages that specified their own web fonts (like the pages on this site) loaded up perfectly. Everything was visible. However, on sites that tend to use whatever font is available in the browser (sites that specify a font family), the text was missing. A good example was [The Aviation Herald][1].
 
-I remembered installing some Microsoft core fonts via [Fedy][2] and I added in some patched powerline fonts to work with tmux. A quick check of the SELinux troubleshooter alerted me to the problem - the new fonts had the wrong SELinux labels applied and Chrome wasn't allowed to access them.
+I remembered installing some Microsoft core fonts via [Fedy][2] and I added in some patched powerline fonts to work with tmux. A quick check of the SELinux troubleshooter alerted me to the problem: the new fonts had the wrong SELinux labels applied and Chrome wasn't allowed to access them.
 
 I decided to relabel the whole filesystem:
 
 ```
-
+restorecon -Rv /
+```
 
 The restorecon output was line after line of fonts that I had installed earlier in the evening. Once it finished running, I started Chrome and it was working just as I had expected.
 

@@ -14,7 +14,9 @@ tags:
   - security
 
 ---
-[<img src="http://major.io/wp-content/uploads/2013/09/finance_and_accounting_book_cover.jpg" alt="Finance And Accounting For Non Financial Managers" width="128" height="193" class="alignright size-full wp-image-4565" />][1]I spent two days last week in a class called "[Accounting and Finance for Non-Financial Managers][2]" at UT Austin's [Texas Executive Education][3] program. The [assigned reading][4] (a book of the same name as the class) was informative but I still felt like it was too advanced for me right off the bat.
+![1]
+
+I spent two days last week in a class called "[Accounting and Finance for Non-Financial Managers][2]" at UT Austin's [Texas Executive Education][3] program. The [assigned reading][4] (a book of the same name as the class) was informative but I still felt like it was too advanced for me right off the bat.
 
 My main goal for the class was to learn how my role can have a financial impact as well as an information security impact. It's fairly common for people who work in information security to provide additional evidence that their recommendations are sound. After all, we may be recommending something that impacts productivity, communication, or the financial bottom line.
 
@@ -50,7 +52,7 @@ On the flip side, if you're able to talk to your customers about the advances in
 
 If you get the opportunity to spend some of your training budget next February, try to get in on this class at UT Austin. The pace is fast and the knowledge is extremely useful. Knowing what's going on behind the scenes in your company's finance and accounting departments may give you the edge to push your next project to completion.
 
- [1]: http://major.io/wp-content/uploads/2013/09/finance_and_accounting_book_cover.jpg
+ [1]: /wp-content/uploads/2013/09/finance_and_accounting_book_cover.jpg
  [2]: https://www.mccombs.utexas.edu/ExecED/Accounting-and-Finance.aspx
  [3]: https://www.mccombs.utexas.edu/execed
  [4]: http://books.google.com/books/about/Finance_and_Accounting_for_Nonfinancial.html?id=SiS3NAEACAAJ

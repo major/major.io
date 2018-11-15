@@ -20,7 +20,9 @@ tags:
 ---
 _This article appeared in [SC Magazine][1] and I've posted it here as well. For those of you who were left wanting more from my [previous SELinux post][2], this should help. If it doesn't help, leave a comment. ;)_
 
-* * *The push to cloud transforms the way we apply information security principles to systems and applications. Perimeters of the past, secured heavily with traditional network devices in the outermost ring, lose effectiveness day by day. Shifting the focus to "defense in depth" brings the perimeter down to the individual cloud instances running your application. Security-Enhanced Linux, or SELinux, forms an effective part of that perimeter.</p>
+* * *
+
+The push to cloud transforms the way we apply information security principles to systems and applications. Perimeters of the past, secured heavily with traditional network devices in the outermost ring, lose effectiveness day by day. Shifting the focus to "defense in depth" brings the perimeter down to the individual cloud instances running your application. Security-Enhanced Linux, or SELinux, forms an effective part of that perimeter.
 
 SELinux operates in the realm of mandatory access control, or MAC. The design of MAC involves placing constraints on what a user (a _subject_) can do to a particular object (a _target_) on the system. In contrast, discretionary access control, or DAC, allows a user with certain access to use discretion to limit or allow access to certain files, directories, or devices. You can set any file system permissions that you want but SELinux can override them with ease at the operating system level.
 

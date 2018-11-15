@@ -16,7 +16,9 @@ tags:
   - networking
 
 ---
-[<img src="/wp-content/uploads/2014/09/logo-top-251x300.png" alt="IPv6 world launch logo" width="251" height="300" class="alignright size-medium wp-image-5211" srcset="/wp-content/uploads/2014/09/logo-top-251x300.png 251w, /wp-content/uploads/2014/09/logo-top.png 324w" sizes="(max-width: 251px) 100vw, 251px" />][1]Time Warner has [gradually rolled][2] out [IPv6 connectivity][3] to their Road Runner customers over the past couple of years and it started appearing on my home network earlier this year.  I had some issues getting the leases to renew properly after they expired (TWC's default lease length appears to be seven days) and there were some routing problems that cropped up occasionally.  However, over the past month, things seem to have settled down on TWC's San Antonio network.
+[<img src="/wp-content/uploads/2014/09/logo-top-251x300.png" alt="IPv6 world launch logo" width="251" height="300" class="alignright size-medium wp-image-5211" srcset="/wp-content/uploads/2014/09/logo-top-251x300.png 251w, /wp-content/uploads/2014/09/logo-top.png 324w" sizes="(max-width: 251px) 100vw, 251px" />][1]
+
+Time Warner has [gradually rolled][2] out [IPv6 connectivity][3] to their Road Runner customers over the past couple of years and it started appearing on my home network earlier this year.  I had some issues getting the leases to renew properly after they expired (TWC's default lease length appears to be seven days) and there were some routing problems that cropped up occasionally.  However, over the past month, things seem to have settled down on TWC's San Antonio network.
 
 ### Do you have IPv6 yet?
 
@@ -24,9 +26,9 @@ Before you make any adjustments to your network, I'd recommend connecting your c
 
 There's a chance your computer didn't get an IPv6 address while directly connected to the cable modem.  Here are some possible solutions:
 
-  * Power off the cable modem for 30 seconds, then plug it back in and see if your computer gets an address
-  * Ensure you have one of TWC's [approved modems][8]. _(Bear in mind that not all of these modems support IPv6.)_
-  * Verify that your computer has IPv6 enabled. _(Instructions for [Windows][9], [Mac][10] and [Linux][11] are available.)_
+* Power off the cable modem for 30 seconds, then plug it back in and see if your computer gets an address
+* Ensure you have one of TWC's [approved modems][8]. _(Bear in mind that not all of these modems support IPv6.)_
+* Verify that your computer has IPv6 enabled. _(Instructions for [Windows][9], [Mac][10] and [Linux][11] are available.)_
 
 ### But I want more addresses
 
@@ -77,7 +79,7 @@ After that, you should see an allocation pop up within a few seconds (run `ipv6 
 
 ```
 #    INTERFACE     STATUS        PREFIX                                      EXPIRES-AFTER
- 0    ether1-gat... bound         2605:xxxx:xxxx:xxxx::/64                    6d9h15m45s
+0    ether1-gat... bound         2605:xxxx:xxxx:xxxx::/64                    6d9h15m45s
 ```
 
 
@@ -85,7 +87,7 @@ Check that a new address pool was allocated by running `ipv6 pool print`:
 
 ```
 #   NAME      PREFIX                                      PREFIX-LENGTH EXPIRES-AFTER
- 0 D twc       2605:xxxx:xxxx:xxxx::/64                               64 6d9h13m33s
+0 D twc       2605:xxxx:xxxx:xxxx::/64                               64 6d9h13m33s
 ```
 
 

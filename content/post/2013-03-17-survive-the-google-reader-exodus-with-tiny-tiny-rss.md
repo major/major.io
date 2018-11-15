@@ -19,7 +19,9 @@ tags:
   - web
 
 ---
-[<img src="http://rackerhacker.com/wp-content/uploads/2013/03/tinytinyrss.png" alt="Tiny Tiny RSS" width="124" height="124" class="alignright size-full wp-image-4123" />][1]It's no secret that [Google Reader][2] is a popular way to keep up with your RSS feeds, but it's [getting shelved later this year][3]. Most folks [suggested Feedly as a replacement][4] but I found the UI quite clunky in a browser and on Android devices.
+![1]
+
+It's no secret that [Google Reader][2] is a popular way to keep up with your RSS feeds, but it's [getting shelved later this year][3]. Most folks [suggested Feedly as a replacement][4] but I found the UI quite clunky in a browser and on Android devices.
 
 Then someone suggested [Tiny Tiny RSS][5]. I couldn't learn more about it on the day Google Reader's shutdown was announced because the site was slammed. In a nutshell, Tiny Tiny RSS is a well-written web UI for managing feeds and a handy API for using it with mobile applications. The backend code is written in PHP and it supports MySQL and Postgres.
 
@@ -42,7 +44,7 @@ Unzip the file and find the .xml file. Open up a browser, access Tiny Tiny RSS a
 
 From there, just [choose a method for updating feeds][8] and you should be all set!
 
- [1]: http://rackerhacker.com/wp-content/uploads/2013/03/tinytinyrss.png
+ [1]: /wp-content/uploads/2013/03/tinytinyrss.png
  [2]: http://en.wikipedia.org/wiki/Google_Reader
  [3]: http://www.newyorker.com/online/blogs/books/2013/03/farewell-dear-reader.html
  [4]: http://news.cnet.com/8301-1023_3-57574777-93/feedly-adds-500k-new-users-on-google-decision-to-kill-reader/

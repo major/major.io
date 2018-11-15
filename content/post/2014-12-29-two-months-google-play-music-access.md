@@ -41,7 +41,7 @@ One option is to find your favorite artist, album, or track and click **Play Rad
 
 There are also curated lists from other users and from Google. In addition, you can choose your mood or situation and let Google suggest some things. For example, Google lines up different selections depending on the time of day. Here's what I get during the day on a workday:
 
-[<img src="/wp-content/uploads/2014/12/google_music_mood_selections.png" alt="Google Play Music All Access mood selection" width="2058" height="586" class="aligncenter size-full wp-image-5301" srcset="/wp-content/uploads/2014/12/google_music_mood_selections.png 2058w, /wp-content/uploads/2014/12/google_music_mood_selections-300x85.png 300w, /wp-content/uploads/2014/12/google_music_mood_selections-1024x292.png 1024w" sizes="(max-width: 2058px) 100vw, 2058px" />][2]
+![2]
 
 Selecting one of those options leads to a submenu where you can hone in on a genre of music. From there, you're offered three radio stations that meet your criteria with explanations of the music as well as a sample of the album art.
 

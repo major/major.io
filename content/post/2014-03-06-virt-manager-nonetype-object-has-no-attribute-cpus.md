@@ -35,7 +35,6 @@ summary=Error launching details: 'NoneType' object has no attribute 'cpus'
 details=Error launching details: 'NoneType' object has no attribute 'cpus'
 ```
 
-
 I [opened a bug report][1] and the fix was [committed upstream][2] today. If you want to make these updates to your Fedora 20 server before the update package is available, just snag the [three RPM's from koji][3] and install them:
 
 ```
@@ -47,11 +46,11 @@ wget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch
 yum localinstall *.rpm
 ```
 
-
 **UPDATE:** Thanks to Cole's comment below, you can actually pull in the RPM's using koji directly:
 
 ```
-
+koji download-build virt-manager-1.0.0-4.fc20
+```
 
  [1]: https://bugzilla.redhat.com/show_bug.cgi?id=1072704
  [2]: https://git.fedorahosted.org/cgit/virt-manager.git/commit/?id=b078ba8c3d69b62fe748d9182babef8971914277

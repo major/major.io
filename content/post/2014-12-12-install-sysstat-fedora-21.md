@@ -53,7 +53,7 @@ systemctl start sysstat
 
 From there, systemd will automatically call for collection and management of the statistics using its [internal timers][5]. Opening up `/usr/lib/systemd/system/sysstat-collect.timer` reveals the following:
 
-```
+```ini
 # /usr/lib/systemd/system/sysstat-collect.timer
 # (C) 2014 Tomasz Torcz &lt;tomek@pipebreaker.pl>
 #
@@ -73,7 +73,7 @@ WantedBy=sysstat.service
 
 The timer unit file ensures that the sysstat-collect.service is called every 10 minutes based on the real time provided by the system clock. (There are other options to set timers based on relative time of when the server booted or when a user logged into the system). The familiar `sa1` command appears in `/usr/lib/systemd/system/sysstat-collect.service`:
 
-```
+```ini
 # /usr/lib/systemd/system/sysstat-collect.service
 # (C) 2014 Tomasz Torcz &lt;tomek@pipebreaker.pl>
 #

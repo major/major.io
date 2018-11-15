@@ -99,11 +99,11 @@ Now it's time to test it! If you're using a physical machine, double check your 
 
 If you're using a virtual machine, just start up virt-manager and choose _Network Boot (PXE)_ from the installation options:
 
-[<img src="http://major.io/wp-content/uploads/2013/07/virt-manager-pxe.png" alt="Install virtual machines with PXE using virt-manager" width="436" height="411" class="aligncenter size-full wp-image-4522" />][6]
+![6]
 
 Once the VM boots, you'll be sent straight to the PXE boot screen:
 
-[<img src="http://major.io/wp-content/uploads/2013/07/pxetest-Virtual-Machine.png" alt="pxetest Virtual Machine" width="812" height="642" class="aligncenter size-full wp-image-4525" />][7]
+![7]
 
 **TAKE NOTE!** In the pxelinux.cfg/default file, I set rescue mode to boot as the default option. This will prevent a situation where you forget to remove PXE from a system's boot order and accidentally re-kickstart over the live system.
 
@@ -114,5 +114,5 @@ The installer should now boot up normally and you can install your Fedora system
  [3]: http://mirrors.kernel.org/fedora/releases/19/Fedora/x86_64/os/images/pxeboot/vmlinuz
  [4]: http://mirrors.kernel.org/fedora/releases/19/Fedora/x86_64/os/images/pxeboot/initrd.img
  [5]: https://fedoraproject.org/wiki/Dracut/Options#Network
- [6]: http://major.io/wp-content/uploads/2013/07/virt-manager-pxe.png
- [7]: http://major.io/wp-content/uploads/2013/07/pxetest-Virtual-Machine.png
+ [6]: /wp-content/uploads/2013/07/virt-manager-pxe.png
+ [7]: /wp-content/uploads/2013/07/pxetest-Virtual-Machine.png

@@ -19,7 +19,8 @@ tags:
 I dragged out an old [Aopen MP57-D][1] tonight that was just sitting in the closet and decided to load up kvm on Fedora 18. I soon found myself staring at a very brief error message upon bootup:
 
 ```
-
+kvm: disabled by bios
+```
 
 After a reboot, the BIOS screen was up and I saw that Virtualization and VT-d were both enabled. Trusted execution (TXT) was disabled, so I enabled it for kicks and rebooted. Now I had two errors:
 
@@ -27,7 +28,6 @@ After a reboot, the BIOS screen was up and I saw that Virtualization and VT-d we
 kvm: disable TXT in the BIOS or activate TXT before enabling KVM
 kvm: disabled by bios
 ```
-
 
 Time for another trip to the BIOS. I disabled TXT, rebooted, and I was _back to the same error where I first started_. A quick check of `/proc/cpuinfo` showed that I had the right processor extensions. Even the output of `lshw` showed that I should be ready to go. Some digging in Google led me to a [blog post for a fix on Dell Optiplex hardware][2].
 

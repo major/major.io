@@ -16,7 +16,7 @@ tags:
 ---
 I've added some grouped environment support for supernova tonight. This allows you to run the same action across a group of environments listed in your supernova configuration file. To give you an idea of how this works, I have two environments in my supernova file called _prodord_ and _prodiad_. Both of them are my production environments at Rackspace:
 
-```
+```ini
 [prodord]
 SUPERNOVA_GROUP=prodrax
 OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/

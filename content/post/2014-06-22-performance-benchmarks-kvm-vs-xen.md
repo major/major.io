@@ -27,9 +27,9 @@ My testing setup consists of two identical SuperMicro servers. Both have a singl
 
 All of the tests were run in Fedora 20 (with SELinux enabled) for the hosts and the virtual machines. Very few services were left running during the tests. Here are the relevant software versions:
 
-  * Kernel: 3.14.8
-  * For KVM: qemu-kvm 1.6.2
-  * For Xen: xen 4.3.2
+* Kernel: 3.14.8
+* For KVM: qemu-kvm 1.6.2
+* For Xen: xen 4.3.2
 
 All root filesystems are XFS with the default configuration. Virtual machines were created using virt-manager using the default configuration available for KVM and Xen. Virtual disks used raw images and were allotted 8GB RAM with 4 virtual CPU's. Xen guests used [PVHVM][5].
 
