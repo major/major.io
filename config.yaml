@@ -1,9 +1,9 @@
-baseUrl: 'https://major.io/'
 languageCode: en-us
 title: "major.io"
 theme: lanyon
 copyright: '&copy; Major Hayden'
 canonifyURLs: false
+relativeURLs: true
 paginate: 5
 pygmentsCodeFences: true
 pygmentsUseClasses: true
