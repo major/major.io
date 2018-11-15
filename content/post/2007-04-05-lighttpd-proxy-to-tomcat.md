@@ -52,7 +52,7 @@ Try to connect to the server now on port 8080 and you should see a Tomcat defaul
 
 ```
 
-&lt;user username="tomcat" password="password" roles="manager"/></pre>
+<user username="tomcat" password="password" roles="manager"/></pre>
 
 Restart Tomcat for the changes to take effect:
 

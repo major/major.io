@@ -17,7 +17,7 @@ If odd bounced e-mails are coming back to the server or the server is listed in 
 Read the queue and look for messages with funky senders or lots of recipients.
 
 <pre># /var/qmail/bin/qmail-qread
-10 Feb 2007 07:31:08 GMT  #476884  10716  &lt;service@paypal.com>
+10 Feb 2007 07:31:08 GMT  #476884  10716  <service@paypal.com>
         remote  debbarger@earthlink.net
         remote  debbiabbis@hotmail.com
         remote  debbiak@aol.com

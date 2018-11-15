@@ -71,8 +71,8 @@ Source RPM  : (none)
 Build Date  : Wed 17 Jun 2015 03:57:58 PM CDT
 Build Host  : localhost
 Relocations : (not relocatable)
-Packager    : CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) &lt;security@centos.org>
-Summary     : gpg(CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) &lt;security@centos.org>)
+Packager    : CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) <security@centos.org>
+Summary     : gpg(CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) <security@centos.org>)
 Description :
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: rpm-4.11.3 (NSS-3)

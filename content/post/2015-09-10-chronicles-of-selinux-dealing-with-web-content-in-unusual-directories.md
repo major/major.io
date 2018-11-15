@@ -137,7 +137,7 @@ The httpd user has the ability to get into the directory (`o+x` is set on `/web/
 ```
 # journalctl -n 1 | tail
 -- Logs begin at Thu 2015-09-10 12:31:37 UTC, end at Thu 2015-09-10 12:55:04 UTC. --
-Sep 10 12:55:04 fedora22 audit[16597]: &lt;audit-1400> avc:  denied  { getattr } for  pid=16597 comm="httpd" path="/web/index.html" dev="xvda1" ino=524290 scontext=system_u:system_r:httpd_t:s0 tcontext=unconfined_u:object_r:default_t:s0 tclass=file permissive=0
+Sep 10 12:55:04 fedora22 audit[16597]: <audit-1400> avc:  denied  { getattr } for  pid=16597 comm="httpd" path="/web/index.html" dev="xvda1" ino=524290 scontext=system_u:system_r:httpd_t:s0 tcontext=unconfined_u:object_r:default_t:s0 tclass=file permissive=0
 ```
 
 

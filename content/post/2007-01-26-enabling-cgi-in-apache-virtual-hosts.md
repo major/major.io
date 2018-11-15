@@ -13,10 +13,10 @@ tags:
 Add this to the Apache configuration:
 
 <pre>ScriptAlias /cgi-bin/ "/var/www/html/cgi-bin/"
-&lt;Directory "/var/www/html/cgi-bin"&gt;
+<Directory "/var/www/html/cgi-bin"&gt;
         Options +ExecCGI
         AddHandler cgi-script .cgi
-&lt;/Directory&gt;</pre>
+</Directory&gt;</pre>
 
 Reload Apache and throw this in as test.cgi into your cgi-bin directory:
 

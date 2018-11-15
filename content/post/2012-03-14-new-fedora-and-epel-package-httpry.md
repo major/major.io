@@ -25,13 +25,13 @@ Here's an example of what httpry's output looks like on a busy site like icanhaz
 
 ```
  GET	icanhazip.com	/	HTTP/1.1	-	-
-2012-03-13 23:29:39 192.x.x.x	186.x.x.x &lt; -	-	-	HTTP/1.1	200	OK
+2012-03-13 23:29:39 192.x.x.x	186.x.x.x < -	-	-	HTTP/1.1	200	OK
 2012-03-13 23:29:39 187.x.x.x	192.x.x.x > GET	icanhazip.com	/	HTTP/1.0	-	-
-2012-03-13 23:29:39 192.x.x.x	187.x.x.x &lt; -	-	-	HTTP/1.0	200	OK
+2012-03-13 23:29:39 192.x.x.x	187.x.x.x < -	-	-	HTTP/1.0	200	OK
 2012-03-13 23:29:39 188.x.x.x	192.x.x.x > GET	icanhazip.com	/	HTTP/1.1	-	-
-2012-03-13 23:29:39 192.x.x.x	188.x.x.x &lt; -	-	-	HTTP/1.1	200	OK
+2012-03-13 23:29:39 192.x.x.x	188.x.x.x < -	-	-	HTTP/1.1	200	OK
 2012-03-13 23:29:39 189.x.x.x	192.x.x.x > GET	icanhazip.com	/	HTTP/1.1	-	-
-2012-03-13 23:29:39 192.x.x.x	189.x.x.x &lt; -	-	-	HTTP/1.1	200	OK
+2012-03-13 23:29:39 192.x.x.x	189.x.x.x < -	-	-	HTTP/1.1	200	OK
 ```
 
 

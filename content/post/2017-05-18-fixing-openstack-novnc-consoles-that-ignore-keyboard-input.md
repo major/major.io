@@ -41,17 +41,17 @@ The system journal in the virtual machine had some interesting output:
 
 ```
 kernel: atkbd serio0: Unknown key released (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 kernel: atkbd serio0: Unknown key released (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 kernel: atkbd serio0: Unknown key pressed (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 kernel: atkbd serio0: Unknown key pressed (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 kernel: atkbd serio0: Unknown key released (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 kernel: atkbd serio0: Unknown key released (translated set 2, code 0x0 on isa0060/serio0).
-kernel: atkbd serio0: Use 'setkeycodes 00 &lt;keycode>' to make it known.
+kernel: atkbd serio0: Use 'setkeycodes 00 <keycode>' to make it known.
 ```
 
 
@@ -59,7 +59,7 @@ It seems like my keyboard input was being lost in translation - literally. I hav
 
 ```
 # virsh dumpxml 4 | grep vnc
-    &lt;graphics type='vnc' port='5900' autoport='yes' listen='192.168.250.41' keymap='en-us'>
+    <graphics type='vnc' port='5900' autoport='yes' listen='192.168.250.41' keymap='en-us'>
 ```
 
 

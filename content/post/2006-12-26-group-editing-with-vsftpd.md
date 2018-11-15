@@ -14,8 +14,8 @@ So you have multiple users that need to read and write to certain files on the f
 
 **For vsftpd,** change the umask for files created by FTP users. Open the vsftpd.conf file and edit the following:
 
-<pre>local_umask = 077     &lt;-- old
-     local_umask = 022     &lt;-- new</pre>
+<pre>local_umask = 077     <-- old
+     local_umask = 022     <-- new</pre>
 
 **For proftpd,** change the umask for files created by FTP users. Open the proftpd.conf file and edit the following:
 

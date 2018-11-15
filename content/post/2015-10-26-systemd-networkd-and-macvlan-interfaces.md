@@ -92,13 +92,13 @@ You'll end up with interfaces like these after creating multiple virtual machine
  mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
     link/ether 52:54:00:83:53:f2 brd ff:ff:ff:ff:ff:ff promiscuity 0
     macvtap  mode bridge addrgenmode eui64
-15: macvtap2@enp4s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
+15: macvtap2@enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
     link/ether 52:54:00:f1:76:0b brd ff:ff:ff:ff:ff:ff promiscuity 0
     macvtap  mode bridge addrgenmode eui64
-17: macvtap3@enp4s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
+17: macvtap3@enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
     link/ether 52:54:00:cd:53:34 brd ff:ff:ff:ff:ff:ff promiscuity 0
     macvtap  mode bridge addrgenmode eui64
-20: macvtap1@enp4s0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
+20: macvtap1@enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 500
     link/ether 52:54:00:18:79:d3 brd ff:ff:ff:ff:ff:ff promiscuity 0
     macvtap  mode bridge addrgenmode eui64
 ```

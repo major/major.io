@@ -18,10 +18,10 @@ I'm a big fan of the [pyenv][1] project because it makes installing multiple pyt
 
 ```
 writing output... [100%] unreleased
-[app] emitting event: 'doctree-resolved'(&lt;document: &lt;section "current series release notes"...>>, u'unreleased')
+[app] emitting event: 'doctree-resolved'(<document: <section "current series release notes"...>>, u'unreleased')
 [app] emitting event: 'html-page-context'(u'unreleased', 'page.html', {'file_suffix': '.html', 'has_source': True, 'show_sphinx': True, 'last
 
-generating indices... genindex[app] emitting event: 'html-page-context'('genindex', 'genindex.html', {'pathto': &lt;function pathto at 0x7f4279d51230>, 'file_suffix': '.html'
+generating indices... genindex[app] emitting event: 'html-page-context'('genindex', 'genindex.html', {'pathto': <function pathto at 0x7f4279d51230>, 'file_suffix': '.html'
 Segmentation fault (core dumped)
 ```
 

@@ -28,7 +28,7 @@ Next, open up `/etc/network/if-up.d/iptables` in your favorite text editor and a
 
 ```
 #!/bin/sh
-iptables-restore &lt; /etc/firewall.conf</pre>
+iptables-restore < /etc/firewall.conf</pre>
 
 Once you save it, make it executable:
 

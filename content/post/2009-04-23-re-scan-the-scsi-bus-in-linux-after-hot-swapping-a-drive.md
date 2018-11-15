@@ -24,7 +24,7 @@ kernel: sdb: Write Protect is off
 kernel: sdb: Mode Sense: 00 00 00 00
 kernel: sdb: asking for cache data failed
 kernel: sdb: assuming drive cache: write through
-kernel:  sdb:&lt;6>sd 1:0:0:0: SCSI error: return code = 0x00040000
+kernel:  sdb:<6>sd 1:0:0:0: SCSI error: return code = 0x00040000
 kernel: end_request: I/O error, dev sdb, sector 0
 kernel: Buffer I/O error on device sdb, logical block 0
 kernel: sd 1:0:0:0: SCSI error: return code = 0x00040000

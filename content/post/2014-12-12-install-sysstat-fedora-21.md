@@ -55,7 +55,7 @@ From there, systemd will automatically call for collection and management of the
 
 ```ini
 # /usr/lib/systemd/system/sysstat-collect.timer
-# (C) 2014 Tomasz Torcz &lt;tomek@pipebreaker.pl>
+# (C) 2014 Tomasz Torcz <tomek@pipebreaker.pl>
 #
 # sysstat-11.0.0 systemd unit file:
 #        Activates activity collector every 10 minutes
@@ -75,7 +75,7 @@ The timer unit file ensures that the sysstat-collect.service is called every 10 
 
 ```ini
 # /usr/lib/systemd/system/sysstat-collect.service
-# (C) 2014 Tomasz Torcz &lt;tomek@pipebreaker.pl>
+# (C) 2014 Tomasz Torcz <tomek@pipebreaker.pl>
 #
 # sysstat-11.0.0 systemd unit file:
 #        Collects system activity data

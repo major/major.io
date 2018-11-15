@@ -57,7 +57,7 @@ mysql> CHANGE MASTER TO MASTER_HOST='master host name', MASTER_USER='repl', MAST
 6) Move the dump to the slave server and import it:
 
 ```
-mysql -u user -ppassword &lt; databases.sql
+mysql -u user -ppassword < databases.sql
 ```
 
 

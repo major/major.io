@@ -22,7 +22,7 @@ systemd[1]: cups.service start operation timed out. Terminating.
 systemd[1]: Failed to start CUPS Scheduler.
 systemd[1]: Unit cups.service entered failed state.
 systemd[1]: cups.service failed.
-audit[1]: &lt;audit-1130> pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+audit[1]: <audit-1130> pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
 ```
 
 

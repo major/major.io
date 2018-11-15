@@ -105,7 +105,7 @@ Checking a Linux machine for IPv6 connectivity is easy. Here's an example from a
 
 ```
 $ ip -6 addr
-2: em1: &lt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
+2: em1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
     inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global mngtmpaddr dynamic
        valid_lft 2591998sec preferred_lft 604798sec
     inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global deprecated mngtmpaddr dynamic

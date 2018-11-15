@@ -38,9 +38,9 @@ The interfaces came up with the expected names after a reboot:
 
 ```
 # ip link
-6: enp3s0f0: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+6: enp3s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/ether 0c:c4:7a:75:91:c8 brd ff:ff:ff:ff:ff:ff
-7: enp3s0f1: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+7: enp3s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/ether 0c:c4:7a:75:91:c9 brd ff:ff:ff:ff:ff:ff
 ```
 

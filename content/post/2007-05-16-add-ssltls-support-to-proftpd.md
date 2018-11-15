@@ -13,7 +13,7 @@ tags:
 ---
 To enable SSL/TLS support in proftpd, add the following to the proftpd.conf file:
 
-<pre>&lt;IfModule mod_tls.c&gt;
+<pre><IfModule mod_tls.c&gt;
     TLSEngine on
     TLSLog /var/ftpd/tls.log
     TLSRequired off
@@ -22,7 +22,7 @@ To enable SSL/TLS support in proftpd, add the following to the proftpd.conf file
     TLSCACertificateFile /usr/share/ssl/certs/cacert.crt
     TLSVerifyClient off
     TLSRenegotiate required off
-&lt;/IfModule&gt;</pre>
+</IfModule&gt;</pre>
 
 To **require** SSL/TLS on all connections, change `TLSRequired` to **on**. Of course, replace the certificate, key, and CA certificate (if applicable) to the correct files on your system.
 

@@ -51,10 +51,10 @@ Editing the accels file is easy for most changes, but **be sure Evolution is sto
 ; evolution GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
-; (gtk_accel_path "&lt;Actions>/new-source/memo-list-new" "")
-; (gtk_accel_path "&lt;Actions>/switcher/switch-to-tasks" "&lt;Primary>4")
-; (gtk_accel_path "&lt;Actions>/mailto/add-to-address-book" "")
-; (gtk_accel_path "&lt;Actions>/mail/mail-next-thread" "")
+; (gtk_accel_path "<Actions>/new-source/memo-list-new" "")
+; (gtk_accel_path "<Actions>/switcher/switch-to-tasks" "<Primary>4")
+; (gtk_accel_path "<Actions>/mailto/add-to-address-book" "")
+; (gtk_accel_path "<Actions>/mail/mail-next-thread" "")
 ```
 
 
@@ -76,7 +76,7 @@ Those edits are quite easy, but things get interesting with other characters. Fo
 
 ```
 /mail/mail-threads-expand-all" "asterisk")
-(gtk_accel_path "&lt;Actions>/mail/mail-threads-collapse-all" "backslash")
+(gtk_accel_path "<Actions>/mail/mail-threads-collapse-all" "backslash")
 ```
 
 

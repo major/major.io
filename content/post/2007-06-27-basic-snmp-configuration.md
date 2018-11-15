@@ -23,4 +23,4 @@ view all    included  .1                               80
 access MyROGroup ""      any       noauth    exact  all    none   none
 
 syslocation MyLocation
-syscontact Me &lt;me@somewhere.org&gt;</pre>
+syscontact Me <me@somewhere.org&gt;</pre>

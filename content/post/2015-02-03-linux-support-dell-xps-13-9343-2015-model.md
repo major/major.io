@@ -102,7 +102,7 @@ After about 35 kernel builds during the most frustrating git bisect of my life, 
 
 ```diff
 From d1c7e29e8d276c669e8790bb8be9f505ddc48888 Mon Sep 17 00:00:00 2001
-From: Gwendal Grignou &lt;gwendal@chromium.org>
+From: Gwendal Grignou <gwendal@chromium.org>
 Date: Thu, 11 Dec 2014 16:02:45 -0800
 Subject: HID: i2c-hid: prevent buffer overflow in early IRQ
 
@@ -116,10 +116,10 @@ Given wMaxInputLength is said to be unreliable in other part of the
 code, set to receive only what we can even if it results in truncated
 reports.
 
-Signed-off-by: Gwendal Grignou &lt;gwendal@chromium.org>
-Reviewed-by: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com>
+Signed-off-by: Gwendal Grignou <gwendal@chromium.org>
+Reviewed-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
 Cc: stable@vger.kernel.org
-Signed-off-by: Jiri Kosina &lt;jkosina@suse.cz>
+Signed-off-by: Jiri Kosina <jkosina@suse.cz>
 
 diff --git a/drivers/hid/i2c-hid/i2c-hid.c b/drivers/hid/i2c-hid/i2c-hid.c
 index 747d544..9c014803b4 100644
@@ -161,7 +161,7 @@ There is now a [patch][20] that you can apply to 3.18 or 3.19 kernels that elimi
 
 ```diff
 From 2a2aa272447d0ad4340c73db91bd8e995f6a0c3f Mon Sep 17 00:00:00 2001
-From: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com>
+From: Benjamin Tissoires <benjamin.tissoires@redhat.com>
 Date: Tue, 10 Feb 2015 12:40:13 -0500
 Subject: [PATCH] HID: multitouch: force release of touches when i2c
  communication is not reliable
@@ -173,7 +173,7 @@ in user space when the missing report contains a touch release information.
 Win 8 devices should have a contact count reliable, to we can safely
 release all touches that has not been seen in the current report.
 
-Signed-off-by: Benjamin Tissoires &lt;benjamin.tissoires@redhat.com>
+Signed-off-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
 ---
  drivers/hid/hid-multitouch.c | 8 ++++++++
  1 file changed, 8 insertions(+)

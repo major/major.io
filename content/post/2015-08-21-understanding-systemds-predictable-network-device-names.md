@@ -72,14 +72,14 @@ Let's take a look at [src/udev/udev-builtin-net_id.c][4]:
  *   ww -- wwan
  *
  * Type of names:
- *   b&lt;number>                             -- BCMA bus core number
- *   ccw&lt;name>                             -- CCW bus group name
- *   o&lt;index>[d&lt;dev_port>]                 -- on-board device index number
- *   s&lt;slot>[f&lt;function>][d&lt;dev_port>]     -- hotplug slot index number
- *   x&lt;MAC>                                -- MAC address
- *   [P&lt;domain>]p&lt;bus>s&lt;slot>[f&lt;function>][d&lt;dev_port>]
+ *   b<number>                             -- BCMA bus core number
+ *   ccw<name>                             -- CCW bus group name
+ *   o<index>[d<dev_port>]                 -- on-board device index number
+ *   s<slot>[f<function>][d<dev_port>]     -- hotplug slot index number
+ *   x<MAC>                                -- MAC address
+ *   [P<domain>]p<bus>s<slot>[f<function>][d<dev_port>]
  *                                         -- PCI geographical location
- *   [P&lt;domain>]p&lt;bus>s&lt;slot>[f&lt;function>][u&lt;port>][..][c&lt;config>][i&lt;interface>]
+ *   [P<domain>]p<bus>s<slot>[f<function>][u<port>][..][c<config>][i<interface>]
  *                                         -- USB port number chain
 ```
 

@@ -101,10 +101,10 @@ echo "pts/0" >> /var/lib/libvirt/filesystems/fedora20/etc/securetty
 Since we will be using our NAT network with our auto-configured dnsmasq server (thanks to libvirt), we can configure a simple DHCP setup for eth0:
 
 ```
-cat &lt; &lt; EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network
+cat < < EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network
 NETWORKING=yes
 EOF
-cat &lt; &lt; EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network-scripts/ifcfg-eth0
+cat < < EOF > /var/lib/libvirt/filesystems/fedora20/etc/sysconfig/network-scripts/ifcfg-eth0
 BOOTPROTO=dhcp
 ONBOOT=yes
 DEVICE=eth0

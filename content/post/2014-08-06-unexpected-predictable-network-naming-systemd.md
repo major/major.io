@@ -44,13 +44,13 @@ When the system boots up, the devices are named based on [systemd-udevd's criter
 
 ```
 # ip addr | egrep ^[0-9]
-1: lo: &lt;LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default
-2: enp8s0f0: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
-3: enp8s0f1: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
-4: enp1s0f0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
-5: enp1s0f1: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
-6: enp66s0f0: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
-7: enp66s0f1: &lt;BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default
+2: enp8s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+3: enp8s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+4: enp1s0f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+5: enp1s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+6: enp66s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+7: enp66s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
 ```
 
 

@@ -54,8 +54,8 @@ $ sudo port install vpnc +hybrid_cert
 --->  Scanning binaries for linking errors: 100.0%
 --->  No broken files found.
 $ sudo vpnc
-unknown host `&lt;gateway>'
-&lt;/gateway></pre>
+unknown host `<gateway>'
+</gateway></pre>
 
  [1]: http://www.unix-ag.uni-kl.de/~massar/vpnc/
  [2]: http://www.macports.org/
