@@ -14,8 +14,12 @@ tags:
 ---
 If your server is sending out spam because of some bad scripts, hunt that stuff down:
 
-`grep POST /var/log/httpd/access_log | awk '{ print $7 }' | sort | uniq -c | sort -rn`
+```
+grep POST /var/log/httpd/access_log | awk '{ print $7 }' | sort | uniq -c | sort -rn
+```
 
 Or on Plesk:
 
-`grep POST /home/httpd/vhosts/*/statistics/logs/access_log | awk '{ print $7 }' | sort | uniq -c | sort -rn`
+```
+grep POST /home/httpd/vhosts/*/statistics/logs/access_log | awk '{ print $7 }' | sort | uniq -c | sort -rn
+```

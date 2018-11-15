@@ -13,5 +13,7 @@ tags:
 ---
 Need to redirect all users except for yourself to another site until yours is live?
 
-`RewriteCond %{REMOTE_ADDR} !"^64\.39\.0\.38"<br />
-RewriteRule .* http://othersite.com/`
+```
+RewriteCond %{REMOTE_ADDR} !"^64\.39\.0\.38"
+RewriteRule .* http://othersite.com/
+```

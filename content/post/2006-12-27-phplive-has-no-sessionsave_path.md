@@ -12,9 +12,9 @@ tags:
 ---
 Add this to the virtual host configuration if PHPLive says it has no session.save_path:
 
-<pre>php_admin_flag safe_mode off
+```
+php_admin_flag safe_mode off
 php_admin_flag register_globals off
 ```
-
 
 PHPLive **cannot** operate with safe_mode enabled.

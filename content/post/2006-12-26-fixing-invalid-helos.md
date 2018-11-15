@@ -16,7 +16,7 @@ If your server is spewing an invalid HELO, you could be blacklisted pretty quick
 
 The common reasons why mail servers are blocked for bad HELO's are:
 
-  * Server is announcing itself as "localhost".
+  * Server is announcing itself as &#8220;localhost&#8221;.
   * Server is announcing itself as an IP address.
   * Server is announcing itself as a hostname that does not exist.
 
@@ -35,8 +35,7 @@ If **/var/qmail/control/me** exists, edit it so that it matches your reverse DNS
 
 The default value for Postfix's HELO is the value of `$myhostname`. If that variable is defined in the main.cf, adjust it so that it matches the reverse DNS record of your server. If it isn't defined in main.cf, then adjust the hostname on your operating system. Try running `hostname mail.yourdomain.com` to fix things immediately, and edit the proper configuration files to correct your hostname at boot time. Should neither of those methods suffice on your server, simply adjust the `smtp_helo_name` variable to match the reverse DNS record of your server. For example:
 
-```
-
+<pre lang="html">smtp_helo_name = mail.yourdomain.com</pre>
 
 **Managing HELO with Sendmail**
 

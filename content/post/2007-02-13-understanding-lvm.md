@@ -20,56 +20,74 @@ Confused? You should be! Let's try an example:
 
 You have two system partitions: /dev/sda2 and /dev/sda3. Let's say that /dev/sda2 has 1,000 extents and /dev/sda3 has 2,000 extents. The first thing you'll want to do is initialize the physical volumes, which basically tells LVM you want to chop them up into pieces so you can use them later:
 
-`# pvcreate /dev/sda2<br />
+```
+# pvcreate /dev/sda2
 # pvcreate /dev/sda3`
+```
 
 Graphically, here's what's happened so far:
 
-<pre>+-----[ Physical Volume ]------+
-  | PE | PE | PE | PE | PE | PE  |
-  +------------------------------+</pre>
+```
++-----[ Physical Volume ]------+
+| PE | PE | PE | PE | PE | PE  |
++------------------------------+
+```
 
 Now, LVM has split these physical volumes (partitions) into small pieces called extents. So, we should have 3,000 extents total once we create the physical volumes with LVM (1,000 for sda2 and 2,000 for sda3). Now, we need to take all of these extents and put them into a group, called the volume group:
 
-`vgcreate test /dev/sda2 /dev/sda3`
+```
+vgcreate test /dev/sda2 /dev/sda3
+```
 
 Again, here's what we've done:
 
-<pre>+------[ Volume Group ]-----------------+
-  |  +--[PV]--------+  +--[PV]---------+  |
-  |  | PE | PE | PE |  | PE | PE | PE  |  |
-  |  +--------------+  +---------------+  |
-  +---------------------------------------+</pre>
+```
++------[ Volume Group ]-----------------+
+|  +--[PV]--------+  +--[PV]---------+  |
+|  | PE | PE | PE |  | PE | PE | PE  |  |
+|  +--------------+  +---------------+  |
++---------------------------------------+
+```
 
 So what's happened so far? The physical volumes (partitions) are unchanged, but LVM has split them into extents, and we've now told LVM that we want to include the extents from both physical volumes in a volume group called test. The volume group test is basically a big bucket holding all of our extents from both physical volumes. To move on, you need to find out how many extents we have in our volume group now:
 
-`vgdisplay -v test`
+```
+vgdisplay -v test
+```
 
 We should see that **Total PE** in the output shows 3,000, with a **Free PE** of 3,000 since we haven't done anything with our extents yet. Now we can take all these extents in the volume group and lump them together into a 1,500 extent partition:
 
-`lvcreate -l 1500 -n FIRST test`
+```
+lvcreate -l 1500 -n FIRST test
+```
 
 What did we just do? We made a real linux volume called /dev/test/FIRST that has 1,500 extents. Toss a filesystem onto that new volume and you're good to go:
 
-`mke2fs -j /dev/test/FIRST`
+```
+mke2fs -j /dev/test/FIRST
+```
 
 So, this new logical volume contains 1,500 extents, which means we have 1,500 left over. Might as well make a second volume out of the remaining extents in our volume group:
 
-`lvcreate -l 1500 -n SECOND test<br />
-mke2fs -j /dev/test/SECOND`
+```
+lvcreate -l 1500 -n SECOND test
+mke2fs -j /dev/test/SECOND
+```
 
 Now you have two equal sized logical volumes whereas you had one small one (sda2) and one large one (sda3) before. The two logical volumes use extents from both physical volumes that are both held within the same volume group. You end up with something like this:
 
-<pre>+------[ Volume Group ]-----------------+
-  |  +--[PV]--------+  +--[PV]---------+  |
-  |  | PE | PE | PE |  | PE | PE | PE  |  |
-  |  +--+---+---+---+  +-+----+----+---+  |
-  |     |   |   | +-----/     |    |      |
-  |     |   |   | |           |    |      |
-  |   +-+---+---+-+      +----+----+--+   |
-  |   |  Logical  |      |  Logical   |   |
-  |   |  Volume   |      |   Volume   |   |
-  |   |           |      |            |   |
-  |   |  /FIRST   |      |   /SECOND  |   |
-  |   +-----------+      +------------+   |
-  +---------------------------------------+</pre>
+```
++------[ Volume Group ]-----------------+
+|  +--[PV]--------+  +--[PV]---------+  |
+|  | PE | PE | PE |  | PE | PE | PE  |  |
+|  +--+---+---+---+  +-+----+----+---+  |
+|     |   |   | +-----/     |    |      |
+|     |   |   | |           |    |      |
+|   +-+---+---+-+      +----+----+--+   |
+|   |  Logical  |      |  Logical   |   |
+|   |  Volume   |      |   Volume   |   |
+|   |           |      |            |   |
+|   |  /FIRST   |      |   /SECOND  |   |
+|   +-----------+      +------------+   |
++---------------------------------------+
+```

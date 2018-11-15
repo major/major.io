@@ -18,11 +18,15 @@ Hold on - adam is going to be upset if bill or carl changes or removes adam's fi
 
 After a `chmod 664`, and a `chown user:group` to fix the group, the directory looks like this:
 
-<pre>-rw-rw-r--   1 admin sharegroup    18367 Dec 30 22:05 shared</pre>
+```
+-rw-rw-r--   1 admin sharegroup    18367 Dec 30 22:05 shared
+```
 
 Now, run a `chmod 1664` on the directory:
 
-<pre>-rw-rw-r-t   1 admin sharegroup    18367 Dec 30 22:05 shared</pre>
+```
+-rw-rw-r-t   1 admin sharegroup    18367 Dec 30 22:05 shared
+```
 
 What's the `t` all about? That's your sticky bit! Whenever adam creates a file, bill and carl can't delete it, modify it, or rename it. They can read it all they want, but adam is the only one who can make the modifications because write priviliges are "stuck" to his user (even though the folder is writable to the group).
 

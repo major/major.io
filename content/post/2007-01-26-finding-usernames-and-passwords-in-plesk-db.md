@@ -12,4 +12,6 @@ tags:
 ---
 Need a username and password from the Plesk DB? Use this one-liner:
 
-`select REPLACE(sys_users.home,'/home/httpd/vhosts/','') AS domain,sys_users.login,accounts.password from sys_users LEFT JOIN accounts on sys_users.account_id=accounts.id;`
+```sql
+select REPLACE(sys_users.home,'/home/httpd/vhosts/','') AS domain,sys_users.login,accounts.password from sys_users LEFT JOIN accounts on sys_users.account_id=accounts.id;
+```

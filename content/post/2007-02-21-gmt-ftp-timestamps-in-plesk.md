@@ -17,5 +17,7 @@ For example, if the server is on Central Time, all of the files will seem to be 
 
 Add the following to your /etc/proftpd.conf file and you should be good to go:
 
-`TimesGMT off<br />
-SetEnv TZ :/etc/localtime`
+```
+TimesGMT off
+SetEnv TZ :/etc/localtime
+```

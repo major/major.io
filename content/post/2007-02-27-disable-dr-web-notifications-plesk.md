@@ -13,14 +13,18 @@ tags:
 ---
 You can edit /etc/drweb/drweb_qmail.conf to eliminate receiving notification messages when Dr. Web has an issue:
 
-    `[VirusNotifications]<br />
-    SenderNotify = no<br />
-    AdminNotify = no<br />
-    RcptsNotify = no`
+```ini
+[VirusNotifications]
+SenderNotify = no
+AdminNotify = no
+RcptsNotify = no
+```
 
 Then just restart Dr. Web with:
 
-`/etc/init.d/drwebd restart`
+```
+/etc/init.d/drwebd restart
+```
 
 Plesk has a [KB article][1] about this issue as well.
 

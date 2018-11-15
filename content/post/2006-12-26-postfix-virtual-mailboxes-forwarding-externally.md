@@ -18,7 +18,7 @@ Setting up Postfix to handle mail for a virtual domain and forward it to externa
 
 ```
 virtual_alias_domains = hash:/etc/postfix/mydomains
-     virtual_alias_maps = hash:/etc/postfix/virtual
+virtual_alias_maps = hash:/etc/postfix/virtual
 ```
 
 
@@ -26,8 +26,8 @@ virtual_alias_domains = hash:/etc/postfix/mydomains
 
 ```
 foo.com          OK
-     foo1.com         OK
-     foo2.com         OK
+foo1.com         OK
+foo2.com         OK
 ```
 
 
@@ -35,9 +35,9 @@ foo.com          OK
 
 ```
 frank@foo.com           frank@gmail.com
-     jane@foo.com            jane@earthlink.net
-     jim@foo1.com            jimmy@yahoo.com
-     peter@foo2.com          pete@hotmail.com
+jane@foo.com            jane@earthlink.net
+jim@foo1.com            jimmy@yahoo.com
+peter@foo2.com          pete@hotmail.com
 ```
 
 

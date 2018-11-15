@@ -12,4 +12,6 @@ tags:
 ---
 If you're not a fan of scientific notation, use this to calculate the apache bandwidth used from log files in MB:
 
+```
 cat /var/log/httpd/access_log | awk '{ SUM += $5} END { print SUM/1024/1024 }'
+```

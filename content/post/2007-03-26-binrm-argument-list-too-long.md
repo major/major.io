@@ -12,4 +12,6 @@ tags:
 ---
 If you have too many files to remove, try this trick:
 
-`find . -name '*' | xargs rm -v`
+```
+find . -name '*' | xargs rm -v
+```

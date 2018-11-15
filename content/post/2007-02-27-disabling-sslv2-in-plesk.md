@@ -14,8 +14,10 @@ tags:
 ---
 To disable SSLv2 server-wide on a Plesk server, add this in your /etc/httpd/conf.d/ssl.conf:
 
-`SSLCipherSuite ALL:!ADH:!LOW:!SSLv2:!EXP:+HIGH:+MEDIUM<br />
-SSLProtocol all -SSLv2`
+```
+SSLCipherSuite ALL:!ADH:!LOW:!SSLv2:!EXP:+HIGH:+MEDIUM
+SSLProtocol all -SSLv2
+```
 
 Put the directive very high in the file, outside the VirtualHost directive, preferably right below the Listen directive. This will work for all SSL VirtualHosts.
 

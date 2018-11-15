@@ -13,6 +13,8 @@ tags:
 ---
 The AWStats package in RHEL4/Centos4 and Plesk 8.1 uses an alias directory for the icons called /awstats-icon, but when the AWStats contents is generated, the icon directory is different (/icon). To fix this issue, change this file:
 
-**/usr/share/awstats/awstats_buildstaticpages.pl**
+`/usr/share/awstats/awstats_buildstaticpages.pl`:
 
-`my $DirIcons='/awstats-icon';`
+```perl
+my $DirIcons='/awstats-icon';
+```

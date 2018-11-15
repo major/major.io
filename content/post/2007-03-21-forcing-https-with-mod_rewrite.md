@@ -14,13 +14,17 @@ tags:
 ---
 If you can't use PHP to force HTTPS, you can use mod_rewrite instead. Toss this in an .htaccess file in the web root of your site:
 
-`RewriteEngine On<br />
-RewriteCond %{SERVER_PORT} 80<br />
-RewriteRule ^(.*)$ https://www.domain.com/$1 [R,L]`
+```
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.domain.com/$1 [R,L]
+```
 
 Or, if it needs to be forced only for a certain folder:
 
-`RewriteEngine On<br />
-RewriteCond %{SERVER_PORT} 80<br />
-RewriteCond %{REQUEST_URI} somefolder<br />
-RewriteRule ^(.*)$ https://www.domain.com/somefolder/$1 [R,L]`
+```
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} somefolder
+RewriteRule ^(.*)$ https://www.domain.com/somefolder/$1 [R,L]
+```

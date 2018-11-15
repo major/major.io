@@ -23,7 +23,9 @@ By default on almost all distributions, MySQL comes with an empty root password.
 
 As with any daemon, the more exposure it has to the internet, the higher the chance of it being hacked and brute forced. If your users need network access to MySQL, then restrict it by at least altering the MySQL permissions to their IP only. The better solution would be to restrict it via a firewall and permissions. If you users don't need any network access to MySQL, add the following to your my.cnf:
 
-> listen = 127.0.0.1
+```ini
+listen = 127.0.0.1
+```
 
 Restart MySQL and it shouldn't be listening on any network addresses except the localhost. This won't affect any PHP scripts on your server.
 

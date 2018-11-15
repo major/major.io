@@ -12,4 +12,6 @@ tags:
 ---
 If you have a ton of files in a directory and you need to remove them, but rm says that the "argument list [is] too long", just use find and xargs:
 
+```
 find . -name 'filename*' | xargs rm -vf
+```

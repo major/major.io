@@ -12,4 +12,6 @@ tags:
 ---
 Okay, so you've verified that the correct admin password is being used, but you still can't login? Most likely the account has been locked out. You can reset the account by running the following SQL statement:
 
+```
 echo "use psa; truncate lockout;" | mysql -u root -p\`cat /etc/psa/.psa.shadow\`
+```

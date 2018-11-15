@@ -24,23 +24,25 @@ What does qmail do when it can't find the file that corresponds to an item in th
 
 Should you find yourself with an impressively hosed qmail queue, do the following (and say goodbye to every e-mail in your queue):
 
-> ``/etc/init.d/qmail stop<br />
-cd /var/qmail/queue<br />
-rm -rf info intd local mess remote todo<br />
-mkdir mess<br />
-for i in `seq 0 22`; do<br />
-mkdir mess/$i<br />
-done<br />
-cp -r mess info<br />
-cp -r mess intd<br />
-cp -r mess local<br />
-cp -r mess remote<br />
-cp -r mess todo<br />
-chmod -R 750 mess todo<br />
-chown -R qmailq:qmail mess todo<br />
-chmod -R 700 info intd local remote<br />
-chown -R qmailq:qmail intd<br />
-chown -R qmails:qmail info local remote<br />
-/etc/init.d/qmail start``
+```
+/etc/init.d/qmail stop
+cd /var/qmail/queue
+rm -rf info intd local mess remote todo
+mkdir mess
+for i in `seq 0 22`; do
+mkdir mess/$i
+done
+cp -r mess info
+cp -r mess intd
+cp -r mess local
+cp -r mess remote
+cp -r mess todo
+chmod -R 750 mess todo
+chown -R qmailq:qmail mess todo
+chmod -R 700 info intd local remote
+chown -R qmailq:qmail intd
+chown -R qmails:qmail info local remote
+/etc/init.d/qmail start
+```
 
 **Just in case you missed it,** this will delete **all mail messages** that exist in your queue. But, then again, you're not going to get those messages anyways (thanks qmail!), so repairing the queue is your only option.

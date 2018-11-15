@@ -17,7 +17,9 @@ First, add `skip-grant-tables` to the `[mysqld]` section of /etc/my.cnf and rest
 
 Next, run `mysql` from the command line and use the following SQL statement:
 
-`UPDATE mysql.user SET Password=PASSWORD('newpwd') WHERE User='root';<br />
-FLUSH PRIVILEGES;`
+```sql
+UPDATE mysql.user SET Password=PASSWORD('newpwd') WHERE User='root';<br />
+FLUSH PRIVILEGES;
+```
 
 Remove the `skip-grant-tables` from /etc/my.cnf and leave the server running. There's no need to restart it.

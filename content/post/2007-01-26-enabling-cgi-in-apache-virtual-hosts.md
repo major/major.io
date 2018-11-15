@@ -12,16 +12,20 @@ tags:
 ---
 Add this to the Apache configuration:
 
-<pre>ScriptAlias /cgi-bin/ "/var/www/html/cgi-bin/"
+```apache
+ScriptAlias /cgi-bin/ "/var/www/html/cgi-bin/"
 <Directory "/var/www/html/cgi-bin">
         Options +ExecCGI
         AddHandler cgi-script .cgi
-</Directory></pre>
+</Directory>
+```
 
 Reload Apache and throw this in as test.cgi into your cgi-bin directory:
 
-<pre>#!/usr/bin/perl
+```perl
+#!/usr/bin/perl
 print "Content-type: text/html\n\n";
-print "Hello, World.";</pre>
+print "Hello, World.";
+```
 
 **Do not omit** the content-type on your perl scripts. If you do, Apache will throw a random 500 Internal Server Error and it won't log anything about it.
