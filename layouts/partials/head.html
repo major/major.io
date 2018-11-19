@@ -23,8 +23,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="/assets/favicon.ico">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <!-- Feeds -->
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
   <meta name="msvalidate.01" content="10AD8FC12EB5AEFA544B708A9D38BFFD" />
   <meta name="google-site-verification" content="tCM6cfzWPV6wZ2RZ9aFzZe1dl2TBGjYXjdTz1K8WUNU" />

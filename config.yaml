@@ -9,6 +9,7 @@ paginate: 5
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 pygmentsCodefencesGuessSyntax: true
+rssLimit: 25
 permalinks:
   post: '/:year/:month/:day/:slug/'
 params:
@@ -20,6 +21,12 @@ sitemap:
   changefreq: monthly
   priority: 0.5
   filename: sitemap.xml
+author:
+  name: Major Hayden
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed/index"
 menu:
   main:
     - weight: '1'
