@@ -5,8 +5,7 @@ variables:
 
 pages:
   script:
-  - hugo
-  - cp -av public/feed/index.xml public/feed/index.html
+  - ./build-site.sh
   artifacts:
     paths:
     - public
