@@ -6,6 +6,7 @@ variables:
 pages:
   script:
   - hugo
+  - cp -av public/feed/index.xml public/feed/index.html
   artifacts:
     paths:
     - public
