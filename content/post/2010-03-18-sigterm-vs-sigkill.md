@@ -12,7 +12,7 @@ categories:
   - Blog Posts
 
 ---
-Sending signals to processes using `<a href="http://en.wikipedia.org/wiki/Kill_(command)">kill</a>` on a Unix system is not a new topic for most systems administrators, but I've been asked many times about the difference between `kill` and `kill -9`.
+Sending signals to processes using [kill](http://en.wikipedia.org/wiki/Kill_(command)) on a Unix system is not a new topic for most systems administrators, but I've been asked many times about the difference between `kill` and `kill -9`.
 
 Anytime you use `kill` on a process, you're actually sending the process a signal (in almost all situations &#8211; I'll get into that soon). Standard C applications have a [header file][1] that contains the steps that the process should follow if it receives a particular signal. You can get an entire list of the available signals on your system by checking the man page for `kill`.
 
