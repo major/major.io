@@ -59,7 +59,7 @@ Bugs."
 
 ![devconf-laura-abbott]
 
-It's the most informative, concise, and sane looks at how all the Linux
+It's the most informative, concise, and sane review of how all the Linux
 kernels on the planet fit together. From the insanity of linux-next to the
 wild world of being a Linux distribution kernel maintainer, she helped us all
 understand the process of how kernels are maintained. She also took time to
