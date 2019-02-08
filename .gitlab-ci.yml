@@ -3,34 +3,33 @@ variables:
   HUGO_VERSION: "0.54.0"
 
 stages:
-  - build
+  - generate
   - deploy
 
-pages:
+generate:blog:
   image: monachus/hugo
-  stage: build
+  stage: generate
   script:
     - ./build-site.sh
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  dependencies:
+    - generate:blog
   artifacts:
     paths:
       - public
   only:
     - master
 
-build:blog:
-  image: monachus/hugo
-  stage: build
-  script:
-    - ./build-site.sh
-  artifacts:
-    paths:
-      - public
-
 deploy:firebase:
   image: node:latest
   stage: deploy
   dependencies:
-    - build:blog
+    - generate:blog
   script:
     - npm install -g firebase-tools
     - firebase use major-io-1f024 --token ${FIREBASE_TOKEN}
