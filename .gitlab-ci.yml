@@ -2,6 +2,10 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
   HUGO_VERSION: "0.54.0"
 
+stages:
+  - build
+  - deploy
+
 pages:
   image: monachus/hugo
   script:
@@ -12,14 +16,22 @@ pages:
   only:
     - master
 
-firebase_deploy:
+build:blog:
+  image: monachus/hugo
+  stage: build
+  script:
+    - ./build-site.sh
+  artifacts:
+    paths:
+      - public
+
+deploy:firebase:
   image: node:latest
+  stage: deploy
+  dependencies:
+    - build:blog
   script:
     - npm install -g firebase-tools
-    - wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-    - tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-    - mv hugo /usr/local/bin/
-    - ./build-site.sh
     - firebase use major-io-1f024 --token ${FIREBASE_TOKEN}
     - firebase deploy -m "GitLab Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token ${FIREBASE_TOKEN}
   cache:
