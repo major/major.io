@@ -13,12 +13,12 @@ pages:
     - master
 
 firebase_deploy:
-  image: node:latest
+  image: node:current-alpine
   script:
     - npm install -g firebase-tools
-    - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+    - wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
     - tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-    - mv hugo/hugo /usr/local/bin/
+    - mv hugo /usr/local/bin/
     - ./build-site.sh
     - firebase use --token $FIREBASE_TOKEN major-io-1f024
     - firebase deploy -m "GitLab Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
