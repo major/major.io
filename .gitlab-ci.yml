@@ -20,7 +20,7 @@ firebase_deploy:
     - tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
     - mv hugo /usr/local/bin/
     - ./build-site.sh
-    - firebase use --token $FIREBASE_TOKEN major-io-1f024
+    - firebase use --token $FIREBASE_TOKEN major-io
     - firebase deploy -m "GitLab Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
   only:
     - master
