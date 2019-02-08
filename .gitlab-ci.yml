@@ -19,6 +19,8 @@ pages:
   stage: deploy
   dependencies:
     - generate:blog
+  script:
+    - stat public
   artifacts:
     paths:
       - public
