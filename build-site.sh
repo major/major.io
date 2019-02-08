@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eux -o pipefail
 
 # Build the blog
 hugo
