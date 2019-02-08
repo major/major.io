@@ -1,5 +1,6 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_VERSION: "0.54.0"
 
 pages:
   image: monachus/hugo
@@ -19,6 +20,9 @@ firebase_deploy:
     - npm install -g bower
     - npm install
     - bower install --allow-root
+    - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+    - tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+    - mv hugo/hugo /usr/local/bin/
     - firebase use --token $FIREBASE_TOKEN major-io-1f024
     - firebase deploy -m "GitLab Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
   only:
