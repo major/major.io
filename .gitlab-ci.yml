@@ -25,6 +25,5 @@ firebase_deploy:
   cache:
     paths:
       - node_modules/
-    key: "$CI_BUILD_REPO"
   only:
     - master
