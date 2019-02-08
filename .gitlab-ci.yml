@@ -8,6 +8,7 @@ stages:
 
 pages:
   image: monachus/hugo
+  stage: build
   script:
     - ./build-site.sh
   artifacts:
