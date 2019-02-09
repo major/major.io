@@ -1,9 +1,7 @@
 <!-- Twitter card -->
-{{ with .Params.twitter }}
-  <meta name="twitter:card" content="{{- .card -}}">
-  <meta name="twitter:site" content="{{- .site -}}">
-  <meta name="twitter:title" content="{{- .title -}}">
-  <meta name="twitter:image" content="{{- .image -}}">
-{{ with .image_alt -}}    <meta name="twitter:image:alt" content="{{- . -}}">{{- end }}
-{{ with .creator -}}    <meta name="twitter:creator" content="{{- . -}}">{{- end }}
-{{ end }}
+  <meta name="twitter:card" content="{{- .Params.twitter.card -}}">
+  <meta name="twitter:site" content="{{- .Params.twitter.site -}}">
+  <meta name="twitter:title" content="{{- .Params.twitter.title -}}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{- .Params.twitter.image -}}">
+{{ with .Params.twitter.image_alt -}}  <meta name="twitter:image:alt" content="{{- . -}}">{{- end }}
+{{ with .Params.twitter.creator -}}  <meta name="twitter:creator" content="{{- . -}}">{{- end }}
