@@ -4,6 +4,11 @@ author: Major Hayden
 type: post
 date: "2019-02-08"
 slug: automatic-floating-windows-in-i3
+twitter:
+  card: "summary_large_image"
+  site: "@majorhayden"
+  title: Automatic floating windows in i3
+  image: /images/2019-02-08-floating-leaf.jpg
 categories:
   - Blog Posts
 tags:
