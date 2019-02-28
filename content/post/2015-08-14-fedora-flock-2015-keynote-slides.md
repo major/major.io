@@ -23,10 +23,9 @@ If you'd like to review the slides, [they're on SlideShare][4]:
 
 Quite a few people came up after the talk and throughout the day to share some of their stories and challenges. It was extremely rewarding to have those conversations and share solutions.
 
-I'll be [doing the talk][5] once more at Texas Linux Fest in San Marcos on August 22.
+I'll be doing the talk once more at Texas Linux Fest in San Marcos on August 22.
 
  [1]: http://www.flocktofedora.org/
  [2]: http://flock2015.sched.org/event/f0d4e309dd6363f56f9516ced394a42f
  [3]: https://en.wikipedia.org/wiki/Impostor_syndrome
  [4]: http://www.slideshare.net/MajorHayden/be-an-inspiration-not-an-impostor-fedora-flock-2015
- [5]: http://2015.texaslinuxfest.org/content/be-inspiration-not-impostor-how-tell-your-story
