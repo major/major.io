@@ -45,7 +45,7 @@ The tasks are split into sections (just like the CIS benchmarks themselves) and 
 
 Level 1 requirements provide good security improvements without a tremendous amount of intrusion into production workloads. With that said, they can still cause issues.
 
-Level 2 requirements provide stronger security improvements but they can adversely affect production server environments. This is where you find things like [SELinux][7], [AIDE][8] (including disabling prelinking), and some [kernel tweaks for IPv6][9].
+Level 2 requirements provide stronger security improvements but they can adversely affect production server environments. This is where you find things like SELinux, AIDE (including disabling prelinking), and some kernel tweaks for IPv6.
 
 ### How to use it
 
@@ -53,7 +53,7 @@ I strongly recommend some dry runs with Ansible's [check mode][10] before trying
 
 The entire playbook takes less than a minute to run locally on a Rackspace Performance Cloud Server. Your results may vary over remote ssh connections, but I was seeing the playbooks complete over ssh within three to four minutes.
 
-You can also review the [variables file][11] to find all the knobs you need to get more aggressive in your audits. If you spot something potentially destructive that needs a variable added, let me know (or submit a pull request).
+You can also review the variables file to find all the knobs you need to get more aggressive in your audits. If you spot something potentially destructive that needs a variable added, let me know (or submit a pull request).
 
 ### It's open source
 
@@ -65,9 +65,5 @@ The entire repository is licensed under [Apache License 2.0][12], so please feel
  [4]: http://benchmarks.cisecurity.org/downloads/
  [5]: https://github.com/major/cis-rhel-ansible
  [6]: /wp-content/uploads/2014/08/What-Did-You-Do-Chris-Farley-Gif.gif
- [7]: https://github.com/major/cis-rhel-ansible/blob/master/cis/tasks/section_01_level2.yml#L113
- [8]: https://github.com/major/cis-rhel-ansible/blob/master/cis/tasks/section_01_level2.yml#L78
- [9]: https://github.com/major/cis-rhel-ansible/blob/master/cis/tasks/section_04_level2.yml#L18
  [10]: http://docs.ansible.com/playbooks_checkmode.html
- [11]: https://github.com/major/cis-rhel-ansible/blob/master/group_vars/all
  [12]: https://www.apache.org/licenses/LICENSE-2.0.html
