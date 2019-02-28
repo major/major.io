@@ -47,7 +47,7 @@ They gave an example of a situation where something was wrong with the car and t
 
 ## Breakouts
 
-My first stop on breakouts was [Trends and Directions in IBM Power Systems][4]. We had a high-level look at some of the advancements in POWER8 and OpenPOWER. Two customers shared their stories around why POWER was a better choice for them than other platforms, and everyone made sure to beat up on Moore's Law at every available opportunity. Rackspace was applauded for its leadership on Barreleye!
+My first stop on breakouts was Trends and Directions in IBM Power Systems. We had a high-level look at some of the advancements in POWER8 and OpenPOWER. Two customers shared their stories around why POWER was a better choice for them than other platforms, and everyone made sure to beat up on Moore's Law at every available opportunity. Rackspace was applauded for its leadership on Barreleye!
 
 <blockquote class="twitter-tweet tw-align-center" data-width="500">
   <p lang="en" dir="ltr">
@@ -61,11 +61,11 @@ My first stop on breakouts was [Trends and Directions in IBM Power Systems][4]. 
 
 
 
-The most interesting session of the day was the [IBM POWER9 Technology Advanced Deep Dive][5]. Jeff covered the two chips in detail and talked about some of the new connections between the CPU and various components. I'm interested in the hardware GZIP acceleration, NVLINK, and CAPI advancements. The connections to CAPI will be faster, thanks to the Power Service Layer (PSL) moving from the CAPI chip to the CPU itself. This reduces latency when communicating with the accelerator chip.
+The most interesting session of the day was the IBM POWER9 Technology Advanced Deep Dive. Jeff covered the two chips in detail and talked about some of the new connections between the CPU and various components. I'm interested in the hardware GZIP acceleration, NVLINK, and CAPI advancements. The connections to CAPI will be faster, thanks to the Power Service Layer (PSL) moving from the CAPI chip to the CPU itself. This reduces latency when communicating with the accelerator chip.
 
 POWER9 has 192GB/sec on the PCIe Gen4 bus (that's 48 lanes) and there's 300GB/sec (25Gbit/sec x 48 lanes) of duplex bandwidth available for what's called _Common Link_. Common Link is used to communicate with accelerators or remote SMP and it will likely be called "Blue Link" at a later date. Very clever, IBM.
 
-I wrapped the day with Calista Redmond's [OpenPower Revolution in the Datacenter][6]. She talked about where the OpenPOWER foundation is today and where it's going in the future.
+I wrapped the day with Calista Redmond's OpenPower Revolution in the Datacenter. She talked about where the OpenPOWER foundation is today and where it's going in the future.
 
 ## EXPO
 
@@ -110,7 +110,4 @@ It won't be possible to achieve the performance we want in the future on the bac
  [1]: /wp-content/uploads/2016/09/IMG_20160919_090354077_TOP-e1474402617332.jpg
  [2]: http://www-03.ibm.com/systems/edge/
  [3]: http://www.rackspace.com/
- [4]: http://ibm-edge-2016-notes.readthedocs.io/en/latest/trends-and-directions-ibm-power-systems.html
- [5]: http://ibm-edge-2016-notes.readthedocs.io/en/latest/ibm-power-9-technology-deep-dive.html
- [6]: http://ibm-edge-2016-notes.readthedocs.io/en/latest/openpower-revolution-in-the-datacenter.html
  [7]: https://twitter.com/redbullracing

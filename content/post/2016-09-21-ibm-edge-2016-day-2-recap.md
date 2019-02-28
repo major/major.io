@@ -42,11 +42,11 @@ They were able to rework how the backend systems retrieved data for their custom
 
 # Breakouts
 
-My first breakout session was [Getting Started with Linux Performance on IBM POWER8][3] from Steve Nasypany. This was a highly informative session and you'll definitely want to grab the slides from this talk whether you use POWER or not.
+My first breakout session was Getting Started with Linux Performance on IBM POWER8 from Steve Nasypany. This was a highly informative session and you'll definitely want to grab the slides from this talk whether you use POWER or not.
 
 Steve dove into how to measure and adjust performance on POWER systems. He also gave some insight on how AIX and Linux differ when it comes to performance measurements. There are quite a few differences in how AIX and Linux refer to processors and how they measure memory usage. He took quite a bit of time to explain not only the what, but the why. It was a great session.
 
-My second breakout was [Bringing the Deep Learning Revolution into the Enterprise][4] from Michael Gschwind. He kicked off with the basics of machine learning and how it matches up with the functions of a human brain. He provided some examples of objects that the human brain can quickly identify but a computer cannot.
+My second breakout was Bringing the Deep Learning Revolution into the Enterprise from Michael Gschwind. He kicked off with the basics of machine learning and how it matches up with the functions of a human brain. He provided some examples of objects that the human brain can quickly identify but a computer cannot.
 
 The math is deep. Really deep. One of the interesting topics was [stochastic gradient descent][5] (warning: highly nerdy territory). It measures how well the computer has been trained on a particular machine learning task. The goal is to reduce errors and do less brute-force training with the computer so it can begin working independently. It's oddly similar to raising children.
 
@@ -92,8 +92,6 @@ The concert was great. They played plenty of their older hits and shared a new s
 
  [1]: http://www-03.ibm.com/systems/edge/
  [2]: https://twitter.com/jason_pontin
- [3]: http://ibm-edge-2016-notes.readthedocs.io/en/latest/getting-started-with-linux-performance-on-ibm-power8.html
- [4]: http://ibm-edge-2016-notes.readthedocs.io/en/latest/bringing-the-deep-learning-revolution-into-the-enterprise.html
  [5]: https://en.wikipedia.org/wiki/Stochastic_gradient_descent
  [6]: http://siliconangle.tv/
  [7]: https://twitter.com/train

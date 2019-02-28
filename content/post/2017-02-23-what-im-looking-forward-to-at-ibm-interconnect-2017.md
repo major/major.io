@@ -14,7 +14,7 @@ tags:
 ---
 ![1]
 
-[IBM Interconnect 2017][2] is coming up next month in Las Vegas. Last year's conference was a whirlwind of useful talks, inspiring hallway conversations, and great networking opportunities. I was exhausted by the week's end, but it was totally worth it.
+IBM Interconnect 2017 is coming up next month in Las Vegas. Last year's conference was a whirlwind of useful talks, inspiring hallway conversations, and great networking opportunities. I was exhausted by the week's end, but it was totally worth it.
 
 One of my favorite sessions from last year was [Tanmay Bakshi's][3] keynote. It was truly inspiring to see someone so young take command of such a large stage and teach us all something. I can't wait to hear another of his talks.
 
@@ -47,7 +47,6 @@ I hope to see you there!
 _Photo credit: By Ronnie Macdonald from Chelmsford, United Kingdom (Mandalay Bay) [[CC BY 2.0][12]], [via Wikimedia Commons][13]_
 
  [1]: /wp-content/uploads/2017/02/Mandalay_Bay_4067278713-e1487860423502.jpg
- [2]: http://ibm.biz/BdsLer
  [3]: https://twitter.com/tajymany
  [4]: https://www.eventbrite.com/e/open-technology-summit-at-ibm-interconnect-2017-ibmots-registration-20773679635
  [5]: https://myibm.ibm.com/events/interconnect/all-sessions/session/7294A
