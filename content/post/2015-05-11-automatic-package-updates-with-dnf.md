@@ -19,7 +19,7 @@ tags:
 ---
 ![1]
 
-With Fedora 22's release date [quickly approaching][2], it's time to familiarize yourself with [dnf][3]. It's especially important since clean installs of Fedora 22 [won't have yum][4].
+With Fedora 22's release date [quickly approaching][2], it's time to familiarize yourself with dnf. It's especially important since clean installs of Fedora 22 won't have yum.
 
 Almost all of the command line arguments are the same but automated updates are a little different. If you're used to yum-updatesd, then you'll want to look into [dnf-automatic][5].
 
@@ -95,8 +95,6 @@ _Photo Credit: [Outer Rim Emperor][6] via [Compfight][7] [cc][8]_
 
  [1]: /wp-content/uploads/2015/05/12428002945_bc47ae3529_b-e1431393503428.jpg
  [2]: https://fedoraproject.org/wiki/Releases/22/Schedule
- [3]: http://dnf.baseurl.org/
- [4]: http://dnf.baseurl.org/2015/05/11/yum-is-dead-long-live-dnf/
  [5]: http://dnf.readthedocs.org/en/latest/automatic.html
  [6]: https://www.flickr.com/photos/50899563@N07/12428002945/
  [7]: http://compfight.com
