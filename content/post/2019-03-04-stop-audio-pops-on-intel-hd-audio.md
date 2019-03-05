@@ -58,6 +58,12 @@ $ cat /sys/module/snd_hda_intel/parameters/power_save
 And the pops are gone! My Klipsch speakers have a built in amplifier and it
 was likely the abrupt changes in current that was causing the popping noises.
 
+This setting will last until you reboot. You can make it permanent by adding
+this text to `/etc/modprobe.d/audio_disable_powersave.conf`:
+```
+options snd_hda_intel power_save=0
+```
+
 If you're a laptop user and you want power savings but fewer pops, you could
 increase the delay to a more acceptable number. For example, setting it to
 `60` would mean that the card will power down after 60 seconds of silence.
