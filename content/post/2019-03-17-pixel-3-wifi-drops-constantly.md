@@ -39,8 +39,9 @@ Also, here's what I knew at the time:
 * Assigning a static IP address on the Pixel made no improvement
 * Using unencrypted SSIDs made no improvement
 
-At this point, I felt strongly that the APs had nothing to do with it.
-However, I ordered a [NetGear Orbi] mesh router and satellite
+At this point, I felt strongly that the APs had nothing to do with it. I
+ordered a new [NetGear Orbi] mesh router and satellite anyway. The Pixels
+still dropped off the wireless network even with the new Orbi APs.
 
 ## Reading logs
 
