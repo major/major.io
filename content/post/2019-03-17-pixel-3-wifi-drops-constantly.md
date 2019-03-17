@@ -23,7 +23,8 @@ of them drop off our home wireless network regularly. It causes lots of
 problems with various applications on the phones, especially casting video
 via Chromecast.
 
-At the time, I was using a pair of wireless access points (APs) from Engenius:
+At the time when I first noticed the drops, I was using a pair of wireless
+access points (APs) from Engenius:
 
 * [EAP600]
 * [EAP1200H]
