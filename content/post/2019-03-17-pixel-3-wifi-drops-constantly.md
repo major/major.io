@@ -94,7 +94,7 @@ USB debugging when you are done!** Follow these steps:
 Connect the phone to your computer via USB and run:
 
 ```
-platform-tools/adb logcat
+sudo platform-tools/adb logcat
 ```
 
 Your screen will fill with logs from your phone.
@@ -130,7 +130,7 @@ issue. That could be why the Pixel is hopping off the wireless network.
 From there, I decided to examine only the `ConnectivityService` logs:
 
 ```
-./adb logcat 'ConnectivityService:* *:S'
+sudo platform-tools/adb logcat 'ConnectivityService:* *:S'
 ```
 
 This logcat line tells adb that I want all logs from all log levels about the
