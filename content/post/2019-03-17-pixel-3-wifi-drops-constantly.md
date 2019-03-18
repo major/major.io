@@ -184,6 +184,38 @@ their own VLAN without IPv6 so I can still keep IPv6 addresses for my other
 computers, but this is not a good long term fix. If anyone has any input on
 why this helps and how I can get IPv6 re-enabled, please [let me know]!
 
+## Update 2019-03-18
+
+Several readers wanted to see what was happening just before the Wi-Fi drop,
+so here's a small snippet from tcpdump:
+
+```
+07:26:06.736900 IP6 2607:f8b0:4000:80d::2003.443 > phone.41310: Flags [F.], seq 3863, ack 511, win 114, options [nop,nop,TS val 1288800272 ecr 66501414], length 0
+07:26:06.743101 IP6 2607:f8b0:4000:80d::2003.443 > phone.41312: Flags [F.], seq 3864, ack 511, win 114, options [nop,nop,TS val 1778536228 ecr 66501414], length 0
+07:26:06.765444 IP6 phone.41312 > 2607:f8b0:4000:80d::2003.443: Flags [R], seq 4183481455, win 0, length 0
+07:26:06.765454 IP6 phone.41310 > 2607:f8b0:4000:80d::2003.443: Flags [R], seq 3279990707, win 0, length 0
+07:26:07.487180 IP6 2607:f8b0:4000:80d::2003.443 > phone.41316: Flags [F.], seq 3863, ack 511, win 114, options [nop,nop,TS val 4145292968 ecr 66501639], length 0
+07:26:07.537080 IP6 phone.41316 > 2607:f8b0:4000:80d::2003.443: Flags [R], seq 4188442452, win 0, length 0
+```
+
+That IPv6 address is at a Google PoP in Dallas, TX:
+
+```
+$ host 2607:f8b0:4000:80d::2003
+3.0.0.2.0.0.0.0.0.0.0.0.0.0.0.0.d.0.8.0.0.0.0.4.0.b.8.f.7.0.6.2.ip6.arpa domain name pointer dfw06s49-in-x03.1e100.net.
+```
+
+I haven't been able to intercept the traffic via man-in-the-middle since
+Google's certificate checks are very strict. However, checks from my own
+computer work without an issue:
+
+```
+$ curl -ki "https://[2607:f8b0:4000:80d::2003]/generate_204"
+HTTP/2 204
+date: Mon, 18 Mar 2019 12:35:18 GMT
+alt-svc: quic=":443"; ma=2592000; v="46,44,43,39"
+```
+
 [pixel_phones]: /images/2019-03-17-google-pixel-phones.jpg
 [EAP600]: https://www.engeniustech.com/engenius-products/indoor-wireless-ceiling-ap-eap600/
 [EAP1200H]: https://www.engeniustech.com/engenius-products/indoor-wireless-ceiling-ap-eap1200h/
