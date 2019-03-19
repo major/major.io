@@ -16,6 +16,10 @@ tags:
   - security
 
 ---
+
+> Although Time Warner Cable is now Spectrum and wide-dhcpv6 is quite
+> old, this post is still what I'm using today (in 2019)!
+
 I've written about how to [get larger IPv6 subnets from Time Warner Cable's Road Runner service][1] on a Mikrotik router before, but I've converted to using a Linux server as my router for my home. Getting the larger /56 IPv6 subnet is a little tricky and it's not terribly well documented.
 
 ## My network
