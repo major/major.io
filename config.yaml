@@ -6,9 +6,10 @@ copyright: '&copy; Major Hayden'
 canonifyURLs: false
 relativeURLs: true
 paginate: 5
-pygmentsCodeFences: true
-pygmentsUseClasses: true
-pygmentsCodefencesGuessSyntax: true
+pygmentsCodeFences: 'true'
+# pygmentsUseClasses: 'true'
+pygmentsCodefencesGuessSyntax: 'true'
+pygmentsStyle: 'solarized-dark'
 rssLimit: 25
 permalinks:
   post: '/:year/:month/:day/:slug/'
