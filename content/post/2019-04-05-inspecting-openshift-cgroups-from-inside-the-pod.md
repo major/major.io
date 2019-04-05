@@ -201,8 +201,11 @@ If you run Java applications in a container, like Jenkins (or Jenkins
 slaves), be sure to use the `-XX:+UseCGroupMemoryLimitForHeap` option. That
 will cause Java to look at the cgroups to determine its heap size.
 
+*Photo credit: [Wikipedia]*
+
 [walking_through_rock_valley]: /images/2019-04-05-inspecting-cgroups.jpg
 [Continuous Kernel Integration (CKI)]: https://cki-project.org/
 [sched_getaffinity]: https://linux.die.net/man/2/sched_getaffinity
 [Completely Fair Scheduler (CFS)]: https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
 [kernel documentation]: https://www.kernel.org/doc/Documentation/scheduler/sched-bwc.txt
+[Wikipedia]: https://commons.wikimedia.org/wiki/File:Roca_de_la_Ley,_Parque_Nacional_de_%C3%9Eingvellir,_Su%C3%B0urland,_Islandia,_2014-08-16,_DD_022.JPG
