@@ -90,8 +90,8 @@ being done.
 
 ## My talks
 
-My first talk was about my team at Red Hat, the [Continuous Kernel Integration]
-team. I shared some of the challenges involved with doing CI for the kernel at
+My first talk was about my team at Red Hat, the [Continuous Kernel Integration
+team]. I shared some of the challenges involved with doing CI for the kernel at
 scale and how difficult it is to increase test coverage of subsystems within
 the kernel. There were two kernel developers in the audience and they had some
 really good questions.
@@ -115,8 +115,18 @@ see people in the audience begin to understand how difficult burnout recovery
 can be. Small conferences like these create environments where people can talk
 honestly about difficult topics.
 
-If you're looking for the slides from these talks, feel free to [download the
-PDFs] anytime.
+If you're looking for the slides from these talks, you can view them in
+Google Slides (for the sake of the GIFs!):
+
+  * [Continuous Kernel Integration]
+  * [I was too burned out to name this talk]
+
+Google Slides also allows you to download the slides as PDFs. Just choose
+File > Download as > PDF.
+
+[Continuous Kernel Integration team]: https://cki-project.org/
+[Continuous Kernel Integration]: https://docs.google.com/presentation/d/1T0JaRA0wtDU0aTWTyASwwy_ugtzjUcw_ZDmC5KFzw-A/edit
+[I was too burned out to name this talk]: https://docs.google.com/presentation/d/1uYY8Ezw8rMhMjRA_d-H8rnv4AWqROyBx86HTcGFEtdQ/edit
 
 ## BoF: Ham Radio and OSS
 
@@ -142,6 +152,3 @@ Kingdom! These smaller events have a much higher signal to noise ratio and
 there is more real discussion rather than marketing from industry giants.
 
 Thanks to everyone who put the Texas Linux Fest together this year!
-
-[Continuous Kernel Integration]: https://cki-project.org/
-[download the PDFs]: https://drive.google.com/drive/folders/1gb15S2w5_5gKA9v_kbunEgbk6m360u9i
