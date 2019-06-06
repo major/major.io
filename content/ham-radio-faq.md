@@ -46,6 +46,7 @@ of their enjoyment. *(More on that later.)*
 
 * [The very very basics](#basics)
 * [Getting a license](#license)
+* [Choosing your first radio](#firstradio)
 
 ----
 
@@ -53,6 +54,35 @@ of their enjoyment. *(More on that later.)*
 
 This section covers the absolute basic questions around the hobby itself and
 why it can be interesting for many people.
+
+## Amateur radio is like Citizen's Band (CB) radio, right?
+
+This is entirely valid question, but be forewarned -- it can cause some
+amateur radio operators to start fuming. It's like going to Barcelona and
+asking: *"So [Catalan] is basically just a Spanish dialect, right?"* 😡
+
+*Author's note: Please don't try this in Barcelona.* ***I do not recommend
+it.***
+
+Yes, CB radios are similar in some ways. The are restricted to certain bands
+and you have a variety of radios to choose from if you want to talk to
+people.
+
+However, talking on a CB radio has very few restrictions and no licensing
+requirements. People often talk about topics that you wouldn't want your
+children to hear and many people willfully disobey what few rules and
+restrictions actually exist. Also, CB is only one band. Amateur radio has
+tons of bands to choose from based on the size of the radio you want to
+carry, how far you want to communicate, and your license level.
+
+Amateur radio offers tons of different operating modes, such as morse code,
+digital modes, meteor scatter, satellite operations, and plain old AM/FM/SSB
+voice communication. You can talk to someone on the other side of the Earth
+with amateur radio but CB radio range tops out at 20-25 miles.
+
+Long story short: they are tremendously different.
+
+[Catalan]: https://en.wikipedia.org/wiki/Catalan_language
 
 ## I have a mobile phone. Why do I need amateur radio?
 
@@ -161,7 +191,7 @@ you online! Review the [question pools] at any time!
 
 ## How should I study for the test?
 
-You have plenty of choices and hams will often argue which is best.
+You have plenty of choices and hams will often argue which is best. 🤓
 
 [HamStudy] is my go-to resource for studying and for reference after the
 exam. You can review content and take practice exams right on your computer
@@ -284,3 +314,256 @@ license class. There is some great documentation on [applying for a vanity
 callsign] on ARRL's site.
 
 [applying for a vanity callsign]: http://www.arrl.org/applying-for-a-vanity-call
+
+# Choosing your first radio {#firstradio}
+
+Picking your first radio is an important first step towards learning the
+skills for your license or putting your new license to use! However, finding
+a new radio can be tricky.
+
+## Radios come in all shapes and sizes. How do I choose?
+
+First things first, you need to consider how and where you want to use your
+radio. That determines the type of radio you want to look for. For example:
+
+* At home: any radio, including handheld (HT), mobile, or base, should work
+* In the car: go for a HT or a mobile radio
+* On you: HT for sure
+
+There are benefits and drawbacks to each type of radio:
+
+**Base station radios.** These are typically radios that are meant to stay in
+one place and they may often be quite heavy or bulky. They usually have the
+largest feature set, highest power (usually 100-200W), and most connections
+(for extra antennas and accessories). Lugging these to the car or on a hike
+will be frustrating for most units unless you purchase a small one.
+
+Examples of base station radios I've used:
+
+* [Icom 746]: old and rock solid, but 19.6 lbs 😦 (I have this one)
+* [Icom 7300]: extremely popular right now with a great touch screen
+* [Yaesu FT-991A]: a base station radio that is pretty portable at 9.7 lbs!
+
+**Mobile radios.** These are smaller than base station radios and they can be
+used at home or in the car. Many of these top out at 50W but they often have
+a good set of features. They often come with handy features like GPS (for
+APRS) or removable displays. Removable displays allow you to mount the radio
+in a hidden place (such as under your seat) and mount the display somewhere
+else in the car.
+
+Examples of mobile radios I've used or love:
+
+* [Kenwood TM-D710A]: great mobile radio with detachable display, APRS, and
+  a nice mic with buttons (I have this one)
+* [Kenwood TM-281A]: cheaper radio that is *incredibly* durable, but no
+  removable display
+
+**Handheld radios.** HTs are excellent for portable operations when you're
+away from your home or car. They usually have a more limited feature set,
+lower power (usually 5-10W), and can operate on fewer radio bands. Most have
+great removable batteries that last all day.
+
+Example of HTs I've used or love:
+
+* [Kenwood TH-K20A]: really durable, simple to operate, inexpensive
+  (I have this one)
+* [Yaesu VX-8]: durable with tons of extra features, like APRS
+  (I have this one)
+* [Baofeng UV-5R]: *extremely* cheap, almost disposable radio (I have this one)
+
+🚨 Now that we've mentioned Baofeng here, I feel obliged to ask you read the
+following section:
+
+[Icom 746]: https://www.universal-radio.com/catalog/hamhf/0657.html
+[Icom 7300]: https://www.universal-radio.com/catalog/hamhf/0173.html
+[Yaesu FT-991A]: https://www.universal-radio.com/catalog/hamhf/4991.html
+[Kenwood TM-D710A]: https://www.universal-radio.com/catalog/fm_txvrs/0710.html
+[Kenwood TM-281A]: https://www.universal-radio.com/catalog/fm_txvrs/0281.html
+[Kenwood TH-K20A]: https://www.universal-radio.com/catalog/ht/3020.html
+[Yaesu VX-8]: https://www.universal-radio.com/catalog/ht/0008.html
+[Baofeng UV-5R]: https://www.universal-radio.com/catalog/ht/0205.html
+
+## I was told never to buy one of those Chinese clone radios. Why?
+
+There is some truth and some myth here. Some of the manufacturers of really
+cheap radios, like Baofeng, are often ridiculed.
+
+Sometimes it's for valid reasons, such as Baeofeng's [roger beep]. That's a
+small tone made when you finish talking and let go of PTT. Amateur radio
+operators will often call you out for doing that and ask you to turn it off.
+You hear these beeps occasionally on commercial radios, especially trunked
+ones, but it has no place in amateur radio bands.
+
+The FCC did recently publish [FCC Enforcement Advisotry DA 18-980] and they
+are cracking down on some imported radios that don't follow the most basic of
+FCC rules. Problems happen when unlicensed or licensed operators get one
+(really cheaply) and cause all kinds of problems on local radio repeaters
+during nets, emergencies, or other important events.
+
+Baofengs will allow you to transmit on frequencies you shouldn't such as
+[Family Radio Service (FRS)] or [General Mobile Radio Service (GMRS)] bands.
+It's illegal to use a radio that is not approved for those bands, and GMRS
+requires its own license that is entirely exclusive of the amateur radio
+license. (There's no test, but it costs $70 for 10 years of access.)
+
+In summary, these imported radios can allow good people (and bad people) to
+do bad things more easily than most other radios. However, the radios **do**
+work quite well for their price range, but don't expect too much. Some radios
+will transmit slightly off frequency from time to time and many of them
+overmodulate at times.
+
+At $35 each for the Baofeng, it's not a bad idea to buy a couple as emergency
+backups just in case.
+
+[roger beep]: https://www.reddit.com/r/Baofeng/comments/5u92ga/call_tones_roger_tones_transmit_tones_a_beep/
+[FCC Enforcement Advisotry DA 18-980]: https://docs.fcc.gov/public/attachments/DA-18-980A1.pdf
+[Family Radio Service (FRS)]: https://en.wikipedia.org/wiki/Family_Radio_Service
+[General Mobile Radio Service (GMRS)]: https://en.wikipedia.org/wiki/General_Mobile_Radio_Service
+
+## Radios are expensive! How can I afford this hobby?
+
+There are *many* ways to get a great radio at a price you can afford. You
+have two main options:
+
+**Get something brand new.** There's nothing wrong with that! You will get
+the latest and greatest features in the smallest size with that new
+electronics smell. If you love that feeling of pulling plastic from screens
+and you don't want something anyone else has touched, this is a good option
+for you. However, there's a steep cost associated with it!
+
+I recommend shopping with [Main Trading Company] if you can. They're a small
+shop in Paris, Texas (not France), and they have a great selection. They've
+been really helpful for me when dealing with out of stock items.
+
+**Get something used.** This is my favorite plan. Buying new is good, but you
+might skip on features to save price. A used radio might have all of the
+features you want, but it might also have some scratches and dings. Also, if
+the radio is fairly old (maybe 10+ years), someone has probably taken good
+care of it and it's a reliable rig.
+
+No matter what or how you buy, I highly recommend doing the following ahead
+of time:
+
+* Carefully read the list of features, connections, radio bands, and power
+requirements to ensure it has what you need.
+
+* Read lots of review on [eHam], including people who loved and hated the
+radio.
+
+* Talk to radio operators at your local radio club about what they've used
+and what might be for sale! Most clubs have swapmeets (sometimes they're
+online, like classified ads), where you can go meet the ham, test the radio,
+and buy it!
+
+* Go to a store and play with the same or similar radio.
+
+* Read the radio documentation. You can find out a lot more about the
+features from there.
+
+[Main Trading Company]: https://www.mtcradio.com/
+[eHam]: https://www.eham.net/reviews/
+
+## I want to buy a used radio. How do I do it?
+
+My requirement is that I only buy radios from another radio operator. Most
+are trustworthy and they usually want you to understand the radio's
+capabilities before you buy.
+
+There are ham radio conventions of various sizes scattered around the USA
+each month and these usually have big swapmeets. Be prepared to see a lot of
+**junk**. This is stuff that won't power on, could barely be used for parts,
+and looks like it barely survived a nuclear war. Keep your eye out for the
+more well-maintained items there.
+
+If you have your license, be sure to check out the [online swapmeet on QRZ]!
+That's where I got my Icom 746. The spouse of a silent keyer (a ham radio
+operator who passed away 😔) was trying to make ends meet by selling some
+equipment and I got a great deal on the radio.
+
+eBay is okay for some things (especially ham-made gear, like antennas), but
+there some occasional scams there that can be painful.
+
+Your local radio club meetings likely have a short section of the meeting
+dedicated to buy/sell/trade, so be sure to ask there. If you participate in a
+local radio net, perhaps on your local repeater, you can mention that you're
+looking for a radio. You might get recommendations for something to look for
+or you may get a lead on a good radio to buy! *(FCC Rule note: It's okay to
+buy/sell/trade on the airwaves, but don't turn it into an every day habit.)*
+
+[online swapmeet on QRZ]: https://forums.qrz.com/index.php?forums/ham-radio-gear-for-sale.7/
+
+## What does it mean when some radios say all-mode and others say FM?
+
+An all-mode radio typically means that it supports a lot of different radio
+modes. This is especially handy for long-range high frequency radio bands and
+low power (or QRP) VHF bands. Most radios will include a set like this:
+
+* AM
+* CW (morse code)
+* FM
+* SSB (single sideband)
+* RTTY
+
+An all-mode radio is typically bigger, has higher power output, and is more
+expensive.
+
+If you see an FM radio, that means it only supports frequency modulation for
+voice communication. That's plain old voice transmissions. This is really
+handy for mobile operations since you'll be using your voice most often
+there. However, this limits your fun on the high frequency bands.
+
+Some FM radios have some fancy extra features, such as APRS or AX.25, but
+those come with an added expense.
+
+FM radios are typically smaller, have low to medium power output, and are
+cheaper.
+
+## Some radios cover all of the bands. Why doesn't everyone get those?
+
+There are some *great* radios on the market, like the [Yaesu FT-991A] or the
+[Icom 746] that pack tons of bands into one receiver. If you're looking for a
+"shack-in-a-box", then look no further! You can do everything with one radio.
+
+There are some downsides to this, too. More electronics in the box increases
+weight and cost. It also increases the amount of things that can fail. In
+addition, a radio that tries to be good at many things sometimes can't be
+great on all of them. Jamming a 144 MHz (2 meter) transceiver into a crowded
+HF radio means compromises must be made somewhere.
+
+There are advantages to getting a radio that does a subset of HF, VHF and UHF
+bands. The manufacturer can specalize solely in those bands and make them
+perform really well. I haven't heard it myself, but many hams swear that
+radios that are dedicated to a subset of bands have better sound, better
+noise reduction, and better range.
+
+Dedicated radios requires more radios to cover the bands you care about, and
+that means more expense. Also consider that you'll need more DC power for
+multiple radios and sharing antennas can be frustrating without additional
+equipment (and expense).
+
+## Everyone tells me digital modes are great. How do I get a radio for FT8?
+
+Digital modes are great and they're an excellent way to learn more about how
+your radio works. FT8 has two main requirements:
+
+1. A radio that can transmit single sideband (SSB).
+2. A radio with sound input and output.
+
+Be sure to find an all-mode transceiver (discussion on that above) that has
+some type of audio or control interface. On my old Icom 746, there is a small
+remote connector on the back so the computer can control the radio itself.
+There is also an unusual 8-pin accessory plug that handles audio input and
+output. (I use an awesome sound card cable from [xggcomms] to transmit audio
+into my Icom.)
+
+Newer radios have a USB port right there on the back with audio and radio
+control built in! The [Icom 7300] has this feature and it works extremely
+well. All you need is a cheap USB cable that you can buy anywhere. The audio
+drivers show up just fine in Linux!
+
+Be sure to connect your audio via USB or some kind of accessory port. Some
+radios have microphone ports on the front, but that doesn't work well with
+FT8. Speech processing, auto gain control, and other fancy features that work
+wonders for voice transmissions can cause problems for FT8.
+
+[xggcomms]: http://xggcomms.com/
