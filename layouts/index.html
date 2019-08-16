@@ -1,7 +1,7 @@
 {{ partial "default_head.html" . }}
 
 <!-- Space delimited list of page types -->
-{{ $paginator := .Paginate (where .Data.Pages "Type" "in" "post") }}
+{{ $paginator := .Paginate (where .Site.Pages "Type" "in" "post") }}
 
 <div class="posts">
   {{ range .Paginator.Pages }}
