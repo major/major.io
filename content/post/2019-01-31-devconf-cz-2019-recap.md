@@ -8,7 +8,7 @@ categories:
   - Blog Posts
 tags:
   - events
-  - presentations
+  - presentation
   - linux
   - open source
   - devconf
