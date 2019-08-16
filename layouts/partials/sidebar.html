@@ -12,10 +12,10 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Blog Posts</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/ham-radio-faq/" }} active {{ end }}" href="/ham-radio-faq">Ham Radio FAQ</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/icanhazip-com-faq/" }} active {{ end }}" href="/icanhazip-com-faq">icanhazip.com FAQ</a>
+    <a class="sidebar-nav-item {{ if eq .Permalink "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .RelPermalink "/post/" }} active {{ end }}" href="/post">Blog Posts</a>
+    <a class="sidebar-nav-item {{ if eq .RelPermalink "/ham-radio-faq/" }} active {{ end }}" href="/ham-radio-faq">Ham Radio FAQ</a>
+    <a class="sidebar-nav-item {{ if eq .RelPermalink "/icanhazip-com-faq/" }} active {{ end }}" href="/icanhazip-com-faq">icanhazip.com FAQ</a>
     <a class="sidebar-nav-item" href="https://majorhayden.com/">Résumé</a>
     <a class="sidebar-nav-item" href="https://github.com/major">GitHub</a>
     <a class="sidebar-nav-item" href="https://gitlab.com/majorhayden">GitLab</a>
