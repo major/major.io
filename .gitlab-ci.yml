@@ -7,7 +7,7 @@ stages:
   - deploy
 
 generate:blog:
-  image: monachus/hugo:v0.56.3
+  image: "monachus/hugo:v0.56.3"
   stage: generate
   script:
     - ./build-site.sh

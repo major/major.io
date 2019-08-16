@@ -1,6 +1,8 @@
 #!/bin/bash
 set -eux -o pipefail
 
+hugo version
+
 # Build the blog
 hugo
 
