@@ -31,7 +31,7 @@ There are two options here:
   * Install an older version of the glance client
   * Use Horizon (the web dashboard)
 
-Getting an older version of glance client installed is challenging. The OpenStack requirements file for the liberty release [leaves the version of glance client without a maximum version cap][9] and it's difficult to get all of the dependencies in order to make the older glance client work.
+Getting an older version of glance client installed is challenging. The OpenStack requirements file for the liberty release leaves the version of glance client without a maximum version cap and it's difficult to get all of the dependencies in order to make the older glance client work.
 
 Let's use Horizon instead so we can get back to the reason for the post.
 
@@ -76,6 +76,5 @@ Not sure what to do next? Here are some suggestions:
  [6]: https://getfedora.org/en/cloud/download/
  [7]: https://wiki.openstack.org/wiki/Glance-v2-v1-client-compatability
  [8]: http://docs.openstack.org/developer/python-openstackclient/
- [9]: https://github.com/openstack/requirements/blob/stable/liberty/global-requirements.txt#L159
  [10]: /wp-content/uploads/2016/05/horizon_image.png
  [11]: /2016/05/16/troubleshooting-openstack-network-connectivity/
