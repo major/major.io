@@ -25,7 +25,7 @@ week!
 
 [![devconf-snow-small]](/images/20190131-devconf-2019-snow.jpg)
 
-[DevConf.CZ 2019]: https://devconf.info/cz
+[DevConf.CZ 2019]: http://devconf.info/cz
 [Brno]: https://en.wikipedia.org/wiki/Brno
 [devconf-snow-small]: /images/20190131-devconf-2019-snow-720.jpg
 [devconf-snow]: /images/20190131-devconf-2019-snow.jpg
