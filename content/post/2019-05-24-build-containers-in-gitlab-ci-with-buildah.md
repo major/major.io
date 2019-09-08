@@ -163,13 +163,11 @@ This is the same as `docker push`. There's not much special to see here.
 ## Maintaining containers
 
 GitLab allows you to take things to the next level with CI schedules. In my
-repository, there is [a schedule] to build my containers once a day to catch
+repository, there is a schedule to build my containers once a day to catch
 the latest updates. I use these containers a lot and they need to be up to
 date before I can run tests.
 
 If the container build fails for some reason, GitLab will send me an email to
 let me know.
-
-[a schedule]: https://gitlab.com/majorhayden/os-containers/pipeline_schedules
 
 [_Photo Source_](https://pxhere.com/en/photo/942096)
