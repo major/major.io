@@ -19,7 +19,7 @@ _**UPDATE 2014-08-07:** Websense emailed me to say that the site has been review
 
 Quite a few emails and IRC messages hit my screen today about [icanhazip.com][1] being blocked by Websense products. The report on Websense's site claims shows that the site is part of a bot network: _The URL analyzed is currently compromised to serve malicious content to visitors._
 
-Here are some screenshots from [the report][2]:
+Here are some screenshots from the report:
 
 [<img src="/wp-content/uploads/2014/08/icanhazip-websense-01.png" alt="icanhazip blocked by websense" width="471" height="136" class="aligncenter size-full wp-image-5105" srcset="/wp-content/uploads/2014/08/icanhazip-websense-01.png 471w, /wp-content/uploads/2014/08/icanhazip-websense-01-300x86.png 300w" sizes="(max-width: 471px) 100vw, 471px" />][3]
 
@@ -60,7 +60,6 @@ If Websense wishes to claim that the site is being used by malware, I can certai
 I'll be reaching out to Websense again for additional details and to clear up the report listing on the website. If anyone knows of a way for me to identify this malware traffic and block it from accessing icanhazip.com, please let me know. My GPG key is [available][5].
 
  [1]: /icanhazip-com-faq/ "icanhazip.com FAQ"
- [2]: http://csi.websense.com/Report/Index/187c702e-9705-44ed-8e62-a37f012a36cc
  [3]: /wp-content/uploads/2014/08/icanhazip-websense-01.png
  [4]: /wp-content/uploads/2014/08/icanhazip-websense-02.png
  [5]: https://pgp.mit.edu/pks/lookup?op=get&search=0x9653FDDC6DC99178
