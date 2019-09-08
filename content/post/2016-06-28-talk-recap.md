@@ -59,7 +59,6 @@ Robyn shared lots of ways to [get involved in the Ansible community][6]. [Ansibl
 The presentation is available in a few formats:
 
   * [PDF][9]
-  * [Google Slides][10] _(good option if you like GIFs to work)_
   * [Slideshare][11]
 
  [1]: /wp-content/uploads/2016/06/When-flexibility-met-simplicity-The-friendship-of-OpenStack-and-Ansible-Red-Hat-Summit-2016.png
@@ -71,5 +70,4 @@ The presentation is available in a few formats:
  [7]: https://www.ansible.com/ansiblefest
  [8]: https://www.openstack.org/summit/barcelona-2016/
  [9]: http://majorhayden.com/presentations/When%20flexibility%20met%20simplicity-%20The%20friendship%20of%20OpenStack%20and%20Ansible%20-%20Red%20Hat%20Summit%202016.pdf
- [10]: https://docs.google.com/presentation/d/1xh7P-5XPs5po_4fE92GkMImn7K5BIB8mt2fAcLn_kW0/edit?usp=sharing
  [11]: http://www.slideshare.net/MajorHayden/when-flexibility-met-simplicity-the-friendship-of-openstack-and-ansible
