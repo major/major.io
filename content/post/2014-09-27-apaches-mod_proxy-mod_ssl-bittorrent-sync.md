@@ -40,7 +40,7 @@ The _ProxyPass_ and _ProxyPassReverse_ lines tell Apache where to proxy the requ
 
 When your configuration is in place, be sure to run a configuration check (`httpd -S`) and reload the Apache daemon. If you'd like to access your application at a different URI, just replace `/btsync` in the example configuration with that URI.
 
-Once all this is done, I'm able to access Sync at <https://example.com/btsync> and Apache handles all of the backend requests properly. On some distributions, you may find that _mod\_proxy\_html_ isn't installed by default. You'll need to install it if you want to use _ProxyHTMLURLMap_ in your configuration. For Fedora users, just install it via yum:
+Once all this is done, I'm able to access Sync at `https://example.com/btsync` and Apache handles all of the backend requests properly. On some distributions, you may find that _mod\_proxy\_html_ isn't installed by default. You'll need to install it if you want to use _ProxyHTMLURLMap_ in your configuration. For Fedora users, just install it via yum:
 
 ```
 yum install mod_proxy_html
