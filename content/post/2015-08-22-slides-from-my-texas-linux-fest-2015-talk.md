@@ -11,11 +11,10 @@ tags:
   - presentation
 
 ---
-Thanks to all of the people who attended my "Be an inspiration, not an impostor" talk at [Texas Linux Fest 2015][1]. Some A/V issues caused my time slot to get squeezed and the audience had to put up with the "ludicrous speed" version of the presentation.
+Thanks to all of the people who attended my "Be an inspiration, not an impostor" talk at Texas Linux Fest 2015. Some A/V issues caused my time slot to get squeezed and the audience had to put up with the "ludicrous speed" version of the presentation.
 
 The slides are a little different from the slides at [Fedora Flock][2], but they're mainly the same:
 
 <iframe src='https://www.slideshare.net/slideshow/embed_code/51955275' width='425' height='348' allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
- [1]: https://2015.texaslinuxfest.org
  [2]: https://major.io/2015/08/14/fedora-flock-2015-keynote-slides/
