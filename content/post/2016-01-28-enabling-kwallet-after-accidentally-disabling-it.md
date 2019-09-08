@@ -36,7 +36,7 @@ Manually running kwalletd in the console wasn't successful either.
 
 ## Using kcmshell
 
-KDE provides a utility called [kcmshell][3] that allows you to start a configuration panel without running the entire KDE environment. If you disable kwallet accidentally like I did, this will bring up the configuration panel and allow you to re-enable it:
+KDE provides a utility called kcmshell that allows you to start a configuration panel without running the entire KDE environment. If you disable kwallet accidentally like I did, this will bring up the configuration panel and allow you to re-enable it:
 
 ```
 kcmshell4 kwalletconfig
@@ -53,7 +53,6 @@ _Photo Credit: [Wei][4] via [Compfight][5] [cc][6]_
 
  [1]: https://www.kde.org/applications/system/kwalletmanager/
  [2]: https://pypi.python.org/pypi/keyring
- [3]: http://api.kde.org/4.4-api/kdebase-runtime-apidocs/kcmshell/html/index.html
  [4]: https://www.flickr.com/photos/73589829@N00/14283880173/
  [5]: http://compfight.com
  [6]: https://creativecommons.org/licenses/by-nc-nd/2.0/
