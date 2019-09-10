@@ -1,8 +1,8 @@
 baseURL: "https://major.io/"
 languageCode: en-us
 title: "major.io"
-theme: lanyon
-copyright: '&copy; Major Hayden'
+theme: terminal
+copyright: "Made with 🥰 by Major Hayden and Hugo"
 canonifyURLs: false
 relativeURLs: true
 paginate: 5
@@ -18,6 +18,14 @@ params:
   Tagline: "words of wisdom from a systems engineer"
   Author: Major Hayden
   DateForm: "2006-01-02"
+  contentTypeName: "post"
+  themeColor: "green"
+  showMenuItems: 3
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: false
+  logo:
+    logoText: "major.io"
 sitemap:
   changefreq: monthly
   priority: 0.5
@@ -30,9 +38,21 @@ outputFormats:
     baseName: "feed/index"
 menu:
   main:
-    - weight: '1'
-      name: Home
-      url: /
-    - weight: '2'
-      name: About
-      url: /about
+    - weight: '20'
+      name: "icanhazip"
+      url: "/icanhazip-com-faq"
+    - weight: '30'
+      name: "Ham Radio"
+      url: "/ham-radio-faq"
+    - weight: '50'
+      name: GitLab
+      url: "https://gitlab.com/majorhayden"
+    - weight: '60'
+      name: GitHub
+      url: "https://github.com/major"
+    - weight: '40'
+      name: "Talks & Presentations"
+      url: "https://www.slideshare.net/MajorHayden/presentations"
+    - weight: '70'
+      name: "Résumé"
+      url: "https://majorhayden.com/"
