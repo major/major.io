@@ -16,3 +16,6 @@
 [submodule "themes/herring-cove"]
 	path = themes/herring-cove
 	url = https://github.com/spf13/herring-cove
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
