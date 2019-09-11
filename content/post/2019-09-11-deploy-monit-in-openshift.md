@@ -8,6 +8,9 @@ twitter:
   card: "summary_large_image"
   site: "@majorhayden"
   title: Deploy monit in OpenShift
+  description: >-
+    Monit is a tried-and-true monitoring daemon that is easy to deploy. Add it
+    to OpenShift to make monitoring even easier.
   image: images/2019-09-11-cctv-cameras.jpg
 categories:
   - Blog Posts
