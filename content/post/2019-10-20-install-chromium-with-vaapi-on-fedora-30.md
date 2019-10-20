@@ -26,11 +26,11 @@ If you use a web browser to watch videos on a laptop, you've probably noticed
 that some videos play without much impact on the battery. Other videos cause
 the fans to spin wildly and your battery life plummets.
 
-Intel designed a specification called [VA API] (most people omit the space and
-call it *VAAPI*) and it offers up device drivers to applications running on
-your system. It provides a pathway for those applications to access certain
-parts of the graphics processing hardware directly. This increases performance,
-lowers CPU usage, and increases battery life.
+Intel designed a specification called [VA API], often called *VAAPI* (without
+the space), and it offers up device drivers to applications running on your
+system. It provides a pathway for those applications to access certain parts of
+the graphics processing hardware directly. This increases performance, lowers
+CPU usage, and increases battery life.
 
 In this post, you will learn how to get VAAPI working on your Fedora 30 system
 and how to use it along with a Chromium build that has VAAPI patches already
