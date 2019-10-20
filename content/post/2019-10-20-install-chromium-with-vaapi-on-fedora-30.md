@@ -171,10 +171,14 @@ directory:
 sudo cp /opt/google/chrome/libwidevinecdm.so /usr/lib64/chromium-vaapi/
 ```
 
-Try out some DRM-protected sites like Netflix and they should be working
-properly. As I mentioned at the start of the guide, some applications support
+Start `chromium-vaapi` one more time and try out some DRM-protected sites like
+Netflix and they should be working properly.
+
+As I mentioned at the start of the guide, some applications support
 acceleration with certain video formats and not others, so your results may
 vary.
+
+*Photo credit: [Pixabay]*
 
 [film]: /images/2019-10-20-film.jpg
 [VA API]: https://en.wikipedia.org/wiki/Video_Acceleration_API
@@ -183,4 +187,4 @@ vary.
 [DailyMotion]: http://dailymotion.com
 [h264ify]: https://github.com/erkserkserks/h264ify
 [Widefine]: https://www.widevine.com/
-
+[Pixabay]: https://pixabay.com/photos/film-movie-cinema-reel-retro-2233692/
