@@ -22,6 +22,10 @@ tags:
 
 ![film]
 
+***UPDATE:*** *The `chromium-vaapi` package is now `chromium-freeworld`.
+This post was updated on 2019-11-06 to include the change. See the end of the
+post for the update steps.*
+
 If you use a web browser to watch videos on a laptop, you've probably noticed
 that some videos play without much impact on the battery. Other videos cause
 the fans to spin wildly and your battery life plummets.
@@ -43,7 +47,9 @@ same amount of CPU as it did before you completed this guide.* 😢
 
 ## Getting started with VAAPI
 
-You will need a few packages before you get started, and some of these depend on the type of GPU that is present in your system. In my case, I'm on a 4th generation Lenovo X1 Carbon, and it has an Skylake GPU:
+You will need a few packages before you get started, and some of these depend
+on the type of GPU that is present in your system. In my case, I'm on a 4th
+generation Lenovo X1 Carbon, and it has an Skylake GPU:
 
 ```text
 $ lspci | grep VGA
@@ -143,10 +149,10 @@ Now that we have a pathway for applications to talk to our GPU, we can install
 Chromium with VAAPI support:
 
 ```console
-$ sudo dnf -y install chromium-vaapi
+$ sudo dnf -y install chromium-freeworld
 ```
 
-Run `chromium-vaapi` to ensure Chromium starts properly. Visit
+Run `chromium-freeworld` to ensure Chromium starts properly. Visit
 [chrome://flags] in the Chromium browser and search for
 `ignore-gpu-blacklist`. Choose **Enabled** in the dropdown and press **Relaunch
 Now** in the bottom right corner.
@@ -168,15 +174,30 @@ First, ensure Chromium is not running. Then copy that module over to Chromium's
 directory:
 
 ```console
-sudo cp /opt/google/chrome/libwidevinecdm.so /usr/lib64/chromium-vaapi/
+sudo cp /opt/google/chrome/libwidevinecdm.so /usr/lib64/chromium-freeworld/
 ```
 
-Start `chromium-vaapi` one more time and try out some DRM-protected sites like
+Start `chromium-freeworld` one more time and try out some DRM-protected sites like
 Netflix and they should be working properly.
 
 As I mentioned at the start of the guide, some applications support
 acceleration with certain video formats and not others, so your results may
 vary.
+
+----
+
+## New package: `chromium-freeworld`
+
+When this post was first written, the chromium package was called
+`chromium-vaapi`. It now `chromium-freeworld`. The upgrade is seamless since
+the new package obsoletes the old one, but you need one extra step to bring
+over the DRM module to the new chromium library directory:
+
+```console
+sudo cp /usr/lib64/chromium-vaapi/libwidevinecdm.so /usr/lib64/chromium-freeworld
+```
+
+Restart `chromium-freeworld` and you're good to go again.
 
 *Photo credit: [Pixabay]*
 
