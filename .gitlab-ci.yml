@@ -1,13 +1,12 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  HUGO_VERSION: "0.54.0"
 
 stages:
   - generate
   - deploy
 
 generate:blog:
-  image: "monachus/hugo:v0.57.1"
+  image: "monachus/hugo:v0.59.1"
   stage: generate
   script:
     - ./build-site.sh
