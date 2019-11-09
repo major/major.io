@@ -15,9 +15,10 @@ twitter:
 categories:
   - Blog Posts
 tags:
-  - chromium
   - fedora
   - linux
+  - shell
+  - ups
 ---
 
 ![ups]
