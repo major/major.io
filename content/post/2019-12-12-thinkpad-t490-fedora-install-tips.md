@@ -46,6 +46,13 @@ On the first boot, wait for the LUKS screen to appear and ask for your
 password to decrypt the drive. Hit `CTRL-ALT-DEL` at the password prompt
 and wait for the grub screen to appear on reboot.
 
+> **Why are we issuing the three finger salute?** If you allow the laptop to
+> fully boot, it will hang when it starts gdm. There are some nouveau issues
+> in the system journal that provide hints but I haven't made sense of them
+> yet. By preventing the system from fully booting, the grub success flag
+> won't be set and you will see the grub menu at the next boot that is
+> normally hidden from you.
+
 Press `e` on the first line of the grub menu. Find the longest line (it
 usually has `rhgb quiet`) and add this text to the end:
 
