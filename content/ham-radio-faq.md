@@ -170,7 +170,7 @@ door to many of the frequencies below 10 meters, but Extra class licensees
 have the most access to those bands.
 
 To learn more about what access each level gets, consult the [ARRL Band Plan]
-or review the handy [graphical band chart] (which is good for printing).
+or review the handy [graphical band chart] \(which is good for printing\).
 
 [ARRL Band Plan]: http://www.arrl.org/band-plan
 [graphical band chart]: http://www.arrl.org/files/file/Regulatory/Band%20Chart/Band%20Chart%20-%2011X17%20Color.pdf
@@ -301,7 +301,7 @@ provide that copy.
 
 Your VEs will submit that CSCE along with other paperwork to the FCC. This
 can take 7-10 business days to complete, or longer if you didn't create an
-FRN first. Log in at the [License Manager] (*ULS*) with your FRN and
+FRN first. Log in at the [License Manager] \(*ULS*\) with your FRN and
 password. As soon as your license is available, you'll see it there!
 
 [License Manager]: https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp
