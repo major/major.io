@@ -28,7 +28,7 @@ spawn every day.
 OpenShift has some handy security features that we like. First, each
 container is mounted read-only with some writable temporary space (and any
 volumes that you mount). Also, OpenShift uses [arbitrarily assigned user IDs]
-(UIDs) for each container.
+\(UIDs\) for each container.
 
 Constantly changing UIDs provide some good protection against container
 engine vulnerabilities, but they can be a pain if you have a script or
