@@ -222,7 +222,7 @@ spec:
 There is a lot of text here, but there are two important parts:
 
 * The container `image` is pre-built from my [monit GitLab repository]
-  (feel free to use it!)
+  \(feel free to use it!\)
 * The `volumes` refer to the OpenShift configmaps that hold the monit
   configurations as well as the scripts that are called for monitoring
 
