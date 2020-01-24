@@ -9,8 +9,8 @@ twitter:
   site: "@majorhayden"
   title:  Disable Nvidia GPU on the Thinkpad T490
   description: >-
-    Fedora 17's code name was Beefy Miracle and it had a great mascot. You can
-    see it at boot time with a few quick changes.
+    The Lenovo ThinkPad T490 is a great laptop, but it comes with some
+    discrete GPU challenges.
   image: images/20191212-t490.png
 categories:
   - Blog Posts
