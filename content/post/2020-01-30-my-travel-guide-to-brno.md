@@ -15,11 +15,9 @@ twitter:
 categories:
   - Blog Posts
 tags:
-  - fedora
-  - lenovo
-  - linux
-  - thinkpad
-  - nvidia
+  - travel
+  - brno
+  - redhat
 ---
 
 {{< image src="/images/2020-01-30-brno-skyline.jpg" alt="Brno skyline" position="center" >}}
