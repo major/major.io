@@ -75,7 +75,7 @@ libva-vdpau-driver.i686
 
 My Intel GPU requires these packages:
 
-```console
+```text
 $ sudo dnf install libva libva-intel-driver \
     libva-vdpau-driver \
     libva-utils
@@ -148,7 +148,7 @@ vaInitialize failed with error code -1 (unknown libva error),exit
 Now that we have a pathway for applications to talk to our GPU, we can install
 Chromium with VAAPI support:
 
-```console
+```text
 $ sudo dnf -y install chromium-freeworld
 ```
 
@@ -173,7 +173,7 @@ The regular Chrome (not Chromium) package contains the module at:
 First, ensure Chromium is not running. Then copy that module over to Chromium's
 directory:
 
-```console
+```text
 sudo cp /opt/google/chrome/libwidevinecdm.so /usr/lib64/chromium-freeworld/
 ```
 
@@ -193,7 +193,7 @@ When this post was first written, the chromium package was called
 the new package obsoletes the old one, but you need one extra step to bring
 over the DRM module to the new chromium library directory:
 
-```console
+```text
 sudo cp /usr/lib64/chromium-vaapi/libwidevinecdm.so /usr/lib64/chromium-freeworld
 ```
 
