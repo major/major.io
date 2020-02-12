@@ -19,7 +19,7 @@ tags:
   - linux
 ---
 
-{{< image src="/images/2019-12-16-beefy-miracle.png" alt="Beefy miracle" position="center" >}}
+{{< figure src="/images/2019-12-16-beefy-miracle.png" alt="Beefy miracle" position="center" >}}
 
 Way back in 2012 when Fedora releases had names, there was one release that
 many of us in the Fedora community will never forget. Fedora 17's [code name]

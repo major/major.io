@@ -22,7 +22,7 @@ tags:
   - nvidia
 ---
 
-{{< image src="/images/20191212-t490.png" alt="Lenovo ThinkPad T490" position="center" >}}
+{{< figure src="/images/20191212-t490.png" alt="Lenovo ThinkPad T490" position="center" >}}
 
 I wrote about [installing Linux on the Lenovo ThinkPad T490 last month] and
 one of the biggest challenges was getting graphics working properly. The T490
@@ -159,9 +159,9 @@ We need to find some details on the discrete GPU. Running a `grep` on the
 ```
 
 So the GPU is represented in the ACPI tables as `SB_.PCI0.RP09.PEGP`. Let's
-grap for that:
+grep for that:
 
-```console
+```text
 $ grep -l SB_.PCI0.RP09.PEGP *.dsl
 dsdt.dsl
 ssdt10.dsl
@@ -267,7 +267,7 @@ The `initrd /acpi_override` line is the one I added.
 
 Reboot your laptop. After the boot, look for the SSDT lines in `dmesg`:
 
-```console
+```text
 $ dmesg | egrep -i "ssdt|dsdt"
 [    0.018597] ACPI: SSDT ACPI table found in initrd [kernel/firmware/acpi/ssdt11.aml][0xe28]
 [    0.018813] ACPI: Table Upgrade: override [SSDT-LENOVO-SgRpSsdt]
@@ -276,9 +276,9 @@ $ dmesg | egrep -i "ssdt|dsdt"
 
 Now look for Nvidia:
 
-```console
+```text
 $ nvidia-smi
-NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. 
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver.
 Make sure that the latest NVIDIA driver is installed and running.
 ```
 
@@ -316,9 +316,9 @@ index fd9042f05376aa80e3b94c1d6313e69cbb495c34..f75b43f57655553c5ced7a2595ad2b48
 +
                              _STA = One
                          }
- 
+
 @@ -449,7 +459,15 @@ DefinitionBlock ("", "SSDT", 2, "LENOVO", "SgRpSsdt", 0x00001000)
- 
+
                      Method (_ON, 0, Serialized)  // _ON_: Power On
                      {
 -                        \_SB.PCI0.HGON ()

@@ -20,7 +20,7 @@ tags:
   - redhat
 ---
 
-{{< image src="/images/2020-01-30-brno-skyline.jpg" alt="Brno skyline" position="center" >}}
+{{< figure src="/images/2020-01-30-brno-skyline.jpg" alt="Brno skyline" position="center" >}}
 
 Come to the Czech Republic and discover the beautiful city of [Brno]. I just
 wrapped up my third visit to the city and I can't wait to come back! The city
@@ -81,11 +81,11 @@ As for tram and bus etiquette, I've learned a few things:
   to sit down
 * Make your way towards the door early and press the green button on the poles
   near the door when you want to get off
-* If you ride in the late evening or night time, you may hear *na znamení* -- 
+* If you ride in the late evening or night time, you may hear *na znamení* --
   if you do, then it means your stop will be skipped if you don't push the
   button to get off (pay attention!)
 * When you want to board the train, be sure to push the buttons next to the
-  doors on the outside of the tram so they open (no need to do this at the 
+  doors on the outside of the tram so they open (no need to do this at the
   big stops like the main train station or Česka since all of the doors open
   anyway)
 * The cars in the rear of the trams seem to be the least crowded

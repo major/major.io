@@ -93,7 +93,7 @@ sudo dnf install akmod-nvidia
 When the packages are installed, run `akmods` to build the `nvidia` kernel
 module (this took about a minute on my laptop):
 
-```console
+```text
 # sudo akmods
 Checking kmods exist for 5.3.15-300.fc31.x86_64            [  OK  ]
 ```
