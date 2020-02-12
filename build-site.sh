@@ -6,5 +6,6 @@ hugo version
 # Build the blog
 hugo --gc --minify
 
-# Allow RSS to be accessed simply as /feed
-cp -av public/feed/index.xml public/feed/index.html
+# Allow RSS to be accessed more simply.
+mkdir -vp public/feed
+cp -av public/index.xml public/feed/index.html
