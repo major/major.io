@@ -64,7 +64,7 @@ You have plenty of options for getting tickets for trams and buses:
   count on it being there)
 * Send SMS to buy tickets (see signs at stops, requires Czech phone number)
 
-**Don't get on without a valid ticket!** When the check for tickets (and they
+**Don't get on without a valid ticket!** When they check for tickets (and they
 do!), you could get hit with a fine of €15-€40. That's downright silly when a
 two week ticket is usually around €11.
 
