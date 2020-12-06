@@ -9,7 +9,8 @@ twitter:
   site: "@majorhayden"
   title: options-trading-introduction
   description: >-
-    Doot.
+    Trading options contracts feels incredibly daunting, but you can learn
+    the terminology and make good choices in the market.
   image: images/2020-12-06-snow-mountain.jpg
 categories:
   - Blog Posts
