@@ -1,5 +1,6 @@
 baseURL = "https://major.io"
 title   = "Major Hayden 🤠"
+relativeURLs = true
 
 DefaultContentLanguage = "en"
 
