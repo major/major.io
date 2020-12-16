@@ -217,7 +217,7 @@ For a detailed explanation of potential outcomes here, and how to avoid them,
 I highly recommend the [Options Expire Saturday] episode of the Theta Gang
 Podcast. (The podcast is excellent overall.)
 
-[some detailed rules about exercising]: http://www.cboe.com/products/options-on-single-stocks-and-exchange-traded-products/options-on-single-stocks/equity-options-specs
+[some detailed rules about exercising]: https://markets.cboe.com/exchange_traded_stock/equity_options_spec/
 [Options Expire Saturday]: https://rss.com/podcasts/thetagang/78866/
 
 ## What's next?
