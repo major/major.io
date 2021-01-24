@@ -1,0 +1,236 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="Monit is a tried-and-true method for monitoring all kinds of systems, services, and network endpoints. Deploying monit is easy. There&amp;rsquo;s only one binary daemon to run and it reads monitoring configuration from files in a directory you specify.
+Most Linux distributions have a package for monit and the package usually contains some basic configuration along with a systemd unit file to run the daemon reliably.
+However, this post is all about how to deploy it inside OpenShift."><meta name=keywords content=",linux,monit,monitoring,openshift"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2019/09/11/deploy-monit-in-openshift/><title>Deploy monit in OpenShift :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Deploy monit in OpenShift"><meta itemprop=description content="Monit is a tried-and-true method for monitoring all kinds of systems, services, and network endpoints. Deploying monit is easy. There&rsquo;s only one binary daemon to run and it reads monitoring configuration from files in a directory you specify.
+Most Linux distributions have a package for monit and the package usually contains some basic configuration along with a systemd unit file to run the daemon reliably.
+However, this post is all about how to deploy it inside OpenShift."><meta itemprop=datePublished content="2019-09-11T00:00:00+00:00"><meta itemprop=dateModified content="2019-09-11T00:00:00+00:00"><meta itemprop=wordCount content="1115"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="linux,monit,monitoring,openshift,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2019-09-11 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Deploy monit in OpenShift :: Major Hayden 🤠"><meta name=twitter:description content="Monit is a tried-and-true monitoring daemon that is easy to deploy. Add it to OpenShift to make monitoring even easier."><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2019-09-11-cctv-cameras.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2019/09/11/deploy-monit-in-openshift/>Deploy monit in OpenShift</a></h2><div class=post-content><p><img src=../../../../images/2019-09-11-cctv-cameras.jpg alt="cctv cameras"></p><p><a href=https://mmonit.com/monit/>Monit</a> is a tried-and-true method for monitoring all kinds of systems,
+services, and network endpoints. Deploying monit is easy. There&rsquo;s only one
+binary daemon to run and it reads monitoring configuration from files in a
+directory you specify.</p><p>Most Linux distributions have a package for monit and the package usually
+contains some basic configuration along with a systemd unit file to run the
+daemon reliably.</p><p>However, this post is all about how to deploy it inside OpenShift. Deploying
+monit inside OpenShift allows you to monitor services inside OpenShift that
+might not have a route or a NodePort configured, but you can monitor systems
+outside OpenShift, too.</p><h2 id=monit-in-a-container>Monit in a container</h2><p>Before we can put monit into a container, we need to think about what it
+requires. At the most basic level, we will need:</p><ul><li>the monit daemon binary</li><li>a very basic config, the <code>.monitrc</code></li><li>a directory to hold lots of additional monitoring configs</li><li>any packages needed for running monitoring scripts</li></ul><p>In my case, some of the scripts I want to run require <code>curl</code>, <code>httpie</code> (for
+complex HTTP/JSON requests), and <code>jq</code> (for parsing json). I&rsquo;ve added those,
+along with some requirements for the monit binary, to my container build file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-docker data-lang=docker><span style=color:#719e07>FROM</span><span style=color:#2aa198> fedora:latest</span>
+
+<span style=color:#586e75># Upgrade packages and install monit.</span>
+<span style=color:#719e07>RUN</span> dnf -y upgrade
+<span style=color:#719e07>RUN</span> dnf -y install coreutils httpie jq libnsl libxcrypt-compat
+<span style=color:#719e07>RUN</span> dnf clean all
+
+<span style=color:#586e75># Install monit.</span>
+<span style=color:#719e07>RUN</span> curl -Lso /tmp/monit.tgz https://bitbucket.org/tildeslash/monit/downloads/monit-5.26.0-linux-x64.tar.gz
+<span style=color:#719e07>RUN</span> <span style=color:#b58900>cd</span> /tmp <span style=color:#719e07>&amp;&amp;</span> tar xf monit.tgz
+<span style=color:#719e07>RUN</span> mv /tmp/monit-*/bin/monit /usr/local/bin/monit
+<span style=color:#719e07>RUN</span> rm -rf /tmp/monit*
+
+<span style=color:#586e75># Remove monit user/group.</span>
+<span style=color:#719e07>RUN</span> sed -i <span style=color:#2aa198>&#39;/^monit/d&#39;</span> /etc/passwd
+<span style=color:#719e07>RUN</span> sed -i <span style=color:#2aa198>&#39;/^monit/d&#39;</span> /etc/group
+
+<span style=color:#586e75># Work around OpenShift&#39;s arbitrary UID/GIDs.</span>
+<span style=color:#719e07>RUN</span> chmod <span style=color:#268bd2>g</span><span style=color:#719e07>=</span>u /etc/passwd /etc/group
+
+<span style=color:#586e75># The monit server listens on 2812.</span>
+<span style=color:#719e07>EXPOSE</span><span style=color:#2aa198> 2812</span>
+
+<span style=color:#586e75># Set up a volume for /config.</span>
+<span style=color:#719e07>VOLUME</span> [<span style=color:#2aa198>&#34;/config&#34;</span>]
+
+<span style=color:#586e75># Start monit when the container starts.</span>
+<span style=color:#719e07>ENV</span> <span style=color:#268bd2>HOME</span><span style=color:#719e07>=</span>/tmp
+<span style=color:#719e07>COPY</span> extras/start.sh /opt/start.sh
+<span style=color:#719e07>RUN</span> chmod +x /opt/start.sh
+<span style=color:#719e07>CMD</span> [<span style=color:#2aa198>&#34;/opt/start.sh&#34;</span>]
+</code></pre></div><p>Let&rsquo;s break down what&rsquo;s here in the container build file:</p><ul><li>Install some basic packages that we need in the container</li><li>Download monit and install it to <code>/usr/local/bin/monit</code></li><li>Remove the <code>monit</code> user/group <em>(more on this later)</em></li><li>Make <code>/etc/passwd</code> and <code>/etc/group</code> writable by the root group <em>(more on this later)</em></li><li>Expose the default monit port</li><li>Run our special startup script</li></ul><p>The last three parts help us run with OpenShift&rsquo;s strict security requirements.</p><h2 id=startup-script>Startup script</h2><p>Monit has some strict security requirements for startup. It requires that the
+monit daemon is started with the same user/group combination that owns the
+initial configuration file (<code>.monitrc</code>). That&rsquo;s why we removed the <code>monit</code>
+user/group <em>and</em> made <code>/etc/passwd</code> and <code>/etc/shadow</code> writable during the build
+step. We need to add those back in once the container starts and we&rsquo;ve received
+our arbitrary UID from OpenShift.</p><p><em>(For more on OpenShift&rsquo;s arbitrary UIDs, read my other post about <a href=../../../../2019/03/22/running-ansible-in-openshift-with-arbitrary-uids/>Running
+Ansible in OpenShift with arbitrary UIDs</a>.)</em></p><p>Here&rsquo;s the startup script:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#719e07>#!/bin/bash
+</span><span style=color:#719e07></span><span style=color:#b58900>set</span> -euxo pipefail
+
+<span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;The home directory is: </span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>&#34;</span>
+
+<span style=color:#586e75># Work around OpenShift&#39;s arbitrary UID/GIDs.</span>
+<span style=color:#719e07>if</span> <span style=color:#719e07>[</span> -w <span style=color:#2aa198>&#39;/etc/passwd&#39;</span> <span style=color:#719e07>]</span>; <span style=color:#719e07>then</span>
+    <span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;monit❌`id -u`:`id -g`:,,,:</span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>:/bin/bash&#34;</span> &gt;&gt; /etc/passwd
+<span style=color:#719e07>fi</span>
+<span style=color:#719e07>if</span> <span style=color:#719e07>[</span> -w <span style=color:#2aa198>&#39;/etc/group&#39;</span> <span style=color:#719e07>]</span>; <span style=color:#719e07>then</span>
+    <span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;monit❌</span><span style=color:#719e07>$(</span>id -G | cut -d<span style=color:#2aa198>&#39; &#39;</span> -f 2<span style=color:#719e07>)</span><span style=color:#2aa198>&#34;</span> &gt;&gt; /etc/group
+<span style=color:#719e07>fi</span>
+
+<span style=color:#586e75># Make a basic monitrc.</span>
+<span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;set daemon 30&#34;</span> &gt;&gt; <span style=color:#2aa198>&#34;</span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>&#34;</span>/monitrc
+<span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;include /config/*&#34;</span> &gt;&gt; <span style=color:#2aa198>&#34;</span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>&#34;</span>/monitrc
+chmod <span style=color:#2aa198>0700</span> <span style=color:#2aa198>&#34;</span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>&#34;</span>/monitrc
+
+<span style=color:#586e75># Ensure the UID/GID mapping works.</span>
+id
+
+<span style=color:#586e75># Run monit.</span>
+/usr/local/bin/monit -v -I -c <span style=color:#2aa198>&#34;</span><span style=color:#2aa198>${</span><span style=color:#268bd2>HOME</span><span style=color:#2aa198>}</span><span style=color:#2aa198>&#34;</span>/monitrc
+</code></pre></div><p>Let&rsquo;s talk about what is happening in the script:</p><ol><li>Add the <code>monit</code> user to <code>/etc/passwd</code> with the arbitrary UID</li><li>Do the same for the <code>monit</code> group in <code>/etc/group</code></li><li>Create a very basic <code>.monitrc</code> that is owned by the <code>monit</code> user and group</li><li>Run <code>monit</code> in verbose mode in the foreground with our <code>.monitrc</code></li></ol><p>OpenShift will make an emptyDir volume in <code>/config</code> that we can modify since we
+specified a volume in the container build file.</p><h2 id=deploying-monit>Deploying monit</h2><p>Now that we have a container and a startup script, it&rsquo;s time to deploy monit in
+OpenShift.</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#268bd2>apiVersion</span>: apps.openshift.io/v1
+<span style=color:#268bd2>kind</span>: DeploymentConfig
+<span style=color:#268bd2>metadata</span>:
+  <span style=color:#268bd2>generation</span>: <span style=color:#2aa198>1</span>
+  <span style=color:#268bd2>labels</span>:
+    <span style=color:#268bd2>app</span>: monit
+  <span style=color:#268bd2>name</span>: monit
+<span style=color:#268bd2>spec</span>:
+  <span style=color:#268bd2>replicas</span>: <span style=color:#2aa198>1</span>
+  <span style=color:#268bd2>revisionHistoryLimit</span>: <span style=color:#2aa198>10</span>
+  <span style=color:#268bd2>selector</span>:
+    <span style=color:#268bd2>app</span>: monit
+    <span style=color:#268bd2>deploymentconfig</span>: monit
+  <span style=color:#268bd2>strategy</span>:
+    <span style=color:#268bd2>activeDeadlineSeconds</span>: <span style=color:#2aa198>21600</span>
+    <span style=color:#268bd2>resources</span>: {}
+    <span style=color:#268bd2>rollingParams</span>:
+      <span style=color:#268bd2>intervalSeconds</span>: <span style=color:#2aa198>1</span>
+      <span style=color:#268bd2>maxSurge</span>: <span style=color:#2aa198>25</span>%
+      <span style=color:#268bd2>maxUnavailable</span>: <span style=color:#2aa198>25</span>%
+      <span style=color:#268bd2>timeoutSeconds</span>: <span style=color:#2aa198>600</span>
+      <span style=color:#268bd2>updatePeriodSeconds</span>: <span style=color:#2aa198>1</span>
+    <span style=color:#268bd2>type</span>: Rolling
+  <span style=color:#268bd2>template</span>:
+    <span style=color:#268bd2>metadata</span>:
+      <span style=color:#268bd2>labels</span>:
+        <span style=color:#268bd2>app</span>: monit
+        <span style=color:#268bd2>deploymentconfig</span>: monit
+    <span style=color:#268bd2>spec</span>:
+      <span style=color:#268bd2>containers</span>:
+      - <span style=color:#268bd2>image</span>: registry.gitlab.com/majorhayden/container-monit/monit:latest
+        <span style=color:#268bd2>imagePullPolicy</span>: Always
+        <span style=color:#268bd2>name</span>: monit
+        <span style=color:#268bd2>resources</span>:
+          <span style=color:#268bd2>limits</span>:
+            <span style=color:#268bd2>cpu</span>: 100m
+            <span style=color:#268bd2>memory</span>: 512Mi
+          <span style=color:#268bd2>requests</span>:
+            <span style=color:#268bd2>cpu</span>: 100m
+            <span style=color:#268bd2>memory</span>: 512Mi
+        <span style=color:#268bd2>terminationMessagePath</span>: /dev/termination-log
+        <span style=color:#268bd2>terminationMessagePolicy</span>: File
+        <span style=color:#268bd2>volumeMounts</span>:
+        - <span style=color:#268bd2>mountPath</span>: /config
+          <span style=color:#268bd2>name</span>: monit-config
+        - <span style=color:#268bd2>mountPath</span>: /scripts
+          <span style=color:#268bd2>name</span>: monit-scripts
+      <span style=color:#268bd2>dnsPolicy</span>: ClusterFirst
+      <span style=color:#268bd2>hostname</span>: monit-in-openshift
+      <span style=color:#268bd2>restartPolicy</span>: Always
+      <span style=color:#268bd2>schedulerName</span>: default-scheduler
+      <span style=color:#268bd2>securityContext</span>: {}
+      <span style=color:#268bd2>terminationGracePeriodSeconds</span>: <span style=color:#2aa198>30</span>
+      <span style=color:#268bd2>volumes</span>:
+      - <span style=color:#268bd2>configMap</span>:
+          <span style=color:#268bd2>defaultMode</span>: <span style=color:#2aa198>0420</span>
+          <span style=color:#268bd2>name</span>: monit-config
+        <span style=color:#268bd2>name</span>: monit-config
+      - <span style=color:#268bd2>configMap</span>:
+          <span style=color:#268bd2>defaultMode</span>: <span style=color:#2aa198>0755</span>
+          <span style=color:#268bd2>name</span>: monit-scripts
+        <span style=color:#268bd2>name</span>: monit-scripts
+  <span style=color:#268bd2>test</span>: <span style=color:#cb4b16>false</span>
+  <span style=color:#268bd2>triggers</span>:
+  - <span style=color:#268bd2>type</span>: ConfigChange
+</code></pre></div><p>There is a lot of text here, but there are two important parts:</p><ul><li>The container <code>image</code> is pre-built from my <a href=https://gitlab.com/majorhayden/container-monit>monit GitLab repository</a>
+(feel free to use it!)</li><li>The <code>volumes</code> refer to the OpenShift configmaps that hold the monit
+configurations as well as the scripts that are called for monitoring</li></ul><p>Next comes the service (which allows the monit web port to be exposed inside
+the OpenShift cluster):</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#268bd2>apiVersion</span>: v1
+<span style=color:#268bd2>kind</span>: Service
+<span style=color:#268bd2>metadata</span>:
+  <span style=color:#268bd2>labels</span>:
+    <span style=color:#268bd2>app</span>: monit
+  <span style=color:#268bd2>name</span>: monit
+<span style=color:#268bd2>spec</span>:
+  <span style=color:#268bd2>ports</span>:
+  - <span style=color:#268bd2>port</span>: <span style=color:#2aa198>2812</span>
+    <span style=color:#268bd2>protocol</span>: TCP
+    <span style=color:#268bd2>targetPort</span>: <span style=color:#2aa198>2812</span>
+  <span style=color:#268bd2>selector</span>:
+    <span style=color:#268bd2>app</span>: monit
+    <span style=color:#268bd2>deploymentconfig</span>: monit
+  <span style=color:#268bd2>sessionAffinity</span>: None
+  <span style=color:#268bd2>type</span>: ClusterIP
+</code></pre></div><p>And finally, the route (which exposes the monit web port service <em>outside</em> the
+OpenShift cluster):</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#268bd2>apiVersion</span>: route.openshift.io/v1
+<span style=color:#268bd2>kind</span>: Route
+<span style=color:#268bd2>metadata</span>:
+  <span style=color:#268bd2>labels</span>:
+    <span style=color:#268bd2>app</span>: monit
+  <span style=color:#268bd2>name</span>: monit
+<span style=color:#268bd2>spec</span>:
+  <span style=color:#268bd2>tls</span>:
+    <span style=color:#268bd2>insecureEdgeTerminationPolicy</span>: Redirect
+    <span style=color:#268bd2>termination</span>: edge
+  <span style=color:#268bd2>host</span>: monit.openshift.example.com
+  <span style=color:#268bd2>to</span>:
+    <span style=color:#268bd2>kind</span>: Service
+    <span style=color:#268bd2>name</span>: monit
+    <span style=color:#268bd2>weight</span>: <span style=color:#2aa198>100</span>
+  <span style=color:#268bd2>wildcardPolicy</span>: None
+</code></pre></div><h2 id=monitoring-configuration-and-scripts>Monitoring configuration and scripts</h2><p>The deploymentConfig for monit refers to a configMap called <code>monit-config</code>.
+This config map contains all of the additional monitoring configuration for
+monit outside of the <code>.monitrc</code>. Here is a basic configMap for checking that
+<code>icanhazheaders.com</code> is accessible:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#268bd2>apiVersion</span>: v1
+<span style=color:#268bd2>kind</span>: ConfigMap
+<span style=color:#268bd2>metadata</span>:
+  <span style=color:#268bd2>name</span>: monit-config
+<span style=color:#268bd2>data</span>:
+  <span style=color:#268bd2>config</span>: |<span style=color:#2aa198>
+</span><span style=color:#2aa198>    set daemon 30
+</span><span style=color:#2aa198>    set httpd port 2812
+</span><span style=color:#2aa198>      allow 0.0.0.0/0
+</span><span style=color:#2aa198>    set alert me@example.com
+</span><span style=color:#2aa198>    set mailserver smtp.example.com
+</span><span style=color:#2aa198>
+</span><span style=color:#2aa198>    check host &#34;icanhazheaders responding&#34; with address icanhazheaders.com
+</span><span style=color:#2aa198>      if failed
+</span><span style=color:#2aa198>        port 80
+</span><span style=color:#2aa198>        for 2 cycles
+</span><span style=color:#2aa198>      then alert
+</span><span style=color:#2aa198>
+</span><span style=color:#2aa198>    check program &#34;icanhazheaders header check&#34;
+</span><span style=color:#2aa198>      with path &#34;/scripts/header-check.sh ACCEPT-ENCODING &#39;gzip&#39;&#34;
+</span><span style=color:#2aa198>      if status gt 0
+</span><span style=color:#2aa198>        then exec &#34;/scripts/irc-notification.sh&#34;
+</span><span style=color:#2aa198>        else if succeeded then exec &#34;/scripts/irc-notification.sh&#34;</span>    
+
+</code></pre></div><p>This configuration will check <code>icanhazheaders.com</code> and only alert if the check
+fails for two check periods. Each check period is 30 seconds, so the site would
+need to be inaccessible for 60 seconds before an alert would be sent.</p><p>Also, there is a second check that runs a script. Let&rsquo;s deploy the script to
+OpenShift as well:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#268bd2>apiVersion</span>: v1
+<span style=color:#268bd2>kind</span>: ConfigMap
+<span style=color:#268bd2>metadata</span>:
+  <span style=color:#268bd2>name</span>: monit-scripts
+<span style=color:#268bd2>data</span>:
+  <span style=color:#268bd2>header-check.sh</span>: |<span style=color:#2aa198>
+</span><span style=color:#2aa198>    #!/bin/bash
+</span><span style=color:#2aa198>    set -euo pipefail
+</span><span style=color:#2aa198>
+</span><span style=color:#2aa198>    URL=&#34;http://icanhazheaders.com&#34;
+</span><span style=color:#2aa198>    HEADER=$1
+</span><span style=color:#2aa198>    EXPECTED_VALUE=$2
+</span><span style=color:#2aa198>
+</span><span style=color:#2aa198>    HEADER_VALUE=$(curl -s ${URL} | jq -r ${HEADER})
+</span><span style=color:#2aa198>
+</span><span style=color:#2aa198>    if [[ $HEADER_VALUE == $EXPECTED_VALUE ]]; then
+</span><span style=color:#2aa198>      exit 0
+</span><span style=color:#2aa198>    else
+</span><span style=color:#2aa198>      exit 1
+</span><span style=color:#2aa198>    fi</span>    
+</code></pre></div><p>Use <code>oc apply</code> to deploy all of these YAML files to your OpenShift cluster and
+monit should be up and running within seconds!</p><p><a href=https://commons.wikimedia.org/wiki/File:CCTV_cameras_in_Mumbai.jpg><em>Photo credit</em></a></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/linux>linux</a></span><span class=tag><a href=https://major.io/tags/monit>monit</a></span><span class=tag><a href=https://major.io/tags/monitoring>monitoring</a></span><span class=tag><a href=https://major.io/tags/openshift>openshift</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

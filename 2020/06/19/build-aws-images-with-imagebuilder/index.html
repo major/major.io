@@ -1,0 +1,254 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.
+You can get a customized image via a few methods:
+ Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot."><meta name=keywords content=",aws,cloud,fedora,linux"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2020/06/19/build-aws-images-with-imagebuilder/><title>Build AWS images with Image Builder :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Build AWS images with Image Builder"><meta itemprop=description content="The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.
+You can get a customized image via a few methods:
+ Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot."><meta itemprop=datePublished content="2020-06-19T00:00:00+00:00"><meta itemprop=dateModified content="2020-06-19T00:00:00+00:00"><meta itemprop=wordCount content="1389"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="aws,cloud,fedora,linux,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2020-06-19 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Build AWS images with Image Builder :: Major Hayden 🤠"><meta name=twitter:description content="Build a customized image for AWS with Image Builder and use the built-in automatic uploader and importer."><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2020-06-19-aluminum-factory.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2020/06/19/build-aws-images-with-imagebuilder/>Build AWS images with Image Builder</a></h2><div class=post-content><figure class=center><img src=../../../../images/2020-06-19-aluminum-factory.jpg alt="Aluminum factory"></figure><p>The AMIs provided by most Linux distributions in AWS work well for most use
+cases. However, there are those times when you need a customized image to
+support a certain configuration or to speed up CI processes.</p><p>You can get a customized image via a few methods:</p><ol><li>Build from an existing AMI, customize it, and snapshot it.</li><li>Use an automated tool, such as Packer, to automate #1.</li><li>Build your own image locally in KVM, VMware, or Virtualbox and upload the
+image into S3, import it into an EC2, and create an AMI from the snapshot.</li></ol><p>My preferred option is the last method since the installation happens locally
+and the image is first booted in AWS. This ensures that log files and
+configurations are clean on first boot. Although this method produces the best
+result, it has plenty of steps that can go wrong.</p><h2 id=importing-an-image-into-aws-the-hard-way>Importing an image into AWS (the hard way)</h2><p>AWS has <a href=https://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-image-import.html>documentation for importing an image</a> and the basic steps include:</p><ol><li>Install into a VM locally and customize it.</li><li>Snapshot the image and upload it into an S3 bucket.</li><li>Create an IAM role for <code>vmimport</code> so that EC2 can pull the image from S3
+and import it.</li><li>Run <code>aws ec2 import-snapshot</code> to tell EC2 to import the image.</li><li>Monitor the output of <code>aws ec2 describe-import-snapshot-tasks</code> until the
+snapshot fully imports into EC2. It might fail to import, so you need to be
+prepared for that. (If that happens, go back to step 4.)</li><li>Get the snapshot ID from the import.</li><li>Run <code>aws ec2 register-image</code> to create the AMI from the snapshot ID.</li></ol><p>This is a lot of manual work. 😩</p><h2 id=using-image-builder-to-make-images>Using Image Builder to make images</h2><p>Image Builder has two main components:</p><ul><li><a href=https://github.com/osbuild/osbuild-composer>osbuild-composer</a> takes an image configuration and generates instructions
+for the image build stages (and optionally uploads an image to a cloud)</li><li><a href=https://github.com/osbuild/osbuild>osbuild</a> takes those instructions and builds an image</li></ul><p>The support for uploading to clouds first arrived in Fedora 32 and this post
+will use that release for generating images.</p><p>To get started, install <code>osbuild-composer</code> along with <code>composer-cli</code>, a
+command line interface to create images. Start the socket for
+<code>osbuild-composer</code> as well:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># dnf -y install composer-cli osbuild-composer
+# systemctl enable --now osbuild-composer.socket
+</code></pre></div><p>Verify that everything is working:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># composer-cli sources list
+fedora
+updates
+fedora-modular
+updates-modular
+</code></pre></div><p>We now need an image blueprint. A blueprint is a TOML file that provides some
+basic specifications for the image, such as which packages to install, which
+services should start at boot time, and the system&rsquo;s time zone. Refer to the
+<a href=https://weldr.io/lorax/lorax-composer.html#blueprints>Lorax composer documentation</a> for a full list of options.</p><p>In this example, we will build a small image with nginx to serve a website.
+Here&rsquo;s the TOML file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>name = <span style=color:#2aa198>&#34;aws-nginx&#34;</span>
+description = <span style=color:#2aa198>&#34;AWS nginx image&#34;</span>
+version = <span style=color:#2aa198>&#34;0.0.1&#34;</span>
+
+[[packages]]
+name = <span style=color:#2aa198>&#34;chrony&#34;</span>
+
+[[packages]]
+name = <span style=color:#2aa198>&#34;cloud-utils-growpart&#34;</span>
+
+[[packages]]
+name = <span style=color:#2aa198>&#34;nginx&#34;</span>
+
+[customizations.kernel]
+append = <span style=color:#2aa198>&#34;no_timer_check console=hvc0 LANG=en_US.UTF-8&#34;</span>
+
+[customizations.services]
+enabled = [<span style=color:#2aa198>&#34;chronyd&#34;</span>, <span style=color:#2aa198>&#34;nginx&#34;</span>]
+
+[customizations.timezone]
+timezome = <span style=color:#2aa198>&#34;UTC&#34;</span>
+</code></pre></div><p>Our specification says:</p><ul><li>Build an image with <code>nginx</code> and ensure it starts at boot time</li><li>Install <code>chrony</code> for time synchronization, set the time zone to UTC, and
+start it at boot time.</li><li>Install <code>cloud-utils-growpart</code> so that cloud-init can automatically grow the
+root filesystem on the first boot</li><li>Add some kernel boot parameters to ensure the serial console works in AWS</li></ul><p>Push the blueprint into <code>osbuild-composer</code> and ensure the packages are
+available. (The <code>depsolve</code> check is optional, but I recommend it so you can
+find any typos in your package names.)</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># composer-cli blueprints push aws-image.toml
+# composer-cli blueprints depsolve aws-nginx
+blueprint: aws-nginx v0.0.1
+    acl-2.2.53-5.fc32.x86_64
+    alternatives-1.11-6.fc32.x86_64
+    audit-libs-3.0-0.19.20191104git1c2f876.fc32.x86_64
+    ...
+</code></pre></div><p>We can now build the image:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># composer-cli --json compose start aws-nginx ami
+{
+    &#34;build_id&#34;: &#34;285c1ee8-6b9e-4725-9c4c-346eafae86de&#34;,
+    &#34;status&#34;: true
+}
+# composer-cli --json compose status 285c1ee8-6b9e-4725-9c4c-346eafae86de
+[
+    {
+        &#34;id&#34;: &#34;285c1ee8-6b9e-4725-9c4c-346eafae86de&#34;,
+        &#34;blueprint&#34;: &#34;aws-nginx&#34;,
+        &#34;version&#34;: &#34;0.0.1&#34;,
+        &#34;compose_type&#34;: &#34;ami&#34;,
+        &#34;image_size&#34;: 0,
+        &#34;status&#34;: &#34;RUNNING&#34;,
+        &#34;created&#34;: 1592578852.962228,
+        &#34;started&#34;: 1592578852.987541,
+        &#34;finished&#34;: null
+    }
+]
+</code></pre></div><p>Our image is building! After a few minutes, the image is ready:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># composer-cli --json compose status 285c1ee8-6b9e-4725-9c4c-346eafae86de
+[
+    {
+        &#34;id&#34;: &#34;285c1ee8-6b9e-4725-9c4c-346eafae86de&#34;,
+        &#34;blueprint&#34;: &#34;aws-nginx&#34;,
+        &#34;version&#34;: &#34;0.0.1&#34;,
+        &#34;compose_type&#34;: &#34;ami&#34;,
+        &#34;image_size&#34;: 6442450944,
+        &#34;status&#34;: &#34;FINISHED&#34;,
+        &#34;created&#34;: 1592578852.962228,
+        &#34;started&#34;: 1592578852.987541,
+        &#34;finished&#34;: 1592579061.3364012
+    }
+]
+# composer-cli compose image 285c1ee8-6b9e-4725-9c4c-346eafae86de
+285c1ee8-6b9e-4725-9c4c-346eafae86de-image.vhdx: 1304.00 MB
+# ls -alh 285c1ee8-6b9e-4725-9c4c-346eafae86de-image.vhdx
+-rw-r--r--. 1 root root 1.3G Jun 19 15:12 285c1ee8-6b9e-4725-9c4c-346eafae86de-image.vhdx
+</code></pre></div><p>We can take this image, upload it to S3 and import it into AWS using the
+process mentioned earlier in this post. Or, we can have osbuild-composer do
+this for us.</p><h2 id=preparing-for-automatic-aws-upload>Preparing for automatic AWS upload</h2><p>Start by making a bucket in S3 in your preferred region. Mine is called
+<code>mhayden-image-uploads</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># aws --region us-east-2 s3 mb s3://mhayden-image-uploads
+make_bucket: mhayden-image-uploads
+</code></pre></div><p>Now we need a role that allows EC2 to import images for us. Save this file as
+<code>vmimport.json</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+   <span style=color:#268bd2>&#34;Version&#34;</span>: <span style=color:#2aa198>&#34;2012-10-17&#34;</span>,
+   <span style=color:#268bd2>&#34;Statement&#34;</span>: [
+      {
+         <span style=color:#268bd2>&#34;Effect&#34;</span>: <span style=color:#2aa198>&#34;Allow&#34;</span>,
+         <span style=color:#268bd2>&#34;Principal&#34;</span>: { <span style=color:#268bd2>&#34;Service&#34;</span>: <span style=color:#2aa198>&#34;vmie.amazonaws.com&#34;</span> },
+         <span style=color:#268bd2>&#34;Action&#34;</span>: <span style=color:#2aa198>&#34;sts:AssumeRole&#34;</span>,
+         <span style=color:#268bd2>&#34;Condition&#34;</span>: {
+            <span style=color:#268bd2>&#34;StringEquals&#34;</span>:{
+               <span style=color:#268bd2>&#34;sts:Externalid&#34;</span>: <span style=color:#2aa198>&#34;vmimport&#34;</span>
+            }
+         }
+      }
+   ]
+}
+</code></pre></div><p>We now need a policy to apply to the <code>vmimport</code> role that allows EC2 to use
+the role to download the image, import it, and register an AMI <strong>(replace the
+bucket name with your S3 bucket)</strong>. Save this as <code>vmimport-policy.json</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+   <span style=color:#268bd2>&#34;Version&#34;</span>:<span style=color:#2aa198>&#34;2012-10-17&#34;</span>,
+   <span style=color:#268bd2>&#34;Statement&#34;</span>:[
+      {
+         <span style=color:#268bd2>&#34;Effect&#34;</span>: <span style=color:#2aa198>&#34;Allow&#34;</span>,
+         <span style=color:#268bd2>&#34;Action&#34;</span>: [
+            <span style=color:#2aa198>&#34;s3:GetBucketLocation&#34;</span>,
+            <span style=color:#2aa198>&#34;s3:GetObject&#34;</span>,
+            <span style=color:#2aa198>&#34;s3:ListBucket&#34;</span>
+         ],
+         <span style=color:#268bd2>&#34;Resource&#34;</span>: [
+            <span style=color:#2aa198>&#34;arn:aws:s3:::mhayden-image-uploads&#34;</span>,
+            <span style=color:#2aa198>&#34;arn:aws:s3:::mhayden-image-uploads/*&#34;</span>
+         ]
+      },
+      {
+         <span style=color:#268bd2>&#34;Effect&#34;</span>: <span style=color:#2aa198>&#34;Allow&#34;</span>,
+         <span style=color:#268bd2>&#34;Action&#34;</span>: [
+            <span style=color:#2aa198>&#34;ec2:ModifySnapshotAttribute&#34;</span>,
+            <span style=color:#2aa198>&#34;ec2:CopySnapshot&#34;</span>,
+            <span style=color:#2aa198>&#34;ec2:RegisterImage&#34;</span>,
+            <span style=color:#2aa198>&#34;ec2:Describe*&#34;</span>
+         ],
+         <span style=color:#268bd2>&#34;Resource&#34;</span>: <span style=color:#2aa198>&#34;*&#34;</span>
+      }
+   ]
+}
+</code></pre></div><p>Add the role and the policy to IAM:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># aws iam create-role --role-name vmimport \
+    --assume-role-policy-document &#34;file://vmimport.json&#34;
+# aws iam put-role-policy --role-name vmimport --policy-name vmimport \
+    --policy-document &#34;file://vmimport-policy.json&#34;
+</code></pre></div><h2 id=building-an-image-with-automatic-upload>Building an image with automatic upload</h2><p>We can use our same TOML blueprint we created earlier and provide one
+additional TOML file that provides AWS configuration and credentials. Create
+an <code>aws-config.toml</code> file with the following content:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>provider = <span style=color:#2aa198>&#34;aws&#34;</span>
+
+[settings]
+accessKeyID = <span style=color:#2aa198>&#34;***&#34;</span>
+secretAccessKey = <span style=color:#2aa198>&#34;***&#34;</span>
+bucket = <span style=color:#2aa198>&#34;mhayden-image-uploads&#34;</span>
+region = <span style=color:#2aa198>&#34;us-east-2&#34;</span>
+key = <span style=color:#2aa198>&#34;fedora-32-image-from-my-blog-post&#34;</span>
+</code></pre></div><p>Add your AWS credentials here along with your S3 bucket, preferred AWS region,
+and an image key. The image key is the name applied to the snapshot and the
+resulting AMI.</p><p>Now we can build our AMI and have it automatically uploaded:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># composer-cli --json compose start aws-nginx ami fedora-32-image-from-my-blog-post aws-config.toml
+{
+    &#34;build_id&#34;: &#34;f343b20d-70f9-467a-9157-f9b4fc90ee87&#34;,
+    &#34;status&#34;: true
+}
+# composer-cli --json compose info f343b20d-70f9-467a-9157-f9b4fc90ee87
+{
+    &#34;id&#34;: &#34;f343b20d-70f9-467a-9157-f9b4fc90ee87&#34;,
+    &#34;config&#34;: &#34;&#34;,
+    &#34;blueprint&#34;: {
+        &#34;name&#34;: &#34;aws-nginx&#34;,
+        &#34;description&#34;: &#34;AWS nginx image&#34;,
+        &#34;version&#34;: &#34;0.0.1&#34;,
+        &#34;packages&#34;: [
+            {
+                &#34;name&#34;: &#34;chrony&#34;
+            },
+            {
+                &#34;name&#34;: &#34;cloud-utils-growpart&#34;
+            },
+            {
+                &#34;name&#34;: &#34;nginx&#34;
+            }
+        ],
+        &#34;modules&#34;: [],
+        &#34;groups&#34;: [],
+        &#34;customizations&#34;: {
+            &#34;kernel&#34;: {
+                &#34;append&#34;: &#34;no_timer_check console=hvc0 LANG=en_US.UTF-8&#34;
+            },
+            &#34;timezone&#34;: {},
+            &#34;services&#34;: {
+                &#34;enabled&#34;: [
+                    &#34;chronyd&#34;,
+                    &#34;nginx&#34;
+                ]
+            }
+        }
+    },
+    &#34;commit&#34;: &#34;&#34;,
+    &#34;deps&#34;: {
+        &#34;packages&#34;: []
+    },
+    &#34;compose_type&#34;: &#34;ami&#34;,
+    &#34;queue_status&#34;: &#34;RUNNING&#34;,
+    &#34;image_size&#34;: 6442450944,
+    &#34;uploads&#34;: [
+        {
+            &#34;uuid&#34;: &#34;e747be78-87e2-48b9-b0d2-cc1bb393a9e4&#34;,
+            &#34;status&#34;: &#34;RUNNING&#34;,
+            &#34;provider_name&#34;: &#34;aws&#34;,
+            &#34;image_name&#34;: &#34;fedora-32-image-from-my-blog-post&#34;,
+            &#34;creation_time&#34;: 1592580775.438667,
+            &#34;settings&#34;: {
+                &#34;region&#34;: &#34;us-east-2&#34;,
+                &#34;accessKeyID&#34;: &#34;***&#34;,
+                &#34;secretAccessKey&#34;: &#34;***&#34;,
+                &#34;bucket&#34;: &#34;mhayden-image-uploads&#34;,
+                &#34;key&#34;: &#34;fedora-32-image-from-my-blog-post&#34;
+            }
+        }
+    ]
+}
+</code></pre></div><p>The output now shows an <code>uploads</code> section with the AWS upload details
+included. This process may take some time, especially if your upload speed is
+low. You can follow along with <code>composer-cli --json compose info</code> or you can
+monitor the system journal:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text># journalctl -af -o cat -u osbuild-worker@1.service
+Running job f343b20d-70f9-467a-9157-f9b4fc90ee87
+2020/06/19 15:57:37 [AWS] 🚀 Uploading image to S3: mhayden-image-uploads/fedora-32-image-from-my-blog-post
+2020/06/19 15:58:03 [AWS] 📥 Importing snapshot from image: mhayden-image-uploads/fedora-32-image-from-my-blog-post
+2020/06/19 15:58:03 [AWS] ⏱ Waiting for snapshot to finish importing: import-snap-0f4baff3e1eb945a8
+2020/06/19 16:04:50 [AWS] 🧹 Deleting image from S3: mhayden-image-uploads/fedora-32-image-from-my-blog-post
+2020/06/19 16:04:51 [AWS] 📋 Registering AMI from imported snapshot: snap-0cf822f1441f9e407
+2020/06/19 16:04:51 [AWS] 🎉 AMI registered: ami-0d0873cc888ab12a2
+</code></pre></div><p>I ran this job on a small instance at Vultr and the whole process took about
+10 minutes. The AWS image import process can vary a bit, but it&rsquo;s usually in
+the range of 5-15 minutes.</p><p>At this point, I can take my new AMI (in my case, it&rsquo;s
+<code>ami-0d0873cc888ab12a2</code>) and build instances at EC2! 🎉</p><h2 id=wrapping-up>Wrapping up</h2><p>Although there is some work involved in laying the groundwork for importing
+images into EC2, this work only needs to be done one time. You can re-use your
+existing AWS credentials TOML file over and over for new images that are made
+from different blueprints.</p><p>You can also do almost all of this work via the <a href=https://cockpit-project.org/>cockpit web interface</a> using
+the <code>cockpit-composer</code> package if you prefer. The only downside to that method
+is that some image customizations cannot be made through cockpit and some TOML
+blueprint editing with <code>composer-cli</code> is needed. Look for that in a future
+blog post.</p><p><em>Photo credit: <a href=https://commons.wikimedia.org/wiki/File:Shelekhov-aluminium-factory-4.jpg>Wikimedia Commons</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/aws>aws</a></span><span class=tag><a href=https://major.io/tags/cloud>cloud</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/linux>linux</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kernel panics on Major Hayden 🤠</title><link>https://major.io/tags/kernel-panics/</link><description>Recent content in kernel panics on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Wed, 17 Oct 2007 18:17:22 +0000</lastBuildDate><atom:link href="https://major.io/tags/kernel-panics/index.xml" rel="self" type="application/rss+xml"/><item><title>Enforcing mode requested but no policy loaded. Halting now.</title><link>https://major.io/2007/10/17/enforcing-mode-requested-but-no-policy-loaded-halting-now/</link><pubDate>Wed, 17 Oct 2007 18:17:22 +0000</pubDate><guid>https://major.io/2007/10/17/enforcing-mode-requested-but-no-policy-loaded-halting-now/</guid><description>Here&amp;rsquo;s a pretty weird kernel panic that I came across the other day:
+Enforcing mode requested but no policy loaded. Halting now. Kernel panic - not syncing: Attempted to kill init! This usually means that you&amp;rsquo;ve set SELINUX in enforcing mode within /etc/sysconfig/selinux or /etc/selinux/selinux.conf but you don&amp;rsquo;t have the appropriate SELINUX packages installed. To fix the issue, boot the server into the Red Hat rescue environment and disable SELINUX until you can install the proper packages that contain the SELINUX targeted configuration.</description></item><item><title>Kernel Panic: Unable to find volume group “VolGroup00”; Kernel panic – not syncing: Attempted to kill init!</title><link>https://major.io/2007/08/01/kernel-panic-unable-to-find-volume-group-volgroup00-kernel-panic-not-syncing-attempted-to-kill-init/</link><pubDate>Wed, 01 Aug 2007 16:18:26 +0000</pubDate><guid>https://major.io/2007/08/01/kernel-panic-unable-to-find-volume-group-volgroup00-kernel-panic-not-syncing-attempted-to-kill-init/</guid><description>Operating System:
+Red Hat Enterprise Linux 4
+What happened:
+The kernel was upgraded and these messages appeared upon reboot.
+Work done:
+The modules for the RAID card had to be re-compiled and installed for the new kernel.
+End result:
+Once the drivers were installed, the server came up just fine after a reboot.</description></item><item><title>Kernel Panic: Unexpected soft update inconsistency; run fsck manually</title><link>https://major.io/2007/08/01/kernel-panic-unexpected-soft-update-inconsistency-run-fsck-manually/</link><pubDate>Wed, 01 Aug 2007 16:15:54 +0000</pubDate><guid>https://major.io/2007/08/01/kernel-panic-unexpected-soft-update-inconsistency-run-fsck-manually/</guid><description>Operating System:
+FreeBSD 5.4
+What happened:
+Server went unresponsive at the console and came up with the error upon power cycling.
+Work done:
+Ran a fsck from single user mode and then rebooted.
+End result:
+The fsck was successful and the server rebooted without an issue.</description></item><item><title>EXT3-fs error: ext3_check_descriptors / group descriptors corrupted</title><link>https://major.io/2007/08/01/ext3-fs-error-ext3_check_descriptors-group-descriptors-corrupted/</link><pubDate>Wed, 01 Aug 2007 12:28:42 +0000</pubDate><guid>https://major.io/2007/08/01/ext3-fs-error-ext3_check_descriptors-group-descriptors-corrupted/</guid><description>Operating System:
+Red Hat Enterprise Linux 4 Update 5
+What happened:
+The server was abruptly powered down, disassembled, and re-assembled.
+Work done:
+Ran a fsck from the rescue environment and it eventually completed (after much corruption was found), but the server would not boot properly.
+End result:
+The damage to the filesystem could not be adequately repaired as the errors were very extensive. The RAID array had to be rebuilt and a new OS was installed.</description></item><item><title>Kernel panic: No init found. Try passing init= option to kernel</title><link>https://major.io/2007/08/01/kernel-panic-no-init-found-try-passing-init-option-to-kernel/</link><pubDate>Wed, 01 Aug 2007 12:26:14 +0000</pubDate><guid>https://major.io/2007/08/01/kernel-panic-no-init-found-try-passing-init-option-to-kernel/</guid><description>Operating System:
+Red Hat Enterprise Linux 2.1
+What happened:
+The server was powered down gracefully, moved to a new rack, and then powered on.
+Work done:
+Ran a fsck from the rescue environment and it eventually completed, but the server would not boot properly.
+End result:
+The hard drive was in the process of failing, so it was replaced and the operating system was installed onto the new disk. The old disk was stable enough to be mounted read-only, and much of the data was salvaged.</description></item></channel></rss>

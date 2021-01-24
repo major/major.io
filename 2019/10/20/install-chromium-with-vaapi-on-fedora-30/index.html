@@ -1,0 +1,116 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="UPDATE: The chromium-vaapi package is now chromium-freeworld. This post was updated on 2019-11-06 to include the change. See the end of the post for the update steps.
+If you use a web browser to watch videos on a laptop, you&amp;rsquo;ve probably noticed that some videos play without much impact on the battery. Other videos cause the fans to spin wildly and your battery life plummets.
+Intel designed a specification called VA API, often called VAAPI (without the space), and it offers up device drivers to applications running on your system."><meta name=keywords content=",chromium,fedora,linux"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2019/10/20/install-chromium-with-vaapi-on-fedora-30/><title>Install Chromium with VAAPI on Fedora 30 :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Install Chromium with VAAPI on Fedora 30"><meta itemprop=description content="UPDATE: The chromium-vaapi package is now chromium-freeworld. This post was updated on 2019-11-06 to include the change. See the end of the post for the update steps.
+If you use a web browser to watch videos on a laptop, you&rsquo;ve probably noticed that some videos play without much impact on the battery. Other videos cause the fans to spin wildly and your battery life plummets.
+Intel designed a specification called VA API, often called VAAPI (without the space), and it offers up device drivers to applications running on your system."><meta itemprop=datePublished content="2019-10-20T00:00:00+00:00"><meta itemprop=dateModified content="2019-10-20T00:00:00+00:00"><meta itemprop=wordCount content="820"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="chromium,fedora,linux,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2019-10-20 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Install Chromium with VAAPI on Fedora 30 :: Major Hayden 🤠"><meta name=twitter:description content="Lower your CPU usage and increase battery life when you watch certain videos by using Chromium with VAAPI support."><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2019-10-20-film.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2019/10/20/install-chromium-with-vaapi-on-fedora-30/>Install Chromium with VAAPI on Fedora 30</a></h2><div class=post-content><p><img src=../../../../images/2019-10-20-film.jpg alt=film></p><p><em><strong>UPDATE:</strong></em> <em>The <code>chromium-vaapi</code> package is now <code>chromium-freeworld</code>.
+This post was updated on 2019-11-06 to include the change. See the end of the
+post for the update steps.</em></p><p>If you use a web browser to watch videos on a laptop, you&rsquo;ve probably noticed
+that some videos play without much impact on the battery. Other videos cause
+the fans to spin wildly and your battery life plummets.</p><p>Intel designed a specification called <a href=https://en.wikipedia.org/wiki/Video_Acceleration_API>VA API</a>, often called <em>VAAPI</em> (without
+the space), and it offers up device drivers to applications running on your
+system. It provides a pathway for those applications to access certain parts of
+the graphics processing hardware directly. This increases performance, lowers
+CPU usage, and increases battery life.</p><p>In this post, you will learn how to get VAAPI working on your Fedora 30 system
+and how to use it along with a Chromium build that has VAAPI patches already
+included. There are some DRM-related workarounds as well toward the end.</p><p><em>Note: Keep in mind that some videos are in formats that are difficult to
+accelerate with a GPU and some applications support acceleration with some
+formats but not others. You may find that your favorite site still uses the
+same amount of CPU as it did before you completed this guide.</em> 😢</p><h2 id=getting-started-with-vaapi>Getting started with VAAPI</h2><p>You will need a few packages before you get started, and some of these depend
+on the type of GPU that is present in your system. In my case, I&rsquo;m on a 4th
+generation Lenovo X1 Carbon, and it has an Skylake GPU:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ lspci | grep VGA
+00:02.0 VGA compatible controller: Intel Corporation Skylake GT2 [HD Graphics 520] (rev 07)
+</code></pre></div><p>Fedora 30 has quite a few VAAPI packages available:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ sudo dnf list all | grep libva | awk &#39;{print $1}&#39;
+libva.x86_64
+libva-intel-driver.x86_64
+libva-intel-hybrid-driver.x86_64
+libva-utils.x86_64
+libva-vdpau-driver.x86_64
+libva.i686
+libva-devel.i686
+libva-devel.x86_64
+libva-intel-driver.i686
+libva-intel-hybrid-driver.i686
+libva-vdpau-driver.i686
+</code></pre></div><p>My Intel GPU requires these packages:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ sudo dnf install libva libva-intel-driver \
+    libva-vdpau-driver \
+    libva-utils
+</code></pre></div><p>At this point, you should be able to run <code>vainfo</code> to ensure that everything is
+working:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ vainfo
+libva info: VA-API version 1.4.1
+libva info: va_getDriverName() returns 0
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_4
+libva info: va_openDriver() returns 0
+vainfo: VA-API version: 1.4 (libva 2.4.1)
+vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 2.3.0
+vainfo: Supported profile and entrypoints
+      VAProfileMPEG2Simple            :	VAEntrypointVLD
+      VAProfileMPEG2Simple            :	VAEntrypointEncSlice
+      VAProfileMPEG2Main              :	VAEntrypointVLD
+      VAProfileMPEG2Main              :	VAEntrypointEncSlice
+      VAProfileH264ConstrainedBaseline:	VAEntrypointVLD
+      VAProfileH264ConstrainedBaseline:	VAEntrypointEncSlice
+      VAProfileH264ConstrainedBaseline:	VAEntrypointEncSliceLP
+      VAProfileH264ConstrainedBaseline:	VAEntrypointFEI
+      VAProfileH264ConstrainedBaseline:	VAEntrypointStats
+      VAProfileH264Main               :	VAEntrypointVLD
+      VAProfileH264Main               :	VAEntrypointEncSlice
+      VAProfileH264Main               :	VAEntrypointEncSliceLP
+      VAProfileH264Main               :	VAEntrypointFEI
+      VAProfileH264Main               :	VAEntrypointStats
+      VAProfileH264High               :	VAEntrypointVLD
+      VAProfileH264High               :	VAEntrypointEncSlice
+      VAProfileH264High               :	VAEntrypointEncSliceLP
+      VAProfileH264High               :	VAEntrypointFEI
+      VAProfileH264High               :	VAEntrypointStats
+      VAProfileH264MultiviewHigh      :	VAEntrypointVLD
+      VAProfileH264MultiviewHigh      :	VAEntrypointEncSlice
+      VAProfileH264StereoHigh         :	VAEntrypointVLD
+      VAProfileH264StereoHigh         :	VAEntrypointEncSlice
+      VAProfileVC1Simple              :	VAEntrypointVLD
+      VAProfileVC1Main                :	VAEntrypointVLD
+      VAProfileVC1Advanced            :	VAEntrypointVLD
+      VAProfileNone                   :	VAEntrypointVideoProc
+      VAProfileJPEGBaseline           :	VAEntrypointVLD
+      VAProfileJPEGBaseline           :	VAEntrypointEncPicture
+      VAProfileVP8Version0_3          :	VAEntrypointVLD
+      VAProfileVP8Version0_3          :	VAEntrypointEncSlice
+      VAProfileHEVCMain               :	VAEntrypointVLD
+      VAProfileHEVCMain               :	VAEntrypointEncSlice
+      VAProfileVP9Profile0            :	VAEntrypointVLD
+
+</code></pre></div><p>If you run into a problem like this one, try installing the
+<code>libva-intel-hybrid-driver</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ vainfo
+libva info: VA-API version 1.4.1
+libva info: va_getDriverName() returns 0
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+vaInitialize failed with error code -1 (unknown libva error),exit
+</code></pre></div><h2 id=installing-chromium-with-vaapi-support>Installing Chromium with VAAPI support</h2><p>Now that we have a pathway for applications to talk to our GPU, we can install
+Chromium with VAAPI support:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>$ sudo dnf -y install chromium-freeworld
+</code></pre></div><p>Run <code>chromium-freeworld</code> to ensure Chromium starts properly. Visit
+<a href=chrome://flags>chrome://flags</a> in the Chromium browser and search for
+<code>ignore-gpu-blacklist</code>. Choose <strong>Enabled</strong> in the dropdown and press <strong>Relaunch
+Now</strong> in the bottom right corner.</p><p>After the relaunch, check some common video sites, like <a href=https://youtube.com/>YouTube</a> or
+<a href=http://dailymotion.com>DailyMotion</a>. The CPU usage may be a bit lower on these, but you can lower it
+further by installing the <a href=https://github.com/erkserkserks/h264ify>h264ify</a> extension. It forces some sites to provide
+h264 video rather than other CPU hungry formats.</p><h2 id=dealing-with-drm>Dealing with DRM</h2><p>The only remaining problem is DRM. Some sites, like Netflix or YouTube TV,
+require that the browser can handle DRM content. The <code>Widevine</code> DRM module is
+required for some of these sites, but it is automatically bundled with Chrome.
+The regular Chrome (not Chromium) package contains the module at:
+<code>/opt/google/chrome/libwidevinecdm.so</code>.</p><p>First, ensure Chromium is not running. Then copy that module over to Chromium&rsquo;s
+directory:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>sudo cp /opt/google/chrome/libwidevinecdm.so /usr/lib64/chromium-freeworld/
+</code></pre></div><p>Start <code>chromium-freeworld</code> one more time and try out some DRM-protected sites like
+Netflix and they should be working properly.</p><p>As I mentioned at the start of the guide, some applications support
+acceleration with certain video formats and not others, so your results may
+vary.</p><hr><h2 id=new-package-chromium-freeworld>New package: <code>chromium-freeworld</code></h2><p>When this post was first written, the chromium package was called
+<code>chromium-vaapi</code>. It now <code>chromium-freeworld</code>. The upgrade is seamless since
+the new package obsoletes the old one, but you need one extra step to bring
+over the DRM module to the new chromium library directory:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>sudo cp /usr/lib64/chromium-vaapi/libwidevinecdm.so /usr/lib64/chromium-freeworld
+</code></pre></div><p>Restart <code>chromium-freeworld</code> and you&rsquo;re good to go again.</p><p><em>Photo credit: <a href=https://pixabay.com/photos/film-movie-cinema-reel-retro-2233692/>Pixabay</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/chromium>chromium</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/linux>linux</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

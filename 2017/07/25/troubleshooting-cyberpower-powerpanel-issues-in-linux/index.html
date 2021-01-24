@@ -1,0 +1,105 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="I have a CyberPower BRG1350AVRLCD at home and I&amp;rsquo;ve just connected it to a new device. However, the pwrstat command doesn&amp;rsquo;t retrieve any useful data on the new system:
+# pwrstat -status The UPS information shows as following: Current UPS status: State........................ Normal Power Supply by.............. Utility Power Last Power Event............. None I disconnected the USB cable and ran pwrstat again. Same output. I disconnected power from the UPS itself and ran pwrstat again."><meta name=keywords content=",cyberpower,fedora,linux,serial,ups,usb"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/><title>Troubleshooting CyberPower PowerPanel issues in Linux :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Troubleshooting CyberPower PowerPanel issues in Linux"><meta itemprop=description content="I have a CyberPower BRG1350AVRLCD at home and I&rsquo;ve just connected it to a new device. However, the pwrstat command doesn&rsquo;t retrieve any useful data on the new system:
+# pwrstat -status The UPS information shows as following: Current UPS status: State........................ Normal Power Supply by.............. Utility Power Last Power Event............. None I disconnected the USB cable and ran pwrstat again. Same output. I disconnected power from the UPS itself and ran pwrstat again."><meta itemprop=datePublished content="2017-07-25T18:16:11+00:00"><meta itemprop=dateModified content="2017-07-25T18:16:11+00:00"><meta itemprop=wordCount content="903"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="cyberpower,fedora,linux,serial,ups,usb,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2017-07-25 18:16:11 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Troubleshooting CyberPower PowerPanel issues in Linux :: Major Hayden 🤠"><meta name=twitter:description content><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/>Troubleshooting CyberPower PowerPanel issues in Linux</a></h2><div class=post-content><p><img src=../../../../wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg alt=1></p><p>I have a <a href=https://www.cyberpowersystems.com/product/ups/brg1350avrlcd/>CyberPower BRG1350AVRLCD</a> at home and I&rsquo;ve just connected it to a new device. However, the <code>pwrstat</code> command doesn&rsquo;t retrieve any useful data on the new system:</p><pre><code># pwrstat -status
+
+The UPS information shows as following:
+
+
+    Current UPS status:
+        State........................ Normal
+        Power Supply by.............. Utility Power
+        Last Power Event............. None
+</code></pre><p>I disconnected the USB cable and ran <code>pwrstat</code> again. <strong>Same output.</strong> I disconnected power from the UPS itself and ran <code>pwrstat</code> again. <strong>Same output.</strong> This can&rsquo;t be right.</p><h2 id=checking-the-basics>Checking the basics</h2><p>A quick look at <code>dmesg</code> output shows that the UPS is connected and the kernel recognizes it:</p><pre><code>[   65.661489] usb 3-1: new full-speed USB device number 7 using xhci_hcd
+[   65.830769] usb 3-1: New USB device found, idVendor=0764, idProduct=0501
+[   65.830771] usb 3-1: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[   65.830772] usb 3-1: Product: BRG1350AVRLCD
+[   65.830773] usb 3-1: Manufacturer: CPS
+[   65.830773] usb 3-1: SerialNumber: xxxxxxxxx
+[   65.837801] hid-generic 0003:0764:0501.0004: hiddev0,hidraw0: USB HID v1.10 Device [CPS BRG1350AVRLCD] on usb-0000:00:14.0-1/input0
+</code></pre><p>I checked the <code>/var/log/pwrstatd.log</code> file to see if there were any errors:</p><pre><code>2017/07/25 12:01:17 PM  Daemon startups.
+2017/07/25 12:01:24 PM  Communication is established.
+2017/07/25 12:01:27 PM  Low Battery capacity is restored.
+2017/07/25 12:05:19 PM  Daemon stops its service.
+2017/07/25 12:05:19 PM  Daemon startups.
+2017/07/25 12:05:19 PM  Communication is established.
+2017/07/25 12:05:22 PM  Low Battery capacity is restored.
+2017/07/25 12:06:27 PM  Daemon stops its service.
+</code></pre><p>The <code>pwrstatd</code> daemon can see the device and communicate with it. This is unusual.</p><h2 id=digging-into-the-daemon>Digging into the daemon</h2><p>If the daemon can truly see the UPS, then what is it talking to? I used <code>lsof</code> to examine what the <code>pwrstatd</code> daemon is doing:</p><pre><code># lsof -p 3975
+COMMAND   PID USER   FD   TYPE             DEVICE SIZE/OFF      NODE NAME
+pwrstatd 3975 root  cwd    DIR               8,68      224        96 /
+pwrstatd 3975 root  rtd    DIR               8,68      224        96 /
+pwrstatd 3975 root  txt    REG               8,68   224175 134439879 /usr/sbin/pwrstatd
+pwrstatd 3975 root  mem    REG               8,68  2163104 134218946 /usr/lib64/libc-2.25.so
+pwrstatd 3975 root  mem    REG               8,68  1226368 134218952 /usr/lib64/libm-2.25.so
+pwrstatd 3975 root  mem    REG               8,68    19496 134218950 /usr/lib64/libdl-2.25.so
+pwrstatd 3975 root  mem    REG               8,68   187552 134218939 /usr/lib64/ld-2.25.so
+pwrstatd 3975 root    0r   CHR                1,3      0t0      1028 /dev/null
+pwrstatd 3975 root    1u  unix 0xffff9e395e137400      0t0     37320 type=STREAM
+pwrstatd 3975 root    2u  unix 0xffff9e395e137400      0t0     37320 type=STREAM
+pwrstatd 3975 root    3u  unix 0xffff9e392f0c0c00      0t0     39485 /var/pwrstatd.ipc type=STREAM
+pwrstatd 3975 root    4u   CHR             180,96      0t0     50282 /dev/ttyS1
+</code></pre><p><strong>Wait a minute.</strong> The last line of the <code>lsof</code> output shows that <code>pwrstatd</code> is talking to <code>/dev/ttyS1</code>, but the device is supposed to be a <code>hiddev</code> device over USB. If you remember, we had this line in <code>dmesg</code> when the UPS was plugged in:</p><pre><code>hid-generic 0003:0764:0501.0004: hiddev0,hidraw0: USB HID v1.10 Device [CPS BRG1350AVRLCD] on usb-0000:00:14.0-1/input0
+</code></pre><p>Things are beginning to make more sense now. I have a USB-to-serial device that allows my server to talk to the console port on my Cisco switch:</p><pre><code>[   80.389533] usb 3-1: new full-speed USB device number 9 using xhci_hcd
+[   80.558025] usb 3-1: New USB device found, idVendor=067b, idProduct=2303
+[   80.558027] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   80.558028] usb 3-1: Product: USB-Serial Controller D
+[   80.558029] usb 3-1: Manufacturer: Prolific Technology Inc.
+[   80.558308] pl2303 3-1:1.0: pl2303 converter detected
+[   80.559937] usb 3-1: pl2303 converter now attached to ttyUSB0
+</code></pre><p>It appears that <code>pwrstatd</code> is trying to talk to my Cisco switch (through the USB-to-serial adapter) rather than my UPS! I&rsquo;m sure they could have a great conversation together, but it&rsquo;s hardly productive.</p><h2 id=fixing-it>Fixing it</h2><p>The <code>/etc/pwrstatd.conf</code> has a relevant section:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># The pwrstatd accepts four types of device node which includes the &#39;ttyS&#39;,</span>
+<span style=color:#586e75># &#39;ttyUSB&#39;, &#39;hiddev&#39;, and &#39;libusb&#39; for communication with UPS. The pwrstatd</span>
+<span style=color:#586e75># defaults to enumerate all acceptable device nodes and pick up to use an</span>
+<span style=color:#586e75># available device node automatically. But this may cause a disturbance to the</span>
+<span style=color:#586e75># device node which is occupied by other software. Therefore, you can restrict</span>
+<span style=color:#586e75># this enumerate behave by using allowed-device-nodes option. You can assign</span>
+<span style=color:#586e75># the single device node path or multiple device node paths divided by a</span>
+<span style=color:#586e75># semicolon at this option. All groups of &#39;ttyS&#39;, &#39;ttyUSB&#39;, &#39;hiddev&#39;, or</span>
+<span style=color:#586e75># &#39;libusb&#39; device node are enumerated without a suffix number assignment.</span>
+<span style=color:#586e75># Note, the &#39;libusb&#39; does not support suffix number only.</span>
+<span style=color:#586e75>#</span>
+<span style=color:#586e75># For example: restrict to use ttyS1, ttyS2 and hiddev1 device nodes at /dev</span>
+<span style=color:#586e75># path only.</span>
+<span style=color:#586e75># allowed-device-nodes = /dev/ttyS1;/dev/ttyS2;/dev/hiddev1</span>
+<span style=color:#586e75>#</span>
+<span style=color:#586e75># For example: restrict to use ttyS and ttyUSB two groups of device node at</span>
+<span style=color:#586e75># /dev,/dev/usb, and /dev/usb/hid paths(includes ttyS0 to ttySN and ttyUSB0 to</span>
+<span style=color:#586e75># ttyUSBN, N is number).</span>
+<span style=color:#586e75># allowed-device-nodes = ttyS;ttyUSB</span>
+<span style=color:#586e75>#</span>
+<span style=color:#586e75># For example: restrict to use hiddev group of device node at /dev,/dev/usb,</span>
+<span style=color:#586e75># and /dev/usb/hid paths(includes hiddev0 to hiddevN, N is number).</span>
+<span style=color:#586e75># allowed-device-nodes = hiddev</span>
+<span style=color:#586e75>#</span>
+<span style=color:#586e75># For example: restrict to use libusb device.</span>
+<span style=color:#586e75># allowed-device-nodes = libusb</span>
+allowed-device-nodes <span style=color:#719e07>=</span>
+</code></pre></div><p>We need to explicitly tell <code>pwrstatd</code> to talk to the UPS on <code>/dev/hid/hiddev0</code>:</p><pre><code>allowed-device-nodes = /dev/usb/hiddev0
+</code></pre><p>Let&rsquo;s restart the <code>pwrstatd</code> daemon and see what we get:</p><pre><code># systemctl restart pwrstatd
+# pwrstat -status
+
+The UPS information shows as following:
+
+    Properties:
+        Model Name................... BRG1350AVRLCD
+        Firmware Number..............
+        Rating Voltage............... 120 V
+        Rating Power................. 810 Watt(1350 VA)
+
+    Current UPS status:
+        State........................ Normal
+        Power Supply by.............. Utility Power
+        Utility Voltage.............. 121 V
+        Output Voltage............... 121 V
+        Battery Capacity............. 100 %
+        Remaining Runtime............ 133 min.
+        Load......................... 72 Watt(9 %)
+        Line Interaction............. None
+        Test Result.................. Unknown
+        Last Power Event............. None
+</code></pre><p>Success!</p><p><em>Photo credit: <a href=https://commons.wikimedia.org/wiki/File%3ASierra_Blanca_and_electricity_pole.jpg>Wikipedia</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/cyberpower>cyberpower</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/linux>linux</a></span><span class=tag><a href=https://major.io/tags/serial>serial</a></span><span class=tag><a href=https://major.io/tags/ups>ups</a></span><span class=tag><a href=https://major.io/tags/usb>usb</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

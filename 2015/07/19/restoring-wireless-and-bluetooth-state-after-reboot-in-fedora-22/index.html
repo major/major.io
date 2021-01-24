@@ -1,0 +1,68 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="My upgrade to Fedora 22 on the ThinkPad X1 Carbon was fairly uneventful and the hiccups were minor. One of the more annoying items that I&amp;rsquo;ve been struggling with for quite some time is how to boot up with the wireless LAN and Bluetooth disabled by default. Restoring wireless and Bluetooth state between reboots is normally handled quite well in Fedora.
+In Fedora 21, NetworkManager saved my settings between reboots. For example, if I shut down with wifi off and Bluetooth on, the laptop would boot up later with wifi off and Bluetooth on."><meta name=keywords content=",bluetooth,fedora,network,networkmanager,thinkpad,wireless"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2015/07/19/restoring-wireless-and-bluetooth-state-after-reboot-in-fedora-22/><title>Restoring wireless and Bluetooth state after reboot in Fedora 22 :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Restoring wireless and Bluetooth state after reboot in Fedora 22"><meta itemprop=description content="My upgrade to Fedora 22 on the ThinkPad X1 Carbon was fairly uneventful and the hiccups were minor. One of the more annoying items that I&rsquo;ve been struggling with for quite some time is how to boot up with the wireless LAN and Bluetooth disabled by default. Restoring wireless and Bluetooth state between reboots is normally handled quite well in Fedora.
+In Fedora 21, NetworkManager saved my settings between reboots. For example, if I shut down with wifi off and Bluetooth on, the laptop would boot up later with wifi off and Bluetooth on."><meta itemprop=datePublished content="2015-07-19T22:14:30+00:00"><meta itemprop=dateModified content="2015-07-19T22:14:30+00:00"><meta itemprop=wordCount content="591"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="bluetooth,fedora,network,networkmanager,thinkpad,wireless,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2015-07-19 22:14:30 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Restoring wireless and Bluetooth state after reboot in Fedora 22 :: Major Hayden 🤠"><meta name=twitter:description content><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2015/07/19/restoring-wireless-and-bluetooth-state-after-reboot-in-fedora-22/>Restoring wireless and Bluetooth state after reboot in Fedora 22</a></h2><div class=post-content><p><img src=../../../../wp-content/uploads/2015/03/ThinkPad-Carbon-X1.jpg alt=1></p><p>My upgrade to Fedora 22 on the ThinkPad X1 Carbon was fairly uneventful and the hiccups were minor. One of the more annoying items that I&rsquo;ve been struggling with for quite some time is how to boot up with the wireless LAN and Bluetooth disabled by default. Restoring wireless and Bluetooth state between reboots is normally handled quite well in Fedora.</p><p>In Fedora 21, NetworkManager saved my settings between reboots. For example, if I shut down with wifi off and Bluetooth on, the laptop would boot up later with wifi off and Bluetooth on. This wasn&rsquo;t working well in Fedora 22: both the wifi and Bluetooth were always enabled by default.</p><h3 id=digging-into-rfkill>Digging into rfkill</h3><p>I remembered <a href=https://wireless.wiki.kernel.org/en/users/documentation/rfkill>rfkill</a> and began testing out some commands. It detected that I had disabled both devices via NetworkManager (soft):</p><pre><code>$ rfkill list
+0: tpacpi_bluetooth_sw: Bluetooth
+    Soft blocked: yes
+    Hard blocked: no
+2: phy0: Wireless LAN
+    Soft blocked: yes
+    Hard blocked: no
+</code></pre><p>It looked like systemd has some hooks already configured to manage rfkill via the <a href=http://www.freedesktop.org/software/systemd/man/systemd-rfkill@.service.html>systemd-rfkill</a> service. However, something strange happened when I tried to start the service:</p><pre><code># systemctl start systemd-rfkill@0
+Failed to start systemd-rfkill@0.service: Unit systemd-rfkill@0.service is masked.
+</code></pre><p>Well, that&rsquo;s certainly weird. While looking into why it&rsquo;s masked, I found an empty file in <code>/etc/systemd</code>:</p><pre><code># ls -al /etc/systemd/system/systemd-rfkill@.service
+-rwxr-xr-x. 1 root root 0 May 11 16:36 /etc/systemd/system/systemd-rfkill@.service
+</code></pre><p>I don&rsquo;t remember making that file. Did something else put it there?</p><pre><code># rpm -qf /etc/systemd/system/systemd-rfkill@.service
+tlp-0.7-4.fc22.noarch
+</code></pre><p>Ah, <a href=http://linrunner.de/en/tlp/tlp.html>tlp</a>!</p><h3 id=configuring-tlp>Configuring tlp</h3><p>I looked in tlp&rsquo;s configuration file in <code>/etc/default/tlp</code> and found a few helpful configuration items:</p><pre><code># Restore radio device state (Bluetooth, WiFi, WWAN) from previous shutdown
+# on system startup: 0=disable, 1=enable.
+# Hint: the parameters DEVICES_TO_DISABLE/ENABLE_ON_STARTUP/SHUTDOWN below
+#   are ignored when this is enabled!
+RESTORE_DEVICE_STATE_ON_STARTUP=0
+
+# Radio devices to disable on startup: bluetooth, wifi, wwan.
+# Separate multiple devices with spaces.
+#DEVICES_TO_DISABLE_ON_STARTUP=&quot;bluetooth wifi wwan&quot;
+
+# Radio devices to enable on startup: bluetooth, wifi, wwan.
+# Separate multiple devices with spaces.
+#DEVICES_TO_ENABLE_ON_STARTUP=&quot;wifi&quot;
+
+# Radio devices to disable on shutdown: bluetooth, wifi, wwan
+# (workaround for devices that are blocking shutdown).
+#DEVICES_TO_DISABLE_ON_SHUTDOWN=&quot;bluetooth wifi wwan&quot;
+
+# Radio devices to enable on shutdown: bluetooth, wifi, wwan
+# (to prevent other operating systems from missing radios).
+#DEVICES_TO_ENABLE_ON_SHUTDOWN=&quot;wwan&quot;
+
+# Radio devices to enable on AC: bluetooth, wifi, wwan
+#DEVICES_TO_ENABLE_ON_AC=&quot;bluetooth wifi wwan&quot;
+
+# Radio devices to disable on battery: bluetooth, wifi, wwan
+#DEVICES_TO_DISABLE_ON_BAT=&quot;bluetooth wifi wwan&quot;
+
+# Radio devices to disable on battery when not in use (not connected):
+# bluetooth, wifi, wwan
+#DEVICES_TO_DISABLE_ON_BAT_NOT_IN_USE=&quot;bluetooth wifi wwan&quot;
+</code></pre><p>So tlp&rsquo;s default configuration doesn&rsquo;t restore device state <strong>and</strong> it masked systemd&rsquo;s rfkill service. I adjusted one line in tlp&rsquo;s configuration and rebooted:</p><pre><code>DEVICES_TO_DISABLE_ON_STARTUP=&quot;bluetooth wifi wwan&quot;
+</code></pre><p>After the reboot, both the wifi and Bluetooth functionality were shut off! That&rsquo;s exactly what I needed.</p><h3 id=extra-credit>Extra credit</h3><p>Thanks to a coworker, I was able to make a NetworkManager script to automatically shut off the wireless LAN whenever I connected to a network via ethernet. This is typically what I do when coming back from an in-person meeting to my desk (where I have ethernet connectivity).</p><p>If you want the same automation, just drop this script into <code>/etc/NetworkManager/dispatcher.d/70-wifi-wired-exclusive.sh</code> and make it executable:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#719e07>#!/bin/bash
+</span><span style=color:#719e07></span><span style=color:#b58900>export</span> <span style=color:#268bd2>LC_ALL</span><span style=color:#719e07>=</span>C
+
+enable_disable_wifi <span style=color:#719e07>()</span>
+<span style=color:#719e07>{</span>
+        <span style=color:#268bd2>result</span><span style=color:#719e07>=</span><span style=color:#719e07>$(</span>nmcli dev | grep <span style=color:#2aa198>&#34;ethernet&#34;</span> | grep -w <span style=color:#2aa198>&#34;connected&#34;</span><span style=color:#719e07>)</span>
+        <span style=color:#719e07>if</span> <span style=color:#719e07>[</span> -n <span style=color:#2aa198>&#34;</span><span style=color:#268bd2>$result</span><span style=color:#2aa198>&#34;</span> <span style=color:#719e07>]</span>; <span style=color:#719e07>then</span>
+                nmcli radio wifi off
+        <span style=color:#719e07>fi</span>
+<span style=color:#719e07>}</span>
+
+<span style=color:#719e07>if</span> <span style=color:#719e07>[</span> <span style=color:#2aa198>&#34;</span><span style=color:#268bd2>$2</span><span style=color:#2aa198>&#34;</span> <span style=color:#719e07>=</span> <span style=color:#2aa198>&#34;up&#34;</span> <span style=color:#719e07>]</span>; <span style=color:#719e07>then</span>
+        enable_disable_wifi
+<span style=color:#719e07>fi</span>
+</code></pre></div><p>Unplug the ethernet connection, start wifi, and then plug the ethernet connection back in. Once NetworkManager fully connects (DHCP lease obtained, connectivity check passes), the wireless LAN should shut off automatically.</p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/bluetooth>bluetooth</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/network>network</a></span><span class=tag><a href=https://major.io/tags/networkmanager>networkmanager</a></span><span class=tag><a href=https://major.io/tags/thinkpad>thinkpad</a></span><span class=tag><a href=https://major.io/tags/wireless>wireless</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

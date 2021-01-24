@@ -1,0 +1,101 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="My team at Red Hat builds a lot of kernels in OpenShift pods as part of our work with the Continuous Kernel Integration (CKI) project. We have lots of different pod sizes depending on the type of work we are doing and our GitLab runners spawn these pods based on the tags in our GitLab CI pipeline.
+Compiling with make When you compile a large software project, such as the Linux kernel, you can use multiple CPU cores to speed up the build."><meta name=keywords content=",openshift,ansible,security,linux"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2019/04/05/inspecting-openshift-cgroups-from-inside-the-pod/><title>Inspecting OpenShift cgroups from inside the pod :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Inspecting OpenShift cgroups from inside the pod"><meta itemprop=description content="My team at Red Hat builds a lot of kernels in OpenShift pods as part of our work with the Continuous Kernel Integration (CKI) project. We have lots of different pod sizes depending on the type of work we are doing and our GitLab runners spawn these pods based on the tags in our GitLab CI pipeline.
+Compiling with make When you compile a large software project, such as the Linux kernel, you can use multiple CPU cores to speed up the build."><meta itemprop=datePublished content="2019-04-05T00:00:00+00:00"><meta itemprop=dateModified content="2019-04-05T00:00:00+00:00"><meta itemprop=wordCount content="1051"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="openshift,ansible,security,linux,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2019-04-05 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Inspecting OpenShift cgroups from inside the pod :: Major Hayden 🤠"><meta name=twitter:description content><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2019-04-05-inspecting-cgroups.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2019/04/05/inspecting-openshift-cgroups-from-inside-the-pod/>Inspecting OpenShift cgroups from inside the pod</a></h2><div class=post-content><p><img src=../../../../images/2019-04-05-inspecting-cgroups.jpg alt=walking_through_rock_valley></p><p>My team at Red Hat builds a lot of kernels in OpenShift pods as part of our
+work with the <a href=https://cki-project.org/>Continuous Kernel Integration (CKI)</a> project. We have lots of
+different pod sizes depending on the type of work we are doing and our GitLab
+runners spawn these pods based on the tags in our GitLab CI pipeline.</p><h2 id=compiling-with-make>Compiling with <code>make</code></h2><p>When you compile a large software project, such as the Linux kernel, you can
+use multiple CPU cores to speed up the build. GNU&rsquo;s <code>make</code> does this with the
+<code>-j</code> argument. Running <code>make</code> with <code>-j10</code> means that you want to run 10 jobs
+while compiling. This would keep 10 CPU cores busy.</p><p>Setting the number too high causes more contention from the CPU and can
+reduce performance. Setting the number too low means that you are spending
+more time compiling than you would if you used all of your CPU cores.</p><p>Every once in a while, we adjusted our runners to use a different amount of
+CPUs or memory and then we had to adjust our pipeline to reflect the new CPU
+count. This was time consuming and error prone.</p><p>Many people just use <code>nproc</code> to determine the CPU core count. It works well
+with make:</p><pre><code>make -j$(nproc)
+</code></pre><h2 id=problems-with-containers>Problems with containers</h2><p>The handy <code>nproc</code> doesn&rsquo;t work well for OpenShift. If you start a pod on
+OpenShift and limit it to a single CPU core, <code>nproc</code> tells you something very
+wrong:</p><pre><code>$ nproc
+32
+</code></pre><p>We applied the single CPU limit with OpenShift, so what&rsquo;s the problem? The
+issue is how <code>nproc</code> looks for CPUs. Here&rsquo;s a snippet of <code>strace</code> output:</p><pre><code>sched_getaffinity(0, 128, [0, 1, 2, 3, 4, 5]) = 8
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x6), ...}) = 0
+write(1, &quot;6\n&quot;, 26
+)                      = 2
+</code></pre><p>The <a href=https://linux.die.net/man/2/sched_getaffinity>sched_getaffinity</a> syscall looks to see which CPUs are allowed to run
+the process and returns a count of those. OpenShift doesn&rsquo;t prevent us from
+seeing the CPUs of the underlying system (the VM or bare metal host
+underneath our containers), but it uses cgroups to limit how much CPU time we
+can use.</p><h2 id=reading-cgroups>Reading cgroups</h2><p>Getting cgroup data is easy! Just change into the <code>/sys/fs/cgroup/</code> directory
+and look around:</p><pre><code>$ cd /sys/fs/cgroup/
+$ ls -al cpu/
+ls: cannot open directory 'cpu/': Permission denied
+</code></pre><p><strong>Ouch.</strong> OpenShift makes this a little more challenging. We&rsquo;re not allowed to
+wander around in the land of cgroups without a map to exactly what we want.</p><p>My Fedora workstation shows a bunch of CPU cgroup settings:</p><pre><code>$ ls -al /sys/fs/cgroup/cpu/
+total 0
+dr-xr-xr-x.  2 root root   0 Apr  5 01:40 .
+drwxr-xr-x. 14 root root 360 Apr  5 01:40 ..
+-rw-r--r--.  1 root root   0 Apr  5 13:08 cgroup.clone_children
+-rw-r--r--.  1 root root   0 Apr  5 01:40 cgroup.procs
+-r--r--r--.  1 root root   0 Apr  5 13:08 cgroup.sane_behavior
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.stat
+-rw-r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_all
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_percpu
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_percpu_sys
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_percpu_user
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_sys
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpuacct.usage_user
+-rw-r--r--.  1 root root   0 Apr  5 09:10 cpu.cfs_period_us
+-rw-r--r--.  1 root root   0 Apr  5 13:08 cpu.cfs_quota_us
+-rw-r--r--.  1 root root   0 Apr  5 09:10 cpu.shares
+-r--r--r--.  1 root root   0 Apr  5 13:08 cpu.stat
+-rw-r--r--.  1 root root   0 Apr  5 13:08 notify_on_release
+-rw-r--r--.  1 root root   0 Apr  5 13:08 release_agent
+-rw-r--r--.  1 root root   0 Apr  5 13:08 tasks
+</code></pre><p>OpenShift uses the <a href=https://en.wikipedia.org/wiki/Completely_Fair_Scheduler>Completely Fair Scheduler (CFS)</a> to limit CPU time. Here&rsquo;s a quick excerpt from the <a href=https://www.kernel.org/doc/Documentation/scheduler/sched-bwc.txt>kernel documentation</a>:</p><blockquote><p>Quota and period are managed within the cpu subsystem via cgroupfs.</p><p>cpu.cfs_quota_us: the total available run-time within a period (in microseconds)
+cpu.cfs_period_us: the length of a period (in microseconds)
+cpu.stat: exports throttling statistics [explained further below]</p><p>The default values are:
+cpu.cfs_period_us=100ms
+cpu.cfs_quota=-1</p><p>A value of -1 for cpu.cfs_quota_us indicates that the group does not have any
+bandwidth restriction in place, such a group is described as an unconstrained
+bandwidth group. This represents the traditional work-conserving behavior for
+CFS.</p><p>Writing any (valid) positive value(s) will enact the specified bandwidth limit.
+The minimum quota allowed for the quota or period is 1ms. There is also an
+upper bound on the period length of 1s. Additional restrictions exist when
+bandwidth limits are used in a hierarchical fashion, these are explained in
+more detail below.</p><p>Writing any negative value to cpu.cfs_quota_us will remove the bandwidth limit
+and return the group to an unconstrained state once more.</p><p>Any updates to a group&rsquo;s bandwidth specification will result in it becoming
+unthrottled if it is in a constrained state.</p></blockquote><p>Let&rsquo;s see if inspecting <code>cpu.cfs_quota_us</code> can help us:</p><pre><code>$ cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us
+10000
+</code></pre><p>Now we&rsquo;re getting somewhere. But what does <em>10000</em> mean here? OpenShift
+operates on the concept of <em>millicores</em> of CPU time, or 1/1000 of a CPU. 500
+millicores is half a CPU and 1000 millicores is a whole CPU.</p><p>The pod in this example is assigned 100 millicores. Now we know that we can
+take the output of <code>/sys/fs/cgroup/cpu/cpu.cfs_quota_us</code>, divide by 100, and
+get our millicores.</p><p>We can make a script like this:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#268bd2>CFS_QUOTA</span><span style=color:#719e07>=</span><span style=color:#719e07>$(</span>cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us<span style=color:#719e07>)</span>
+<span style=color:#719e07>if</span> <span style=color:#719e07>[</span> <span style=color:#268bd2>$CFS_QUOTA</span> -lt <span style=color:#2aa198>100000</span> <span style=color:#719e07>]</span>; <span style=color:#719e07>then</span>
+  <span style=color:#268bd2>CPUS_AVAILABLE</span><span style=color:#719e07>=</span><span style=color:#2aa198>1</span>
+<span style=color:#719e07>else</span>
+  <span style=color:#268bd2>CPUS_AVAILABLE</span><span style=color:#719e07>=</span><span style=color:#719e07>$(</span>expr <span style=color:#2aa198>${</span><span style=color:#268bd2>CFS_QUOTA</span><span style=color:#2aa198>}</span> / <span style=color:#2aa198>100</span> / 1000<span style=color:#719e07>)</span>
+<span style=color:#719e07>fi</span>
+<span style=color:#b58900>echo</span> <span style=color:#2aa198>&#34;Found </span><span style=color:#2aa198>${</span><span style=color:#268bd2>CPUS_AVAILABLE</span><span style=color:#2aa198>}</span><span style=color:#2aa198> CPUS&#34;</span>
+make -j<span style=color:#2aa198>${</span><span style=color:#268bd2>CPUS_AVAILABLE</span><span style=color:#2aa198>}</span> ...
+</code></pre></div><p>The script checks for the value of the quota and divides by 100,000 to get
+the number of cores. If the share is set to something less than 100,000, then
+a core count of 1 is assigned. <em>(Pro tip: <code>make</code> does not like being told to
+compile with zero jobs.)</em></p><h2 id=reading-memory-limits>Reading memory limits</h2><p>There are other limits you can read and inspect in a pod, including the
+available RAM. As we found with <code>nproc</code>, <code>free</code> is not very helpful:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#586e75># An OpenShift pod with 200MB RAM</span>
+$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          <span style=color:#2aa198>32008</span>       <span style=color:#2aa198>12322</span>         <span style=color:#2aa198>880</span>          <span style=color:#2aa198>31</span>       <span style=color:#2aa198>18805</span>       <span style=color:#2aa198>19246</span>
+Swap:             <span style=color:#2aa198>0</span>           <span style=color:#2aa198>0</span>           <span style=color:#2aa198>0</span>
+</code></pre></div><p>But the cgroups tell the truth:</p><pre><code>$ cat /sys/fs/cgroup/memory/memory.limit_in_bytes
+209715200
+</code></pre><p>If you run Java applications in a container, like Jenkins (or Jenkins
+slaves), be sure to use the <code>-XX:+UseCGroupMemoryLimitForHeap</code> option. That
+will cause Java to look at the cgroups to determine its heap size.</p><p><em>Photo credit: <a href=https://commons.wikimedia.org/wiki/File:Roca_de_la_Ley,_Parque_Nacional_de_%C3%9Eingvellir,_Su%C3%B0urland,_Islandia,_2014-08-16,_DD_022.JPG>Wikipedia</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/openshift>openshift</a></span><span class=tag><a href=https://major.io/tags/ansible>ansible</a></span><span class=tag><a href=https://major.io/tags/security>security</a></span><span class=tag><a href=https://major.io/tags/linux>linux</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

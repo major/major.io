@@ -1,0 +1,98 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="Fedora 30 is my primary operating system for desktops and servers, so I usually try to take it everywhere I go. I was recently doing some benchmarking for kernel compiles on different cloud plaforms and I noticed that Fedora isn&amp;rsquo;t included in Google Compute Engine&amp;rsquo;s default list of operating system images.
+(Note: Fedora does include links to quick start an Amazon EC2 instance with their pre-built AMI&amp;rsquo;s. They are superb!)"><meta name=keywords content=",cloud,fedora,google,linux"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2019/08/07/fedora-30-on-google-compute-engine/><title>Fedora 30 on Google Compute Engine :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Fedora 30 on Google Compute Engine"><meta itemprop=description content="Fedora 30 is my primary operating system for desktops and servers, so I usually try to take it everywhere I go. I was recently doing some benchmarking for kernel compiles on different cloud plaforms and I noticed that Fedora isn&rsquo;t included in Google Compute Engine&rsquo;s default list of operating system images.
+(Note: Fedora does include links to quick start an Amazon EC2 instance with their pre-built AMI&rsquo;s. They are superb!)"><meta itemprop=datePublished content="2019-08-07T00:00:00+00:00"><meta itemprop=dateModified content="2019-08-07T00:00:00+00:00"><meta itemprop=wordCount content="877"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="cloud,fedora,google,linux,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2019-08-07 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Fedora 30 on Google Compute Engine :: Major Hayden 🤠"><meta name=twitter:description content="Fedora 30 is a great Linux distribution for cloud platforms, but it needs a little work to perform well on Google Compute Engine."><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2019-08-07-google-hq.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2019/08/07/fedora-30-on-google-compute-engine/>Fedora 30 on Google Compute Engine</a></h2><div class=post-content><p><img src=../../../../images/2019-08-07-google-hq.jpg alt="Google building"></p><p>Fedora 30 is my primary operating system for desktops and servers, so I
+usually try to take it everywhere I go. I was recently doing some
+benchmarking for kernel compiles on different cloud plaforms and I noticed
+that Fedora isn&rsquo;t included in Google Compute Engine&rsquo;s default list of
+operating system images.</p><p><em>(Note: Fedora does include links to quick start an Amazon EC2 instance with
+their <a href=https://alt.fedoraproject.org/cloud/>pre-built AMI&rsquo;s</a>. They are superb!)</em></p><h2 id=first-try>First try</h2><p>Fedora does offer cloud images in raw and qcow2 formats, so I decided to give
+that a try. Start by downloading the image, decompressing it, and then
+repackaging the image into a tarball.</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ wget http://mirrors.kernel.org/fedora/releases/30/Cloud/x86_64/images/Fedora-Cloud-Base-30-1.2.x86_64.raw.xz
+$ xz -d Fedora-Cloud-Base-30-1.2.x86_64.raw.xz
+$ mv Fedora-Cloud-Base-30-1.2.x86_64.raw disk.raw
+$ tar cvzf fedora-30-google-cloud.tar.gz disk.raw
+</code></pre></div><p>Once that&rsquo;s done, create a bucket on Google storage and upload the tarball.</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ gsutil mb gs://fedora-cloud-base-30-image
+$ gsutil cp fedora-30-google-cloud.tar.gz gs://fedora-cloud-image-30/
+</code></pre></div><p>Uploading 300MB on my 10mbit/sec uplink was a slow process. When that&rsquo;s done,
+tell Google Compute Engine that we want a new image made from this raw
+disk we uploaded:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ gcloud compute images create --source-uri <span style=color:#cb4b16>\
+</span><span style=color:#cb4b16></span>    gs://fedora-cloud-image-30/fedora-30-google-cloud.tar.gz <span style=color:#cb4b16>\
+</span><span style=color:#cb4b16></span>    fedora-30-google-cloud
+</code></pre></div><p>After a few minutes, a new custom image called <code>fedora-30-google-cloud</code> will
+appear in the list of images in Google Compute Engine.</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ gcloud compute images list | grep -i fedora
+fedora-30-google-cloud   major-hayden-20150520    PENDING
+$ gcloud compute images list | grep -i fedora
+fedora-30-google-cloud   major-hayden-20150520    PENDING
+$ gcloud compute images list | grep -i fedora
+fedora-30-google-cloud   major-hayden-20150520    READY
+</code></pre></div><p>I opened a browser, ventured to the <a href=https://console.cloud.google.com/compute/>Google Compute Engine console</a>, and
+built a new VM with my image.</p><h2 id=problems-abound>Problems abound</h2><p>However, there are problems when the instance starts up. The serial console
+has plenty of errors:</p><pre><code>DataSourceGCE.py[WARNING]: address &quot;http://metadata.google.internal/computeMetadata/v1/&quot; is not resolvable
+</code></pre><p>Obviously something is wrong with DNS. It&rsquo;s apparent that <code>cloud-init</code> is
+stuck in a bad loop:</p><pre><code>url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [87/120s]: bad status code [404]
+url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [93/120s]: bad status code [404]
+url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [99/120s]: bad status code [404]
+url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [105/120s]: bad status code [404]
+url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [112/120s]: bad status code [404]
+url_helper.py[WARNING]: Calling 'http://169.254.169.254/2009-04-04/meta-data/instance-id' failed [119/120s]: unexpected error [Attempted to set connect timeout to 0.0, but the timeout cannot be set to a value less than or equal to 0.]
+DataSourceEc2.py[CRITICAL]: Giving up on md from ['http://169.254.169.254/2009-04-04/meta-data/instance-id'] after 126 seconds
+</code></pre><p>Those are EC2-type metadata queries and they won&rsquo;t work here. The instance
+also has no idea how to set up networking:</p><pre><code>Cloud-init v. 17.1 running 'init' at Wed, 07 Aug 2019 18:27:07 +0000. Up 17.50 seconds.
+ci-info: +++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------+-----------+-------+-------------------+
+ci-info: | Device |   Up  |  Address  |    Mask   | Scope |     Hw-Address    |
+ci-info: +--------+-------+-----------+-----------+-------+-------------------+
+ci-info: | eth0:  | False |     .     |     .     |   .   | 42:01:0a:f0:00:5f |
+ci-info: |  lo:   |  True | 127.0.0.1 | 255.0.0.0 |   .   |         .         |
+ci-info: |  lo:   |  True |     .     |     .     |   d   |         .         |
+ci-info: +--------+-------+-----------+-----------+-------+-------------------+
+</code></pre><p>This image is set up well for Amazon, but it needs some work to work at
+Google.</p><h2 id=fixing-up-the-image>Fixing up the image</h2><p>Go back to the <code>disk.raw</code> that we made in the first step of the blog post. We
+need to mount that disk, mount some additional filesystems, and chroot into
+the Fedora 30 installation on the raw disk.</p><p>Start by making a loop device for the raw disk and enumerating its partitions:</p><pre><code>$ sudo losetup  /dev/loop0 disk.raw
+$ kpartx -a /dev/loop0
+</code></pre><p>Make a mountpoint and mount the first partition on that mountpoint:</p><pre><code>$ sudo mkdir /mnt/disk
+$ sudo mount /dev/mapper/loop0p1 /mnt/disk
+</code></pre><p>We need some extra filesystems mounted before we can run certain commands in
+the chroot:</p><pre><code>$ sudo mount --bind /dev /mnt/disk/dev
+$ sudo mount --bind /sys /mnt/disk/sys
+$ sudo mount --bind /proc /mnt/disk/proc
+</code></pre><p>Now we can hop into the chroot:</p><pre><code>$ sudo chroot /mnt/disk
+</code></pre><p>From inside the chroot, remove <code>cloud-init</code> and install
+<code>google-compute-engine-tools</code> to help with Google cloud:</p><pre><code>$ dnf -y remove cloud-init
+$ dnf -y install google-compute-engine-tools
+$ dnf clean all
+</code></pre><p>The <code>google-compute-engine-tools</code> package has lots of services that help with
+running on Google cloud. We need to enable each one to run at boot time:</p><pre><code>$ systemctl enable google-accounts-daemon google-clock-skew-daemon \
+    google-instance-setup google-network-daemon \
+    google-shutdown-scripts google-startup-scripts
+</code></pre><p>To learn more about these daemons and what they do, head on over to the
+<code>GitHub page</code> for the package.</p><p>Exit the chroot and get back to your main system. Now that we have this image
+just like we want it, it&rsquo;s time to unmount the image and send it to the
+cloud:</p><pre><code>$ sudo umount /mnt/disk/dev /mnt/disk/sys /mnt/disk/proc
+$ sudo umount /mnt/disk
+$ sudo losetup -d /dev/loop0
+$ tar cvzf fedora-30-google-cloud-fixed.tar.gz disk.raw
+$ gsutil cp fedora-30-google-cloud-fixed.tar.gz gs://fedora-cloud-image-30/
+$ gcloud compute images create --source-uri \
+    gs://fedora-cloud-image-30/fedora-30-google-cloud-fixed.tar.gz \
+    fedora-30-google-cloud-fixed
+</code></pre><p>Start a new instance with this fixed image and watch it boot in the serial
+console:</p><pre><code>[   10.379253] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 10737418240 ms ovfl timer
+[   10.381350] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+[   10.382487] RAPL PMU: hw unit of domain package 2^-0 Joules
+[   10.383415] RAPL PMU: hw unit of domain dram 2^-16 Joules
+[   10.503233] EDAC sbridge:  Ver: 1.1.2
+
+
+Fedora 30 (Cloud Edition)
+Kernel 5.1.20-300.fc30.x86_64 on an x86_64 (ttyS0)
+
+instance-2 login:
+</code></pre><p>Yes! A ten second boot with networking is exactly what I needed.</p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/cloud>cloud</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/google>google</a></span><span class=tag><a href=https://major.io/tags/linux>linux</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

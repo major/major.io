@@ -1,0 +1,63 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="I&amp;rsquo;ve been working through some patches to OpenStack-Ansible lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.
+Ansible was returning this error:
+curl: (22) The requested URL returned error: 502 Proxy Error error: http://pgp.mit.edu:11371/pks/lookup?op=get&amp;amp;search=0x61E8806C: import read failed(2) How does the rpm command know which keyserver to use? Let&amp;rsquo;s use the --showrc argument to show how it is configured:"><meta name=keywords content=",ansible,centos,fedora,openstack,rpm"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/><title>Import RPM repository GPG keys from other keyservers temporarily :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Import RPM repository GPG keys from other keyservers temporarily"><meta itemprop=description content="I&rsquo;ve been working through some patches to OpenStack-Ansible lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.
+Ansible was returning this error:
+curl: (22) The requested URL returned error: 502 Proxy Error error: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x61E8806C: import read failed(2) How does the rpm command know which keyserver to use? Let&rsquo;s use the --showrc argument to show how it is configured:"><meta itemprop=datePublished content="2017-09-20T15:24:13+00:00"><meta itemprop=dateModified content="2017-09-20T15:24:13+00:00"><meta itemprop=wordCount content="311"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="ansible,centos,fedora,openstack,rpm,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2017-09-20 15:24:13 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Import RPM repository GPG keys from other keyservers temporarily :: Major Hayden 🤠"><meta name=twitter:description content><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/>Import RPM repository GPG keys from other keyservers temporarily</a></h2><div class=post-content><p><a href=../../../../wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg></a>I&rsquo;ve been working through some patches to <a href=https://github.com/openstack/openstack-ansible>OpenStack-Ansible</a> lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.</p><p>Ansible was returning this error:</p><pre><code>curl: (22) The requested URL returned error: 502 Proxy Error
+error: http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x61E8806C: import read failed(2)
+</code></pre><p>How does the <code>rpm</code> command know which keyserver to use? Let&rsquo;s use the <code>--showrc</code> argument to show how it is configured:</p><pre><code>$ rpm --showrc | grep hkp
+-14: _hkp_keyserver http://pgp.mit.edu
+-14: _hkp_keyserver_query   %{_hkp_keyserver}:11371/pks/lookup?op=get&amp;search=0x
+</code></pre><p>How do we change this value temporarily to test a GPG key retrieval from a different server? There&rsquo;s an argument for that as well: <code>--define</code>:</p><pre><code>$ rpm --help | grep define
+  -D, --define='MACRO EXPR'        define MACRO with value EXPR
+</code></pre><p>We can assemble that on the command line to set a different keyserver temporarily:</p><pre><code># rpm -vv --define=&quot;%_hkp_keyserver http://pool.sks-keyservers.net&quot; --import 0x61E8806C
+-- SNIP --
+D: adding &quot;63deac79abe7ad80e147d671c2ac5bd1c8b3576e&quot; to Sha1header index.
+-- SNIP --
+</code></pre><p>Let&rsquo;s verify that our new key is in place:</p><pre><code># rpm -qa | grep -i gpg-pubkey-61E8806C
+gpg-pubkey-61e8806c-5581df56
+# rpm -qi gpg-pubkey-61e8806c-5581df56
+Name        : gpg-pubkey
+Version     : 61e8806c
+Release     : 5581df56
+Architecture: (none)
+Install Date: Wed 20 Sep 2017 10:17:11 AM CDT
+Group       : Public Keys
+Size        : 0
+License     : pubkey
+Signature   : (none)
+Source RPM  : (none)
+Build Date  : Wed 17 Jun 2015 03:57:58 PM CDT
+Build Host  : localhost
+Relocations : (not relocatable)
+Packager    : CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) &lt;security@centos.org&gt;
+Summary     : gpg(CentOS Virtualization SIG (http://wiki.centos.org/SpecialInterestGroup/Virtualization) &lt;security@centos.org&gt;)
+Description :
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: rpm-4.11.3 (NSS-3)
+
+mQENBFWB31YBCAC4dFmTzBDOcq4R1RbvQXLkyYfF+yXcsMA5kwZy7kjxnFqBoNPv
+aAjFm3e5huTw2BMZW0viLGJrHZGnsXsE5iNmzom2UgCtrvcG2f65OFGlC1HZ3ajA
+8ZIfdgNQkPpor61xqBCLzIsp55A7YuPNDvatk/+MqGdNv8Ug7iVmhQvI0p1bbaZR
+0GuavmC5EZ/+mDlZ2kHIQOUoInHqLJaX7iw46iLRUnvJ1vATOzTnKidoFapjhzIt
+i4ZSIRaalyJ4sT+oX4CoRzerNnUtIe2k9Hw6cEu4YKGCO7nnuXjMKz7Nz5GgP2Ou
+zIA/fcOmQkSGcn7FoXybWJ8DqBExvkJuDljPABEBAAG0bENlbnRPUyBWaXJ0dWFs
+aXphdGlvbiBTSUcgKGh0dHA6Ly93aWtpLmNlbnRvcy5vcmcvU3BlY2lhbEludGVy
+ZXN0R3JvdXAvVmlydHVhbGl6YXRpb24pIDxzZWN1cml0eUBjZW50b3Mub3JnPokB
+OQQTAQIAIwUCVYHfVgIbAwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEHrr
+voJh6IBsRd0H/A62i5CqfftuySOCE95xMxZRw8+voWO84QS9zYvDEnzcEQpNnHyo
+FNZTpKOghIDtETWxzpY2ThLixcZOTubT+6hUL1n+cuLDVMu4OVXBPoUkRy56defc
+qkWR+UVwQitmlq1ngzwmqVZaB8Hf/mFZiB3B3Jr4dvVgWXRv58jcXFOPb8DdUoAc
+S3u/FLvri92lCaXu08p8YSpFOfT5T55kFICeneqETNYS2E3iKLipHFOLh7EWGM5b
+Wsr7o0r+KltI4Ehy/TjvNX16fa/t9p5pUs8rKyG8SZndxJCsk0MW55G9HFvQ0FmP
+A6vX9WQmbP+ml7jsUxtEJ6MOGJ39jmaUvPc=
+=ZzP+
+-----END PGP PUBLIC KEY BLOCK-----
+
+</code></pre><p>Success!</p><p>If you want to override the value permanently, create a <code>~/.rpmmacros</code> file and add the following line to it:</p><pre><code>%_hkp_keyserver http://pool.sks-keyservers.net
+</code></pre><p><em>Photo credit: <a href=https://commons.wikimedia.org/wiki/File:Close-up_of_keys.jpg>Wikipedia</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/ansible>ansible</a></span><span class=tag><a href=https://major.io/tags/centos>centos</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/openstack>openstack</a></span><span class=tag><a href=https://major.io/tags/rpm>rpm</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>

@@ -1,0 +1,86 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="I recently picked up a Dell Optiplex 7060 and I&amp;rsquo;m using it as my main workstation now. The Fedora installation was easy, but I noticed a variety of &amp;ldquo;pop&amp;rdquo; or clicking sounds when audio played, especially terminal bells.
+If everything was quiet and I triggered a terminal bell, I would hear a loud pop just before the terminal bell sound. However, if I played music and then triggered a terminal bell, the pop was gone."><meta name=keywords content=",linux,fedora,sound"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2019/03/04/stop-audio-pops-on-intel-hd-audio/><title>Stop audio pops on Intel HD Audio :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Stop audio pops on Intel HD Audio"><meta itemprop=description content="I recently picked up a Dell Optiplex 7060 and I&rsquo;m using it as my main workstation now. The Fedora installation was easy, but I noticed a variety of &ldquo;pop&rdquo; or clicking sounds when audio played, especially terminal bells.
+If everything was quiet and I triggered a terminal bell, I would hear a loud pop just before the terminal bell sound. However, if I played music and then triggered a terminal bell, the pop was gone."><meta itemprop=datePublished content="2019-03-04T00:00:00+00:00"><meta itemprop=dateModified content="2019-03-04T00:00:00+00:00"><meta itemprop=wordCount content="634"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="linux,fedora,sound,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2019-03-04 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Stop audio pops on Intel HD Audio :: Major Hayden 🤠"><meta name=twitter:description content><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2019-03-04-headphones.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://major.io/ham-radio-faq>hamradio</a></li><li><a href=https://major.io/icanhazip-com-faq>icanhazip</a></li><li><a href=https://major.io/posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2019/03/04/stop-audio-pops-on-intel-hd-audio/>Stop audio pops on Intel HD Audio</a></h2><div class=post-content><p><img src=../../../../images/2019-03-04-headphones.jpg alt=headphones></p><p>I recently picked up a Dell Optiplex 7060 and I&rsquo;m using it as my main
+workstation now. The Fedora installation was easy, but I noticed a variety of
+&ldquo;pop&rdquo; or clicking sounds when audio played, especially terminal bells.</p><p>If everything was quiet and I triggered a terminal bell, I would hear a loud
+pop just before the terminal bell sound. However, if I played music and then
+triggered a terminal bell, the pop was gone.</p><p>A quick Google search told me that the likely culprit was power saving
+settings on my Intel HD Audio chipset:</p><pre><code>$ lspci | grep Audio
+00:1f.3 Audio device: Intel Corporation Cannon Lake PCH cAVS (rev 10)
+</code></pre><h2 id=fixing-it>Fixing it</h2><p>There&rsquo;s a handy power saving tunable available at
+<code>/sys/module/snd_hda_intel/parameters/power_save</code> that can be usd to adjust
+the timeout or disable power savings entirely. In my case, the delay was set
+to one second.</p><pre><code>$ cat /sys/module/snd_hda_intel/parameters/power_save
+1
+</code></pre><p>That would be good for a laptop use case, but my workstation is always
+plugged in. I disabled it by setting it to zero:</p><pre><code># echo 0 &gt; /sys/module/snd_hda_intel/parameters/power_save
+$ cat /sys/module/snd_hda_intel/parameters/power_save
+0
+</code></pre><p>And the pops are gone! My Klipsch speakers have a built in amplifier and it
+was likely the abrupt changes in current that was causing the popping noises.</p><p>This setting will last until you reboot. You can make it permanent by adding
+this text to <code>/etc/modprobe.d/audio_disable_powersave.conf</code>:</p><pre><code>options snd_hda_intel power_save=0
+</code></pre><p>If you&rsquo;re a laptop user and you want power savings but fewer pops, you could
+increase the delay to a more acceptable number. For example, setting it to
+<code>60</code> would mean that the card will power down after 60 seconds of silence.
+Just remember that you&rsquo;ll get a nice pop when the 60 seconds has passed and a
+new sound is played.</p><h2 id=learning-more>Learning more</h2><p>Diving into the kernel code reveals the tunable in
+<code>/sound/pci/hda/hda_intel.c</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#719e07>static</span> <span style=color:#dc322f>int</span> power_save <span style=color:#719e07>=</span> CONFIG_SND_HDA_POWER_SAVE_DEFAULT;
+module_param(power_save, xint, <span style=color:#2aa198>0644</span>);
+MODULE_PARM_DESC(power_save, <span style=color:#2aa198>&#34;Automatic power-saving timeout &#34;</span>
+		 <span style=color:#2aa198>&#34;(in second, 0 = disable).&#34;</span>);
+</code></pre></div><p>The default comes from a kernel config option:
+<code>CONFIG_SND_HDA_POWER_SAVE_DEFAULT</code>. Most kernel packages on most
+distributions provide access to the kernel config file that was used to build
+the kernel originally. It&rsquo;s often found in <code>/boot</code> (named the same as the
+kernel version) or it might be available at <code>/proc/config.gz</code>.</p><p>For Fedora, the kernel config is provided in <code>/boot</code> whenever a new kernel is
+is installed. I inspected mine and found:</p><pre><code>$ grep HDA_POWER_SAVE_DEFAULT /boot/config-4.20.13-200.fc29.x86_64
+CONFIG_SND_HDA_POWER_SAVE_DEFAULT=1
+</code></pre><p>The <code>power_save</code> setting is applied in <code>/sound/pci/hda/hda_codec.c</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#586e75>/**
+</span><span style=color:#586e75> * snd_hda_set_power_save - reprogram autosuspend for the given delay
+</span><span style=color:#586e75> * @bus: HD-audio bus
+</span><span style=color:#586e75> * @delay: autosuspend delay in msec, 0 = off
+</span><span style=color:#586e75> *
+</span><span style=color:#586e75> * Synchronize the runtime PM autosuspend state from the power_save option.
+</span><span style=color:#586e75> */</span>
+<span style=color:#dc322f>void</span> <span style=color:#268bd2>snd_hda_set_power_save</span>(<span style=color:#719e07>struct</span> hda_bus <span style=color:#719e07>*</span>bus, <span style=color:#dc322f>int</span> delay)
+{
+	<span style=color:#719e07>struct</span> hda_codec <span style=color:#719e07>*</span>c;
+
+	list_for_each_codec(c, bus)
+		codec_set_power_save(c, delay);
+}
+EXPORT_SYMBOL_GPL(snd_hda_set_power_save);
+</code></pre></div><p>We can look where <code>codec_set_power_save</code> is defined in the same file to learn
+more:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#719e07>#ifdef CONFIG_PM
+</span><span style=color:#719e07></span><span style=color:#719e07>static</span> <span style=color:#dc322f>void</span> <span style=color:#268bd2>codec_set_power_save</span>(<span style=color:#719e07>struct</span> hda_codec <span style=color:#719e07>*</span>codec, <span style=color:#dc322f>int</span> delay)
+{
+	<span style=color:#719e07>struct</span> device <span style=color:#719e07>*</span>dev <span style=color:#719e07>=</span> hda_codec_dev(codec);
+
+	<span style=color:#719e07>if</span> (delay <span style=color:#719e07>==</span> <span style=color:#2aa198>0</span> <span style=color:#719e07>&amp;&amp;</span> codec<span style=color:#719e07>-&gt;</span>auto_runtime_pm)
+		delay <span style=color:#719e07>=</span> <span style=color:#2aa198>3000</span>;
+
+	<span style=color:#719e07>if</span> (delay <span style=color:#719e07>&gt;</span> <span style=color:#2aa198>0</span>) {
+		pm_runtime_set_autosuspend_delay(dev, delay);
+		pm_runtime_use_autosuspend(dev);
+		pm_runtime_allow(dev);
+		<span style=color:#719e07>if</span> (<span style=color:#719e07>!</span>pm_runtime_suspended(dev))
+			pm_runtime_mark_last_busy(dev);
+	} <span style=color:#719e07>else</span> {
+		pm_runtime_dont_use_autosuspend(dev);
+		pm_runtime_forbid(dev);
+	}
+}
+</code></pre></div><p>This logic looks to see if <code>CONFIG_PM</code> is set to know if power management is
+desired at all. From there, it checks if we disabled power saving but there&rsquo;s
+a discrete graphics card involved (<code>codec->auto_runtime_pm</code>). This check is
+important because the discrete graphics card cannot power down unless the HDA
+card suspends at the same time.</p><p>Next, there&rsquo;s a check to see if the delay is greater than 0. This would be
+the case if <code>CONFIG_SND_HDA_POWER_SAVE_DEFAULT</code> was set to <code>1</code> (Fedora&rsquo;s
+default). If so, the proper auto suspend delays are set.</p><p>If the delay is 0, then autosuspend is disabled and removed from power
+management entirely. This is the option I chose and it&rsquo;s working great.</p><p><em>Photo source: <a href=https://www.maxpixel.net/Headphone-Caption-Music-Sound-Listing-Music-2694489>Max Pixel</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/linux>linux</a></span><span class=tag><a href=https://major.io/tags/fedora>fedora</a></span><span class=tag><a href=https://major.io/tags/sound>sound</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span>
+<span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>rhazdon</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script></body></html>
