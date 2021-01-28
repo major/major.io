@@ -21,7 +21,12 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --gc --minify
+          # Allow RSS to be accessed more simply.
+          mkdir -vp public/feed
+          cp -av public/index.xml public/feed/index.html
+          cp -av public/index.xml public/feed/index.xml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
