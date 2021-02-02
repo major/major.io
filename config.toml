@@ -2,6 +2,8 @@ baseURL = "https://major.io"
 title   = "Major Hayden 🤠"
 relativeURLs = true
 
+paginate = 50
+
 DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng"
