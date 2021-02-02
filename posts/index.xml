@@ -1,13 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Which stock broker should you use?</title><link>https://major.io/2021/01/24/which-stock-broker-should-you-use/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/24/which-stock-broker-should-you-use/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
 One of my sports coaches in high school used to say: &amp;ldquo;It&amp;rsquo;s not the tool, it&amp;rsquo;s the fool.&amp;rdquo; This was his reminder that when something goes wrong in the game, it&amp;rsquo;s usually the fault of the person and not the equipment.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-
-    <figure class="center" >
-        <img src="/images/2021-01-24-street-buildings.jpg"  alt="Street with buildings"   />
-
-        
-    </figure>
-
+<figure>
+    <img src="/images/2021-01-24-street-buildings.jpg"
+         alt="Street with buildings"/> 
+</figure>
 
 <p>One of my sports coaches in high school used to say: &ldquo;It&rsquo;s not the tool, it&rsquo;s
 the fool.&rdquo; This was his reminder that when something goes wrong in the game,
@@ -197,13 +194,10 @@ You know your terminology, you know your max loss, and you are ready to start. N
 How do I choose which option to sell?
 At first, you learn to look for the trades that are right for you.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-
-    <figure class="center" >
-        <img src="/images/2020-01-23-paragliding-mountains.jpg"  alt="Paragliding in the mountains"   />
-
-        
-    </figure>
-
+<figure>
+    <img src="/images/2020-01-23-paragliding-mountains.jpg"
+         alt="Paragliding in the mountains"/> 
+</figure>
 
 <p>You know your terminology, you know your max loss, and you are ready to start.
 Now you&rsquo;re faced with the difficult question all new options traders face:</p>
@@ -397,13 +391,10 @@ for the shortest amount of time possible to make the returns you want.</p>
 My options trading journey started back in September 2020 and I learned a lot in a short amount of time. This post covers some of the lessons I&amp;rsquo;ve learned along the way.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a> on the blog.
 If you are confused on terminology, go back and start with the first post and
 the series and work your way to this one.</em></p>
-
-    <figure class="center" >
-        <img src="/images/2021-01-04-dark-road-mountains.jpg"  alt="Dark Road with Mountains"   />
-
-        
-    </figure>
-
+<figure>
+    <img src="/images/2021-01-04-dark-road-mountains.jpg"
+         alt="Dark Road with Mountains"/> 
+</figure>
 
 <p>My options trading journey started back in September 2020 and I learned a lot
 in a short amount of time. This post covers some of the lessons I&rsquo;ve learned
@@ -601,13 +592,10 @@ still to donate a percentage of my gains to charity, so I keep that goal in
 mind. The key is to stay in the game.</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz on Unsplash</a></em></p>
 ]]></content></item><item><title>Know your max loss</title><link>https://major.io/2020/12/09/know-your-max-loss/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/09/know-your-max-loss/</guid><description>This is the third post in a series of posts on options trading. You can read this one out of order since it applies to almost everything you do in the stock market, including buying shares of stock.
-What is &amp;ldquo;max loss&amp;rdquo; The maximum loss on a trade is the worst outcome possible. Knowing this number helps you protect your account from huge losses and avoids terrible situations such as margin calls.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-12-09-subway-tunnel.jpg"  alt="Subway Tunnel"   />
-
-        
-    </figure>
-
+What is &amp;ldquo;max loss&amp;rdquo; The maximum loss on a trade is the worst outcome possible. Knowing this number helps you protect your account from huge losses and avoids terrible situations such as margin calls.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-12-09-subway-tunnel.jpg"
+         alt="Subway Tunnel"/> 
+</figure>
 
 <p>This is the third post in a <a href="/tags/options/">series of posts on options trading</a>. You can read
 this one out of order since it applies to almost everything you do in the
@@ -748,13 +736,10 @@ was a daily reminder of two things:</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@trapnation">Andre Benz on Unsplash</a></em></p>
 ]]></content></item><item><title>The Dark Side: Selling Options</title><link>https://major.io/2020/12/07/the-dark-side-selling-options/</link><pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/07/the-dark-side-selling-options/</guid><description>I&amp;rsquo;ve started a series of posts on options trading and if you haven&amp;rsquo;t read yesterdays post, Options trading introduction, you should start there first.
 Recap: Buying calls and puts Just to recap the introductory post:
-Buying a call gives you the right to buy a stock at a certain strike price Buying a put gives you the right to sell a stock at a certain strike price Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-12-07-dark-hills.jpg"  alt="Dark Hills"   />
-
-        
-    </figure>
-
+Buying a call gives you the right to buy a stock at a certain strike price Buying a put gives you the right to sell a stock at a certain strike price Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-12-07-dark-hills.jpg"
+         alt="Dark Hills"/> 
+</figure>
 
 <p>I&rsquo;ve started a <a href="/tags/options/">series of posts on options trading</a> and if you haven&rsquo;t read
 yesterdays post, <a href="/2020/12/06/options-trading-introduction/">Options trading introduction</a>, you should start there first.</p>
@@ -965,13 +950,10 @@ $500 in premium).</p>
 <p>This strategy will be covered in the next post!</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@ripato">Ricardo Gomez Angel on Unsplash</a></em></p>
 ]]></content></item><item><title>Options trading introduction</title><link>https://major.io/2020/12/06/options-trading-introduction/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/06/options-trading-introduction/</guid><description>I&amp;rsquo;m always on the hunt for new things to learn and one of my newer interests is around trading options on the stock market. Much like technology, it becomes much easier to understand when you peel back the layers of archaic terminology, snake oil salespeople, and debunked data.
-Stay tuned for additional posts that go into greater detail. This post covers the basics about what an option is (and is not) and how you can compare it to other investment vehicles, like stocks.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-12-06-snow-mountain.jpg"  alt="Snowy Mountain"   />
-
-        
-    </figure>
-
+Stay tuned for additional posts that go into greater detail. This post covers the basics about what an option is (and is not) and how you can compare it to other investment vehicles, like stocks.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-12-06-snow-mountain.jpg"
+         alt="Snowy Mountain"/> 
+</figure>
 
 <p>I&rsquo;m always on the hunt for new things to learn and one of my newer interests
 is around trading options on the stock market. Much like technology, it
@@ -1160,13 +1142,10 @@ money with options contracts.</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@johnwestrock">Dave Hoefler on Unsplash</a></em></p>
 ]]></content></item><item><title>Build AWS images with Image Builder</title><link>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</guid><description>The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.
 You can get a customized image via a few methods:
-Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-06-19-aluminum-factory.jpg"  alt="Aluminum factory"   />
-
-        
-    </figure>
-
+Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-06-19-aluminum-factory.jpg"
+         alt="Aluminum factory"/> 
+</figure>
 
 <p>The AMIs provided by most Linux distributions in AWS work well for most use
 cases. However, there are those times when you need a customized image to
@@ -1470,13 +1449,10 @@ blueprint editing with <code>composer-cli</code> is needed. Look for that in a f
 blog post.</p>
 <p><em>Photo credit: <a href="https://commons.wikimedia.org/wiki/File:Shelekhov-aluminium-factory-4.jpg">Wikimedia Commons</a></em></p>
 ]]></content></item><item><title>My experience with keto so far</title><link>https://major.io/2020/06/11/my-experience-with-keto-so-far/</link><pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/06/11/my-experience-with-keto-so-far/</guid><description>I&amp;rsquo;ve talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don&amp;rsquo;t call it &amp;ldquo;the keto diet&amp;rdquo; because it&amp;rsquo;s much more than a diet: it&amp;rsquo;s a lifestyle change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body.
-Before we start, I&amp;rsquo;d like to note that:</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-06-11-plates-and-bowls.jpg"  alt="Brno skyline"   />
-
-        
-    </figure>
-
+Before we start, I&amp;rsquo;d like to note that:</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-06-11-plates-and-bowls.jpg"
+         alt="Brno skyline"/> 
+</figure>
 
 <p>I&rsquo;ve talked about some of my experiences with altering my diet on Twitter and
 many people have asked about my experiences with keto so far. Note that I
@@ -1705,13 +1681,10 @@ plenty of guidance for you if you get stuck.</li>
 </ul>
 <p><em>Photo credit: <a href="https://www.pexels.com/photo/ceramic-plates-3847482/">Pexels</a></em></p>
 ]]></content></item><item><title>Make diacritics easy in Linux</title><link>https://major.io/2020/02/13/make-diacritics-easy-in-linux/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/02/13/make-diacritics-easy-in-linux/</guid><description>Diacritics are all of the small things that are added on, above, or below certain characters in various languages. Some examples include tildes (ñ), accents (á), or other marks (š). These marks are little hints that help you know how to pronounce a word properly (and they sometimes change the definition of a word entirely).
-They are often skipped by non-native language speakers, and sometimes even by native speakers, but I have done my best to make a habit of including them when I can.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-02-13-diacritics-on-license-plate.jpg"  alt="Brno skyline"   />
-
-        
-    </figure>
-
+They are often skipped by non-native language speakers, and sometimes even by native speakers, but I have done my best to make a habit of including them when I can.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-02-13-diacritics-on-license-plate.jpg"
+         alt="Brno skyline"/> 
+</figure>
 
 <p><a href="https://en.wikipedia.org/wiki/Diacritic">Diacritics</a> are all of the small things that are added on, above, or below
 certain characters in various languages. Some examples include tildes (ñ),
@@ -1769,13 +1742,10 @@ AltGr works well for me as a default.</p>
 <p><em>Photo credit: naleag_deco on <a href="https://www.flickr.com/photos/53088812@N00/1304824528/">Flickr</a></em></p>
 ]]></content></item><item><title>My Travel Guide to Brno</title><link>https://major.io/2020/01/30/my-travel-guide-to-brno/</link><pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/01/30/my-travel-guide-to-brno/</guid><description>Come to the Czech Republic and discover the beautiful city of Brno. I just wrapped up my third visit to the city and I can&amp;rsquo;t wait to come back! The city is full of history, culture, and delicious food.
 Here&amp;rsquo;s my travel guide to Brno!
-Getting to Brno Brno has an airport, but the flights are limited and sometimes expensive. Some coworkers have found good deals on these flights (especially via Ryanair from London&amp;rsquo;s Stansted Airport), but I prefer the train.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2020-01-30-brno-skyline.jpg"  alt="Brno skyline"   />
-
-        
-    </figure>
-
+Getting to Brno Brno has an airport, but the flights are limited and sometimes expensive. Some coworkers have found good deals on these flights (especially via Ryanair from London&amp;rsquo;s Stansted Airport), but I prefer the train.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2020-01-30-brno-skyline.jpg"
+         alt="Brno skyline"/> 
+</figure>
 
 <p>Come to the Czech Republic and discover the beautiful city of <a href="https://en.wikipedia.org/wiki/Brno">Brno</a>. I just
 wrapped up my third visit to the city and I can&rsquo;t wait to come back! The city
@@ -1928,13 +1898,10 @@ that come to mind right now. Thanks for reading the post and I hope you get to
 enjoy a trip to Brno soon!</p>
 ]]></content></item><item><title>Disable Nvidia GPU on the Thinkpad T490</title><link>https://major.io/2020/01/24/disable-nvidia-gpu-thinkpad-t490/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/01/24/disable-nvidia-gpu-thinkpad-t490/</guid><description>I wrote about installing Linux on the Lenovo ThinkPad T490 last month and one of the biggest challenges was getting graphics working properly. The T490 comes with an option where you can get a discrete Nvidia MX250 GPU and it packs plenty of power in a small footprint.
 It also brings along a few issues.
-Awful battery life There are many times where it would be helpful to fully disable the Nvidia card to extend battery life when graphics processing is not needed.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/20191212-t490.png"  alt="Lenovo ThinkPad T490"   />
-
-        
-    </figure>
-
+Awful battery life There are many times where it would be helpful to fully disable the Nvidia card to extend battery life when graphics processing is not needed.</description><content type="html"><![CDATA[<figure>
+    <img src="/images/20191212-t490.png"
+         alt="Lenovo ThinkPad T490"/> 
+</figure>
 
 <p>I wrote about <a href="/2019/12/12/thinkpad-t490-fedora-install-tips/">installing Linux on the Lenovo ThinkPad T490 last month</a> and
 one of the biggest challenges was getting graphics working properly. The T490
@@ -2164,28 +2131,22 @@ make it work.</p>
 change your ACPI tables and this fix may stop working. You may need to look around for the changes and adjust your changes to match.</p>
 ]]></content></item><item><title>Bring Back Fedora's Beefy Miracle boot splash</title><link>https://major.io/2019/12/16/bring-back-fedora-beefy-miracle-boot-splash.md/</link><pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate><guid>https://major.io/2019/12/16/bring-back-fedora-beefy-miracle-boot-splash.md/</guid><description>Way back in 2012 when Fedora releases had names, there was one release that many of us in the Fedora community will never forget. Fedora 17&amp;rsquo;s code name was &amp;ldquo;Beefy Miracle&amp;rdquo; and it caused plenty of giggles and lots of consternation (especially in vegetarian and vegan circles).
 No matter how you feel about the code name, the mascot was really good:
-Major and the beefy miracle in 2012 The mustard I was told several times that &amp;ldquo;the mustard indicates progress.</description><content type="html"><![CDATA[
-    <figure class="center" >
-        <img src="/images/2019-12-16-beefy-miracle.png"  alt="Beefy miracle"   />
-
-        
-    </figure>
-
+Major and the beefy miracle in 2012</description><content type="html"><![CDATA[<figure>
+    <img src="/images/2019-12-16-beefy-miracle.png"
+         alt="Beefy miracle"/> 
+</figure>
 
 <p>Way back in 2012 when Fedora releases had names, there was one release that
 many of us in the Fedora community will never forget. Fedora 17&rsquo;s <a href="https://fedoraproject.org/wiki/History_of_Fedora_release_names#Fedora_17_.28Beefy_Miracle.29">code name</a>
 was &ldquo;Beefy Miracle&rdquo; and it caused plenty of giggles and lots of consternation
 (especially in vegetarian and vegan circles).</p>
 <p>No matter how you feel about the code name, the mascot was really good:</p>
-
-    <figure class="center" >
-        <img src="/images/2019-12-16-major-and-beefy-miracle.jpg"  alt="Major and the beefy miracle in 2012"   />
-
-        
-            <figcaption class="center" >Major and the beefy miracle in 2012</figcaption>
-        
-    </figure>
-
+<figure>
+    <img src="/images/2019-12-16-major-and-beefy-miracle.jpg"
+         alt="Major and the beefy miracle in 2012"/> <figcaption>
+            <p>Major and the beefy miracle in 2012</p>
+        </figcaption>
+</figure>
 
 <h2 id="the-mustard">The mustard</h2>
 <p>I was told several times that &ldquo;the mustard indicates progress.&rdquo; That didn&rsquo;t
@@ -2201,28 +2162,23 @@ screen is updated after you reboot:</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">sudo plymouth-set-default-theme --rebuild-initrd hot-dog
 </code></pre></div><p>This step takes a few moments to finish since it causes <code>dracut</code> to rebuild
 the entire initrd with the new plymouth theme. Once it finishes, reboot your computer and you should get something like this:</p>
-
-    <figure class="center" >
-        <img src="/images/2019-12-16-hot-dog-boot-splash.jpg"  alt="Hot dog boot splash"   />
-
-        
-            <figcaption class="center" >Hot dog boot splash</figcaption>
-        
-    </figure>
-
+<figure>
+    <img src="/images/2019-12-16-hot-dog-boot-splash.jpg"
+         alt="Hot dog boot splash"/> <figcaption>
+            <p>Hot dog boot splash</p>
+        </figcaption>
+</figure>
 
 ]]></content></item><item><title>Thinkpad T490 Fedora install tips</title><link>https://major.io/2019/12/12/thinkpad-t490-fedora-install-tips/</link><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><guid>https://major.io/2019/12/12/thinkpad-t490-fedora-install-tips/</guid><description>🔨 WORK IN PROGRESS! I&amp;rsquo;m still finding some additional issues and I&amp;rsquo;ll write those up here as soon as I find some solutions.
-With my 4th Gen X1 Carbon beginning to age (especially the battery), it was time for an upgrade. I now have a T490 with a 10th gen Intel CPU and a discrete NVIDIA MX250 GPU. This laptop spec was just released on Black Friday!</description><content type="html"><![CDATA[<blockquote>
+Thinkpad T490 With my 4th Gen X1 Carbon beginning to age (especially the battery), it was time for an upgrade. I now have a T490 with a 10th gen Intel CPU and a discrete NVIDIA MX250 GPU. This laptop spec was just released on Black Friday!</description><content type="html"><![CDATA[<blockquote>
 <p>🔨 <strong>WORK IN PROGRESS!</strong> I&rsquo;m still finding some additional issues and I&rsquo;ll
 write those up here as soon as I find some solutions.</p>
 </blockquote>
-
-    <figure class="left" >
-        <img src="/images/20191212-t490.png"   />
-
-        
-    </figure>
-
+<figure>
+    <img src="/images/20191212-t490.png"/> <figcaption>
+            <h4>Thinkpad T490</h4>
+        </figcaption>
+</figure>
 
 <p>With my 4th Gen X1 Carbon beginning to age (especially the battery), it was
 time for an upgrade. I now have a T490 with a 10th gen Intel CPU and a
