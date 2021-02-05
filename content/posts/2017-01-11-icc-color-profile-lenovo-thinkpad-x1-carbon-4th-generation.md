@@ -36,13 +36,8 @@ There's a [helpful review over at NotebookCheck][2] that has a link to an [ICC p
 
 I picked up a [ColorMunki Display][4] and went through a fast calibration in [GNOME's Color Manager][5]. The low quality run finished in under 10 minutes and the improvement was definitely noticeable. Colors look much deeper and less washed out. The display looks _very_ similar to the previous generation ThinkPad X1 Carbon.
 
-Feel free to give my ICC profile a try on your 4th generation X1 and let me know what you think!
-
-  * [Lenovo\_ThinkPad\_X1\_Carbon\_4th\_2017-01-11\_mhayden.icc][6]
-
  [1]: https://en.wikipedia.org/wiki/ICC_profile
  [2]: http://www.notebookcheck.net/Lenovo-ThinkPad-X1-Carbon-2016-Core-i7-WQHD-Ultrabook-Review.162631.0.html
  [3]: http://www.notebookcheck.net/uploads/tx_nbc2/X1_Carbon_WQHD_VVX14T058J00.icm
  [4]: http://www.xrite.com/categories/calibration-profiling/colormunki-display
  [5]: https://help.gnome.org/users/gnome-help/3.14/color.html.en
- [6]: /static-files/Lenovo_ThinkPad_X1_Carbon_4th_2017-01-11_mhayden.icc
