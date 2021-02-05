@@ -120,7 +120,7 @@ Please let me know if you spot any errors, areas for improvement, or items that 
 _Photo credit: Mattia Felice Palermo (Own work) [CC BY-SA 3.0 es][34], via Wikimedia Commons_
 
  [1]: /wp-content/uploads/2011/11/openstack-justheo.png
- [2]: /tag/whoa/
+ [2]: /tags/whoa/
  [3]: https://wiki.openstack.org/wiki/OpenStackAnsible
  [4]: http://openstack.org
  [5]: /2016/08/23/whats-happening-in-openstack-ansible-whoa-august-2016/

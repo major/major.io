@@ -106,7 +106,7 @@ The goal of this newsletter is three fold:
 Please let me know if you spot any errors, areas for improvement, or items that I missed altogether. I'm `mhayden` on Freenode IRC and you can find me on [Twitter][17] anytime.
 
  [1]: /wp-content/uploads/2011/11/openstack-justheo.png
- [2]: /tag/whoa/
+ [2]: /tags/whoa/
  [3]: http://releases.openstack.org/newton/schedule.html
  [4]: https://review.openstack.org/#/c/336505/
  [5]: https://review.openstack.org/#/c/342310/

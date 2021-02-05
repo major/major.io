@@ -157,7 +157,7 @@ The goal of this newsletter is three fold:
 Please let me know if you spot any errors, areas for improvement, or items that I missed altogether. I'm `mhayden` on Freenode IRC and you can find me on [Twitter][28] anytime.
 
  [1]: /wp-content/uploads/2011/11/openstack-justheo.png
- [2]: /tag/whoa/
+ [2]: /tags/whoa/
  [3]: https://wiki.openstack.org/wiki/OpenStackAnsible
  [4]: http://openstack.org
  [5]: https://major.io/2016/07/22/whats-happening-in-openstack-ansible-whoa-july-2016/
