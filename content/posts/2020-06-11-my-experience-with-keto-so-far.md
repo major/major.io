@@ -83,8 +83,8 @@ additional keto health benefits from you.
 There are two big benefits here: weight loss and health benefits.
 
 First, let's talk about weight loss. You can check Reddit's
-[r/keto](reddit.com/r/keto) for some amazing weight loss stories. People have
-loss hundreds of pounds and kept it off!
+[r/keto](https://reddit.com/r/keto) for some amazing weight loss stories.
+People have loss hundreds of pounds and kept it off!
 
 I started around 195 lbs (88.5 kg) and I am 6'1" (1.85 m) tall. After starting
 keto, my weight *increased* (as did my blood pressure). I was frustrated as
