@@ -46,7 +46,7 @@ The touchpad at the front of the laptop works quite well and the little trough r
 
 The trackpoint (also called &#8220;keyboard nipple&#8221;) is fine but I can't use it worth a darn. I'm downright horrible at it. That's not Lenovo's fault &#8212; my brain is probably dysfunctional. The trackpoint buttons (below the space bar) are hooked up to the touchpad and this has caused some problems. There's a fix to get the left and middle buttons working in Linux 4.0 and you'll [find that patch backported][8] in some other distributions, like Arch and Fedora. I don't use those buttons much but I could see how some people might want to do some two-handed click and drag gestures with them.
 
-All of the keys on the keyboard work as expected, but you'll need to [load up][9] the **thinkpad_acpi** module to get the brightness buttons working. In my case, I had to force the module to load since the module didn't recognize my embedded controller:
+All of the keys on the keyboard work as expected, but you'll need to load up the **thinkpad_acpi** module to get the brightness buttons working. In my case, I had to force the module to load since the module didn't recognize my embedded controller:
 
 ```
 modprobe thinkpad_acpi force_load=1
@@ -81,6 +81,5 @@ Thanks for reading this far! Let me know if I've missed anything and I'll be gla
  [6]: http://www.intel.com/support/wireless/wlan/sb/CS-034398.htm
  [7]: http://ark.intel.com/products/71307/Intel-Ethernet-Connection-I218-LM
  [8]: https://bugzilla.redhat.com/show_bug.cgi?id=1200778
- [9]: http://lxr.free-electrons.com/source/drivers/platform/x86/thinkpad_acpi.c
  [10]: http://en.wikipedia.org/wiki/PowerTOP
  [11]: https://wiki.archlinux.org/index.php/TLP
