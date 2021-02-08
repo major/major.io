@@ -41,7 +41,7 @@ Log into the Horizon panel and click **Compute > Images**. Click **+ Create Imag
 
   * **Name:** Fedora 24 Cloud Beta
   * **Image Source:** Image Location
-  * **Image Location:** http://mirrors.kernel.org/fedora/releases/test/24\_Beta/CloudImages/x86\_64/images/Fedora-Cloud-Base-24\_Beta-1.6.x86\_64.qcow2
+  * **Image Location:** See footnote[^1]
   * **Format:** QCOW2 - QEMU Emulator
   * **Copy Data:** _ensure the box is checked_
 
@@ -78,3 +78,5 @@ Not sure what to do next? Here are some suggestions:
  [8]: http://docs.openstack.org/developer/python-openstackclient/
  [10]: /wp-content/uploads/2016/05/horizon_image.png
  [11]: /2016/05/16/troubleshooting-openstack-network-connectivity/
+
+[^1]: Fedora 24 no longer exists on download mirrors.
