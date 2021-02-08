@@ -6459,7 +6459,7 @@ The Fedora Cloud image is available for download from your favorite local mirror
 <ul>
 <li><strong>Name:</strong> Fedora 24 Cloud Beta</li>
 <li><strong>Image Source:</strong> Image Location</li>
-<li><strong>Image Location:</strong> <a href="http://mirrors.kernel.org/fedora/releases/test/24">http://mirrors.kernel.org/fedora/releases/test/24</a>_Beta/CloudImages/x86_64/images/Fedora-Cloud-Base-24_Beta-1.6.x86_64.qcow2</li>
+<li><strong>Image Location:</strong> See footnote<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
 <li><strong>Format:</strong> QCOW2 - QEMU Emulator</li>
 <li><strong>Copy Data:</strong> <em>ensure the box is checked</em></li>
 </ul>
@@ -6478,6 +6478,14 @@ The Fedora Cloud image is available for download from your favorite local mirror
 <li>Test out your existing automation or configuration management tools</li>
 <li>Open bug tickets!</li>
 </ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Fedora 24 no longer exists on download mirrors. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 ]]></content></item><item><title>Troubleshooting OpenStack network connectivity</title><link>https://major.io/2016/05/16/troubleshooting-openstack-network-connectivity/</link><pubDate>Tue, 17 May 2016 02:43:41 +0000</pubDate><guid>https://major.io/2016/05/16/troubleshooting-openstack-network-connectivity/</guid><description>NOTE: This post is a work in progress. If you find something that I missed, feel free to leave a comment. I&amp;rsquo;ve made plenty of silly mistakes, but I&amp;rsquo;m sure I&amp;rsquo;ll make a few more. :)
 Completing a deployment of an OpenStack cloud is an amazing feeling. There is so much automation and power at your fingertips as soon as you&amp;rsquo;re finished. However, the mood quickly turns sour when you create that first instance and it never responds to pings.</description><content type="html"><![CDATA[<p><em>NOTE: This post is a work in progress. If you find something that I missed, feel free to leave a comment. I&rsquo;ve made plenty of silly mistakes, but I&rsquo;m sure I&rsquo;ll make a few more. :)</em></p>
 <hr>
