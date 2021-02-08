@@ -33,7 +33,7 @@ There are plenty of obvious things that came to mind when I thought about it:
   * Be a team player
   * Remember the customer
   * Think globally, act locally
-  * [Don't call the baby ugly][3]
+  * Don't "call the baby ugly"
   * Learn something new every day
 
 However, many of these are cliche or difficult to teach. It takes some real world experience with real people on real projects to really understand them. There must be some correlation between these things I've learned since I entered the business world.
@@ -98,7 +98,6 @@ _Photo Credit: [jinterwas][6] via [Compfight][7] [cc][8]_
 
  [1]: /2015/11/10/talking-to-college-students-about-information-security/
  [2]: http://utsa.edu
- [3]: http://blogs.msdn.com/b/anitag/archive/2015/01/29/my-baby-is-not-ugly.aspx
  [4]: http://www.poetryfoundation.org/poem/173536
  [5]: https://en.wikipedia.org/wiki/Not_invented_here
  [6]: https://www.flickr.com/photos/32135758@N02/15447911129/
