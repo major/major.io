@@ -145,7 +145,7 @@ _Photo credit: [Kev (Flickr)][13]_
  [7]: http://stores.ebay.com/MrRackables
  [8]: http://www.webhostingtalk.com/
  [9]: https://en.wikipedia.org/wiki/Burstable_billing
- [10]: http://www.semaphore.com/blog/94-95th-percentile-bandwidth-metering-explained-and-analyzed
+ [10]: https://en.wikipedia.org/wiki/Burstable_billing#95th_percentile
  [11]: https://en.wikipedia.org/wiki/Committed_information_rate
  [12]: http://corespace.com/
  [13]: https://www.flickr.com/photos/44176115@N07/15401776380/
