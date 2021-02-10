@@ -24,10 +24,8 @@ A quick Google search took me to a [LaunchPad entry][2] about a [better ICC prof
 Feel free to download a copy of the color profile and try it for yourself:
 
   * [Original Link][4]
-  * [Mirror][5]
 
  [1]: /2012/10/21/lenovo-thinkpad-t430s-review/
  [2]: https://answers.launchpad.net/ubuntu-certification/+question/177299
  [3]: http://www.notebookcheck.net/Review-Lenovo-ThinkPad-X1-Subnotebook.55370.0.html
  [4]: http://www.notebookcheck.net/uploads/tx_nbc2/Lenovo_ThinkPad_X1_1366x768_glare_LP133WH2-TLM5.icc
- [5]: http://dl.dropbox.com/u/1143344/Lenovo_ThinkPad_X1_1366x768_glare_LP133WH2-TLM5.icc
