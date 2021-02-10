@@ -1,4 +1,115 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Which stock broker should you use?</title><link>https://major.io/2021/01/24/which-stock-broker-should-you-use/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/24/which-stock-broker-should-you-use/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Defending losing options trades</title><link>https://major.io/2021/02/10/defending-losing-options-trades/</link><pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/02/10/defending-losing-options-trades/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
+You did your research. You waited for a good time to sell a put option. You received a decent premium for your option trade. Now your trade has turned into a loss. What can you do now?</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
+new to options trading, you may want to start with some of my earlier posts.</em></p>
+<figure>
+    <img src="/images/2020-02-10-defending-losing-options-trades.jpg"
+         alt="River running under a bridge with lots of trees"/> 
+</figure>
+
+<p>You did your research. You waited for a good time to sell a put option. You
+received a decent premium for your option trade. Now your trade has turned
+into a loss. What can you do now?</p>
+<p>There are good choices for these situations, but there&rsquo;s something important
+to remember. If you made the trade with strong conviction, you know your
+maximum loss, and you like the stock, then sticking with your original plan
+might be the best option.</p>
+<p>This post will cover some common options scenarios and what you can do to work
+through a losing trade.</p>
+<h2 id="losses-in-the-first-hour-after-making-the-trade">Losses in the first hour after making the trade</h2>
+<p>It&rsquo;s very common to sell an option, either puts or calls, and see the trade
+show up as a loss immediately. This is unsettling as you first get started
+with trading.</p>
+<p>Often times, this happens when you sell near the bid side of the bid/ask
+spread. Remember that these spreads have a few properties:</p>
+<ul>
+<li>Bid: What the buyers are offering to pay to buy an option.</li>
+<li>Ask: Price at which sellers are willing to sell their option.</li>
+<li>Mark: Halfway in between the bid and ask price.</li>
+<li>Last: The price of the last trade that was made.</li>
+</ul>
+<p>Almost all brokerage software shows the current price for a stock or option as
+the mark price. If the bid/ask spread is $1.00 and $1.10, then the mark is
+$1.05.</p>
+<p>If you sell an option at the bid price of $1.00, your trading software knows
+the mark price is $1.05. You will see a $0.05 loss on your trade. That doesn&rsquo;t
+mean that you <em>lost money</em>, but it does mean that you could have made an extra
+$5 in premium on the trade. To avoid this, make your next trade at the mark
+price or higher. Everything has a downside, and the downside of making a trade
+above the bid price is that your order fill may be delayed or may not occur at
+all.</p>
+<p>Keep in mind that when you sell options, you make more money on volatile
+stocks. Volatile stocks have a high probability of larger price changes. After
+you sell your option, the underlying stock can move downwards a little, and
+this makes your sold put more valuable. Stick with the conviction you had when
+you originally made the trade and give it a little more time.</p>
+<h2 id="the-underlying-stock-price-moved-down-closer-to-the-put-strike-price">The underlying stock price moved down closer to the put strike price</h2>
+<p>Let&rsquo;s say you&rsquo;ve sold a $100 put on your favorite stock, and a few days later,
+the stock moves down to around $102. You will see a loss in your trading
+software. The put option gained value as the stock moved closer to the strike
+price.</p>
+<p>At this point, you still have your premium in your pocket and the stock is
+still over the strike price. You are in a good position to exit the trade
+profitable and the best option here is to wait.</p>
+<p>On the flip side, if you sell a covered call at $110 and the stock creeps up
+to $108, your best option could be to wait.</p>
+<h2 id="the-stock-price-moved-just-under-the-put-strike-price">The stock price moved just under the put strike price</h2>
+<p>This was a spooky situation when I first started trading. Let&rsquo;s say you sold a
+$100 put for $2.50 premium and the stock moved down to $98. Your put is now
+&ldquo;in the money&rdquo; and it&rsquo;s a lot more valuable than it was when you first sold
+it. You will see a loss in your trading software.</p>
+<p>Your breakeven on this trade is $97.50 since the strike is $100 and you
+received $2.50 in premium. If the stock is at $98, then you are still sitting
+on a $50 profit.</p>
+<p>When my trades reach this point, I will usually hold and wait. Best case, the
+stock will go back over the strike price and I can buy back my put for a
+profit.</p>
+<p>If it expires in the money, but I am above the breakeven, I get a little less
+profit (still a profit!) and I hold 100 shares. I can then sell covered calls
+to collect more premium.</p>
+<h2 id="the-stock-price-moved-well-under-the-strike-price">The stock price moved well under the strike price</h2>
+<p>In our previous example, we sold a $100 put for $2.50 in premium. What if the
+stock price moves down to $90?</p>
+<p>At this point, you have a loss on paper of $750 since your breakeven is
+$97.50. Your put is &ldquo;in the money&rdquo; and you will likely be assigned 100 shares.
+Buying back the put doesn&rsquo;t make much sense here unless you have a <em>very
+strong</em> conviction that the stock is going to go down a <em>significant amount</em>.</p>
+<p>The goal is to reduce your cost basis. Your cost basis is how much you spent
+to get the shares you have. In this example, your cost basis is $97.50 when
+the stock price falls to $90.</p>
+<p><strong>Buy shares.</strong> You can reduce the cost basis by buying shares at $90. Do your
+research and ensure that the stock has some clear indicators that it is
+bottoming out. Use indicators like the 14 day RSI under 50%, stock price
+touching 50 or 200 day moving averages, or positive news about the company. Be
+careful here because you don&rsquo;t want to throw good money after bad.</p>
+<p>If you know you&rsquo;ll have 100 shares at a cost basis of $97.50, buy 100 more at
+$90. That lowers your cost basis down to $93.75. If the stock price begins
+moving up, you&rsquo;ll collect those gains and be able to sell two covered calls
+instead of just one.</p>
+<p><strong>Sell more puts.</strong> Selling puts allows you to collect more premium or
+potentially get assigned at a lower price. These can help you reduce your cost
+basis further. As said before, be sure to do your research to ensure the stock
+is bottoming out. Taking a loss on a second put will be frustrating.</p>
+<p>If you sell an $85 put for $3.00, the stock stays at $90, and you get assigned
+on your first put at a cost basis of $97.50, your cost basis drops to $94.50
+with the collected premium from the put.</p>
+<h2 id="closing-deep-thought-volatile-stocks-are-volatile">Closing deep thought: volatile stocks are volatile</h2>
+<p>The more volatile the stock, the higher the premium when you sell options.
+That&rsquo;s because the options buyer is paying a premium to transfer some risk to
+you, the seller. There&rsquo;s always a risk of getting assigned, and sometimes
+those assignments are done at a loss.</p>
+<p>When your option trade turns red, keep in mind that the volatility that sent
+the stock price down could easily send the stock price back up. You entered
+the trade with a strong conviction and often the best action to take is no
+action at all.</p>
+<p>Stay focused on your cost basis and think about what you can do to lower it.
+Buy shares when the stock falls and begins to bottom out or sell more options
+to collect premium.</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
+<p><em>Photo credit: <a href="https://unsplash.com/@profepix">Yuriy Bogdanov on Unsplash</a></em></p>
+]]></content></item><item><title>Which stock broker should you use?</title><link>https://major.io/2021/01/24/which-stock-broker-should-you-use/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/24/which-stock-broker-should-you-use/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
 One of my sports coaches in high school used to say: &amp;ldquo;It&amp;rsquo;s not the tool, it&amp;rsquo;s the fool.&amp;rdquo; This was his reminder that when something goes wrong in the game, it&amp;rsquo;s usually the fault of the person and not the equipment.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
 <figure>
@@ -188,6 +299,10 @@ situations where I couldn&rsquo;t enter a GTC order for options trades.</p>
 <p>You can&rsquo;t queue orders outside of certain hours either. Sometimes I would want
 to adjust an order right before going to sleep but I wasn&rsquo;t allowed to change
 my queued order until the next morning just before the market&rsquo;s open.</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@edanco">Edan Cohen on Unsplash</a></em></p>
 ]]></content></item><item><title>Choosing options to sell</title><link>https://major.io/2021/01/23/choosing-options-to-sell/</link><pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/23/choosing-options-to-sell/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
 You know your terminology, you know your max loss, and you are ready to start. Now you&amp;rsquo;re faced with the difficult question all new options traders face:
@@ -386,6 +501,10 @@ by collecting profit early and freeing up capital for another trade.</p>
 <p>One big part of risk management in the market is to keep your capital at risk
 for the shortest amount of time possible to make the returns you want.</p>
 <p>Good luck! 🍀</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@tomas_nz">Tomas Sobek on Unsplash</a></em></p>
 ]]></content></item><item><title>Lessons learned from selling puts</title><link>https://major.io/2021/01/04/lessons-learned-from-selling-puts/</link><pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/04/lessons-learned-from-selling-puts/</guid><description>🤔 This is another post in a set of posts on options trading on the blog. If you are confused on terminology, go back and start with the first post and the series and work your way to this one.
 My options trading journey started back in September 2020 and I learned a lot in a short amount of time. This post covers some of the lessons I&amp;rsquo;ve learned along the way.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a> on the blog.
@@ -590,6 +709,10 @@ people and told them what I thought I did wrong.</p>
 <p>The loss still hurts, but I&rsquo;m trading again to make up the loss. My goal is
 still to donate a percentage of my gains to charity, so I keep that goal in
 mind. The key is to stay in the game.</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz on Unsplash</a></em></p>
 ]]></content></item><item><title>Know your max loss</title><link>https://major.io/2020/12/09/know-your-max-loss/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/09/know-your-max-loss/</guid><description>This is the third post in a series of posts on options trading. You can read this one out of order since it applies to almost everything you do in the stock market, including buying shares of stock.
 What is &amp;ldquo;max loss&amp;rdquo; The maximum loss on a trade is the worst outcome possible. Knowing this number helps you protect your account from huge losses and avoids terrible situations such as margin calls.</description><content type="html"><![CDATA[<figure>
@@ -733,6 +856,10 @@ was a daily reminder of two things:</p>
 <li>I was fully prepared for maximum loss.</li>
 </ol>
 <p>💸</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@trapnation">Andre Benz on Unsplash</a></em></p>
 ]]></content></item><item><title>The Dark Side: Selling Options</title><link>https://major.io/2020/12/07/the-dark-side-selling-options/</link><pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/07/the-dark-side-selling-options/</guid><description>I&amp;rsquo;ve started a series of posts on options trading and if you haven&amp;rsquo;t read yesterdays post, Options trading introduction, you should start there first.
 Recap: Buying calls and puts Just to recap the introductory post:
@@ -948,6 +1075,10 @@ $500 in premium).</p>
 <li>If assigned, go back to step 1</li>
 </ol>
 <p>This strategy will be covered in the next post!</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@ripato">Ricardo Gomez Angel on Unsplash</a></em></p>
 ]]></content></item><item><title>Options trading introduction</title><link>https://major.io/2020/12/06/options-trading-introduction/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/06/options-trading-introduction/</guid><description>I&amp;rsquo;m always on the hunt for new things to learn and one of my newer interests is around trading options on the stock market. Much like technology, it becomes much easier to understand when you peel back the layers of archaic terminology, snake oil salespeople, and debunked data.
 Stay tuned for additional posts that go into greater detail. This post covers the basics about what an option is (and is not) and how you can compare it to other investment vehicles, like stocks.</description><content type="html"><![CDATA[<figure>
@@ -1139,6 +1270,10 @@ so don&rsquo;t start trading yet.</strong></em></p>
 <p>I&rsquo;m planning future posts about selling options contracts, how to choose the
 options to sell and buy, as well as many other ways you can gain (and lose)
 money with options contracts.</p>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@johnwestrock">Dave Hoefler on Unsplash</a></em></p>
 ]]></content></item><item><title>Build AWS images with Image Builder</title><link>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</guid><description>The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.
 You can get a customized image via a few methods:
