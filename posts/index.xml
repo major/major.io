@@ -6661,7 +6661,7 @@ This post will explain why I decided to try colocation and will hopefully help y
 <p>If you have similar preferences, the rest of this post should be a good guide for getting started with a colocation environment.</p>
 <h2 id="step-1-buy-quality-parts">Step 1: Buy quality parts</h2>
 <p>Seriously - <strong>buy quality parts</strong>. That doesn&rsquo;t mean you need to go buy the newest server available from a well-known manufacturer, but you do need to find reliable parts in a new or used server.</p>
-<p>I&rsquo;ve built my environment entirely with <a href="https://www.supermicro.com/">Supermicro</a> servers. The <a href="http://www.supermicro.com/products/motherboard/Xeon/C202_C204/X9SCi-LN4F.cfm">X9SCi-LN4F</a> servers have been extremely reliable. My first two came brand new from <a href="http://www.siliconmechanics.com/">Silicon Mechanics</a> and I&rsquo;m a big fan of their products. Look at their <a href="http://www.siliconmechanics.com/i66559/entry-xeon-server.php">Rackform R.133</a> for something very similar to what I have.</p>
+<p>I&rsquo;ve built my environment entirely with <a href="https://www.supermicro.com/">Supermicro</a> servers. The <a href="http://www.supermicro.com/products/motherboard/Xeon/C202_C204/X9SCi-LN4F.cfm">X9SCi-LN4F</a> servers have been extremely reliable. My first two came brand new from <a href="http://www.siliconmechanics.com/">Silicon Mechanics</a> and I&rsquo;m a big fan of their products. Look at their Rackform R.133 for something very similar to what I have.</p>
 <p>My last three have all come from <a href="http://stores.ebay.com/MrRackables">Mr. Rackables</a> (an eBay seller). They&rsquo;re used X9SCi-LN4F servers, but they&rsquo;re all in good condition. I couldn&rsquo;t beat the price for those servers, either.</p>
 <p>Before you buy, do some reading on brand reliability and compatibility. If you plan to run Linux, do a Google search for the model of the server and the version of Linux you plan to run. Also, take a moment to poke around some forums to see what other people think of the server. Go to <a href="http://www.webhostingtalk.com/">WebHostingTalk</a> and search for hardware there, too.</p>
 <p>Buying quality parts gives you a little extra piece of mind, especially if your colo is a long drive from your home or work.</p>
@@ -6689,7 +6689,7 @@ This post will explain why I decided to try colocation and will hopefully help y
 <p>There are four main ways that most colocation providers handle networking:</p>
 <h3 id="95th-percentile">95th percentile</h3>
 <p>This is sometimes called <a href="https://en.wikipedia.org/wiki/Burstable_billing">burstable billing</a> since it allows you to have traffic bursts without getting charged a lot for it. In the old days, you had to commit to a rate and stick with it (more on that method next). 95th percentile billing allows you to have some spikes during the measurement period without requiring negotiations for a higher transfer rate.</p>
-<p>Long story short, this billing method measures your bandwidth on regular intervals and throws out the top 5% of your intervals. This means that some unusual spikes (so long as it&rsquo;s less than 36 hours in a month) won&rsquo;t cause you to need a higher committed rate. For most people, this measurement method is beneficial since your spikes are thrown out. However, if you have sustained spikes, <a href="http://www.semaphore.com/blog/94-95th-percentile-bandwidth-metering-explained-and-analyzed">this billing method can be painful</a>.</p>
+<p>Long story short, this billing method measures your bandwidth on regular intervals and throws out the top 5% of your intervals. This means that some unusual spikes (so long as it&rsquo;s less than 36 hours in a month) won&rsquo;t cause you to need a higher committed rate. For most people, this measurement method is beneficial since your spikes are thrown out. However, if you have sustained spikes, <a href="https://en.wikipedia.org/wiki/Burstable_billing#95th_percentile">this billing method can be painful</a>.</p>
 <h3 id="committed-rate">Committed rate</h3>
 <p>If you see a datacenter say something like &ldquo;$15 per megabit&rdquo;, they&rsquo;re probably measuring with <a href="https://en.wikipedia.org/wiki/Committed_information_rate">committed rates</a>. In this model, you choose a rate, like 10 megabits/second, and pay based on that rate. At $15 per megabit, your bandwidth charge would be $150 per month. The actual space in the rack and the power often costs extra.</p>
 <p>Some people have good things to say about this billing method, but it seems awful to me. If you end up using 1 megabit per second, you still get billed for 10. If you have some spikes that creep over 10 megabit, even if you stay well under that rate as an average, the datacenter folks will ask you to do a higher commit. That means more money for something you may or may not use.</p>
@@ -9739,7 +9739,7 @@ add address=2605:xxxx:xxxx:xxxx:: from-pool=twc interface=lanbridge
 <p>Getting assistance from Time Warner is a real challenge. Everyone I&rsquo;ve contacted via phone or Twitter has not been able to help and many of them don&rsquo;t even know what IPv6 is. I was even told &ldquo;we have plenty of regular IPv4 addresses left, don&rsquo;t worry&rdquo; when I asked for help. Even my unusual methods haven&rsquo;t worked:</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p>My old <a href="http://www.timewarnercable.com/en/residential-home/support/faqs/faqs-equipment-and-instruction-manuals/modems/motorola/motorola-surfboard-sbg6580.html">SBG6580</a> that was issued by Time Warner wouldn&rsquo;t ever do IPv6 reliably. I ended up buying a <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16825122015">SB6121</a> and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I&rsquo;ll be upgrading it if <a href="http://www.timewarnercable.com/en/about-us/press/time-warner-cable-begins-twc-maxx-transformation-in-austin-area-.html">TWC MAXX</a> shows up in San Antonio.</p>
+<p>My old <a href="http://www.timewarnercable.com/en/residential-home/support/faqs/faqs-equipment-and-instruction-manuals/modems/motorola/motorola-surfboard-sbg6580.html">SBG6580</a> that was issued by Time Warner wouldn&rsquo;t ever do IPv6 reliably. I ended up buying a <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16825122015">SB6121</a> and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I&rsquo;ll be upgrading it if TWC MAXX shows up in San Antonio.</p>
 <h3 id="get-a-56">Get a /56</h3>
 <p>You can get a /56 block of IP addresses from Time Warner by adding <code>prefix-hint=::/56</code> onto your IPv6 dhcp client configuration. You&rsquo;ll need to carve out some /64 subnets on your own for your internal network and that&rsquo;s outside the scope of this post. The prefix hint configuration isn&rsquo;t available in the graphical interface or on the web (at the time of this post&rsquo;s writing).</p>
 ]]></content></item><item><title>Asus Maximus VI Gene – Error 55</title><link>https://major.io/2014/08/22/asus-maximus-vi-gene-error-55/</link><pubDate>Fri, 22 Aug 2014 14:20:23 +0000</pubDate><guid>https://major.io/2014/08/22/asus-maximus-vi-gene-error-55/</guid><description>It&amp;rsquo;s been quite a while since I built a computer but I decided to give it a try for a new hypervisor/NAS box at home. I picked up an Asus Maximus VI Gene motherboard since it had some good parts installed and it seems to work well with Linux. This was my first time doing water cooling for the CPU and I picked up a Seidon 240M after getting some recommendations.</description><content type="html"><![CDATA[<p>It&rsquo;s been quite a while since I built a computer but I decided to give it a try for a new hypervisor/NAS box at home. I picked up an <a href="http://www.asus.com/Motherboards/MAXIMUS_VI_GENE/">Asus Maximus VI Gene</a> motherboard since it had some good parts installed and it seems to work well with Linux. This was my first time doing water cooling for the CPU and I picked up a <a href="http://www.coolermaster.com/cooling/cpu-liquid-cooler/seidon-240m/">Seidon 240M</a> after getting some recommendations.</p>
@@ -11882,23 +11882,93 @@ I&amp;rsquo;m extremely glad to be a tiny part of the OpenStack story and I&amp;
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>I&rsquo;m extremely glad to be a tiny part of the OpenStack story and I&rsquo;m proud to see where it&rsquo;s going today. My goals are to make OpenStack environments easier to deploy, maintain and administer. Along with other Rackers, we&rsquo;re making this happen each day and we plan to share our successes and hardships with the community.</p>
 <p>If you&rsquo;re interested in working on OpenStack at Rackspace, feel free to reach out to me or <a href="http://rackertalent.com/">learn more about our open positions</a>.</p>
-]]></content></item><item><title>Going back to Linux as a desktop</title><link>https://major.io/2012/10/12/going-back-to-linux-as-a-desktop/</link><pubDate>Fri, 12 Oct 2012 13:43:01 +0000</pubDate><guid>https://major.io/2012/10/12/going-back-to-linux-as-a-desktop/</guid><description>Although I&amp;rsquo;ve been exclusively using a Mac for everything but servers since about 2008, I found myself considering a move back to Linux on the desktop after seeing how some people were using it at LinuxCon. My conversion from the iPhone to Android was rocky for a very brief period and now I can&amp;rsquo;t think of a reason to ever go back. I approached Linux in the same way and ordered a new ThinkPad shortly after returning from the conference.</description><content type="html"><![CDATA[<p>Although I&rsquo;ve been exclusively using a Mac for everything but servers since about 2008, I found myself considering a move back to Linux on the desktop after seeing how some people were using it at LinuxCon. My <a href="/2012/09/06/one-week-with-android/">conversion from the iPhone to Android</a> was rocky for a very brief period and now I can&rsquo;t think of a reason to ever go back. I approached Linux in the same way and ordered a new ThinkPad shortly after returning from the conference.</p>
-<p>The ThinkPad ordering experience was one of the worst retail experiences I&rsquo;ve had so far but that&rsquo;s a separate discussion for a separate post (that&rsquo;s on the way soon). This post is focused only on my experience getting back into a Linux desktop for the first time in four years.</p>
+]]></content></item><item><title>Going back to Linux as a desktop</title><link>https://major.io/2012/10/12/going-back-to-linux-as-a-desktop/</link><pubDate>Fri, 12 Oct 2012 13:43:01 +0000</pubDate><guid>https://major.io/2012/10/12/going-back-to-linux-as-a-desktop/</guid><description>Although I&amp;rsquo;ve been exclusively using a Mac for everything but servers since about 2008, I found myself considering a move back to Linux on the desktop after seeing how some people were using it at LinuxCon. My conversion from the iPhone to Android was rocky for a very brief period and now I can&amp;rsquo;t think of a reason to ever go back. I approached Linux in the same way and ordered a new ThinkPad shortly after returning from the conference.</description><content type="html"><![CDATA[<p>Although I&rsquo;ve been exclusively using a Mac for everything but servers since
+about 2008, I found myself considering a move back to Linux on the desktop
+after seeing how some people were using it at LinuxCon. My <a href="/2012/09/06/one-week-with-android/">conversion from
+the iPhone to Android</a> was rocky for a very brief period and now I can&rsquo;t
+think of a reason to ever go back. I approached Linux in the same way and
+ordered a new ThinkPad shortly after returning from the conference.</p>
+<p>The ThinkPad ordering experience was one of the worst retail experiences I&rsquo;ve
+had so far but that&rsquo;s a separate discussion for a separate post (that&rsquo;s on the
+way soon). This post is focused only on my experience getting back into a
+Linux desktop for the first time in four years.</p>
 <p><strong>The Good</strong></p>
-<p>Linux hardware support has come a really long way over the past few years. All of my hardware was recognized and configured in Fedora 17 without any action on my part. The fingerprint reader has some proprietary firmware that couldn&rsquo;t be automatically loaded (which didn&rsquo;t bother me much). Getting network connectivity via ethernet, WiFi and even a 4G USB stick was surprisingly simple. Battery life was longer in Linux than in Windows and I was glad to see that the power management features were working well and already configured how I&rsquo;d like them to be.</p>
-<p>I knew I wasn&rsquo;t a fan of GNOME 3 already, so I loaded up KDE and XFCE. Both worked extremely well with great performance. Desktop effects were really responsive and I never saw flickering, crashes, or artifacts. Those were a lot more frequent previously. I eventually settled into the i3 window manager and got into a keyboard-based workflow with tiled windows. It was shocking to see how much time I could save with a tiled window manager when I wasn&rsquo;t pushing and resizing windows every time I opened a new app or a new window.</p>
-<p>The raw X performance has improved drastically. In i3, I rarely found myself waiting for anything to render and any changes to my desktop were speedy. Font smoothing and rendering has also come a long way. OS X still leads this category for me, but I was glad to see some serious advancements in Linux in this area.</p>
-<p>One of the biggest worries I had about Linux was email. I need Exchange connectivity with good calendaring support for work and I didn&rsquo;t enjoy using Evolution in the past. My choice this time around was Thunderbird with the Lightning plugin for calendaring and Enigmail for GPG signing and encryption. I stacked that on the davmail gateway for Exchange connectivity. This worked <em>surprisingly</em> well. The performance could have been a bit better, but as far as functionality is concerned, everything I tried worked. Creating meeting invitations, responding to meeting invitations, handling email, and searching the GAL was a relatively smooth experience.</p>
-<p>Chrome was easy to install and very stable. Using Skype with video was a breeze and I was on TeamSpeak calls with my team at work within a few minutes. I had a slew of terminals to choose from and I settled on <a href="http://www.tenshu.net/p/terminator.html">terminator</a> since I could have tiled terminals in my tiled window manager (which I&rsquo;m sure Xzibit would approve).</p>
-<p>Virtualization was simple and I was a few package installs away from running KVM. Xen also worked well via virt-manager and the performance was excellent. I installed VMWare Workstation since it was my favorite before, but it caused stack traces in the kernel and I eventually had to remove it.</p>
+<p>Linux hardware support has come a really long way over the past few years. All
+of my hardware was recognized and configured in Fedora 17 without any action
+on my part. The fingerprint reader has some proprietary firmware that couldn&rsquo;t
+be automatically loaded (which didn&rsquo;t bother me much). Getting network
+connectivity via ethernet, WiFi and even a 4G USB stick was surprisingly
+simple. Battery life was longer in Linux than in Windows and I was glad to see
+that the power management features were working well and already configured
+how I&rsquo;d like them to be.</p>
+<p>I knew I wasn&rsquo;t a fan of GNOME 3 already, so I loaded up KDE and XFCE. Both
+worked extremely well with great performance. Desktop effects were really
+responsive and I never saw flickering, crashes, or artifacts. Those were a lot
+more frequent previously. I eventually settled into the i3 window manager and
+got into a keyboard-based workflow with tiled windows. It was shocking to see
+how much time I could save with a tiled window manager when I wasn&rsquo;t pushing
+and resizing windows every time I opened a new app or a new window.</p>
+<p>The raw X performance has improved drastically. In i3, I rarely found myself
+waiting for anything to render and any changes to my desktop were speedy. Font
+smoothing and rendering has also come a long way. OS X still leads this
+category for me, but I was glad to see some serious advancements in Linux in
+this area.</p>
+<p>One of the biggest worries I had about Linux was email. I need Exchange
+connectivity with good calendaring support for work and I didn&rsquo;t enjoy using
+Evolution in the past. My choice this time around was Thunderbird with the
+Lightning plugin for calendaring and Enigmail for GPG signing and encryption.
+I stacked that on the davmail gateway for Exchange connectivity. This worked
+<em>surprisingly</em> well. The performance could have been a bit better, but as far
+as functionality is concerned, everything I tried worked. Creating meeting
+invitations, responding to meeting invitations, handling email, and searching
+the GAL was a relatively smooth experience.</p>
+<p>Chrome was easy to install and very stable. Using Skype with video was a
+breeze and I was on TeamSpeak calls with my team at work within a few minutes.
+I had a slew of terminals to choose from and I settled on <a href="https://terminator-gtk3.readthedocs.io/en/latest/">terminator</a>
+since I could have tiled terminals in my tiled window manager (which I&rsquo;m sure
+Xzibit would approve).</p>
+<p>Virtualization was simple and I was a few package installs away from running
+KVM. Xen also worked well via virt-manager and the performance was excellent.
+I installed VMWare Workstation since it was my favorite before, but it caused
+stack traces in the kernel and I eventually had to remove it.</p>
 <p><strong>The Bad</strong></p>
-<p>I have yet to find a Twitter client for Linux that I enjoy using. It took me forever to find even one application which used Twitter&rsquo;s streaming API (which was released almost three years ago). Many of the applications were either difficult to use, had confusing UI&rsquo;s, or wasted so much screen real estate that they became a nuisance. Text-based clients looked good at first glance but then I became frustrated with the inability to quickly see conversations or see what a particular reply was referring to in my timeline. My current Mac client is <a href="https://sites.google.com/site/yorufukurou/home-en">Yorufukurou</a>.</p>
-<p>Music management was another sore spot. Some applications, like audacious, fit the bill perfectly for basic internet radio streaming and playing small albums. If I tried to look for an application to replace iTunes (library management, internet radio, podcasts, and sync with a mobile device), I ended up with Songbird, amarok and rhythmbox. Songbird was fair but lacked a lot of features that I was eager to get. At first, amarok and rhythmbox looked like winners but managing a library with them was taking much more time than I was willing to invest.</p>
-<p>The ThinkPad screen is very washed out by default but I found quite a few forum posts talking about applying ICM profiles to correct it. Quite a few people made that adjustment in Windows with some very good results. I tried to do the same in Fedora 17 but struggled after working through several different methods. Fedora 18 is going to have gnome-color-manager from the start and it will probably make that process a little easier. Getting a DisplayLink adapter working in Fedora 17 was problematic but I&rsquo;ve read that native support for configuring these devices is coming soon.</p>
+<p>I have yet to find a Twitter client for Linux that I enjoy using. It took me
+forever to find even one application which used Twitter&rsquo;s streaming API (which
+was released almost three years ago). Many of the applications were either
+difficult to use, had confusing UI&rsquo;s, or wasted so much screen real estate
+that they became a nuisance. Text-based clients looked good at first glance
+but then I became frustrated with the inability to quickly see conversations
+or see what a particular reply was referring to in my timeline. My current Mac
+client is <a href="https://sites.google.com/site/yorufukurou/home-en">Yorufukurou</a>.</p>
+<p>Music management was another sore spot. Some applications, like audacious, fit
+the bill perfectly for basic internet radio streaming and playing small
+albums. If I tried to look for an application to replace iTunes (library
+management, internet radio, podcasts, and sync with a mobile device), I ended
+up with Songbird, amarok and rhythmbox. Songbird was fair but lacked a lot of
+features that I was eager to get. At first, amarok and rhythmbox looked like
+winners but managing a library with them was taking much more time than I was
+willing to invest.</p>
+<p>The ThinkPad screen is very washed out by default but I found quite a few
+forum posts talking about applying ICM profiles to correct it. Quite a few
+people made that adjustment in Windows with some very good results. I tried to
+do the same in Fedora 17 but struggled after working through several different
+methods. Fedora 18 is going to have gnome-color-manager from the start and it
+will probably make that process a little easier. Getting a DisplayLink adapter
+working in Fedora 17 was problematic but I&rsquo;ve read that native support for
+configuring these devices is coming soon.</p>
 <p><strong>Conclusion</strong></p>
-<p>Linux on the desktop has really improved a substantial amount but I&rsquo;m leaning back towards the Mac. Although a portion of that decision centers around the Mac hardware, the majority of the decision hinges on my workflow and the quality of the applications available for my specific needs. I found myself much less distracted in Linux mainly because it was more difficult for me to interact with my coworkers and friends than it was on the Mac.</p>
-<p>For a fair fight, I may try to get Linux going on my MacBook to ensure I&rsquo;m comparing apples to apples. I&rsquo;ll save that for later this year when Fedora 18 is released.</p>
-<p>Keep in mind that everyone has a unique workflow and mine may be much different than yours. I&rsquo;m eager to read your comments and I welcome any feedback you have.</p>
+<p>Linux on the desktop has really improved a substantial amount but I&rsquo;m leaning
+back towards the Mac. Although a portion of that decision centers around the
+Mac hardware, the majority of the decision hinges on my workflow and the
+quality of the applications available for my specific needs. I found myself
+much less distracted in Linux mainly because it was more difficult for me to
+interact with my coworkers and friends than it was on the Mac.</p>
+<p>For a fair fight, I may try to get Linux going on my MacBook to ensure I&rsquo;m
+comparing apples to apples. I&rsquo;ll save that for later this year when Fedora 18
+is released.</p>
+<p>Keep in mind that everyone has a unique workflow and mine may be much
+different than yours. I&rsquo;m eager to read your comments and I welcome any
+feedback you have.</p>
 ]]></content></item><item><title>Automatic package updates in CentOS 6</title><link>https://major.io/2012/09/21/automatic-package-updates-in-centos-6/</link><pubDate>Fri, 21 Sep 2012 13:21:01 +0000</pubDate><guid>https://major.io/2012/09/21/automatic-package-updates-in-centos-6/</guid><description>Automating package updates in CentOS 6 is a quick process and it ensures that your system receives the latest available security patches, bugfixes and enhancements. Although it&amp;rsquo;s easy and available right from yum on a normal CentOS 6 system, I still find that many people aren&amp;rsquo;t aware of it.
 Before you enable automatic updates, you&amp;rsquo;ll want to ensure that you&amp;rsquo;re excluding certain packages which may be integral to your system. You can either make a list of those packages now or configure the automated updates so that you&amp;rsquo;re emailed a report of what needs to be installed rather than having those packages installed automatically.</description><content type="html"><![CDATA[<p>Automating package updates in CentOS 6 is a quick process and it ensures that your system receives the latest available security patches, bugfixes and enhancements. Although it&rsquo;s easy and available right from yum on a normal CentOS 6 system, I still find that many people aren&rsquo;t aware of it.</p>
 <p>Before you enable automatic updates, you&rsquo;ll want to ensure that you&rsquo;re excluding certain packages which may be integral to your system. You can either make a list of those packages now or configure the automated updates so that you&rsquo;re emailed a report of what needs to be installed rather than having those packages installed automatically.</p>
