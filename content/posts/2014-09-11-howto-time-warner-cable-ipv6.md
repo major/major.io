@@ -133,7 +133,7 @@ Getting assistance from Time Warner is a real challenge. Everyone I've contacted
 
 
 
-My old [SBG6580][19] that was issued by Time Warner wouldn't ever do IPv6 reliably. I ended up buying a [SB6121][20] and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I'll be upgrading it if [TWC MAXX][21] shows up in San Antonio.
+My old [SBG6580][19] that was issued by Time Warner wouldn't ever do IPv6 reliably. I ended up buying a [SB6121][20] and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I'll be upgrading it if TWC MAXX shows up in San Antonio.
 
 ### Get a /56
 
@@ -159,4 +159,3 @@ You can get a /56 block of IP addresses from Time Warner by adding `prefix-hint=
  [18]: https://en.wikipedia.org/wiki/Link-local_address
  [19]: http://www.timewarnercable.com/en/residential-home/support/faqs/faqs-equipment-and-instruction-manuals/modems/motorola/motorola-surfboard-sbg6580.html
  [20]: http://www.newegg.com/Product/Product.aspx?Item=N82E16825122015
- [21]: http://www.timewarnercable.com/en/about-us/press/time-warner-cable-begins-twc-maxx-transformation-in-austin-area-.html
