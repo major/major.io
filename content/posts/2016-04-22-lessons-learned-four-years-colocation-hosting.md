@@ -46,7 +46,7 @@ If you have similar preferences, the rest of this post should be a good guide fo
 
 Seriously - **buy quality parts**. That doesn't mean you need to go buy the newest server available from a well-known manufacturer, but you do need to find reliable parts in a new or used server.
 
-I've built my environment entirely with [Supermicro][3] servers. The [X9SCi-LN4F][4] servers have been extremely reliable. My first two came brand new from [Silicon Mechanics][5] and I'm a big fan of their products. Look at their [Rackform R.133][6] for something very similar to what I have.
+I've built my environment entirely with [Supermicro][3] servers. The [X9SCi-LN4F][4] servers have been extremely reliable. My first two came brand new from [Silicon Mechanics][5] and I'm a big fan of their products. Look at their Rackform R.133 for something very similar to what I have.
 
 My last three have all come from [Mr. Rackables][7] (an eBay seller). They're used X9SCi-LN4F servers, but they're all in good condition. I couldn't beat the price for those servers, either.
 
@@ -142,7 +142,6 @@ _Photo credit: [Kev (Flickr)][13]_
  [3]: https://www.supermicro.com/
  [4]: http://www.supermicro.com/products/motherboard/Xeon/C202_C204/X9SCi-LN4F.cfm
  [5]: http://www.siliconmechanics.com/
- [6]: http://www.siliconmechanics.com/i66559/entry-xeon-server.php
  [7]: http://stores.ebay.com/MrRackables
  [8]: http://www.webhostingtalk.com/
  [9]: https://en.wikipedia.org/wiki/Burstable_billing
