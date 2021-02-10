@@ -250,4 +250,9 @@ The strategy shown here is called the wheel strategy. It involves these steps:
 
 This strategy will be covered in the next post!
 
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
+
 *Photo credit: [Ricardo Gomez Angel on Unsplash](https://unsplash.com/@ripato)*

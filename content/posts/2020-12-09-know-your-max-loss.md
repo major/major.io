@@ -198,4 +198,9 @@ was a daily reminder of two things:
 
 [The Dark Side: Selling Options]: /2020/12/07/the-dark-side-selling-options/
 
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
+
 *Photo credit: [Andre Benz on Unsplash](https://unsplash.com/@trapnation)*

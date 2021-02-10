@@ -270,4 +270,9 @@ The loss still hurts, but I'm trading again to make up the loss. My goal is
 still to donate a percentage of my gains to charity, so I keep that goal in
 mind. The key is to stay in the game.
 
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
+
 *Photo credit: [Artem Kniaz on Unsplash](https://unsplash.com/@artem_kniaz)*

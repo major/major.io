@@ -261,6 +261,9 @@ You can't queue orders outside of certain hours either. Sometimes I would want
 to adjust an order right before going to sleep but I wasn't allowed to change
 my queued order until the next morning just before the market's open.
 
-
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
 
 *Photo credit: [Edan Cohen on Unsplash](https://unsplash.com/@edanco)*

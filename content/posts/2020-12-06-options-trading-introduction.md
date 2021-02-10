@@ -229,4 +229,9 @@ I'm planning future posts about selling options contracts, how to choose the
 options to sell and buy, as well as many other ways you can gain (and lose)
 money with options contracts.
 
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
+
 *Photo credit: [Dave Hoefler on Unsplash](https://unsplash.com/@johnwestrock)*

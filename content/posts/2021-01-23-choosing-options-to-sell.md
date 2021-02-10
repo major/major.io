@@ -44,7 +44,7 @@ much money you are risking on the trade.
 
 For example, if you sell a $90 put option on AMD, then you are risking $9,000
 on the trade. The chances of AMD rocketing to $0 is extremely unlikely, but
-anything is possible. 
+anything is possible.
 
 Compare the size of your trade to the size of your account. Risking $9,000 in
 a $10,000 account may not be the best idea for new traders since you are
@@ -250,5 +250,10 @@ Good luck! 🍀
 [take an example from a PLTR trade I did last month]: https://thetagang.com/mhayden/4378b667-d325-4b82-92ca-138f340acacb
 
 [logging my trades on thetagang.com]: https://thetagang.com/mhayden
+
+*Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I'm the last person who should be giving anyone
+investment advice.* 😜
 
 *Photo credit: [Tomas Sobek on Unsplash](https://unsplash.com/@tomas_nz)*
