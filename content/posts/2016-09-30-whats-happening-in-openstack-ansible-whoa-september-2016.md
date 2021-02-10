@@ -85,7 +85,7 @@ This section covers some of the improvements coming to Newton, the upcoming Open
 
 ### OpenStack-Ansible Training
 
-[<img src="/wp-content/uploads/2016/09/hastexo-logo-e1475245310720.png" alt="Hastexo logo" width="149" height="110" class="alignright size-full wp-image-6482" />][25][Hastexo][26] is now offering a [self-paced course][27] for learning OpenStack-Ansible! It's called [HX201 Cloud Fundamentals for OpenStack-Ansible][28] and it is available now.
+[<img src="/wp-content/uploads/2016/09/hastexo-logo-e1475245310720.png" alt="Hastexo logo" width="149" height="110" class="alignright size-full wp-image-6482" />][25][Hastexo][26] is now offering a [self-paced course][27] for learning OpenStack-Ansible! It's called HX201 Cloud Fundamentals for OpenStack-Ansible and it is available now.
 
 Thanks to Florian Haas and Adolfo Brandes for assembling this course!
 
@@ -146,7 +146,6 @@ _Photo credit: Mattia Felice Palermo (Own work) [CC BY-SA 3.0 es][34], via Wikim
  [25]: /wp-content/uploads/2016/09/hastexo-logo-e1475245310720.png
  [26]: https://www.hastexo.com/
  [27]: https://www.hastexo.com/resources/news-releases/hx201-ansible
- [28]: https://academy.hastexo.com/courses/course-v1:hastexo+hx201+201609-ansible/about
  [29]: /wp-content/uploads/2016/09/OSIC-Logo.png
  [30]: https://osic.org/
  [31]: https://osic.org/clusters
