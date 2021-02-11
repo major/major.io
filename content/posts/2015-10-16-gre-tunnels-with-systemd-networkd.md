@@ -85,6 +85,7 @@ MTUBytes=1480
 
 [Tunnel]
 Remote=[public ip of remote server]
+Local=[public ip of local server]
 ```
 
 We're making a new network device called `gre-example` here and we're telling systemd-networkd about the servers participating in the link. Add this configuration file to **both hosts** but be sure that your `Remote=` line is correct. If you're writing the configuration file for the **first** host, then the `Remote=` line should have the IP address of your **second** host. Do the same thing on the second host, but use the IP address of your first host there.
