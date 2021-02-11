@@ -7393,6 +7393,7 @@ MTUBytes<span style="color:#719e07">=</span><span style="color:#2aa198">1480</sp
 
 <span style="color:#719e07">[Tunnel]</span>
 Remote<span style="color:#719e07">=</span><span style="color:#2aa198">[public ip of remote server]</span>
+Local<span style="color:#719e07">=</span><span style="color:#2aa198">[public ip of local server]</span>
 </code></pre></div><p>We&rsquo;re making a new network device called <code>gre-example</code> here and we&rsquo;re telling systemd-networkd about the servers participating in the link. Add this configuration file to <strong>both hosts</strong> but be sure that your <code>Remote=</code> line is correct. If you&rsquo;re writing the configuration file for the <strong>first</strong> host, then the <code>Remote=</code> line should have the IP address of your <strong>second</strong> host. Do the same thing on the second host, but use the IP address of your first host there.</p>
 <p>Now that we have a network device, we need to tell systemd-networkd how to configure the IP address on these new GRE tunnels. Let&rsquo;s make a <code>.network</code> file for our GRE tunnel.</p>
 <p>On the first host:</p>
