@@ -48,7 +48,7 @@ on a 64GB SD card for $11 and that brought the total to just under $40 per
 UPS.
 
 [Pi Zero W]: https://www.raspberrypi.org/products/raspberry-pi-zero-w/
-[Vilros kit]]: https://vilros.com/collections/raspberry-pi-kits/products/raspberry-pi-zero-w-basic-starter-kit-1
+[Vilros kit]: https://vilros.com/collections/raspberry-pi-kits/products/raspberry-pi-zero-w-basic-starter-kit-1
 
 ## Setting up
 
