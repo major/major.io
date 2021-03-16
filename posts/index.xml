@@ -18,10 +18,9 @@ effectively.</p>
 connectivity included. It also has a USB port available that would allow me to
 connect it to a UPS. It runs an older Broadcom BCM2835 and only has 512MiB of
 RAM, but that&rsquo;s plenty to do the job.</p>
-<p>The [Vilros kit] contains nearly everything you need for a Pi Zero W. I added
+<p>The <a href="https://vilros.com/collections/raspberry-pi-kits/products/raspberry-pi-zero-w-basic-starter-kit-1">Vilros kit</a> contains nearly everything you need for a Pi Zero W. I added
 on a 64GB SD card for $11 and that brought the total to just under $40 per
 UPS.</p>
-<p>[Vilros kit]]: <a href="https://vilros.com/collections/raspberry-pi-kits/products/raspberry-pi-zero-w-basic-starter-kit-1">https://vilros.com/collections/raspberry-pi-kits/products/raspberry-pi-zero-w-basic-starter-kit-1</a></p>
 <h2 id="setting-up">Setting up</h2>
 <p>While the <a href="https://www.raspberrypi.org/software/">Raspberry Pi OS</a> is popular, I&rsquo;ve been using Arch Linux a lot
 lately and decided to use <a href="https://archlinuxarm.org/platforms/armv6/raspberry-pi">their build</a> for the Pi Zero W. The <a href="https://archlinuxarm.org/platforms/armv6/raspberry-pi">installation
