@@ -1,0 +1,75 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
+  After writing my original blog post about selling options contracts in the stock market, I received some feedback saying that the post jumped over too many steps and used too much terminology. I went back, re-read the post, and found lots of room for improvement."><meta name=keywords content=",linux,raspberrypi"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2021/03/17/selling-options-made-simpler/><title>Selling options made simpler :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.89fa80e2143f71bd5c96a7c94e531dec3276a367e22f87e74a76026ab64680bf.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Selling options made simpler"><meta itemprop=description content="🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
+  After writing my original blog post about selling options contracts in the stock market, I received some feedback saying that the post jumped over too many steps and used too much terminology. I went back, re-read the post, and found lots of room for improvement."><meta itemprop=datePublished content="2021-03-17T00:00:00+00:00"><meta itemprop=dateModified content="2021-03-17T00:00:00+00:00"><meta itemprop=wordCount content="1168"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="linux,raspberrypi,"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2021-03-17 00:00:00 +0000 UTC"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Selling options made simpler :: Major Hayden 🤠"><meta name=twitter:description content="Feedback from my original options selling post said that the concept was too difficult to follow. Let's use an analogy!"><meta name=twitter:site content="https://major.io"><meta name=twitter:creator content="Major Hayden"><meta name=twitter:image content="https://major.io/images/2021-03-crazy-air-conditioners.jpg"><style type=text/css>html{letter-spacing:unset}</style></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ echo major.io</span>
+<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=../../../../ham-radio-faq>hamradio</a></li><li><a href=../../../../icanhazip-com-faq>icanhazip</a></li><li><a href=../../../../posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2021/03/17/selling-options-made-simpler/>Selling options made simpler</a></h2><div class=post-content><p>🤔 <em>This is another post in a set of posts on <a href=../../../../tags/options/>options trading</a>. If you are
+new to options trading, you may want to start with some of my earlier posts.</em></p><figure><img src=../../../../images/2021-03-crazy-air-conditioners.jpg alt="Power plant with four towers"></figure><p>After writing my original blog post about <a href=../../../../2020/12/07/the-dark-side-selling-options/>selling options contracts in the
+stock market</a>, I received some feedback saying that the post jumped over too
+many steps and used too much terminology. I went back, re-read the post, and
+found lots of room for improvement.</p><p>If you understood the original post, then this post probably won&rsquo;t give you
+much additional insight. However, if the original post left you perplexed, I
+hope this post helps.</p><h2 id=starting-out-with-an-asset>Starting out with an asset</h2><p>Let&rsquo;s say you love classic cars. Many older cars that are one of a kind or
+very well maintained can keep their value for a long time. Sometimes they even
+go up in value over time due to demand!</p><p>You find a great deal on a gorgeous car for $15,000. It&rsquo;s perfect! Also,
+demand has gone up for the car recently because it was featured in a popular
+movie, so it might be worth more after a while.</p><p>So you invested $15,000 in the car. But wait, what if the car is stolen or
+involved in a collision. Would it be worth $15,000 then? Likely not. Let&rsquo;s
+assume that the car would lose half its value if it was involved in a
+collision.</p><p>How do you protect it? Insurance.</p><p>You call your insurance company and ask how much it costs for a six month auto
+policy on the car valued at $15,000. They offer you a deal of $500 for six
+months. You give them $500 and they insure your car.</p><p>Let&rsquo;s convert this to options terminology:</p><ol><li>You bought the car (which is like buying stock).</li><li>You&rsquo;re worried about the value of the car going down, so you bought
+insurance (which is like buying a put option contract).</li><li>The insurance company sold you the policy (like selling a put).</li></ol><h2 id=the-movie-is-a-hit>The movie is a hit!</h2><p>The movie that featured the same kind of car as yours was a huge success and
+now the demand for your classic car is way up. You can easily sell the car for
+$30,000 now!</p><p>But what about that insurance policy when the car was worth $15,000? It&rsquo;s
+worth less now because the value of the car has increased so much. If you got
+in a wreck now and the price of the car was cut in half to $15,000, your
+insurance policy would still be there, but the value of the car is insured at
+$15,000.</p><p>So you call your insurance company and ask for a new policy. They agree to
+make a new policy for six months for $1,250. But wait, the car doubled in
+value and the insurance policy went up by 2.5x. Why is that?</p><p>The increase in price of the insurance policy is due to the value going up,
+but now the value is volatile. It&rsquo;s more difficult for the insurance company
+to gauge the value of the car, how much the parts cost, and how much the labor
+would be to fix it.</p><p>You decide to sell your original $500 policy and buy the new one for $1,250
+that protects your car valued at $30,000.</p><p>Back to options terminology:</p><ol><li>The value of the car (stock) went up.</li><li>When you needed insurance for the higher value (a put with a higher strike
+price), the insurance company wanted more money to cover the cost and the
+volatility of the value of the car (similar to implied volatility for put
+options).</li><li>The insurance company bought back your old insurance plan (like buying a
+sold put).</li><li>You bought the new insurance plan (like buying a new put).</li></ol><h2 id=too-fast-too-furious>Too fast, too furious</h2><p>You&rsquo;re on the freeway in your classic car and you weren&rsquo;t paying attention to
+the speed limit. A police officer saw you, pulled you over, and issued you a
+big ticket which included reckless driving.</p><p>It&rsquo;s time to renew your insurance policy again. But now, the insurance company
+wants $1,500 to insure your $30,000 car. Why are you paying more for the same
+amount of insurance coverage?</p><p>The insurance company was notified about your massive speeding ticket and they
+believe that increased the chances of your car being involved in an accident.
+They want more money from you because there&rsquo;s a higher chance of the value of
+your car going down drastically (due to an collision).</p><p>This happens with options trades, too. When there&rsquo;s a bigger chance of a swing
+in the price of a stock, the implied volatility goes up. That means it&rsquo;s more
+expensive to buy options and that selling options pays out more premium (just
+like the car insurance company could charge extra). The insurance seller (put
+seller) is taking more risk by selling insurance (puts) and demands to be paid
+more for it.</p><h2 id=it-wasnt-my-fault>It wasn&rsquo;t my fault!</h2><p>You learned from your speeding ticket, which is good, but you ran a red light
+in town and collided with another car! Luckily everyone was okay, but your car
+is in terrible shape. It will need a lot of repairs.</p><p>You call your insurance company to tell them about it and they send you to a
+repair shop. The estimate to repair the car is $10,000. The insurance company
+pays for the repairs, but they have lost money on your policy ($1,500 premium
+minus $10k in repairs).</p><p>Once the repairs are finished, your insurance company says if you want to get
+insured again, it&rsquo;s going to be $3,000 for six months. Again, volatility is in
+play here. Your car went from $15k to $30k to $20k in the eyes of the
+insurance company and that&rsquo;s plenty of volatility.</p><h2 id=conclusion>Conclusion</h2><p>Selling puts in the stock market allows you to act like an insurance agent for
+traders and institutions that want to buy insurance for their stock. If you
+choose high-quality companies that have good fundamentals and desirable
+products, then the chances of that insurance getting a claim is relatively low.</p><p>Very risky stocks, including those that have not been trading long (think
+IPOs) and those that have wild swings in value, pay out much more premium for
+this insurance, but as a put seller, you are on the hook for that swing in
+valuation.</p><p>Striking the right balance between the amount of premium received and the
+amount of risk taken is a difficult one. Companies that have been around for a
+hundred years with steady growth are not likely going down any time soon, but
+there&rsquo;s not much premium for puts there. On the other hand, brand new
+companies could swing up and down drastically and the premium is high for
+those stocks.</p><hr><p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p><p><em>Photo credit: <a href=https://unsplash.com/photos/KN8W0Q8H3gI>Linh Ha on Unsplash</a></em></p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/linux/>linux</a></span>
+<span class=tag><a href=https://major.io/tags/raspberrypi/>raspberrypi</a></span></p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg><span class=tag><a href=https://major.io/categories/blog-posts/>Blog Posts</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://major.io>Major Hayden</a></span>
+<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span><span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>Djordje Atlialp</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.e9f93b80e78a22e6f04cbb5f73e0f9c4ba60ff73a2a0ef85965c688f93dd1f2722a282e30e485603e4c65b1b346720e35f213435ec5556e196a97a68d097c80f.js integrity="sha512-6fk7gOeKIubwTLtfc+D5xLpg/3OioO+Fllxoj5PdHyciooLjDkhWA+TGWxs0ZyDjXyE0NexVVuGWqXpo0JfIDw=="></script></body></html>

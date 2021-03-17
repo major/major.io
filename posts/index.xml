@@ -1,4 +1,120 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Monitor a UPS with a Raspberry Pi Zero W</title><link>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</guid><description>After the recent snow apocalypse that swept through Texas followed by widespread power crisis, I realized that my UPS monitoring strategy needed improvement. One had batteries that were near death and my other two had loads that were not well balanced.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Selling options made simpler</title><link>https://major.io/2021/03/17/selling-options-made-simpler/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/03/17/selling-options-made-simpler/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
+After writing my original blog post about selling options contracts in the stock market, I received some feedback saying that the post jumped over too many steps and used too much terminology. I went back, re-read the post, and found lots of room for improvement.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
+new to options trading, you may want to start with some of my earlier posts.</em></p>
+<figure>
+    <img src="/images/2021-03-crazy-air-conditioners.jpg"
+         alt="Power plant with four towers"/> 
+</figure>
+
+<p>After writing my original blog post about <a href="/2020/12/07/the-dark-side-selling-options/">selling options contracts in the
+stock market</a>, I received some feedback saying that the post jumped over too
+many steps and used too much terminology. I went back, re-read the post, and
+found lots of room for improvement.</p>
+<p>If you understood the original post, then this post probably won&rsquo;t give you
+much additional insight. However, if the original post left you perplexed, I
+hope this post helps.</p>
+<h2 id="starting-out-with-an-asset">Starting out with an asset</h2>
+<p>Let&rsquo;s say you love classic cars. Many older cars that are one of a kind or
+very well maintained can keep their value for a long time. Sometimes they even
+go up in value over time due to demand!</p>
+<p>You find a great deal on a gorgeous car for $15,000. It&rsquo;s perfect! Also,
+demand has gone up for the car recently because it was featured in a popular
+movie, so it might be worth more after a while.</p>
+<p>So you invested $15,000 in the car. But wait, what if the car is stolen or
+involved in a collision. Would it be worth $15,000 then? Likely not. Let&rsquo;s
+assume that the car would lose half its value if it was involved in a
+collision.</p>
+<p>How do you protect it? Insurance.</p>
+<p>You call your insurance company and ask how much it costs for a six month auto
+policy on the car valued at $15,000. They offer you a deal of $500 for six
+months. You give them $500 and they insure your car.</p>
+<p>Let&rsquo;s convert this to options terminology:</p>
+<ol>
+<li>You bought the car (which is like buying stock).</li>
+<li>You&rsquo;re worried about the value of the car going down, so you bought
+insurance (which is like buying a put option contract).</li>
+<li>The insurance company sold you the policy (like selling a put).</li>
+</ol>
+<h2 id="the-movie-is-a-hit">The movie is a hit!</h2>
+<p>The movie that featured the same kind of car as yours was a huge success and
+now the demand for your classic car is way up. You can easily sell the car for
+$30,000 now!</p>
+<p>But what about that insurance policy when the car was worth $15,000? It&rsquo;s
+worth less now because the value of the car has increased so much. If you got
+in a wreck now and the price of the car was cut in half to $15,000, your
+insurance policy would still be there, but the value of the car is insured at
+$15,000.</p>
+<p>So you call your insurance company and ask for a new policy. They agree to
+make a new policy for six months for $1,250. But wait, the car doubled in
+value and the insurance policy went up by 2.5x. Why is that?</p>
+<p>The increase in price of the insurance policy is due to the value going up,
+but now the value is volatile. It&rsquo;s more difficult for the insurance company
+to gauge the value of the car, how much the parts cost, and how much the labor
+would be to fix it.</p>
+<p>You decide to sell your original $500 policy and buy the new one for $1,250
+that protects your car valued at $30,000.</p>
+<p>Back to options terminology:</p>
+<ol>
+<li>The value of the car (stock) went up.</li>
+<li>When you needed insurance for the higher value (a put with a higher strike
+price), the insurance company wanted more money to cover the cost and the
+volatility of the value of the car (similar to implied volatility for put
+options).</li>
+<li>The insurance company bought back your old insurance plan (like buying a
+sold put).</li>
+<li>You bought the new insurance plan (like buying a new put).</li>
+</ol>
+<h2 id="too-fast-too-furious">Too fast, too furious</h2>
+<p>You&rsquo;re on the freeway in your classic car and you weren&rsquo;t paying attention to
+the speed limit. A police officer saw you, pulled you over, and issued you a
+big ticket which included reckless driving.</p>
+<p>It&rsquo;s time to renew your insurance policy again. But now, the insurance company
+wants $1,500 to insure your $30,000 car. Why are you paying more for the same
+amount of insurance coverage?</p>
+<p>The insurance company was notified about your massive speeding ticket and they
+believe that increased the chances of your car being involved in an accident.
+They want more money from you because there&rsquo;s a higher chance of the value of
+your car going down drastically (due to an collision).</p>
+<p>This happens with options trades, too. When there&rsquo;s a bigger chance of a swing
+in the price of a stock, the implied volatility goes up. That means it&rsquo;s more
+expensive to buy options and that selling options pays out more premium (just
+like the car insurance company could charge extra). The insurance seller (put
+seller) is taking more risk by selling insurance (puts) and demands to be paid
+more for it.</p>
+<h2 id="it-wasnt-my-fault">It wasn&rsquo;t my fault!</h2>
+<p>You learned from your speeding ticket, which is good, but you ran a red light
+in town and collided with another car! Luckily everyone was okay, but your car
+is in terrible shape. It will need a lot of repairs.</p>
+<p>You call your insurance company to tell them about it and they send you to a
+repair shop. The estimate to repair the car is $10,000. The insurance company
+pays for the repairs, but they have lost money on your policy ($1,500 premium
+minus $10k in repairs).</p>
+<p>Once the repairs are finished, your insurance company says if you want to get
+insured again, it&rsquo;s going to be $3,000 for six months. Again, volatility is in
+play here. Your car went from $15k to $30k to $20k in the eyes of the
+insurance company and that&rsquo;s plenty of volatility.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Selling puts in the stock market allows you to act like an insurance agent for
+traders and institutions that want to buy insurance for their stock. If you
+choose high-quality companies that have good fundamentals and desirable
+products, then the chances of that insurance getting a claim is relatively low.</p>
+<p>Very risky stocks, including those that have not been trading long (think
+IPOs) and those that have wild swings in value, pay out much more premium for
+this insurance, but as a put seller, you are on the hook for that swing in
+valuation.</p>
+<p>Striking the right balance between the amount of premium received and the
+amount of risk taken is a difficult one. Companies that have been around for a
+hundred years with steady growth are not likely going down any time soon, but
+there&rsquo;s not much premium for puts there. On the other hand, brand new
+companies could swing up and down drastically and the premium is high for
+those stocks.</p>
+<hr>
+<p><em>Disclaimer: Keep in mind that I am not an investment professional and you
+should make your own decisions around stock research and trades. Investing
+comes with plenty of risk and I&rsquo;m the last person who should be giving anyone
+investment advice.</em> 😜</p>
+<p><em>Photo credit: <a href="https://unsplash.com/photos/KN8W0Q8H3gI">Linh Ha on Unsplash</a></em></p>
+]]></content></item><item><title>Monitor a UPS with a Raspberry Pi Zero W</title><link>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</guid><description>After the recent snow apocalypse that swept through Texas followed by widespread power crisis, I realized that my UPS monitoring strategy needed improvement. One had batteries that were near death and my other two had loads that were not well balanced.
 I have a few CyberPower UPS units and an old APC UPS. Although CyberPower does offer relatively expensive monitoring cards that puts the UPS on the local network, none of them worked with my 1350/1500VA units.</description><content type="html"><![CDATA[<figure>
     <img src="/images/2021-03-power-plant.jpg"
          alt="Power plant with four towers"/> 
