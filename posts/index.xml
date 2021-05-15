@@ -1,7 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Major Hayden 🤠</title><link>https://major.io/posts/</link><description>Recent content in Posts on Major Hayden 🤠</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0&lt;/a></copyright><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://major.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Free resources for the stock market</title><link>https://major.io/2021/04/22/free-resources-for-the-stock-market/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/04/22/free-resources-for-the-stock-market/</guid><description>Every new trader in the stock market must wade through a myriad of tools, platforms, and websites that claim to have the best stock market research around. Some are free, some are not, and some cost so much that they eat into plenty of your profits.
-This post rounds up all of the best research options out there that you can have for free (or almost free). I&amp;rsquo;m sure I missed a few, but these are the ones I rely on most often.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2021-04-22-free-stock-market-resources-vienna.jpg"
-         alt="Vienna, Austria skyline"/> 
+This post rounds up all of the best research options out there that you can have for free (or almost free). I&amp;rsquo;m sure I missed a few, but these are the ones I rely on most often.</description><content type="html"><![CDATA[<figure><img src="/images/2021-04-22-free-stock-market-resources-vienna.jpg"
+         alt="Vienna, Austria skyline"/>
 </figure>
 
 <p>Every new trader in the stock market must wade through a myriad of tools,
@@ -106,9 +105,8 @@ investment advice.</em> 😜</p>
 ]]></content></item><item><title>Selling options made simpler</title><link>https://major.io/2021/03/17/selling-options-made-simpler/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/03/17/selling-options-made-simpler/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
 After writing my original blog post about selling options contracts in the stock market, I received some feedback saying that the post jumped over too many steps and used too much terminology. I went back, re-read the post, and found lots of room for improvement.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-<figure>
-    <img src="/images/2021-03-crazy-air-conditioners.jpg"
-         alt="Power plant with four towers"/> 
+<figure><img src="/images/2021-03-crazy-air-conditioners.jpg"
+         alt="Power plant with four towers"/>
 </figure>
 
 <p>After writing my original blog post about <a href="/2020/12/07/the-dark-side-selling-options/">selling options contracts in the
@@ -220,9 +218,8 @@ comes with plenty of risk and I&rsquo;m the last person who should be giving any
 investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/photos/KN8W0Q8H3gI">Linh Ha on Unsplash</a></em></p>
 ]]></content></item><item><title>Monitor a UPS with a Raspberry Pi Zero W</title><link>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/</guid><description>After the recent snow apocalypse that swept through Texas followed by widespread power crisis, I realized that my UPS monitoring strategy needed improvement. One had batteries that were near death and my other two had loads that were not well balanced.
-I have a few CyberPower UPS units and an old APC UPS. Although CyberPower does offer relatively expensive monitoring cards that puts the UPS on the local network, none of them worked with my 1350/1500VA units.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2021-03-power-plant.jpg"
-         alt="Power plant with four towers"/> 
+I have a few CyberPower UPS units and an old APC UPS. Although CyberPower does offer relatively expensive monitoring cards that puts the UPS on the local network, none of them worked with my 1350/1500VA units.</description><content type="html"><![CDATA[<figure><img src="/images/2021-03-power-plant.jpg"
+         alt="Power plant with four towers"/>
 </figure>
 
 <p>After the recent <a href="https://en.wikipedia.org/wiki/February_2021_North_American_ice_storm">snow apocalypse that swept through Texas</a> followed by
@@ -382,9 +379,8 @@ load, battery voltage, input voltage, and runtime.</li>
 </ol>
 <p>Once HomeAssistant monitors your UPS for a while, you should have some useful
 data! Here&rsquo;s a graph of my UPS load during my workday:</p>
-<figure>
-    <img src="/images/2021-03-homeassistant-screenshot.png"
-         alt="Graph of UPS load from HomeAsssistant"/> 
+<figure><img src="/images/2021-03-homeassistant-screenshot.png"
+         alt="Graph of UPS load from HomeAsssistant"/>
 </figure>
 
 <p>You can see that my workday starts just after 6AM and ends after 4PM. Using
@@ -395,11 +391,11 @@ level (could be dying batteries).</p>
 extended period without having an impact on the runtime or your wallet! 💸</p>
 <p><em>Photo credit: <a href="https://unsplash.com/photos/EK0l7RhAB8E">Johannes Plenio on Unsplash</a></em></p>
 ]]></content></item><item><title>Defending losing options trades</title><link>https://major.io/2021/02/10/defending-losing-options-trades/</link><pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/02/10/defending-losing-options-trades/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
-You did your research. You waited for a good time to sell a put option. You received a decent premium for your option trade. Now your trade has turned into a loss. What can you do now?</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
+You did your research. You waited for a good time to sell a put option. You received a decent premium for your option trade. Now your trade has turned into a loss. What can you do now?
+There are good choices for these situations, but there&amp;rsquo;s something important to remember.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-<figure>
-    <img src="/images/2020-02-10-defending-losing-options-trades.jpg"
-         alt="River running under a bridge with lots of trees"/> 
+<figure><img src="/images/2020-02-10-defending-losing-options-trades.jpg"
+         alt="River running under a bridge with lots of trees"/>
 </figure>
 
 <p>You did your research. You waited for a good time to sell a put option. You
@@ -508,9 +504,8 @@ investment advice.</em> 😜</p>
 ]]></content></item><item><title>Which stock broker should you use?</title><link>https://major.io/2021/01/24/which-stock-broker-should-you-use/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://major.io/2021/01/24/which-stock-broker-should-you-use/</guid><description>🤔 This is another post in a set of posts on options trading. If you are new to options trading, you may want to start with some of my earlier posts.
 One of my sports coaches in high school used to say: &amp;ldquo;It&amp;rsquo;s not the tool, it&amp;rsquo;s the fool.&amp;rdquo; This was his reminder that when something goes wrong in the game, it&amp;rsquo;s usually the fault of the person and not the equipment.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-<figure>
-    <img src="/images/2021-01-24-street-buildings.jpg"
-         alt="Street with buildings"/> 
+<figure><img src="/images/2021-01-24-street-buildings.jpg"
+         alt="Street with buildings"/>
 </figure>
 
 <p>One of my sports coaches in high school used to say: &ldquo;It&rsquo;s not the tool, it&rsquo;s
@@ -705,9 +700,8 @@ You know your terminology, you know your max loss, and you are ready to start. N
 How do I choose which option to sell?
 At first, you learn to look for the trades that are right for you.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a>. If you are
 new to options trading, you may want to start with some of my earlier posts.</em></p>
-<figure>
-    <img src="/images/2020-01-23-paragliding-mountains.jpg"
-         alt="Paragliding in the mountains"/> 
+<figure><img src="/images/2020-01-23-paragliding-mountains.jpg"
+         alt="Paragliding in the mountains"/>
 </figure>
 
 <p>You know your terminology, you know your max loss, and you are ready to start.
@@ -906,9 +900,8 @@ investment advice.</em> 😜</p>
 My options trading journey started back in September 2020 and I learned a lot in a short amount of time. This post covers some of the lessons I&amp;rsquo;ve learned along the way.</description><content type="html"><![CDATA[<p>🤔 <em>This is another post in a set of posts on <a href="/tags/options/">options trading</a> on the blog.
 If you are confused on terminology, go back and start with the first post and
 the series and work your way to this one.</em></p>
-<figure>
-    <img src="/images/2021-01-04-dark-road-mountains.jpg"
-         alt="Dark Road with Mountains"/> 
+<figure><img src="/images/2021-01-04-dark-road-mountains.jpg"
+         alt="Dark Road with Mountains"/>
 </figure>
 
 <p>My options trading journey started back in September 2020 and I learned a lot
@@ -1111,9 +1104,8 @@ comes with plenty of risk and I&rsquo;m the last person who should be giving any
 investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz on Unsplash</a></em></p>
 ]]></content></item><item><title>Know your max loss</title><link>https://major.io/2020/12/09/know-your-max-loss/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/09/know-your-max-loss/</guid><description>This is the third post in a series of posts on options trading. You can read this one out of order since it applies to almost everything you do in the stock market, including buying shares of stock.
-What is &amp;ldquo;max loss&amp;rdquo; The maximum loss on a trade is the worst outcome possible. Knowing this number helps you protect your account from huge losses and avoids terrible situations such as margin calls.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-12-09-subway-tunnel.jpg"
-         alt="Subway Tunnel"/> 
+What is &amp;ldquo;max loss&amp;rdquo; The maximum loss on a trade is the worst outcome possible. Knowing this number helps you protect your account from huge losses and avoids terrible situations such as margin calls.</description><content type="html"><![CDATA[<figure><img src="/images/2020-12-09-subway-tunnel.jpg"
+         alt="Subway Tunnel"/>
 </figure>
 
 <p>This is the third post in a <a href="/tags/options/">series of posts on options trading</a>. You can read
@@ -1259,9 +1251,8 @@ investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@trapnation">Andre Benz on Unsplash</a></em></p>
 ]]></content></item><item><title>The Dark Side: Selling Options</title><link>https://major.io/2020/12/07/the-dark-side-selling-options/</link><pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/07/the-dark-side-selling-options/</guid><description>I&amp;rsquo;ve started a series of posts on options trading and if you haven&amp;rsquo;t read yesterdays post, Options trading introduction, you should start there first.
 Recap: Buying calls and puts Just to recap the introductory post:
-Buying a call gives you the right to buy a stock at a certain strike price Buying a put gives you the right to sell a stock at a certain strike price Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-12-07-dark-hills.jpg"
-         alt="Dark Hills"/> 
+Buying a call gives you the right to buy a stock at a certain strike price Buying a put gives you the right to sell a stock at a certain strike price Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.</description><content type="html"><![CDATA[<figure><img src="/images/2020-12-07-dark-hills.jpg"
+         alt="Dark Hills"/>
 </figure>
 
 <p>I&rsquo;ve started a <a href="/tags/options/">series of posts on options trading</a> and if you haven&rsquo;t read
@@ -1477,9 +1468,8 @@ comes with plenty of risk and I&rsquo;m the last person who should be giving any
 investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@ripato">Ricardo Gomez Angel on Unsplash</a></em></p>
 ]]></content></item><item><title>Options trading introduction</title><link>https://major.io/2020/12/06/options-trading-introduction/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/12/06/options-trading-introduction/</guid><description>I&amp;rsquo;m always on the hunt for new things to learn and one of my newer interests is around trading options on the stock market. Much like technology, it becomes much easier to understand when you peel back the layers of archaic terminology, snake oil salespeople, and debunked data.
-Stay tuned for additional posts that go into greater detail. This post covers the basics about what an option is (and is not) and how you can compare it to other investment vehicles, like stocks.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-12-06-snow-mountain.jpg"
-         alt="Snowy Mountain"/> 
+Stay tuned for additional posts that go into greater detail. This post covers the basics about what an option is (and is not) and how you can compare it to other investment vehicles, like stocks.</description><content type="html"><![CDATA[<figure><img src="/images/2020-12-06-snow-mountain.jpg"
+         alt="Snowy Mountain"/>
 </figure>
 
 <p>I&rsquo;m always on the hunt for new things to learn and one of my newer interests
@@ -1673,9 +1663,8 @@ investment advice.</em> 😜</p>
 <p><em>Photo credit: <a href="https://unsplash.com/@johnwestrock">Dave Hoefler on Unsplash</a></em></p>
 ]]></content></item><item><title>Build AWS images with Image Builder</title><link>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/06/19/build-aws-images-with-imagebuilder/</guid><description>The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.
 You can get a customized image via a few methods:
-Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-06-19-aluminum-factory.jpg"
-         alt="Aluminum factory"/> 
+Build from an existing AMI, customize it, and snapshot it. Use an automated tool, such as Packer, to automate #1. Build your own image locally in KVM, VMware, or Virtualbox and upload the image into S3, import it into an EC2, and create an AMI from the snapshot.</description><content type="html"><![CDATA[<figure><img src="/images/2020-06-19-aluminum-factory.jpg"
+         alt="Aluminum factory"/>
 </figure>
 
 <p>The AMIs provided by most Linux distributions in AWS work well for most use
@@ -1980,9 +1969,8 @@ blueprint editing with <code>composer-cli</code> is needed. Look for that in a f
 blog post.</p>
 <p><em>Photo credit: <a href="https://commons.wikimedia.org/wiki/File:Shelekhov-aluminium-factory-4.jpg">Wikimedia Commons</a></em></p>
 ]]></content></item><item><title>My experience with keto so far</title><link>https://major.io/2020/06/11/my-experience-with-keto-so-far/</link><pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/06/11/my-experience-with-keto-so-far/</guid><description>I&amp;rsquo;ve talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don&amp;rsquo;t call it &amp;ldquo;the keto diet&amp;rdquo; because it&amp;rsquo;s much more than a diet: it&amp;rsquo;s a lifestyle change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body.
-Before we start, I&amp;rsquo;d like to note that:</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-06-11-plates-and-bowls.jpg"
-         alt="Brno skyline"/> 
+Before we start, I&amp;rsquo;d like to note that:</description><content type="html"><![CDATA[<figure><img src="/images/2020-06-11-plates-and-bowls.jpg"
+         alt="Brno skyline"/>
 </figure>
 
 <p>I&rsquo;ve talked about some of my experiences with altering my diet on Twitter and
@@ -2212,9 +2200,8 @@ plenty of guidance for you if you get stuck.</li>
 </ul>
 <p><em>Photo credit: <a href="https://www.pexels.com/photo/ceramic-plates-3847482/">Pexels</a></em></p>
 ]]></content></item><item><title>Make diacritics easy in Linux</title><link>https://major.io/2020/02/13/make-diacritics-easy-in-linux/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/02/13/make-diacritics-easy-in-linux/</guid><description>Diacritics are all of the small things that are added on, above, or below certain characters in various languages. Some examples include tildes (ñ), accents (á), or other marks (š). These marks are little hints that help you know how to pronounce a word properly (and they sometimes change the definition of a word entirely).
-They are often skipped by non-native language speakers, and sometimes even by native speakers, but I have done my best to make a habit of including them when I can.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-02-13-diacritics-on-license-plate.jpg"
-         alt="Brno skyline"/> 
+They are often skipped by non-native language speakers, and sometimes even by native speakers, but I have done my best to make a habit of including them when I can.</description><content type="html"><![CDATA[<figure><img src="/images/2020-02-13-diacritics-on-license-plate.jpg"
+         alt="Brno skyline"/>
 </figure>
 
 <p><a href="https://en.wikipedia.org/wiki/Diacritic">Diacritics</a> are all of the small things that are added on, above, or below
@@ -2273,9 +2260,8 @@ AltGr works well for me as a default.</p>
 <p><em>Photo credit: naleag_deco on <a href="https://www.flickr.com/photos/53088812@N00/1304824528/">Flickr</a></em></p>
 ]]></content></item><item><title>My Travel Guide to Brno</title><link>https://major.io/2020/01/30/my-travel-guide-to-brno/</link><pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/01/30/my-travel-guide-to-brno/</guid><description>Come to the Czech Republic and discover the beautiful city of Brno. I just wrapped up my third visit to the city and I can&amp;rsquo;t wait to come back! The city is full of history, culture, and delicious food.
 Here&amp;rsquo;s my travel guide to Brno!
-Getting to Brno Brno has an airport, but the flights are limited and sometimes expensive. Some coworkers have found good deals on these flights (especially via Ryanair from London&amp;rsquo;s Stansted Airport), but I prefer the train.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2020-01-30-brno-skyline.jpg"
-         alt="Brno skyline"/> 
+Getting to Brno Brno has an airport, but the flights are limited and sometimes expensive. Some coworkers have found good deals on these flights (especially via Ryanair from London&amp;rsquo;s Stansted Airport), but I prefer the train.</description><content type="html"><![CDATA[<figure><img src="/images/2020-01-30-brno-skyline.jpg"
+         alt="Brno skyline"/>
 </figure>
 
 <p>Come to the Czech Republic and discover the beautiful city of <a href="https://en.wikipedia.org/wiki/Brno">Brno</a>. I just
@@ -2429,9 +2415,8 @@ that come to mind right now. Thanks for reading the post and I hope you get to
 enjoy a trip to Brno soon!</p>
 ]]></content></item><item><title>Disable Nvidia GPU on the Thinkpad T490</title><link>https://major.io/2020/01/24/disable-nvidia-gpu-thinkpad-t490/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://major.io/2020/01/24/disable-nvidia-gpu-thinkpad-t490/</guid><description>I wrote about installing Linux on the Lenovo ThinkPad T490 last month and one of the biggest challenges was getting graphics working properly. The T490 comes with an option where you can get a discrete Nvidia MX250 GPU and it packs plenty of power in a small footprint.
 It also brings along a few issues.
-Awful battery life There are many times where it would be helpful to fully disable the Nvidia card to extend battery life when graphics processing is not needed.</description><content type="html"><![CDATA[<figure>
-    <img src="/images/20191212-t490.png"
-         alt="Lenovo ThinkPad T490"/> 
+Awful battery life There are many times where it would be helpful to fully disable the Nvidia card to extend battery life when graphics processing is not needed.</description><content type="html"><![CDATA[<figure><img src="/images/20191212-t490.png"
+         alt="Lenovo ThinkPad T490"/>
 </figure>
 
 <p>I wrote about <a href="/2019/12/12/thinkpad-t490-fedora-install-tips/">installing Linux on the Lenovo ThinkPad T490 last month</a> and
@@ -2662,9 +2647,8 @@ make it work.</p>
 change your ACPI tables and this fix may stop working. You may need to look around for the changes and adjust your changes to match.</p>
 ]]></content></item><item><title>Bring Back Fedora's Beefy Miracle boot splash</title><link>https://major.io/2019/12/16/bring-back-fedora-beefy-miracle-boot-splash.md/</link><pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate><guid>https://major.io/2019/12/16/bring-back-fedora-beefy-miracle-boot-splash.md/</guid><description>Way back in 2012 when Fedora releases had names, there was one release that many of us in the Fedora community will never forget. Fedora 17&amp;rsquo;s code name was &amp;ldquo;Beefy Miracle&amp;rdquo; and it caused plenty of giggles and lots of consternation (especially in vegetarian and vegan circles).
 No matter how you feel about the code name, the mascot was really good:
-Major and the beefy miracle in 2012</description><content type="html"><![CDATA[<figure>
-    <img src="/images/2019-12-16-beefy-miracle.png"
-         alt="Beefy miracle"/> 
+Major and the beefy miracle in 2012</description><content type="html"><![CDATA[<figure><img src="/images/2019-12-16-beefy-miracle.png"
+         alt="Beefy miracle"/>
 </figure>
 
 <p>Way back in 2012 when Fedora releases had names, there was one release that
@@ -2672,9 +2656,8 @@ many of us in the Fedora community will never forget. Fedora 17&rsquo;s <a href=
 was &ldquo;Beefy Miracle&rdquo; and it caused plenty of giggles and lots of consternation
 (especially in vegetarian and vegan circles).</p>
 <p>No matter how you feel about the code name, the mascot was really good:</p>
-<figure>
-    <img src="/images/2019-12-16-major-and-beefy-miracle.jpg"
-         alt="Major and the beefy miracle in 2012"/> <figcaption>
+<figure><img src="/images/2019-12-16-major-and-beefy-miracle.jpg"
+         alt="Major and the beefy miracle in 2012"/><figcaption>
             <p>Major and the beefy miracle in 2012</p>
         </figcaption>
 </figure>
@@ -2693,9 +2676,8 @@ screen is updated after you reboot:</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">sudo plymouth-set-default-theme --rebuild-initrd hot-dog
 </code></pre></div><p>This step takes a few moments to finish since it causes <code>dracut</code> to rebuild
 the entire initrd with the new plymouth theme. Once it finishes, reboot your computer and you should get something like this:</p>
-<figure>
-    <img src="/images/2019-12-16-hot-dog-boot-splash.jpg"
-         alt="Hot dog boot splash"/> <figcaption>
+<figure><img src="/images/2019-12-16-hot-dog-boot-splash.jpg"
+         alt="Hot dog boot splash"/><figcaption>
             <p>Hot dog boot splash</p>
         </figcaption>
 </figure>
@@ -2705,8 +2687,7 @@ Thinkpad T490 With my 4th Gen X1 Carbon beginning to age (especially the battery
 <p>🔨 <strong>WORK IN PROGRESS!</strong> I&rsquo;m still finding some additional issues and I&rsquo;ll
 write those up here as soon as I find some solutions.</p>
 </blockquote>
-<figure>
-    <img src="/images/20191212-t490.png"/> <figcaption>
+<figure><img src="/images/20191212-t490.png"/><figcaption>
             <h4>Thinkpad T490</h4>
         </figcaption>
 </figure>
@@ -5368,13 +5349,13 @@ Firstname Lastname &amp;lt;firstname.lastname@domain.tld&amp;gt; In older Thunde
 <h2 id="digging-in">Digging in</h2>
 <p>After a fair amount of searching the Thunderbird source code with <code>awk</code>, I found a mention of <code>DisplayName</code> in <code>nsAbLDAPAutoCompleteSearch.js</code> that looked promising:</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#586e75">// Create a minimal map just for the display name and primary email.
-</span><span style="color:#586e75"></span>      <span style="color:#719e07">this</span>._attributes <span style="color:#719e07">=</span>
+</span><span style="color:#586e75"></span>      <span style="color:#719e07">this</span>.<span style="color:#2aa198">_</span>attributes <span style="color:#719e07">=</span>
         Components.classes[<span style="color:#2aa198">&#34;@mozilla.org/addressbook/ldap-attribute-map;1&#34;</span>]
                   .createInstance(Components.interfaces.nsIAbLDAPAttributeMap);
-      <span style="color:#719e07">this</span>._attributes.setAttributeList(<span style="color:#2aa198">&#34;DisplayName&#34;</span>,
-        <span style="color:#719e07">this</span>._book.attributeMap.getAttributeList(<span style="color:#2aa198">&#34;DisplayName&#34;</span>, {}), <span style="color:#cb4b16">true</span>);
-      <span style="color:#719e07">this</span>._attributes.setAttributeList(<span style="color:#2aa198">&#34;PrimaryEmail&#34;</span>,
-        <span style="color:#719e07">this</span>._book.attributeMap.getAttributeList(<span style="color:#2aa198">&#34;PrimaryEmail&#34;</span>, {}), <span style="color:#cb4b16">true</span>);
+      <span style="color:#719e07">this</span>.<span style="color:#2aa198">_</span>attributes.setAttributeList(<span style="color:#2aa198">&#34;DisplayName&#34;</span>,
+        <span style="color:#719e07">this</span>.<span style="color:#2aa198">_</span>book.attributeMap.getAttributeList(<span style="color:#2aa198">&#34;DisplayName&#34;</span>, {}), <span style="color:#cb4b16">true</span>);
+      <span style="color:#719e07">this</span>.<span style="color:#2aa198">_</span>attributes.setAttributeList(<span style="color:#2aa198">&#34;PrimaryEmail&#34;</span>,
+        <span style="color:#719e07">this</span>.<span style="color:#2aa198">_</span>book.attributeMap.getAttributeList(<span style="color:#2aa198">&#34;PrimaryEmail&#34;</span>, {}), <span style="color:#cb4b16">true</span>);
     }
 </code></pre></div><p>Something is unusual here. The LDAP field is called <code>displayName</code>, but this attribute is called <code>DisplayName</code> (note the capitalization of the <em>D</em>). Just before that line, I see a lookup in an attributes map of some sort. There may be a configuration option that is called <code>DisplayName</code>.</p>
 <p>In Thunderbird, I selected <strong>Edit &gt; Preferences</strong>. I clicked the <strong>Advanced</strong> tab and then <strong>Config Editor</strong>. A quick search for <em>DisplayName</em> revealed an interesting configuration option:</p>
@@ -7013,7 +6994,7 @@ The Fedora Cloud image is available for download from your favorite local mirror
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>Fedora 24 no longer exists on download mirrors. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Fedora 24 no longer exists on download mirrors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
