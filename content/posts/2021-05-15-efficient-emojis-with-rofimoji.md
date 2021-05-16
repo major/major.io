@@ -36,7 +36,7 @@ and _;)_ so much faster than I could use emojis. This simply would not do. 😉
 
 [Emoji Copy] was my first try at getting the emojis I needed quickly. The site
 also offers a native emoji mode which allows you to see if your system is
-handling emojis correctly. The site loads quickly and the search find emojis in
+handling emojis correctly. The site loads quickly and the search finds emojis in
 a flash, but it was annoying to open a browser tab just to find an emoji. 🤦🏻‍♂️
 
 The GNOME Extension called [Emoji Selector] made the selection process faster,
