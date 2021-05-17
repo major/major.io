@@ -1,7 +1,7 @@
 ---
-title: Welcome!
+title: Welcome to Major's blog!
 slug: /
-description: "Words of wisdom from a system administrator."
+description: Come for the technical content and stay for the emojis.
 images:
   - /images/hola-sign.jpg
 ---
