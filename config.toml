@@ -1,32 +1,15 @@
 baseURL = "https://major.io"
-title   = "Major Hayden 🤠"
+title   = "Major Hayden's Blog 🤠"
+theme = "hugo-bearblog"
+
+# Hugo global settings.
+rssLimit  = 25
 relativeURLs = true
-
-paginate = 50
-
-DefaultContentLanguage = "en"
-
-theme = "hello-friend-ng"
-
-rssLimit  = 25  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
 buildDrafts  = false
 buildFuture  = false
 buildExpored = false
 canonifyURLs = true
-
 enableRobotsTXT = true
-enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -48,84 +31,11 @@ disableHugoGeneratorInject = false
   category = "categories"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Words of wisdom from a social nerd"
-  keywords = ""
-  images = [""]
-
-  homeSubtitle = "Words of wisdom from a social nerd"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-
-  # Default theme "light" or "dark"
-  defaultTheme = "light"
-
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
-
-  [params.logo]
-    logoText     = "$ echo major.io"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/majorhayden"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:major@mhtx.net"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/major"
-
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/majorhayden"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/majorhayden/"
-
-  [[params.social]]
-    name = "keybase"
-    url  = "https://keybase.io/mhayden"
-
-[languages]
-  [languages.en]
-    subtitle  = "Words of wisdom from a social nerd"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>'
+  description = "Words of wisdom from a server administrator"
+  favicon = "/favicon.ico"
+  images = ["/images/2019-05-24-cranes-skycrapers.jpg"]
+  title = "Major Hayden's Blog 🤠"
+  dateFormat = "2006-01-02"
 
 [markup]
   [markup.highlight]
@@ -138,22 +48,19 @@ disableHugoGeneratorInject = false
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-dark"
+    style = "solarized-light"
     tabWidth = 4
 
 [menu]
   [[menu.main]]
-    identifier = "icanhazip"
-    name       = "icanhazip"
+    name       = "icanhazip FAQ"
     url        = "/icanhazip-com-faq"
   [[menu.main]]
-    identifier = "hamradio"
-    name       = "hamradio"
+    name       = "Ham Radio"
     url        = "/ham-radio-faq"
   [[menu.main]]
-    identifier = "posts"
-    name       = "posts"
-    url        = "posts/"
+    name       = "Posts"
+    url        = "/posts"
 
 [social]
 twitter = "mhayden"

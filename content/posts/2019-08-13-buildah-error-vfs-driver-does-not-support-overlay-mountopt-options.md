@@ -31,7 +31,7 @@ containers each morning and I use these to get the latest packages and find
 out early when something is broken in the build process. A failed build
 appeared in my inbox earlier this week with the following error:
 
-```
+```text
 + buildah bud -f builds/builder-fedora30 -t builder-fedora30 .
 vfs driver does not support overlay.mountopt options
 ```
