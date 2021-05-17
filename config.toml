@@ -154,3 +154,6 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "posts"
     url        = "posts/"
+
+[social]
+twitter = "mhayden"
