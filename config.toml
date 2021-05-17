@@ -8,9 +8,6 @@ DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng"
 
-PygmentsCodeFences = true
-PygmentsStyle = "solarized-dark"
-
 rssLimit  = 25  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 2.0 Generic License."
 
@@ -57,7 +54,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
+  description = "Words of wisdom from a social nerd"
   keywords = ""
   images = [""]
 
@@ -129,6 +126,20 @@ disableHugoGeneratorInject = false
     subtitle  = "Words of wisdom from a social nerd"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-dark"
+    tabWidth = 4
 
 [menu]
   [[menu.main]]
