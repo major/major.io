@@ -12,7 +12,7 @@ tags:
 ---
 Sometimes servers just have the weirdest SSL problems ever. In some of these situations, the entropy has been drained. Entropy is the measure of the random numbers available from /dev/urandom, and if you run out, you can't make SSL connections. To check the status of your server's entropy, just run the following:
 
-```
+```text
 # cat /proc/sys/kernel/random/entropy_avail
 ```
 
