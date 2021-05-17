@@ -1,12 +1,16 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content="Major Hayden"><meta name=description content="I&amp;rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
-Rackspace&amp;rsquo;s OnMetal Servers are a good place to test since they have bonded networks configured by default. They&amp;rsquo;re also quite fast and always fun for experiments.
-To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta name=keywords content=",bonding,command line,fedora,grub2,json,networking,onmetal,python,rackspace,systemd,systemd-networkd,udev"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://major.io/2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/><title>Using systemd-networkd with bonding on Rackspace’s OnMetal servers :: Major Hayden 🤠 — Words of wisdom from a social nerd</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=../../../../main.89fa80e2143f71bd5c96a7c94e531dec3276a367e22f87e74a76026ab64680bf.css><link rel=apple-touch-icon sizes=180x180 href=../../../../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon-16x16.png><link rel=manifest href=../../../../site.webmanifest><link rel=mask-icon href=../../../../safari-pinned-tab.svg color=#252627><link rel="shortcut icon" href=../../../../favicon.ico><meta name=msapplication-TileColor content="#252627"><meta name=theme-color content="#252627"><meta itemprop=name content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta itemprop=description content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
+<!doctype html><html lang=en-us><head><meta http-equiv=x-clacks-overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=https://major.io/favicon.ico><title>Using systemd-networkd with bonding on Rackspace’s OnMetal servers | Major Hayden's Blog 🤠</title><meta name=title content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta name=description content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
 Rackspace&rsquo;s OnMetal Servers are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.
-To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta itemprop=datePublished content="2015-08-21T14:00:46+00:00"><meta itemprop=dateModified content="2015-08-21T14:00:46+00:00"><meta itemprop=wordCount content="1538"><meta itemprop=image content="https://major.io"><meta itemprop=keywords content="bonding,command line,fedora,grub2,json,networking,onmetal,python,rackspace,systemd,systemd-networkd,udev,"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://major.io"><meta name=twitter:title content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta name=twitter:description content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
+To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta name=keywords content="bonding,command line,fedora,grub2,json,networking,onmetal,python,rackspace,systemd,systemd-networkd,udev,"><meta property="og:title" content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta property="og:description" content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
 Rackspace&rsquo;s OnMetal Servers are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.
-To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta name=twitter:site content="@mhayden"><meta property="article:section" content="Blog Posts"><meta property="article:published_time" content="2015-08-21 14:00:46 +0000 UTC"><style type=text/css>html{letter-spacing:unset}</style></head><body><div class=container><header class=header><span class=header__inner><a href=../../../../ style=text-decoration:none><div class=logo><span class=logo__mark>></span>
-<span class=logo__text>$ echo major.io</span>
-<span class=logo__cursor style=visibility:hidden></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=../../../../ham-radio-faq>hamradio</a></li><li><a href=../../../../icanhazip-com-faq>icanhazip</a></li><li><a href=../../../../posts/>posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info></p></div><article><h2 class=post-title><a href=https://major.io/2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/>Using systemd-networkd with bonding on Rackspace’s OnMetal servers</a></h2><div class=post-content><p><img src=../../../../wp-content/uploads/2015/08/OnMetal_Graphic.png alt=1></p><p>I&rsquo;ve written about <a href=../../../../2015/03/26/creating-a-bridge-for-virtual-machines-using-systemd-networkd/>systemd-networkd</a> in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a <a href=https://github.com/systemd/systemd/pull/1001>pull request pending</a> for that).</p><p><a href=http://www.rackspace.com/en-us/cloud/servers/onmetal>Rackspace&rsquo;s OnMetal Servers</a> are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.</p><p>To get started, head on over to the <a href=https://mycloud.rackspace.com/>Rackspace Cloud control panel</a> and build a <em>compute-1</em> OnMetal server and choose Fedora 22 as your operating system. Once it starts pinging and you&rsquo;re able to log in, start following the guide below.</p><h2 id=network-device-naming>Network device naming</h2><p>By default, most images come with <a href=http://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/>systemd&rsquo;s predictable network naming</a> disabled. You can see the kernel command line adjustments here:</p><pre><code># cat /boot/extlinux.conf
+To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta property="og:type" content="article"><meta property="og:url" content="https://major.io/2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/"><meta property="og:image" content="https://major.io/images/2019-05-24-cranes-skycrapers.jpg"><meta property="article:section" content="posts"><meta property="article:published_time" content="2015-08-21T14:00:46+00:00"><meta property="article:modified_time" content="2015-08-21T14:00:46+00:00"><meta property="og:site_name" content="Major Hayden's Blog 🤠"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://major.io/images/2019-05-24-cranes-skycrapers.jpg"><meta name=twitter:title content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta name=twitter:description content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
+Rackspace&rsquo;s OnMetal Servers are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.
+To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta name=twitter:site content="@mhayden"><meta itemprop=name content="Using systemd-networkd with bonding on Rackspace’s OnMetal servers"><meta itemprop=description content="I&rsquo;ve written about systemd-networkd in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a pull request pending for that).
+Rackspace&rsquo;s OnMetal Servers are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.
+To get started, head on over to the Rackspace Cloud control panel and build a compute-1 OnMetal server and choose Fedora 22 as your operating system."><meta itemprop=datePublished content="2015-08-21T14:00:46+00:00"><meta itemprop=dateModified content="2015-08-21T14:00:46+00:00"><meta itemprop=wordCount content="1538"><meta itemprop=image content="https://major.io/images/2019-05-24-cranes-skycrapers.jpg"><meta itemprop=keywords content="bonding,command line,fedora,grub2,json,networking,onmetal,python,rackspace,systemd,systemd-networkd,udev,"><meta name=referrer content="no-referrer-when-downgrade"><style>body{font-family:Verdana,sans-serif;margin:auto;padding:20px;max-width:820px;text-align:left;background-color:#fff;word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:#444}h1,h2,h3,h4,h5,h6,strong,b{color:#222}a{color:#3273dc}.title{text-decoration:none;border:0}.title span{font-weight:400}nav a{margin-right:10px}textarea{width:100%;font-size:16px}input{font-size:16px}content{line-height:1.6}table{width:100%}img{max-width:100%}code{padding:2px 5px;background-color:#f2f2f2}pre code{color:#222;display:block;padding:20px;white-space:pre-wrap;font-size:14px}div.highlight code{background-color:unset;color:initial}blockquote{border-left:1px solid #999;color:#222;padding-left:20px;font-style:italic}footer{padding:25px;text-align:center}.helptext{color:#777;font-size:small}.errorlist{color:#eba613;font-size:small}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:#8b6fcb}@media(prefers-color-scheme:dark){body{background-color:#333;color:#ddd}h1,h2,h3,h4,h5,h6,strong,b{color:#eee}a{color:#8cc2dd}code{background-color:#777}pre code{color:#ddd}blockquote{color:#ccc}textarea,input{background-color:#252525;color:#ddd}.helptext{color:#aaa}}</style></head><body><header><a href=../../../../ class=title><h2>Major Hayden's Blog 🤠</h2></a><nav><a href=../../../../>Home</a>
+<a href=../../../../ham-radio-faq>Ham Radio</a>
+<a href=../../../../icanhazip-com-faq>icanhazip FAQ</a>
+<a href=../../../../posts>Posts</a></nav></header><main><h1>Using systemd-networkd with bonding on Rackspace’s OnMetal servers</h1><i><time datetime=2015-08-21 pubdate>2015-08-21</time></i>
+<content><p><img src=../../../../wp-content/uploads/2015/08/OnMetal_Graphic.png alt=1></p><p>I&rsquo;ve written about <a href=../../../../2015/03/26/creating-a-bridge-for-virtual-machines-using-systemd-networkd/>systemd-networkd</a> in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a <a href=https://github.com/systemd/systemd/pull/1001>pull request pending</a> for that).</p><p><a href=http://www.rackspace.com/en-us/cloud/servers/onmetal>Rackspace&rsquo;s OnMetal Servers</a> are a good place to test since they have bonded networks configured by default. They&rsquo;re also quite fast and always fun for experiments.</p><p>To get started, head on over to the <a href=https://mycloud.rackspace.com/>Rackspace Cloud control panel</a> and build a <em>compute-1</em> OnMetal server and choose Fedora 22 as your operating system. Once it starts pinging and you&rsquo;re able to log in, start following the guide below.</p><h2 id=network-device-naming>Network device naming</h2><p>By default, most images come with <a href=http://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/>systemd&rsquo;s predictable network naming</a> disabled. You can see the kernel command line adjustments here:</p><pre><code># cat /boot/extlinux.conf
 TIMEOUT 1
 default linux
 
@@ -43,90 +47,90 @@ E: ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link
 E: ID_NET_NAME_MAC=enxa0369f2cec91
 E: ID_NET_NAME_PATH=enp8s0f1
 E: ID_NET_NAME_SLOT=ens9f1
-</code></pre><p>Now we know our ethernet devices are called <em>ens9f0</em> and <em>ens9f1</em>. It&rsquo;s time to configure systemd-networkd.</p><h2 id=bond-interface-creation>Bond interface creation</h2><p>Ensure that you have a <code>/etc/systemd/network/</code> directory on your server and create the network device file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/bond1.netdev</span>
-<span style=color:#719e07>[NetDev]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>bond1</span>
-Kind<span style=color:#719e07>=</span><span style=color:#2aa198>bond</span>
+</code></pre><p>Now we know our ethernet devices are called <em>ens9f0</em> and <em>ens9f1</em>. It&rsquo;s time to configure systemd-networkd.</p><h2 id=bond-interface-creation>Bond interface creation</h2><p>Ensure that you have a <code>/etc/systemd/network/</code> directory on your server and create the network device file:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/bond1.netdev</span>
+<span style=color:#859900>[NetDev]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>bond1</span>
+<span style=color:#268bd2>Kind</span>=<span style=color:#2aa198>bond</span>
 
-<span style=color:#719e07>[Bond]</span>
-Mode<span style=color:#719e07>=</span><span style=color:#2aa198>802.3ad</span>
-TransmitHashPolicy<span style=color:#719e07>=</span><span style=color:#2aa198>layer3+4</span>
-MIIMonitorSec<span style=color:#719e07>=</span><span style=color:#2aa198>1s</span>
-LACPTransmitRate<span style=color:#719e07>=</span><span style=color:#2aa198>fast</span>
-</code></pre></div><p>We&rsquo;re telling systemd-networkd that we want a new bond interface called <em>bond1</em> configured using 802.3ad mode. (Want to geek out on 802.3ad? Check out <a href=http://www.ieee802.org/3/hssg/public/apr07/frazier_01_0407.pdf>IEEE&rsquo;s PDF</a>.) In addition, we specify a transmit hash policy, a monitoring frequency, and a requested rate for LACP updates.</p><p>Now that we have a device defined, we need to provide some network configuration:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/bond1.network</span>
-<span style=color:#719e07>[Match]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>bond1</span>
+<span style=color:#859900>[Bond]</span>
+<span style=color:#268bd2>Mode</span>=<span style=color:#2aa198>802.3ad</span>
+<span style=color:#268bd2>TransmitHashPolicy</span>=<span style=color:#2aa198>layer3+4</span>
+<span style=color:#268bd2>MIIMonitorSec</span>=<span style=color:#2aa198>1s</span>
+<span style=color:#268bd2>LACPTransmitRate</span>=<span style=color:#2aa198>fast</span>
+</code></pre></div><p>We&rsquo;re telling systemd-networkd that we want a new bond interface called <em>bond1</em> configured using 802.3ad mode. (Want to geek out on 802.3ad? Check out <a href=http://www.ieee802.org/3/hssg/public/apr07/frazier_01_0407.pdf>IEEE&rsquo;s PDF</a>.) In addition, we specify a transmit hash policy, a monitoring frequency, and a requested rate for LACP updates.</p><p>Now that we have a device defined, we need to provide some network configuration:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/bond1.network</span>
+<span style=color:#859900>[Match]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>bond1</span>
 
-<span style=color:#719e07>[Network]</span>
-VLAN<span style=color:#719e07>=</span><span style=color:#2aa198>public</span>
-VLAN<span style=color:#719e07>=</span><span style=color:#2aa198>servicenet</span>
-BindCarrier<span style=color:#719e07>=</span><span style=color:#2aa198>ens9f0 ens9f1</span>
-</code></pre></div><p>This tells systemd-networkd that we have an interface called <em>bond1</em> and it has two VLANs configured on it (more on that later). Also, we specify the interfaces participating in the bond. This ensures that the bond comes up and down cleanly as interfaces change state.</p><p>As one last step, we need to configure the physical interfaces themselves:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/ens9f0.network</span>
-<span style=color:#719e07>[Match]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>ens9f0</span>
+<span style=color:#859900>[Network]</span>
+<span style=color:#268bd2>VLAN</span>=<span style=color:#2aa198>public</span>
+<span style=color:#268bd2>VLAN</span>=<span style=color:#2aa198>servicenet</span>
+<span style=color:#268bd2>BindCarrier</span>=<span style=color:#2aa198>ens9f0 ens9f1</span>
+</code></pre></div><p>This tells systemd-networkd that we have an interface called <em>bond1</em> and it has two VLANs configured on it (more on that later). Also, we specify the interfaces participating in the bond. This ensures that the bond comes up and down cleanly as interfaces change state.</p><p>As one last step, we need to configure the physical interfaces themselves:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/ens9f0.network</span>
+<span style=color:#859900>[Match]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>ens9f0</span>
 
-<span style=color:#719e07>[Network]</span>
-Bond<span style=color:#719e07>=</span><span style=color:#2aa198>bond1</span>
-</code></pre></div><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/ens9f1.network</span>
-<span style=color:#719e07>[Match]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>ens9f1</span>
+<span style=color:#859900>[Network]</span>
+<span style=color:#268bd2>Bond</span>=<span style=color:#2aa198>bond1</span>
+</code></pre></div><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/ens9f1.network</span>
+<span style=color:#859900>[Match]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>ens9f1</span>
 
-<span style=color:#719e07>[Network]</span>
-Bond<span style=color:#719e07>=</span><span style=color:#2aa198>bond1</span>
-</code></pre></div><p>These files help systemd-networkd understand which interfaces are participating in the bond. You can get fancy here with your <code>[Match]</code> sections and use only one interface file with <code>ens9f*</code>, but I prefer to be more explicit. Check the documentation for systemd-networkd for that.</p><h2 id=public-network-vlan>Public network VLAN</h2><p>The public network for your OnMetal server is delivered via a VLAN. Packets are tagged as VLAN 101 and you need to configure your network interface to handle that traffic. We already told systemd-networkd about our VLANs within the <em>bond1.network</em> file, but now we need to explain the configuration for the public network VLAN.</p><p>Start by creating a network device file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/public.netdev</span>
-<span style=color:#719e07>[NetDev]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>public</span>
-Kind<span style=color:#719e07>=</span><span style=color:#2aa198>vlan</span>
-MACAddress<span style=color:#719e07>=</span><span style=color:#2aa198>xx:xx:xx:xx:xx:xx</span>
+<span style=color:#859900>[Network]</span>
+<span style=color:#268bd2>Bond</span>=<span style=color:#2aa198>bond1</span>
+</code></pre></div><p>These files help systemd-networkd understand which interfaces are participating in the bond. You can get fancy here with your <code>[Match]</code> sections and use only one interface file with <code>ens9f*</code>, but I prefer to be more explicit. Check the documentation for systemd-networkd for that.</p><h2 id=public-network-vlan>Public network VLAN</h2><p>The public network for your OnMetal server is delivered via a VLAN. Packets are tagged as VLAN 101 and you need to configure your network interface to handle that traffic. We already told systemd-networkd about our VLANs within the <em>bond1.network</em> file, but now we need to explain the configuration for the public network VLAN.</p><p>Start by creating a network device file:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/public.netdev</span>
+<span style=color:#859900>[NetDev]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>public</span>
+<span style=color:#268bd2>Kind</span>=<span style=color:#2aa198>vlan</span>
+<span style=color:#268bd2>MACAddress</span>=<span style=color:#2aa198>xx:xx:xx:xx:xx:xx</span>
 
-<span style=color:#719e07>[VLAN]</span>
-Id<span style=color:#719e07>=</span><span style=color:#2aa198>101</span>
+<span style=color:#859900>[VLAN]</span>
+<span style=color:#268bd2>Id</span>=<span style=color:#2aa198>101</span>
 </code></pre></div><p>You can get the correct MAC address from the information in your server&rsquo;s config drive:</p><pre><code>mkdir /mnt/configdrive
 mount /dev/sda2 /mnt/configdrive/
 python -m json.tool /mnt/configdrive/openstack/latest/vendor_data.json
-</code></pre><p>Look inside the <code>network_info</code> section for <code>vlan0</code>. It will look something like this:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
-    <span style=color:#268bd2>&#34;ethernet_mac_address&#34;</span>: <span style=color:#2aa198>&#34;xx:xx:xx:xx:xx:xx&#34;</span>,
-    <span style=color:#268bd2>&#34;id&#34;</span>: <span style=color:#2aa198>&#34;vlan0&#34;</span>,
-    <span style=color:#268bd2>&#34;type&#34;</span>: <span style=color:#2aa198>&#34;vlan&#34;</span>,
-    <span style=color:#268bd2>&#34;vlan_id&#34;</span>: <span style=color:#2aa198>101</span>,
-    <span style=color:#268bd2>&#34;vlan_link&#34;</span>: <span style=color:#2aa198>&#34;bond0&#34;</span>
+</code></pre><p>Look inside the <code>network_info</code> section for <code>vlan0</code>. It will look something like this:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+    <span style=color:#268bd2;font-weight:700>&#34;ethernet_mac_address&#34;</span>: <span style=color:#2aa198>&#34;xx:xx:xx:xx:xx:xx&#34;</span>,
+    <span style=color:#268bd2;font-weight:700>&#34;id&#34;</span>: <span style=color:#2aa198>&#34;vlan0&#34;</span>,
+    <span style=color:#268bd2;font-weight:700>&#34;type&#34;</span>: <span style=color:#2aa198>&#34;vlan&#34;</span>,
+    <span style=color:#268bd2;font-weight:700>&#34;vlan_id&#34;</span>: <span style=color:#2aa198;font-weight:700>101</span>,
+    <span style=color:#268bd2;font-weight:700>&#34;vlan_link&#34;</span>: <span style=color:#2aa198>&#34;bond0&#34;</span>
 },
-</code></pre></div><p>Take what you see in <em>ethernet_mac_address</em> and use that MAC address on the <code>MACAddress</code> line in your <em>public.netdev</em> file above. <strong>If you skip this part, your packets won&rsquo;t make it onto the network.</strong> For security reasons, the switch strictly checks to ensure that the right VLAN/IP/MAC combination is use when you communicate on the network.</p><p>Now that we have a network device, let&rsquo;s actually configure the network on it:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/public.network</span>
-<span style=color:#719e07>[Match]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>public</span>
+</code></pre></div><p>Take what you see in <em>ethernet_mac_address</em> and use that MAC address on the <code>MACAddress</code> line in your <em>public.netdev</em> file above. <strong>If you skip this part, your packets won&rsquo;t make it onto the network.</strong> For security reasons, the switch strictly checks to ensure that the right VLAN/IP/MAC combination is use when you communicate on the network.</p><p>Now that we have a network device, let&rsquo;s actually configure the network on it:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/public.network</span>
+<span style=color:#859900>[Match]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>public</span>
 
-<span style=color:#719e07>[Network]</span>
-DNS<span style=color:#719e07>=</span><span style=color:#2aa198>8.8.8.8</span>
-DNS<span style=color:#719e07>=</span><span style=color:#2aa198>8.8.4.4</span>
+<span style=color:#859900>[Network]</span>
+<span style=color:#268bd2>DNS</span>=<span style=color:#2aa198>8.8.8.8</span>
+<span style=color:#268bd2>DNS</span>=<span style=color:#2aa198>8.8.4.4</span>
 
-<span style=color:#719e07>[Address]</span>
-Address<span style=color:#719e07>=</span><span style=color:#2aa198>xxx.xxx.xxx.xxx/24</span>
+<span style=color:#859900>[Address]</span>
+<span style=color:#268bd2>Address</span>=<span style=color:#2aa198>xxx.xxx.xxx.xxx/24</span>
 
-<span style=color:#719e07>[Route]</span>
-Destination<span style=color:#719e07>=</span><span style=color:#2aa198>0.0.0.0/0</span>
-Gateway<span style=color:#719e07>=</span><span style=color:#2aa198>xxx.xxx.xxx.1</span>
-</code></pre></div><p>To get your IP address and gateway, you can use <code>ip addr</code> and <code>ip route</code>. Or, you can look in your config drive within the <em>networks</em> section for the same data. Ensure that your IP address and gateway are configured correctly. I&rsquo;ve used Google&rsquo;s default DNS servers here but you can use your own if you prefer.</p><h2 id=servicenet-vlan>ServiceNet VLAN</h2><p>Rackspace&rsquo;s ServiceNet is the backend network that connects you to other servers as well as other Rackspace products, like Cloud Databases and Cloud Files. We will configure this network in the same fashion, starting with the network device file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/servicenet.netdev</span>
-<span style=color:#719e07>[NetDev]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>servicenet</span>
-Kind<span style=color:#719e07>=</span><span style=color:#2aa198>vlan</span>
-MACAddress<span style=color:#719e07>=</span><span style=color:#2aa198>xx:xx:xx:xx:xx:xx</span>
+<span style=color:#859900>[Route]</span>
+<span style=color:#268bd2>Destination</span>=<span style=color:#2aa198>0.0.0.0/0</span>
+<span style=color:#268bd2>Gateway</span>=<span style=color:#2aa198>xxx.xxx.xxx.1</span>
+</code></pre></div><p>To get your IP address and gateway, you can use <code>ip addr</code> and <code>ip route</code>. Or, you can look in your config drive within the <em>networks</em> section for the same data. Ensure that your IP address and gateway are configured correctly. I&rsquo;ve used Google&rsquo;s default DNS servers here but you can use your own if you prefer.</p><h2 id=servicenet-vlan>ServiceNet VLAN</h2><p>Rackspace&rsquo;s ServiceNet is the backend network that connects you to other servers as well as other Rackspace products, like Cloud Databases and Cloud Files. We will configure this network in the same fashion, starting with the network device file:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/servicenet.netdev</span>
+<span style=color:#859900>[NetDev]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>servicenet</span>
+<span style=color:#268bd2>Kind</span>=<span style=color:#2aa198>vlan</span>
+<span style=color:#268bd2>MACAddress</span>=<span style=color:#2aa198>xx:xx:xx:xx:xx:xx</span>
 
-<span style=color:#719e07>[VLAN]</span>
-Id<span style=color:#719e07>=</span><span style=color:#2aa198>401</span>
-</code></pre></div><p>As we did before, go look in your config drive for the right MAC address to use. You&rsquo;ll look in the <em>network_info</em> section again but this time you&rsquo;ll look for <em>vlan1</em></p><p>Now we&rsquo;re ready to create the network file:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#586e75># /etc/systemd/network/servicenet.network</span>
-<span style=color:#719e07>[Match]</span>
-Name<span style=color:#719e07>=</span><span style=color:#2aa198>servicenet</span>
+<span style=color:#859900>[VLAN]</span>
+<span style=color:#268bd2>Id</span>=<span style=color:#2aa198>401</span>
+</code></pre></div><p>As we did before, go look in your config drive for the right MAC address to use. You&rsquo;ll look in the <em>network_info</em> section again but this time you&rsquo;ll look for <em>vlan1</em></p><p>Now we&rsquo;re ready to create the network file:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ini data-lang=ini><span style=color:#93a1a1;font-style:italic># /etc/systemd/network/servicenet.network</span>
+<span style=color:#859900>[Match]</span>
+<span style=color:#268bd2>Name</span>=<span style=color:#2aa198>servicenet</span>
 
-<span style=color:#719e07>[Network]</span>
-Address<span style=color:#719e07>=</span><span style=color:#2aa198>xxx.xxx.xxx.xxx/20</span>
+<span style=color:#859900>[Network]</span>
+<span style=color:#268bd2>Address</span>=<span style=color:#2aa198>xxx.xxx.xxx.xxx/20</span>
 
-<span style=color:#719e07>[Route]</span>
-Destination<span style=color:#719e07>=</span><span style=color:#2aa198>10.176.0.0/12</span>
-Gateway<span style=color:#719e07>=</span><span style=color:#2aa198>10.184.0.1</span>
+<span style=color:#859900>[Route]</span>
+<span style=color:#268bd2>Destination</span>=<span style=color:#2aa198>10.176.0.0/12</span>
+<span style=color:#268bd2>Gateway</span>=<span style=color:#2aa198>10.184.0.1</span>
 
-<span style=color:#719e07>[Route]</span>
-Destination<span style=color:#719e07>=</span><span style=color:#2aa198>10.208.0.0/12</span>
-Gateway<span style=color:#719e07>=</span><span style=color:#2aa198>10.184.0.1</span>
+<span style=color:#859900>[Route]</span>
+<span style=color:#268bd2>Destination</span>=<span style=color:#2aa198>10.208.0.0/12</span>
+<span style=color:#268bd2>Gateway</span>=<span style=color:#2aa198>10.184.0.1</span>
 </code></pre></div><p>Review your config drive json for the correct IP address and routes. Your routes will likely be the same as mine, but that can change over time.</p><h2 id=enable-systemd-networkd>Enable systemd-networkd</h2><p>All of our configuration files are in place, but now we need to enable systemd-networkd at boot time:</p><pre><code>systemctl disable network
 systemctl disable NetworkManager
 systemctl enable systemd-networkd
@@ -134,10 +138,10 @@ systemctl enable systemd-resolved
 </code></pre><p>We also need to let systemd-resolved handle our DNS resolution:</p><pre><code>systemctl start systemd-resolved
 rm /etc/resolv.conf
 ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
-</code></pre><p>Finally, there&rsquo;s one last gotcha that is only on OnMetal that needs to be removed. Comment out the second and third line in <code>/etc/rc.d/rc.local</code>:</p><div class=highlight><pre style=color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#719e07>#!/usr/bin/sh
-</span><span style=color:#719e07></span><span style=color:#586e75>#sleep 20</span>
-<span style=color:#586e75>#/etc/init.d/network restart</span>
-<span style=color:#b58900>exit</span> <span style=color:#2aa198>0</span>
+</code></pre><p>Finally, there&rsquo;s one last gotcha that is only on OnMetal that needs to be removed. Comment out the second and third line in <code>/etc/rc.d/rc.local</code>:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#93a1a1;font-style:italic>#!/usr/bin/sh
+</span><span style=color:#93a1a1;font-style:italic></span><span style=color:#93a1a1;font-style:italic>#sleep 20</span>
+<span style=color:#93a1a1;font-style:italic>#/etc/init.d/network restart</span>
+<span style=color:#cb4b16>exit</span> <span style=color:#2aa198;font-weight:700>0</span>
 </code></pre></div><p>That&rsquo;s there as a workaround for some network issues that sometimes appear during first boot. We won&rsquo;t need it with systemd-networkd.</p><h2 id=reboot>Reboot</h2><p>We&rsquo;re ready to test our new configuration! First, let&rsquo;s disable the forced old interface names on the kernel command line. Open <code>/boot/extlinux.conf</code> and ensure that the following two items are not in the kernel command line:</p><ul><li><code>net.ifnames=0</code></li><li><code>biosdevname=0</code></li></ul><p>Remove them from any kernel command lines you see and save the file. Reboot and cross your fingers.</p><h2 id=checking-our-work>Checking our work</h2><p>If you get pings after a reboot, you did well! If you didn&rsquo;t. you can use OnMetal&rsquo;s rescue mode to hop into a temporary OS and mount your root volume. Be sure to look inside <code>/var/log/messages</code> for signs of typos or other errors.</p><p>We can use some simple tools to review our network status:</p><pre><code># networkctl
 IDX LINK             TYPE               OPERATIONAL SETUP
   1 lo               loopback           carrier     unmanaged
@@ -152,18 +156,17 @@ rm -f /boot/extlinux.conf
 dnf -y install grubby grub2
 grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-install /dev/sda
-</code></pre><p>Simply reboot and you&rsquo;ll be booting with grub2!</p></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://major.io/tags/bonding/>bonding</a></span>
-<span class=tag><a href=https://major.io/tags/command-line/>command line</a></span>
-<span class=tag><a href=https://major.io/tags/fedora/>fedora</a></span>
-<span class=tag><a href=https://major.io/tags/grub2/>grub2</a></span>
-<span class=tag><a href=https://major.io/tags/json/>json</a></span>
-<span class=tag><a href=https://major.io/tags/networking/>networking</a></span>
-<span class=tag><a href=https://major.io/tags/onmetal/>onmetal</a></span>
-<span class=tag><a href=https://major.io/tags/python/>python</a></span>
-<span class=tag><a href=https://major.io/tags/rackspace/>rackspace</a></span>
-<span class=tag><a href=https://major.io/tags/systemd/>systemd</a></span>
-<span class=tag><a href=https://major.io/tags/systemd-networkd/>systemd-networkd</a></span>
-<span class=tag><a href=https://major.io/tags/udev/>udev</a></span></p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg><span class=tag><a href=https://major.io/categories/blog-posts/>Blog Posts</a></span></p></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
-<span><a href=https://major.io>Major Hayden</a></span>
-<span><a href=https://creativecommons.org/licenses/by-sa/2.0/ target=_blank rel=noopener>CC BY-SA 2.0</a></span><span><a href=https://major.io/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
-<span>Made with &#10084; by <a href=https://github.com/rhazdon>Djordje Atlialp</a></span></div></div></footer></div><script type=text/javascript src=../../../../bundle.min.e9f93b80e78a22e6f04cbb5f73e0f9c4ba60ff73a2a0ef85965c688f93dd1f2722a282e30e485603e4c65b1b346720e35f213435ec5556e196a97a68d097c80f.js integrity="sha512-6fk7gOeKIubwTLtfc+D5xLpg/3OioO+Fllxoj5PdHyciooLjDkhWA+TGWxs0ZyDjXyE0NexVVuGWqXpo0JfIDw=="></script></body></html>
+</code></pre><p>Simply reboot and you&rsquo;ll be booting with grub2!</p></content><p><a href=https://major.io/tags/bonding/>#bonding</a>
+<a href=https://major.io/tags/command-line/>#command line</a>
+<a href=https://major.io/tags/fedora/>#fedora</a>
+<a href=https://major.io/tags/grub2/>#grub2</a>
+<a href=https://major.io/tags/json/>#json</a>
+<a href=https://major.io/tags/networking/>#networking</a>
+<a href=https://major.io/tags/onmetal/>#onmetal</a>
+<a href=https://major.io/tags/python/>#python</a>
+<a href=https://major.io/tags/rackspace/>#rackspace</a>
+<a href=https://major.io/tags/systemd/>#systemd</a>
+<a href=https://major.io/tags/systemd-networkd/>#systemd-networkd</a>
+<a href=https://major.io/tags/udev/>#udev</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+Made with <a href=https://gohugo.io/>Hugo</a> &#187;
+Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>
