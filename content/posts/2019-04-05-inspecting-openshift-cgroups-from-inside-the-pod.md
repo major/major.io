@@ -1,21 +1,18 @@
 ---
-title: Inspecting OpenShift cgroups from inside the pod
 author: Major Hayden
-type: post
-date: "2019-04-05"
-slug: inspecting-openshift-cgroups-from-inside-the-pod
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Inspecting OpenShift cgroups from inside the pod
-  image: images/2019-04-05-inspecting-cgroups.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-04-05'
+images:
+- images/2019-04-05-inspecting-cgroups.jpg
+slug: inspecting-openshift-cgroups-from-inside-the-pod
 tags:
-  - openshift
-  - ansible
-  - security
-  - linux
+- openshift
+- ansible
+- security
+- linux
+title: Inspecting OpenShift cgroups from inside the pod
+type: post
 ---
 
 ![walking_through_rock_valley]

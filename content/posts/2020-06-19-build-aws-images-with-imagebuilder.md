@@ -1,24 +1,20 @@
 ---
-title: Build AWS images with Image Builder
 author: Major Hayden
-type: post
-date: "2020-06-19"
-slug: build-aws-images-with-imagebuilder
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: build-aws-images-with-imagebuilder
-  description: >-
-    Build a customized image for AWS with Image Builder and use the built-in
-    automatic uploader and importer.
-  image: images/2020-06-19-aluminum-factory.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-06-19'
+description: Build a customized image for AWS with Image Builder and use the built-in
+  automatic uploader and importer.
+images:
+- images/2020-06-19-aluminum-factory.jpg
+slug: build-aws-images-with-imagebuilder
 tags:
-  - aws
-  - cloud
-  - fedora
-  - linux
+- aws
+- cloud
+- fedora
+- linux
+title: Build AWS images with Image Builder
+type: post
 ---
 
 {{< figure src="/images/2020-06-19-aluminum-factory.jpg" alt="Aluminum factory" position="center" >}}

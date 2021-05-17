@@ -1,24 +1,20 @@
 ---
-title: Thinkpad T490 Fedora install tips
 author: Major Hayden
-type: post
-date: "2019-12-12"
-slug: thinkpad-t490-fedora-install-tips
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title:  Thinkpad T490 Fedora install tips
-  description: >-
-    My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
-    has arrived! Installing Linux creates some interesting challenges.
-  image: images/20191212-t490.png
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-12-12'
+description: My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
+  has arrived! Installing Linux creates some interesting challenges.
+images:
+- images/20191212-t490.png
+slug: thinkpad-t490-fedora-install-tips
 tags:
-  - fedora
-  - lenovo
-  - linux
-  - thinkpad
+- fedora
+- lenovo
+- linux
+- thinkpad
+title: Thinkpad T490 Fedora install tips
+type: post
 ---
 
 > 🔨 **WORK IN PROGRESS!** I'm still finding some additional issues and I'll

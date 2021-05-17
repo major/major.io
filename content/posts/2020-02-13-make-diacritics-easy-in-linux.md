@@ -1,23 +1,19 @@
 ---
-title: Make diacritics easy in Linux
 author: Major Hayden
-type: post
-date: "2020-02-13"
-slug: make-diacritics-easy-in-linux
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Make diacritics easy in Linux
-  description: >-
-    Making an effort to use diacritics is always a good idea, but how can you
-    make it easier in Linux?
-  image: images/2020-02-13-diacritics-on-license-plate.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-02-13'
+description: Making an effort to use diacritics is always a good idea, but how can
+  you make it easier in Linux?
+images:
+- images/2020-02-13-diacritics-on-license-plate.jpg
+slug: make-diacritics-easy-in-linux
 tags:
-  - fedora
-  - language
-  - linux
+- fedora
+- language
+- linux
+title: Make diacritics easy in Linux
+type: post
 ---
 
 {{< figure src="/images/2020-02-13-diacritics-on-license-plate.jpg" alt="Brno skyline" position="center" >}}

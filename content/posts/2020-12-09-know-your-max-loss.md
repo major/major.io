@@ -1,22 +1,18 @@
 ---
-title: Know your max loss
 author: Major Hayden
-type: post
-date: "2020-12-09"
-slug: know-your-max-loss
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: know-your-max-loss
-  description: >-
-    Knowing your maximum amount of loss on trade is the difference between
-    taking a calculated risk and blowing up your account.
-  image: images/2020-12-09-subway-tunnel.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-12-09'
+description: Knowing your maximum amount of loss on trade is the difference between
+  taking a calculated risk and blowing up your account.
+images:
+- images/2020-12-09-subway-tunnel.jpg
+slug: know-your-max-loss
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Know your max loss
+type: post
 ---
 
 {{< figure src="/images/2020-12-09-subway-tunnel.jpg" alt="Subway Tunnel" position="center" >}}

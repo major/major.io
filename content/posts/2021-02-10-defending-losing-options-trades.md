@@ -1,22 +1,18 @@
 ---
-title: Defending losing options trades
 author: Major Hayden
-type: post
-date: "2021-02-10"
-slug: defending-losing-options-trades
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: defending-losing-options-trades
-  description: >-
-    You did your research and made a great options trade, but now it is a
-    losing trade. What can you do now?
-  image: images/2020-02-10-defending-losing-options-trades.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-02-10'
+description: You did your research and made a great options trade, but now it is a
+  losing trade. What can you do now?
+images:
+- images/2020-02-10-defending-losing-options-trades.jpg
+slug: defending-losing-options-trades
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Defending losing options trades
+type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

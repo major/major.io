@@ -1,19 +1,16 @@
 ---
-title: Texas Linux Fest 2019 Recap
 author: Major Hayden
-type: post
-date: "2019-06-02"
-slug: texas-linux-fest-2019-recap
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Texas Linux Fest 2019 Recap
-  image: images/2019-06-02-irving-las-colinas.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-06-02'
+images:
+- images/2019-06-02-irving-las-colinas.jpg
+slug: texas-linux-fest-2019-recap
 tags:
-  - linux
-  - conferences
+- linux
+- conferences
+title: Texas Linux Fest 2019 Recap
+type: post
 ---
 
 ![Las Colinas in Irving]

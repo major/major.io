@@ -1,25 +1,21 @@
 ---
-title: Efficient emojis with rofimoji
 author: Major Hayden
-type: post
-date: "2021-05-15"
-slug: efficient-emojis-with-rofimoji
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: efficient-emojis-with-rofimoji
-  description: >-
-    Emojis brighten up any message or document. 🌻 Search, select, and use
-    emojis quickly on Linux with rofimoji. 🤗
-  image: images/2021-05-15-efficient-emojis-with-rofimoji.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-05-15'
+description: Emojis brighten up any message or document. 🌻 Search, select, and use
+  emojis quickly on Linux with rofimoji. 🤗
+images:
+- images/2021-05-15-efficient-emojis-with-rofimoji.jpg
+slug: efficient-emojis-with-rofimoji
 tags:
-  - emojis
-  - fedora
-  - linux
-  - python
-  - rpm
+- emojis
+- fedora
+- linux
+- python
+- rpm
+title: Efficient emojis with rofimoji
+type: post
 ---
 
 {{< figure src="/images/2021-05-15-efficient-emojis-with-rofimoji.jpg" alt="Soft emoji items hanging on a rack" position="center" >}}

@@ -1,23 +1,19 @@
 ---
-title: Customize GNOME from i3
 author: Major Hayden
-type: post
-date: "2019-09-22"
-slug: customize-gnome-from-i3
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Customize GNOME from i3
-  description: >-
-    All of your GNOME and gtk applications are configured in i3 with
-    a few simple tricks.
-  image: images/2019-09-22-wrenches.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-09-22'
+description: All of your GNOME and gtk applications are configured in i3 with a few
+  simple tricks.
+images:
+- images/2019-09-22-wrenches.jpg
+slug: customize-gnome-from-i3
 tags:
-  - fedora
-  - i3
-  - linux
+- fedora
+- i3
+- linux
+title: Customize GNOME from i3
+type: post
 ---
 
 ![wrenches]

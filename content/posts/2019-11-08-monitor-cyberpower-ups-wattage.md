@@ -1,24 +1,20 @@
 ---
-title: Monitor CyberPower UPS wattage
 author: Major Hayden
-type: post
-date: "2019-11-08"
-slug: monitor-cyberpower-ups-wattage
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Monitor CyberPower UPS wattage
-  description: >-
-    Monitor the power consumption of your CyberPower UPS and display the live
-    output in your Linux desktop's status bar.
-  image: images/2019-11-08-cyberpower-ups.png
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-11-08'
+description: Monitor the power consumption of your CyberPower UPS and display the
+  live output in your Linux desktop's status bar.
+images:
+- images/2019-11-08-cyberpower-ups.png
+slug: monitor-cyberpower-ups-wattage
 tags:
-  - fedora
-  - linux
-  - shell
-  - ups
+- fedora
+- linux
+- shell
+- ups
+title: Monitor CyberPower UPS wattage
+type: post
 ---
 
 ![ups]

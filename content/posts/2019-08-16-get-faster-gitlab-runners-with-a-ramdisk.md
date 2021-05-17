@@ -1,26 +1,22 @@
 ---
-title: "Get faster GitLab runners with a ramdisk"
 author: Major Hayden
-type: post
-date: "2019-08-16"
-slug: get-faster-gitlab-runners-with-a-ramdisk
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: "Get faster GitLab runners with a ramdisk"
-  description: >-
-    Many cloud providers give you lots of memory with each instance and you
-    can speed up tests and builds by using a ramdisk.
-  image: images/2019-08-16-jet-ski.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-08-16'
+description: Many cloud providers give you lots of memory with each instance and you
+  can speed up tests and builds by using a ramdisk.
+images:
+- images/2019-08-16-jet-ski.jpg
+slug: get-faster-gitlab-runners-with-a-ramdisk
 tags:
-  - buildah
-  - containers
-  - fedora
-  - gitlab
-  - linux
-  - podman
+- buildah
+- containers
+- fedora
+- gitlab
+- linux
+- podman
+title: Get faster GitLab runners with a ramdisk
+type: post
 ---
 
 ![Jet ski moving fast]

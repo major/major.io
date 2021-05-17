@@ -1,22 +1,18 @@
 ---
-title: Options trading introduction
 author: Major Hayden
-type: post
-date: "2020-12-06"
-slug: options-trading-introduction
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: options-trading-introduction
-  description: >-
-    Trading options contracts feels incredibly daunting, but you can learn
-    the terminology and make good choices in the market.
-  image: images/2020-12-06-snow-mountain.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-12-06'
+description: Trading options contracts feels incredibly daunting, but you can learn
+  the terminology and make good choices in the market.
+images:
+- images/2020-12-06-snow-mountain.jpg
+slug: options-trading-introduction
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Options trading introduction
+type: post
 ---
 
 {{< figure src="/images/2020-12-06-snow-mountain.jpg" alt="Snowy Mountain" position="center" >}}

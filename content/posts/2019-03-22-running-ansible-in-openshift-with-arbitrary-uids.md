@@ -1,21 +1,18 @@
 ---
-title: Running Ansible in OpenShift with arbitrary UIDs
 author: Major Hayden
-type: post
-date: "2019-03-22"
-slug: running-ansible-in-openshift-with-arbitrary-uids
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Running Ansible in OpenShift with arbitrary UIDs
-  image: images/2019-03-22-blacksmith-anvil-hammer.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-03-22'
+images:
+- images/2019-03-22-blacksmith-anvil-hammer.jpg
+slug: running-ansible-in-openshift-with-arbitrary-uids
 tags:
-  - openshift
-  - ansible
-  - security
-  - gitlab
+- openshift
+- ansible
+- security
+- gitlab
+title: Running Ansible in OpenShift with arbitrary UIDs
+type: post
 ---
 
 ![blacksmith_anvil_hammer]

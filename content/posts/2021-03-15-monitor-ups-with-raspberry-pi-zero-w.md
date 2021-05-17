@@ -1,22 +1,18 @@
 ---
-title: Monitor a UPS with a Raspberry Pi Zero W
 author: Major Hayden
-type: post
-date: "2021-03-15"
-slug: monitor-ups-with-raspberry-pi-zero-w
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: defending-losing-options-trades
-  description: >-
-    Monitor nearly any uninterruptible power supply (UPS) with a
-    Raspberry Pi Zero W and HomeAssistant
-  image: images/2021-03-power-plant.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-03-15'
+description: Monitor nearly any uninterruptible power supply (UPS) with a Raspberry
+  Pi Zero W and HomeAssistant
+images:
+- images/2021-03-power-plant.jpg
+slug: monitor-ups-with-raspberry-pi-zero-w
 tags:
-  - linux
-  - raspberrypi
+- linux
+- raspberrypi
+title: Monitor a UPS with a Raspberry Pi Zero W
+type: post
 ---
 
 {{< figure src="/images/2021-03-power-plant.jpg" alt="Power plant with four towers" position="center" >}}

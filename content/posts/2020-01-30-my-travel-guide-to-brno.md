@@ -1,23 +1,19 @@
 ---
-title: My Travel Guide to Brno
 author: Major Hayden
-type: post
-date: "2020-01-30"
-slug: my-travel-guide-to-brno
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: My Travel Guide to Brno
-  description: >-
-    Brno is a beautiful city in the Czech Republic. Learn some travel tips
-    from my experiences as an American in Brno!
-  image: images/2020-01-30-brno-skyline.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-01-30'
+description: Brno is a beautiful city in the Czech Republic. Learn some travel tips
+  from my experiences as an American in Brno!
+images:
+- images/2020-01-30-brno-skyline.jpg
+slug: my-travel-guide-to-brno
 tags:
-  - travel
-  - brno
-  - redhat
+- travel
+- brno
+- redhat
+title: My Travel Guide to Brno
+type: post
 ---
 
 {{< figure src="/images/2020-01-30-brno-skyline.jpg" alt="Brno skyline" position="center" >}}

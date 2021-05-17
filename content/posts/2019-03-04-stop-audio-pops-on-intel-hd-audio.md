@@ -1,20 +1,17 @@
 ---
-title: Stop audio pops on Intel HD Audio
 author: Major Hayden
-type: post
-date: "2019-03-04"
-slug: stop-audio-pops-on-intel-hd-audio
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Stop audio pops on Intel HD Audio
-  image: images/2019-03-04-headphones.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-03-04'
+images:
+- images/2019-03-04-headphones.jpg
+slug: stop-audio-pops-on-intel-hd-audio
 tags:
-  - linux
-  - fedora
-  - sound
+- linux
+- fedora
+- sound
+title: Stop audio pops on Intel HD Audio
+type: post
 ---
 
 ![headphones]

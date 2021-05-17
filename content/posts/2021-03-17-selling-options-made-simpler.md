@@ -1,22 +1,18 @@
 ---
-title: Selling options made simpler
 author: Major Hayden
-type: post
-date: "2021-03-17"
-slug: selling-options-made-simpler
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: selling-options-made-simpler
-  description: >-
-    Feedback from my original options selling post said that the concept was
-    too difficult to follow. Let's use an analogy!
-  image: images/2021-03-crazy-air-conditioners.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-03-17'
+description: Feedback from my original options selling post said that the concept
+  was too difficult to follow. Let's use an analogy!
+images:
+- images/2021-03-crazy-air-conditioners.jpg
+slug: selling-options-made-simpler
 tags:
-  - linux
-  - raspberrypi
+- linux
+- raspberrypi
+title: Selling options made simpler
+type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

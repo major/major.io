@@ -1,25 +1,21 @@
 ---
-title: Disable Nvidia GPU on the Thinkpad T490
 author: Major Hayden
-type: post
-date: "2020-01-24"
-slug: disable-nvidia-gpu-thinkpad-t490
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title:  Disable Nvidia GPU on the Thinkpad T490
-  description: >-
-    The Lenovo ThinkPad T490 is a great laptop, but it comes with some
-    discrete GPU challenges.
-  image: images/20191212-t490.png
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-01-24'
+description: The Lenovo ThinkPad T490 is a great laptop, but it comes with some discrete
+  GPU challenges.
+images:
+- images/20191212-t490.png
+slug: disable-nvidia-gpu-thinkpad-t490
 tags:
-  - fedora
-  - lenovo
-  - linux
-  - thinkpad
-  - nvidia
+- fedora
+- lenovo
+- linux
+- thinkpad
+- nvidia
+title: Disable Nvidia GPU on the Thinkpad T490
+type: post
 ---
 
 {{< figure src="/images/20191212-t490.png" alt="Lenovo ThinkPad T490" position="center" >}}

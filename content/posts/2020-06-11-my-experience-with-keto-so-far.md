@@ -1,22 +1,18 @@
 ---
-title: My experience with keto so far
 author: Major Hayden
-type: post
-date: "2020-06-11"
-slug: my-experience-with-keto-so-far
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: My experience with keto so far
-  description: >-
-    Moving to the keto lifestyle is a big change. It's more than just a diet
-    and I'll share my ups and downs from my journey.
-  image: images/2020-06-11-plates-and-bowls.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-06-11'
+description: Moving to the keto lifestyle is a big change. It's more than just a diet
+  and I'll share my ups and downs from my journey.
+images:
+- images/2020-06-11-plates-and-bowls.jpg
+slug: my-experience-with-keto-so-far
 tags:
-  - health
-  - lifestyle
+- health
+- lifestyle
+title: My experience with keto so far
+type: post
 ---
 
 {{< figure src="/images/2020-06-11-plates-and-bowls.jpg" alt="Brno skyline" position="center" >}}

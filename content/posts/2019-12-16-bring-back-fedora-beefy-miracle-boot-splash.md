@@ -1,22 +1,18 @@
 ---
-title: Bring Back Fedora's Beefy Miracle boot splash
 author: Major Hayden
-type: post
-date: "2019-12-16"
-slug: bring-back-fedora-beefy-miracle-boot-splash.md
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title:  Bring Back Fedora's Beefy Miracle boot splash
-  description: >-
-    Fedora 17's code name was Beefy Miracle and it had a great mascot. You can
-    see it at boot time with a few quick changes.
-  image: images/2019-12-16-beefy-miracle.png
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-12-16'
+description: Fedora 17's code name was Beefy Miracle and it had a great mascot. You
+  can see it at boot time with a few quick changes.
+images:
+- images/2019-12-16-beefy-miracle.png
+slug: bring-back-fedora-beefy-miracle-boot-splash.md
 tags:
-  - fedora
-  - linux
+- fedora
+- linux
+title: Bring Back Fedora's Beefy Miracle boot splash
+type: post
 ---
 
 {{< figure src="/images/2019-12-16-beefy-miracle.png" alt="Beefy miracle" position="center" >}}

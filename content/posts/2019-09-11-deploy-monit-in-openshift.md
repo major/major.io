@@ -1,24 +1,20 @@
 ---
-title: Deploy monit in OpenShift
 author: Major Hayden
-type: post
-date: "2019-09-11"
-slug: deploy-monit-in-openshift
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Deploy monit in OpenShift
-  description: >-
-    Monit is a tried-and-true monitoring daemon that is easy to deploy. Add it
-    to OpenShift to make monitoring even easier.
-  image: images/2019-09-11-cctv-cameras.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-09-11'
+description: Monit is a tried-and-true monitoring daemon that is easy to deploy. Add
+  it to OpenShift to make monitoring even easier.
+images:
+- images/2019-09-11-cctv-cameras.jpg
+slug: deploy-monit-in-openshift
 tags:
-  - linux
-  - monit
-  - monitoring
-  - openshift
+- linux
+- monit
+- monitoring
+- openshift
+title: Deploy monit in OpenShift
+type: post
 ---
 
 ![cctv cameras]

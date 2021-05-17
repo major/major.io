@@ -1,19 +1,16 @@
 ---
-title: Pixel 3 Wi-Fi drops constantly
 author: Major Hayden
-type: post
-date: "2019-03-17"
-slug: pixel-3-wifi-drops-constantly
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Pixel 3 Wi-Fi drops constantly
-  image: images/2019-03-17-google-pixel-phones.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-03-17'
+images:
+- images/2019-03-17-google-pixel-phones.jpg
+slug: pixel-3-wifi-drops-constantly
 tags:
-  - android
-  - networking
+- android
+- networking
+title: Pixel 3 Wi-Fi drops constantly
+type: post
 ---
 
 ![pixel_phones]

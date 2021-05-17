@@ -1,20 +1,17 @@
 ---
-title: Automatic floating windows in i3
 author: Major Hayden
-type: post
-date: "2019-02-08"
-slug: automatic-floating-windows-in-i3
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Automatic floating windows in i3
-  image: images/2019-02-08-floating-leaf.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-02-08'
+images:
+- images/2019-02-08-floating-leaf.jpg
+slug: automatic-floating-windows-in-i3
 tags:
-  - linux
-  - i3
-  - fedora
+- linux
+- i3
+- fedora
+title: Automatic floating windows in i3
+type: post
 ---
 
 ![floating leaf]

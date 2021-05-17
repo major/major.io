@@ -1,22 +1,18 @@
 ---
-title: Lessons learned from selling puts
 author: Major Hayden
-type: post
-date: "2021-01-04"
-slug: lessons-learned-from-selling-puts
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: lessons-learned-from-selling-puts
-  description: >-
-    Learn from my successes and mistakes while selling puts in the stock
-    market in 2020.
-  image: images/2021-01-04-dark-road-mountains.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-01-04'
+description: Learn from my successes and mistakes while selling puts in the stock
+  market in 2020.
+images:
+- images/2021-01-04-dark-road-mountains.jpg
+slug: lessons-learned-from-selling-puts
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Lessons learned from selling puts
+type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading] on the blog.

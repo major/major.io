@@ -1,26 +1,22 @@
 ---
-title: "buildah error: vfs driver does not support overlay.mountopt options"
 author: Major Hayden
-type: post
-date: "2019-08-13"
-slug: buildah-error-vfs-driver-does-not-support-overlay-mountopt-options
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: "buildah error: vfs driver does not support overlay.mountopt options"
-  description: >-
-    Buildah and podman work well with the vfs storage driver, but the default
-    mount options can cause problems.
-  image: images/2019-08-13-storage-bins.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-08-13'
+description: Buildah and podman work well with the vfs storage driver, but the default
+  mount options can cause problems.
+images:
+- images/2019-08-13-storage-bins.jpg
+slug: buildah-error-vfs-driver-does-not-support-overlay-mountopt-options
 tags:
-  - buildah
-  - containers
-  - fedora
-  - gitlab
-  - linux
-  - podman
+- buildah
+- containers
+- fedora
+- gitlab
+- linux
+- podman
+title: 'buildah error: vfs driver does not support overlay.mountopt options'
+type: post
 ---
 
 ![Storage bins]

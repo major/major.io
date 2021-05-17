@@ -1,22 +1,18 @@
 ---
-title: Choosing options to sell
 author: Major Hayden
-type: post
-date: "2021-01-23"
-slug: choosing-options-to-sell
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: choosing-options-to-sell
-  description: >-
-    Taking the leap and selling your first options contract takes a lot of
-    thought and preparation.
-  image: images/2020-01-23-paragliding-mountains.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-01-23'
+description: Taking the leap and selling your first options contract takes a lot of
+  thought and preparation.
+images:
+- images/2020-01-23-paragliding-mountains.jpg
+slug: choosing-options-to-sell
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Choosing options to sell
+type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

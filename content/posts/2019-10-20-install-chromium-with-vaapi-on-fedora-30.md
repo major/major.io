@@ -1,23 +1,19 @@
 ---
-title: Install Chromium with VAAPI on Fedora 30
 author: Major Hayden
-type: post
-date: "2019-10-20"
-slug: install-chromium-with-vaapi-on-fedora-30
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Install Chromium with VAAPI on Fedora 30
-  description: >-
-    Lower your CPU usage and increase battery life when you watch certain
-    videos by using Chromium with VAAPI support.
-  image: images/2019-10-20-film.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-10-20'
+description: Lower your CPU usage and increase battery life when you watch certain
+  videos by using Chromium with VAAPI support.
+images:
+- images/2019-10-20-film.jpg
+slug: install-chromium-with-vaapi-on-fedora-30
 tags:
-  - chromium
-  - fedora
-  - linux
+- chromium
+- fedora
+- linux
+title: Install Chromium with VAAPI on Fedora 30
+type: post
 ---
 
 ![film]

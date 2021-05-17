@@ -1,24 +1,20 @@
 ---
-title: Monitoring OpenShift cron jobs
 author: Major Hayden
-type: post
-date: "2019-11-18"
-slug: monitoring-openshift-cron-jobs
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Monitoring OpenShift cron jobs
-  description: >-
-    Openshift (and Kubernetes) allow you to run jobs on schedule, but these
-    jobs can fail from time to time. You can monitor them from bash!
-  image: images/2019-11-18-clock.png
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-11-18'
+description: Openshift (and Kubernetes) allow you to run jobs on schedule, but these
+  jobs can fail from time to time. You can monitor them from bash!
+images:
+- images/2019-11-18-clock.png
+slug: monitoring-openshift-cron-jobs
 tags:
-  - linux
-  - kubernetes
-  - openshift
-  - shell
+- linux
+- kubernetes
+- openshift
+- shell
+title: Monitoring OpenShift cron jobs
+type: post
 ---
 
 ![clock]

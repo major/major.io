@@ -1,22 +1,18 @@
 ---
-title: "The Dark Side: Selling Options"
 author: Major Hayden
-type: post
-date: "2020-12-07"
-slug: the-dark-side-selling-options
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: the-dark-side-selling-options
-  description: >-
-    Selling options puts you on the other side of the options contract from
-    buyers, but it comes with obligations.
-  image: images/2020-12-07-dark-hills.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2020-12-07'
+description: Selling options puts you on the other side of the options contract from
+  buyers, but it comes with obligations.
+images:
+- images/2020-12-07-dark-hills.jpg
+slug: the-dark-side-selling-options
 tags:
-  - investing
-  - options
+- investing
+- options
+title: 'The Dark Side: Selling Options'
+type: post
 ---
 
 {{< figure src="/images/2020-12-07-dark-hills.jpg" alt="Dark Hills" position="center" >}}

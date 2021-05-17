@@ -1,23 +1,20 @@
 ---
-title: Build containers in GitLab CI with buildah
 author: Major Hayden
-type: post
-date: "2019-05-24"
-slug: build-containers-in-gitlab-ci-with-buildah
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Build containers in GitLab CI with buildah
-  image: images/2019-05-24-cranes-skycrapers.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-05-24'
+images:
+- images/2019-05-24-cranes-skycrapers.jpg
+slug: build-containers-in-gitlab-ci-with-buildah
 tags:
-  - buildah
-  - containers
-  - docker
-  - gitlab
-  - linux
-  - podman
+- buildah
+- containers
+- docker
+- gitlab
+- linux
+- podman
+title: Build containers in GitLab CI with buildah
+type: post
 ---
 
 ![cranes and skyscrapers]

@@ -1,24 +1,20 @@
 ---
-title: Fedora 30 on Google Compute Engine
 author: Major Hayden
-type: post
-date: "2019-08-07"
-slug: fedora-30-on-google-compute-engine
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: Fedora 30 on Google Compute Engine
-  description: >-
-    Fedora 30 is a great Linux distribution for cloud platforms, but it needs
-    a little work to perform well on Google Compute Engine.
-  image: images/2019-08-07-google-hq.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2019-08-07'
+description: Fedora 30 is a great Linux distribution for cloud platforms, but it needs
+  a little work to perform well on Google Compute Engine.
+images:
+- images/2019-08-07-google-hq.jpg
+slug: fedora-30-on-google-compute-engine
 tags:
-  - cloud
-  - fedora
-  - google
-  - linux
+- cloud
+- fedora
+- google
+- linux
+title: Fedora 30 on Google Compute Engine
+type: post
 ---
 
 ![Google building]

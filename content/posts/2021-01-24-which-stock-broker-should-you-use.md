@@ -1,22 +1,18 @@
 ---
-title: Which stock broker should you use?
 author: Major Hayden
-type: post
-date: "2021-01-24"
-slug: which-stock-broker-should-you-use
-twitter:
-  card: "summary_large_image"
-  site: "@majorhayden"
-  title: which-stock-broker-should-you-use
-  description: >-
-    Not all stock brokerages are the same. Think about your requirements,
-    shop around, and read the fine print.
-  image: images/2021-01-24-street-buildings.jpg
 categories:
-  - Blog Posts
+- Blog Posts
+date: '2021-01-24'
+description: Not all stock brokerages are the same. Think about your requirements,
+  shop around, and read the fine print.
+images:
+- images/2021-01-24-street-buildings.jpg
+slug: which-stock-broker-should-you-use
 tags:
-  - investing
-  - options
+- investing
+- options
+title: Which stock broker should you use?
+type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are
