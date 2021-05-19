@@ -36,7 +36,7 @@ appeared in my inbox earlier this week with the following error:
 vfs driver does not support overlay.mountopt options
 ```
 
-My [container build script] is fairly basic, but it does include a change to
+My container build script[^1] is fairly basic, but it does include a change to
 use the vfs storage driver:
 
 ```bash
@@ -77,4 +77,6 @@ My containers are happily building again in GitLab.
 
 [Storage bins]: /images/2019-08-13-storage-bins.jpg
 [use them with GitLab CI]: /2019/05/24/build-containers-in-gitlab-ci-with-buildah/
-[container build script]: https://gitlab.com/cki-project/containers/blob/master/build.sh
+
+[^1]: The original build script is no longer available, but the [remainder of
+the repository](https://gitlab.com/cki-project/containers/) still exists.
