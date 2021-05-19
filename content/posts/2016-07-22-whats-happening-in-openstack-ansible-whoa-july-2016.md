@@ -69,7 +69,7 @@ Work is underway to overhaul the installation guide and provide a simple, easy-t
 
 ### Gnocchi deployments
 
-OpenStack-Ansible can now deploy [Gnocchi][16]. Gnocchi provides a time series database as a service and it's handy for use with ceilometer, which stores a lot of time-based information.
+OpenStack-Ansible can now deploy Gnocchi. Gnocchi provides a time series database as a service and it's handy for use with ceilometer, which stores a lot of time-based information.
 
 ### Multiple RabbitMQ clusters
 
@@ -120,5 +120,4 @@ Please let me know if you spot any errors, areas for improvement, or items that 
  [13]: https://review.openstack.org/#/c/338546/
  [14]: https://openstack.nimeyo.com/90118/openstack-openstack-nominating-philippe-openstack-openstack
  [15]: http://docs.openstack.org/developer/openstack-ansible/mitaka/install-guide/configure.html
- [16]: http://docs.openstack.org/developer/gnocchi/basic.html
  [17]: https://twitter.com/majorhayden
