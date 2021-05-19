@@ -157,7 +157,7 @@ I plan to open some bugs for some of these smaller issues in the coming days. Ho
  [5]: https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-1.pdf
  [6]: https://en.wikipedia.org/wiki/ISO/IEC_27002
  [7]: https://en.wikipedia.org/wiki/NIST_Special_Publication_800-53
- [8]: http://iase.disa.mil/stigs/Pages/index.aspx
+ [8]: https://public.cyber.mil/stigs/
  [9]: http://www.disa.mil/
  [10]: https://www.stigviewer.com/stig/red_hat_enterprise_linux_6/
  [11]: /2014/06/26/install-debian-packages-without-starting-daemons/

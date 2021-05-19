@@ -61,7 +61,7 @@ The entire repository is licensed under [Apache License 2.0][12], so please feel
 
  [1]: /wp-content/uploads/2014/08/image-ansible.png
  [2]: https://web.nvd.nist.gov/view/ncp/repository
- [3]: http://iase.disa.mil/stigs/Pages/index.aspx
+ [3]: https://public.cyber.mil/stigs/
  [4]: http://benchmarks.cisecurity.org/downloads/
  [5]: https://github.com/major/cis-rhel-ansible
  [6]: /wp-content/uploads/2014/08/What-Did-You-Do-Chris-Farley-Gif.gif
