@@ -69,7 +69,7 @@ If you want to make more complex jobs, review the [OpenShift documentation on
 cron job objects]. The [cron job API documentation] has much more detail.
 
 [OpenShift documentation on cron job objects]: https://docs.openshift.com/container-platform/3.11/dev_guide/cron_jobs.html
-[cron job API documentation]: https://docs.openshift.com/container-platform/3.11/rest_api/apis-batch/v2alpha1.CronJob.html
+[cron job API documentation]: https://docs.openshift.com/container-platform/3.11/dev_guide/cron_jobs.html
 [Kuberntes documentation on cron jobs]: https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 
 ## Bad things happen to good cron jobs
