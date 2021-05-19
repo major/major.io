@@ -26,7 +26,7 @@ version. All of these commands were tested on OpenShift 3.11.</em></p><h2 id=add
             <span style=color:#268bd2;font-weight:700>command</span>:
               - <span style=color:#2aa198>date</span>
 </code></pre></div><p>The job definition says:</p><ul><li>Start a Fedora 31 container every minute</li><li>Run <code>date</code> in the container</li><li>Kill the container</li></ul><p>Load this into OpenShift with: <code>oc apply -f cronjob.yml</code></p><p>If you want to make more complex jobs, review the <a href=https://docs.openshift.com/container-platform/3.11/dev_guide/cron_jobs.html>OpenShift documentation on
-cron job objects</a>. The <a href=https://docs.openshift.com/container-platform/3.11/rest_api/apis-batch/v2alpha1.CronJob.html>cron job API documentation</a> has much more detail.</p><h2 id=bad-things-happen-to-good-cron-jobs>Bad things happen to good cron jobs</h2><p>Cron jobs come with certain limitations and these are explained in the
+cron job objects</a>. The <a href=https://docs.openshift.com/container-platform/3.11/dev_guide/cron_jobs.html>cron job API documentation</a> has much more detail.</p><h2 id=bad-things-happen-to-good-cron-jobs>Bad things happen to good cron jobs</h2><p>Cron jobs come with certain limitations and these are explained in the
 <a href=https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/>Kuberntes documentation on cron jobs</a>. If a cron job is <em>missed</em> for a
 certain period of time, the scheduler will think something has gone horribly
 wrong and it won&rsquo;t schedule new jobs.</p><p>These situations include:</p><ul><li><p>the container takes too long to start
