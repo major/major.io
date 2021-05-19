@@ -21,7 +21,7 @@ tags:
   - wordpress
 
 ---
-The spring of 2015 marks eight years of this blog! I've learned plenty of tough lessons along the way and I've made some changes recently that might be handy for other people. After watching [Sasha Laundy's][1] video from her [awesome talk at Pycon 2015][2], I'm even more energized to share what I've learned with other people. _(Seriously: Go watch that video or review the slides whether you work in IT or not. It's worth your time.)_
+The spring of 2015 marks eight years of this blog! I've learned plenty of tough lessons along the way and I've made some changes recently that might be handy for other people. After watching [Sasha Laundy's][1] video from her awesome talk at Pycon 2015[^2], I'm even more energized to share what I've learned with other people. _(Seriously: Go watch that video or review the slides whether you work in IT or not. It's worth your time.)_
 
 Let's start from the beginning.
 
@@ -73,3 +73,6 @@ Thanks for all of the emails, comments, and criticism over the years. I love get
  [14]: http://php-fpm.org/
  [15]: http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#fastcgi_cache
  [16]: http://httpd.apache.org/docs/2.2/programs/ab.html
+
+[^2]: Sasha Laundy's blog used to be at blog.sashalaundy.com, but it appears to
+be offline now. 😞
