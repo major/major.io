@@ -490,7 +490,7 @@ looking for a radio. You might get recommendations for something to look for
 or you may get a lead on a good radio to buy! *(FCC Rule note: It's okay to
 buy/sell/trade on the airwaves, but don't turn it into an every day habit.)*
 
-[online swapmeet on QRZ]: https://forums.qrz.com/index.php?forums/ham-radio-gear-for-sale.7/
+[online swapmeet on QRZ]: https://forums.qrz.com/
 
 ## What does it mean when some radios say all-mode and others say FM?
 
