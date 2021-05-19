@@ -67,5 +67,5 @@ You can install nginx now, configure it to meet your requirements, and start the
  [1]: https://major.io/2015/10/14/what-i-learned-while-securing-ubuntu/
  [2]: https://major.io/2014/06/26/install-debian-packages-without-starting-daemons/
  [3]: https://github.com/Debian/debhelper/blob/master/autoscripts/postinst-systemd-start
- [4]: https://anonscm.debian.org/git/collab-maint/init-system-helpers.git/tree/script/deb-systemd-invoke#n70
+ [4]: https://manpages.ubuntu.com/manpages/bionic/man1/deb-systemd-invoke.1p.html
  [5]: http://0pointer.de/blog/projects/three-levels-of-off
