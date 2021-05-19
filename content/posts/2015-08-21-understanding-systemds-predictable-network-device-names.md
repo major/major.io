@@ -247,7 +247,7 @@ The udev daemon would start with `ID_NET_NAME_FROM_DATABASE`, but that doesn't e
 
 This loop also handles some special cases. The first check is to see if someone requested for udev to not use predictable naming. We saw this in the [systemd-networkd bonding post][2] when the bootloader configuration contained _net.ifnames=0_. If that kernel command line parameter is present, predictable naming logic is skipped.
 
-Another special case is `ID_NET_NAME_FROM_DATABASE`. Those ports come from udev's internal [hardware database][6]. That file only has one item at the moment and it's for a particular Dell iDRAC network interface.
+Another special case is `ID_NET_NAME_FROM_DATABASE`. Those ports come from udev's internal hardware database. That file only has one item at the moment and it's for a particular Dell iDRAC network interface.
 
 ## Perplexed by hex
 
@@ -268,5 +268,4 @@ _Photo credit: [University of Michigan Library][7]_
  [3]: /2014/08/06/unexpected-predictable-network-naming-systemd/
  [4]: https://github.com/systemd/systemd/blob/master/src/udev/udev-builtin-net_id.c
  [5]: https://github.com/systemd/systemd/blob/master/src/udev/net/link-config.c#L403
- [6]: https://github.com/systemd/systemd/blob/master/hwdb/20-net-ifname.hwdb
  [7]: https://www.flickr.com/photos/mlibrary/2229782090
