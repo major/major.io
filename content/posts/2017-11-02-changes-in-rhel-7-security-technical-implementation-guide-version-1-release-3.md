@@ -62,7 +62,7 @@ Every distribution supported by the ansible-hardening role is already setting `k
 If you're already using the ansible-hardening role's master branch, these changes are [already in place][10]! Try out the new updates and [open a bug report][11] if you find any problems.
 
  [1]: /wp-content/uploads/2017/06/2.jpg
- [2]: https://iase.disa.mil/stigs/os/unix-linux/Pages/index.aspx
+ [2]: https://public.cyber.mil/stigs/
  [3]: https://en.wikipedia.org/wiki/Common_Access_Card
  [4]: https://www.yubico.com/products/yubikey-hardware/yubikey4/
  [5]: https://en.wikipedia.org/wiki/Datagram_Congestion_Control_Protocol

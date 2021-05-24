@@ -80,5 +80,5 @@ I decided to add the `-D` line explicitly in my rules file within `rules.d/` to 
 
  [1]: https://github.com/openstack/openstack-ansible-security
  [2]: http://specs.openstack.org/openstack/openstack-ansible-specs/specs/newton/security-rhel7-stig.html
- [3]: http://iase.disa.mil/stigs/os/unix-linux/Pages/index.aspx
+ [3]: https://public.cyber.mil/stigs/
  [4]: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sec-Defining_Audit_Rules_and_Controls.html

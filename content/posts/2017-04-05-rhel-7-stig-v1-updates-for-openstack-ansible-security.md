@@ -33,7 +33,7 @@ Have feedback? Found a bug? Let us know!
   * E-mail: <openstack-dev@lists.rackspace.com> with the subject line `[openstack-ansible][security]`
 
  [1]: /wp-content/uploads/2017/04/OpenStack-Logo-Horizontal-e1491414195297.png
- [2]: http://iase.disa.mil/stigs/os/unix-linux/Pages/index.aspx
+ [2]: https://public.cyber.mil/stigs/
  [3]: https://github.com/openstack/openstack-ansible-security/commit/dccce1d5cc06985a58f0ecba4fd0d977388592b2
  [4]: https://docs.openstack.org/developer/openstack-ansible-security/controls-rhel7.html
  [5]: https://bugs.launchpad.net/openstack-ansible
