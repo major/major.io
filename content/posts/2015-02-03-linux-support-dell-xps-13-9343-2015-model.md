@@ -209,7 +209,7 @@ We've created an IRC channel on Freenode: #xps13.
 
 There's an interesting [kernel patch mentioning &#8220;Dell Dino&#8221;][22] that is line for inclusion in 3.20-rc1. Someone in IRC found &#8220;Dell Dino&#8221; mentioned on a [Dell business purchase page][23]. The board name from dmidecode in the patch is **0144P8** but that doesn't match other known board names. My i5-5200U with touch is **0TM99H** while a user with a non-touch i5 has a board name of **OTRX4F**. Other i5 touch models have the same board name as mine. All BIOS revisions found so far are A00 (the latest on Dell's site).
 
-A [probe for the rt286 module][24] looks like it starts to happen and then it fails (skip to line 795):
+A probe for the rt286 module looks like it starts to happen and then it fails (skip to line 795):
 
 ```
 [    4.141189] rt286 i2c-INT343A:00: probe
@@ -292,7 +292,6 @@ After a few more reboots, I can't get sound working again. I'm wondering if I ha
  [21]: http://mailman.alsa-project.org/pipermail/alsa-devel/2015-February/087462.html
  [22]: https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2cc3f2347022969f00a429951ce489d35a9b4ea8
  [23]: http://www.dell.com/us/business/p/xps-13-9343-laptop/fs
- [24]: http://paste.fedoraproject.org/185053/23803691/
  [25]: https://github.com/major/xps-13-9343-dsdt
  [26]: https://github.com/major/xps-13-9343-dsdt/blob/master/DSDT.dsl#L8700
  [27]: https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/
