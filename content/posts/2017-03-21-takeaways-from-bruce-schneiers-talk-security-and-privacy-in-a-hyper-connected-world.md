@@ -11,7 +11,7 @@ tags:
   - security
 
 ---
-[<img src="/wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438.jpg" alt="IBM Interconnect 2017 Bruce Schneier" width="1024" height="378" class="aligncenter size-full wp-image-6659" srcset="/wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438.jpg 1024w, /wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438-300x111.jpg 300w, /wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438-768x284.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]Bruce Schneier is one of my favorite speakers when it comes to the topic of all things security. His talk from IBM Interconnect 2017, "[Security and Privacy in a Hyper-connected World][2]", covered a wide range of security concerns.
+[<img src="/wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438.jpg" alt="IBM Interconnect 2017 Bruce Schneier" width="1024" height="378" class="aligncenter size-full wp-image-6659" srcset="/wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438.jpg 1024w, /wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438-300x111.jpg 300w, /wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438-768x284.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]Bruce Schneier is one of my favorite speakers when it comes to the topic of all things security. His talk from IBM Interconnect 2017, "Security and Privacy in a Hyper-connected World"[^1], covered a wide range of security concerns.
 
 There were plenty of great quotes from the talk (scroll to the end for those) and I will summarize the main takeaways in this post.
 
@@ -198,6 +198,7 @@ I tried to capture as many of the memorable quotes on Twitter as they happened. 
 </blockquote>
 
  [1]: /wp-content/uploads/2017/03/IMG_20170321_113057-e1490144858438.jpg
- [2]: https://myibm.ibm.com/events/interconnect/all-sessions/session/7350A
  [3]: https://en.wikipedia.org/wiki/OODA_loop
  [4]: https://www.slideshare.net/MajorHayden/be-an-inspiration-not-an-impostor-texas-linux-fest-2015
+
+[^1]: The link for this talk was removed after the post was written.
