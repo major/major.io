@@ -78,11 +78,13 @@ All students could learn some important life lessons simply from learning how to
 
 Many of the lessons learned from writing software will easily transfer into other fields and disciplines. Gaining these skills is a lot like learning a foreign language. If you use them frequently, you'll have a strong foundation of knowledge to build upon over time. Even if you don't use them frequently, they could give you that small edge that you need later on in your professional career.
 
-_Photo credit: [Pixabay][6]_
+_Photo credit: Pixabay[^6]_
 
  [1]: /wp-content/uploads/2016/10/computers-332238_1920-e1476155887912.jpg
  [2]: https://code.org/learn
  [3]: http://www.neisd.net/dataHS/
  [4]: http://www.neisd.net/
  [5]: http://www.utsa.edu/
- [6]: https://pixabay.com/p-332238/?no_redirect
+
+[^6]: The content was on pixabay at the time of writing, but it has since been
+removed.

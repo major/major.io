@@ -30,7 +30,7 @@ As always, I love the hallway track the most. I enjoy the opportunity to meet ne
 
 If you're going to be there and want to talk about open source, OpenStack, POWER, or technology in general, send me a note on [twitter][8]!
 
-_Photo credit: [lindsayascott at pixabay][9]_
+_Photo credit: lindsayascott at pixabay[^9]_
 
  [1]: /wp-content/uploads/2016/09/welcome-to-las-vegas-1086412_1920-e1473775447598.jpg
  [2]: http://ibm.co/2aAfTwk
@@ -40,4 +40,6 @@ _Photo credit: [lindsayascott at pixabay][9]_
  [6]: https://www-950.ibm.com/events/global/edge/sessions/preview.html?sessionid=PPT-1797
  [7]: https://www-950.ibm.com/events/global/edge/sessions/preview.html?sessionid=PPT-1574
  [8]: https://twitter.com/majorhayden/
- [9]: https://pixabay.com/p-1086412/
+
+[^9]: The content was on pixabay at the time of writing, but it has since been
+removed.

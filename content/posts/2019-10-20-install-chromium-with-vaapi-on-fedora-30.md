@@ -195,7 +195,7 @@ sudo cp /usr/lib64/chromium-vaapi/libwidevinecdm.so /usr/lib64/chromium-freeworl
 
 Restart `chromium-freeworld` and you're good to go again.
 
-*Photo credit: [Pixabay]*
+*Photo credit: Pixabay[^1]*
 
 [film]: /images/2019-10-20-film.jpg
 [VA API]: https://en.wikipedia.org/wiki/Video_Acceleration_API
@@ -204,4 +204,6 @@ Restart `chromium-freeworld` and you're good to go again.
 [DailyMotion]: http://dailymotion.com
 [h264ify]: https://github.com/erkserkserks/h264ify
 [Widefine]: https://www.widevine.com/
-[Pixabay]: https://pixabay.com/photos/film-movie-cinema-reel-retro-2233692/
+
+[^1]: The content was on pixabay at the time of writing, but it has since been
+removed.
