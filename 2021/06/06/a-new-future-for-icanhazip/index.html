@@ -1,0 +1,94 @@
+<!doctype html><html lang=en-us><head><meta http-equiv=x-clacks-overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=https://major.io/favicon.ico><title>A new future for icanhazip | Major Hayden's Blog 🤠</title><meta name=title content="A new future for icanhazip"><meta name=description content="Emojis brighten up any message or document. 🌻 Search, select, and use emojis quickly on Linux with rofimoji. 🤗"><meta name=keywords content="icanhazip,linux,python,"><meta property="og:title" content="A new future for icanhazip"><meta property="og:description" content="Emojis brighten up any message or document. 🌻 Search, select, and use emojis quickly on Linux with rofimoji. 🤗"><meta property="og:type" content="article"><meta property="og:url" content="https://major.io/2021/06/06/a-new-future-for-icanhazip/"><meta property="og:image" content="https://major.io/images/2021-06-16-sunrise-ocean.jpg"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-06-06T00:00:00+00:00"><meta property="article:modified_time" content="2021-06-06T00:00:00+00:00"><meta property="og:site_name" content="Major Hayden's Blog 🤠"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://major.io/images/2021-06-16-sunrise-ocean.jpg"><meta name=twitter:title content="A new future for icanhazip"><meta name=twitter:description content="Emojis brighten up any message or document. 🌻 Search, select, and use emojis quickly on Linux with rofimoji. 🤗"><meta name=twitter:site content="@mhayden"><meta itemprop=name content="A new future for icanhazip"><meta itemprop=description content="Emojis brighten up any message or document. 🌻 Search, select, and use emojis quickly on Linux with rofimoji. 🤗"><meta itemprop=datePublished content="2021-06-06T00:00:00+00:00"><meta itemprop=dateModified content="2021-06-06T00:00:00+00:00"><meta itemprop=wordCount content="1487"><meta itemprop=image content="https://major.io/images/2021-06-16-sunrise-ocean.jpg"><meta itemprop=keywords content="icanhazip,linux,python,"><meta name=referrer content="no-referrer-when-downgrade"><style>body{font-family:Verdana,sans-serif;margin:auto;padding:20px;max-width:820px;text-align:left;background-color:#fff;word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:#444}h1,h2,h3,h4,h5,h6,strong,b{color:#222}a{color:#3273dc}.title{text-decoration:none;border:0}.title span{font-weight:400}nav a{margin-right:10px}textarea{width:100%;font-size:16px}input{font-size:16px}content{line-height:1.6}table{width:100%}img{max-width:100%}code{padding:2px 5px;background-color:#f2f2f2}pre code{color:#222;display:block;padding:20px;white-space:pre-wrap;font-size:14px}div.highlight code{background-color:unset;color:initial}blockquote{border-left:1px solid #999;color:#222;padding-left:20px;font-style:italic}footer{padding:25px;text-align:center}.helptext{color:#777;font-size:small}.errorlist{color:#eba613;font-size:small}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:#8b6fcb}@media(prefers-color-scheme:dark){body{background-color:#333;color:#ddd}h1,h2,h3,h4,h5,h6,strong,b{color:#eee}a{color:#8cc2dd}code{background-color:#777}pre code{color:#ddd}blockquote{color:#ccc}textarea,input{background-color:#252525;color:#ddd}.helptext{color:#aaa}}</style></head><body><header><a href=../../../../ class=title><h2>Major Hayden's Blog 🤠</h2></a><nav><a href=../../../../>Home</a>
+<a href=../../../../ham-radio-faq>Ham Radio</a>
+<a href=../../../../icanhazip-com-faq>icanhazip FAQ</a>
+<a href=../../../../posts>Posts</a></nav></header><main><h1>A new future for icanhazip</h1><i><time datetime=2021-06-06 pubdate>2021-06-06</time></i>
+<content><figure><img src=../../../../images/2021-06-16-sunrise-ocean.jpg alt="Soft emoji items hanging on a rack"></figure><p>In the summer of 2009, I had an idea. My workdays were spent deploying tons of
+cloud infrastructure as Rackspace acquired Slicehost and we rushed to keep up
+with the constant demands for new infrastructure from our customers. Working
+quickly led to challenges with hardware and networking.</p><p>That was a time where the <a href=https://en.wikipedia.org/wiki/I_Can_Has_Cheezburger%3F>I Can Has Cheeseburger</a> meme was red hot just about
+everywhere. We needed a way to quickly check the public-facing IP address of
+lots of backend infrastructure and our customers sometimes needed that
+information, too.</p><p>That&rsquo;s when <a href=https://icanhazip.com>icanhazip.com</a> was born.</p><p>It has always been simple site that returns your external IP address and nothing
+else. No ads. No trackers. No goofy requirements. Sure, if you looked hard
+enough, you could spot my attempt at jokes in the HTTP headers. Other than that,
+the site had a narrow use case and started out mainly as an internal tool.</p><h2 id=thats-when-things-got-a-little-crazy>That&rsquo;s when things got a little crazy</h2><p><a href=https://www.lifehacker.com.au/2011/03/find-your-public-ip-anywhere-with-icanhazip-com/>Lifehacker&rsquo;s Australian site</a> featured a post about icanhazip.com and traffic
+went through the roof. My little Slicehost instance was inundated and I quickly
+realized my Apache and Python setup was not going to work long term.</p><p>I migrated to nginx and set up nginx to answer the requests by itself and
+removed the Python scripts. The load on my small cloud instances came down
+quickly and I figured the issue would be resolved for a while.</p><p>Fast forward to 2015 and icanhazip.com was serving well over 100M requests per
+day. My cloud instances were getting crushed again, so I deployed more with
+round robin DNS. <em>(My budget for icanhazip is tiny.)</em> Once that was overloaded,
+I moved to Hetzner in Germany since I could get physical servers there with
+better network cards along with unlimited traffic.</p><p>The Hetzner servers were not expensive, but I was paying almost $200/month to
+keep the site afloat and the site made no money. I met some people who worked
+for Packet.net (now Equinix Metal) and they offered to sponsor the site. This
+brought my expenses down a lot and I deployed icanhazip.com on one server at
+Packet.</p><p>The site soon crossed 500M requests per day and I deployed a second server.
+Traffic was still overloading the servers. I didn&rsquo;t want to spin up more servers
+at Packet since they were already helping me out quite a bit, so I decided to
+look under the hood of the kernel and make some improvements.</p><p>I learned more than I ever wanted to know about TCP backlogs, TCP/VLAN
+offloading, packet coalescing, IRQ balancing, and a hundred other things. Some
+Red Hat network experts helped me (before I joined the company) to continue
+tweaking. The site was running well after that and I was thankful for the
+support.</p><h2 id=even-crazier-still>Even crazier still</h2><p>Soon the site exceeded 1B requests per day. I went back to the people who helped
+me at Red Hat and after they looked through everything I sent, their response
+was similar to the well-known line from Jaws: <em>&ldquo;You&rsquo;re gonna need a bigger
+boat."</em></p><p>I languished on Twitter about how things were getting out of control and someone
+from Cloudflare reached out to help. We configured Cloudflare to filter traffic
+in front of the site and this reduced the impact from SYN floods, half-open TLS
+connections, and other malicious clients that I couldn&rsquo;t even see when I hosted
+the site on my own.</p><p>Later, Cloudflare launched workers and my contact there said I should consider
+it since my responses were fairly simple and the workers product would handle it
+well. The cost for workers looked horrifying at my traffic levels, but the folks
+at Cloudflare offered to run my workers for free. Their new product was getting
+bucket loads of traffic and I was able to scale the site even further.</p><p>In 2021, the traffic I once received in a month started arriving in 24 hours.
+The site went from 1B requests per day to 30-35B requests per day over a
+weekend. Almost all of that traffic came from several network blocks in China.
+Through all of this, Cloudflare&rsquo;s workers kept chugging along and my response
+times barely moved. I was grateful for the help.</p><p>Cloudflare was doing a lot for me and I wanted to curb some of the malicious
+traffic to reduce the load on their products. I tried many times to reach out to
+the email addresses on the Chinese ASNs and couldn&rsquo;t make contact with anyone.
+Some former coworkers told me that my chances of changing that traffic or
+getting a response to an abuse request was near zero.</p><h2 id=malware-almost-ended-everything>Malware almost ended everything</h2><p>There was a phase for a few years where malware authors kept writing malware
+that would call out to icanhazip.com to find out what they had infected. If they
+could find out the external IP address of the systems they had compromised, they
+could quickly assess the value of the target. Upatre was the first, but many
+followed after that.</p><p>I received emails from companies, US state governments, and even US three letter
+agencies (TLA). Most were very friendly and they had lots of questions. I explained how the site worked and rarely heard a lot more communication after that.</p><p>Not all of the interactions were positive, however. One CISO of a US state
+emailed me and threatened all kinds of legal action claming that icanhazip.com
+was involved in a malware infection in his state&rsquo;s computer systems. I tried
+repeatedly to explain how the site worked and that the malware authors were
+calling out to my site and I was powerless to stop it.</p><p>Along the way, many of my hosting providers received abuse emails about the
+site. I was using a colocation provider in Dallas for a while and the tech
+called me about an abuse email:</p><blockquote><p>&ldquo;So we got another abuse email for you,&rdquo; they said.</p><p>&ldquo;For icanhazip.com?&rdquo;</p><p>&ldquo;Yes. I didn&rsquo;t know that was running here, I use it all the time!&rdquo;</p><p>&ldquo;Thanks! What do we do?&rdquo;</p><p>&ldquo;Your site just returns IP addresses, right?&rdquo;</p><p>&ldquo;Yes, that&rsquo;s it.&rdquo;</p><p>&ldquo;You know what, I&rsquo;ll write up a generic response and just start replying to
+these idiots for you from now on.&rdquo;</p></blockquote><p>There were many times where I saw a big traffic jump and I realized the traffic
+was coming from the same ASN, and likely from the same company. I tried reaching
+out to these companies when I saw it but they rarely ever replied. Some even
+became extremely hostile to my emails.</p><p>The passion left in my passion project started shrinking by the day.</p><h2 id=the-fun-totally-dried-up>The fun totally dried up</h2><p>Seeing that over 90% of my traffic load was malicious and abusive was
+frustrating. Dealing with the abuse emails and complaints was worse.</p><p>I built the site originally as just a utility for my team to use, but then it
+grew and it was fun to find new ways to handle the load without increasing cost.
+Seeing 2 petabytes of data flowing out per month and knowing that almost all of
+it was garbage pushed me over the line. I knew I needed a change.</p><p>I received a few small offers from various small companies ($5,000 or less), but
+I realized that the money wasn&rsquo;t what I was after. I wanted someone to run the
+site and help the information security industry to stop some of these malicious
+actors.</p><h2 id=icanhazipcom-lives-on-at-cloudflare>icanhazip.com lives on at Cloudflare</h2><p>I&rsquo;ve worked closely with my contacts at Cloudflare for a long time and they&rsquo;ve
+always jumped in to help me when something wasn&rsquo;t working well. Their
+sponsorship or icanhazip.com has saved me tens of thousands of dollars per
+month. It has also managed to keep the site alive even under horrific traffic
+load.</p><p>I made this decision because Cloudflare has always done right by me and they&rsquo;ve
+pledged not only to keep the site running, but to work through the traffic load
+and determine how to stop the malicious traffic. Their coordinated work with
+other companies to stop compromised machines from degrading the performance of
+so many sites was a great selling point for me.</p><p>If you&rsquo;re curious, Cloudflare did pay me for the site. We made a deal for them
+to pay me $8.03; the cost of the domain registration. The goal was never to make
+money from the site (although I did get about $75 in total donations from 2009 to
+2021). The goal was to provide a service to the internet. Cloudflare has helped
+me do that and they will continue to do it as the new owners and operators of
+icanhazip.com.</p><h2 id=gratitude>Gratitude</h2><p>I&rsquo;d like to thank everyone who has helped me with icanhazip.com along the way.
+Tons of people stepped up to help with hosting and server optimization. Hosting
+providers helped me field an onslaught of abuse requests and DDoS attacks. Most
+of all, thanks to the people who used the site and helped to promote it.</p><p><em>Photo credit: <a href=https://unsplash.com/photos/6p6WDodvR2Y>Sebastien Gabriel on Unsplash</a></em></p></content><p><a href=https://major.io/tags/icanhazip/>#icanhazip</a>
+<a href=https://major.io/tags/linux/>#linux</a>
+<a href=https://major.io/tags/python/>#python</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+Made with <a href=https://gohugo.io/>Hugo</a> &#187;
+Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>
