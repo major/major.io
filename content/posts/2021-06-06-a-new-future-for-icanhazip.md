@@ -165,7 +165,7 @@ actors.
 
 I've worked closely with my contacts at Cloudflare for a long time and they've
 always jumped in to help me when something wasn't working well. Their
-sponsorship or icanhazip.com has saved me tens of thousands of dollars per
+sponsorship of icanhazip.com has saved me tens of thousands of dollars per
 month. It has also managed to keep the site alive even under horrific traffic
 load.
 
