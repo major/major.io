@@ -1,3 +1,4 @@
+# Testing
 baseURL = "https://major.io"
 title   = "Major Hayden's Blog 🤠"
 theme = "hugo-bearblog"
