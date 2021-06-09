@@ -13,6 +13,6 @@ avc: denied { dyntransition } for pid=809 comm=&#34;sshd&#34; scontext=system_u:
 -rwxr-xr-x. root root system_u:object_r:file_t:s0      /usr/sbin/sshd
 </code></pre><p>How did <em>file_t</em> get there? It turns out that I was using rsync to drag data out of the chroot and I forgot to use the <code>--xattrs</code> argument with rsync.</p></content><p><a href=https://major.io/tags/fedora/>#fedora</a>
 <a href=https://major.io/tags/security/>#security</a>
-<a href=https://major.io/tags/selinux/>#selinux</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/selinux/>#selinux</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

@@ -16,6 +16,6 @@ You may see an error message in Horde that looks like this:
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Session problems with Horde in Plesk with AOL</h1><i><time datetime=2007-09-28 pubdate>2007-09-28</time></i>
 <content><p>Since AOL sends their users' traffic through proxy servers, this can cause problems with Horde&rsquo;s session handling in Plesk. The problem arises when the user&rsquo;s IP changes during the middle of the session.</p><p>You may see an error message in Horde that looks like this:</p><blockquote><p>Your Internet Address has changed since the beginning of your Mail session. To protect your security, you must login again.</p></blockquote><p>You&rsquo;ll normally have this variable in /etc/psa-horde/horde/conf.php:</p><p><code># $conf['auth']['checkip'] = true;</code></p><p>You can disable this ip check functionality which breaks sessions for AOL users by setting it to false:</p><p><code># $conf['auth']['checkip'] = false;</code></p></content><p><a href=https://major.io/tags/mail/>#mail</a>
 <a href=https://major.io/tags/plesk/>#plesk</a>
-<a href=https://major.io/tags/web/>#web</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/web/>#web</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

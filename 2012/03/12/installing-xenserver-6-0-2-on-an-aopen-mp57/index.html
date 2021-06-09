@@ -16,6 +16,6 @@ You&rsquo;ll need the XenServer 6 installation ISO burned to a CD to get started
   append /boot/xen.gz mem=1024G dom0_max_vcpus=4 dom0_mem=752M lowmem_emergency_pool=1M crashkernel=64M@32M acpi=off console=vga --- /boot/vmlinuz-2.6-xen root=LABEL=root-aouozuoo ro xencons=hvc console=hvc0 console=tty0 vga=785 --- /boot/initrd-2.6-xen.img
 </code></pre><p>The <code>console=vga</code> adjustment ensures that the dom0 console is piped to the vga output and <code>acpi=off</code> fixes the lockup that will occur when the vga output is sent to your display. I also removed <code>splash</code> and <code>quiet</code> from the kernel line so that I could see all of the boot messages in detail.</p></content><p><a href=https://major.io/tags/virtualization/>#virtualization</a>
 <a href=https://major.io/tags/xen/>#xen</a>
-<a href=https://major.io/tags/xenserver/>#xenserver</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/xenserver/>#xenserver</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

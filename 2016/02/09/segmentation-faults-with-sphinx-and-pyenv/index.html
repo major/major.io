@@ -16,6 +16,6 @@ Segmentation fault (core dumped)
 </code></pre><p>The same segmentation fault showed up again. After a ton of Google searching, I found that the <code>--enable-shared</code> option allows pyenv to use shared Python libraries at compile time:</p><pre><code>env PYTHON_CONFIGURE_OPTS=&quot;--enable-shared CC=clang&quot; pyenv install -vk 2.7.11
 </code></pre><p>That worked! I&rsquo;m now able to run sphinx without segmentation faults.</p></content><p><a href=https://major.io/tags/development/>#development</a>
 <a href=https://major.io/tags/fedora/>#fedora</a>
-<a href=https://major.io/tags/python/>#python</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/python/>#python</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

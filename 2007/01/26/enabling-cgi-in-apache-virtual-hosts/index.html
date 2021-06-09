@@ -18,6 +18,6 @@ ScriptAlias /cgi-bin/ &#34;/var/www/html/cgi-bin/&#34; <Directory &#34;/var/www/
 </code></pre></div><p>Reload Apache and throw this in as test.cgi into your cgi-bin directory:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-perl data-lang=perl><span style=color:#93a1a1;font-style:italic>#!/usr/bin/perl</span>
 <span style=color:#859900>print</span> <span style=color:#2aa198>&#34;Content-type: text/html\n\n&#34;</span>;
 <span style=color:#859900>print</span> <span style=color:#2aa198>&#34;Hello, World.&#34;</span>;
-</code></pre></div><p><strong>Do not omit</strong> the content-type on your perl scripts. If you do, Apache will throw a random 500 Internal Server Error and it won&rsquo;t log anything about it.</p></content><p><a href=https://major.io/tags/web/>#web</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre></div><p><strong>Do not omit</strong> the content-type on your perl scripts. If you do, Apache will throw a random 500 Internal Server Error and it won&rsquo;t log anything about it.</p></content><p><a href=https://major.io/tags/web/>#web</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

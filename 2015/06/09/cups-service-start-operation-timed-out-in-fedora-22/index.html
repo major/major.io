@@ -14,6 +14,6 @@ audit[1]: &lt;audit-1130&gt; pid=1 uid=0 auid=4294967295 ses=4294967295 subj=sys
 </code></pre><p>If I tried to run <code>systemctl start cups</code>, the command would hang for quite a while and then fail. I broke out <a href=http://linux.die.net/man/1/strace>strace</a> and tried to figure out what was going wrong.</p><p>The strace output showed that cups was talking to my local DNS servers and was asking constantly for the IP address of my laptop&rsquo;s hostname.</p><p><img src=../../../../wp-content/uploads/2015/06/iWKad22.jpg alt=2></p><p>Oh, I felt pretty stupid at this point.</p><p>I added my laptop&rsquo;s hostname onto the line starting with <code>127.0.0.1</code> in my <code>/etc/hosts</code> and tried to start cups once more. It started up in less than a second and is now working well.</p></content><p><a href=https://major.io/tags/dns/>#dns</a>
 <a href=https://major.io/tags/fedora/>#fedora</a>
 <a href=https://major.io/tags/networking/>#networking</a>
-<a href=https://major.io/tags/printing/>#printing</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/printing/>#printing</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

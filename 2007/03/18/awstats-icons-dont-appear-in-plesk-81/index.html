@@ -12,6 +12,6 @@ my $DirIcons='/awstats-icon'; "><meta itemprop=datePublished content="2007-03-18
 <a href=../../../../posts>Posts</a></nav></header><main><h1>AWStats icons don’t appear in Plesk 8.1</h1><i><time datetime=2007-03-18 pubdate>2007-03-18</time></i>
 <content><p>The AWStats package in RHEL4/Centos4 and Plesk 8.1 uses an alias directory for the icons called /awstats-icon, but when the AWStats contents is generated, the icon directory is different (/icon). To fix this issue, change this file:</p><p><code>/usr/share/awstats/awstats_buildstaticpages.pl</code>:</p><div class=highlight><pre style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-perl data-lang=perl><span style=color:#859900>my</span> <span style=color:#268bd2>$DirIcons</span>=<span style=color:#2aa198>&#39;/awstats-icon&#39;</span>;
 </code></pre></div></content><p><a href=https://major.io/tags/plesk/>#plesk</a>
-<a href=https://major.io/tags/web/>#web</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/web/>#web</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

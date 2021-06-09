@@ -20,6 +20,6 @@ mysql&gt; update dns_recs set val='192.168.1.209' where val='192.168.1.192';
 # mysql -Ns -uadmin -p`cat /etc/psa/.psa.shadow` -D psa -e 'select name from domains' | awk '{print &quot;/usr/local/psa/admin/sbin/dnsmng update &quot; $1 }' | sh
 </code></pre><p>All that is left is to force Apache and BIND to pick up the new configuration:</p><pre><code># /etc/init.d/httpd reload
 # /etc/init.d/named reload
-</code></pre><p>Just wait for the DNS records to propagate and you should be all set! The instructions are cumbersome, I know, but it&rsquo;s easier than clicking for-ev-er.</p></content><p><a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre><p>Just wait for the DNS records to propagate and you should be all set! The instructions are cumbersome, I know, but it&rsquo;s easier than clicking for-ev-er.</p></content><p><a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

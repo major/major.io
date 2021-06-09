@@ -10,6 +10,6 @@ mysql -u admin -p`cat /etc/psa/.psa.shadow` psa -e &#34;select dns_zone_id,displ
 </code></pre></div><p>Then you&rsquo;ll need to make Plesk write these changes to the zone files:</p><pre><code># mysql -Ns -uadmin -p`cat /etc/psa/.psa.shadow` -D psa -e 'select name from domains' | awk '{print &quot;/usr/local/psa/admin/sbin/dnsmng update &quot; $1 }' | sh
 </code></pre><p>You can check your work by viewing the new entries you made:</p><pre><code>mysql -u admin -p`cat /etc/psa/.psa.shadow` psa -e &quot;SELECT * FROM dns_recs WHERE type='TXT';&quot;
 </code></pre></content><p><a href=https://major.io/tags/mail/>#mail</a>
-<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

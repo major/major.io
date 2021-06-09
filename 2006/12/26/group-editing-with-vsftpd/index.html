@@ -18,6 +18,6 @@ local_umask = 022     &lt;-- new
 </code></pre><p>Modify the users so that their primary group is sharedweb. If you forget this step, when they make new FTP files, they will be owned by each user&rsquo;s primary group (sometimes named the same as the user on some systems) and the permissions will be completeld hosed.</p><pre><code>usermod -g ann sharedweb
 usermod -g bill sharedweb
 usermod -g carl sharedweb
-</code></pre><p>Restart vsftpd to pick up the new configuration and your users should be able upload, delete, and edit each other&rsquo;s files.</p></content><p><a href=https://major.io/tags/ftp/>#ftp</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre><p>Restart vsftpd to pick up the new configuration and your users should be able upload, delete, and edit each other&rsquo;s files.</p></content><p><a href=https://major.io/tags/ftp/>#ftp</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

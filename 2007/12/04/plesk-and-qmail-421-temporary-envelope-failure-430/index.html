@@ -23,6 +23,6 @@ Connection closed by foreign host.
 </code></pre><p>Temporary envelope failure? I was still confused. After reviewing the logs, I found the following line whenever I tried to telnet to port 25 and send an e-mail:</p><pre><code>Dec  2 00:15:49 www relaylock: /var/qmail/bin/relaylock: mail from 44.33.22.11:17249 (yourdesktop.com)
 </code></pre><p>It turns out that the customer was using greylisting in qmail with qmail-envelope-scanner. After a quick check of /tmp/greylist_dbg.txt, I found the entries from me (as well as a lot of other senders), and that ended up being the root of the problem.</p></content><p><a href=https://major.io/tags/mail/>#mail</a>
 <a href=https://major.io/tags/plesk/>#plesk</a>
-<a href=https://major.io/tags/qmail/>#qmail</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/qmail/>#qmail</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

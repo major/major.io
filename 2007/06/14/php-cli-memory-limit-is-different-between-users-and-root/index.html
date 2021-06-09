@@ -17,6 +17,6 @@ string(3) &quot;64M&quot;
 </code></pre><p>As you can see, php.ini is only readable to root, which prevents PHP&rsquo;s command line parser from accessing your custom memory_limit directive in the php.ini. PHP&rsquo;s general default is 8M for a memory limit if nothing is specified anywhere else, and that&rsquo;s why normal users cannot get the higher memory limit that&rsquo;s set in your php.ini file.</p><p>Simply set the permissions on the file to 644 and you should be set to go:</p><pre><code># chmod 644 /etc/php.ini
 # ls -al /etc/php.ini
 -rw-r--r--  1 root root 45022 Jun  6 23:00 /etc/php.ini
-</code></pre></content><p><a href=https://major.io/tags/command-line/>#command line</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre></content><p><a href=https://major.io/tags/command-line/>#command line</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

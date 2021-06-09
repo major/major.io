@@ -17,6 +17,6 @@ Next, rebuild the initial ram disk after making a backup of the current one:
 <content><p>Installing new hardware may mean that new kernel need to be loaded when your server boots up. There&rsquo;s a two step process to making a new initrd file:</p><p><strong>First,</strong> add the appropriate line to your /etc/modules.conf or /etc/modprobe.conf which corresponds to your new kernel module.</p><p><strong>Next,</strong> rebuild the initial ram disk after making a backup of the current one:</p><pre><code># cp /boot/initrd-`uname -r`.img /boot/initrd-`uname -r`.img.bak
 # mkinitrd -f initrd-`uname -r`.img `uname -r`
 </code></pre><p>Reboot the server now and make sure the new driver is loaded properly.</p></content><p><a href=https://major.io/tags/command-line/>#command line</a>
-<a href=https://major.io/tags/kernel/>#kernel</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/kernel/>#kernel</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

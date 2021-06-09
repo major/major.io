@@ -18,6 +18,6 @@ type=USER_AVC msg=audit(1442602150.440:769): pid=1 uid=0 auid=4294967295 ses=429
 </code></pre><p>There&rsquo;s a <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1224211">very active bug</a> under review to get it fixed. As a workaround, you can re-execute systemd with the following command:</p><pre><code>systemctl daemon-reexec
 </code></pre><p>That should allow you to stop, start, and restart services properly again. Also, you&rsquo;ll be able to switch runlevels for reboots and shutdowns.</p><p>Keep an eye on the bug for more details as they develop. Kudos to <a href=https://fedoraproject.org/wiki/User:Kevin>Kevin Fenzi</a> for the workaround!</p></content><p><a href=https://major.io/tags/fedora/>#fedora</a>
 <a href=https://major.io/tags/selinux/>#selinux</a>
-<a href=https://major.io/tags/systemd/>#systemd</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/systemd/>#systemd</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

@@ -13,6 +13,6 @@ First off, check for two files in /var/qmail/control called dh512.pem and dh1024
 # /etc/init.d/xinetd restart
 </code></pre><p>At this point, your CPU load should be reduced once the currently running processes for qmail clear out.</p><p>So why is this fix required? Without dh512.pem and dh1024.pem, qmail has to create certificate and key pairs when other mail servers or mail users connect to qmail via TLS. If qmail is forced to generate them on the fly, you will get a big performance hit, and your load will be much higher than it could be. By copying the dhparam files over, you will pre-populate the SSL key and certificate for qmail to use, and all it has to do is pick it up off the file system rather than regenerating it each time.</p><p>Further reading:</p><p><a href="http://forum.swsoft.com/printthread.php?threadid=40173">SWsoft Forums: Qmail-smtpd spawning many processes, using full cpu</a></p></content><p><a href=https://major.io/tags/emergency/>#emergency</a>
 <a href=https://major.io/tags/mail/>#mail</a>
-<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

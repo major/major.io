@@ -7,6 +7,6 @@ cat /var/log/messages | grep -i smtp_auth | grep &#34;logged in&#34; | awk {' pr
 <a href=../../../../icanhazip-com-faq>icanhazip FAQ</a>
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Getting the SMTP Auth ID with Plesk</h1><i><time datetime=2007-02-07 pubdate>2007-02-07</time></i>
 <content><p>If you think an e-mail account has been hacked in Plesk, use this to hunt down which one it could be:</p><pre><code>cat /var/log/messages | grep -i smtp_auth | grep &quot;logged in&quot; | awk {' print $11 '} | awk -F / {' print $6&quot;@&quot;$5 '} | sort | uniq -c | sort -n | tail
-</code></pre></content><p><a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre></content><p><a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

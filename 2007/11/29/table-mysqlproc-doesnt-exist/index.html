@@ -11,6 +11,6 @@ The server had the default MySQL 4.1.20 that comes with Red Hat Enterprise Linux
 <a href=../../../../icanhazip-com-faq>icanhazip FAQ</a>
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Table ‘mysql.proc’ doesn’t exist</h1><i><time datetime=2007-11-29 pubdate>2007-11-29</time></i>
 <content><p>After I was asked to create a stored procedure on a MySQL 5.0.45 installation last week, I received the following error:</p><p><code>ERROR 1146 at line 24: Table 'mysql.proc' doesn't exist</code></p><p>The server had the default MySQL 4.1.20 that comes with Red Hat Enterprise Linux 4, and it was upgraded to MySQL 5.0.45. After the upgrade, the <code>mysql_upgrade</code> script wasn&rsquo;t run, so the privilege tables were wrong, and the special tables for procedures and triggers did not exist.</p><p>To fix the problem, I ran:</p><p><code># /usr/bin/mysql_upgrade</code></p><p>After about 20 seconds, the script completed and I was able to add a stored procedure without a problem.</p></content><p><a href=https://major.io/tags/database/>#database</a>
-<a href=https://major.io/tags/mysql/>#mysql</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/mysql/>#mysql</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

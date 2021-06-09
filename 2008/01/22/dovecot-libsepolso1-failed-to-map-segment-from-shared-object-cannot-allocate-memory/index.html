@@ -11,6 +11,6 @@ dovecot: pop3-login: pop3-login: error while loading shared libraries: libsepol.
 </code></pre><p>If you start dovecot, the main dovecot daemon will run with one auth child process, but there will be no POP/IMAP processes started. To fix the issue, open the /etc/dovecot.conf and adjust the following directive:</p><pre><code>login_process_size = 64
 </code></pre><p>Restart dovecot after making the change:</p><pre><code># /etc/init.d/dovecot restart
 </code></pre><p>This was tested on RHEL 5.1 x86_64.</p></content><p><a href=https://major.io/tags/dovecot/>#dovecot</a>
-<a href=https://major.io/tags/mail/>#mail</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/mail/>#mail</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

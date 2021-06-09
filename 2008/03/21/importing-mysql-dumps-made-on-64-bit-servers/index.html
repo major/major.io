@@ -8,6 +8,6 @@ ERROR 1118 (42000) at line 1686: Row size too large. The maximum row size for th
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Importing MySQL dumps made on 64-bit servers</h1><i><time datetime=2008-03-21 pubdate>2008-03-21</time></i>
 <content><p>It&rsquo;s tough to find examples of dumps that can&rsquo;t be properly reimported on other servers. However, if you have a 64-bit server, and you make a MySQL dump file from it, you may see this issue when importing the dump on a 32-bit MySQL server:</p><pre><code>ERROR 1118 (42000) at line 1686: Row size too large. The maximum row size for the used table type, not counting BLOBs, is 65535. You have to change some columns to TEXT or BLOBs
 </code></pre><p>You really don&rsquo;t have any options in this situation. You&rsquo;ll need to adjust your table on the 64-bit server for good and then make a new dump file, or you will just have to live with the fact that it can&rsquo;t be imported into a 32-bit instance of MySQL.</p></content><p><a href=https://major.io/tags/database/>#database</a>
-<a href=https://major.io/tags/mysql/>#mysql</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/mysql/>#mysql</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

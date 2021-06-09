@@ -7,6 +7,6 @@ expire_logs_days = 14 5.11.3. The Binary Log"><meta itemprop=datePublished conte
 <a href=../../../../icanhazip-com-faq>icanhazip FAQ</a>
 <a href=../../../../posts>Posts</a></nav></header><main><h1>MySQL binary log rotation</h1><i><time datetime=2007-09-07 pubdate>2007-09-07</time></i>
 <content><p>If you&rsquo;ve run MySQL in a replication environment, or if you&rsquo;ve enabled binary logging for transactional integrity, you know that the binary logs can grow rather quickly. The only safe way to delete the logs is to use <a href=http://dev.mysql.com/doc/refman/5.0/en/purge-master-logs.html>PURGE MASTER LOGS</a> in MySQL, but if you want MySQL to automatically remove the logs after a certain period of time, add this in your my.cnf:</p><pre><code>expire_logs_days = 14
-</code></pre><p><a href=http://dev.mysql.com/doc/refman/5.0/en/binary-log.html>5.11.3. The Binary Log</a></p></content><p><a href=https://major.io/tags/database/>#database</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre><p><a href=http://dev.mysql.com/doc/refman/5.0/en/binary-log.html>5.11.3. The Binary Log</a></p></content><p><a href=https://major.io/tags/database/>#database</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

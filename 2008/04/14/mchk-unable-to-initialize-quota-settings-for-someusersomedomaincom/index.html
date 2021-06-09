@@ -20,6 +20,6 @@ find /var/qmail/mailnames -type d -name '.*' ! -name '.spamassassin' -ls -exec t
 <a href=../../../../posts>Posts</a></nav></header><main><h1>mchk: Unable to initialize quota settings for someuser@somedomain.com</h1><i><time datetime=2008-04-14 pubdate>2008-04-14</time></i>
 <content><p>If you&rsquo;re working in Plesk and you receive this error:</p><p><strong>mchk: Unable to initialize quota settings for <a href=mailto:someuser@somedomain.com>someuser@somedomain.com</a></strong></p><p>Run this command to fix the issue, but be patient:</p><pre><code>find /var/qmail/mailnames -type d -name '.*' ! -name '.spamassassin' -ls -exec touch '{}'/maildirfolder \; -exec chown popuser:popuser '{}'/maildirfolder \;
 </code></pre><blockquote><p>Thanks to <a href=http://barking-dog.net/>Mike Jackson</a> for this one.</p></blockquote></content><p><a href=https://major.io/tags/mail/>#mail</a>
-<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

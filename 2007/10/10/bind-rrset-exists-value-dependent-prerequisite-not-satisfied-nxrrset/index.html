@@ -12,6 +12,6 @@ Oct 7 21:59:35 web named[13698]: client 111.222.333.444#50422: updating zone 'do
 Oct 7 21:59:35 web named[13698]: client 111.222.333.444#50425: update 'domain.com/IN' denied
 Oct 7 22:59:20 web named[13698]: client 111.222.333.444#50458: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)
 </code></pre><p>The messages here are actually showing that named is doing its job well. Some user was attempting to dynamically update a DNS zone repeatedly, but named was rejecting the updates since they were not coming from a valid sources.</p><p>Further reading:</p><p><a href=http://www.zytrax.com/books/dns/ch7/xfer.html#allow-update>Zytrax.com: DNS BIND Zone Transfers and Updates</a></p><p><a href=http://www.isc.org/sw/bind/arm95/BvARM-all.html#dynamic_update>Internet Systems Consortium: Dynamic Updates</a></p></content><p><a href=https://major.io/tags/bind/>#bind</a>
-<a href=https://major.io/tags/security/>#security</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/security/>#security</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

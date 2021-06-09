@@ -17,6 +17,6 @@ pkts      bytes target     prot opt in     out     source        destination
 437    59684 ACCEPT     all  --  any    any     anywhere      anywhere  OWNER UID match root`
 </code></pre><p>The number in the &lsquo;bytes&rsquo; column is the count of bytes that this user sent out of your server since the last time you ran that iptables command. If you don&rsquo;t want to zero out the bytes each time you run the command, just drop the Z flag from the iptables command.</p><p>You can go wild with awk if you desire:</p><pre><code># /sbin/iptables -v -xL | grep root | awk '{ print $2 }'
 59684
-</code></pre></content><p><a href=https://major.io/tags/command-line/>#command line</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre></content><p><a href=https://major.io/tags/command-line/>#command line</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

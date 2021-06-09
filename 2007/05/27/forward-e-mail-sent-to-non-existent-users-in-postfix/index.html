@@ -17,6 +17,6 @@ luser_relay = root local_recipient_maps = Then reload the Postfix configuration:
 <content><p>Normally, Postfix will reject e-mail sent to non-existent users if a catchall isn&rsquo;t present for the specific domain that is receiving mail. However, you can make a super catchall to catch any and all e-mail that Postfix receives for the domains in its mydestination list:</p><p>Add the following to /etc/postfix/main.cf:</p><pre><code>luser_relay = root
 local_recipient_maps =
 </code></pre><p>Then reload the Postfix configuration:</p><pre><code># postfix reload
-</code></pre><p>For more information: <a href=http://www.postfix.org/rewrite.html#luser_relay>http://www.postfix.org/rewrite.html#luser_relay</a></p></content><p><a href=https://major.io/tags/mail/>#mail</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+</code></pre><p>For more information: <a href=http://www.postfix.org/rewrite.html#luser_relay>http://www.postfix.org/rewrite.html#luser_relay</a></p></content><p><a href=https://major.io/tags/mail/>#mail</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

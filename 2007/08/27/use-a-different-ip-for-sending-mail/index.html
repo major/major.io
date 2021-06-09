@@ -8,6 +8,6 @@
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Use a different IP for sending mail</h1><i><time datetime=2007-08-28 pubdate>2007-08-28</time></i>
 <content><p>If you find yourself in a pinch and you need a temporary fix when your primary IP is blacklisted, use the following iptables rule:</p><pre><code>/sbin/iptables -t nat -A POSTROUTING -p tcp --dport 25 -j SNAT --to-source [desired outgoing ip]
 </code></pre><p>Keep in mind, however, that you will need to adjust any applicable SPF records for your domains since your e-mail will appear to be leaving via one of the secondary IP&rsquo;s on your server. Also, remember that this is only a temporary fix - you should find out why you were blacklisted and eliminate that problem as soon as possible. :-)</p></content><p><a href=https://major.io/tags/command-line/>#command line</a>
-<a href=https://major.io/tags/mail/>#mail</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/mail/>#mail</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

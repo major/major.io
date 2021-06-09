@@ -9,6 +9,6 @@ For example, if the server is on Central Time, all of the files will seem to be 
 <content><p>A really really strange issue randomly appears with ProFTPD and Plesk occasionally. On the filesystem, a file will have a correct creation/modification date, but then when you view it over FTP, it&rsquo;s always off by the amount of hours you differ from GMT.</p><p>For example, if the server is on Central Time, all of the files will seem to be created 6 hours after they were really created. The filesystem will show something like 10AM, but the FTP client will say 4PM. Luckily, <strong>there is a fix!</strong></p><p>Add the following to your /etc/proftpd.conf file and you should be good to go:</p><pre><code>TimesGMT off
 SetEnv TZ :/etc/localtime
 </code></pre></content><p><a href=https://major.io/tags/ftp/>#ftp</a>
-<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

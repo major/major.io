@@ -11,6 +11,6 @@ Use of uninitialized value in string eq at /usr/lib64/perl5/site_perl/5.8.8/x86_
 </code></pre><p>You can run the vmware-cmd application with this error (it&rsquo;s not a fatal error) and keep going with your normal business. However, if you want to remove the error, comment out lines 114 and 115 in the Perl module referenced by the error:</p><pre><code>die &quot;Perl API Version does not match dynamic library version.&quot;
     unless (version() eq $VERSION);
 </code></pre><p>Commenting out these lines does not affect the VMWare server in any way.</p></content><p><a href=https://major.io/tags/perl/>#perl</a>
-<a href=https://major.io/tags/vmware/>#vmware</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/vmware/>#vmware</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

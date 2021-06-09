@@ -8,6 +8,6 @@ I made a MySQL 3.23 compatible dump with --compatible=mysql323, but the dump cam
 <a href=../../../../posts>Posts</a></nav></header><main><h1>Remove backticks from MySQL dumps</h1><i><time datetime=2008-06-18 pubdate>2008-06-18</time></i>
 <content><p>I found myself in a peculiar situation last week. I&rsquo;d been asked to downgrade a server from MySQL 4.1 to MySQL 3.23. Believe me, I tried to advise against the request, but I didn&rsquo;t succeed.</p><p>I made a MySQL 3.23 compatible dump with <code>--compatible=mysql323</code>, but the dump came out with backticks around the database names. This works with some 3.23 versions, but it doesn&rsquo;t work with others. Apparently RHEL 3&rsquo;s MySQL 3.23 is one of those versions where it simply won&rsquo;t work.</p><p>This sed line came in handy to strip the backticks from the <code>USE</code> lines in the dump:</p><pre><code>sed -e &quot;s/^USE \`\(.*\)\`/USE \1/g&quot;
 </code></pre></content><p><a href=https://major.io/tags/mysql/>#mysql</a>
-<a href=https://major.io/tags/sed/>#sed</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/sed/>#sed</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

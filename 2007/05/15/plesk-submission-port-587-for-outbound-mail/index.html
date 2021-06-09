@@ -20,6 +20,6 @@ iptables -t nat -A PREROUTING -p tcp --dport 587 -i eth0 -j REDIRECT --to-ports 
 # vi smtp_additional
 </code></pre><p>Make the first line say &ldquo;service submission&rdquo; and save the file. Then restart xinetd:</p><pre><code>/etc/rc.d/init.d/xinetd restart
 </code></pre><p><strong>This is no longer needed in Plesk 8.4. To enable the submission port in Plesk 8.4, log into the Plesk interface as the Administrator, click Server and click Mail.</strong></p></content><p><a href=https://major.io/tags/mail/>#mail</a>
-<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/plesk/>#plesk</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>

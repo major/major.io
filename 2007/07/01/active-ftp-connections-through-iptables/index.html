@@ -16,6 +16,6 @@ iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT Inbound connect
 </code></pre><p>Now, you have everything you need to allow the connections, but iptables will need to be able to mark and track these connections to allow them to pass properly. That is done with the ip_conntrack_ftp kernel module. To test things out, run this:</p><pre><code>modprobe ip_conntrack_ftp
 </code></pre><p>At this point, you should be able to connect without a problem. However, to keep this module loaded whenever iptables is running, you will need to add it to /etc/sysconfig/iptables-config:</p><pre><code>IPTABLES_MODULES=&quot;ip_conntrack_ftp&quot;
 </code></pre></content><p><a href=https://major.io/tags/command-line/>#command line</a>
-<a href=https://major.io/tags/security/>#security</a></p></main><footer><hr>CC-BY-SA 4.0 &#187;
+<a href=https://major.io/tags/security/>#security</a></p></main><footer><script async src=https://media.ethicalads.io/media/client/ethicalads.min.js></script><div data-ea-publisher=major-io data-ea-type=text></div><hr>CC-BY-SA 4.0 &#187;
 Made with <a href=https://gohugo.io/>Hugo</a> &#187;
 Theme based on <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a><br></footer></body></html>
