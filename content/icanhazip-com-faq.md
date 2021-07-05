@@ -1,12 +1,30 @@
 ---
-title: icanhazip.com FAQ
 author: Major Hayden
+date: '2021-07-05'
+description: >
+  The family of icanhaz sites help you get more information about your network connection.
+images:
+  - images/icanhazip-glasses.jpg
+slug: icanhazip-com-faq
+tags:
+- icanhazip
+- linux
+- python
+title: icanhazip.com FAQ
 type: page
-date: 2011-01-15T13:53:56+00:00
-dsq_thread_id:
-  - 3642805054
-
 ---
+
+{{< figure src="/images/icanhazip-glasses.jpg" alt="glasses on a table in front of screens" position="center" >}}
+
+## icanhazip.com has a new owner! 🎉
+
+Starting in June 2021, icanhazip.com is now owned and operated by Cloudflare!
+Read more about it in the blog post: [A new future for icanhazip].
+
+All of the remaining sites are unchanged.
+
+[A new future for icanhazip]: /2021/06/06/a-new-future-for-icanhazip/
+
 ## Which sites are available?
 
 You have a few to choose from:
@@ -74,3 +92,5 @@ I'm not a Puppy Linux user, but my site is used by some of the startup scripts t
  [11]: http://ipv6.icanhazip.com
  [12]: http://en.wikipedia.org/wiki/Lolcat
  [13]: https://github.com/major/icanhaz
+
+*Photo credit: [Kevin Ku on Unsplash](https://unsplash.com/photos/w7ZyuGYNpRQ)*
