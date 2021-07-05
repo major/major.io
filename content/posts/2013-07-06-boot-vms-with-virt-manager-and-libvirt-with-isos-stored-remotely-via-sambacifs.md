@@ -62,6 +62,6 @@ The fix is a quick one:
 
 You should be all set after that. Press &#8220;Browse Local&#8221; in virt-manager when you look for your ISO to boot the virtual machine and navigate over to /mnt/iso for your list of ISO's.
 
- [1]: http://major.io/wp-content/uploads/2013/07/qnap.jpg
+ [1]: https://major.io/wp-content/uploads/2013/07/qnap.jpg
  [2]: http://virt-manager.org/
  [3]: http://www.qnap.com/en/?lang=en&sn=822&c=1655&sc=1656&t=1660&n=6703
