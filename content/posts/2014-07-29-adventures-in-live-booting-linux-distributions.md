@@ -62,7 +62,7 @@ Here's the problem: overlayfs was given the green light for _consideration_ in t
 
 #### Wrap-up
 
-Building highly customized live images isn't easy and running them in production makes it more challenging. Once the upstream kernel has a stable, solid, stackable filesystem, it should be much easier to operate a live environment for extended periods. There has been a parade of stackable filesystems over the years (remember [funion-fs][14]?) but I've been told that overlayfs seems to be a solid contender. I'll keep an eye out for those kernel patches to land upstream but I'm not going to hold my breath quite yet.
+Building highly customized live images isn't easy and running them in production makes it more challenging. Once the upstream kernel has a stable, solid, stackable filesystem, it should be much easier to operate a live environment for extended periods. There has been a parade of stackable filesystems over the years (remember funion-fs?) but I've been told that overlayfs seems to be a solid contender. I'll keep an eye out for those kernel patches to land upstream but I'm not going to hold my breath quite yet.
 
  [1]: http://www.knoppix.org/
  [2]: http://live.debian.net/
@@ -77,4 +77,4 @@ Building highly customized live images isn't easy and running them in production
  [11]: https://wiki.archlinux.org/index.php/larch#Installation
  [12]: https://kernel.googlesource.com/pub/scm/linux/kernel/git/mszeredi/vfs/+/overlayfs.current/Documentation/filesystems/overlayfs.txt
  [13]: https://lwn.net/Articles/542709/
- [14]: http://funionfs.apiou.org/?lng=en
+

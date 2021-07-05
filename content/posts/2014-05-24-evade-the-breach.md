@@ -43,12 +43,11 @@ If these layers make sense, then you understand defense in depth and risk manage
 
 In summary, good security practice stems from exactly that: practice security each day and make it part of your normal business processes. Security improvements must be made with changes to people, process and technology. The businesses that truly excel in information security are those that insulate themselves from risk-internal and external-with effective preventative, detective and corrective layers.
 
-If you'd like to review the presentation slides from the Accruent Insights conference, you can [download the big PDF][4] or [find them on SlideShare][5].
+If you'd like to review the presentation slides from the Accruent Insights conference, you can [find them on SlideShare][5].
 
 _I'm always trying to get better at presenting so please feel free to send me some constructive criticism. ;)_
 
  [1]: http://www.accruent.com/
  [2]: http://www.accruent.com/conference/insights
  [3]: https://en.wikipedia.org/wiki/There_are_known_knowns
- [4]: http://bit.ly/evadethebreach
  [5]: http://www.slideshare.net/MajorHayden/accruent-insights-2014-20140428-v8-final

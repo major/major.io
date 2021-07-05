@@ -49,7 +49,7 @@ Level 2 requirements provide stronger security improvements but they can adverse
 
 ### How to use it
 
-I strongly recommend some dry runs with Ansible's [check mode][10] before trying to modify a production system. Also, you can run the playbook against a freshly-installed system and then deploy your applications on top of it. Find out what breaks and disable certain benchmarks that get in the way.
+I strongly recommend some dry runs with Ansible's check mode before trying to modify a production system. Also, you can run the playbook against a freshly-installed system and then deploy your applications on top of it. Find out what breaks and disable certain benchmarks that get in the way.
 
 The entire playbook takes less than a minute to run locally on a Rackspace Performance Cloud Server. Your results may vary over remote ssh connections, but I was seeing the playbooks complete over ssh within three to four minutes.
 
@@ -65,5 +65,4 @@ The entire repository is licensed under [Apache License 2.0][12], so please feel
  [4]: http://benchmarks.cisecurity.org/downloads/
  [5]: https://github.com/major/cis-rhel-ansible
  [6]: /wp-content/uploads/2014/08/What-Did-You-Do-Chris-Farley-Gif.gif
- [10]: http://docs.ansible.com/playbooks_checkmode.html
  [12]: https://www.apache.org/licenses/LICENSE-2.0.html
