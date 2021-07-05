@@ -49,7 +49,7 @@ There's a [Fedora bug report][7] as well.
 
 _If anyone is interested, I plan to write up my email configuration on Fedora soon for other folks to use. I might even make some ansible playbooks for it. ;)_
 
-_Fedora update: Fedora's spamassassin package has been [updated to 3.4.0-7 and it fixes two bugs][8]. You'll find it in the stable repositories in a few days._
+_Fedora update: Fedora's spamassassin package has been updated to 3.4.0-7 and it fixes two bugs. You'll find it in the stable repositories in a few days._
 
  [1]: https://twitter.com/majorhayden/status/479250665311457281
  [2]: https://en.wikipedia.org/wiki/DNSBL
@@ -58,4 +58,3 @@ _Fedora update: Fedora's spamassassin package has been [updated to 3.4.0-7 and i
  [5]: https://issues.apache.org/SpamAssassin/show_bug.cgi?id=7057
  [6]: https://svn.apache.org/viewvc/spamassassin/trunk/lib/Mail/SpamAssassin/DnsResolver.pm?r1=1603518&r2=1603517&pathrev=1603518
  [7]: https://bugzilla.redhat.com/show_bug.cgi?id=1111586
- [8]: https://admin.fedoraproject.org/updates/spamassassin-3.4.0-7.fc20
