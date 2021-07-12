@@ -4,7 +4,8 @@ categories:
 - Blog Posts
 date: '2021-07-12'
 description: >-
-    TBD
+    Get your system tray looking great and displayed on the correct monitor with
+    a simple script and some i3 configuration. 📥
 images:
 - images/2021-07-12-ship-wheel.jpg
 slug: tray-icons-in-i3
