@@ -50,7 +50,7 @@ disableHugoGeneratorInject = false
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-light"
+    style = "github"
     tabWidth = 4
 
 [menu]
