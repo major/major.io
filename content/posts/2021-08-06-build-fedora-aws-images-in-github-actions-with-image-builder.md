@@ -45,7 +45,7 @@ images to AWS with all the customizations I want, perhaps even on a schedule? ðŸ
 ## What is Image Builder?
 
 The idea behind Image Builder is that anyone should be able to create images for
-various clouds and virtulalization platforms with some simple software. Nobody
+various clouds and virtualization platforms with some simple software. Nobody
 should worry about how a particular cloud sets up cloud-init or what kernel
 configuration might be required to run in a particular cloud. Someone should do
 that for you and you should focus on what you need in your images to be
