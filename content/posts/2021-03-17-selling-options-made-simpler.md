@@ -9,8 +9,8 @@ images:
 - images/2021-03-crazy-air-conditioners.jpg
 slug: selling-options-made-simpler
 tags:
-- linux
-- raspberrypi
+- investing
+- options
 title: Selling options made simpler
 type: post
 ---
