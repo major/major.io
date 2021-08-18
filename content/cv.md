@@ -63,6 +63,17 @@ from system administration to software development to personal career growth.
 
 ## Work experience
 
+### Red Hat (2018)
+
+I work at Red Hat now as a RHEL Cloud Architect. My main focus is to make the
+RHEL on cloud experience as good, if not better, than the on-premises
+experience.
+
+In the past, I worked with the Image Builder team as we build a robust platform
+for building and deploying RHEL cloud images to various public clouds. Before
+that, I worked on the Continuous Kernel Integration team to provide CI/CD for
+the Linux kernel inside and outside of Red Hat.
+
 ### Rackspace (2006-2018)
 
 I wore plenty of hats at Rackspace (and sometimes more than one at the same
