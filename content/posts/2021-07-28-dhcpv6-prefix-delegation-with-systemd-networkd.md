@@ -144,7 +144,7 @@ Name=enp2s0f0
 DHCP=yes
 
 [DHCPv6]
-PrefixDelegationHint=56
+PrefixDelegationHint=::/56
 ```
 
 When we apply this configuration, systemd-networkd will send a DHCPv6 request
