@@ -9,8 +9,12 @@ images:
 - images/2021-10-11-subway-gates.jpg
 slug: forwarding-ports-with-firewalld
 tags:
-- books
-- reading
+- fedora
+- firewalld
+- iptables
+- ipv6
+- linux
+- security
 title: Forwarding ports with firewalld
 type: post
 ---
