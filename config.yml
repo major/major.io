@@ -36,6 +36,7 @@ params:
     defaultTheme: auto
     disableThemeToggle: false
 
+    ShowFullTextinRSS: true
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
