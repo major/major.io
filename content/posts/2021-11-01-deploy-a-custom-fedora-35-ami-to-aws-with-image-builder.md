@@ -63,7 +63,7 @@ steps:
 
 1. Click **Users** on the left and then **Add users** on the right
 2. Enter a name for your user _(I used `desktop-cli`)_
-3. Click the **Acces key - Programmatic access** checkbox
+3. Click the **Access key - Programmatic access** checkbox
 4. Click **Next: Permissions**
 5. Click **Attach existing policies directly** and then tick the box next to
    **Administrator Access**
