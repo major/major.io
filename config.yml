@@ -19,8 +19,8 @@ permalinks:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: Major Hayden
+    description: "A social nerd writing about everything"
     keywords:
       - blog
       - linux
@@ -64,18 +64,20 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
+        enabled: true
+        title: "Major Hayden"
+        subtitle: "A social nerd writing about everything"
+        imageUrl: "/images/circle-avatar-instagram.jpg"
+        # imageWidth: 120
+        # imageHeight: 120
+        imageTitle: "This is just a picture of me!"
         buttons:
             - name: Posts
               url: posts
             - name: Tags
               url: tags
+            - name: CV
+              url: cv
 
     # home-info mode
     homeInfoParams:
@@ -93,6 +95,8 @@ params:
           url: "https://gitlab.com/majorhayden"
         - name: twitter
           url: "https://twitter.com/majorhayden"
+        - name: instagram
+          url: "https://www.instagram.com/majorh210/"
         - name: discord
           url: "https://discordapp.com/users/559804419261071363"
         - name: email
