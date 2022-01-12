@@ -52,7 +52,7 @@ $ curl -6 icanhazip.com
 
 ## How do I deal with a proxy that is mangling my externally facing IP address?
 
-I run all of these services on ports 80 and 81 in clear text. You can also use SSL to reach these services on port 443 but only icanhazip.com has an SSL certificate configured. For example:
+I run all of these services on ports 80 and 81 in clear text. You can also use SSL to reach these services on port 443. For example:
 
 ```
 $ curl -4 https://icanhazip.com/
