@@ -68,7 +68,7 @@ followed by some information about your account in JSON format.
 Most resources in Azure live inside a resource group, so let's try to create one
 to ensure the CLI is working and authenticated properly:
 
-```
+```console
 $ az group create --location eastus --resource-group major-testing-eastus
 {
   "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/major-testing-eastus",

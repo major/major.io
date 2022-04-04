@@ -18,7 +18,7 @@ type: page
 {{< figure
     src="/images/major_twitter_avatar.jpg"
     alt="Major's Twitter avatar"
-    align=left
+    position=center
     width=30%
 >}}
 
