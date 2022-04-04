@@ -54,6 +54,9 @@ languages:
         - identifier: cv
           name: CV
           url: /cv
-        - identifier: tags
-          name: Tags
-          url: /tags
+        - identifier: github
+          name: GitHub
+          url: https://github.com/major
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/majorhayden
