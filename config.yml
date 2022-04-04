@@ -26,7 +26,6 @@ params:
   autoCover: true
   showLastUpdated: true
   favicon: "/favicon.ico"
-  Toc: true
   twitter:
     creator: "majorhayden"
     site: "major.io"
