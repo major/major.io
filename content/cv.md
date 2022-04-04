@@ -15,16 +15,6 @@ title: Major's CV
 type: page
 ---
 
-{{< figure
-    src="/images/major_twitter_avatar.jpg"
-    alt="Major's Twitter avatar"
-    position=center
-    width=30%
->}}
-
-Source code repository, social media links, and contact information are
-available via the icons on the [main page](/).
-
 ## Professional Summary
 
 I love digging into problems that involve people, processes, and technology.
