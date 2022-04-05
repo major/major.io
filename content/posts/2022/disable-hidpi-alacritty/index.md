@@ -6,8 +6,11 @@ date: '2022-03-25'
 description: >-
   The alacritty terminal on Fedora enables HiDPI mode by default. Break out your
   magnifying glasses as we disable HiDPI. 👓
-images:
-  - images/2022-03-25-reflection-mountains.jpg
+cover:
+  image: cover.jpg
+  alt: "Mountains covered in snow reflected in a quiet lake"
+  caption: "Photo credit: [Tim Stief](https://unsplash.com/photos/YFFGkE3y4F8)"
+  relative: true
 slug: disable-hidpi-alacritty
 tags:
   - alacritty
@@ -19,8 +22,6 @@ tags:
 title: Disable HiDPI in alacritty
 type: post
 ---
-
-{{< figure src="/images/2022-03-25-reflection-mountains.jpg" alt="Mountains reflected in a lake" position="center" >}}
 
 The [alacritty] terminal remains my favorite terminal because of its simple
 configuration, regular expression hints, and incredible performance. It's written in
@@ -106,5 +107,3 @@ applications.
 [alacritty]: https://alacritty.org/
 [X1 Nano]: /2021/10/23/thinkpad-x1-nano-gen1-review/
 [X Resources]: https://wiki.archlinux.org/title/X_resources
-
-_Photo credit: [Tim Stief](https://unsplash.com/photos/YFFGkE3y4F8)_

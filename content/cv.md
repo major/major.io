@@ -39,7 +39,8 @@ from system administration to software development to personal career growth.
 * **Open source contributions:** I served on the Fedora Project Board from
   2012-2014, [participated] in the OpenStack project, and I [maintain lots of
   packages] in Fedora. I launched the [ansible-hardening] project within
-  OpenStack. You can find plenty of open source work over at [GitHub]. I built [icanhazip.com] and recently [transferred ownership to Cloudflare].
+  OpenStack. You can find plenty of open source work over at [GitHub].
+  I built [icanhazip.com] and recently [transferred ownership to Cloudflare].
 * **Leadership:** My experience includes director-level roles responsible for
   budgets, people management, and mentoring. I love helping others find a way to
   level up in the technical capabilities and in their job role.

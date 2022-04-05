@@ -103,18 +103,11 @@ params:
     - name: email
       url: "mailto:major+blog@mhtx.net"
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
-  #     bing:
-  #         SiteVerificationTag: "XYZabc"
-  #     yandex:
-  #         SiteVerificationTag: "XYZabc"
-
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    linkFullImages: true
+    # hidden: true # hide everywhere but not in structured data
+    # hiddenInList: true # hide on list pages and home
+    # hiddenInSingle: true # hide on single page
 
   editPost:
     URL: "https://github.com/major/major.io/tree/main/content/"
