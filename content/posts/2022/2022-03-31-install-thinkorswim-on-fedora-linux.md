@@ -149,7 +149,8 @@ $ find /usr/lib/jvm -name sound.properties
 Open `/usr/lib/jvm/zulu11-ca/conf/sound.properties` in your favorite editor and add on
 Keith's four lines at the end:
 
-```console
+```
+# /usr/lib/jvm/zulu11-ca/conf/sound.properties
 javax.sound.sampled.Clip=com.sun.media.sound.DirectAudioDeviceProvider
 javax.sound.sampled.Port=com.sun.media.sound.PortMixerProvider
 javax.sound.sampled.SourceDataLine=com.sun.media.sound.DirectAudioDeviceProvider
@@ -169,6 +170,7 @@ I use i3wm and the installer doesn't put a desktop file in the right place for m
 Here's what I drop into `~/.local/share/applications/thinkorswim.desktop`:
 
 ```ini
+# ~/.local/share/applications/thinkorswim.desktop
 [Desktop Entry]
 Name=ThinkOrSwim
 Comment=ThinkOrSwim Desktop
