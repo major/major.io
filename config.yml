@@ -77,7 +77,9 @@ params:
         url: posts
       - name: Tags
         url: tags
-      - name: CV
+      - name: W5WUT
+        url: w5wut
+      - name: About
         url: cv
 
   # home-info mode
@@ -134,6 +136,14 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+    - identifier: w5wut
+      name: W5WUT
+      url: /w5wut/
+      weight: 25
+    - identifier: about
+      name: About
+      url: /cv/
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
