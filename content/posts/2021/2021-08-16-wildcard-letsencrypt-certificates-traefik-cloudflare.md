@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-08-16'
-description: >-
+summary: >-
     Re-use the same wildcard TLS certificate for multiple containers running
     behind traefik. 🚦
 images:
@@ -188,7 +188,7 @@ automatically renews the certificate.
 
 💣 Be careful with your DNS zone and with your DNS API keys! If you accidentally
 delete the API key or make big changes to your DNS zone, there's a chance that
-Traefik may not be able to renew the certificate. 
+Traefik may not be able to renew the certificate.
 
 [automatically knows]: https://doc.traefik.io/traefik/https/acme/
 

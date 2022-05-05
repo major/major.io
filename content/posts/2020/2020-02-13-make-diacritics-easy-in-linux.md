@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-02-13'
-description: Making an effort to use diacritics is always a good idea, but how can
+summary: Making an effort to use diacritics is always a good idea, but how can
   you make it easier in Linux?
 images:
 - images/2020-02-13-diacritics-on-license-plate.jpg

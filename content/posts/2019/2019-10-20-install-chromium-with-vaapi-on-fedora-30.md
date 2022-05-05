@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-10-20'
-description: Lower your CPU usage and increase battery life when you watch certain
+summary: Lower your CPU usage and increase battery life when you watch certain
   videos by using Chromium with VAAPI support.
 images:
 - images/2019-10-20-film.jpg

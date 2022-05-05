@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-10-23'
-description: >-
+summary: >-
   One of the smallest ThinkPads delivers one of the best experiences I've had on
   a laptop. 💻
 images:

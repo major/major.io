@@ -1,7 +1,7 @@
 ---
 author: Major Hayden
 date: '2021-07-05'
-description: >
+summary: >
   The family of icanhaz sites help you get more information about your network connection.
 images:
   - images/icanhazip-glasses.jpg

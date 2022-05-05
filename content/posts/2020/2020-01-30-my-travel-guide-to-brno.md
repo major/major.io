@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-01-30'
-description: Brno is a beautiful city in the Czech Republic. Learn some travel tips
+summary: Brno is a beautiful city in the Czech Republic. Learn some travel tips
   from my experiences as an American in Brno!
 images:
 - images/2020-01-30-brno-skyline.jpg

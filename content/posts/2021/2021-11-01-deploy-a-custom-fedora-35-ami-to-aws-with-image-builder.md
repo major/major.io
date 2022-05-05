@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-11-16'
-description: >-
+summary: >-
   Want to build your own Fedora 35 image for AWS? Use Image Builder to build
   and deploy an image made just for you. 🏗
 images:

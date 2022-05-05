@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-08-06'
-description: >-
+summary: >-
     Learn more about me, my work experience, and the things I've created. 👨🏻‍💼
 images:
 - images/2021-08-06-tanker-in-ocean.jpg

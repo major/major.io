@@ -3,15 +3,9 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-03-31'
-description: >-
+summary: >-
   Learn how to install TD Ameritrade's ThinkOrSwim desktop application on Linux and
   get everything working. 💸
-cover:
-  image: cover.jpg
-  alt: "Street signs in New York on Wall Street"
-  caption: "Photo credit: [Robert Linder](https://unsplash.com/photos/YzNehPDLAa8)"
-  relative: true
-slug: install-thinkorswim-on-fedora-linux
 tags:
   - fedora
   - finance
@@ -22,6 +16,8 @@ tags:
 title: Install ThinkOrSwim on Fedora Linux
 type: post
 ---
+
+*Photo credit: [Robert Linder](https://unsplash.com/photos/YzNehPDLAa8)
 
 Over the past two years, I picked up stock trading and general finance knowledge as a
 hobby. There are plenty of things I enjoy here: complex math, understanding trends, and

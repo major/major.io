@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-05-15'
-description: Emojis brighten up any message or document. 🌻 Search, select, and use
+summary: Emojis brighten up any message or document. 🌻 Search, select, and use
   emojis quickly on Linux with rofimoji. 🤗
 images:
 - images/2021-05-15-efficient-emojis-with-rofimoji.jpg

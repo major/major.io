@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-06-19'
-description: Build a customized image for AWS with Image Builder and use the built-in
+summary: Build a customized image for AWS with Image Builder and use the built-in
   automatic uploader and importer.
 images:
 - images/2020-06-19-aluminum-factory.jpg

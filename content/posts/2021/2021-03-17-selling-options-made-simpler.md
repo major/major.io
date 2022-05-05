@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-03-17'
-description: Feedback from my original options selling post said that the concept
+summary: Feedback from my original options selling post said that the concept
   was too difficult to follow. Let's use an analogy!
 images:
 - images/2021-03-crazy-air-conditioners.jpg

@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-08-20'
-description: >-
+summary: >-
     Sometimes network interface autonegotiation doesn't work as well as it
     should. Luckily, you can fix it with systemd-networkd. 🔧
 images:

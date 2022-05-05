@@ -1,0 +1,48 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+<meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{ template "_internal/google_analytics.html" . }}
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}">
+{{ if (isset .Params "color") }}
+  <link rel="stylesheet" href="{{ (printf "assets/%s.css" .Params.color) | absURL }}">
+{{ else if and (ne $.Site.Params.ThemeColor "orange") (ne $.Site.Params.ThemeColor "color" "") }}
+  <link rel="stylesheet" href="{{ (printf "assets/%s.css" $.Site.Params.ThemeColor) | absURL }}">
+{{ end }}
+
+<!-- Custom CSS to override theme properties (/static/style.css) -->
+{{ if (fileExists "static/style.css") -}}
+  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+{{- end }}
+
+<!-- Icons -->
+<link rel="apple-touch-icon" href="{{ "img/apple-touch-icon-192x192.png" | absURL }}">
+{{ if isset $.Site.Params "favicon" }}
+  <link rel="shortcut icon" href="{{ $.Site.Params.favicon | absURL }}">
+{{ else }}
+  <link rel="shortcut icon" href="{{ printf "img/favicon/%s.png" ($.Site.Params.ThemeColor | default "orange") | absURL }}">
+{{ end }}
+
+<!-- Twitter Card -->
+{{ template "_internal/twitter_cards.html" . }}
+
+<!-- OG data -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+
+<!-- JSON Feed -->
+{{ with .OutputFormats.Get "json" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
+{{ end }}
+
+<!-- Extended head section-->
+{{ partial "extended_head.html" . }}

@@ -3,16 +3,9 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-04-20'
-description: >-
+summary: >-
   Keep prying eyes away from your sites behind Traefik with basic authentication. 🛃
-cover:
-  image: cover.jpg
-  alt: >-
-    Old wooden fence in a wooded area
-  caption: >-
-    Photo credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)
-  relative: true
-slug: basic-auth-with-traefik-on-kubernetes
+cover: cover.jpg
 tags:
   - flux
   - gitops
@@ -23,6 +16,8 @@ tags:
 title: Basic authentication with Traefik on kubernetes
 type: post
 ---
+
+*Photo credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)*
 
 [Basic access authentication] dates back to 1993 and it's still heavily used today. The
 server provides a `WWW-Authenticate` header to the client and the client responds with
@@ -244,3 +239,5 @@ Enter the credentials you set with `htpasswd` and you should see your Traefik da
 [HelmRelease]: https://fluxcd.io/docs/components/helm/helmreleases/
 [gitops-ng repository]: https://github.com/major/gitops-ng/tree/main/namespaces/traefik
 [ACME docs]: https://doc.traefik.io/traefik/https/acme/
+
+*Cover image credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)*

@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-04-22'
-description: Investing in stock or trading options is complicated, but there are plenty
+summary: Investing in stock or trading options is complicated, but there are plenty
   of free resources available to make research easier.
 images:
 - images/2021-04-22-free-stock-market-resources-vienna.jpg

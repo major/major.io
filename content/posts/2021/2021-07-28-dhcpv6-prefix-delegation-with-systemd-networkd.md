@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-07-28'
-description: >-
+summary: >-
     Use the new DHCPv6 prefix delegation features in systemd-networkd to make IPv6 subnetting easy! 🎉
 images:
 - images/2021-07-28-pipes.jpg
@@ -118,7 +118,7 @@ are alive:
 
 ```console
 $ networkctl
-IDX LINK            TYPE     OPERATIONAL SETUP     
+IDX LINK            TYPE     OPERATIONAL SETUP
   1 lo              loopback carrier     unmanaged
   2 enp2s0f0        ether    routable    configured
   4 enp2s0f1        ether    enslaved    configured

@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-11-08'
-description: Monitor the power consumption of your CyberPower UPS and display the
+summary: Monitor the power consumption of your CyberPower UPS and display the
   live output in your Linux desktop's status bar.
 images:
 - images/2019-11-08-cyberpower-ups.png

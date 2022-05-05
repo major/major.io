@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-02-10'
-description: You did your research and made a great options trade, but now it is a
+summary: You did your research and made a great options trade, but now it is a
   losing trade. What can you do now?
 images:
 - images/2020-02-10-defending-losing-options-trades.jpg

@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-08-06'
-description: >-
+summary: >-
     Build images for AWS and deploy them to your AWS account all within GitHub
     Actions. 🤖
 images:

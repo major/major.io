@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-01-24'
-description: Not all stock brokerages are the same. Think about your requirements,
+summary: Not all stock brokerages are the same. Think about your requirements,
   shop around, and read the fine print.
 images:
 - images/2021-01-24-street-buildings.jpg

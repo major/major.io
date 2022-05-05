@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-07-19'
-description: >-
+summary: >-
     Firefox allows you to set dark mode as the default without changing themes
     or changing your desktop configuration. 😎
 images:

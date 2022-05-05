@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2019-12-16'
-description: >
+summary: >
   Fedora 17's code name was Beefy Miracle and it had a great mascot. You can see it
   at boot time with a few quick changes.
 images:

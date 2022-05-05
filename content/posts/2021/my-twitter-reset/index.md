@@ -3,12 +3,10 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-12-17'
-description: >-
+summary: >-
   At first I thought Twitter was the problem, but then I realized I was making
   poor choices. 🤔
-images:
-- images/2021-12-17-road-clouds.jpg
-slug: my-twitter-reset
+# slug: my-twitter-reset
 tags:
 - social media
 - twitter
@@ -16,7 +14,7 @@ title: My Twitter reset
 type: post
 ---
 
-{{< figure src="/images/2021-12-17-road-clouds.jpg" alt="A winding road under ominous orange clouds" position="center" >}}
+*Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)*
 
 Let's start this post with a quote:
 
@@ -146,5 +144,3 @@ connections between all of us.
 
 [downloaded all of my Twitter data]: https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive
 [tweepy]: https://www.tweepy.org/
-
-*Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)*

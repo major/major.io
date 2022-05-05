@@ -3,15 +3,9 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-03-24'
-description: >-
+summary: >-
   Host your own personal URL shortener with GitHub Actions and Cloudflare Workers.
   No web or database servers required! 🥰
-cover:
-  image: cover.jpg
-  alt: "Street signs in Europe"
-  caption: "Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)"
-  relative: true
-slug: build-url-shortener-with-cloudflare-workers
 tags:
   - cloudflare
   - github
@@ -20,6 +14,8 @@ tags:
 title: Build a URL shortener with Cloudflare Workers
 type: post
 ---
+
+*Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)*
 
 Shortened URLs make it easier to quickly reference complicated URLs and share them with
 other people. For example, https://url.major.io/reviews is definitely an easier method

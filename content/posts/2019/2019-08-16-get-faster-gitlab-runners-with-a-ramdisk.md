@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-08-16'
-description: Many cloud providers give you lots of memory with each instance and you
+summary: Many cloud providers give you lots of memory with each instance and you
   can speed up tests and builds by using a ramdisk.
 images:
 - images/2019-08-16-jet-ski.jpg

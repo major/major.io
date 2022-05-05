@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-11-01'
-description: >-
+summary: >-
   Provision services on Microsoft's Azure CLI on Fedora 35. 💙
 images:
 - images/2021-11-01-ocean-through-porthole.jpg

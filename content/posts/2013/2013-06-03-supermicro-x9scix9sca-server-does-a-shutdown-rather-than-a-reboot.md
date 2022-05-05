@@ -34,7 +34,7 @@ I tried to `rmmod mei` and reboot, but the machine stayed powered off again. Whe
 
 ```
 # modinfo mei | grep desc
-description:    Intel(R) Management Engine Interface
+summary:    Intel(R) Management Engine Interface
 ```
 
 
