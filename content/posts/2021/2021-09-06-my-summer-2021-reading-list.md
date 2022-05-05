@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-09-06'
-description: >-
+summary: >-
     I set out to read a bunch of books this summer and succeeded! Here's my
     reading list. 📚
 images:
@@ -153,7 +153,7 @@ This book has deep commentary on life, death, love, relationships, religion, and
 humanity. It lays bare what it means to be human. I wish I could explain it
 better, but that's the best I can do.
 
-**I could not put this book down.** 
+**I could not put this book down.**
 
 ### Earth Abides
 

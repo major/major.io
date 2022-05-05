@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-12-06'
-description: Trading options contracts feels incredibly daunting, but you can learn
+summary: Trading options contracts feels incredibly daunting, but you can learn
   the terminology and make good choices in the market.
 images:
 - images/2020-12-06-snow-mountain.jpg

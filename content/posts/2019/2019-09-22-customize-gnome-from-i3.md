@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-09-22'
-description: All of your GNOME and gtk applications are configured in i3 with a few
+summary: All of your GNOME and gtk applications are configured in i3 with a few
   simple tricks.
 images:
 - images/2019-09-22-wrenches.jpg
@@ -54,7 +54,7 @@ GNOME, but i3 is a little trickier since it doesn't have some of the same
 environment variables set:
 
 ```
-$ gnome-control-center 
+$ gnome-control-center
 **
 ERROR:../shell/cc-shell-model.c:458:cc_shell_model_set_panel_visibility: assertion failed: (valid)
 [1]    837 abort (core dumped)  gnome-control-center

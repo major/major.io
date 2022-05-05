@@ -1,131 +1,35 @@
-baseURL: "https://major.io"
-title: "Major Hayden"
-paginate: 10
-theme: PaperMod
+baseurl: 'https://major.io/'
+languageCode: en-us
+theme: terminal
+paginate: 5
 
+# General Hugo configuration.
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 rssLimit: 25
 
-# googleAnalytics: UA-123-45
-
-minify:
-  disableXML: true
-  minifyOutput: true
-
-permalinks:
-  posts: "/:year/:month/:day/:slug/"
-
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Major Hayden
-  description: "A social nerd writing about everything"
-  keywords:
-    - blog
-    - linux
-    - major hayden
-    - python
-    - open source
-    - security
-  author:
-    - Major Hayden
+  contentTypeName: post
+  themeColor: green
+  showMenuItems: 5
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: true
+  autoCover: true
+  showLastUpdated: false
+  readingTime: true
+  Toc: false
+  # TocTitle: Contents
+  twitter:
+    creator: '@majorhayden'
+    site: '@majorhayden'
+  # Site-wide opengraph/twitter cards.
+  description: A social nerd writing about everything
   images:
     - /images/2019-05-24-cranes-skycrapers.jpg
-  DateFormat: "2006-01-02"
-  defaultTheme: auto
-  disableThemeToggle: false
 
-  ShowFullTextinRSS: true
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: false
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: false
-
-  assets:
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-16x16.png"
-    apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "safari-pinned-tab.svg"
-
-  label:
-    text: "Major Hayden"
-    icon: /cowboy_emoji.png
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true
-    title: "Major Hayden"
-    subtitle: "A social nerd writing about everything"
-    imageUrl: "/images/circle-avatar-instagram.jpg"
-    # imageWidth: 120
-    # imageHeight: 120
-    imageTitle: "This is just a picture of me!"
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-      - name: W5WUT
-        url: w5wut
-      - name: About
-        url: cv
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Howdy! 👋🏻"
-    Content: |
-      Have a look at my [recent posts](/posts) or scan through the [list of
-      tags](/tags) for specific topics. Learn more about me in my [CV](/cv).
-
-  socialIcons:
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/majorhayden"
-    - name: github
-      url: "https://github.com/major"
-    - name: gitlab
-      url: "https://gitlab.com/majorhayden"
-    - name: twitter
-      url: "https://twitter.com/majorhayden"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/majorhayden"
-    - name: discord
-      url: "https://discordapp.com/users/559804419261071363"
-    - name: email
-      url: "mailto:major+blog@mhtx.net"
-
-  cover:
-    linkFullImages: true
-    # hidden: true # hide everywhere but not in structured data
-    # hiddenInList: true # hide on list pages and home
-    # hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/major/major.io/tree/main/content/"
-    Text: "Suggest Changes"
-    appendFilePath: true
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: posts
@@ -144,12 +48,25 @@ menu:
       name: About
       url: /cv/
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+
+permalinks:
+  posts: '/:year/:month/:day/:slug/'
+languages:
+  en:
+    languageName: English
+    title: "🤠 Major Hayden"
+    subtitle: 'A social nerd writing about everything'
+    owner: 'Major Hayden'
+    keywords: ''
+    copyright: All content CC-BY-SA
+    menuMore: Show more
+    readMore: Read more
+    readOtherPosts: Other posts I've written (some of it might even be good) 😉
+    newerPosts: Read newer posts
+    olderPosts: Read older posts
+    missingContentMessage: Page not found...
+    missingBackButtonLabel: Back to home page
+    params:
+      logo:
+        logoText: "🤠 Major Hayden"
+        logoHomeLink: /

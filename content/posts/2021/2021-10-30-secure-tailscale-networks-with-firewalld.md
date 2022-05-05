@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-10-30'
-description: >-
+summary: >-
   Tailscale provides a handy private network mesh across multiple devices but it
   needs security just like any other network. 🕵
 images:
@@ -136,7 +136,7 @@ The last step is to save the firewall configuration to permanent storage so that
 it's applied after a reboot:
 
 ```console
-$ sudo firewall-cmd --runtime-to-permanent 
+$ sudo firewall-cmd --runtime-to-permanent
 ```
 
 Enjoy! 💻

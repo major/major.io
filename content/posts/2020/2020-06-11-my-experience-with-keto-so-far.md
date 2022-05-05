@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-06-11'
-description: Moving to the keto lifestyle is a big change. It's more than just a diet
+summary: Moving to the keto lifestyle is a big change. It's more than just a diet
   and I'll share my ups and downs from my journey.
 images:
 - images/2020-06-11-plates-and-bowls.jpg

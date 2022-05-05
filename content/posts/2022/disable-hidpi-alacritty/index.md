@@ -3,15 +3,9 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-03-25'
-description: >-
+summary: >-
   The alacritty terminal on Fedora enables HiDPI mode by default. Break out your
   magnifying glasses as we disable HiDPI. 👓
-cover:
-  image: cover.jpg
-  alt: "Mountains covered in snow reflected in a quiet lake"
-  caption: "Photo credit: [Tim Stief](https://unsplash.com/photos/YFFGkE3y4F8)"
-  relative: true
-slug: disable-hidpi-alacritty
 tags:
   - alacritty
   - fedora
@@ -22,6 +16,8 @@ tags:
 title: Disable HiDPI in alacritty
 type: post
 ---
+
+*Photo credit: [Tim Stief](https://unsplash.com/photos/YFFGkE3y4F8)*
 
 The [alacritty] terminal remains my favorite terminal because of its simple
 configuration, regular expression hints, and incredible performance. It's written in

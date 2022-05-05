@@ -3,11 +3,11 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-07-11'
-description: >-
+summary: >-
     Improve your persuasive skills to get your team on board with solutions to
     tough problems. 🤔
 images:
-- images/2021-07-11-uk-hill.jpg 
+- images/2021-07-11-uk-hill.jpg
 slug: persuasion-engineering
 tags:
 - advice

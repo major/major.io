@@ -3,11 +3,9 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-12-18'
-description: >-
+summary: >-
   Brave recently changed how their browser reads managed policy configuration,
   but luckily the fix is an easy one. 🔧
-images:
-- images/2021-12-18-kerberos-brave.jpg
 slug: kerberos-logins-brave-linux
 tags:
 - brave
@@ -17,7 +15,7 @@ title: Kerberos logins with Brave on Linux
 type: post
 ---
 
-{{< figure src="/images/2021-12-18-kerberos-brave.jpg" alt="A winding road under ominous orange clouds" position="center" >}}
+*Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)*
 
 My primary browser flips back and forth between [Brave] and [Firefox] depending
 on my current tasks, but [kerberos] logins are integral to my workflow at work
@@ -118,5 +116,3 @@ kerberos SSO worked once again! 🎉
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
 [Kerberos]: https://en.wikipedia.org/wiki/Kerberos_(protocol)
 [Fedora]: https://getfedora.org/
-
-*Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)*

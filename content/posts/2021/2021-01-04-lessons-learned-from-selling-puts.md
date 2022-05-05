@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-01-04'
-description: Learn from my successes and mistakes while selling puts in the stock
+summary: Learn from my successes and mistakes while selling puts in the stock
   market in 2020.
 images:
 - images/2021-01-04-dark-road-mountains.jpg

@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-07-12'
-description: >-
+summary: >-
     Get your system tray looking great and displayed on the correct monitor with
     a simple script and some i3 configuration. 📥
 images:

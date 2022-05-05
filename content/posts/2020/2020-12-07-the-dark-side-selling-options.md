@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-12-07'
-description: Selling options puts you on the other side of the options contract from
+summary: Selling options puts you on the other side of the options contract from
   buyers, but it comes with obligations.
 images:
 - images/2020-12-07-dark-hills.jpg

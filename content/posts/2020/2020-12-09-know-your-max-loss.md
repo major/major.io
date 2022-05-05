@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-12-09'
-description: Knowing your maximum amount of loss on trade is the difference between
+summary: Knowing your maximum amount of loss on trade is the difference between
   taking a calculated risk and blowing up your account.
 images:
 - images/2020-12-09-subway-tunnel.jpg

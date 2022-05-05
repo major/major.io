@@ -3,7 +3,7 @@ title: Getting started with ham radio repeaters
 author: Major Hayden
 type: post
 date: "2018-12-13"
-description: >
+summary: >
     Repeaters are a great way to get into ham radio, but they can be tricky
     to use for new amateur radio operators. This post explains how to get
     started.

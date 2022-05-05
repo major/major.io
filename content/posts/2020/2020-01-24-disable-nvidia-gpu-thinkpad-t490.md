@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2020-01-24'
-description: The Lenovo ThinkPad T490 is a great laptop, but it comes with some discrete
+summary: The Lenovo ThinkPad T490 is a great laptop, but it comes with some discrete
   GPU challenges.
 images:
 - images/20191212-t490.png

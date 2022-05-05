@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-12-12'
-description: My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
+summary: My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
   has arrived! Installing Linux creates some interesting challenges.
 images:
 - images/20191212-t490.png

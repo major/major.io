@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-10-17'
-description: >-
+summary: >-
   Package up graphical applications in containers and run them with
   podman. 🚢
 images:

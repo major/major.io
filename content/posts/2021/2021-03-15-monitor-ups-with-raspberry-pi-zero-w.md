@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-03-15'
-description: Monitor nearly any uninterruptible power supply (UPS) with a Raspberry
+summary: Monitor nearly any uninterruptible power supply (UPS) with a Raspberry
   Pi Zero W and HomeAssistant
 images:
 - images/2021-03-power-plant.jpg

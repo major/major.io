@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-01-23'
-description: Taking the leap and selling your first options contract takes a lot of
+summary: Taking the leap and selling your first options contract takes a lot of
   thought and preparation.
 images:
 - images/2020-01-23-paragliding-mountains.jpg

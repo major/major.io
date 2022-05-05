@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-10-11'
-description: >-
+summary: >-
     Learn how to forward ports with firewalld for IPv4 and IPv6 destinations. 🕵🏻
 images:
 - images/2021-10-11-subway-gates.jpg

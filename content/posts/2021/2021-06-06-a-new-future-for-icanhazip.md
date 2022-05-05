@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-06-06'
-description: icanhazip.com lives on with the same mission, but with a new owner 🤗 
+summary: icanhazip.com lives on with the same mission, but with a new owner 🤗
 images:
 - images/2021-06-16-sunrise-ocean.jpg
 slug: a-new-future-for-icanhazip

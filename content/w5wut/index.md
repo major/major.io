@@ -3,19 +3,11 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-04-20'
-description: >-
+summary: >-
   Ham radio is the best (and most frustrating) hobby on the planet! 📻
-cover:
-  image: cover.jpg
-  alt: >-
-    Yaesu radio on a picnic table
-  caption: >-
-    I took this picture on a picnic table next to the Frio River in Texas. 🤠
-  relative: true
-slug: w5wut
 tags:
   - radio
-title: W5WUT
+title: "W5WUT: My amateur radio station"
 type: page
 ---
 
@@ -56,4 +48,4 @@ I enjoy SSB and FT8 on 20m on the weekends, but during the week, you can find me
 
 [W5WUT]: https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3980566
 [Overland Expo]: https://www.overlandexpo.com/
-[ham radio FAQ]: https://major.io/ham-radio-faq/
+[ham radio FAQ]: /ham-radio-faq/

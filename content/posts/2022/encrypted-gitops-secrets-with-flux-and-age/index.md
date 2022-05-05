@@ -3,17 +3,9 @@ author: Major Hayden
 categories:
   - Blog Posts
 date: '2022-04-19'
-description: >-
+summary: >-
   Store encrypted kubernetes secrets safely in your gitops repository with easy-to-use
   age encryption. 🔐
-cover:
-  image: cover.jpg
-  alt: >-
-    Top of a fort set against a blue-green sky.
-  caption: >-
-    Photo credit: [Mert Kahveci](https://unsplash.com/photos/uoU9NySvCks)
-  relative: true
-slug: encrypted-gitops-secrets-with-flux-and-age
 tags:
   - flux
   - gitops
@@ -23,6 +15,8 @@ tags:
 title: Encrypted gitops secrets with flux and age
 type: post
 ---
+
+*Photo credit: [Mert Kahveci](https://unsplash.com/photos/uoU9NySvCks)*
 
 Kubernetes has always felt like an enigma to me. On one hand, I love containers and I
 use them daily for personal and work projects. On the other hand, kubernetes feels like

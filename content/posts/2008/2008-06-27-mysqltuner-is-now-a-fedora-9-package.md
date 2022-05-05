@@ -36,7 +36,7 @@ Repo       : updates
 Summary    : MySQL high performance tuning script
 URL        : http://mysqltuner.com/
 License    : GPLv3+
-Description: MySQLTuner is a MySQL high performance tuning script written in perl that will provide you with a snapshot of a MySQL server's health. Based
+summary: MySQLTuner is a MySQL high performance tuning script written in perl that will provide you with a snapshot of a MySQL server's health. Based
            : on the statistics gathered, specific recommendations will be provided that will increase a MySQL server's efficiency and performance.  The
            : script gives you automated MySQL tuning that is on the level of what you would receive from a MySQL DBA.`
 

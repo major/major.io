@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-08-13'
-description: Buildah and podman work well with the vfs storage driver, but the default
+summary: Buildah and podman work well with the vfs storage driver, but the default
   mount options can cause problems.
 images:
 - images/2019-08-13-storage-bins.jpg

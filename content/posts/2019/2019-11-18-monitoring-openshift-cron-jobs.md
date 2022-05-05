@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2019-11-18'
-description: Openshift (and Kubernetes) allow you to run jobs on schedule, but these
+summary: Openshift (and Kubernetes) allow you to run jobs on schedule, but these
   jobs can fail from time to time. You can monitor them from bash!
 images:
 - images/2019-11-18-clock.png

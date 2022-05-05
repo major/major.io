@@ -3,7 +3,7 @@ author: Major Hayden
 categories:
 - Blog Posts
 date: '2021-08-20'
-description: >-
+summary: >-
     Launch your containers on Fedora CoreOS instances in Hetzner cloud with
     a few workarounds. 🚀
 images:
