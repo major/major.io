@@ -1,4 +1,4 @@
-baseurl: 'https://major.io/'
+baseurl: https://major.io/
 languageCode: en-us
 theme: terminal
 paginate: 5
