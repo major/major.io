@@ -61,7 +61,6 @@ the one I use for Fedora:
 $ cat /etc/chromium/policies/managed/fedora_kerberos.json
 {
 	"AuthServerAllowlist": "*.fedoraproject.org",
-	"AuthNegotiateDelegateAllowlist": "*.fedoraproject.org"
 }
 ```
 
