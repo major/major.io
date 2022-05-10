@@ -60,8 +60,8 @@ the one I use for Fedora:
 ```console
 $ cat /etc/chromium/policies/managed/fedora_kerberos.json
 {
-	"AuthServerWhitelist": "*.fedoraproject.org",
-	"AuthNegotiateDelegateWhitelist": "*.fedoraproject.org"
+	"AuthServerAllowlist": "*.fedoraproject.org",
+	"AuthNegotiateDelegateAllowlist": "*.fedoraproject.org"
 }
 ```
 
