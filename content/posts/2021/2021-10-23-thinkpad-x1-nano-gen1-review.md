@@ -165,4 +165,4 @@ support in Linux.
 [tlp]: https://linrunner.de/tlp/
 [i5-1140G7]: https://ark.intel.com/content/www/us/en/ark/products/208659/intel-core-i51140g7-processor-8m-cache-up-to-4-20-ghz-with-ipu.html
 
-*Photo credit: [Lenovo](https://www.lenovo.com)*
+*Photo credit: [Lenovo](https://www.lenovo.com/us/en/)*
