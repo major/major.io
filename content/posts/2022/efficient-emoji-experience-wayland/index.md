@@ -119,3 +119,6 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 You can query `clipman` history as well. This could help you determine what's not being
 copied across correctly from rofimoji.
+
+[^slack-workaround]: My workaround is to use Slack in Firefox. I'd love to just stop
+    using Slack altogether, but I don't have a choice. 😭
