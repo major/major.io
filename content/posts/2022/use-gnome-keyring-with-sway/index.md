@@ -21,8 +21,9 @@ type: post
 
 [SSH key authentication] makes it easier to secure SSH servers and it opens the door to automation with projects such as [Ansible].
 However, working with encrypted SSH keys becomes tedious when you have several of them for different services.
+This is where an SSH agent can help!
 
-Which leads me to something important:
+But before we talk about SSH agents:
 
 {{< image src="padme-encrypts-ssh-keys.jpg" alt="Padme meme where she asks Anakin about encrypting his ssh keys" position="center" >}}
 
