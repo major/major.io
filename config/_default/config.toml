@@ -4,6 +4,7 @@
 
 baseURL = "https://major.io/"
 defaultContentLanguage = "en"
+theme = "congo"
 
 enableRobotsTXT = true
 paginate = 50
