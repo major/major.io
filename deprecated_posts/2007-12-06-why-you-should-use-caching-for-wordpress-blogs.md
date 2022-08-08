@@ -1,7 +1,6 @@
 ---
 title: Why you should use caching for WordPress blogs
 author: Major Hayden
-type: post
 date: 2007-12-06T18:09:42+00:00
 url: /2007/12/06/why-you-should-use-caching-for-wordpress-blogs/
 dsq_thread_id:

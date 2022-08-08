@@ -1,13 +1,10 @@
 ---
 title: Low priority Plesk backups
 author: Major Hayden
-type: post
 date: 2007-09-06T03:27:09+00:00
 url: /2007/09/05/low-priority-plesk-backups/
 dsq_thread_id:
   - 3642769978
-categories:
-  - Blog Posts
 tags:
   - command line
   - plesk

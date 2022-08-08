@@ -1,13 +1,10 @@
 ---
 title: Log Android events remotely to a syslog server
 author: Major Hayden
-type: post
 date: 2012-11-04T20:47:39+00:00
 url: /2012/11/04/log-android-events-remotely-to-a-syslog-server/
 dsq_thread_id:
   - 3644905683
-categories:
-  - Blog Posts
 tags:
   - android
   - bluetooth

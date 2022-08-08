@@ -1,13 +1,10 @@
 ---
 title: Handy hints for using dtrace on the Mac
 author: Major Hayden
-type: post
 date: 2012-03-10T18:49:59+00:00
 url: /2012/03/10/handy-hints-for-using-dtrace-on-the-mac/
 dsq_thread_id:
   - 3642806916
-categories:
-  - Blog Posts
 tags:
   - dtrace
   - mac

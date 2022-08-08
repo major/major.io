@@ -1,13 +1,10 @@
 ---
 title: Screencast topic requests?
 author: Major Hayden
-type: post
 date: 2008-06-12T16:00:14+00:00
 url: /2008/06/12/screencast-topic-requests/
 dsq_thread_id:
   - 3642771496
-categories:
-  - Blog Posts
 tags:
   - mysql
   - screencasts

@@ -1,13 +1,10 @@
 ---
 title: Understanding systemd’s predictable network device names
 author: Major Hayden
-type: post
 date: 2015-08-21T21:15:36+00:00
 url: /2015/08/21/understanding-systemds-predictable-network-device-names/
 dsq_thread_id:
   - 4054862382
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

@@ -1,13 +1,10 @@
 ---
 title: Lifehacker effect on icanhazip.com
 author: Major Hayden
-type: post
 date: 2011-03-30T13:28:55+00:00
 url: /2011/03/30/lifehacker-effect-on-icanhazip-com/
 dsq_thread_id:
   - 3678941872
-categories:
-  - Blog Posts
 tags:
   - command line
   - icanhazip

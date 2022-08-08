@@ -1,13 +1,10 @@
 ---
 title: HTTP/2 for the blog and icanhazip.com
 author: Major Hayden
-type: post
 date: 2016-09-13T13:47:05+00:00
 url: /2016/09/13/http2-for-the-blog-and-icanhazip-com/
 dsq_thread_id:
   - 5141039527
-categories:
-  - Blog Posts
 tags:
   - blog
   - encryption

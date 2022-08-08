@@ -1,13 +1,10 @@
 ---
 title: Puppy Linux, icanhazip, and tin foil hats
 author: Major Hayden
-type: post
 date: 2014-02-10T04:04:27+00:00
 url: /2014/02/09/puppy-linux-icanhazip-and-tin-foil-hats/
 dsq_thread_id:
   - 3642807416
-categories:
-  - Blog Posts
 tags:
   - icanhazip
   - linux

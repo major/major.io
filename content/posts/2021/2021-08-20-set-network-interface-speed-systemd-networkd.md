@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-08-20'
 summary: >-
     Sometimes network interface autonegotiation doesn't work as well as it
@@ -16,7 +14,6 @@ tags:
 - systemd
 - systemd-networkd
 title: Set network interface speed with systemd-networkd
-type: post
 ---
 
 {{< figure src="/images/2021-08-20-handshake-neon-sign.jpg" alt="Neon sign handshake" position="center" >}}

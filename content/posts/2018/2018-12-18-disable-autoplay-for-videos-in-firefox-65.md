@@ -1,11 +1,8 @@
 ---
 title: Disable autoplay for videos in Firefox 65
 author: Major Hayden
-type: post
 date: "2018-12-18"
 slug: disable-autoplay-for-videos-in-firefox-65
-categories:
-  - Blog Posts
 tags:
   - firefox
   - security

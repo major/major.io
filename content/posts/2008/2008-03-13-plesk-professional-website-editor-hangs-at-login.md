@@ -1,7 +1,6 @@
 ---
 title: Plesk Professional Website Editor hangs at login
 author: Major Hayden
-type: post
 date: 2008-03-13T18:11:57+00:00
 url: /2008/03/13/plesk-professional-website-editor-hangs-at-login/
 dsq_thread_id:

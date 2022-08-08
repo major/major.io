@@ -1,13 +1,10 @@
 ---
 title: 'Postfix: 554 Relay access denied'
 author: Major Hayden
-type: post
 date: 2007-08-31T01:06:02+00:00
 url: /2007/08/30/postfix-554-relay-access-denied/
 dsq_thread_id:
   - 3642769837
-categories:
-  - Blog Posts
 tags:
   - mail
 

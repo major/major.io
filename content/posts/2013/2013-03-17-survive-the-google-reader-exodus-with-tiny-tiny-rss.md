@@ -1,13 +1,10 @@
 ---
 title: Survive the Google Reader exodus with Tiny Tiny RSS
 author: Major Hayden
-type: post
 date: 2013-03-17T21:27:38+00:00
 url: /2013/03/17/survive-the-google-reader-exodus-with-tiny-tiny-rss/
 dsq_thread_id:
   - 3642807132
-categories:
-  - Blog Posts
 tags:
   - general advice
   - google reader

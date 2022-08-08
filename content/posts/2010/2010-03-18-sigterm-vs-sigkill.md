@@ -1,15 +1,12 @@
 ---
 title: SIGTERM vs. SIGKILL
 author: Major Hayden
-type: post
 date: 2010-03-18T13:25:59+00:00
 url: /2010/03/18/sigterm-vs-sigkill/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806049
-categories:
-  - Blog Posts
 
 ---
 Sending signals to processes using [kill](http://en.wikipedia.org/wiki/Kill_(command)) on a Unix system is not a new topic for most systems administrators, but I've been asked many times about the difference between `kill` and `kill -9`.

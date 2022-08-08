@@ -1,13 +1,10 @@
 ---
 title: 'Research Paper: Securing Linux Containers'
 author: Major Hayden
-type: post
 date: 2015-08-14T20:45:50+00:00
 url: /2015/08/14/research-paper-securing-linux-containers/
 dsq_thread_id:
   - 4033484381
-categories:
-  - Blog Posts
 tags:
   - centos
   - containers

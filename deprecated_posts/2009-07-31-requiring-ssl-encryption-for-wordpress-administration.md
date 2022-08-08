@@ -1,13 +1,10 @@
 ---
 title: Requiring SSL encryption for WordPress administration
 author: Major Hayden
-type: post
 date: 2009-07-31T13:13:26+00:00
 url: /2009/07/31/requiring-ssl-encryption-for-wordpress-administration/
 dsq_thread_id:
   - 3642805686
-categories:
-  - Blog Posts
 tags:
   - php
   - security

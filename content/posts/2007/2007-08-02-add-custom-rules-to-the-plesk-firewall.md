@@ -1,7 +1,6 @@
 ---
 title: Add custom rules to the Plesk firewall
 author: Major Hayden
-type: post
 date: 2007-08-03T02:54:01+00:00
 url: /2007/08/02/add-custom-rules-to-the-plesk-firewall/
 dsq_thread_id:

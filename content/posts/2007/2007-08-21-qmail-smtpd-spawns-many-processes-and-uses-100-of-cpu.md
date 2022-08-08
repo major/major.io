@@ -1,7 +1,6 @@
 ---
 title: Qmail-smtpd spawns many processes and uses 100% of CPU
 author: Major Hayden
-type: post
 date: 2007-08-22T02:47:18+00:00
 url: /2007/08/21/qmail-smtpd-spawns-many-processes-and-uses-100-of-cpu/
 dsq_thread_id:

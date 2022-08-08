@@ -1,7 +1,6 @@
 ---
 title: Enforcing mode requested but no policy loaded. Halting now.
 author: Major Hayden
-type: post
 date: 2007-10-17T18:17:22+00:00
 url: /2007/10/17/enforcing-mode-requested-but-no-policy-loaded-halting-now/
 dsq_thread_id:

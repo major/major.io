@@ -1,13 +1,10 @@
 ---
 title: I’m on the hunt for experienced security analysts!
 author: Major Hayden
-type: post
 date: 2013-10-15T02:17:13+00:00
 url: /2013/10/14/im-on-the-hunt-for-experienced-security-analysts/
 dsq_thread_id:
   - 3678901022
-categories:
-  - Blog Posts
 tags:
   - infosec
   - linux

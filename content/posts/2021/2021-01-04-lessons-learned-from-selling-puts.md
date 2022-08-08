@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-01-04'
 summary: Learn from my successes and mistakes while selling puts in the stock
   market in 2020.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Lessons learned from selling puts
-type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading] on the blog.

@@ -1,13 +1,10 @@
 ---
 title: Remove backticks from MySQL dumps
 author: Major Hayden
-type: post
 date: 2008-06-18T17:00:01+00:00
 url: /2008/06/18/remove-backticks-from-mysql-dumps/
 dsq_thread_id:
   - 3645469818
-categories:
-  - Blog Posts
 tags:
   - mysql
   - sed

@@ -1,13 +1,10 @@
 ---
 title: Start Jenkins on Fedora 20
 author: Major Hayden
-type: post
 date: 2014-08-13T14:39:52+00:00
 url: /2014/08/13/get-jenkins-start-fedora-20/
 dsq_thread_id:
   - 3642807711
-categories:
-  - Blog Posts
 tags:
   - fedora
   - java

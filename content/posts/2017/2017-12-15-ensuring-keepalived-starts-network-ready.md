@@ -1,12 +1,9 @@
 ---
 title: Ensuring keepalived starts after the network is ready
 author: Major Hayden
-type: post
 date: 2017-12-15T21:18:37+00:00
 url: /2017/12/15/ensuring-keepalived-starts-network-ready/
 featured_image: /wp-content/uploads/2017/12/wait.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - centos

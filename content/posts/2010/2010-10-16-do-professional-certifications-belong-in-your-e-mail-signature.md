@@ -1,13 +1,10 @@
 ---
 title: Do professional certifications belong in your e-mail signature?
 author: Major Hayden
-type: post
 date: 2010-10-16T15:53:25+00:00
 url: /2010/10/16/do-professional-certifications-belong-in-your-e-mail-signature/
 dsq_thread_id:
   - 3642806273
-categories:
-  - Blog Posts
 tags:
   - advice
   - certifications

@@ -1,13 +1,10 @@
 ---
 title: Configure static IP addresses for Project Atomic’s KVM image
 author: Major Hayden
-type: post
 date: 2014-04-23T15:14:39+00:00
 url: /2014/04/23/configure-static-ip-addresses-for-project-atomics-kvm-image/
 dsq_thread_id:
   - 3642807478
-categories:
-  - Blog Posts
 tags:
   - docker
   - fedora

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-11-18'
 summary: Openshift (and Kubernetes) allow you to run jobs on schedule, but these
   jobs can fail from time to time. You can monitor them from bash!
@@ -14,7 +12,6 @@ tags:
 - openshift
 - shell
 title: Monitoring OpenShift cron jobs
-type: post
 ---
 
 ![clock]

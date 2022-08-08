@@ -1,13 +1,10 @@
 ---
 title: 'icanhaz more domains: icanhazepoch.com'
 author: Major Hayden
-type: post
 date: 2014-02-22T02:41:06+00:00
 url: /2014/02/21/icanhaz-more-domains-icanhazepoch-com/
 dsq_thread_id:
   - 3678895163
-categories:
-  - Blog Posts
 tags:
   - development
   - icanhazip

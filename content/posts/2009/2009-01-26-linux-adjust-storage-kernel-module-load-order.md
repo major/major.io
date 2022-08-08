@@ -1,13 +1,10 @@
 ---
 title: 'Linux: Adjust storage kernel module load order'
 author: Major Hayden
-type: post
 date: 2009-01-26T20:40:01+00:00
 url: /2009/01/26/linux-adjust-storage-kernel-module-load-order/
 dsq_thread_id:
   - 3642805511
-categories:
-  - Blog Posts
 tags:
   - drivers
   - kernel

@@ -1,13 +1,10 @@
 ---
 title: Looking back at the long road to becoming a Red Hat Certified Architect
 author: Major Hayden
-type: post
 date: 2012-02-13T15:00:41+00:00
 url: /2012/02/13/looking-back-at-the-long-road-to-becoming-a-red-hat-certified-architect/
 dsq_thread_id:
   - 3642806878
-categories:
-  - Blog Posts
 tags:
   - centos
   - certifications

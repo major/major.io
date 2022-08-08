@@ -1,13 +1,10 @@
 ---
 title: Single boot Linux on an Intel Mac Mini
 author: Major Hayden
-type: post
 date: 2011-01-26T13:32:53+00:00
 url: /2011/01/26/single-boot-linux-on-an-intel-mac-mini/
 dsq_thread_id:
   - 3642806490
-categories:
-  - Blog Posts
 tags:
   - apple
   - command line

@@ -1,13 +1,10 @@
 ---
 title: Come and get your SELinux shirts!
 author: Major Hayden
-type: post
 date: 2013-07-18T12:14:45+00:00
 url: /2013/07/18/come-and-get-your-selinux-shirts/
 dsq_thread_id:
   - 3642807326
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

@@ -1,11 +1,8 @@
 ---
 title: Slides from my Texas Linux Fest 2015 talk
 author: Major Hayden
-type: post
 date: 2015-08-22T19:42:52+00:00
 url: /2015/08/22/slides-from-my-texas-linux-fest-2015-talk/
-categories:
-  - Blog Posts
 tags:
   - impostor syndrome
   - presentation

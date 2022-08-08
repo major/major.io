@@ -1,13 +1,10 @@
 ---
 title: Text missing in chrome on Linux
 author: Major Hayden
-type: post
 date: 2014-05-18T04:33:14+00:00
 url: /2014/05/17/text-missing-in-chrome-on-linux/
 dsq_thread_id:
   - 3642807526
-categories:
-  - Blog Posts
 tags:
   - fedora
   - red hat

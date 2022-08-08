@@ -1,13 +1,10 @@
 ---
 title: Enabling Ruby on Rails support for a domain in Plesk
 author: Major Hayden
-type: post
 date: 2008-08-12T01:16:18+00:00
 url: /2008/08/11/enabling-ruby-on-rails-support-for-a-domain-in-plesk/
 dsq_thread_id:
   - 3642771889
-categories:
-  - Blog Posts
 tags:
   - mod_rewrite
   - plesk

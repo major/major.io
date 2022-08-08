@@ -1,13 +1,10 @@
 ---
 title: Preventing critical services from deploying on the same OpenStack host
 author: Major Hayden
-type: post
 date: 2016-08-09T17:07:35+00:00
 url: /2016/08/09/preventing-critical-services-from-deploying-on-the-same-openstack-host/
 dsq_thread_id:
   - 5052783217
-categories:
-  - Blog Posts
 tags:
   - database
   - fedora

@@ -1,13 +1,10 @@
 ---
 title: What’s Happening in OpenStack-Ansible (WHOA) – August 2016
 author: Major Hayden
-type: post
 date: 2016-08-23T20:35:19+00:00
 url: /2016/08/23/whats-happening-in-openstack-ansible-whoa-august-2016/
 dsq_thread_id:
   - 5089544451
-categories:
-  - Blog Posts
 tags:
   - ansible
   - development

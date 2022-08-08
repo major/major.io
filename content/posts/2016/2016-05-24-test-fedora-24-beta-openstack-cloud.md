@@ -1,13 +1,10 @@
 ---
 title: Test Fedora 24 Beta in an OpenStack cloud
 author: Major Hayden
-type: post
 date: 2016-05-25T03:17:35+00:00
 url: /2016/05/24/test-fedora-24-beta-openstack-cloud/
 dsq_thread_id:
   - 4855357724
-categories:
-  - Blog Posts
 tags:
   - fedora
   - openstack

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-05-15'
 summary: Emojis brighten up any message or document. 🌻 Search, select, and use
   emojis quickly on Linux with rofimoji. 🤗
@@ -15,7 +13,6 @@ tags:
 - python
 - rpm
 title: Efficient emojis with rofimoji
-type: post
 ---
 
 {{< figure src="/images/2021-05-15-efficient-emojis-with-rofimoji.jpg" alt="Soft emoji items hanging on a rack" position="center" >}}

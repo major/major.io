@@ -1,13 +1,10 @@
 ---
 title: Install Debian packages without starting daemons
 author: Major Hayden
-type: post
 date: 2014-06-26T20:39:44+00:00
 url: /2014/06/26/install-debian-packages-without-starting-daemons/
 dsq_thread_id:
   - 3642807616
-categories:
-  - Blog Posts
 tags:
   - centos
   - debian

@@ -1,13 +1,10 @@
 ---
 title: Boot the Xen hypervisor by default in Fedora 17 with GRUB 2
 author: Major Hayden
-type: post
 date: 2012-07-16T15:00:44+00:00
 url: /2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/
 dsq_thread_id:
   - 3642807030
-categories:
-  - Blog Posts
 tags:
   - fedora
   - grub2

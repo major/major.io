@@ -1,13 +1,10 @@
 ---
 title: Basic procmail configuration with spamassassin filtering
 author: Major Hayden
-type: post
 date: 2008-08-13T17:00:48+00:00
 url: /2008/08/13/basic-procmail-configuration-with-spamassassin-filtering/
 dsq_thread_id:
   - 3678975558
-categories:
-  - Blog Posts
 tags:
   - postfix
   - procmail

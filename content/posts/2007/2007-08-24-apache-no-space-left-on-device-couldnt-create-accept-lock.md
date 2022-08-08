@@ -1,13 +1,10 @@
 ---
 title: 'Apache: No space left on device: Couldn’t create accept lock'
 author: Major Hayden
-type: post
 date: 2007-08-24T21:55:30+00:00
 url: /2007/08/24/apache-no-space-left-on-device-couldnt-create-accept-lock/
 dsq_thread_id:
   - 3642769718
-categories:
-  - Blog Posts
 tags:
   - apache
   - emergency

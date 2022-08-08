@@ -1,13 +1,10 @@
 ---
 title: Unexpected predictable network naming with systemd
 author: Major Hayden
-type: post
 date: 2014-08-06T21:09:34+00:00
 url: /2014/08/06/unexpected-predictable-network-naming-systemd/
 dsq_thread_id:
   - 3642807703
-categories:
-  - Blog Posts
 tags:
   - centos
   - debian

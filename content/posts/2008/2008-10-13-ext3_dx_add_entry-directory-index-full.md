@@ -1,13 +1,10 @@
 ---
 title: 'ext3_dx_add_entry: Directory index full!'
 author: Major Hayden
-type: post
 date: 2008-10-13T17:00:51+00:00
 url: /2008/10/13/ext3_dx_add_entry-directory-index-full/
 dsq_thread_id:
   - 3642805293
-categories:
-  - Blog Posts
 tags:
   - emergency
   - filesystem

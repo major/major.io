@@ -1,7 +1,6 @@
 ---
 title: Fixing Horde problems in Plesk 8.1.x/8.2.x with PHP 5.2.5
 author: Major Hayden
-type: post
 date: 2007-11-28T18:33:37+00:00
 url: /2007/11/28/fixing-horde-problems-in-plesk-81x82x-with-php-525/
 dsq_thread_id:

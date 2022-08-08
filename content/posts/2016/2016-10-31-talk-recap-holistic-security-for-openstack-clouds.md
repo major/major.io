@@ -1,14 +1,11 @@
 ---
 title: 'Talk Recap: Holistic Security for OpenStack Clouds'
 author: Major Hayden
-type: post
 date: 2016-10-31T15:52:47+00:00
 url: /2016/10/31/talk-recap-holistic-security-for-openstack-clouds/
 featured_image: /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2.png
 dsq_thread_id:
   - 5267743335
-categories:
-  - Blog Posts
 tags:
   - network
   - networking

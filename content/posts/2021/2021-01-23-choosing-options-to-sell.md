@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-01-23'
 summary: Taking the leap and selling your first options contract takes a lot of
   thought and preparation.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Choosing options to sell
-type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

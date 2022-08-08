@@ -1,7 +1,6 @@
 ---
 title: Slow Horde login process with Plesk
 author: Major Hayden
-type: post
 date: 2007-10-05T18:35:33+00:00
 url: /2007/10/05/slow-horde-login-process-with-plesk/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Lenovo ThinkPad T430s review
 author: Major Hayden
-type: post
 date: 2012-10-21T21:15:44+00:00
 url: /2012/10/21/lenovo-thinkpad-t430s-review/
 dsq_thread_id:
   - 3642807089
-categories:
-  - Blog Posts
 tags:
   - customer service
   - linux

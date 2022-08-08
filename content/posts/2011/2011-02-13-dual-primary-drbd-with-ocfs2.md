@@ -1,13 +1,10 @@
 ---
 title: Dual-primary DRBD with OCFS2
 author: Major Hayden
-type: post
 date: 2011-02-14T02:12:58+00:00
 url: /2011/02/13/dual-primary-drbd-with-ocfs2/
 dsq_thread_id:
   - 3642806535
-categories:
-  - Blog Posts
 tags:
   - centos
   - cluster

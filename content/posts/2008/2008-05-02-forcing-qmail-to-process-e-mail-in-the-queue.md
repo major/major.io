@@ -1,7 +1,6 @@
 ---
 title: Forcing qmail to process e-mail in the queue
 author: Major Hayden
-type: post
 date: 2008-05-02T17:00:51+00:00
 url: /2008/05/02/forcing-qmail-to-process-e-mail-in-the-queue/
 dsq_thread_id:

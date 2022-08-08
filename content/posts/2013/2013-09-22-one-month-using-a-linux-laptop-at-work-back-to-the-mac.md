@@ -1,13 +1,10 @@
 ---
 title: 'One month using a Linux laptop at work: Back to the Mac'
 author: Major Hayden
-type: post
 date: 2013-09-23T02:38:59+00:00
 url: /2013/09/22/one-month-using-a-linux-laptop-at-work-back-to-the-mac/
 dsq_thread_id:
   - 3642807386
-categories:
-  - Blog Posts
 tags:
   - email
   - fedora

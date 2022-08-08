@@ -1,13 +1,10 @@
 ---
 title: Getting back to using eth0 in Fedora 15
 author: Major Hayden
-type: post
 date: 2011-09-25T22:08:20+00:00
 url: /2011/09/25/getting-back-to-using-eth0-in-fedora-15/
 dsq_thread_id:
   - 3642806710
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

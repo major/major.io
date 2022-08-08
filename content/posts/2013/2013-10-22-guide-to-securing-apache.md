@@ -1,13 +1,10 @@
 ---
 title: Guide to securing apache
 author: Major Hayden
-type: post
 date: 2013-10-22T12:30:51+00:00
 url: /2013/10/22/guide-to-securing-apache/
 dsq_thread_id:
   - 3642807412
-categories:
-  - Blog Posts
 tags:
   - apache
   - infosec

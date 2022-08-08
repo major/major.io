@@ -1,7 +1,6 @@
 ---
 title: Removing news feeds in Horde
 author: Major Hayden
-type: post
 date: 2008-01-21T18:36:49+00:00
 url: /2008/01/21/removing-news-feeds-in-horde/
 dsq_thread_id:

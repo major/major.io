@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-11-16'
 summary: >-
   Want to build your own Fedora 35 image for AWS? Use Image Builder to build
@@ -17,7 +15,6 @@ tags:
 - fedora
 - linux
 title: Deploy a custom Fedora 35 AMI to AWS with Image Builder
-type: post
 ---
 
 {{< figure src="/images/2021-11-16-construction-cranes.jpg" alt="Construction cranes over city landscape" position="center" >}}

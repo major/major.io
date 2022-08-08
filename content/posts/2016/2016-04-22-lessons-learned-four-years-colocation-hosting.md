@@ -1,13 +1,10 @@
 ---
 title: 'Lessons learned: Five years of colocation'
 author: Major Hayden
-type: post
 date: 2016-04-22T13:30:52+00:00
 url: /2016/04/22/lessons-learned-four-years-colocation-hosting/
 dsq_thread_id:
   - 4766778323
-categories:
-  - Blog Posts
 tags:
   - colocation
   - general advice

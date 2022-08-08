@@ -1,7 +1,6 @@
 ---
 title: Preventing Plesk 8.2.x from adding up2date sources
 author: Major Hayden
-type: post
 date: 2007-10-04T18:29:14+00:00
 url: /2007/10/04/preventing-plesk-82x-from-adding-up2date-sources/
 dsq_thread_id:

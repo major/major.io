@@ -1,13 +1,10 @@
 ---
 title: 'Presentation: Demystifying SELinux'
 author: Major Hayden
-type: post
 date: 2013-05-29T01:01:09+00:00
 url: /2013/05/28/presentation-demystifying-selinux/
 dsq_thread_id:
   - 3678908057
-categories:
-  - Blog Posts
 tags:
   - command line
   - security

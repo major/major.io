@@ -1,13 +1,10 @@
 ---
 title: 'WordPress and PHP 5.3.x: update_comment_type_cache() expected to be a reference'
 author: Major Hayden
-type: post
 date: 2009-12-21T14:02:02+00:00
 url: /2009/12/21/wordpress-and-php-5-3-x-update_comment_type_cache-expected-to-be-a-reference/
 dsq_thread_id:
   - 3642805880
-categories:
-  - Blog Posts
 tags:
   - php
   - wordpress

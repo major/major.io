@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-01-24'
 summary: Not all stock brokerages are the same. Think about your requirements,
   shop around, and read the fine print.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Which stock broker should you use?
-type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

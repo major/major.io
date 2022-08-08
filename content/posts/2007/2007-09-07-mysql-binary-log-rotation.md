@@ -1,15 +1,12 @@
 ---
 title: MySQL binary log rotation
 author: Major Hayden
-type: post
 date: 2007-09-07T22:07:17+00:00
 url: /2007/09/07/mysql-binary-log-rotation/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642770029
-categories:
-  - Blog Posts
 tags:
   - database
 

@@ -1,13 +1,10 @@
 ---
 title: Time for a new GPG key
 author: Major Hayden
-type: post
 date: 2015-06-11T19:14:03+00:00
 url: /2015/06/11/time-for-a-new-gpg-key/
 dsq_thread_id:
   - 3840975357
-categories:
-  - Blog Posts
 tags:
   - fedora
   - security

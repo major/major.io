@@ -1,7 +1,6 @@
 ---
 title: 'Obscure MySQL variable explained: max_seeks_for_key'
 author: Major Hayden
-type: post
 date: 2007-08-03T22:01:33+00:00
 url: /2007/08/03/obscure-mysql-variable-explained-max_seeks_for_key/
 dsq_thread_id:

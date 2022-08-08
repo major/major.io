@@ -1,11 +1,8 @@
 ---
 title: Customize LDAP autocompletion format in Thunderbird
 author: Major Hayden
-type: post
 date: 2017-07-18T18:08:42+00:00
 url: /2017/07/18/customize-ldap-autocompletion-format-in-thunderbird/
-categories:
-  - Blog Posts
 tags:
   - email
   - javascript

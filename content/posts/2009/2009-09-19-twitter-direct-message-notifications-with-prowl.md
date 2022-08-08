@@ -1,13 +1,10 @@
 ---
 title: Twitter direct message notifications with Prowl
 author: Major Hayden
-type: post
 date: 2009-09-19T17:48:27+00:00
 url: /2009/09/19/twitter-direct-message-notifications-with-prowl/
 dsq_thread_id:
   - 3642805826
-categories:
-  - Blog Posts
 
 ---
 If you want instant notifications of a direct message on Twitter on your iPhone, you have a few options. You could set up your mobile device to receive SMS messages and get them quickly, but you're stuck paying for all of those incoming SMS messages. However, it's annoying when you follow an account, and then they follow and DM you at 4AM. Twitter [allows you to set quiet hours][1], but then you don't see any notifications on your phone when you wake up.

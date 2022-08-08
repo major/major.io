@@ -1,13 +1,10 @@
 ---
 title: virt-manager won’t release the mouse when using ssh forwarding from OS X
 author: Major Hayden
-type: post
 date: 2013-03-20T05:26:56+00:00
 url: /2013/03/20/virt-manager-wont-release-the-mouse-when-using-ssh-forwarding-from-os-x/
 dsq_thread_id:
   - 3642807155
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

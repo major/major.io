@@ -1,13 +1,10 @@
 ---
 title: Keep old kernels with yum and dnf
 author: Major Hayden
-type: post
 date: 2015-05-18T14:22:56+00:00
 url: /2015/05/18/keep-old-kernels-with-yum-and-dnf/
 dsq_thread_id:
   - 3774046868
-categories:
-  - Blog Posts
 tags:
   - centos
   - dnf

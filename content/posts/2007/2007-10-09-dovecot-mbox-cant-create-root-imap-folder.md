@@ -1,7 +1,6 @@
 ---
 title: 'Dovecot: mbox: Can’t create root IMAP folder'
 author: Major Hayden
-type: post
 date: 2007-10-10T01:05:52+00:00
 url: /2007/10/09/dovecot-mbox-cant-create-root-imap-folder/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Display auditd messages with journalctl
 author: Major Hayden
-type: post
 date: 2017-01-05T15:53:13+00:00
 url: /2017/01/05/display-auditd-messages-with-journalctl/
 dsq_thread_id:
   - 5438007712
-categories:
-  - Blog Posts
 tags:
   - auditd
   - centos

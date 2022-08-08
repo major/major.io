@@ -1,15 +1,12 @@
 ---
 title: 'CPAN: Automatically install dependencies without confirmation'
 author: Major Hayden
-type: post
 date: 2009-01-02T01:44:51+00:00
 url: /2009/01/01/cpan-automatically-install-dependencies-without-confirmation/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805471
-categories:
-  - Blog Posts
 tags:
   - cpan
   - perl

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-05-24'
 images:
 - images/2019-05-24-cranes-skycrapers.jpg
@@ -14,7 +12,6 @@ tags:
 - linux
 - podman
 title: Build containers in GitLab CI with buildah
-type: post
 ---
 
 ![cranes and skyscrapers]

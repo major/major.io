@@ -1,13 +1,10 @@
 ---
 title: 'HOWTO: Time Warner Cable and IPv6'
 author: Major Hayden
-type: post
 date: 2014-09-11T14:43:03+00:00
 url: /2014/09/11/howto-time-warner-cable-ipv6/
 dsq_thread_id:
   - 3642807746
-categories:
-  - Blog Posts
 tags:
   - fedora
   - ipv6

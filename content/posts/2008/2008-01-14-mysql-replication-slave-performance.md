@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Slave Performance'
 author: Major Hayden
-type: post
 date: 2008-01-14T18:26:40+00:00
 url: /2008/01/14/mysql-replication-slave-performance/
 dsq_thread_id:

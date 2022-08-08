@@ -1,13 +1,10 @@
 ---
 title: 'nf_conntrack: table full, dropping packet'
 author: Major Hayden
-type: post
 date: 2014-01-07T20:22:01+00:00
 url: /2014/01/07/nf-conntrack-table-full-dropping-packet/
 dsq_thread_id:
   - 3643775411
-categories:
-  - Blog Posts
 
 ---
 I was doing some testing with apachebench and received some peculiar results:

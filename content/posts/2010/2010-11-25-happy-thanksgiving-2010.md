@@ -1,13 +1,10 @@
 ---
 title: Happy Thanksgiving
 author: Major Hayden
-type: post
 date: 2010-11-25T16:00:18+00:00
 url: /2010/11/25/happy-thanksgiving-2010/
 dsq_thread_id:
   - 3678946261
-categories:
-  - Blog Posts
 tags:
   - general advice
   - holiday

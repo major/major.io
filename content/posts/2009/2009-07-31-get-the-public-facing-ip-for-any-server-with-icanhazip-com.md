@@ -1,13 +1,10 @@
 ---
 title: Get the public-facing IP for any server with icanhazip.com
 author: Major Hayden
-type: post
 date: 2009-07-31T13:41:38+00:00
 url: /2009/07/31/get-the-public-facing-ip-for-any-server-with-icanhazip-com/
 dsq_thread_id:
   - 3642805693
-categories:
-  - Blog Posts
 tags:
   - curl
   - networking

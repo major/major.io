@@ -1,7 +1,6 @@
 ---
 title: Rebuild RPM file permissions and ownerships
 author: Major Hayden
-type: post
 date: 2007-06-14T22:36:47+00:00
 url: /2007/06/14/rebuild-rpm-file-permissions-and-ownerships/
 dsq_thread_id:

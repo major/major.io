@@ -1,7 +1,6 @@
 ---
 title: Red Hat Summit 2013 Recap
 author: Major Hayden
-type: post
 date: 2013-06-15T00:25:50+00:00
 url: /2013/06/14/red-hat-summit-2013-recap/
 enclosure:
@@ -13,8 +12,6 @@ enclosure:
 
 dsq_thread_id:
   - 3642807315
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

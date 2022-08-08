@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-08-16'
 summary: >-
     Re-use the same wildcard TLS certificate for multiple containers running
@@ -17,7 +15,6 @@ tags:
 - traefik
 - tls
 title: Wildcard LetsEncrypt certificates with Traefik and Cloudflare
-type: post
 ---
 
 {{< figure src="/images/2021-08-16-stoplights-in-rain.jpg" alt="Tanker ship in a blue green ocean" position="center" >}}

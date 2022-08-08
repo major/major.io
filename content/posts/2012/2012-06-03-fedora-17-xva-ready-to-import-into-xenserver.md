@@ -1,14 +1,11 @@
 ---
 title: Fedora 17 XVA ready to import into XenServer
 author: Major Hayden
-type: post
 date: 2012-06-04T02:25:45+00:00
 url: /2012/06/03/fedora-17-xva-ready-to-import-into-xenserver/
 featured_image: /wp-content/uploads/2012/06/xen_logo_small.png
 dsq_thread_id:
   - 3642806975
-categories:
-  - Blog Posts
 tags:
   - fedora
   - xen

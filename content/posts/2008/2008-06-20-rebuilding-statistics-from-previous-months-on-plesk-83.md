@@ -1,13 +1,10 @@
 ---
 title: Rebuilding statistics from previous months on Plesk 8.3
 author: Major Hayden
-type: post
 date: 2008-06-20T17:00:06+00:00
 url: /2008/06/20/rebuilding-statistics-from-previous-months-on-plesk-83/
 dsq_thread_id:
   - 3664268107
-categories:
-  - Blog Posts
 tags:
   - awstats
   - plesk

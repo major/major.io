@@ -1,7 +1,6 @@
 ---
 title: '/bin/tar: Argument list too long'
 author: Major Hayden
-type: post
 date: 2007-07-06T03:11:43+00:00
 url: /2007/07/05/bintar-argument-list-too-long/
 dsq_thread_id:

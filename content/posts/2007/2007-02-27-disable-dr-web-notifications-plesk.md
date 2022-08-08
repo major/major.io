@@ -1,7 +1,6 @@
 ---
 title: Disable Dr. Web Notifications in Plesk
 author: Major Hayden
-type: post
 date: 2007-02-27T16:10:56+00:00
 url: /2007/02/27/disable-dr-web-notifications-plesk/
 dsq_thread_id:

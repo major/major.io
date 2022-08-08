@@ -1,11 +1,8 @@
 ---
 title: 'Takeaways from Bruce Schneier’s talk: “Security and Privacy in a Hyper-connected World”'
 author: Major Hayden
-type: post
 date: 2017-03-22T01:31:52+00:00
 url: /2017/03/21/takeaways-from-bruce-schneiers-talk-security-and-privacy-in-a-hyper-connected-world/
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

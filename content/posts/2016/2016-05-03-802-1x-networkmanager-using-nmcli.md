@@ -1,13 +1,10 @@
 ---
 title: 802.1x with NetworkManager using nmcli
 author: Major Hayden
-type: post
 date: 2016-05-03T19:23:24+00:00
 url: /2016/05/03/802-1x-networkmanager-using-nmcli/
 dsq_thread_id:
   - 4797468804
-categories:
-  - Blog Posts
 tags:
   - networking
   - security

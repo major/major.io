@@ -1,13 +1,10 @@
 ---
 title: CentOS and Red Hat join forces
 author: Major Hayden
-type: post
 date: 2014-01-08T20:23:52+00:00
 url: /2014/01/08/centos-and-red-hat-join-forces/
 dsq_thread_id:
   - 3678898144
-categories:
-  - Blog Posts
 tags:
   - centos
   - linux

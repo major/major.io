@@ -1,13 +1,10 @@
 ---
 title: Rotate GNOME 3’s wallpaper with systemd user units and timers
 author: Major Hayden
-type: post
 date: 2015-02-11T14:23:03+00:00
 url: /2015/02/11/rotate-gnome-3s-wallpaper-systemd-user-units-timers/
 dsq_thread_id:
   - 3642808063
-categories:
-  - Blog Posts
 tags:
   - bash
   - fedora

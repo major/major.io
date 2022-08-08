@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-04-05'
 images:
 - images/2019-04-05-inspecting-cgroups.jpg
@@ -12,7 +10,6 @@ tags:
 - security
 - linux
 title: Inspecting OpenShift cgroups from inside the pod
-type: post
 ---
 
 ![walking_through_rock_valley]

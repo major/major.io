@@ -1,13 +1,10 @@
 ---
 title: Why I use Plesk
 author: Major Hayden
-type: post
 date: 2008-06-17T17:00:47+00:00
 url: /2008/06/17/why-i-use-plesk/
 dsq_thread_id:
   - 3642772274
-categories:
-  - Blog Posts
 tags:
   - plesk
 

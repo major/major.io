@@ -1,13 +1,10 @@
 ---
 title: Seriously, stop disabling SELinux
 author: Major Hayden
-type: post
 date: 2013-04-16T04:40:10+00:00
 url: /2013/04/15/seriously-stop-disabling-selinux/
 dsq_thread_id:
   - 3642807184
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

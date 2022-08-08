@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Breakdown'
 author: Major Hayden
-type: post
 date: 2008-01-09T18:24:03+00:00
 url: /2008/01/09/mysql-replication-breakdown/
 dsq_thread_id:

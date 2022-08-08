@@ -1,13 +1,10 @@
 ---
 title: Mounting an LVM snapshot containing partitions
 author: Major Hayden
-type: post
 date: 2012-07-15T20:11:38+00:00
 url: /2012/07/15/mounting-an-lvm-snapshot-containing-partitions/
 dsq_thread_id:
   - 3642807041
-categories:
-  - Blog Posts
 tags:
   - emergency
   - fedora

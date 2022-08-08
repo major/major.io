@@ -1,11 +1,8 @@
 ---
 title: IBM Interconnect 2017 first day keynote recap
 author: Major Hayden
-type: post
 date: 2017-03-20T20:18:47+00:00
 url: /2017/03/20/ibm-interconnect-first-day-keynote-recap/
-categories:
-  - Blog Posts
 tags:
   - interconnect
 

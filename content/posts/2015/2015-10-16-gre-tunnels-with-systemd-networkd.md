@@ -1,13 +1,10 @@
 ---
 title: GRE tunnels with systemd-networkd
 author: Major Hayden
-type: post
 date: 2015-10-16T23:54:52+00:00
 url: /2015/10/16/gre-tunnels-with-systemd-networkd/
 dsq_thread_id:
   - 4232183402
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

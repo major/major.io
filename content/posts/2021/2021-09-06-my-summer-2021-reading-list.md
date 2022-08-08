@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-09-06'
 summary: >-
     I set out to read a bunch of books this summer and succeeded! Here's my
@@ -13,7 +11,6 @@ tags:
 - books
 - reading
 title: My summer 2021 reading list
-type: post
 ---
 
 {{< figure src="/images/2021-09-06-cozy-library.jpg" alt="Cozy home library with books and a chair" position="center" >}}

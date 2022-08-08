@@ -1,13 +1,10 @@
 ---
 title: Create a local PyPi repository using only mod_rewrite
 author: Major Hayden
-type: post
 date: 2012-02-01T04:02:49+00:00
 url: /2012/01/31/create-a-local-pypi-repository-using-only-mod_rewrite/
 dsq_thread_id:
   - 3642806824
-categories:
-  - Blog Posts
 tags:
   - apache
   - command line

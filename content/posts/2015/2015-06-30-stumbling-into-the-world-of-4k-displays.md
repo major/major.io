@@ -1,13 +1,10 @@
 ---
 title: 'Stumbling into the world of 4K displays [UPDATED]'
 author: Major Hayden
-type: post
 date: 2015-07-01T04:33:43+00:00
 url: /2015/06/30/stumbling-into-the-world-of-4k-displays/
 dsq_thread_id:
   - 3894070814
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kernel

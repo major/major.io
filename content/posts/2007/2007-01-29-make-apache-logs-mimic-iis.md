@@ -1,7 +1,6 @@
 ---
 title: Make Apache logs mimic IIS
 author: Major Hayden
-type: post
 date: 2007-01-29T17:45:22+00:00
 url: /2007/01/29/make-apache-logs-mimic-iis/
 dsq_thread_id:

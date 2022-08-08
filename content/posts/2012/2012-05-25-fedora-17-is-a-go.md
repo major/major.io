@@ -1,13 +1,10 @@
 ---
 title: Fedora 17 is a go!
 author: Major Hayden
-type: post
 date: 2012-05-25T12:54:13+00:00
 url: /2012/05/25/fedora-17-is-a-go/
 dsq_thread_id:
   - 3642806958
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

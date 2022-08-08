@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-10-23'
 summary: >-
   One of the smallest ThinkPads delivers one of the best experiences I've had on
@@ -15,7 +13,6 @@ tags:
 - lenovo
 - linux
 title: ThinkPad X1 Nano Gen 1 Review
-type: post
 ---
 
 {{< figure src="/images/2021-10-23-thinkpad-x1-nano.png" alt="ThinkPad X1 Nano Gen 1" position="center" >}}

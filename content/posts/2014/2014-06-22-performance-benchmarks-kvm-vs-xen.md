@@ -1,13 +1,10 @@
 ---
 title: 'Performance benchmarks: KVM vs. Xen'
 author: Major Hayden
-type: post
 date: 2014-06-22T17:00:14+00:00
 url: /2014/06/22/performance-benchmarks-kvm-vs-xen/
 dsq_thread_id:
   - 3642807559
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

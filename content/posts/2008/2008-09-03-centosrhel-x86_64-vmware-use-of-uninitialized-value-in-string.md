@@ -1,13 +1,10 @@
 ---
 title: 'CentOS/RHEL x86_64 + VMWare: Use of uninitialized value in string'
 author: Major Hayden
-type: post
 date: 2008-09-03T17:06:20+00:00
 url: /2008/09/03/centosrhel-x86_64-vmware-use-of-uninitialized-value-in-string/
 dsq_thread_id:
   - 3642771926
-categories:
-  - Blog Posts
 tags:
   - perl
   - vmware

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-08-06'
 summary: >-
     Build images for AWS and deploy them to your AWS account all within GitHub
@@ -17,7 +15,6 @@ tags:
 - imagebuilder
 - linux
 title: Build Fedora AWS images in GitHub Actions with Image Builder
-type: post
 ---
 
 {{< figure src="/images/2021-08-06-tanker-in-ocean.jpg" alt="Tanker ship in a blue green ocean" position="center" >}}

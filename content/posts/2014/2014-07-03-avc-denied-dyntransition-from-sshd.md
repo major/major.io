@@ -1,13 +1,10 @@
 ---
 title: 'AVC: denied dyntransition from sshd'
 author: Major Hayden
-type: post
 date: 2014-07-03T19:52:51+00:00
 url: /2014/07/03/avc-denied-dyntransition-from-sshd/
 dsq_thread_id:
   - 3646864438
-categories:
-  - Blog Posts
 tags:
   - fedora
   - security

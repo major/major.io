@@ -1,13 +1,10 @@
 ---
 title: Mouse cursor disappears in GNOME 3
 author: Major Hayden
-type: post
 date: 2016-03-11T15:36:25+00:00
 url: /2016/03/11/mouse-cursor-disappears-gnome-3/
 dsq_thread_id:
   - 4653768365
-categories:
-  - Blog Posts
 tags:
   - desktop
   - fedora

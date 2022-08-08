@@ -1,7 +1,6 @@
 ---
 title: Sum Apache Bandwidth From Logs
 author: Major Hayden
-type: post
 date: 2007-01-15T15:33:09+00:00
 url: /2007/01/15/sum-apache-bandwidth-from-logs/
 dsq_thread_id:

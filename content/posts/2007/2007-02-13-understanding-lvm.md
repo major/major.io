@@ -1,7 +1,6 @@
 ---
 title: Understanding LVM
 author: Major Hayden
-type: post
 date: 2007-02-14T03:34:06+00:00
 url: /2007/02/13/understanding-lvm/
 dsq_thread_id:

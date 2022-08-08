@@ -1,13 +1,10 @@
 ---
 title: Upgraded to WordPress 2.6.1
 author: Major Hayden
-type: post
 date: 2008-08-31T02:17:15+00:00
 url: /2008/08/30/upgraded-to-wordpress-261/
 dsq_thread_id:
   - 3678974756
-categories:
-  - Blog Posts
 tags:
   - wordpress
 

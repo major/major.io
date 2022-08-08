@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner minor update
 author: Major Hayden
-type: post
 date: 2007-09-07T01:41:14+00:00
 url: /2007/09/06/mysqltuner-minor-update/
 dsq_thread_id:

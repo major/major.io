@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-12-17'
 summary: >-
   At first I thought Twitter was the problem, but then I realized I was making
@@ -11,10 +9,14 @@ tags:
 - social media
 - twitter
 title: My Twitter reset
-type: post
 ---
 
-*Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)*
+{{< figure
+    src="cover.jpg"
+    alt="Lonely highway towards mountains under a dark orange smoky sky"
+    caption="Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)*"
+    >}}
+
 
 Let's start this post with a quote:
 

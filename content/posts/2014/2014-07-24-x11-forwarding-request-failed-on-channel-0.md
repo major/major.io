@@ -1,13 +1,10 @@
 ---
 title: X11 forwarding request failed on channel 0
 author: Major Hayden
-type: post
 date: 2014-07-24T19:24:32+00:00
 url: /2014/07/24/x11-forwarding-request-failed-on-channel-0/
 dsq_thread_id:
   - 3642807637
-categories:
-  - Blog Posts
 tags:
   - debian
   - ipv6

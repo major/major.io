@@ -1,13 +1,10 @@
 ---
 title: 'MySQL: Can’t drop one or more of the requested users'
 author: Major Hayden
-type: post
 date: 2008-06-11T23:59:37+00:00
 url: /2008/06/11/mysql-cant-drop-one-or-more-of-the-requested-users/
 dsq_thread_id:
   - 3642771353
-categories:
-  - Blog Posts
 tags:
   - mysql
   - security

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-07-09'
 summary: >-
     Run rootless Linux containers without any daemons using docker-compose and
@@ -15,7 +13,6 @@ tags:
 - linux
 - podman
 title: Rootless container management with docker-compose and podman
-type: post
 ---
 
 {{< figure src="/images/2021-07-09-hallway-arches.jpg" alt="Long stone hallway with arches and light pouring in from one side" position="center" >}}

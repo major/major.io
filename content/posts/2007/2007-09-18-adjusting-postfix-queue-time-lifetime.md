@@ -1,7 +1,6 @@
 ---
 title: Adjusting postfix queue time / lifetime
 author: Major Hayden
-type: post
 date: 2007-09-18T22:55:38+00:00
 url: /2007/09/18/adjusting-postfix-queue-time-lifetime/
 dsq_thread_id:

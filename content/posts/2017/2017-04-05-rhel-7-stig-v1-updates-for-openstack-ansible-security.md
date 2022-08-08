@@ -1,11 +1,8 @@
 ---
 title: RHEL 7 STIG v1 updates for openstack-ansible-security
 author: Major Hayden
-type: post
 date: 2017-04-05T17:46:17+00:00
 url: /2017/04/05/rhel-7-stig-v1-updates-for-openstack-ansible-security/
-categories:
-  - Blog Posts
 tags:
   - ansible
   - centos

@@ -1,13 +1,10 @@
 ---
 title: PulseAudio popping with multiple sounds in Fedora 22
 author: Major Hayden
-type: post
 date: 2015-06-08T13:37:24+00:00
 url: /2015/06/08/pulseaudio-popping-with-multiple-sounds-in-fedora-22/
 dsq_thread_id:
   - 3831330407
-categories:
-  - Blog Posts
 tags:
   - fedora
   - pulseaudio

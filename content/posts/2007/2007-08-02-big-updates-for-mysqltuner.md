@@ -1,7 +1,6 @@
 ---
 title: Big updates for mysqltuner
 author: Major Hayden
-type: post
 date: 2007-08-03T02:35:16+00:00
 url: /2007/08/02/big-updates-for-mysqltuner/
 dsq_thread_id:

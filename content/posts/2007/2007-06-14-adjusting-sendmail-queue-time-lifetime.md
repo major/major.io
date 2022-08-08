@@ -1,7 +1,6 @@
 ---
 title: Adjusting sendmail queue time / lifetime
 author: Major Hayden
-type: post
 date: 2007-06-14T22:56:27+00:00
 url: /2007/06/14/adjusting-sendmail-queue-time-lifetime/
 dsq_thread_id:

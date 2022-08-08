@@ -1,13 +1,10 @@
 ---
 title: 'DNS Service Review: Luadns'
 author: Major Hayden
-type: post
 date: 2012-07-22T20:31:16+00:00
 url: /2012/07/22/dns-service-review-luadns/
 dsq_thread_id:
   - 3648134867
-categories:
-  - Blog Posts
 tags:
   - dns
   - git

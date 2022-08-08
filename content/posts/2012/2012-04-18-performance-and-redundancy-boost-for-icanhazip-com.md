@@ -1,13 +1,10 @@
 ---
 title: Performance and redundancy boost for icanhazip.com
 author: Major Hayden
-type: post
 date: 2012-04-18T23:30:06+00:00
 url: /2012/04/18/performance-and-redundancy-boost-for-icanhazip-com/
 dsq_thread_id:
   - 3642806948
-categories:
-  - Blog Posts
 tags:
   - networking
   - web

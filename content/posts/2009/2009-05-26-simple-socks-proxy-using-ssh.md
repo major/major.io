@@ -1,13 +1,10 @@
 ---
 title: Simple SOCKS proxy using SSH
 author: Major Hayden
-type: post
 date: 2009-05-26T19:29:55+00:00
 url: /2009/05/26/simple-socks-proxy-using-ssh/
 dsq_thread_id:
   - 3642805621
-categories:
-  - Blog Posts
 tags:
   - proxy
   - security

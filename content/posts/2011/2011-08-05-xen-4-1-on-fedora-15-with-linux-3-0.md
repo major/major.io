@@ -1,13 +1,10 @@
 ---
 title: Xen 4.1 on Fedora 15 with Linux 3.0
 author: Major Hayden
-type: post
 date: 2011-08-06T04:34:06+00:00
 url: /2011/08/05/xen-4-1-on-fedora-15-with-linux-3-0/
 dsq_thread_id:
   - 3642806601
-categories:
-  - Blog Posts
 tags:
   - cloud
   - command line

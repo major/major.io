@@ -1,11 +1,8 @@
 ---
 title: DevConf.CZ 2019 Recap
 author: Major Hayden
-type: post
 date: "2019-01-31"
 slug: devconf.cz-2019-recap
-categories:
-  - Blog Posts
 tags:
   - events
   - presentation

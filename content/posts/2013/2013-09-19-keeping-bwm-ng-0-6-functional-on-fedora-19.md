@@ -1,13 +1,10 @@
 ---
 title: Keeping bwm-ng 0.6 functional on Fedora 19
 author: Major Hayden
-type: post
 date: 2013-09-20T02:51:31+00:00
 url: /2013/09/19/keeping-bwm-ng-0-6-functional-on-fedora-19/
 dsq_thread_id:
   - 3670162883
-categories:
-  - Blog Posts
 tags:
   - fedora
   - networking

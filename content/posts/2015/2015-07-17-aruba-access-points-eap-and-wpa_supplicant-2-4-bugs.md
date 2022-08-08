@@ -1,13 +1,10 @@
 ---
 title: Aruba access points, EAP, and wpa_supplicant 2.4 bugs
 author: Major Hayden
-type: post
 date: 2015-07-17T12:29:29+00:00
 url: /2015/07/17/aruba-access-points-eap-and-wpa_supplicant-2-4-bugs/
 dsq_thread_id:
   - 3943180683
-categories:
-  - Blog Posts
 tags:
   - fedora
   - networking

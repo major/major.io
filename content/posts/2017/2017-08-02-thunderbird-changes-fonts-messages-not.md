@@ -1,11 +1,8 @@
 ---
 title: Thunderbird changes fonts in some messages, not all
 author: Major Hayden
-type: post
 date: 2017-08-02T12:54:38+00:00
 url: /2017/08/02/thunderbird-changes-fonts-messages-not/
-categories:
-  - Blog Posts
 tags:
   - fedora
   - mail

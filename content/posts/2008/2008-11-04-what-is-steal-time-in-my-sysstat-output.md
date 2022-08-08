@@ -1,13 +1,10 @@
 ---
 title: What is ‘steal time’ in my sysstat output?
 author: Major Hayden
-type: post
 date: 2008-11-04T17:19:08+00:00
 url: /2008/11/04/what-is-steal-time-in-my-sysstat-output/
 dsq_thread_id:
   - 3642805295
-categories:
-  - Blog Posts
 tags:
   - sar
   - xen

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-02-10'
 summary: You did your research and made a great options trade, but now it is a
   losing trade. What can you do now?
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Defending losing options trades
-type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

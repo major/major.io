@@ -1,13 +1,10 @@
 ---
 title: 'Information security nuggets from DevOps Weekly #150'
 author: Major Hayden
-type: post
 date: 2013-11-17T21:31:10+00:00
 url: /2013/11/17/information-security-nuggets-from-devops-weekly-150/
 dsq_thread_id:
   - 3642807411
-categories:
-  - Blog Posts
 tags:
   - devops
   - general advice

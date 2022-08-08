@@ -1,7 +1,6 @@
 ---
 title: Install mysql-server from ports on FreeBSD
 author: Major Hayden
-type: post
 date: 2007-05-27T21:47:13+00:00
 url: /2007/05/27/install-mysql-server-from-ports-on-freebsd/
 dsq_thread_id:

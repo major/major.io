@@ -1,15 +1,12 @@
 ---
 title: Idiot’s guide to OAuth logins for Twitter
 author: Major Hayden
-type: post
 date: 2010-05-20T01:26:07+00:00
 url: /2010/05/19/idiots-guide-to-oauth-logins-for-twitter/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806163
-categories:
-  - Blog Posts
 tags:
   - command line
   - oauth

@@ -1,7 +1,6 @@
 ---
 title: 'Reduce iowait in Plesk: put qmail’s queue on a ramdisk'
 author: Major Hayden
-type: post
 date: 2008-03-14T18:16:57+00:00
 url: /2008/03/14/reduce-iowait-in-plesk-put-qmails-queue-on-a-ramdisk/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: 'Plesk: Error opening /var/lib/squirrelmail/prefs/default_pref'
 author: Major Hayden
-type: post
 date: 2007-10-09T00:44:48+00:00
 url: /2007/10/08/plesk-error-opening-varlibsquirrelmailprefsdefault_pref/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: About Sticky Bits
 author: Major Hayden
-type: post
 date: 2006-12-31T03:35:26+00:00
 url: /2006/12/30/about-sticky-bits/
 dsq_thread_id:

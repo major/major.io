@@ -1,15 +1,12 @@
 ---
 title: Very unscientific GlusterFS benchmarks
 author: Major Hayden
-type: post
 date: 2010-08-13T20:55:24+00:00
 url: /2010/08/13/very-unscientific-glusterfs-benchmarks/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806229
-categories:
-  - Blog Posts
 tags:
   - benchmarks
   - glusterfs

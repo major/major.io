@@ -1,15 +1,12 @@
 ---
 title: 'How to sell: a guide for technical people'
 author: Major Hayden
-type: post
 date: 2010-05-27T02:12:39+00:00
 url: /2010/05/26/how-to-sell-a-guide-for-technical-people/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678951221
-categories:
-  - Blog Posts
 tags:
   - guidance
   - rackspace

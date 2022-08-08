@@ -1,7 +1,6 @@
 ---
 title: Hosting the politicians
 author: Major Hayden
-type: post
 date: 2008-04-24T17:12:24+00:00
 url: /2008/04/24/hosting-the-politicians/
 dsq_thread_id:

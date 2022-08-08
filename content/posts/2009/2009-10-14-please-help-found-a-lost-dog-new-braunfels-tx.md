@@ -1,13 +1,10 @@
 ---
 title: Please help! Found a lost dog – New Braunfels, TX
 author: Major Hayden
-type: post
 date: 2009-10-15T02:06:53+00:00
 url: /2009/10/14/please-help-found-a-lost-dog-new-braunfels-tx/
 dsq_thread_id:
   - 3642805827
-categories:
-  - Blog Posts
 
 ---
 **Update**: The dog has made it back home to its family. Thanks to all that helped spread the word!

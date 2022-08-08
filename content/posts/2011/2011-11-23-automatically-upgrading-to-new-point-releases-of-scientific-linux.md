@@ -1,13 +1,10 @@
 ---
 title: Automatically upgrading to new point releases of Scientific Linux
 author: Major Hayden
-type: post
 date: 2011-11-23T13:20:12+00:00
 url: /2011/11/23/automatically-upgrading-to-new-point-releases-of-scientific-linux/
 dsq_thread_id:
   - 3642806730
-categories:
-  - Blog Posts
 tags:
   - centos
   - red hat

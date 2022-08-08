@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Performance'
 author: Major Hayden
-type: post
 date: 2008-01-02T18:20:05+00:00
 url: /2008/01/02/mysql-replication-performance/
 dsq_thread_id:

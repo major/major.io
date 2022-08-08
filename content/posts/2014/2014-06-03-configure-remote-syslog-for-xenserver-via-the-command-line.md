@@ -1,13 +1,10 @@
 ---
 title: Configure remote syslog for XenServer via the command line
 author: Major Hayden
-type: post
 date: 2014-06-03T17:55:59+00:00
 url: /2014/06/03/configure-remote-syslog-for-xenserver-via-the-command-line/
 dsq_thread_id:
   - 3648141445
-categories:
-  - Blog Posts
 tags:
   - security
   - sysadmin

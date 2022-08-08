@@ -1,7 +1,6 @@
 ---
 title: Parallels Summit 2008 – Day 1
 author: Major Hayden
-type: post
 date: 2008-05-20T03:52:38+00:00
 url: /2008/05/19/parallels-summit-2008-day-1/
 dsq_thread_id:

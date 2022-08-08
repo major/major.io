@@ -1,7 +1,6 @@
 ---
 title: My interview on the Dave and Gunnar Show
 author: Major Hayden
-type: post
 date: 2013-06-19T12:04:06+00:00
 url: /2013/06/19/my-interview-on-the-dave-and-gunnar-show/
 enclosure:
@@ -13,8 +12,6 @@ enclosure:
 
 dsq_thread_id:
   - 3678906262
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

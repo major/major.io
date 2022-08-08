@@ -1,13 +1,10 @@
 ---
 title: Thanks for making RackerHacker so popular!
 author: Major Hayden
-type: post
 date: 2008-09-15T03:31:09+00:00
 url: /2008/09/14/thanks-for-making-rackerhacker-so-popular/
 dsq_thread_id:
   - 3678972581
-categories:
-  - Blog Posts
 tags:
   - blog
   - rackerhacker

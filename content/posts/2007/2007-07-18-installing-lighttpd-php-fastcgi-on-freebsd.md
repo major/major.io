@@ -1,7 +1,6 @@
 ---
 title: Installing Lighttpd + PHP + FastCGI on FreeBSD
 author: Major Hayden
-type: post
 date: 2007-07-18T15:12:06+00:00
 url: /2007/07/18/installing-lighttpd-php-fastcgi-on-freebsd/
 dsq_thread_id:

@@ -1,15 +1,12 @@
 ---
 title: Strategies for detecting a compromised Linux server
 author: Major Hayden
-type: post
 date: 2011-03-10T02:52:16+00:00
 url: /2011/03/09/strategies-for-detecting-a-compromised-linux-server/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806498
-categories:
-  - Blog Posts
 tags:
   - general advice
   - linux

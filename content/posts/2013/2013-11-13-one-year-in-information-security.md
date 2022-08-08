@@ -1,13 +1,10 @@
 ---
 title: One year in information security
 author: Major Hayden
-type: post
 date: 2013-11-13T15:15:12+00:00
 url: /2013/11/13/one-year-in-information-security/
 dsq_thread_id:
   - 3678900001
-categories:
-  - Blog Posts
 tags:
   - general advice
   - infosec

@@ -1,14 +1,11 @@
 ---
 title: Play/pause button stopped working in OS X Mavericks
 author: Major Hayden
-type: post
 date: 2014-07-30T14:31:04+00:00
 url: /2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/
 featured_image: /wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439.jpg
 dsq_thread_id:
   - 3642807640
-categories:
-  - Blog Posts
 tags:
   - chrome
   - keyboard

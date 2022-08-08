@@ -1,7 +1,6 @@
 ---
 title: Hunting down elusive sources of iowait
 author: Major Hayden
-type: post
 date: 2008-03-11T18:00:18+00:00
 url: /2008/03/11/hunting-down-elusive-sources-of-iowait/
 dsq_thread_id:

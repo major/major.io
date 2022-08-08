@@ -1,7 +1,6 @@
 ---
 title: Telnet POP3 Commands
 author: Major Hayden
-type: post
 date: 2007-04-17T22:28:19+00:00
 url: /2007/04/17/telnet-pop3-commands/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: systemd-networkd and macvlan interfaces
 author: Major Hayden
-type: post
 date: 2015-10-26T13:50:36+00:00
 url: /2015/10/26/systemd-networkd-and-macvlan-interfaces/
 dsq_thread_id:
   - 4260851829
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kvm

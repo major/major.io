@@ -1,13 +1,10 @@
 ---
 title: Install sysstat on Fedora 21
 author: Major Hayden
-type: post
 date: 2014-12-12T17:55:57+00:00
 url: /2014/12/12/install-sysstat-fedora-21/
 dsq_thread_id:
   - 3642807769
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

@@ -1,7 +1,6 @@
 ---
 title: Adding IP aliases in FreeBSD
 author: Major Hayden
-type: post
 date: 2007-08-09T00:35:44+00:00
 url: /2007/08/08/adding-ip-aliases-in-freebsd/
 dsq_thread_id:

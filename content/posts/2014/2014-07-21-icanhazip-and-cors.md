@@ -1,13 +1,10 @@
 ---
 title: icanhazip and CORS
 author: Major Hayden
-type: post
 date: 2014-07-21T14:31:45+00:00
 url: /2014/07/21/icanhazip-and-cors/
 dsq_thread_id:
   - 3642807634
-categories:
-  - Blog Posts
 tags:
   - ajax
   - cors

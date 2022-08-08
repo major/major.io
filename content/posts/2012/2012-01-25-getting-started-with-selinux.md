@@ -1,13 +1,10 @@
 ---
 title: Getting started with SELinux
 author: Major Hayden
-type: post
 date: 2012-01-26T04:28:41+00:00
 url: /2012/01/25/getting-started-with-selinux/
 dsq_thread_id:
   - 3642806820
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

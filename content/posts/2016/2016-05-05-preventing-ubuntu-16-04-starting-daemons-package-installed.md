@@ -1,13 +1,10 @@
 ---
 title: Preventing Ubuntu 16.04 from starting daemons when a package is installed
 author: Major Hayden
-type: post
 date: 2016-05-05T15:54:27+00:00
 url: /2016/05/05/preventing-ubuntu-16-04-starting-daemons-package-installed/
 dsq_thread_id:
   - 4802584995
-categories:
-  - Blog Posts
 tags:
   - security
   - systemd

@@ -1,13 +1,10 @@
 ---
 title: Join me on Thursday to talk about OpenStack LBaaS and security hardening
 author: Major Hayden
-type: post
 date: 2016-07-19T14:09:40+00:00
 url: /2016/07/19/join-me-on-thursday-to-talk-about-openstack-lbaas-and-security/
 dsq_thread_id:
   - 4997538148
-categories:
-  - Blog Posts
 tags:
   - load balancing
   - networking

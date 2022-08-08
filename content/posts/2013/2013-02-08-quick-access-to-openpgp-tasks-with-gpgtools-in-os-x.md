@@ -1,13 +1,10 @@
 ---
 title: Quick access to OpenPGP tasks with GPGTools in OS X
 author: Major Hayden
-type: post
 date: 2013-02-08T19:05:30+00:00
 url: /2013/02/08/quick-access-to-openpgp-tasks-with-gpgtools-in-os-x/
 dsq_thread_id:
   - 3678918217
-categories:
-  - Blog Posts
 tags:
   - encryption
   - mac

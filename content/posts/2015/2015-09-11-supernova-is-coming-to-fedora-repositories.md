@@ -1,13 +1,10 @@
 ---
 title: supernova is coming to Fedora repositories
 author: Major Hayden
-type: post
 date: 2015-09-11T13:13:42+00:00
 url: /2015/09/11/supernova-is-coming-to-fedora-repositories/
 dsq_thread_id:
   - 4119453604
-categories:
-  - Blog Posts
 tags:
   - epel
   - fedora

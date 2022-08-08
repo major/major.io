@@ -1,13 +1,10 @@
 ---
 title: 'virt-manager: ‘NoneType’ object has no attribute ‘cpus’'
 author: Major Hayden
-type: post
 date: 2014-03-06T18:44:58+00:00
 url: /2014/03/06/virt-manager-nonetype-object-has-no-attribute-cpus/
 dsq_thread_id:
   - 3642807431
-categories:
-  - Blog Posts
 tags:
   - fedora
   - python

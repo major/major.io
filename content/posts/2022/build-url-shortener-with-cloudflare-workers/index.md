@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-03-24'
 summary: >-
   Host your own personal URL shortener with GitHub Actions and Cloudflare Workers.
@@ -12,10 +10,14 @@ tags:
   - javascript
   - serverless
 title: Build a URL shortener with Cloudflare Workers
-type: post
 ---
 
-*Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)*
+{{< figure
+    src="cover.jpg"
+    alt="Street sign showing different destinations in Germany"
+    caption="Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)"
+    >}}
+
 
 Shortened URLs make it easier to quickly reference complicated URLs and share them with
 other people. For example, https://url.major.io/reviews is definitely an easier method

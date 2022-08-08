@@ -1,15 +1,12 @@
 ---
 title: MySQLTuner 1.0.0 is now available
 author: Major Hayden
-type: post
 date: 2008-12-02T00:31:43+00:00
 url: /2008/12/01/mysqltuner-100-is-now-available/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805444
-categories:
-  - Blog Posts
 tags:
   - database
   - development

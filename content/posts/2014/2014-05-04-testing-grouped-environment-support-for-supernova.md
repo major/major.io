@@ -1,13 +1,10 @@
 ---
 title: Testing grouped environment support for supernova
 author: Major Hayden
-type: post
 date: 2014-05-05T02:43:04+00:00
 url: /2014/05/04/testing-grouped-environment-support-for-supernova/
 dsq_thread_id:
   - 3678887916
-categories:
-  - Blog Posts
 tags:
   - openstack
   - python

@@ -1,13 +1,10 @@
 ---
 title: Xen’s XSA-108 patch and Fedora
 author: Major Hayden
-type: post
 date: 2014-10-02T12:39:11+00:00
 url: /2014/10/02/xens-xsa-108-patch-fedora/
 dsq_thread_id:
   - 3642807761
-categories:
-  - Blog Posts
 tags:
   - fedora
   - security

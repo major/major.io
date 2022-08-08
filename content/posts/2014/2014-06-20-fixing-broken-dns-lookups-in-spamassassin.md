@@ -1,13 +1,10 @@
 ---
 title: Fixing broken DNS lookups in spamassassin
 author: Major Hayden
-type: post
 date: 2014-06-20T13:20:56+00:00
 url: /2014/06/20/fixing-broken-dns-lookups-in-spamassassin/
 dsq_thread_id:
   - 3642807551
-categories:
-  - Blog Posts
 tags:
   - dns
   - fedora

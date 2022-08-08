@@ -1,7 +1,6 @@
 ---
 title: '/bin/rm: Argument list too long'
 author: Major Hayden
-type: post
 date: 2007-03-26T17:16:55+00:00
 url: /2007/03/26/binrm-argument-list-too-long/
 dsq_thread_id:

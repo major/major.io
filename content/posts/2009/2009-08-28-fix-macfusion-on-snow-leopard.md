@@ -1,15 +1,12 @@
 ---
 title: Fix MacFusion on Snow Leopard
 author: Major Hayden
-type: post
 date: 2009-08-28T16:21:23+00:00
 url: /2009/08/28/fix-macfusion-on-snow-leopard/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805719
-categories:
-  - Blog Posts
 tags:
   - ftp
   - mac

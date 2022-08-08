@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-12-06'
 summary: Trading options contracts feels incredibly daunting, but you can learn
   the terminology and make good choices in the market.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Options trading introduction
-type: post
 ---
 
 {{< figure src="/images/2020-12-06-snow-mountain.jpg" alt="Snowy Mountain" position="center" >}}

@@ -1,13 +1,10 @@
 ---
 title: Adventures in live booting Linux distributions
 author: Major Hayden
-type: post
 date: 2014-07-29T13:05:54+00:00
 url: /2014/07/29/adventures-in-live-booting-linux-distributions/
 dsq_thread_id:
   - 3642807638
-categories:
-  - Blog Posts
 tags:
   - arch
   - centos

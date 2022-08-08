@@ -1,13 +1,10 @@
 ---
 title: Using OpenSSL’s s_client command with web servers using Server Name Indication (SNI)
 author: Major Hayden
-type: post
 date: 2012-02-07T14:07:41+00:00
 url: /2012/02/07/using-openssls-s_client-command-with-web-servers-using-server-name-indication-sni/
 dsq_thread_id:
   - 3642716400
-categories:
-  - Blog Posts
 tags:
   - apache
   - command line

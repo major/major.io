@@ -1,13 +1,10 @@
 ---
 title: Allow new windows to steal focus in GNOME 3
 author: Major Hayden
-type: post
 date: 2015-07-06T12:36:05+00:00
 url: /2015/07/06/allow-new-windows-to-steal-focus-in-gnome-3/
 dsq_thread_id:
   - 3909180756
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

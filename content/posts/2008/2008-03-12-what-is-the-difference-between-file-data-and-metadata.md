@@ -1,7 +1,6 @@
 ---
 title: What is the difference between file data and metadata?
 author: Major Hayden
-type: post
 date: 2008-03-12T18:01:59+00:00
 url: /2008/03/12/what-is-the-difference-between-file-data-and-metadata/
 dsq_thread_id:

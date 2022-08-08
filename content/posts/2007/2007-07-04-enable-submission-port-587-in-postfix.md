@@ -1,13 +1,10 @@
 ---
 title: Enable submission port 587 in Postfix
 author: Major Hayden
-type: post
 date: 2007-07-05T00:29:36+00:00
 url: /2007/07/04/enable-submission-port-587-in-postfix/
 dsq_thread_id:
   - 3642768522
-categories:
-  - Blog Posts
 tags:
   - mail
   - postfix

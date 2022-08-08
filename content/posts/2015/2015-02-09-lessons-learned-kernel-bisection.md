@@ -1,13 +1,10 @@
 ---
 title: Lessons learned from a kernel bisection
 author: Major Hayden
-type: post
 date: 2015-02-09T14:39:08+00:00
 url: /2015/02/09/lessons-learned-kernel-bisection/
 dsq_thread_id:
   - 3647904237
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

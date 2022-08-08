@@ -1,13 +1,10 @@
 ---
 title: Controlling sensitive company data means losing some control of it
 author: Major Hayden
-type: post
 date: 2013-03-03T17:18:13+00:00
 url: /2013/03/03/controlling-sensitive-company-data-means-losing-some-control-of-it/
 dsq_thread_id:
   - 3678915271
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

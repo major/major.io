@@ -1,15 +1,12 @@
 ---
 title: Compare the RPM packages installed on two different servers
 author: Major Hayden
-type: post
 date: 2009-03-10T23:31:49+00:00
 url: /2009/03/10/compare-the-rpm-packages-installed-on-two-different-servers/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805494
-categories:
-  - Blog Posts
 tags:
   - diff
   - fedora

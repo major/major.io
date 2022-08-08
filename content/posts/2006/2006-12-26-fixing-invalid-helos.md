@@ -1,13 +1,10 @@
 ---
 title: Fixing Invalid HELO’s
 author: Major Hayden
-type: post
 date: 2006-12-27T03:02:40+00:00
 url: /2006/12/26/fixing-invalid-helos/
 dsq_thread_id:
   - 3642764602
-categories:
-  - Blog Posts
 tags:
   - mail
 

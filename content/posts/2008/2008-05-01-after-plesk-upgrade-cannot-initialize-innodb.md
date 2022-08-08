@@ -1,7 +1,6 @@
 ---
 title: After Plesk upgrade, “Cannot initialize InnoDB”
 author: Major Hayden
-type: post
 date: 2008-05-01T17:00:09+00:00
 url: /2008/05/01/after-plesk-upgrade-cannot-initialize-innodb/
 dsq_thread_id:

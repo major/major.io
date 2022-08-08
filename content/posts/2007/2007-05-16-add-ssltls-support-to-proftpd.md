@@ -1,7 +1,6 @@
 ---
 title: Add SSL/TLS support to proftpd
 author: Major Hayden
-type: post
 date: 2007-05-17T01:45:37+00:00
 url: /2007/05/16/add-ssltls-support-to-proftpd/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Upgrade OpenSSL, then upgrade WordPress
 author: Major Hayden
-type: post
 date: 2014-04-10T13:06:33+00:00
 url: /2014/04/10/upgrade-openssl-then-upgrade-wordpress/
 dsq_thread_id:
   - 3678890703
-categories:
-  - Blog Posts
 tags:
   - security
   - wordpress

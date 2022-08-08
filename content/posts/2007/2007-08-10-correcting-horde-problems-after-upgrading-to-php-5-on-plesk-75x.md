@@ -1,7 +1,6 @@
 ---
 title: Correcting Horde problems after upgrading to PHP 5 on Plesk 7.5.x
 author: Major Hayden
-type: post
 date: 2007-08-11T02:08:49+00:00
 url: /2007/08/10/correcting-horde-problems-after-upgrading-to-php-5-on-plesk-75x/
 dsq_thread_id:

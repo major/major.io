@@ -1,13 +1,10 @@
 ---
 title: Change the escape keystrokes in screen
 author: Major Hayden
-type: post
 date: 2010-01-07T14:11:23+00:00
 url: /2010/01/07/change-the-escape-keystrokes-in-screen/
 dsq_thread_id:
   - 3642805940
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

@@ -1,13 +1,10 @@
 ---
 title: Thunderbird opens multiple windows
 author: Major Hayden
-type: post
 date: 2016-04-20T13:31:56+00:00
 url: /2016/04/20/thunderbird-opens-multiple-windows/
 dsq_thread_id:
   - 4762350720
-categories:
-  - Blog Posts
 tags:
   - fedora
   - mail

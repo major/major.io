@@ -1,14 +1,11 @@
 ---
 title: 'Getting online with a CradlePoint PHS-300 and an AT&T USBConnect Mercury'
 author: Major Hayden
-type: post
 date: 2011-12-16T07:07:08+00:00
 url: /2011/12/16/getting-online-with-a-cradlepoint-phs-300-and-an-att-usbconnect-mercury/
 featured_image: /wp-content/uploads/2011/12/phs300.jpg
 dsq_thread_id:
   - 3642806733
-categories:
-  - Blog Posts
 tags:
   - linux
   - mac

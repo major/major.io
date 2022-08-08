@@ -1,7 +1,6 @@
 ---
 title: Fedora/RHEL/Centos Won’t Init
 author: Major Hayden
-type: post
 date: 2006-12-29T00:35:13+00:00
 url: /2006/12/28/fedorarhelcentos-wont-init/
 dsq_thread_id:

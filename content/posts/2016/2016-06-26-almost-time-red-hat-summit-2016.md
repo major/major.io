@@ -1,13 +1,10 @@
 ---
 title: My list of must-see sessions at Red Hat Summit 2016
 author: Major Hayden
-type: post
 date: 2016-06-26T10:52:38+00:00
 url: /2016/06/26/almost-time-red-hat-summit-2016/
 dsq_thread_id:
   - 4939675096
-categories:
-  - Blog Posts
 tags:
   - ansible
   - fedora

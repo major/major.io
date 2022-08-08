@@ -1,13 +1,10 @@
 ---
 title: Listing of VMWare configuration parameters
 author: Major Hayden
-type: post
 date: 2008-09-05T17:09:54+00:00
 url: /2008/09/05/listing-of-vmware-configuration-parameters/
 dsq_thread_id:
   - 3645708670
-categories:
-  - Blog Posts
 tags:
   - vmware
 

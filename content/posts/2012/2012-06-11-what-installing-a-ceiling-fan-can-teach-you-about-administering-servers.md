@@ -1,13 +1,10 @@
 ---
 title: What installing a ceiling fan can teach you about administering servers
 author: Major Hayden
-type: post
 date: 2012-06-11T16:00:57+00:00
 url: /2012/06/11/what-installing-a-ceiling-fan-can-teach-you-about-administering-servers/
 dsq_thread_id:
   - 3678929611
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

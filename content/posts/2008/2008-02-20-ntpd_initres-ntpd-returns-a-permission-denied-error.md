@@ -1,7 +1,6 @@
 ---
 title: 'ntpd_initres: ntpd returns a permission denied error'
 author: Major Hayden
-type: post
 date: 2008-02-20T18:30:02+00:00
 url: /2008/02/20/ntpd_initres-ntpd-returns-a-permission-denied-error/
 dsq_thread_id:

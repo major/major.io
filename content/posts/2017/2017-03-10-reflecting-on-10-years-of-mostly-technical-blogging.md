@@ -1,11 +1,8 @@
 ---
 title: Reflecting on 10 years of (mostly) technical blogging
 author: Major Hayden
-type: post
 date: 2017-03-10T14:11:51+00:00
 url: /2017/03/10/reflecting-on-10-years-of-mostly-technical-blogging/
-categories:
-  - Blog Posts
 tags:
   - blog
   - rackspace

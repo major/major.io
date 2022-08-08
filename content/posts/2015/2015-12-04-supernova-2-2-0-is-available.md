@@ -1,11 +1,8 @@
 ---
 title: supernova 2.2.0 is available
 author: Major Hayden
-type: post
 date: 2015-12-04T15:04:39+00:00
 url: /2015/12/04/supernova-2-2-0-is-available/
-categories:
-  - Blog Posts
 tags:
   - fedora
   - openstack

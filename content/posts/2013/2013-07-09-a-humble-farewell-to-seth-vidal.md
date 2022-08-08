@@ -1,13 +1,10 @@
 ---
 title: A humble farewell to Seth Vidal
 author: Major Hayden
-type: post
 date: 2013-07-10T02:58:36+00:00
 url: /2013/07/09/a-humble-farewell-to-seth-vidal/
 dsq_thread_id:
   - 3642807330
-categories:
-  - Blog Posts
 tags:
   - cloud
   - fedora

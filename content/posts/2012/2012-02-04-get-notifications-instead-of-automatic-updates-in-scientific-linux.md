@@ -1,13 +1,10 @@
 ---
 title: Get notifications instead of automatic updates in Scientific Linux
 author: Major Hayden
-type: post
 date: 2012-02-04T19:01:54+00:00
 url: /2012/02/04/get-notifications-instead-of-automatic-updates-in-scientific-linux/
 dsq_thread_id:
   - 3647298205
-categories:
-  - Blog Posts
 tags:
   - fedora
   - scientific linux

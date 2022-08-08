@@ -1,11 +1,8 @@
 ---
 title: Five reasons why I’m excited about POWER9
 author: Major Hayden
-type: post
 date: 2017-03-21T18:38:22+00:00
 url: /2017/03/21/five-reasons-why-im-excited-about-power9/
-categories:
-  - Blog Posts
 tags:
   - linux
   - openpower

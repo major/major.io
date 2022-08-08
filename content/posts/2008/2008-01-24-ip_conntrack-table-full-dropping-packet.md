@@ -1,13 +1,10 @@
 ---
 title: 'ip_conntrack: table full, dropping packet'
 author: Major Hayden
-type: post
 date: 2008-01-24T18:26:40+00:00
 url: /2008/01/24/ip_conntrack-table-full-dropping-packet/
 dsq_thread_id:
   - 3642773011
-categories:
-  - Blog Posts
 tags:
   - command line
   - iptables

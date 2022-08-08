@@ -1,7 +1,6 @@
 ---
 title: Table ‘mysql.proc’ doesn’t exist
 author: Major Hayden
-type: post
 date: 2007-11-29T18:37:55+00:00
 url: /2007/11/29/table-mysqlproc-doesnt-exist/
 dsq_thread_id:

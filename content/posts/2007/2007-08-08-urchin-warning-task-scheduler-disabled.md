@@ -1,7 +1,6 @@
 ---
 title: 'Urchin: Warning! Task scheduler disabled.'
 author: Major Hayden
-type: post
 date: 2007-08-09T00:48:20+00:00
 url: /2007/08/08/urchin-warning-task-scheduler-disabled/
 dsq_thread_id:

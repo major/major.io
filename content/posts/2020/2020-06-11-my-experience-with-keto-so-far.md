@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-06-11'
 summary: Moving to the keto lifestyle is a big change. It's more than just a diet
   and I'll share my ups and downs from my journey.
@@ -12,7 +10,6 @@ tags:
 - health
 - lifestyle
 title: My experience with keto so far
-type: post
 ---
 
 {{< figure src="/images/2020-06-11-plates-and-bowls.jpg" alt="Brno skyline" position="center" >}}

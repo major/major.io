@@ -1,7 +1,6 @@
 ---
 title: RHEL limitations cheat sheet
 author: Major Hayden
-type: post
 date: 2007-09-12T01:01:49+00:00
 url: /2007/09/11/rhel-limitations-cheat-sheet/
 dsq_thread_id:

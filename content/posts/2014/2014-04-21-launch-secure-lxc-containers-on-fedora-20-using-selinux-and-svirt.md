@@ -1,13 +1,10 @@
 ---
 title: Launch secure LXC containers on Fedora 20 using SELinux and sVirt
 author: Major Hayden
-type: post
 date: 2014-04-22T04:11:00+00:00
 url: /2014/04/21/launch-secure-lxc-containers-on-fedora-20-using-selinux-and-svirt/
 dsq_thread_id:
   - 3642807460
-categories:
-  - Blog Posts
 tags:
   - centos
   - containers

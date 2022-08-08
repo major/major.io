@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-06-06'
 summary: icanhazip.com lives on with the same mission, but with a new owner 🤗
 images:
@@ -12,7 +10,6 @@ tags:
 - linux
 - python
 title: A new future for icanhazip
-type: post
 ---
 
 {{< figure src="/images/2021-06-16-sunrise-ocean.jpg" alt="Soft emoji items hanging on a rack" position="center" >}}

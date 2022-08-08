@@ -1,15 +1,12 @@
 ---
 title: 'rpmdb: Lock table is out of available locker entries'
 author: Major Hayden
-type: post
 date: 2007-05-27T16:38:32+00:00
 url: /2007/05/27/rpmdb-lock-table-is-out-of-available-locker-entries/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642767513
-categories:
-  - Blog Posts
 tags:
   - bdb
   - command line

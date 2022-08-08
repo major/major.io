@@ -1,13 +1,10 @@
 ---
 title: Live migration failures with KVM and libvirt
 author: Major Hayden
-type: post
 date: 2015-08-03T13:13:30+00:00
 url: /2015/08/03/live-migration-failures-with-kvm-and-libvirt/
 dsq_thread_id:
   - 3998873295
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kvm

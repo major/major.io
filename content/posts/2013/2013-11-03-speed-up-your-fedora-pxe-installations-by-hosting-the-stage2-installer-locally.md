@@ -1,13 +1,10 @@
 ---
 title: Speed up your Fedora PXE installations by hosting the stage2 installer locally
 author: Major Hayden
-type: post
 date: 2013-11-03T17:04:33+00:00
 url: /2013/11/03/speed-up-your-fedora-pxe-installations-by-hosting-the-stage2-installer-locally/
 dsq_thread_id:
   - 3642807417
-categories:
-  - Blog Posts
 tags:
   - fedora
   - network

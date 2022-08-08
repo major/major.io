@@ -1,7 +1,6 @@
 ---
 title: Freeing up file descriptors in Plesk 8.2 with piped Apache logs
 author: Major Hayden
-type: post
 date: 2007-08-03T02:39:45+00:00
 url: /2007/08/02/freeing-up-file-descriptors-in-plesk-82-with-piped-apache-logs/
 dsq_thread_id:

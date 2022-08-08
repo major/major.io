@@ -1,13 +1,10 @@
 ---
 title: PHPMyAdmin 3.x hides the table indexes
 author: Major Hayden
-type: post
 date: 2009-04-04T00:51:48+00:00
 url: /2009/04/03/phpmyadmin-3x-hides-the-table-indexes/
 dsq_thread_id:
   - 3642805605
-categories:
-  - Blog Posts
 tags:
   - database
   - mysql

@@ -1,13 +1,10 @@
 ---
 title: OpenStack bleeding-edge Python packages are now available
 author: Major Hayden
-type: post
 date: 2012-02-01T15:05:16+00:00
 url: /2012/02/01/openstack-bleeding-edge-python-packages-are-now-available/
 dsq_thread_id:
   - 3678936040
-categories:
-  - Blog Posts
 tags:
   - apache
   - command line

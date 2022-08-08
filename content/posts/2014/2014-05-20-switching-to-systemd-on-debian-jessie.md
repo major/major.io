@@ -1,13 +1,10 @@
 ---
 title: Switching to systemd on Debian jessie
 author: Major Hayden
-type: post
 date: 2014-05-20T13:47:33+00:00
 url: /2014/05/20/switching-to-systemd-on-debian-jessie/
 dsq_thread_id:
   - 3642807546
-categories:
-  - Blog Posts
 tags:
   - command line
   - debian

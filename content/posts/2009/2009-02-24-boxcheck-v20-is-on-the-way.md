@@ -1,15 +1,12 @@
 ---
 title: Boxcheck v2.0 is on the way
 author: Major Hayden
-type: post
 date: 2009-02-24T13:20:32+00:00
 url: /2009/02/24/boxcheck-v20-is-on-the-way/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805568
-categories:
-  - Blog Posts
 tags:
   - boxcheck
   - development

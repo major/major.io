@@ -1,15 +1,12 @@
 ---
 title: Corrupt /dev/null
 author: Major Hayden
-type: post
 date: 2007-06-19T02:49:56+00:00
 url: /2007/06/18/corrupt-devnull/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642768042
-categories:
-  - Blog Posts
 tags:
   - command line
   - emergency

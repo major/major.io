@@ -1,13 +1,10 @@
 ---
 title: New Linux security advisory Twitter bots
 author: Major Hayden
-type: post
 date: 2009-02-05T17:00:03+00:00
 url: /2009/02/05/new-linux-security-advisory-twitter-bots/
 dsq_thread_id:
   - 3642805562
-categories:
-  - Blog Posts
 tags:
   - debian
   - linux

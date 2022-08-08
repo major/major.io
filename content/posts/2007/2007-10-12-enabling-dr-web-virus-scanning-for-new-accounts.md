@@ -1,7 +1,6 @@
 ---
 title: Enabling Dr. Web virus scanning for new accounts
 author: Major Hayden
-type: post
 date: 2007-10-12T18:35:06+00:00
 url: /2007/10/12/enabling-dr-web-virus-scanning-for-new-accounts/
 dsq_thread_id:

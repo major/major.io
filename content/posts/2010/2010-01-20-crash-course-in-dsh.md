@@ -1,13 +1,10 @@
 ---
 title: Crash course in dsh
 author: Major Hayden
-type: post
 date: 2010-01-20T14:47:56+00:00
 url: /2010/01/20/crash-course-in-dsh/
 dsq_thread_id:
   - 3642805961
-categories:
-  - Blog Posts
 tags:
   - command line
   - dsh

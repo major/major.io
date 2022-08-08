@@ -1,13 +1,10 @@
 ---
 title: Two months with Google Play Music All Access
 author: Major Hayden
-type: post
 date: 2014-12-29T21:26:37+00:00
 url: /2014/12/29/two-months-google-play-music-access/
 dsq_thread_id:
   - 3642807793
-categories:
-  - Blog Posts
 tags:
   - android
   - general advice

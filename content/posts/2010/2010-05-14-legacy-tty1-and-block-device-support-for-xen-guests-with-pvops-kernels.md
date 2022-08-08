@@ -1,15 +1,12 @@
 ---
 title: Legacy tty1 and block device support for Xen guests with pvops kernels
 author: Major Hayden
-type: post
 date: 2010-05-14T13:24:34+00:00
 url: /2010/05/14/legacy-tty1-and-block-device-support-for-xen-guests-with-pvops-kernels/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678952235
-categories:
-  - Blog Posts
 tags:
   - development
   - kernel

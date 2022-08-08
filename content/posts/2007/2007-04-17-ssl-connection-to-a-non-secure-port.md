@@ -1,7 +1,6 @@
 ---
 title: SSL connection to a non-secure port
 author: Major Hayden
-type: post
 date: 2007-04-17T22:27:12+00:00
 url: /2007/04/17/ssl-connection-to-a-non-secure-port/
 dsq_thread_id:

@@ -1,15 +1,12 @@
 ---
 title: Why I’m a Racker
 author: Major Hayden
-type: post
 date: 2010-03-26T13:38:07+00:00
 url: /2010/03/26/why-im-a-racker/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806113
-categories:
-  - Blog Posts
 tags:
   - blog
   - rackspace

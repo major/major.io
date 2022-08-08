@@ -1,13 +1,10 @@
 ---
 title: Send weechat notifications via Pushover
 author: Major Hayden
-type: post
 date: 2014-12-05T16:11:13+00:00
 url: /2014/12/05/send-weechat-notifications-via-pushover/
 dsq_thread_id:
   - 3642807768
-categories:
-  - Blog Posts
 tags:
   - fedora
   - irc

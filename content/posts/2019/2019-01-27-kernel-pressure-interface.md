@@ -1,11 +1,8 @@
 ---
 title: Using the pressure stall information interface in kernel 4.20
 author: Major Hayden
-type: post
 date: "2019-01-27"
 slug: using-the-pressure-stall-information-interface-in-kernel-4.20
-categories:
-  - Blog Posts
 tags:
   - performance
   - fedora

@@ -1,11 +1,8 @@
 ---
 title: Running Home Assistant in a Docker container with a Z-Wave USB stick
 author: Major Hayden
-type: post
 date: "2019-01-14"
 slug: running-home-assistant-in-a-docker-container-with-zwave-usb-stick
-categories:
-  - Blog Posts
 tags:
   - docker
   - homeassistant

@@ -1,12 +1,9 @@
 ---
 title: Apply the STIG to even more operating systems with ansible-hardening
 author: Major Hayden
-type: post
 date: 2017-07-21T17:38:46+00:00
 url: /2017/07/21/apply-stig-operating-systems-ansible-hardening/
 featured_image: /wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - debian

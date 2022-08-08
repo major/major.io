@@ -1,13 +1,10 @@
 ---
 title: 'HOWTO: Mikrotik OpenVPN server'
 author: Major Hayden
-type: post
 date: 2015-05-01T15:33:35+00:00
 url: /2015/05/01/howto-mikrotik-openvpn-server/
 dsq_thread_id:
   - 3728295785
-categories:
-  - Blog Posts
 tags:
   - mikrotik
   - networking

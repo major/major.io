@@ -1,13 +1,10 @@
 ---
 title: 'Talk Recap: Automated security hardening with OpenStack-Ansible'
 author: Major Hayden
-type: post
 date: 2016-04-26T21:19:02+00:00
 url: /2016/04/26/talk-recap-automated-security-hardening-openstack-ansible/
 dsq_thread_id:
   - 4779343713
-categories:
-  - Blog Posts
 tags:
   - ansible
   - openstack

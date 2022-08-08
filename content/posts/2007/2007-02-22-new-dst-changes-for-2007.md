@@ -1,7 +1,6 @@
 ---
 title: New DST changes for 2007
 author: Major Hayden
-type: post
 date: 2007-02-23T00:54:25+00:00
 url: /2007/02/22/new-dst-changes-for-2007/
 dsq_thread_id:

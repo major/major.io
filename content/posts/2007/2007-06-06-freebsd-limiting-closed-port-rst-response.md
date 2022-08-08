@@ -1,7 +1,6 @@
 ---
 title: 'FreeBSD: Limiting closed port RST response'
 author: Major Hayden
-type: post
 date: 2007-06-07T04:42:13+00:00
 url: /2007/06/06/freebsd-limiting-closed-port-rst-response/
 dsq_thread_id:

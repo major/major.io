@@ -1,15 +1,12 @@
 ---
 title: WordPress + W3 Total Cache + MaxCDN How-To
 author: Major Hayden
-type: post
 date: 2010-02-14T03:56:30+00:00
 url: /2010/02/13/wordpress-w3-total-cache-maxcdn/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806003
-categories:
-  - Blog Posts
 tags:
   - cdn
   - dns

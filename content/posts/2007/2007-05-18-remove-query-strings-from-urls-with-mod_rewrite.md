@@ -1,7 +1,6 @@
 ---
 title: Remove query strings from URL’s with mod_rewrite
 author: Major Hayden
-type: post
 date: 2007-05-18T14:07:37+00:00
 url: /2007/05/18/remove-query-strings-from-urls-with-mod_rewrite/
 dsq_thread_id:

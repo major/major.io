@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-05-24'
 summary: >-
   Reload your sway config without disrupting Firefox. 🔥
@@ -12,8 +10,13 @@ tags:
   - sway
   - wayland
 title: Sway reload causes a Firefox crash
-type: post
 ---
+
+{{< figure 
+    src="cover.jpg"
+    alt="Broken flowerpot on a windowsill" 
+    caption="Photo credit: [Daniel Tafjord](https://unsplash.com/photos/9p7nBsrcCt0)"
+    >}}
 
 My workday takes me from email to terminals to browsers to documents. I love tiling
 window managers because they keep me organized and less distracted. Many are less
@@ -26,8 +29,6 @@ The biggest difference between the two is that sway runs on [Wayland] rather tha
 Sway has control over how nearly everything works, such as input devices, displays,
 backgrounds, and more. If you were frustrated with lots of hacks in i3 for various
 X-related things, you might enjoy sway.
-
-*Photo credit: [Daniel Tafjord](https://unsplash.com/photos/9p7nBsrcCt0)*
 
 [i3]: https://i3wm.org/
 [written many posts about it]: /tags/i3/

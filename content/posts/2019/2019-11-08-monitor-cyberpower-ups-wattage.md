@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-11-08'
 summary: Monitor the power consumption of your CyberPower UPS and display the
   live output in your Linux desktop's status bar.
@@ -14,7 +12,6 @@ tags:
 - shell
 - ups
 title: Monitor CyberPower UPS wattage
-type: post
 ---
 
 ![ups]

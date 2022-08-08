@@ -1,7 +1,6 @@
 ---
 title: Yum equivalents of up2date arguments
 author: Major Hayden
-type: post
 date: 2007-09-17T22:50:01+00:00
 url: /2007/09/17/yum-equivalents-of-up2date-arguments/
 dsq_thread_id:

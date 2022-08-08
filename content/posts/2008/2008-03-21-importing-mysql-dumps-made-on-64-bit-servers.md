@@ -1,7 +1,6 @@
 ---
 title: Importing MySQL dumps made on 64-bit servers
 author: Major Hayden
-type: post
 date: 2008-03-21T17:51:56+00:00
 url: /2008/03/21/importing-mysql-dumps-made-on-64-bit-servers/
 dsq_thread_id:

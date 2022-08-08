@@ -1,13 +1,10 @@
 ---
 title: 'Calling all creative types: I need a slogan'
 author: Major Hayden
-type: post
 date: 2008-07-15T20:37:00+00:00
 url: /2008/07/15/calling-all-creative-types-i-need-a-slogan/
 dsq_thread_id:
   - 3642772078
-categories:
-  - Blog Posts
 tags:
   - mysqltuner
 

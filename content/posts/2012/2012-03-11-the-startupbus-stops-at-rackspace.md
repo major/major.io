@@ -1,13 +1,10 @@
 ---
 title: The StartupBus stops at Rackspace
 author: Major Hayden
-type: post
 date: 2012-03-11T17:00:29+00:00
 url: /2012/03/11/the-startupbus-stops-at-rackspace/
 dsq_thread_id:
   - 3678934052
-categories:
-  - Blog Posts
 
 ---
 I helped welcome the folks on the StartupBus from SXSW as they arrived at Rackspace's headquarters last Friday. Here's a video sampling of the day's events:

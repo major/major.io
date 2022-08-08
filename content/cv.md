@@ -1,16 +1,14 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-08-06'
 summary: >-
     Learn more about me, my work experience, and the things I've created. 👨🏻‍💼
 images:
-- images/2021-08-06-tanker-in-ocean.jpg
+  - images/2021-08-06-tanker-in-ocean.jpg
 slug: cv
 tags:
-- about
-- cv
+  - about
+  - cv
 title: Major's CV
 type: page
 ---

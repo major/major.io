@@ -1,11 +1,8 @@
 ---
 title: What I learned while securing Ubuntu
 author: Major Hayden
-type: post
 date: 2015-10-14T20:53:12+00:00
 url: /2015/10/14/what-i-learned-while-securing-ubuntu/
-categories:
-  - Blog Posts
 tags:
   - ansible
   - apparmor

@@ -1,7 +1,6 @@
 ---
 title: Strange error with Horde 3.1.3 and Plesk 8.1.1
 author: Major Hayden
-type: post
 date: 2008-03-11T02:49:05+00:00
 url: /2008/03/10/strange-error-with-horde-313-and-plesk-811/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Talking to college students about information security
 author: Major Hayden
-type: post
 date: 2015-11-10T14:50:52+00:00
 url: /2015/11/10/talking-to-college-students-about-information-security/
 dsq_thread_id:
   - 4306420686
-categories:
-  - Blog Posts
 tags:
   - general advice
   - information security

@@ -1,13 +1,10 @@
 ---
 title: Limit access to the su command
 author: Major Hayden
-type: post
 date: 2013-04-26T04:05:46+00:00
 url: /2013/04/25/limit-access-to-the-su-command/
 dsq_thread_id:
   - 3642807235
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

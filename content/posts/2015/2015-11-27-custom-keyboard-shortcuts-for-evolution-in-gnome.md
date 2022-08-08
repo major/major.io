@@ -1,13 +1,10 @@
 ---
 title: Custom keyboard shortcuts for Evolution in GNOME
 author: Major Hayden
-type: post
 date: 2015-11-28T05:33:29+00:00
 url: /2015/11/27/custom-keyboard-shortcuts-for-evolution-in-gnome/
 dsq_thread_id:
   - 4357033486
-categories:
-  - Blog Posts
 tags:
   - email
   - evolution

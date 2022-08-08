@@ -1,15 +1,12 @@
 ---
 title: Reincarnation of Twitter’s realtime XMPP search term tracking with ruby
 author: Major Hayden
-type: post
 date: 2010-06-17T18:40:48+00:00
 url: /2010/06/17/reincarnation-of-twitters-realtime-xmpp-search-term-tracking-with-ruby/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678950044
-categories:
-  - Blog Posts
 tags:
   - command line
   - jabber

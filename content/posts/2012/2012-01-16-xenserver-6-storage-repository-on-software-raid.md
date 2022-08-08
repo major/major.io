@@ -1,13 +1,10 @@
 ---
 title: 'XenServer 6: Storage repository on software RAID'
 author: Major Hayden
-type: post
 date: 2012-01-16T15:00:21+00:00
 url: /2012/01/16/xenserver-6-storage-repository-on-software-raid/
 dsq_thread_id:
   - 3642806794
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

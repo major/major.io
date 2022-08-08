@@ -1,7 +1,6 @@
 ---
 title: Session problems with Horde in Plesk with AOL
 author: Major Hayden
-type: post
 date: 2007-09-28T02:06:52+00:00
 url: /2007/09/27/session-problems-with-horde-in-plesk-with-aol/
 dsq_thread_id:

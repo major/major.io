@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Backups & Data Integrity'
 author: Major Hayden
-type: post
 date: 2008-01-04T19:39:12+00:00
 url: /2008/01/04/mysql-replication-backups-data-integrity/
 dsq_thread_id:

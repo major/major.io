@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-07-11'
 summary: >-
     Improve your persuasive skills to get your team on board with solutions to
@@ -14,7 +12,6 @@ tags:
 - career
 - mentorship
 title: Persuasion engineering
-type: post
 ---
 
 {{< figure src="/images/2021-07-11-uk-hill.jpg" alt="Hill in Derbyshire, UK" position="center" >}}

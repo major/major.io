@@ -1,7 +1,6 @@
 ---
 title: Setting the maximum mail size in qmail
 author: Major Hayden
-type: post
 date: 2008-03-24T18:54:35+00:00
 url: /2008/03/24/setting-the-maximum-mail-size-in-qmail/
 dsq_thread_id:

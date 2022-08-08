@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-03-22'
 images:
 - images/2019-03-22-blacksmith-anvil-hammer.jpg
@@ -12,7 +10,6 @@ tags:
 - security
 - gitlab
 title: Running Ansible in OpenShift with arbitrary UIDs
-type: post
 ---
 
 ![blacksmith_anvil_hammer]

@@ -1,15 +1,12 @@
 ---
 title: Updating Dell PowerEdge BIOS from Linux
 author: Major Hayden
-type: post
 date: 2016-01-18T20:53:38+00:00
 url: /2016/01/18/updating-dell-poweredge-bios-from-linux/
 medium_post:
   - 'O:11:"Medium_Post":9:{s:16:"author_image_url";s:68:"https://cdn-images-1.medium.com/fit/c/200/200/0*0oSauxLPsThabN5E.jpg";s:10:"author_url";s:31:"https://medium.com/@majorhayden";s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"6c534896241f";s:21:"follower_notification";s:3:"yes";s:7:"license";s:11:"cc-40-by-sa";s:14:"publication_id";s:2:"-1";s:6:"status";s:6:"public";s:3:"url";s:84:"https://medium.com/@majorhayden/updating-dell-poweredge-bios-from-linux-6c534896241f";}'
 dsq_thread_id:
   - 4502784248
-categories:
-  - Blog Posts
 tags:
   - centos
   - dell

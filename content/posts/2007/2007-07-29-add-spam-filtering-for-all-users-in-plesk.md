@@ -1,7 +1,6 @@
 ---
 title: Add spam filtering for all users in Plesk
 author: Major Hayden
-type: post
 date: 2007-07-30T02:46:10+00:00
 url: /2007/07/29/add-spam-filtering-for-all-users-in-plesk/
 dsq_thread_id:

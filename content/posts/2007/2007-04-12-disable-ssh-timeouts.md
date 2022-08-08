@@ -1,15 +1,12 @@
 ---
 title: Disable SSH timeouts
 author: Major Hayden
-type: post
 date: 2007-04-12T16:15:02+00:00
 url: /2007/04/12/disable-ssh-timeouts/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642766550
-categories:
-  - Blog Posts
 tags:
   - command line
   - security

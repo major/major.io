@@ -1,13 +1,10 @@
 ---
 title: Test Fedora 22 at Rackspace with Ansible
 author: Major Hayden
-type: post
 date: 2015-03-24T13:55:08+00:00
 url: /2015/03/24/test-fedora-22-at-rackspace-with-ansible/
 dsq_thread_id:
   - 3643818992
-categories:
-  - Blog Posts
 tags:
   - ansible
   - fedora

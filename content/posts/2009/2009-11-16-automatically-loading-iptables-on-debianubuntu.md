@@ -1,13 +1,10 @@
 ---
 title: Automatically loading iptables rules on Debian/Ubuntu
 author: Major Hayden
-type: post
 date: 2009-11-17T04:39:52+00:00
 url: /2009/11/16/automatically-loading-iptables-on-debianubuntu/
 dsq_thread_id:
   - 3642805844
-categories:
-  - Blog Posts
 tags:
   - debian
   - iptables

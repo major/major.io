@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-02-13'
 summary: Making an effort to use diacritics is always a good idea, but how can
   you make it easier in Linux?
@@ -13,7 +11,6 @@ tags:
 - language
 - linux
 title: Make diacritics easy in Linux
-type: post
 ---
 
 {{< figure src="/images/2020-02-13-diacritics-on-license-plate.jpg" alt="Brno skyline" position="center" >}}

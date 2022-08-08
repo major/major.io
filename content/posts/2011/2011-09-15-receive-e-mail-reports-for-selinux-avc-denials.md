@@ -1,13 +1,10 @@
 ---
 title: Receive e-mail reports for SELinux AVC denials
 author: Major Hayden
-type: post
 date: 2011-09-16T04:17:04+00:00
 url: /2011/09/15/receive-e-mail-reports-for-selinux-avc-denials/
 dsq_thread_id:
   - 3642806700
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

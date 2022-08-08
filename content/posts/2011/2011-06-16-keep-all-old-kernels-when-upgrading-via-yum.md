@@ -1,13 +1,10 @@
 ---
 title: Keep all old kernels when upgrading via yum
 author: Major Hayden
-type: post
 date: 2011-06-16T12:50:46+00:00
 url: /2011/06/16/keep-all-old-kernels-when-upgrading-via-yum/
 dsq_thread_id:
   - 3642806585
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

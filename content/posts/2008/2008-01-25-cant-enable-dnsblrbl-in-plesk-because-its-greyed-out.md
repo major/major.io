@@ -1,7 +1,6 @@
 ---
 title: Can’t enable DNSBL/RBL in Plesk because it’s greyed out
 author: Major Hayden
-type: post
 date: 2008-01-25T17:11:27+00:00
 url: /2008/01/25/cant-enable-dnsblrbl-in-plesk-because-its-greyed-out/
 dsq_thread_id:

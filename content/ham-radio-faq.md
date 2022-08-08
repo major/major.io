@@ -9,8 +9,6 @@ twitter:
   site: "@majorhayden"
   title: Ham Radio FAQ
   image: images/yaesu-vx8-on-picnic-table.jpg
-categories:
-  - Blog Posts
 tags:
   - linux
   - radio

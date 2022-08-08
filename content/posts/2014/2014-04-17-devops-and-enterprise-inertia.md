@@ -1,13 +1,10 @@
 ---
 title: DevOps and enterprise inertia
 author: Major Hayden
-type: post
 date: 2014-04-17T17:46:25+00:00
 url: /2014/04/17/devops-and-enterprise-inertia/
 dsq_thread_id:
   - 3671467717
-categories:
-  - Blog Posts
 tags:
   - development
   - devops

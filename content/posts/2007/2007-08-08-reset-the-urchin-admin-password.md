@@ -1,7 +1,6 @@
 ---
 title: Reset the Urchin admin password
 author: Major Hayden
-type: post
 date: 2007-08-09T00:50:45+00:00
 url: /2007/08/08/reset-the-urchin-admin-password/
 dsq_thread_id:

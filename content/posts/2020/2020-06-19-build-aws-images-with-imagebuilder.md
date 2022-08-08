@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-06-19'
 summary: Build a customized image for AWS with Image Builder and use the built-in
   automatic uploader and importer.
@@ -14,7 +12,6 @@ tags:
 - fedora
 - linux
 title: Build AWS images with Image Builder
-type: post
 ---
 
 {{< figure src="/images/2020-06-19-aluminum-factory.jpg" alt="Aluminum factory" position="center" >}}

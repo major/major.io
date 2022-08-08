@@ -1,13 +1,10 @@
 ---
 title: 'XenServer 6: Disable GPT and get a larger root partition'
 author: Major Hayden
-type: post
 date: 2012-01-13T15:00:10+00:00
 url: /2012/01/13/xenserver-6-disable-gpt-and-get-a-larger-root-partition/
 dsq_thread_id:
   - 3642806778
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

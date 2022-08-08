@@ -1,13 +1,10 @@
 ---
 title: Supermicro X9SCI/X9SCA server does a shutdown rather than a reboot
 author: Major Hayden
-type: post
 date: 2013-06-03T14:45:34+00:00
 url: /2013/06/03/supermicro-x9scix9sca-server-does-a-shutdown-rather-than-a-reboot/
 dsq_thread_id:
   - 3642807305
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

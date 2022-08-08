@@ -1,13 +1,10 @@
 ---
 title: Redirect e-mails in postfix based on subject line
 author: Major Hayden
-type: post
 date: 2007-07-01T16:37:31+00:00
 url: /2007/07/01/redirect-e-mails-in-postfix-based-on-subject-line/
 dsq_thread_id:
   - 3642768276
-categories:
-  - Blog Posts
 tags:
   - mail
 

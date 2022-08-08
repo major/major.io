@@ -1,13 +1,10 @@
 ---
 title: Get colorful ansible output in Jenkins
 author: Major Hayden
-type: post
 date: 2014-06-25T21:32:18+00:00
 url: /2014/06/25/get-colorful-ansible-output-in-jenkins/
 dsq_thread_id:
   - 3642807618
-categories:
-  - Blog Posts
 tags:
   - ansible
   - jenkins

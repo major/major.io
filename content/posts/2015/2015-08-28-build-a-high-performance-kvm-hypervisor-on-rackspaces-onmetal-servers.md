@@ -1,13 +1,10 @@
 ---
 title: Build a high performance KVM hypervisor on Rackspace’s OnMetal servers
 author: Major Hayden
-type: post
 date: 2015-08-28T14:00:16+00:00
 url: /2015/08/28/build-a-high-performance-kvm-hypervisor-on-rackspaces-onmetal-servers/
 dsq_thread_id:
   - 4075341357
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kvm

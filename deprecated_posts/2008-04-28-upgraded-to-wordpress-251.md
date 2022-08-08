@@ -1,7 +1,6 @@
 ---
 title: Upgraded to WordPress 2.5.1
 author: Major Hayden
-type: post
 date: 2008-04-29T03:15:39+00:00
 url: /2008/04/28/upgraded-to-wordpress-251/
 dsq_thread_id:

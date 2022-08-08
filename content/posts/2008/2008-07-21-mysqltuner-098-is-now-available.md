@@ -1,13 +1,10 @@
 ---
 title: MySQLTuner 0.9.8 is now available
 author: Major Hayden
-type: post
 date: 2008-07-21T17:17:14+00:00
 url: /2008/07/21/mysqltuner-098-is-now-available/
 dsq_thread_id:
   - 3678978534
-categories:
-  - Blog Posts
 tags:
   - database
   - mysql

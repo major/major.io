@@ -1,13 +1,10 @@
 ---
 title: Importing Excel files into MySQL with PHP
 author: Major Hayden
-type: post
 date: 2008-11-07T19:42:45+00:00
 url: /2008/11/07/importing-excel-files-into-mysql-with-php/
 dsq_thread_id:
   - 3642805368
-categories:
-  - Blog Posts
 tags:
   - mysql
   - php

@@ -1,15 +1,12 @@
 ---
 title: Version 2.0 has arrived
 author: Major Hayden
-type: post
 date: 2010-07-14T17:48:54+00:00
 url: /2010/07/14/version-2-0-has-arrived/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806184
-categories:
-  - Blog Posts
 
 ---
 ![1]

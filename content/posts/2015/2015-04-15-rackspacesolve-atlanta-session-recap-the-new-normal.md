@@ -1,13 +1,10 @@
 ---
 title: 'Rackspace::Solve Atlanta Session Recap: “The New Normal”'
 author: Major Hayden
-type: post
 date: 2015-04-15T14:00:56+00:00
 url: /2015/04/15/rackspacesolve-atlanta-session-recap-the-new-normal/
 dsq_thread_id:
   - 3683831581
-categories:
-  - Blog Posts
 
 ---
 _This post originally appeared on the [Rackspace Blog][1] and I've posted it here for readers of this blog. Feel free to send over any comments you have!_

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-08-20'
 summary: >-
     Launch your containers on Fedora CoreOS instances in Hetzner cloud with
@@ -16,7 +14,6 @@ tags:
 - hetzner
 - linux
 title: Deploy Fedora CoreOS in Hetzner cloud
-type: post
 ---
 
 {{< figure src="/images/2021-09-01-house-mountains-germany.jpg" alt="Small cabin near the mountains in Germany" position="center" >}}

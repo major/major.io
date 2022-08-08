@@ -1,15 +1,12 @@
 ---
 title: Securing your ssh server
 author: Major Hayden
-type: post
 date: 2010-10-12T22:39:15+00:00
 url: /2010/10/12/securing-your-ssh-server/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806250
-categories:
-  - Blog Posts
 tags:
   - advice
   - command line

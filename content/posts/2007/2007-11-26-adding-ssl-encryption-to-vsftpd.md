@@ -1,13 +1,10 @@
 ---
 title: Adding SSL encryption to vsftpd
 author: Major Hayden
-type: post
 date: 2007-11-26T18:21:54+00:00
 url: /2007/11/26/adding-ssl-encryption-to-vsftpd/
 dsq_thread_id:
   - 3642773545
-categories:
-  - Blog Posts
 tags:
   - ftp
   - security

@@ -1,13 +1,10 @@
 ---
 title: MySQLTuner v0.9.1 is now available
 author: Major Hayden
-type: post
 date: 2008-06-19T02:53:58+00:00
 url: /2008/06/18/mysqltuner-v091-is-now-available/
 dsq_thread_id:
   - 3678984384
-categories:
-  - Blog Posts
 tags:
   - database
   - mysql

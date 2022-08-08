@@ -1,14 +1,11 @@
 ---
 title: Why should students learn to write code?
 author: Major Hayden
-type: post
 date: 2016-10-11T04:08:19+00:00
 url: /2016/10/10/why-should-students-learn-to-write-code/
 featured_image: /wp-content/uploads/2016/10/computers-332238_1920-e1476155887912.jpg
 dsq_thread_id:
   - 5213394197
-categories:
-  - Blog Posts
 tags:
   - development
   - education

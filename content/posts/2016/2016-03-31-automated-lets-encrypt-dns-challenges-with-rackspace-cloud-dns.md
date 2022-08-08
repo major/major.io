@@ -1,13 +1,10 @@
 ---
 title: Automated Let’s Encrypt DNS challenges with Rackspace Cloud DNS
 author: Major Hayden
-type: post
 date: 2016-03-31T19:39:50+00:00
 url: /2016/03/31/automated-lets-encrypt-dns-challenges-with-rackspace-cloud-dns/
 dsq_thread_id:
   - 4709461797
-categories:
-  - Blog Posts
 tags:
   - ansible
   - bash

@@ -1,7 +1,6 @@
 ---
 title: Forward e-mail sent to non-existent users in Postfix
 author: Major Hayden
-type: post
 date: 2007-05-27T16:43:08+00:00
 url: /2007/05/27/forward-e-mail-sent-to-non-existent-users-in-postfix/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: Disable reverse lookups with qmail in Plesk
 author: Major Hayden
-type: post
 date: 2007-04-05T16:00:53+00:00
 url: /2007/04/05/disable-reverse-lookups-with-qmail-in-plesk/
 dsq_thread_id:

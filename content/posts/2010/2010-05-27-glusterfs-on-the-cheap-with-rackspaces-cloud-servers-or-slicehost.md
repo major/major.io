@@ -1,15 +1,12 @@
 ---
 title: GlusterFS on the cheap with Rackspace’s Cloud Servers or Slicehost
 author: Major Hayden
-type: post
 date: 2010-05-28T00:34:10+00:00
 url: /2010/05/27/glusterfs-on-the-cheap-with-rackspaces-cloud-servers-or-slicehost/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806159
-categories:
-  - Blog Posts
 tags:
   - command line
   - filesystem

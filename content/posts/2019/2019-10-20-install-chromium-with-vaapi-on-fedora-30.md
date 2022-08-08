@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-10-20'
 summary: Lower your CPU usage and increase battery life when you watch certain
   videos by using Chromium with VAAPI support.
@@ -13,7 +11,6 @@ tags:
 - fedora
 - linux
 title: Install Chromium with VAAPI on Fedora 30
-type: post
 ---
 
 ![film]

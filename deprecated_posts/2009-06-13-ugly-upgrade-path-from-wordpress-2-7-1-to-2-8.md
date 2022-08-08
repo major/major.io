@@ -1,13 +1,10 @@
 ---
 title: Ugly upgrade path from WordPress 2.7.1 to 2.8
 author: Major Hayden
-type: post
 date: 2009-06-13T17:48:15+00:00
 url: /2009/06/13/ugly-upgrade-path-from-wordpress-2-7-1-to-2-8/
 dsq_thread_id:
   - 3642805636
-categories:
-  - Blog Posts
 tags:
   - database
   - php

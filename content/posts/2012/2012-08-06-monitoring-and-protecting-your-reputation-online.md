@@ -1,13 +1,10 @@
 ---
 title: Monitoring and protecting your reputation online
 author: Major Hayden
-type: post
 date: 2012-08-06T14:00:50+00:00
 url: /2012/08/06/monitoring-and-protecting-your-reputation-online/
 dsq_thread_id:
   - 3642807052
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

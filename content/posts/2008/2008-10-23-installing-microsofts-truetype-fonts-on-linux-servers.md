@@ -1,13 +1,10 @@
 ---
 title: Installing Microsoft’s TrueType fonts on Linux servers
 author: Major Hayden
-type: post
 date: 2008-10-24T00:31:23+00:00
 url: /2008/10/23/installing-microsofts-truetype-fonts-on-linux-servers/
 dsq_thread_id:
   - 3649065573
-categories:
-  - Blog Posts
 tags:
   - fonts
   - rpm

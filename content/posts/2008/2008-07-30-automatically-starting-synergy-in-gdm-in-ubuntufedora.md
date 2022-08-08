@@ -1,15 +1,12 @@
 ---
 title: Automatically starting synergy in GDM in Ubuntu/Fedora
 author: Major Hayden
-type: post
 date: 2008-07-30T17:00:09+00:00
 url: /2008/07/30/automatically-starting-synergy-in-gdm-in-ubuntufedora/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642772155
-categories:
-  - Blog Posts
 tags:
   - desktop
   - synergy

@@ -1,7 +1,6 @@
 ---
 title: High iowait on RHEL 4 with Plesk and SpamAssassin
 author: Major Hayden
-type: post
 date: 2008-01-31T18:38:58+00:00
 url: /2008/01/31/high-iowait-on-rhel-4-with-plesk-and-spamassassin/
 dsq_thread_id:

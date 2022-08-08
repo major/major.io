@@ -1,15 +1,12 @@
 ---
 title: 'Xen Summit: Day One Highlights'
 author: Major Hayden
-type: post
 date: 2010-04-29T15:52:41+00:00
 url: /2010/04/29/xen-summit-day-one-highlights/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678953133
-categories:
-  - Blog Posts
 
 ---
 I flew out to San Jose, California with two [other][1] [Rackers][2] for the Xen Summit at AMD's headquarters. The first day of the two-day conference was very informative. Lots of people asked for some highlights, so I'll provide those here.

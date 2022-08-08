@@ -1,7 +1,6 @@
 ---
 title: 'mchk: Unable to initialize quota settings for someuser@somedomain.com'
 author: Major Hayden
-type: post
 date: 2008-04-14T17:00:21+00:00
 url: /2008/04/14/mchk-unable-to-initialize-quota-settings-for-someusersomedomaincom/
 dsq_thread_id:

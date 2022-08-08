@@ -1,7 +1,6 @@
 ---
 title: 'MySQL and InnoDB: Orphaned .frm files'
 author: Major Hayden
-type: post
 date: 2007-09-02T01:52:00+00:00
 url: /2007/09/01/mysql-and-innodb-orphaned-frm-files/
 dsq_thread_id:

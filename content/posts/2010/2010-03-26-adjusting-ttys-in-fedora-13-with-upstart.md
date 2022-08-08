@@ -1,15 +1,12 @@
 ---
 title: Adjusting tty’s in Fedora 13 with upstart
 author: Major Hayden
-type: post
 date: 2010-03-26T14:09:13+00:00
 url: /2010/03/26/adjusting-ttys-in-fedora-13-with-upstart/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806114
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

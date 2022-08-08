@@ -1,13 +1,10 @@
 ---
 title: Quickly post gists to GitHub Enterprise and github.com
 author: Major Hayden
-type: post
 date: 2014-08-08T21:13:07+00:00
 url: /2014/08/08/use-gist-gem-github-enterprise-github-com/
 dsq_thread_id:
   - 3642807707
-categories:
-  - Blog Posts
 tags:
   - bash
   - github

@@ -1,7 +1,6 @@
 ---
 title: Finding compromised scripts
 author: Major Hayden
-type: post
 date: 2007-03-06T18:41:21+00:00
 url: /2007/03/06/finding-compromised-scripts/
 dsq_thread_id:

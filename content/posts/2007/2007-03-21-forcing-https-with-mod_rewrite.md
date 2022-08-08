@@ -1,7 +1,6 @@
 ---
 title: Forcing HTTPS (SSL) with mod_rewrite
 author: Major Hayden
-type: post
 date: 2007-03-21T15:00:15+00:00
 url: /2007/03/21/forcing-https-with-mod_rewrite/
 dsq_thread_id:

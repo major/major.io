@@ -1,13 +1,10 @@
 ---
 title: Installing XenServer 6.0.2 on an AOpen MP57
 author: Major Hayden
-type: post
 date: 2012-03-12T17:00:56+00:00
 url: /2012/03/12/installing-xenserver-6-0-2-on-an-aopen-mp57/
 dsq_thread_id:
   - 3648618936
-categories:
-  - Blog Posts
 tags:
   - virtualization
   - xen

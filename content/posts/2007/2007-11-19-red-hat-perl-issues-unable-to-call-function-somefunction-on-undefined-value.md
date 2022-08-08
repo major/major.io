@@ -1,7 +1,6 @@
 ---
 title: 'Red Hat Perl Issues: unable to call function somefunction on undefined value'
 author: Major Hayden
-type: post
 date: 2007-11-19T18:19:12+00:00
 url: /2007/11/19/red-hat-perl-issues-unable-to-call-function-somefunction-on-undefined-value/
 dsq_thread_id:

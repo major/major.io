@@ -1,7 +1,6 @@
 ---
 title: Check available entropy in Linux
 author: Major Hayden
-type: post
 date: 2007-07-01T16:46:11+00:00
 url: /2007/07/01/check-available-entropy-in-linux/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: 'Plesk: Unable to make action: Unable to manage service by dnsmng: dnsmng: Service named failed to start'
 author: Major Hayden
-type: post
 date: 2007-08-03T02:43:35+00:00
 url: /2007/08/02/plesk-unable-to-make-action-unable-to-manage-service-by-dnsmng-dnsmng-service-named-failed-to-start/
 dsq_thread_id:

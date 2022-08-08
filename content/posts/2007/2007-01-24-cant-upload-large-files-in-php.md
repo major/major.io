@@ -1,7 +1,6 @@
 ---
 title: Can’t upload large files in PHP
 author: Major Hayden
-type: post
 date: 2007-01-24T15:35:29+00:00
 url: /2007/01/24/cant-upload-large-files-in-php/
 dsq_thread_id:

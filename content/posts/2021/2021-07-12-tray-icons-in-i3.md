@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-07-12'
 summary: >-
     Get your system tray looking great and displayed on the correct monitor with
@@ -14,7 +12,6 @@ tags:
 - i3
 - linux
 title: Tray icons in i3
-type: post
 ---
 
 {{< figure src="/images/2021-07-12-ship-wheel.jpg" alt="Hill in Derbyshire, UK" position="center" >}}

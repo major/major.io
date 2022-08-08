@@ -1,15 +1,12 @@
 ---
 title: Sticky shift key with synergy in Fedora 12
 author: Major Hayden
-type: post
 date: 2010-03-04T02:44:12+00:00
 url: /2010/03/03/sticky-shift-key-with-synergy-in-fedora-12/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806043
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gdm

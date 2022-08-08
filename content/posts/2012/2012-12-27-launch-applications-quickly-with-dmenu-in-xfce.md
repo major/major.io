@@ -1,13 +1,10 @@
 ---
 title: Launch applications quickly with dmenu in XFCE
 author: Major Hayden
-type: post
 date: 2012-12-27T21:09:43+00:00
 url: /2012/12/27/launch-applications-quickly-with-dmenu-in-xfce/
 dsq_thread_id:
   - 3642807110
-categories:
-  - Blog Posts
 tags:
   - linux
   - xfce

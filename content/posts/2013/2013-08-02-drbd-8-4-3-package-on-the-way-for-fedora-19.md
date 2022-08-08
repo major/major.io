@@ -1,13 +1,10 @@
 ---
 title: drbd 8.4.3 package on the way for Fedora 19
 author: Major Hayden
-type: post
 date: 2013-08-02T16:57:00+00:00
 url: /2013/08/02/drbd-8-4-3-package-on-the-way-for-fedora-19/
 dsq_thread_id:
   - 3678904816
-categories:
-  - Blog Posts
 tags:
   - development
   - drbd

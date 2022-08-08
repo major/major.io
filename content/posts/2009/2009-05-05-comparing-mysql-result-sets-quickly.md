@@ -1,13 +1,10 @@
 ---
 title: Comparing MySQL result sets quickly
 author: Major Hayden
-type: post
 date: 2009-05-05T15:51:09+00:00
 url: /2009/05/05/comparing-mysql-result-sets-quickly/
 dsq_thread_id:
   - 3678965357
-categories:
-  - Blog Posts
 
 ---
 I found a really helpful tip on [Xaprb][1] for comparing result sets in MySQL:

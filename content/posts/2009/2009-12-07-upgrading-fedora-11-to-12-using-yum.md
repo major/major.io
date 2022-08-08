@@ -1,13 +1,10 @@
 ---
 title: Upgrading Fedora 11 to 12 using yum
 author: Major Hayden
-type: post
 date: 2009-12-08T02:28:06+00:00
 url: /2009/12/07/upgrading-fedora-11-to-12-using-yum/
 dsq_thread_id:
   - 3646629767
-categories:
-  - Blog Posts
 tags:
   - fedora
   - rpm

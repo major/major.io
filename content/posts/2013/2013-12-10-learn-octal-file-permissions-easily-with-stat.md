@@ -1,13 +1,10 @@
 ---
 title: Learn octal file permissions easily with stat
 author: Major Hayden
-type: post
 date: 2013-12-10T13:41:40+00:00
 url: /2013/12/10/learn-octal-file-permissions-easily-with-stat/
 dsq_thread_id:
   - 3671596051
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

@@ -1,13 +1,10 @@
 ---
 title: 'EXT3-fs error (device hda3) in start_transaction: Journal has aborted'
 author: Major Hayden
-type: post
 date: 2007-11-20T18:23:40+00:00
 url: /2007/11/20/ext3-fs-error-device-hda3-in-start_transaction-journal-has-aborted/
 dsq_thread_id:
   - 3642773582
-categories:
-  - Blog Posts
 tags:
   - command line
   - emergency

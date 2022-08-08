@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-05-27'
 summary: >-
   Because nobody wants an inefficient emoji workflow. 🙈
@@ -14,8 +12,13 @@ tags:
   - swaywm
   - wayland
 title: Efficient emoji experience in Wayland
-type: post
 ---
+
+{{< figure 
+    src="cover.jpg" 
+    alt="Old steam engine called Golden Arrow at a train station" 
+    caption="Photo credit: [Ashley Richards](https://unsplash.com/photos/60HjyvXHbpo)"
+    >}}
 
 I recently moved over to the Sway window manager (as I mentioned in my [last post]) and
 it runs on Wayland. That means bidding farewell to X. Although this is a step forward,
@@ -29,8 +32,6 @@ pasting emojis on demand. 😱
 [efficient emoji workflow]: /2021/05/15/efficient-emojis-with-rofimoji/
 [rofimoji]: https://github.com/fdw/rofimoji
 [colorful emoji symbols]: https://www.spinics.net/lists/linux-block/msg68704.html
-
-*Photo credit: [Ashley Richards](https://unsplash.com/photos/60HjyvXHbpo)*
 
 # So is this a big deal or something?
 

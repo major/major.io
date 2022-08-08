@@ -1,7 +1,6 @@
 ---
 title: Limiting which commands are kept in the bash history file
 author: Major Hayden
-type: post
 date: 2008-01-29T18:33:55+00:00
 url: /2008/01/29/limiting-which-commands-are-kept-in-the-bash-history-file/
 dsq_thread_id:

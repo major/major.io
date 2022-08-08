@@ -1,7 +1,6 @@
 ---
 title: Wave the Plesk magic wand
 author: Major Hayden
-type: post
 date: 2007-01-31T16:01:22+00:00
 url: /2007/01/31/wave-the-plesk-magic-wand/
 dsq_thread_id:

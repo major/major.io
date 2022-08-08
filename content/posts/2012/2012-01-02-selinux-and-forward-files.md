@@ -1,13 +1,10 @@
 ---
 title: SELinux and .forward files
 author: Major Hayden
-type: post
 date: 2012-01-02T22:44:43+00:00
 url: /2012/01/02/selinux-and-forward-files/
 dsq_thread_id:
   - 3642806728
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

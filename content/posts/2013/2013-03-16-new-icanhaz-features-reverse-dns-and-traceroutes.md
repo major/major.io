@@ -1,13 +1,10 @@
 ---
 title: 'New icanhaz features: reverse DNS and traceroutes'
 author: Major Hayden
-type: post
 date: 2013-03-17T03:13:53+00:00
 url: /2013/03/16/new-icanhaz-features-reverse-dns-and-traceroutes/
 dsq_thread_id:
   - 3663067936
-categories:
-  - Blog Posts
 tags:
   - command line
   - development

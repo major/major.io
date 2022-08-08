@@ -1,13 +1,10 @@
 ---
 title: Connecting to OpenStack Swift with Cyberduck using swauth
 author: Major Hayden
-type: post
 date: 2012-07-18T20:21:54+00:00
 url: /2012/07/18/connecting-to-openstack-swift-with-cyberduck-using-swauth/
 dsq_thread_id:
   - 3647737146
-categories:
-  - Blog Posts
 tags:
   - mac
   - openstack

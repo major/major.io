@@ -1,13 +1,10 @@
 ---
 title: 'supernova: Manage multiple OpenStack nova environments with ease'
 author: Major Hayden
-type: post
 date: 2012-06-05T13:12:17+00:00
 url: /2012/06/05/supernova-manage-multiple-openstack-nova-environments-with-ease/
 dsq_thread_id:
   - 3642806988
-categories:
-  - Blog Posts
 tags:
   - development
   - nova

@@ -1,7 +1,6 @@
 ---
 title: MySQL time zone different from system time zone
 author: Major Hayden
-type: post
 date: 2007-07-01T16:29:11+00:00
 url: /2007/07/01/mysql-time-zone-different-from-system-time-zone/
 dsq_thread_id:

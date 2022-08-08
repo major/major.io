@@ -1,13 +1,10 @@
 ---
 title: 'HP Servers: hwraidinfo and hwraidstatus in Linux'
 author: Major Hayden
-type: post
 date: 2008-06-13T17:09:31+00:00
 url: /2008/06/13/hp-servers-hwraidinfo-and-hwraidstatus-in-linux/
 dsq_thread_id:
   - 3670208892
-categories:
-  - Blog Posts
 tags:
   - hp
   - raid

@@ -1,13 +1,10 @@
 ---
 title: 'Fedora Flock 2015: Keynote slides'
 author: Major Hayden
-type: post
 date: 2015-08-14T15:10:08+00:00
 url: /2015/08/14/fedora-flock-2015-keynote-slides/
 dsq_thread_id:
   - 4032637655
-categories:
-  - Blog Posts
 tags:
   - fedora
   - general advice

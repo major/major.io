@@ -1,7 +1,6 @@
 ---
 title: Plesk and MySQL 5
 author: Major Hayden
-type: post
 date: 2008-01-30T18:29:18+00:00
 url: /2008/01/30/plesk-and-mysql-5/
 dsq_thread_id:

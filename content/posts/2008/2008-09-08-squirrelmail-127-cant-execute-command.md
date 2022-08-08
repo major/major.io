@@ -1,13 +1,10 @@
 ---
 title: 'SquirrelMail: 127 Can’t execute command'
 author: Major Hayden
-type: post
 date: 2008-09-08T17:16:00+00:00
 url: /2008/09/08/squirrelmail-127-cant-execute-command/
 dsq_thread_id:
   - 3642771963
-categories:
-  - Blog Posts
 tags:
   - php
   - plesk

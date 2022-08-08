@@ -1,13 +1,10 @@
 ---
 title: Kerberos for haters
 author: Major Hayden
-type: post
 date: 2012-02-03T04:29:32+00:00
 url: /2012/02/02/kerberos-for-haters/
 dsq_thread_id:
   - 3642806825
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

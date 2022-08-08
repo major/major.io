@@ -1,7 +1,6 @@
 ---
 title: Sub-par DNS stuff at DNSStuff
 author: Major Hayden
-type: post
 date: 2007-06-19T02:56:06+00:00
 url: /2007/06/18/sub-par-dns-stuff-at-dnsstuff/
 dsq_thread_id:

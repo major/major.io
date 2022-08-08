@@ -1,7 +1,6 @@
 ---
 title: 'Plesk authorization failed: HTTP request error [7]'
 author: Major Hayden
-type: post
 date: 2007-11-14T18:05:24+00:00
 url: /2007/11/14/plesk-authorization-failed-http-request-error-7/
 dsq_thread_id:

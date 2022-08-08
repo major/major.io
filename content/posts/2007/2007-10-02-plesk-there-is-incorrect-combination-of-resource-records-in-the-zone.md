@@ -1,7 +1,6 @@
 ---
 title: 'Plesk: There is incorrect combination of resource records in the zone'
 author: Major Hayden
-type: post
 date: 2007-10-03T03:21:19+00:00
 url: /2007/10/02/plesk-there-is-incorrect-combination-of-resource-records-in-the-zone/
 dsq_thread_id:

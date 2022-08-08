@@ -1,13 +1,10 @@
 ---
 title: Convert MyISAM tables to InnoDB
 author: Major Hayden
-type: post
 date: 2007-10-04T03:29:13+00:00
 url: /2007/10/03/convert-myisam-tables-to-innodb/
 dsq_thread_id:
   - 3642770192
-categories:
-  - Blog Posts
 tags:
   - database
 

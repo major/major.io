@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-01-24'
 summary: The Lenovo ThinkPad T490 is a great laptop, but it comes with some discrete
   GPU challenges.
@@ -15,7 +13,6 @@ tags:
 - thinkpad
 - nvidia
 title: Disable Nvidia GPU on the Thinkpad T490
-type: post
 ---
 
 {{< figure src="/images/20191212-t490.png" alt="Lenovo ThinkPad T490" position="center" >}}

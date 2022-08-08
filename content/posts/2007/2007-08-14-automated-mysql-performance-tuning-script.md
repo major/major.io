@@ -1,7 +1,6 @@
 ---
 title: 'It’s on Digg: Automated MySQL Performance Tuning Script'
 author: Major Hayden
-type: post
 date: 2007-08-15T03:22:29+00:00
 url: /2007/08/14/automated-mysql-performance-tuning-script/
 dsq_thread_id:

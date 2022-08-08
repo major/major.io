@@ -1,13 +1,10 @@
 ---
 title: 'Moving from OS X to Linux: Day One'
 author: Major Hayden
-type: post
 date: 2013-08-27T03:05:46+00:00
 url: /2013/08/26/moving-from-os-x-to-linux-day-one/
 dsq_thread_id:
   - 3642807361
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

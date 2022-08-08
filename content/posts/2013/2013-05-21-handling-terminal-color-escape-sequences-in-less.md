@@ -1,13 +1,10 @@
 ---
 title: Handling terminal color escape sequences in less
 author: Major Hayden
-type: post
 date: 2013-05-22T02:33:00+00:00
 url: /2013/05/21/handling-terminal-color-escape-sequences-in-less/
 dsq_thread_id:
   - 3642807277
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

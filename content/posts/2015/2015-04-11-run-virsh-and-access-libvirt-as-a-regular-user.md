@@ -1,13 +1,10 @@
 ---
 title: Run virsh and access libvirt as a regular user
 author: Major Hayden
-type: post
 date: 2015-04-11T15:30:54+00:00
 url: /2015/04/11/run-virsh-and-access-libvirt-as-a-regular-user/
 dsq_thread_id:
   - 3673129597
-categories:
-  - Blog Posts
 tags:
   - fedora
   - libvirt

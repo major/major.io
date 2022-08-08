@@ -1,13 +1,10 @@
 ---
 title: Less than a week until Fedora Flock 2015
 author: Major Hayden
-type: post
 date: 2015-08-06T12:36:47+00:00
 url: /2015/08/06/less-than-a-week-until-fedora-flock-2015/
 dsq_thread_id:
   - 4008419200
-categories:
-  - Blog Posts
 tags:
   - fedora
 
