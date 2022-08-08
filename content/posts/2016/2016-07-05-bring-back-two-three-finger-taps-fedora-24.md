@@ -1,13 +1,10 @@
 ---
 title: Bring back two and three finger taps in Fedora 24
 author: Major Hayden
-type: post
 date: 2016-07-06T04:54:13+00:00
 url: /2016/07/05/bring-back-two-three-finger-taps-fedora-24/
 dsq_thread_id:
   - 4964036192
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gnome

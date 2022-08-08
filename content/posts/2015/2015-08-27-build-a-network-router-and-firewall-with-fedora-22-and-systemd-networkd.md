@@ -1,13 +1,10 @@
 ---
 title: Build a network router and firewall with Fedora 22 and systemd-networkd
 author: Major Hayden
-type: post
 date: 2015-08-27T12:38:43+00:00
 url: /2015/08/27/build-a-network-router-and-firewall-with-fedora-22-and-systemd-networkd/
 dsq_thread_id:
   - 4071756196
-categories:
-  - Blog Posts
 tags:
   - fedora
   - firewall

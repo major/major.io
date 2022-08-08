@@ -1,13 +1,10 @@
 ---
 title: Highlight IP addresses with a double click in Firefox
 author: Major Hayden
-type: post
 date: 2011-08-16T12:46:07+00:00
 url: /2011/08/16/highlight-ip-addresses-with-a-double-click-in-firefox/
 dsq_thread_id:
   - 3642806607
-categories:
-  - Blog Posts
 tags:
   - firefox
   - linux

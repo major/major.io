@@ -1,7 +1,6 @@
 ---
 title: Taking a short posting break
 author: Major Hayden
-type: post
 date: 2008-05-08T23:24:41+00:00
 url: /2008/05/08/taking-a-short-posting-break/
 dsq_thread_id:

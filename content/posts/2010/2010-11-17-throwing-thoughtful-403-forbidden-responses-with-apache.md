@@ -1,13 +1,10 @@
 ---
 title: Throwing thoughtful “403 Forbidden” responses with apache
 author: Major Hayden
-type: post
 date: 2010-11-17T13:47:19+00:00
 url: /2010/11/17/throwing-thoughtful-403-forbidden-responses-with-apache/
 dsq_thread_id:
   - 3642806340
-categories:
-  - Blog Posts
 tags:
   - apache
   - command line

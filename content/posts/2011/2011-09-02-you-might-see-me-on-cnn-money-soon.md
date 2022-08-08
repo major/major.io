@@ -1,14 +1,11 @@
 ---
 title: You might see me on CNN Money soon
 author: Major Hayden
-type: post
 date: 2011-09-02T15:40:42+00:00
 url: /2011/09/02/you-might-see-me-on-cnn-money-soon/
 featured_image: /wp-content/uploads/2011/09/cnnmoneyinterview.jpg
 dsq_thread_id:
   - 3678939603
-categories:
-  - Blog Posts
 tags:
   - fun
   - rackspace

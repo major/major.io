@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-10-17'
 summary: >-
   Package up graphical applications in containers and run them with
@@ -16,7 +14,6 @@ tags:
 - podman
 - xorg
 title: Run Xorg applications with podman
-type: post
 ---
 
 {{< figure src="/images/2021-10-17-green-field-sunrise.jpg" alt="Sunrise over green hills with grass and trees" position="center" >}}

@@ -1,13 +1,10 @@
 ---
 title: ICC color profile for Lenovo ThinkPad X1 Carbon 4th generation
 author: Major Hayden
-type: post
 date: 2017-01-11T18:42:26+00:00
 url: /2017/01/11/icc-color-profile-lenovo-thinkpad-x1-carbon-4th-generation/
 dsq_thread_id:
   - 5454618435
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gnome

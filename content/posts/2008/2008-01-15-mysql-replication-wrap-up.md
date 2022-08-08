@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Wrap-up'
 author: Major Hayden
-type: post
 date: 2008-01-15T18:20:02+00:00
 url: /2008/01/15/mysql-replication-wrap-up/
 dsq_thread_id:

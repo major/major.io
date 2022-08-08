@@ -1,15 +1,12 @@
 ---
 title: Testing network throughput with iperf
 author: Major Hayden
-type: post
 date: 2010-03-20T21:38:07+00:00
 url: /2010/03/20/testing-network-throughput-with-iperf/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806092
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

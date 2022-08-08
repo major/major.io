@@ -1,7 +1,6 @@
 ---
 title: Speeding up MySQL
 author: Major Hayden
-type: post
 date: 2007-05-21T03:44:33+00:00
 url: /2007/05/20/speeding-up-mysql/
 dsq_thread_id:

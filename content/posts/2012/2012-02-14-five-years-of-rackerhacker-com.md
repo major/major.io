@@ -1,14 +1,11 @@
 ---
 title: Five years of rackerhacker.com
 author: Major Hayden
-type: post
 date: 2012-02-14T14:45:43+00:00
 url: /2012/02/14/five-years-of-rackerhacker-com/
 featured_image: /wp-content/uploads/2012/02/birthday_cake.jpg
 dsq_thread_id:
   - 3642806903
-categories:
-  - Blog Posts
 tags:
   - blog
   - fun

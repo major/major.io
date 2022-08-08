@@ -1,13 +1,10 @@
 ---
 title: First post using the WordPress iPhone application
 author: Major Hayden
-type: post
 date: 2008-07-22T14:50:55+00:00
 url: /2008/07/22/first-post-using-the-wordpress-iphone-application/
 dsq_thread_id:
   - 3678977674
-categories:
-  - Blog Posts
 tags:
   - iphone
   - wordpress

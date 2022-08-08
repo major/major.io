@@ -1,13 +1,10 @@
 ---
 title: Etsy reminds us that information security is an active process
 author: Major Hayden
-type: post
 date: 2014-07-22T13:06:23+00:00
 url: /2014/07/22/etsy-reminds-us-that-information-security-is-an-active-process/
 dsq_thread_id:
   - 3678883483
-categories:
-  - Blog Posts
 tags:
   - devops
   - security

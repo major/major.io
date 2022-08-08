@@ -1,11 +1,8 @@
 ---
 title: What I’m looking forward to at IBM Interconnect 2017
 author: Major Hayden
-type: post
 date: 2017-02-23T16:35:02+00:00
 url: /2017/02/23/what-im-looking-forward-to-at-ibm-interconnect-2017/
-categories:
-  - Blog Posts
 tags:
   - openpower
   - openstack

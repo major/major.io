@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-07-18'
 summary: >-
     Enable tap-to-click on your laptop's touchpad in i3 with one of two methods. 💻
@@ -13,7 +11,6 @@ tags:
 - i3
 - linux
 title: Enable touchpad tap to click in i3
-type: post
 ---
 
 {{< figure src="/images/2021-07-18-touchpad-tapping-i3.jpg" alt="Fog in a forest near a stream" position="center" >}}

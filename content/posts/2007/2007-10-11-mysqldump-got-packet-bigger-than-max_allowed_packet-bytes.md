@@ -1,7 +1,6 @@
 ---
 title: 'mysqldump: Got packet bigger than ‘max_allowed_packet’ bytes'
 author: Major Hayden
-type: post
 date: 2007-10-12T01:28:17+00:00
 url: /2007/10/11/mysqldump-got-packet-bigger-than-max_allowed_packet-bytes/
 dsq_thread_id:

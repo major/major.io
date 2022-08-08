@@ -1,7 +1,6 @@
 ---
 title: Boxcheck.com improvements
 author: Major Hayden
-type: post
 date: 2007-09-18T22:57:31+00:00
 url: /2007/09/18/boxcheckcom-improvements/
 dsq_thread_id:

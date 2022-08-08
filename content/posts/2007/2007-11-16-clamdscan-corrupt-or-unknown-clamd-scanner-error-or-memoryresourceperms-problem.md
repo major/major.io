@@ -1,7 +1,6 @@
 ---
 title: 'clamdscan: corrupt or unknown clamd scanner error or memory/resource/perms problem'
 author: Major Hayden
-type: post
 date: 2007-11-16T18:11:05+00:00
 url: /2007/11/16/clamdscan-corrupt-or-unknown-clamd-scanner-error-or-memoryresourceperms-problem/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Upgrading Fedora 13 to Fedora 14 on Slicehost and Rackspace Cloud Servers
 author: Major Hayden
-type: post
 date: 2010-11-03T20:02:45+00:00
 url: /2010/11/03/upgrading-fedora-13-to-fedora-14-on-slicehost-and-rackspace-cloud-servers/
 dsq_thread_id:
   - 3642806284
-categories:
-  - Blog Posts
 tags:
   - cloud servers
   - command line

@@ -1,7 +1,6 @@
 ---
 title: Red Hat Support EOL Dates
 author: Major Hayden
-type: post
 date: 2007-12-05T18:27:03+00:00
 url: /2007/12/05/red-hat-support-eol-dates/
 dsq_thread_id:

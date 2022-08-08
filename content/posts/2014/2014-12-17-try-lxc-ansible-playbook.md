@@ -1,13 +1,10 @@
 ---
 title: Try out LXC with an Ansible playbook
 author: Major Hayden
-type: post
 date: 2014-12-17T13:50:26+00:00
 url: /2014/12/17/try-lxc-ansible-playbook/
 dsq_thread_id:
   - 3642807773
-categories:
-  - Blog Posts
 tags:
   - ansible
   - command line

@@ -1,13 +1,10 @@
 ---
 title: 500 OOPS error from vsftpd
 author: Major Hayden
-type: post
 date: 2007-06-14T23:14:51+00:00
 url: /2007/06/14/500-oops-error-from-vsftpd/
 dsq_thread_id:
   - 3642767953
-categories:
-  - Blog Posts
 tags:
   - ftp
   - security

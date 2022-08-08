@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner Revision 22 is now available
 author: Major Hayden
-type: post
 date: 2007-12-03T18:09:32+00:00
 url: /2007/12/03/mysqltuner-revision-22-is-now-available/
 dsq_thread_id:

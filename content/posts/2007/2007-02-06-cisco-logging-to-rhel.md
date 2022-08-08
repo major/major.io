@@ -1,7 +1,6 @@
 ---
 title: Cisco Logging to RHEL
 author: Major Hayden
-type: post
 date: 2007-02-06T21:48:54+00:00
 url: /2007/02/06/cisco-logging-to-rhel/
 dsq_thread_id:

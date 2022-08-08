@@ -1,13 +1,10 @@
 ---
 title: Seven Step MySQL Replication
 author: Major Hayden
-type: post
 date: 2007-12-31T17:51:03+00:00
 url: /2007/12/31/seven-step-mysql-replication/
 dsq_thread_id:
   - 3642773309
-categories:
-  - Blog Posts
 tags:
   - database
   - mysql

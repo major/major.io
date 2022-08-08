@@ -1,13 +1,10 @@
 ---
 title: Annoying security requests highlight company silos
 author: Major Hayden
-type: post
 date: 2014-03-10T13:39:53+00:00
 url: /2014/03/10/annoying-security-requests-highlight-company-silos/
 dsq_thread_id:
   - 3678894044
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

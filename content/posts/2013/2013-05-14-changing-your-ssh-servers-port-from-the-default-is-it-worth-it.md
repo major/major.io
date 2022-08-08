@@ -1,13 +1,10 @@
 ---
 title: 'Changing your ssh server’s port from the default: Is it worth it?'
 author: Major Hayden
-type: post
 date: 2013-05-15T04:43:41+00:00
 url: /2013/05/14/changing-your-ssh-servers-port-from-the-default-is-it-worth-it/
 dsq_thread_id:
   - 3642807244
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

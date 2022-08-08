@@ -1,15 +1,12 @@
 ---
 title: Parsing mdadm output with paste
 author: Major Hayden
-type: post
 date: 2010-06-14T14:05:57+00:00
 url: /2010/06/14/parsing-mdadm-output-with-paste/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806171
-categories:
-  - Blog Posts
 tags:
   - command line
   - mdadm

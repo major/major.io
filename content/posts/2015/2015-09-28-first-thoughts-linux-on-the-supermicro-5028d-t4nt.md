@@ -1,11 +1,8 @@
 ---
 title: 'First thoughts: Linux on the Supermicro 5028D-TN4T'
 author: Major Hayden
-type: post
 date: 2015-09-28T12:55:51+00:00
 url: /2015/09/28/first-thoughts-linux-on-the-supermicro-5028d-t4nt/
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-07-28'
 summary: >-
   The original icanhazip.com lives on, but the other services are going offline. 😢
@@ -10,10 +8,14 @@ tags:
   - linux
   - python
 title: Extra icanhazip services going offline
-type: post
+showtableofcontents: false
 ---
 
-*Photo credit: [Atanas Teodosiev](https://unsplash.com/photos/EzoGykQmUYI)*
+{{< figure 
+    src="cover.jpg" 
+    alt="Dark stairway going up" 
+    caption="Photo credit: [Atanas Teodosiev](https://unsplash.com/photos/EzoGykQmUYI)"
+    >}}
 
 Every great thing has its end, and the extra services I launched along with [icanhazip.com] are no exception.
 I started [icanhazip.com] way back in 2009 and detailed much of the history when I [transferred ownership to Cloudflare].

@@ -1,7 +1,6 @@
 ---
 title: WordPress upgraded to 2.3.3
 author: Major Hayden
-type: post
 date: 2008-02-06T00:48:17+00:00
 url: /2008/02/05/wordpress-upgraded-to-233/
 dsq_thread_id:

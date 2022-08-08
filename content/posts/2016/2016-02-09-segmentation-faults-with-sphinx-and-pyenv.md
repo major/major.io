@@ -1,13 +1,10 @@
 ---
 title: Segmentation faults with sphinx and pyenv
 author: Major Hayden
-type: post
 date: 2016-02-09T14:09:44+00:00
 url: /2016/02/09/segmentation-faults-with-sphinx-and-pyenv/
 dsq_thread_id:
   - 4564662885
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

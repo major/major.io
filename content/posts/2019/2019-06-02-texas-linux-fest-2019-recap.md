@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-06-02'
 images:
 - images/2019-06-02-irving-las-colinas.jpg
@@ -10,7 +8,6 @@ tags:
 - linux
 - conferences
 title: Texas Linux Fest 2019 Recap
-type: post
 ---
 
 ![Las Colinas in Irving]

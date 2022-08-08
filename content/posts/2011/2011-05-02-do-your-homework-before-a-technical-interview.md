@@ -1,13 +1,10 @@
 ---
 title: Do your homework before a technical interview
 author: Major Hayden
-type: post
 date: 2011-05-03T02:05:05+00:00
 url: /2011/05/02/do-your-homework-before-a-technical-interview/
 dsq_thread_id:
   - 3642806566
-categories:
-  - Blog Posts
 tags:
   - general advice
   - interview

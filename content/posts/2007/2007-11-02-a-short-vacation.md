@@ -1,7 +1,6 @@
 ---
 title: A short vacation
 author: Major Hayden
-type: post
 date: 2007-11-03T05:21:58+00:00
 url: /2007/11/02/a-short-vacation/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: openssl heartbleed updates for Fedora 19 and 20
 author: Major Hayden
-type: post
 date: 2014-04-08T01:18:19+00:00
 url: /2014/04/07/openssl-heartbleed-updates-for-fedora-19-and-20/
 dsq_thread_id:
   - 3642807443
-categories:
-  - Blog Posts
 tags:
   - fedora
   - security

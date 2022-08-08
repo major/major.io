@@ -1,7 +1,6 @@
 ---
 title: 'Plesk 7.5.4: Error: HTTPD_INCLUDE_D not defined'
 author: Major Hayden
-type: post
 date: 2007-10-02T02:56:20+00:00
 url: /2007/10/01/plesk-754-error-httpd_include_d-not-defined/
 dsq_thread_id:

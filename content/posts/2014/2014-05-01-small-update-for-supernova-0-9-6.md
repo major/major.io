@@ -1,13 +1,10 @@
 ---
 title: Small update for supernova 0.9.6
 author: Major Hayden
-type: post
 date: 2014-05-01T14:32:13+00:00
 url: /2014/05/01/small-update-for-supernova-0-9-6/
 dsq_thread_id:
   - 3646747077
-categories:
-  - Blog Posts
 tags:
   - openstack
   - python

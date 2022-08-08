@@ -1,13 +1,10 @@
 ---
 title: Fixing the Lenovo X1 Carbon’s washed out display
 author: Major Hayden
-type: post
 date: 2013-01-08T16:30:54+00:00
 url: /2013/01/08/fixing-the-lenovo-x1-carbons-washed-out-display/
 dsq_thread_id:
   - 3642807124
-categories:
-  - Blog Posts
 tags:
   - display
   - fedora

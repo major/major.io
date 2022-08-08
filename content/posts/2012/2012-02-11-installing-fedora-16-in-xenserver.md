@@ -1,13 +1,10 @@
 ---
 title: Installing Fedora 16 in XenServer
 author: Major Hayden
-type: post
 date: 2012-02-12T03:39:11+00:00
 url: /2012/02/11/installing-fedora-16-in-xenserver/
 dsq_thread_id:
   - 3642806861
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kickstart

@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner Revision 19 is available
 author: Major Hayden
-type: post
 date: 2007-10-16T01:54:34+00:00
 url: /2007/10/15/mysqltuner-revision-19-is-available/
 dsq_thread_id:

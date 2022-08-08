@@ -1,13 +1,10 @@
 ---
 title: Asus Maximus VI Gene – Error 55
 author: Major Hayden
-type: post
 date: 2014-08-22T14:20:23+00:00
 url: /2014/08/22/asus-maximus-vi-gene-error-55/
 dsq_thread_id:
   - 3642807732
-categories:
-  - Blog Posts
 tags:
   - asus
   - fedora

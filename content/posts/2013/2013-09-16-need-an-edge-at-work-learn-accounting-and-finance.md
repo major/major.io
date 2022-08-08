@@ -1,13 +1,10 @@
 ---
 title: Need an edge at work? Learn accounting and finance.
 author: Major Hayden
-type: post
 date: 2013-09-17T04:06:18+00:00
 url: /2013/09/16/need-an-edge-at-work-learn-accounting-and-finance/
 dsq_thread_id:
   - 3642807385
-categories:
-  - Blog Posts
 tags:
   - general advice
   - infosec

@@ -1,13 +1,10 @@
 ---
 title: How to survive as a technical manager
 author: Major Hayden
-type: post
 date: 2011-03-29T14:25:59+00:00
 url: /2011/03/29/how-to-survive-as-a-technical-manager/
 dsq_thread_id:
   - 3642806562
-categories:
-  - Blog Posts
 tags:
   - general advice
   - management

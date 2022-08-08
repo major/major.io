@@ -1,13 +1,10 @@
 ---
 title: Test Fedora 21 at Rackspace with Ansible
 author: Major Hayden
-type: post
 date: 2014-10-03T20:24:19+00:00
 url: /2014/10/03/easily-test-fedora-21-rackspace-cloud/
 dsq_thread_id:
   - 3651144027
-categories:
-  - Blog Posts
 tags:
   - ansible
   - fedora

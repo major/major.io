@@ -1,13 +1,10 @@
 ---
 title: Measure traffic flows with Mikrotik’s RouterOS and ntop on Fedora 15
 author: Major Hayden
-type: post
 date: 2011-06-05T14:58:26+00:00
 url: /2011/06/05/measure-traffic-flows-with-mikrotiks-routeros-and-ntop-on-fedora-15/
 dsq_thread_id:
   - 3642806573
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

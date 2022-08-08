@@ -1,13 +1,10 @@
 ---
 title: Postfix – Forwarding Virtual Mailboxes
 author: Major Hayden
-type: post
 date: 2006-12-27T02:47:46+00:00
 url: /2006/12/26/postfix-virtual-mailboxes-forwarding-externally/
 dsq_thread_id:
   - 3642766117
-categories:
-  - Blog Posts
 tags:
   - mail
 

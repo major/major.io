@@ -1,7 +1,6 @@
 ---
 title: Testing SpamAssassin with GTUBE
 author: Major Hayden
-type: post
 date: 2007-09-15T17:14:24+00:00
 url: /2007/09/15/testing-spamassassin-with-gtube/
 dsq_thread_id:

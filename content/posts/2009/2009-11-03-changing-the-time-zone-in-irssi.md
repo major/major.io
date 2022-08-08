@@ -1,13 +1,10 @@
 ---
 title: Changing the time zone in irssi
 author: Major Hayden
-type: post
 date: 2009-11-03T14:34:42+00:00
 url: /2009/11/03/changing-the-time-zone-in-irssi/
 dsq_thread_id:
   - 3642805831
-categories:
-  - Blog Posts
 tags:
   - irc
   - irssi

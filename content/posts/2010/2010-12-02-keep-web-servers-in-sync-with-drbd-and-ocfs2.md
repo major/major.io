@@ -1,14 +1,11 @@
 ---
 title: Keep web servers in sync with DRBD and OCFS2
 author: Major Hayden
-type: post
 date: 2010-12-03T02:01:12+00:00
 url: /2010/12/02/keep-web-servers-in-sync-with-drbd-and-ocfs2/
 featured_image: /wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png
 dsq_thread_id:
   - 3642806288
-categories:
-  - Blog Posts
 tags:
   - command line
   - filesystem

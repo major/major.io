@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-02-08'
 images:
 - images/2019-02-08-floating-leaf.jpg
@@ -11,7 +9,6 @@ tags:
 - i3
 - fedora
 title: Automatic floating windows in i3
-type: post
 ---
 
 ![floating leaf]

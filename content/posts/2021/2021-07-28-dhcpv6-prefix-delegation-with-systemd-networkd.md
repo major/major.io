@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-07-28'
 summary: >-
     Use the new DHCPv6 prefix delegation features in systemd-networkd to make IPv6 subnetting easy! 🎉
@@ -13,7 +11,6 @@ tags:
 - linux
 - networking
 title: DHCPv6 prefix delegation with systemd-networkd
-type: post
 ---
 
 {{< figure src="/images/2021-07-28-pipes.jpg" alt="Industrial pipes on a wall" position="center" >}}

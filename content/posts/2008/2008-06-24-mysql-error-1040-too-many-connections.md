@@ -1,13 +1,10 @@
 ---
 title: 'MySQL: ERROR 1040: Too many connections'
 author: Major Hayden
-type: post
 date: 2008-06-24T17:00:47+00:00
 url: /2008/06/24/mysql-error-1040-too-many-connections/
 dsq_thread_id:
   - 3642771606
-categories:
-  - Blog Posts
 tags:
   - mysql
 

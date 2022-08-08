@@ -1,15 +1,12 @@
 ---
 title: Adding comments to iptables rules
 author: Major Hayden
-type: post
 date: 2010-07-26T15:00:52+00:00
 url: /2010/07/26/adding-comments-to-iptables-rules/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806200
-categories:
-  - Blog Posts
 tags:
   - iptables
   - network

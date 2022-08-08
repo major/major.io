@@ -1,7 +1,6 @@
 ---
 title: MySQL couldn’t find log file
 author: Major Hayden
-type: post
 date: 2007-08-24T00:24:28+00:00
 url: /2007/08/23/mysql-couldnt-find-log-file/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: 'Chronicles of SELinux: Dealing with web content in unusual directories'
 author: Major Hayden
-type: post
 date: 2015-09-10T13:40:35+00:00
 url: /2015/09/10/chronicles-of-selinux-dealing-with-web-content-in-unusual-directories/
 dsq_thread_id:
   - 4116197538
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

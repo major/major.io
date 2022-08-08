@@ -1,13 +1,10 @@
 ---
 title: Upgraded to WordPress 2.8.6 with some theme changes
 author: Major Hayden
-type: post
 date: 2009-11-17T04:32:22+00:00
 url: /2009/11/16/upgraded-to-wordpress-2-8-6-with-some-theme-changes/
 dsq_thread_id:
   - 3642805841
-categories:
-  - Blog Posts
 tags:
   - exploit
   - security

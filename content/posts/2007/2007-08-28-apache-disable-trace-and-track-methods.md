@@ -1,13 +1,10 @@
 ---
 title: 'Apache: Disable TRACE and TRACK methods'
 author: Major Hayden
-type: post
 date: 2007-08-29T00:27:59+00:00
 url: /2007/08/28/apache-disable-trace-and-track-methods/
 dsq_thread_id:
   - 3642769871
-categories:
-  - Blog Posts
 tags:
   - security
   - web

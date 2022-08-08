@@ -1,13 +1,10 @@
 ---
 title: Contest winners from the “Inspire a sysadmin” contest
 author: Major Hayden
-type: post
 date: 2011-08-22T12:43:53+00:00
 url: /2011/08/22/contest-winners-from-the-inspire-a-sysadmin-contest/
 dsq_thread_id:
   - 3642806666
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

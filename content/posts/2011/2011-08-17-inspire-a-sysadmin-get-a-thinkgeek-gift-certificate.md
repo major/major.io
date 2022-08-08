@@ -1,13 +1,10 @@
 ---
 title: Inspire a sysadmin, get a ThinkGeek gift certificate
 author: Major Hayden
-type: post
 date: 2011-08-17T12:36:52+00:00
 url: /2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/
 dsq_thread_id:
   - 3642806611
-categories:
-  - Blog Posts
 
 ---
 <strong style="color: red">UPDATE: THE STAKES ARE RAISED!</strong> Check the end of this post for details.

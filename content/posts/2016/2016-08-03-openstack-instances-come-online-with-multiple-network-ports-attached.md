@@ -1,13 +1,10 @@
 ---
 title: OpenStack instances come online with multiple network ports attached
 author: Major Hayden
-type: post
 date: 2016-08-03T14:40:16+00:00
 url: /2016/08/03/openstack-instances-come-online-with-multiple-network-ports-attached/
 dsq_thread_id:
   - 5037029729
-categories:
-  - Blog Posts
 tags:
   - kvm
   - network

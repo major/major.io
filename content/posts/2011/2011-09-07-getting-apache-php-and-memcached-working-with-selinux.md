@@ -1,13 +1,10 @@
 ---
 title: Getting apache, PHP, and memcached working with SELinux
 author: Major Hayden
-type: post
 date: 2011-09-08T03:55:00+00:00
 url: /2011/09/07/getting-apache-php-and-memcached-working-with-selinux/
 dsq_thread_id:
   - 3642806694
-categories:
-  - Blog Posts
 tags:
   - apache
   - centos

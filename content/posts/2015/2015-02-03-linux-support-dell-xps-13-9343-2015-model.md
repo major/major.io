@@ -1,13 +1,10 @@
 ---
 title: Linux support for the Dell XPS 13 9343 (2015 model)
 author: Major Hayden
-type: post
 date: 2015-02-03T15:23:24+00:00
 url: /2015/02/03/linux-support-dell-xps-13-9343-2015-model/
 dsq_thread_id:
   - 3642807788
-categories:
-  - Blog Posts
 tags:
   - dell
   - fedora

@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner Revision 26 is now available
 author: Major Hayden
-type: post
 date: 2008-01-15T14:00:22+00:00
 url: /2008/01/15/mysqltuner-revision-26-is-now-available/
 dsq_thread_id:

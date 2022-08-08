@@ -1,13 +1,10 @@
 ---
 title: Using systemd-networkd with bonding on Rackspace’s OnMetal servers
 author: Major Hayden
-type: post
 date: 2015-08-21T14:00:46+00:00
 url: /2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/
 dsq_thread_id:
   - 4052546195
-categories:
-  - Blog Posts
 tags:
   - bonding
   - command line

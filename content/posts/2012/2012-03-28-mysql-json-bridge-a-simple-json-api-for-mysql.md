@@ -1,13 +1,10 @@
 ---
 title: 'mysql-json-bridge: a simple JSON API for MySQL'
 author: Major Hayden
-type: post
 date: 2012-03-29T02:34:53+00:00
 url: /2012/03/28/mysql-json-bridge-a-simple-json-api-for-mysql/
 dsq_thread_id:
   - 3644401717
-categories:
-  - Blog Posts
 tags:
   - development
   - github

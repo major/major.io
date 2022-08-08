@@ -1,13 +1,10 @@
 ---
 title: Helpful, low-FUD information security sites, mailing lists, and blogs
 author: Major Hayden
-type: post
 date: 2015-01-08T13:55:43+00:00
 url: /2015/01/08/helpful-low-fud-information-security-sites-mailing-lists-blogs/
 dsq_thread_id:
   - 3643766237
-categories:
-  - Blog Posts
 tags:
   - blog
   - general advice

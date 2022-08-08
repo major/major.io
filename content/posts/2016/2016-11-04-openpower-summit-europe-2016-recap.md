@@ -1,14 +1,11 @@
 ---
 title: OpenPOWER Summit Europe 2016 Recap
 author: Major Hayden
-type: post
 date: 2016-11-04T14:07:17+00:00
 url: /2016/11/04/openpower-summit-europe-2016-recap/
 featured_image: /wp-content/uploads/2016/11/barcelona_morning.jpg
 dsq_thread_id:
   - 5278255584
-categories:
-  - Blog Posts
 tags:
   - hardware
   - linux

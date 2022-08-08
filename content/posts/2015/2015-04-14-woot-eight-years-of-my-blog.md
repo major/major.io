@@ -1,13 +1,10 @@
 ---
 title: Woot! Eight years of my blog
 author: Major Hayden
-type: post
 date: 2015-04-14T18:53:34+00:00
 url: /2015/04/14/woot-eight-years-of-my-blog/
 dsq_thread_id:
   - 3681645176
-categories:
-  - Blog Posts
 tags:
   - apache
   - fedora

@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Across an external network'
 author: Major Hayden
-type: post
 date: 2008-01-10T18:51:39+00:00
 url: /2008/01/10/mysql-replication-across-an-external-network/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: Use a different IP for sending mail
 author: Major Hayden
-type: post
 date: 2007-08-28T03:13:21+00:00
 url: /2007/08/27/use-a-different-ip-for-sending-mail/
 dsq_thread_id:

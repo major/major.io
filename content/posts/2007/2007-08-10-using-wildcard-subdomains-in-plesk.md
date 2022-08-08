@@ -1,7 +1,6 @@
 ---
 title: Using wildcard subdomains in Plesk
 author: Major Hayden
-type: post
 date: 2007-08-11T02:19:09+00:00
 url: /2007/08/10/using-wildcard-subdomains-in-plesk/
 dsq_thread_id:

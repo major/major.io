@@ -1,15 +1,12 @@
 ---
 title: 'Private network interfaces: the forgotten security hole'
 author: Major Hayden
-type: post
 date: 2010-03-02T00:55:07+00:00
 url: /2010/03/01/private-network-interfaces-the-forgotten-security-hole/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806042
-categories:
-  - Blog Posts
 tags:
   - apache
   - cloud

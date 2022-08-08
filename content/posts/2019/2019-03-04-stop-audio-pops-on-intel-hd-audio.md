@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-03-04'
 images:
 - images/2019-03-04-headphones.jpg
@@ -11,7 +9,6 @@ tags:
 - fedora
 - sound
 title: Stop audio pops on Intel HD Audio
-type: post
 ---
 
 ![headphones]

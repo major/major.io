@@ -1,13 +1,10 @@
 ---
 title: Be an inspiration, not an impostor
 author: Major Hayden
-type: post
 date: 2014-02-05T03:44:18+00:00
 url: /2014/02/04/be-an-inspiration-not-an-impostor/
 dsq_thread_id:
   - 3642807414
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

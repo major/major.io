@@ -1,15 +1,12 @@
 ---
 title: One month with GlusterFS in production
 author: Major Hayden
-type: post
 date: 2010-08-11T13:29:02+00:00
 url: /2010/08/11/one-month-with-glusterfs-in-production/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806209
-categories:
-  - Blog Posts
 tags:
   - glusterfs
   - linux

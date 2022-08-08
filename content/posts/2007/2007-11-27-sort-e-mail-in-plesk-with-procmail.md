@@ -1,7 +1,6 @@
 ---
 title: Sort e-mail in Plesk with procmail
 author: Major Hayden
-type: post
 date: 2007-11-27T18:27:26+00:00
 url: /2007/11/27/sort-e-mail-in-plesk-with-procmail/
 dsq_thread_id:

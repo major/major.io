@@ -1,13 +1,10 @@
 ---
 title: Prevent gnome-keyring from asking for a password when NetworkManager starts
 author: Major Hayden
-type: post
 date: 2009-02-27T00:21:21+00:00
 url: /2009/02/26/prevent-gnome-keyring-from-asking-for-a-password-when-networkmanager-starts/
 dsq_thread_id:
   - 3642805580
-categories:
-  - Blog Posts
 tags:
   - annoyances
   - gnome-keyring

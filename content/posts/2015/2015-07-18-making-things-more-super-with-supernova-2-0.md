@@ -1,13 +1,10 @@
 ---
 title: Making things more super with supernova 2.0
 author: Major Hayden
-type: post
 date: 2015-07-18T17:42:29+00:00
 url: /2015/07/18/making-things-more-super-with-supernova-2-0/
 dsq_thread_id:
   - 3947156254
-categories:
-  - Blog Posts
 tags:
   - development
   - openstack

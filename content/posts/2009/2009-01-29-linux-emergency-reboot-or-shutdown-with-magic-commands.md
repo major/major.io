@@ -1,13 +1,10 @@
 ---
 title: 'Linux: emergency reboot or shutdown with magic commands'
 author: Major Hayden
-type: post
 date: 2009-01-30T02:07:06+00:00
 url: /2009/01/29/linux-emergency-reboot-or-shutdown-with-magic-commands/
 dsq_thread_id:
   - 3642805529
-categories:
-  - Blog Posts
 tags:
   - command line
   - emergency

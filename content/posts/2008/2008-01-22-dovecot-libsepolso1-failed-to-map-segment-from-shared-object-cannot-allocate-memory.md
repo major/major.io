@@ -1,7 +1,6 @@
 ---
 title: 'Dovecot: libsepol.so.1: failed to map segment from shared object: Cannot allocate memory'
 author: Major Hayden
-type: post
 date: 2008-01-22T18:47:21+00:00
 url: /2008/01/22/dovecot-libsepolso1-failed-to-map-segment-from-shared-object-cannot-allocate-memory/
 dsq_thread_id:

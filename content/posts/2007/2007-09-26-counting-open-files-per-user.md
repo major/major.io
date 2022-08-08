@@ -1,7 +1,6 @@
 ---
 title: Counting open files per user
 author: Major Hayden
-type: post
 date: 2007-09-26T17:13:44+00:00
 url: /2007/09/26/counting-open-files-per-user/
 dsq_thread_id:

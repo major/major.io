@@ -1,12 +1,9 @@
 ---
 title: Enable AppArmor on a Debian Jessie cloud image
 author: Major Hayden
-type: post
 date: 2017-05-24T16:14:03+00:00
 url: /2017/05/24/enable-apparmor-on-a-debian-jessie-cloud-image/
 featured_image: /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - apparmor

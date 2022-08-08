@@ -1,13 +1,10 @@
 ---
 title: Remove sensitive information from email headers with postfix
 author: Major Hayden
-type: post
 date: 2013-04-15T02:59:34+00:00
 url: /2013/04/14/remove-sensitive-information-from-email-headers-with-postfix/
 dsq_thread_id:
   - 3642807167
-categories:
-  - Blog Posts
 tags:
   - centos
   - command lines

@@ -1,11 +1,8 @@
 ---
 title: Get a /56 from Spectrum using wide-dhcpv6
 author: Major Hayden
-type: post
 date: "2019-03-19"
 slug: get-a-slash-56-from-spectrum-using-wide-dhcpv6
-categories:
-  - Blog Posts
 tags:
   - linux
   - networking

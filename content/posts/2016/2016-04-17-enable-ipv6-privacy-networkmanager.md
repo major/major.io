@@ -1,13 +1,10 @@
 ---
 title: Enable IPv6 privacy in NetworkManager
 author: Major Hayden
-type: post
 date: 2016-04-17T16:35:57+00:00
 url: /2016/04/17/enable-ipv6-privacy-networkmanager/
 dsq_thread_id:
   - 4754510226
-categories:
-  - Blog Posts
 tags:
   - fedora
   - ipv6

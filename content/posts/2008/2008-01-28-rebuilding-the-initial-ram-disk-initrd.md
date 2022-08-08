@@ -1,7 +1,6 @@
 ---
 title: Rebuilding the initial ram disk (initrd)
 author: Major Hayden
-type: post
 date: 2008-01-28T18:23:39+00:00
 url: /2008/01/28/rebuilding-the-initial-ram-disk-initrd/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: 'New Fedora and EPEL package: httpry'
 author: Major Hayden
-type: post
 date: 2012-03-14T14:00:29+00:00
 url: /2012/03/14/new-fedora-and-epel-package-httpry/
 dsq_thread_id:
   - 3642806930
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

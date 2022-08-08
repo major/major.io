@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-04-08'
 summary: >-
   Access files over NFS within kubernetes pods with a quick volume mount. 🗄
@@ -11,10 +9,13 @@ tags:
   - nfs
   - kubernetes
 title: Mount NFS shares in kubernetes
-type: post
 ---
 
-*Photo credit: [the blowup](https://unsplash.com/photos/hiK8FD142XU)*
+{{< figure
+    src="cover.jpg"
+    alt="Man walking along a sidewalk in a city looking at his phone"         
+    caption="Photo credit: [the blowup](https://unsplash.com/photos/hiK8FD142XU)"
+    >}}
 
 Kubernetes offers a plethora of [storage options] for mounting volumes in pods, and NFS
 is included. I have a Synology NAS at home and some of my pods in my home kubernetes
@@ -27,7 +28,7 @@ example that you can copy, adapt, and paste as needed.
 [storage options]: https://kubernetes.io/docs/concepts/storage/volumes/
 [bunch of examples]: https://github.com/kubernetes/examples/tree/master/staging/volumes/nfs
 
-## Verify that NFS is working
+# Verify that NFS is working
 
 NFS can be tricky to get right and it's important to verify that it's working *outside
 of kubernetes* before you try mounting it in a pod. Trust me -- NFS looks quite simple

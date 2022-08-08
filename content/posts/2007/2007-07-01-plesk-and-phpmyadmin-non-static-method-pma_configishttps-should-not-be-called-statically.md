@@ -1,7 +1,6 @@
 ---
 title: 'Plesk and PHPMyAdmin: Non-static method PMA_Config::isHttps() should not be called statically'
 author: Major Hayden
-type: post
 date: 2007-07-01T16:27:21+00:00
 url: /2007/07/01/plesk-and-phpmyadmin-non-static-method-pma_configishttps-should-not-be-called-statically/
 dsq_thread_id:

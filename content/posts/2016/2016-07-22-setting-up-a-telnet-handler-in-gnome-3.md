@@ -1,13 +1,10 @@
 ---
 title: Setting up a telnet handler for OpenStack Zuul CI jobs in GNOME 3
 author: Major Hayden
-type: post
 date: 2016-07-22T19:44:07+00:00
 url: /2016/07/22/setting-up-a-telnet-handler-in-gnome-3/
 dsq_thread_id:
   - 5006635590
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gnome

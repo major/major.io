@@ -1,7 +1,6 @@
 ---
 title: Setting the hostname in Sendmail
 author: Major Hayden
-type: post
 date: 2007-03-27T21:01:26+00:00
 url: /2007/03/27/setting-the-hostname-in-sendmail/
 dsq_thread_id:

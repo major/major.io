@@ -1,13 +1,10 @@
 ---
 title: Switching from GlusterFS to DRBD and OCFS2
 author: Major Hayden
-type: post
 date: 2010-11-10T13:55:50+00:00
 url: /2010/11/10/switching-from-glusterfs-to-drbd-and-ocfs2/
 dsq_thread_id:
   - 3642806318
-categories:
-  - Blog Posts
 tags:
   - command line
   - drbd

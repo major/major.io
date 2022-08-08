@@ -1,13 +1,10 @@
 ---
 title: Getting ready for IBM Edge 2016
 author: Major Hayden
-type: post
 date: 2016-09-14T13:00:28+00:00
 url: /2016/09/14/getting-ready-for-ibm-edge-2016/
 dsq_thread_id:
   - 5143657337
-categories:
-  - Blog Posts
 tags:
   - open source
   - openstack

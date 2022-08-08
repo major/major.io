@@ -1,12 +1,9 @@
 ---
 title: Fixing OpenStack noVNC consoles that ignore keyboard input
 author: Major Hayden
-type: post
 date: 2017-05-18T16:58:56+00:00
 url: /2017/05/18/fixing-openstack-novnc-consoles-that-ignore-keyboard-input/
 featured_image: /wp-content/uploads/2017/05/Televideo925Terminal-e1495126632469.jpg
-categories:
-  - Blog Posts
 tags:
   - kvm
   - network

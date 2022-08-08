@@ -1,13 +1,10 @@
 ---
 title: 'Xen Summit 2011: My Takeways'
 author: Major Hayden
-type: post
 date: 2011-08-08T12:58:54+00:00
 url: /2011/08/08/xen-summit-2011-my-takeways/
 dsq_thread_id:
   - 3642806613
-categories:
-  - Blog Posts
 tags:
   - cloud
   - fun

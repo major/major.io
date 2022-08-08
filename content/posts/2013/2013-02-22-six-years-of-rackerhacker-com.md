@@ -1,13 +1,10 @@
 ---
 title: Six years of rackerhacker.com
 author: Major Hayden
-type: post
 date: 2013-02-22T18:10:20+00:00
 url: /2013/02/22/six-years-of-rackerhacker-com/
 dsq_thread_id:
   - 3678916401
-categories:
-  - Blog Posts
 
 ---
 It's that time of year again:

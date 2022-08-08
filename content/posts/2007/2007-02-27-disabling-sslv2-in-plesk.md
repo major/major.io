@@ -1,7 +1,6 @@
 ---
 title: Disabling SSLv2 in Plesk
 author: Major Hayden
-type: post
 date: 2007-02-27T18:17:02+00:00
 url: /2007/02/27/disabling-sslv2-in-plesk/
 dsq_thread_id:

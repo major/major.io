@@ -1,7 +1,6 @@
 ---
 title: Hunting down annoying web spiders
 author: Major Hayden
-type: post
 date: 2007-09-08T22:16:07+00:00
 url: /2007/09/08/hunting-down-annoying-web-spiders/
 dsq_thread_id:

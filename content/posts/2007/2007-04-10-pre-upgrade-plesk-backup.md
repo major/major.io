@@ -1,7 +1,6 @@
 ---
 title: Pre-upgrade Plesk Backup
 author: Major Hayden
-type: post
 date: 2007-04-10T18:55:06+00:00
 url: /2007/04/10/pre-upgrade-plesk-backup/
 dsq_thread_id:

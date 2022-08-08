@@ -1,13 +1,10 @@
 ---
 title: Live upgrade Fedora 15 to Fedora 16 using yum
 author: Major Hayden
-type: post
 date: 2011-11-15T04:37:39+00:00
 url: /2011/11/14/live-upgrading-fedora-15-to-fedora-16-using-yum/
 dsq_thread_id:
   - 3642806736
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

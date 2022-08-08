@@ -1,13 +1,10 @@
 ---
 title: Compare commits between two git branches
 author: Major Hayden
-type: post
 date: 2012-03-15T15:00:24+00:00
 url: /2012/03/15/compare-commits-between-two-git-branches/
 dsq_thread_id:
   - 3642806905
-categories:
-  - Blog Posts
 tags:
   - bash
   - command line

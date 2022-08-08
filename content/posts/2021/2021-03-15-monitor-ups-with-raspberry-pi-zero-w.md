@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-03-15'
 summary: Monitor nearly any uninterruptible power supply (UPS) with a Raspberry
   Pi Zero W and HomeAssistant
@@ -12,7 +10,6 @@ tags:
 - linux
 - raspberrypi
 title: Monitor a UPS with a Raspberry Pi Zero W
-type: post
 ---
 
 {{< figure src="/images/2021-03-power-plant.jpg" alt="Power plant with four towers" position="center" >}}

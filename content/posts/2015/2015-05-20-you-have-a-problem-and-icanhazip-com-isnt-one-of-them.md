@@ -1,13 +1,10 @@
 ---
 title: You have a problem and icanhazip.com isn’t one of them
 author: Major Hayden
-type: post
 date: 2015-05-20T12:50:41+00:00
 url: /2015/05/20/you-have-a-problem-and-icanhazip-com-isnt-one-of-them/
 dsq_thread_id:
   - 3779544516
-categories:
-  - Blog Posts
 tags:
   - icanhazip
   - security

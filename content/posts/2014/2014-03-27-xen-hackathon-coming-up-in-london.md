@@ -1,14 +1,11 @@
 ---
 title: Xen hackathon coming up in London
 author: Major Hayden
-type: post
 date: 2014-03-27T13:20:34+00:00
 url: /2014/03/27/xen-hackathon-coming-up-in-london/
 featured_image: /wp-content/uploads/2014/03/MA0139_N60_medium.jpg
 dsq_thread_id:
   - 3678892868
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

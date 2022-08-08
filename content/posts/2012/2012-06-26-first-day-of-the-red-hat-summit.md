@@ -1,13 +1,10 @@
 ---
 title: First day of the Red Hat Summit
 author: Major Hayden
-type: post
 date: 2012-06-27T02:49:46+00:00
 url: /2012/06/26/first-day-of-the-red-hat-summit/
 dsq_thread_id:
   - 3678927826
-categories:
-  - Blog Posts
 tags:
   - cloud
   - linux

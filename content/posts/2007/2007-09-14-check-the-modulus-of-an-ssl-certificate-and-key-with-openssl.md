@@ -1,7 +1,6 @@
 ---
 title: Check the modulus of an SSL certificate and key with openssl
 author: Major Hayden
-type: post
 date: 2007-09-14T17:13:51+00:00
 url: /2007/09/14/check-the-modulus-of-an-ssl-certificate-and-key-with-openssl/
 dsq_thread_id:

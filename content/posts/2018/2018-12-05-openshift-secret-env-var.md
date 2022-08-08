@@ -1,14 +1,11 @@
 ---
 title: Use a secret as an environment variable in OpenShift deployments
 author: Major Hayden
-type: post
 date: "2018-12-06"
 summary: >
     Environment variables are easy to add to OpenShift deployments, but
     a more secure way to add these variables is by referencing a secret.
 slug: use-secret-as-environment-variable-in-openshift-deployments
-categories:
-  - Blog Posts
 tags:
   - openshift
   - containers

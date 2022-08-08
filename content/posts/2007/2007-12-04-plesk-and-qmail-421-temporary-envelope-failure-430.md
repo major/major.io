@@ -1,7 +1,6 @@
 ---
 title: 'Plesk and qmail: 421 temporary envelope failure (#4.3.0)'
 author: Major Hayden
-type: post
 date: 2007-12-04T18:21:23+00:00
 url: /2007/12/04/plesk-and-qmail-421-temporary-envelope-failure-430/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: 'Plesk: Upgrade to 8.4 causes “no such user” error in maillog'
 author: Major Hayden
-type: post
 date: 2008-11-06T17:04:08+00:00
 url: /2008/11/06/plesk-upgrade-to-84-causes-no-such-user-error-in-maillog/
 dsq_thread_id:
   - 3659092962
-categories:
-  - Blog Posts
 tags:
   - mail
   - plesk

@@ -1,7 +1,6 @@
 ---
 title: Enable submission port 587 in Sendmail
 author: Major Hayden
-type: post
 date: 2007-05-21T16:08:34+00:00
 url: /2007/05/21/enable-submission-port-587-in-sendmail/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Tracing a build through OpenStack Compute (Nova)
 author: Major Hayden
-type: post
 date: 2011-11-07T15:05:42+00:00
 url: /2011/11/07/tracing-a-build-through-openstack-compute-nova/
 dsq_thread_id:
   - 3649935759
-categories:
-  - Blog Posts
 tags:
   - cloud
   - nova

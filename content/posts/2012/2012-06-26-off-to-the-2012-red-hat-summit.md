@@ -1,13 +1,10 @@
 ---
 title: Off to the 2012 Red Hat Summit
 author: Major Hayden
-type: post
 date: 2012-06-26T10:11:33+00:00
 url: /2012/06/26/off-to-the-2012-red-hat-summit/
 dsq_thread_id:
   - 3678928682
-categories:
-  - Blog Posts
 tags:
   - linux
   - red hat

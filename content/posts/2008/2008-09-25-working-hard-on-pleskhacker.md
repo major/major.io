@@ -1,13 +1,10 @@
 ---
 title: Working hard on PleskHacker
 author: Major Hayden
-type: post
 date: 2008-09-25T17:00:19+00:00
 url: /2008/09/25/working-hard-on-pleskhacker/
 dsq_thread_id:
   - 3678971406
-categories:
-  - Blog Posts
 tags:
   - plesk
   - wordpress

@@ -1,7 +1,6 @@
 ---
 title: Treason Uncloaked
 author: Major Hayden
-type: post
 date: 2007-01-31T21:58:48+00:00
 url: /2007/01/31/treason-uncloaked/
 dsq_thread_id:

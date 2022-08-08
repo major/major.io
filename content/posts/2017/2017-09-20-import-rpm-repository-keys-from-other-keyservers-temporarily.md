@@ -1,12 +1,9 @@
 ---
 title: Import RPM repository GPG keys from other keyservers temporarily
 author: Major Hayden
-type: post
 date: 2017-09-20T15:24:13+00:00
 url: /2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/
 featured_image: /wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - centos

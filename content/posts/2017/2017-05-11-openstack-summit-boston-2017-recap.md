@@ -1,12 +1,9 @@
 ---
 title: OpenStack Summit Boston 2017 Recap
 author: Major Hayden
-type: post
 date: 2017-05-12T00:25:55+00:00
 url: /2017/05/11/openstack-summit-boston-2017-recap/
 featured_image: /wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - development

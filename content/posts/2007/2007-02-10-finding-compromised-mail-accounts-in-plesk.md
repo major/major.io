@@ -1,7 +1,6 @@
 ---
 title: Finding compromised mail accounts in Plesk
 author: Major Hayden
-type: post
 date: 2007-02-10T16:35:23+00:00
 url: /2007/02/10/finding-compromised-mail-accounts-in-plesk/
 dsq_thread_id:

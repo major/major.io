@@ -1,15 +1,12 @@
 ---
 title: Upgraded to WordPress 2.7
 author: Major Hayden
-type: post
 date: 2008-12-26T03:45:39+00:00
 url: /2008/12/25/upgraded-to-wordpress-27/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805466
-categories:
-  - Blog Posts
 tags:
   - blog
   - wordpress

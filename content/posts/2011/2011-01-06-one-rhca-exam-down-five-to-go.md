@@ -1,14 +1,11 @@
 ---
 title: One RHCA exam down, five to go
 author: Major Hayden
-type: post
 date: 2011-01-07T02:24:49+00:00
 url: /2011/01/06/one-rhca-exam-down-five-to-go/
 featured_image: /wp-content/uploads/2011/01/Major_Hayden_EX442.jpg
 dsq_thread_id:
   - 3642806431
-categories:
-  - Blog Posts
 tags:
   - career
   - certification

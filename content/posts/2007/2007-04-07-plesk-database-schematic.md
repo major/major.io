@@ -1,13 +1,10 @@
 ---
 title: Plesk Database Schematic
 author: Major Hayden
-type: post
 date: 2007-04-07T15:00:03+00:00
 url: /2007/04/07/plesk-database-schematic/
 dsq_thread_id:
   - 3642766461
-categories:
-  - Blog Posts
 tags:
   - plesk
 

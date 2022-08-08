@@ -1,13 +1,10 @@
 ---
 title: Xen 4.5 crashes during boot on Fedora 22
 author: Major Hayden
-type: post
 date: 2015-05-27T12:33:21+00:00
 url: /2015/05/27/xen-4-5-crashes-during-boot-on-fedora-22/
 dsq_thread_id:
   - 3797709360
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gcc

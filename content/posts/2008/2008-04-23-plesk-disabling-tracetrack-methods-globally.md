@@ -1,7 +1,6 @@
 ---
 title: 'Plesk: Disabling TRACE/TRACK methods globally'
 author: Major Hayden
-type: post
 date: 2008-04-23T23:40:50+00:00
 url: /2008/04/23/plesk-disabling-tracetrack-methods-globally/
 dsq_thread_id:

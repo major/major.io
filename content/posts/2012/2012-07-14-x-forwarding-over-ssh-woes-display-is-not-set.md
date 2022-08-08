@@ -1,13 +1,10 @@
 ---
 title: 'X forwarding over ssh woes: DISPLAY is not set'
 author: Major Hayden
-type: post
 date: 2012-07-14T19:56:09+00:00
 url: /2012/07/14/x-forwarding-over-ssh-woes-display-is-not-set/
 dsq_thread_id:
   - 3642807009
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

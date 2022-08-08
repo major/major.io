@@ -1,13 +1,10 @@
 ---
 title: MySQLTuner is now a Fedora 9 package!
 author: Major Hayden
-type: post
 date: 2008-06-27T17:16:56+00:00
 url: /2008/06/27/mysqltuner-is-now-a-fedora-9-package/
 dsq_thread_id:
   - 3678981397
-categories:
-  - Blog Posts
 tags:
   - database
   - fedora

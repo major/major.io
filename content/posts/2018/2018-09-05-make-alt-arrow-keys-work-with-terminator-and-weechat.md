@@ -1,11 +1,8 @@
 ---
 title: Make alt-arrow keys work with terminator and weechat
 author: Major Hayden
-type: post
 date: 2018-09-06T03:43:30+00:00
 url: /2018/09/05/make-alt-arrow-keys-work-with-terminator-and-weechat/
-categories:
-  - Blog Posts
 tags:
   - irc
   - linux

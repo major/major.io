@@ -1,13 +1,10 @@
 ---
 title: Automatic package updates in CentOS 6
 author: Major Hayden
-type: post
 date: 2012-09-21T13:21:01+00:00
 url: /2012/09/21/automatic-package-updates-in-centos-6/
 dsq_thread_id:
   - 3642807073
-categories:
-  - Blog Posts
 tags:
   - centos
   - security

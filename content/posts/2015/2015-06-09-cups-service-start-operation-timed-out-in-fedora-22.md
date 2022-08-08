@@ -1,13 +1,10 @@
 ---
 title: cups.service start operation timed out in Fedora 22
 author: Major Hayden
-type: post
 date: 2015-06-09T14:35:48+00:00
 url: /2015/06/09/cups-service-start-operation-timed-out-in-fedora-22/
 dsq_thread_id:
   - 3834462486
-categories:
-  - Blog Posts
 tags:
   - dns
   - fedora

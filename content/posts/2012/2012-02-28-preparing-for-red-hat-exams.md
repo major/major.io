@@ -1,13 +1,10 @@
 ---
 title: Preparing for Red Hat Exams
 author: Major Hayden
-type: post
 date: 2012-02-28T21:35:28+00:00
 url: /2012/02/28/preparing-for-red-hat-exams/
 dsq_thread_id:
   - 3642806911
-categories:
-  - Blog Posts
 tags:
   - fedora
   - general advice

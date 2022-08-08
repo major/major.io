@@ -1,7 +1,6 @@
 ---
 title: MySQL connections in sleep state
 author: Major Hayden
-type: post
 date: 2007-05-21T03:26:11+00:00
 url: /2007/05/20/mysql-connections-in-sleep-state/
 dsq_thread_id:

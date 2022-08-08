@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner is now a Debian package
 author: Major Hayden
-type: post
 date: 2008-01-08T16:37:32+00:00
 url: /2008/01/08/mysqltuner-is-now-a-debian-package/
 dsq_thread_id:

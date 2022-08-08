@@ -1,7 +1,6 @@
 ---
 title: 451 Could not complete sender verify callout
 author: Major Hayden
-type: post
 date: 2007-03-29T14:17:06+00:00
 url: /2007/03/29/451-could-not-complete-sender-verify-callout/
 dsq_thread_id:

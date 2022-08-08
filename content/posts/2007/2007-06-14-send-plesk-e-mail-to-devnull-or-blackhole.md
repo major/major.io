@@ -1,7 +1,6 @@
 ---
 title: Send Plesk e-mail to /dev/null or blackhole
 author: Major Hayden
-type: post
 date: 2007-06-14T22:42:22+00:00
 url: /2007/06/14/send-plesk-e-mail-to-devnull-or-blackhole/
 dsq_thread_id:

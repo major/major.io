@@ -1,7 +1,6 @@
 ---
 title: Show hidden dot files in proftpd
 author: Major Hayden
-type: post
 date: 2007-05-17T01:46:59+00:00
 url: /2007/05/16/show-hidden-dot-files-in-proftpd/
 dsq_thread_id:

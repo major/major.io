@@ -1,13 +1,10 @@
 ---
 title: Apache’s mod_proxy, mod_ssl, and BitTorrent Sync
 author: Major Hayden
-type: post
 date: 2014-09-28T02:08:18+00:00
 url: /2014/09/27/apaches-mod_proxy-mod_ssl-bittorrent-sync/
 dsq_thread_id:
   - 3642807763
-categories:
-  - Blog Posts
 tags:
   - apache
   - fedora

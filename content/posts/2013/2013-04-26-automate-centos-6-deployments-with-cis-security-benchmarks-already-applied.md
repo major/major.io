@@ -1,13 +1,10 @@
 ---
 title: Automate CentOS 6 deployments with CIS Security Benchmarks already applied
 author: Major Hayden
-type: post
 date: 2013-04-26T14:15:24+00:00
 url: /2013/04/26/automate-centos-6-deployments-with-cis-security-benchmarks-already-applied/
 dsq_thread_id:
   - 3642807251
-categories:
-  - Blog Posts
 tags:
   - centos
   - development

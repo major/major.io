@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-09-22'
 summary: All of your GNOME and gtk applications are configured in i3 with a few
   simple tricks.
@@ -13,7 +11,6 @@ tags:
 - i3
 - linux
 title: Customize GNOME from i3
-type: post
 ---
 
 ![wrenches]

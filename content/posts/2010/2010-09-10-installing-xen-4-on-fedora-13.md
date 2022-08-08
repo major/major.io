@@ -1,13 +1,10 @@
 ---
 title: Installing Xen 4 on Fedora 13
 author: Major Hayden
-type: post
 date: 2010-09-10T13:56:49+00:00
 url: /2010/09/10/installing-xen-4-on-fedora-13/
 dsq_thread_id:
   - 3642824400
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

@@ -1,14 +1,11 @@
 ---
 title: Power 8 to the people
 author: Major Hayden
-type: post
 date: 2016-09-22T00:00:21+00:00
 url: /2016/09/21/power-8-to-the-people/
 featured_image: /wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg
 dsq_thread_id:
   - 5162895836
-categories:
-  - Blog Posts
 tags:
   - aix
   - ibm

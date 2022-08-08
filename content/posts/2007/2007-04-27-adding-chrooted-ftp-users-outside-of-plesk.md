@@ -1,7 +1,6 @@
 ---
 title: Adding chrooted FTP users outside of Plesk
 author: Major Hayden
-type: post
 date: 2007-04-27T15:51:59+00:00
 url: /2007/04/27/adding-chrooted-ftp-users-outside-of-plesk/
 dsq_thread_id:

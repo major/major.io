@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Upgrading the MySQL server'
 author: Major Hayden
-type: post
 date: 2008-01-11T23:44:54+00:00
 url: /2008/01/11/mysql-replication-upgrading-the-mysql-server/
 dsq_thread_id:

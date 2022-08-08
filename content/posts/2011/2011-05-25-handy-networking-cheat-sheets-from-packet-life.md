@@ -1,13 +1,10 @@
 ---
 title: Handy networking cheat sheets from Packet Life
 author: Major Hayden
-type: post
 date: 2011-05-25T13:38:45+00:00
 url: /2011/05/25/handy-networking-cheat-sheets-from-packet-life/
 dsq_thread_id:
   - 3642806571
-categories:
-  - Blog Posts
 tags:
   - networking
 

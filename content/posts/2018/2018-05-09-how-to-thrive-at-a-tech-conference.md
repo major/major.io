@@ -1,12 +1,9 @@
 ---
 title: How to thrive at a technical conference
 author: Major Hayden
-type: post
 date: 2018-05-09T23:54:28+00:00
 url: /2018/05/09/how-to-thrive-at-a-tech-conference/
 featured_image: /wp-content/uploads/2018/05/IMG_20180508_202748.jpg
-categories:
-  - Blog Posts
 tags:
   - conferences
   - fedora

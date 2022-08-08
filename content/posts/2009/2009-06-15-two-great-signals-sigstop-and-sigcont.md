@@ -1,13 +1,10 @@
 ---
 title: 'Two great signals: SIGSTOP and SIGCONT'
 author: Major Hayden
-type: post
 date: 2009-06-15T18:16:19+00:00
 url: /2009/06/15/two-great-signals-sigstop-and-sigcont/
 dsq_thread_id:
   - 3642805656
-categories:
-  - Blog Posts
 tags:
   - kernel
   - processes

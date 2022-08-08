@@ -1,7 +1,6 @@
 ---
 title: A week’s vacation
 author: Major Hayden
-type: post
 date: 2007-09-26T03:26:23+00:00
 url: /2007/09/25/weeks-vacation/
 dsq_thread_id:

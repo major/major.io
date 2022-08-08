@@ -1,13 +1,10 @@
 ---
 title: Enabling all tests with Nessus
 author: Major Hayden
-type: post
 date: 2008-07-15T17:00:03+00:00
 url: /2008/07/15/enabling-all-tests-with-nessus/
 dsq_thread_id:
   - 3667234766
-categories:
-  - Blog Posts
 tags:
   - nessus
   - security

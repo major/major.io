@@ -1,7 +1,6 @@
 ---
 title: Installing package groups with up2date
 author: Major Hayden
-type: post
 date: 2007-10-17T01:14:53+00:00
 url: /2007/10/16/installing-package-groups-with-up2date/
 dsq_thread_id:

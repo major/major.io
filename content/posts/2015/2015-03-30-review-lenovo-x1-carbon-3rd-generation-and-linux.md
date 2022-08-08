@@ -1,13 +1,10 @@
 ---
 title: 'Review: Lenovo X1 Carbon 3rd generation and Linux'
 author: Major Hayden
-type: post
 date: 2015-03-30T14:15:52+00:00
 url: /2015/03/30/review-lenovo-x1-carbon-3rd-generation-and-linux/
 dsq_thread_id:
   - 3642808074
-categories:
-  - Blog Posts
 tags:
   - fedora
   - general advice

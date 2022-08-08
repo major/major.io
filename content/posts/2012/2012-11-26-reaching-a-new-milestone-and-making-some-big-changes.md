@@ -1,13 +1,10 @@
 ---
 title: Reaching a new milestone and making some big changes
 author: Major Hayden
-type: post
 date: 2012-11-26T15:00:04+00:00
 url: /2012/11/26/reaching-a-new-milestone-and-making-some-big-changes/
 dsq_thread_id:
   - 3642807107
-categories:
-  - Blog Posts
 tags:
   - blog
   - fedora

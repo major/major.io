@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Redundancy'
 author: Major Hayden
-type: post
 date: 2008-01-04T02:39:11+00:00
 url: /2008/01/03/mysql-replication-redundancy/
 dsq_thread_id:

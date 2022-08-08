@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Replication: Horizontal Data Partitioning'
 author: Major Hayden
-type: post
 date: 2008-01-07T17:57:56+00:00
 url: /2008/01/07/mysql-replication-horizontal-data-partitioning/
 dsq_thread_id:

@@ -1,11 +1,8 @@
 ---
 title: Allow a port range with firewalld
 author: Major Hayden
-type: post
 date: "2019-01-04"
 slug: allow-port-range-with-firewalld
-categories:
-  - Blog Posts
 tags:
   - fedora
   - centos

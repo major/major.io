@@ -1,7 +1,6 @@
 ---
 title: 'qmail: This message is looping: it already has my Delivered-To line'
 author: Major Hayden
-type: post
 date: 2008-01-23T18:20:27+00:00
 url: /2008/01/23/qmail-this-message-is-looping-it-already-has-my-delivered-to-line/
 dsq_thread_id:

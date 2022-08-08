@@ -1,13 +1,10 @@
 ---
 title: Tap into your Linux system with SystemTap
 author: Major Hayden
-type: post
 date: 2010-12-08T02:27:02+00:00
 url: /2010/12/07/tap-into-your-linux-system-with-systemtap/
 dsq_thread_id:
   - 3642806365
-categories:
-  - Blog Posts
 tags:
   - advanced
   - centos

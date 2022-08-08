@@ -1,13 +1,10 @@
 ---
 title: Why I interviewed at Google and stayed at Rackspace
 author: Major Hayden
-type: post
 date: 2008-06-19T17:00:10+00:00
 url: /2008/06/19/my-interview-experience-at-google/
 dsq_thread_id:
   - 3642772213
-categories:
-  - Blog Posts
 tags:
   - rackspace
 

@@ -1,7 +1,6 @@
 ---
 title: Getting GrowlMail working with Apple Mail in Growl 1.1
 author: Major Hayden
-type: post
 date: 2007-09-10T04:44:10+00:00
 url: /2007/09/09/getting-growlmail-working-with-apple-mail-in-growl-11/
 dsq_thread_id:

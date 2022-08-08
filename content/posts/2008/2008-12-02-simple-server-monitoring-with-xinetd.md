@@ -1,15 +1,12 @@
 ---
 title: Simple server monitoring with xinetd
 author: Major Hayden
-type: post
 date: 2008-12-03T00:13:10+00:00
 url: /2008/12/02/simple-server-monitoring-with-xinetd/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805445
-categories:
-  - Blog Posts
 tags:
   - monitoring
   - xinetd

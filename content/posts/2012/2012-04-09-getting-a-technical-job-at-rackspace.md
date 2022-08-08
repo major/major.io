@@ -1,13 +1,10 @@
 ---
 title: Getting a Technical Job at Rackspace
 author: Major Hayden
-type: post
 date: 2012-04-09T14:00:56+00:00
 url: /2012/04/09/getting-a-technical-job-at-rackspace/
 dsq_thread_id:
   - 3642806933
-categories:
-  - Blog Posts
 tags:
   - general advice
   - interview

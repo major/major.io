@@ -1,7 +1,6 @@
 ---
 title: Can’t Kill Sendmail Processes
 author: Major Hayden
-type: post
 date: 2006-12-29T00:35:18+00:00
 url: /2006/12/28/cant-kill-sendmail-processes/
 dsq_thread_id:

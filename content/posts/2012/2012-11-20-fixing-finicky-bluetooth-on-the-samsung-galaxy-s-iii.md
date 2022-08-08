@@ -1,13 +1,10 @@
 ---
 title: Fixing finicky Bluetooth on the Samsung Galaxy S III
 author: Major Hayden
-type: post
 date: 2012-11-20T13:47:51+00:00
 url: /2012/11/20/fixing-finicky-bluetooth-on-the-samsung-galaxy-s-iii/
 dsq_thread_id:
   - 3659845406
-categories:
-  - Blog Posts
 
 ---
 The biggest gripe I have about my Android phone is that the Bluetooth connectivity is very finicky with my car. Sometimes the phone and car won't connect automatically when I start my car and there are other times where the initial connection is fine but then the car loses the connection to the phone while I'm driving. The problem crops up in multiple cars and the biggest suspect I've found so far is the Galaxy S III's use of [Bluetooth Low Energy (BLE)][1].

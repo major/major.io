@@ -1,13 +1,10 @@
 ---
 title: Strip off www from URLs with mod_rewrite
 author: Major Hayden
-type: post
 date: 2007-01-15T19:45:55+00:00
 url: /2007/01/15/strip-off-www-from-urls-with-mod_rewrite/
 dsq_thread_id:
   - 3646736558
-categories:
-  - Blog Posts
 tags:
   - web
 

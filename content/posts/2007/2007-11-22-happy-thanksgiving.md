@@ -1,7 +1,6 @@
 ---
 title: Happy Thanksgiving
 author: Major Hayden
-type: post
 date: 2007-11-23T04:20:36+00:00
 url: /2007/11/22/happy-thanksgiving/
 dsq_thread_id:

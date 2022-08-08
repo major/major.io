@@ -1,7 +1,6 @@
 ---
 title: Huge MySQLTuner overhaul
 author: Major Hayden
-type: post
 date: 2007-08-12T23:51:05+00:00
 url: /2007/08/12/huge-mysqltuner-overhaul/
 dsq_thread_id:

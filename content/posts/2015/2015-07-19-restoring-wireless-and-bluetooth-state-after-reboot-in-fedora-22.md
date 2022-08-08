@@ -1,13 +1,10 @@
 ---
 title: Restoring wireless and Bluetooth state after reboot in Fedora 22
 author: Major Hayden
-type: post
 date: 2015-07-19T22:14:30+00:00
 url: /2015/07/19/restoring-wireless-and-bluetooth-state-after-reboot-in-fedora-22/
 dsq_thread_id:
   - 3950628747
-categories:
-  - Blog Posts
 tags:
   - bluetooth
   - fedora

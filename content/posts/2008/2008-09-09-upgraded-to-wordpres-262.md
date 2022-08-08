@@ -1,13 +1,10 @@
 ---
 title: Upgraded to WordPress 2.6.2
 author: Major Hayden
-type: post
 date: 2008-09-10T03:16:53+00:00
 url: /2008/09/09/upgraded-to-wordpres-262/
 dsq_thread_id:
   - 3678973360
-categories:
-  - Blog Posts
 tags:
   - security
   - wordpress

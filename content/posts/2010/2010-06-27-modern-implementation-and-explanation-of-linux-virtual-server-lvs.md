@@ -1,15 +1,12 @@
 ---
 title: A modern implementation and explanation of Linux Virtual Server (LVS)
 author: Major Hayden
-type: post
 date: 2010-06-27T16:03:27+00:00
 url: /2010/06/27/modern-implementation-and-explanation-of-linux-virtual-server-lvs/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806177
-categories:
-  - Blog Posts
 tags:
   - general advice
   - high availability

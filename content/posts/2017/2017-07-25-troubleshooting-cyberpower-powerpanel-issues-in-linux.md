@@ -1,12 +1,9 @@
 ---
 title: Troubleshooting CyberPower PowerPanel issues in Linux
 author: Major Hayden
-type: post
 date: 2017-07-25T18:16:11+00:00
 url: /2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/
 featured_image: /wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg
-categories:
-  - Blog Posts
 tags:
   - cyberpower
   - fedora

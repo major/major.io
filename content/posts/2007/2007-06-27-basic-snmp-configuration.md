@@ -1,7 +1,6 @@
 ---
 title: Basic SNMP Configuration
 author: Major Hayden
-type: post
 date: 2007-06-27T23:06:21+00:00
 url: /2007/06/27/basic-snmp-configuration/
 dsq_thread_id:

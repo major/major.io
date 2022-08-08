@@ -1,13 +1,10 @@
 ---
 title: Strategies for storing backups
 author: Major Hayden
-type: post
 date: 2011-01-10T01:20:44+00:00
 url: /2011/01/09/strategies-for-storing-backups/
 dsq_thread_id:
   - 3642806480
-categories:
-  - Blog Posts
 tags:
   - emergency
   - general advice

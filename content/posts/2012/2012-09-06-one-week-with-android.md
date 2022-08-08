@@ -1,13 +1,10 @@
 ---
 title: One week with Android
 author: Major Hayden
-type: post
 date: 2012-09-07T03:53:42+00:00
 url: /2012/09/06/one-week-with-android/
 dsq_thread_id:
   - 3642807056
-categories:
-  - Blog Posts
 tags:
   - android
   - apple

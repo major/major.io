@@ -1,7 +1,6 @@
 ---
 title: Change Primary IP Address in Plesk
 author: Major Hayden
-type: post
 date: 2007-02-28T15:36:19+00:00
 url: /2007/02/28/change-primary-ip-address-in-plesk/
 dsq_thread_id:

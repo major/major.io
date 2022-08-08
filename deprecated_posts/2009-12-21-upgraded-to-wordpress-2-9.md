@@ -1,13 +1,10 @@
 ---
 title: Upgraded to WordPress 2.9
 author: Major Hayden
-type: post
 date: 2009-12-21T13:47:04+00:00
 url: /2009/12/21/upgraded-to-wordpress-2-9/
 dsq_thread_id:
   - 3642805872
-categories:
-  - Blog Posts
 tags:
   - security
   - wordpress

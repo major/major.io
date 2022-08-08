@@ -1,7 +1,6 @@
 ---
 title: Move domain between clients in Plesk
 author: Major Hayden
-type: post
 date: 2007-02-12T01:29:18+00:00
 url: /2007/02/11/move-domain-between-clients-in-plesk/
 dsq_thread_id:

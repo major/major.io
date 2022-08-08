@@ -1,13 +1,10 @@
 ---
 title: Improving LXC template security
 author: Major Hayden
-type: post
 date: 2015-06-18T19:52:11+00:00
 url: /2015/06/18/improving-lxc-template-security/
 dsq_thread_id:
   - 3859849191
-categories:
-  - Blog Posts
 tags:
   - centos
   - containers

@@ -1,7 +1,6 @@
 ---
 title: Verify that SSLv2 is disabled
 author: Major Hayden
-type: post
 date: 2007-01-24T15:57:51+00:00
 url: /2007/01/24/verify-that-sslv2-is-disabled/
 dsq_thread_id:

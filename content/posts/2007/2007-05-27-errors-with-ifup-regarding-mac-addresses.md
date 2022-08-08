@@ -1,7 +1,6 @@
 ---
 title: Errors with ifup regarding MAC addresses
 author: Major Hayden
-type: post
 date: 2007-05-27T16:44:55+00:00
 url: /2007/05/27/errors-with-ifup-regarding-mac-addresses/
 dsq_thread_id:

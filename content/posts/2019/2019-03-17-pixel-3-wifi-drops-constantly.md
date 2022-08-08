@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-03-17'
 images:
 - images/2019-03-17-google-pixel-phones.jpg
@@ -10,7 +8,6 @@ tags:
 - android
 - networking
 title: Pixel 3 Wi-Fi drops constantly
-type: post
 ---
 
 ![pixel_phones]

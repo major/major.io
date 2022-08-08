@@ -1,13 +1,10 @@
 ---
 title: Enabling VNC as a pseudo-KVM with VMWare Server
 author: Major Hayden
-type: post
 date: 2009-03-25T01:28:59+00:00
 url: /2009/03/24/enabling-vnc-as-a-pseudo-kvm-with-vmware-server/
 dsq_thread_id:
   - 3642805581
-categories:
-  - Blog Posts
 tags:
   - linux
   - mac

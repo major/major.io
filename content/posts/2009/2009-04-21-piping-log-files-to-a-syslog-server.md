@@ -1,13 +1,10 @@
 ---
 title: Piping log files to a syslog server
 author: Major Hayden
-type: post
 date: 2009-04-21T22:59:21+00:00
 url: /2009/04/21/piping-log-files-to-a-syslog-server/
 dsq_thread_id:
   - 3642717915
-categories:
-  - Blog Posts
 tags:
   - logs
   - syslog

@@ -1,7 +1,6 @@
 ---
 title: Apache’s mysterious trailing slash
 author: Major Hayden
-type: post
 date: 2007-03-23T13:20:27+00:00
 url: /2007/03/23/apaches-mysterious-trailing-slash/
 dsq_thread_id:

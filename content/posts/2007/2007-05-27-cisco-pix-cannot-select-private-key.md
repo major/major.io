@@ -1,7 +1,6 @@
 ---
 title: 'Cisco PIX: Cannot select private key'
 author: Major Hayden
-type: post
 date: 2007-05-28T02:10:13+00:00
 url: /2007/05/27/cisco-pix-cannot-select-private-key/
 dsq_thread_id:

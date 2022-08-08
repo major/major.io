@@ -1,13 +1,10 @@
 ---
 title: Disable acceleration for Apple’s Magic Mouse
 author: Major Hayden
-type: post
 date: 2009-12-03T13:55:41+00:00
 url: /2009/12/03/disable-acceleration-for-apples-magic-mouse/
 dsq_thread_id:
   - 3642805870
-categories:
-  - Blog Posts
 tags:
   - apple
   - mac

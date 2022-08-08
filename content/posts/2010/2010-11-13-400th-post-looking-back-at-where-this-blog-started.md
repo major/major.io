@@ -1,13 +1,10 @@
 ---
 title: '400th post: Looking back at where this blog started'
 author: Major Hayden
-type: post
 date: 2010-11-14T02:06:00+00:00
 url: /2010/11/13/400th-post-looking-back-at-where-this-blog-started/
 dsq_thread_id:
   - 3642806327
-categories:
-  - Blog Posts
 tags:
   - blog
   - general advice

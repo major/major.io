@@ -1,13 +1,10 @@
 ---
 title: Accessing Rackspace Cloud Servers and Slicehost slices privately via OpenVPN
 author: Major Hayden
-type: post
 date: 2010-11-16T13:52:53+00:00
 url: /2010/11/16/accessing-rackspace-cloud-servers-and-slicehost-slices-privately-via-openvpn/
 dsq_thread_id:
   - 3642806336
-categories:
-  - Blog Posts
 tags:
   - cloud
   - command line

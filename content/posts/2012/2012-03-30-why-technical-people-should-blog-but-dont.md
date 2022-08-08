@@ -1,13 +1,10 @@
 ---
 title: Why technical people should blog (but don’t)
 author: Major Hayden
-type: post
 date: 2012-03-30T14:30:45+00:00
 url: /2012/03/30/why-technical-people-should-blog-but-dont/
 dsq_thread_id:
   - 3642806918
-categories:
-  - Blog Posts
 tags:
   - blog
   - fedora

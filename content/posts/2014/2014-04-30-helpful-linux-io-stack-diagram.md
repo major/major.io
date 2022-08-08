@@ -1,13 +1,10 @@
 ---
 title: Helpful Linux I/O stack diagram
 author: Major Hayden
-type: post
 date: 2014-04-30T15:03:46+00:00
 url: /2014/04/30/helpful-linux-io-stack-diagram/
 dsq_thread_id:
   - 3642807487
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

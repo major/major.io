@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2019-12-12'
 summary: My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
   has arrived! Installing Linux creates some interesting challenges.
@@ -14,7 +12,6 @@ tags:
 - linux
 - thinkpad
 title: Thinkpad T490 Fedora install tips
-type: post
 ---
 
 > 🔨 **WORK IN PROGRESS!** I'm still finding some additional issues and I'll

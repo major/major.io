@@ -1,13 +1,10 @@
 ---
 title: Monitor MySQL restore progress with pv
 author: Major Hayden
-type: post
 date: 2010-11-24T16:43:28+00:00
 url: /2010/11/24/monitor-mysql-restore-progress-with-pv/
 dsq_thread_id:
   - 3642806347
-categories:
-  - Blog Posts
 tags:
   - command line
   - database

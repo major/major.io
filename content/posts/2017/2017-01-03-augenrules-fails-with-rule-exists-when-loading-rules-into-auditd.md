@@ -1,13 +1,10 @@
 ---
 title: augenrules fails with “rule exists” when loading rules into auditd
 author: Major Hayden
-type: post
 date: 2017-01-03T19:01:46+00:00
 url: /2017/01/03/augenrules-fails-with-rule-exists-when-loading-rules-into-auditd/
 dsq_thread_id:
   - 5432449334
-categories:
-  - Blog Posts
 tags:
   - ansible
   - auditd

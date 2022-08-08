@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2020-12-07'
 summary: Selling options puts you on the other side of the options contract from
   buyers, but it comes with obligations.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: 'The Dark Side: Selling Options'
-type: post
 ---
 
 {{< figure src="/images/2020-12-07-dark-hills.jpg" alt="Dark Hills" position="center" >}}

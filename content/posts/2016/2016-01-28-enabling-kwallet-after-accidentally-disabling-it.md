@@ -1,13 +1,10 @@
 ---
 title: Enabling kwallet after accidentally disabling it
 author: Major Hayden
-type: post
 date: 2016-01-28T16:27:44+00:00
 url: /2016/01/28/enabling-kwallet-after-accidentally-disabling-it/
 dsq_thread_id:
   - 4531177006
-categories:
-  - Blog Posts
 tags:
   - fedora
   - kde

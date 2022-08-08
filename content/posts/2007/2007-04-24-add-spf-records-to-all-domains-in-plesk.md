@@ -1,7 +1,6 @@
 ---
 title: Add SPF records to all domains in Plesk
 author: Major Hayden
-type: post
 date: 2007-04-24T16:28:31+00:00
 url: /2007/04/24/add-spf-records-to-all-domains-in-plesk/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Re-scan the SCSI bus in Linux after hot-swapping a drive
 author: Major Hayden
-type: post
 date: 2009-04-23T17:00:54+00:00
 url: /2009/04/23/re-scan-the-scsi-bus-in-linux-after-hot-swapping-a-drive/
 dsq_thread_id:
   - 3642805583
-categories:
-  - Blog Posts
 tags:
   - emergency
   - hard disk

@@ -1,13 +1,10 @@
 ---
 title: Encrypted filesystems and partitions on RHEL 5
 author: Major Hayden
-type: post
 date: 2008-09-02T01:55:36+00:00
 url: /2008/09/01/encrypted-filesystems-and-partitions-on-rhel-5/
 dsq_thread_id:
   - 3642771829
-categories:
-  - Blog Posts
 tags:
   - encryption
   - red hat

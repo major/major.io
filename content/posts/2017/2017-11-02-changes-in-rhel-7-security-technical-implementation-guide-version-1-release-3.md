@@ -1,12 +1,9 @@
 ---
 title: Changes in RHEL 7 Security Technical Implementation Guide Version 1, Release 3
 author: Major Hayden
-type: post
 date: 2017-11-02T15:00:25+00:00
 url: /2017/11/02/changes-in-rhel-7-security-technical-implementation-guide-version-1-release-3/
 featured_image: /wp-content/uploads/2017/06/2.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - centos

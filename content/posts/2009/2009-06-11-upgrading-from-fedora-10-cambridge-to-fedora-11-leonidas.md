@@ -1,15 +1,12 @@
 ---
 title: Upgrading from Fedora 10 (Cambridge) to Fedora 11 (Leonidas)
 author: Major Hayden
-type: post
 date: 2009-06-11T17:48:39+00:00
 url: /2009/06/11/upgrading-from-fedora-10-cambridge-to-fedora-11-leonidas/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805630
-categories:
-  - Blog Posts
 tags:
   - fedora
   - rpm

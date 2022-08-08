@@ -1,13 +1,10 @@
 ---
 title: Keep tabs on OpenStack development with OpenStack Watch on Twitter
 author: Major Hayden
-type: post
 date: 2012-06-08T12:19:26+00:00
 url: /2012/06/08/keep-tabs-on-openstack-development-with-openstack-watch-on-twitter/
 dsq_thread_id:
   - 3678930456
-categories:
-  - Blog Posts
 tags:
   - development
   - openstack

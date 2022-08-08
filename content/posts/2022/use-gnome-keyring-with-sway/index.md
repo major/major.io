@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-08-05'
 summary: >-
   Add encrypted ssh keys to your workflow more efficiently with gnome-keyring
@@ -14,10 +12,13 @@ tags:
   - ssh
   - sway
 title: Use GNOME Keyring with Sway
-type: post
 ---
 
-*Photo credit: [Isuru Ranasinha](https://unsplash.com/photos/WC0zbuOofRs)*
+{{< figure 
+    src="cover.jpg" 
+    alt="Cute chipmunk-looking animal on a big green leaf" 
+    caption="Photo credit: [Isuru Ranasinha](https://unsplash.com/photos/WC0zbuOofRs)"
+    >}}
 
 [SSH key authentication] makes it easier to secure SSH servers and it opens the door to automation with projects such as [Ansible].
 However, working with encrypted SSH keys becomes tedious when you have several of them for different services.
@@ -25,7 +26,7 @@ This is where an SSH agent can help!
 
 But before we talk about SSH agents:
 
-{{< image src="padme-encrypts-ssh-keys.jpg" alt="Padme meme where she asks Anakin about encrypting his ssh keys" position="center" >}}
+{{< figure src="padme-encrypts-ssh-keys.jpg" alt="Padme meme where she asks Anakin about encrypting his ssh keys" default="true" class="text-center" >}}
 
 _You do, don't you?_ 🤔
 
@@ -191,7 +192,7 @@ export SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 Open a new terminal or reload your shell with `source ~/.bashrc` or `source ~/.zshrc`.
 Run `ssh` to connect to a server with an encrypted key and you should get a password prompt like this one:
 
-{{< image src="password-prompt.png" alt="Password prompt from GNOME Keyring" position="center" >}}
+{{< figure src="password-prompt.png" alt="Password prompt from GNOME Keyring" class="justify-center" default="true" >}}
 
 # Extra credit
 

@@ -1,13 +1,10 @@
 ---
 title: systemd-networkd on Ubuntu 16.04 LTS (Xenial)
 author: Major Hayden
-type: post
 date: 2017-01-15T15:24:40+00:00
 url: /2017/01/15/systemd-networkd-on-ubuntu-16-04-lts-xenial/
 dsq_thread_id:
   - 5464778870
-categories:
-  - Blog Posts
 tags:
   - networking
   - openstack

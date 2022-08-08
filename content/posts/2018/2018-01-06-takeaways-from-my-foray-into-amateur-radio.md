@@ -1,12 +1,9 @@
 ---
 title: Takeaways from my foray into amateur radio
 author: Major Hayden
-type: post
 date: 2018-01-06T19:26:53+00:00
 url: /2018/01/06/takeaways-from-my-foray-into-amateur-radio/
 featured_image: /wp-content/uploads/2018/01/kenwood_mobile_radio.jpg
-categories:
-  - Blog Posts
 tags:
   - fedora
   - radio

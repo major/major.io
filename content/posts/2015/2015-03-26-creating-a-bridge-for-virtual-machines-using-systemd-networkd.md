@@ -1,13 +1,10 @@
 ---
 title: Creating a bridge for virtual machines using systemd-networkd
 author: Major Hayden
-type: post
 date: 2015-03-26T13:17:08+00:00
 url: /2015/03/26/creating-a-bridge-for-virtual-machines-using-systemd-networkd/
 dsq_thread_id:
   - 3642808072
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

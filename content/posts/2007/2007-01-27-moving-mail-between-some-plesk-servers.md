@@ -1,7 +1,6 @@
 ---
 title: Moving mail between some Plesk servers
 author: Major Hayden
-type: post
 date: 2007-01-27T18:29:24+00:00
 url: /2007/01/27/moving-mail-between-some-plesk-servers/
 dsq_thread_id:

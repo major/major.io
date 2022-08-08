@@ -1,7 +1,6 @@
 ---
 title: WordPress permalinks in Lighttpd
 author: Major Hayden
-type: post
 date: 2007-04-08T23:21:17+00:00
 url: /2007/04/08/wordpress-permalinks-in-lighttpd/
 dsq_thread_id:

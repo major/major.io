@@ -1,11 +1,8 @@
 ---
 title: Customizing systemd’s network device names
 author: Major Hayden
-type: post
 date: 2015-09-29T02:08:22+00:00
 url: /2015/09/28/customizing-systemds-network-device-names/
-categories:
-  - Blog Posts
 tags:
   - fedora
   - network

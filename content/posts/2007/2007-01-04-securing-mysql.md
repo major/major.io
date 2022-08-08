@@ -1,7 +1,6 @@
 ---
 title: Securing MySQL
 author: Major Hayden
-type: post
 date: 2007-01-05T01:46:19+00:00
 url: /2007/01/04/securing-mysql/
 dsq_thread_id:

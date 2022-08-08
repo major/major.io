@@ -1,13 +1,10 @@
 ---
 title: Late night virtualization frustration with kvm
 author: Major Hayden
-type: post
 date: 2013-03-20T05:07:21+00:00
 url: /2013/03/20/late-night-virtualization-frustration-with-kvm/
 dsq_thread_id:
   - 3642807146
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

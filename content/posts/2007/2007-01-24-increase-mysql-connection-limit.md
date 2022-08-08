@@ -1,13 +1,10 @@
 ---
 title: Increase MySQL connection limit
 author: Major Hayden
-type: post
 date: 2007-01-24T17:21:37+00:00
 url: /2007/01/24/increase-mysql-connection-limit/
 dsq_thread_id:
   - 3642764892
-categories:
-  - Blog Posts
 tags:
   - database
 

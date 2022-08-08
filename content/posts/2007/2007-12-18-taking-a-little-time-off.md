@@ -1,7 +1,6 @@
 ---
 title: Taking a little time off
 author: Major Hayden
-type: post
 date: 2007-12-18T18:02:42+00:00
 url: /2007/12/18/taking-a-little-time-off/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: 'Fight SOPA & PIPA'
 author: Major Hayden
-type: post
 date: 2012-01-12T13:36:38+00:00
 url: /2012/01/12/fight-sopa-and-pipa/
 dsq_thread_id:
   - 3678937352
-categories:
-  - Blog Posts
 tags:
   - open source
   - sopa

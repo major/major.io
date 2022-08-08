@@ -1,13 +1,10 @@
 ---
 title: A New Year System Administrator Inspiration
 author: Major Hayden
-type: post
 date: 2010-01-04T02:53:53+00:00
 url: /2010/01/03/a-new-year-system-administrator-inspiration/
 dsq_thread_id:
   - 3642805921
-categories:
-  - Blog Posts
 tags:
   - apache
   - general advice

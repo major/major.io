@@ -1,13 +1,10 @@
 ---
 title: Troubleshooting OpenStack network connectivity
 author: Major Hayden
-type: post
 date: 2016-05-17T02:43:41+00:00
 url: /2016/05/16/troubleshooting-openstack-network-connectivity/
 dsq_thread_id:
   - 4833149630
-categories:
-  - Blog Posts
 tags:
   - general advice
   - network

@@ -1,13 +1,10 @@
 ---
 title: Adventures with GRE and IPSec on Mikrotik routers
 author: Major Hayden
-type: post
 date: 2015-05-27T13:46:28+00:00
 url: /2015/05/27/adventures-with-gre-and-ipsec-on-mikrotik-routers/
 dsq_thread_id:
   - 3797893733
-categories:
-  - Blog Posts
 tags:
   - general advice
   - ipsec

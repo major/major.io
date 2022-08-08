@@ -1,7 +1,6 @@
 ---
 title: Reducing locking delays in MySQL
 author: Major Hayden
-type: post
 date: 2008-04-16T17:32:50+00:00
 url: /2008/04/16/reducing-locking-delays-in-mysql/
 dsq_thread_id:

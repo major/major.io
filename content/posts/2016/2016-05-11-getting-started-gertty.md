@@ -1,13 +1,10 @@
 ---
 title: Getting started with gertty
 author: Major Hayden
-type: post
 date: 2016-05-11T13:45:53+00:00
 url: /2016/05/11/getting-started-gertty/
 dsq_thread_id:
   - 4817918506
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

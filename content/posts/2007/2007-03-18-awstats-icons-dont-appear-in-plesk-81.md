@@ -1,7 +1,6 @@
 ---
 title: AWStats icons don’t appear in Plesk 8.1
 author: Major Hayden
-type: post
 date: 2007-03-18T19:17:26+00:00
 url: /2007/03/18/awstats-icons-dont-appear-in-plesk-81/
 dsq_thread_id:

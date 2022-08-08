@@ -1,13 +1,10 @@
 ---
 title: Get a rock-solid Linux touchpad configuration for the Lenovo X1 Carbon
 author: Major Hayden
-type: post
 date: 2013-08-24T20:28:35+00:00
 url: /2013/08/24/get-a-rock-solid-linux-touchpad-configuration-for-the-lenovo-x1-carbon/
 dsq_thread_id:
   - 3642807338
-categories:
-  - Blog Posts
 tags:
   - fedora
   - thinkpad

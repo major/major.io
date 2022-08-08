@@ -1,7 +1,6 @@
 ---
 title: Change Plesk back to short mail names
 author: Major Hayden
-type: post
 date: 2007-08-21T00:46:50+00:00
 url: /2007/08/20/change-plesk-back-to-short-mail-names/
 dsq_thread_id:

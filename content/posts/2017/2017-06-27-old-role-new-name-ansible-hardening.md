@@ -1,11 +1,8 @@
 ---
 title: 'Old role, new name: ansible-hardening'
 author: Major Hayden
-type: post
 date: 2017-06-27T20:49:44+00:00
 url: /2017/06/27/old-role-new-name-ansible-hardening/
-categories:
-  - Blog Posts
 tags:
   - ansible
   - information security

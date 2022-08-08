@@ -1,7 +1,6 @@
 ---
 title: 'sendmail: savemail panic'
 author: Major Hayden
-type: post
 date: 2008-02-18T18:56:37+00:00
 url: /2008/02/18/sendmail-savemail-panic/
 dsq_thread_id:

@@ -1,15 +1,12 @@
 ---
 title: 'System Administration Inspiration: If it’s broken, break it a little more'
 author: Major Hayden
-type: post
 date: 2010-02-28T16:47:16+00:00
 url: /2010/02/28/system-administration-inspiration-if-its-broken-break-it-a-little-more/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805937
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

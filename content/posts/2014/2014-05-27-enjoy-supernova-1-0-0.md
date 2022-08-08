@@ -1,13 +1,10 @@
 ---
 title: Enjoy supernova 1.0.0
 author: Major Hayden
-type: post
 date: 2014-05-27T13:19:31+00:00
 url: /2014/05/27/enjoy-supernova-1-0-0/
 dsq_thread_id:
   - 3642807549
-categories:
-  - Blog Posts
 tags:
   - development
   - openstack

@@ -1,7 +1,6 @@
 ---
 title: Attractive aterm/rxvt .Xdefaults configuration
 author: Major Hayden
-type: post
 date: 2007-11-04T18:04:27+00:00
 url: /2007/11/04/attractive-atermrxvt-xdefaults-configuration/
 dsq_thread_id:

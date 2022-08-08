@@ -1,7 +1,6 @@
 ---
 title: Reset MySQL root password
 author: Major Hayden
-type: post
 date: 2007-03-26T03:27:33+00:00
 url: /2007/03/25/reset-mysql-root-password/
 dsq_thread_id:

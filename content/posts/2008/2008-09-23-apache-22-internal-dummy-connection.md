@@ -1,13 +1,10 @@
 ---
 title: 'Apache 2.2: internal dummy connection'
 author: Major Hayden
-type: post
 date: 2008-09-24T01:42:21+00:00
 url: /2008/09/23/apache-22-internal-dummy-connection/
 dsq_thread_id:
   - 3642771707
-categories:
-  - Blog Posts
 tags:
   - apache
   - mod_rewrite

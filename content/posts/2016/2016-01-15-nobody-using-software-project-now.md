@@ -1,11 +1,8 @@
 ---
 title: Nobody is using your software project. Now what?
 author: Major Hayden
-type: post
 date: 2016-01-15T17:35:48+00:00
 url: /2016/01/15/nobody-using-software-project-now/
-categories:
-  - Blog Posts
 tags:
   - development
   - general advice

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-11-01'
 summary: >-
   Provision services on Microsoft's Azure CLI on Fedora 35. 💙
@@ -15,7 +13,6 @@ tags:
 - linux
 - python
 title: Install Azure CLI on Fedora 35
-type: post
 ---
 
 {{< figure src="/images/2021-11-01-ocean-through-porthole.jpg" alt="Blue ocean viewed through a boat's porthole" position="center" >}}

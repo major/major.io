@@ -1,13 +1,10 @@
 ---
 title: Backing up MySQL to Amazon’s S3
 author: Major Hayden
-type: post
 date: 2008-06-06T00:18:49+00:00
 url: /2008/06/05/backing-up-mysql-to-amazons-s3/
 dsq_thread_id:
   - 3657372042
-categories:
-  - Blog Posts
 tags:
   - mysql
   - perl

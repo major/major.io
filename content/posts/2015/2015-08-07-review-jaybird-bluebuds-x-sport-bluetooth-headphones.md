@@ -1,13 +1,10 @@
 ---
 title: 'Review: JayBird BlueBuds X Sport Bluetooth Headphones'
 author: Major Hayden
-type: post
 date: 2015-08-07T13:36:20+00:00
 url: /2015/08/07/review-jaybird-bluebuds-x-sport-bluetooth-headphones/
 dsq_thread_id:
   - 4011785468
-categories:
-  - Blog Posts
 tags:
   - android
   - exercise

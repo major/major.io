@@ -1,12 +1,9 @@
 ---
 title: Reaching the fork in the road
 author: Major Hayden
-type: post
 date: 2018-03-07T16:18:51+00:00
 url: /2018/03/07/reaching-the-fork-in-the-road/
 featured_image: /wp-content/uploads/2018/03/1024px-Mountain_trail_in_Panachaiko_mountains_Greece.jpg
-categories:
-  - Blog Posts
 tags:
   - cloud
   - fedora

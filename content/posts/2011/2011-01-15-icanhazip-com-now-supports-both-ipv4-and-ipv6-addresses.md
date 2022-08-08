@@ -1,13 +1,10 @@
 ---
 title: icanhazip.com now supports both IPv4 and IPv6 addresses
 author: Major Hayden
-type: post
 date: 2011-01-15T14:08:12+00:00
 url: /2011/01/15/icanhazip-com-now-supports-both-ipv4-and-ipv6-addresses/
 dsq_thread_id:
   - 3642806485
-categories:
-  - Blog Posts
 tags:
   - icanhazip
   - ipv6

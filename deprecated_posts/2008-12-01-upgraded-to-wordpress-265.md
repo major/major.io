@@ -1,15 +1,12 @@
 ---
 title: Upgraded to WordPress 2.6.5
 author: Major Hayden
-type: post
 date: 2008-12-02T00:18:51+00:00
 url: /2008/12/01/upgraded-to-wordpress-265/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678968938
-categories:
-  - Blog Posts
 tags:
   - wordpress
 

@@ -1,14 +1,11 @@
 ---
 title: Chrome 43 stuck in HiDPI mode
 author: Major Hayden
-type: post
 date: 2015-06-10T12:36:03+00:00
 url: /2015/06/10/chrome-43-stuck-in-hidpi-mode/
 featured_image: /wp-content/uploads/2015/06/Google_Chrome_icon_2011.png
 dsq_thread_id:
   - 3837065488
-categories:
-  - Blog Posts
 tags:
   - chrome
   - fedora

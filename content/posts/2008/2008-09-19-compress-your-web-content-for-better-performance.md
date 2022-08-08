@@ -1,13 +1,10 @@
 ---
 title: Compress your web content for better performance
 author: Major Hayden
-type: post
 date: 2008-09-19T17:00:47+00:00
 url: /2008/09/19/compress-your-web-content-for-better-performance/
 dsq_thread_id:
   - 3642771672
-categories:
-  - Blog Posts
 tags:
   - apache
   - development

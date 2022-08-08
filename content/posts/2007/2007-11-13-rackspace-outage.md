@@ -1,7 +1,6 @@
 ---
 title: Rackspace Outage
 author: Major Hayden
-type: post
 date: 2007-11-14T00:34:11+00:00
 url: /2007/11/13/rackspace-outage/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: MySQLTuner 0.9.1 available for Mandriva users
 author: Major Hayden
-type: post
 date: 2008-06-22T02:54:03+00:00
 url: /2008/06/21/mysqltuner-091-available-for-mandriva-users/
 dsq_thread_id:
   - 3678982437
-categories:
-  - Blog Posts
 tags:
   - database
   - mandriva

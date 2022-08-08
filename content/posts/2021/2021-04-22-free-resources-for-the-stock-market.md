@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-04-22'
 summary: Investing in stock or trading options is complicated, but there are plenty
   of free resources available to make research easier.
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Free resources for the stock market
-type: post
 ---
 
 {{< figure src="/images/2021-04-22-free-stock-market-resources-vienna.jpg" alt="Vienna, Austria skyline" position="center" >}}

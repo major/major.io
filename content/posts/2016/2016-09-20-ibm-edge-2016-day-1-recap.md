@@ -1,13 +1,10 @@
 ---
 title: 'IBM Edge 2016: Day 1 Recap'
 author: Major Hayden
-type: post
 date: 2016-09-20T20:19:48+00:00
 url: /2016/09/20/ibm-edge-2016-day-1-recap/
 dsq_thread_id:
   - 5159712495
-categories:
-  - Blog Posts
 tags:
   - hardware
   - ibm

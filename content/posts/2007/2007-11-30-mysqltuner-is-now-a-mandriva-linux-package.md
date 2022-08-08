@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner is now a Mandriva Linux package!
 author: Major Hayden
-type: post
 date: 2007-11-30T18:49:32+00:00
 url: /2007/11/30/mysqltuner-is-now-a-mandriva-linux-package/
 dsq_thread_id:

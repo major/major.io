@@ -1,7 +1,6 @@
 ---
 title: Group Editing With FTP
 author: Major Hayden
-type: post
 date: 2006-12-27T03:44:55+00:00
 url: /2006/12/26/group-editing-with-vsftpd/
 dsq_thread_id:

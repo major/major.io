@@ -1,7 +1,6 @@
 ---
 title: Fighting DDOS attacks in Linux
 author: Major Hayden
-type: post
 date: 2007-02-07T13:45:43+00:00
 url: /2007/02/07/fighting-ddos-attacks-in-linux/
 dsq_thread_id:

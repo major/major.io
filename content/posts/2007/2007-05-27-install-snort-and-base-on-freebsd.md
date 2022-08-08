@@ -1,7 +1,6 @@
 ---
 title: Install snort and BASE on FreeBSD
 author: Major Hayden
-type: post
 date: 2007-05-27T22:23:17+00:00
 url: /2007/05/27/install-snort-and-base-on-freebsd/
 dsq_thread_id:

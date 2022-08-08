@@ -1,13 +1,10 @@
 ---
 title: Native IPv6 connectivity in Mikrotik’s RouterOS
 author: Major Hayden
-type: post
 date: 2012-01-11T13:30:07+00:00
 url: /2012/01/11/native-ipv6-connectivity-in-mikrotiks-routeros/
 dsq_thread_id:
   - 3642806753
-categories:
-  - Blog Posts
 tags:
   - command line
   - ipv6

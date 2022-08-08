@@ -1,13 +1,10 @@
 ---
 title: What my toddler taught me about information security
 author: Major Hayden
-type: post
 date: 2013-01-13T17:15:47+00:00
 url: /2013/01/13/what-my-toddler-taught-me-about-information-security/
 dsq_thread_id:
   - 3678919731
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

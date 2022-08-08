@@ -1,7 +1,6 @@
 ---
 title: Adjusting qmail queue time / lifetime
 author: Major Hayden
-type: post
 date: 2007-06-14T22:58:01+00:00
 url: /2007/06/14/adjusting-qmail-queue-time-lifetime/
 dsq_thread_id:

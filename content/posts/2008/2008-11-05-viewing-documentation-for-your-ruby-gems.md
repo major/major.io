@@ -1,15 +1,12 @@
 ---
 title: Viewing documentation for your ruby gems
 author: Major Hayden
-type: post
 date: 2008-11-06T00:14:57+00:00
 url: /2008/11/05/viewing-documentation-for-your-ruby-gems/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805362
-categories:
-  - Blog Posts
 tags:
   - ruby
 

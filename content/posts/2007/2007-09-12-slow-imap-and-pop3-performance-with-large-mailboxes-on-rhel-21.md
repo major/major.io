@@ -1,7 +1,6 @@
 ---
 title: Slow IMAP and POP3 performance with large mailboxes on RHEL 2.1
 author: Major Hayden
-type: post
 date: 2007-09-12T13:00:32+00:00
 url: /2007/09/12/slow-imap-and-pop3-performance-with-large-mailboxes-on-rhel-21/
 dsq_thread_id:

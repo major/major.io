@@ -1,13 +1,10 @@
 ---
 title: Using play/pause buttons in Chrome with GNOME 3
 author: Major Hayden
-type: post
 date: 2015-02-20T14:21:44+00:00
 url: /2015/02/20/using-playpause-buttons-in-chrome-with-gnome-3/
 dsq_thread_id:
   - 3642808071
-categories:
-  - Blog Posts
 tags:
   - chrome
   - fedora

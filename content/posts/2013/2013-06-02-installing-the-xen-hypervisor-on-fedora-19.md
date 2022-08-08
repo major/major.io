@@ -1,13 +1,10 @@
 ---
 title: Installing the Xen hypervisor on Fedora 19
 author: Major Hayden
-type: post
 date: 2013-06-03T04:27:43+00:00
 url: /2013/06/02/installing-the-xen-hypervisor-on-fedora-19/
 dsq_thread_id:
   - 3642807297
-categories:
-  - Blog Posts
 tags:
   - command line
   - fedora

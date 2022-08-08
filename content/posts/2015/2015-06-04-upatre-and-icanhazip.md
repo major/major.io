@@ -1,13 +1,10 @@
 ---
 title: Upatre and icanhazip
 author: Major Hayden
-type: post
 date: 2015-06-05T02:01:19+00:00
 url: /2015/06/04/upatre-and-icanhazip/
 dsq_thread_id:
   - 3822319786
-categories:
-  - Blog Posts
 tags:
   - icanhazip
   - security

@@ -1,13 +1,10 @@
 ---
 title: 'Automated security hardening with Ansible: May updates'
 author: Major Hayden
-type: post
 date: 2016-05-27T02:40:33+00:00
 url: /2016/05/26/automated-security-hardening-with-ansible-may-updates/
 dsq_thread_id:
   - 4860980174
-categories:
-  - Blog Posts
 tags:
   - centos
   - openstack

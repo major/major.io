@@ -1,7 +1,6 @@
 ---
 title: Change the default Apache character set
 author: Major Hayden
-type: post
 date: 2007-11-15T18:09:01+00:00
 url: /2007/11/15/change-the-default-apache-character-set/
 dsq_thread_id:

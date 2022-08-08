@@ -1,13 +1,10 @@
 ---
 title: 'Plesk 8.4.0: Unable to use short names for POP3/IMAP'
 author: Major Hayden
-type: post
 date: 2008-07-28T16:08:50+00:00
 url: /2008/07/28/plesk-840-unable-to-use-short-names-for-pop3imap/
 dsq_thread_id:
   - 3644424358
-categories:
-  - Blog Posts
 tags:
   - courier-imap
   - imap

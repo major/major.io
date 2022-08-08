@@ -1,13 +1,10 @@
 ---
 title: 'MySQL: Errcode: 24 when using LOCK TABLES'
 author: Major Hayden
-type: post
 date: 2007-08-20T03:07:30+00:00
 url: /2007/08/19/mysql-errcode-24-when-using-lock-tables/
 dsq_thread_id:
   - 3642769458
-categories:
-  - Blog Posts
 tags:
   - database
 

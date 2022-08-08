@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-10-14'
 summary: >-
     Adjust the LED backlight on your laptop quickly in i3 on Linux. 💡
@@ -14,7 +12,6 @@ tags:
 - laptop
 - linux
 title: Backlight control with i3
-type: post
 ---
 
 {{< figure src="/images/2021-10-14-window-blinds-curtains.jpg" alt="Light shining through blinds and a curtain against a wall" position="center" >}}

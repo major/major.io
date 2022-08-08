@@ -1,13 +1,10 @@
 ---
 title: More upgrades for icanhazip.com
 author: Major Hayden
-type: post
 date: 2013-02-23T20:15:24+00:00
 url: /2013/02/23/more-upgrades-for-icanhazip-com/
 dsq_thread_id:
   - 3642807123
-categories:
-  - Blog Posts
 
 ---
 The feature requests for icanhazip.com finally pushed me over the edge and I've made some significant changes. Here we go:

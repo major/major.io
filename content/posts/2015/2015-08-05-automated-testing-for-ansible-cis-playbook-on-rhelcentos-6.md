@@ -1,13 +1,10 @@
 ---
 title: Automated testing for Ansible CIS playbook on RHEL/CentOS 6
 author: Major Hayden
-type: post
 date: 2015-08-05T13:13:52+00:00
 url: /2015/08/05/automated-testing-for-ansible-cis-playbook-on-rhelcentos-6/
 dsq_thread_id:
   - 4005367241
-categories:
-  - Blog Posts
 tags:
   - ansible
   - centos

@@ -1,13 +1,10 @@
 ---
 title: Migrate KVM virtual machines from CentOS 6 to Fedora 18 without the luxury of shared storage
 author: Major Hayden
-type: post
 date: 2013-05-22T15:15:36+00:00
 url: /2013/05/22/migrate-kvm-virtual-machines-from-centos-6-to-fedora-18-without-the-luxury-of-shared-storage/
 dsq_thread_id:
   - 3642807287
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

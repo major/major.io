@@ -1,7 +1,6 @@
 ---
 title: Postgres process listing
 author: Major Hayden
-type: post
 date: 2007-06-07T04:44:39+00:00
 url: /2007/06/06/postgres-process-listing/
 dsq_thread_id:

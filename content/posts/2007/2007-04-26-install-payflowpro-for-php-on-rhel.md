@@ -1,7 +1,6 @@
 ---
 title: Install PayFlowPro for PHP on RHEL
 author: Major Hayden
-type: post
 date: 2007-04-26T22:06:35+00:00
 url: /2007/04/26/install-payflowpro-for-php-on-rhel/
 dsq_thread_id:

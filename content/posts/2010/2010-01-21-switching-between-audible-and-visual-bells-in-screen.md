@@ -1,13 +1,10 @@
 ---
 title: Switching between audible and visual bells in screen
 author: Major Hayden
-type: post
 date: 2010-01-21T14:37:09+00:00
 url: /2010/01/21/switching-between-audible-and-visual-bells-in-screen/
 dsq_thread_id:
   - 3646701431
-categories:
-  - Blog Posts
 tags:
   - command line
   - irc

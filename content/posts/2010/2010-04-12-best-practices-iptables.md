@@ -1,15 +1,12 @@
 ---
 title: 'Best practices: iptables'
 author: Major Hayden
-type: post
 date: 2010-04-12T13:35:31+00:00
 url: /2010/04/12/best-practices-iptables/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642806121
-categories:
-  - Blog Posts
 
 ---
 Anyone who has used [iptables][1] before has locked themselves out of a remote server at least once. It's easily avoided, but often forgotten. Lots of people have asked me for a list of best practices for iptables firewalls and I certainly hope this post helps.

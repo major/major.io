@@ -1,13 +1,10 @@
 ---
 title: The Kerberos-hater’s guide to installing Kerberos
 author: Major Hayden
-type: post
 date: 2012-02-05T21:03:52+00:00
 url: /2012/02/05/the-kerberos-haters-guide-to-installing-kerberos/
 dsq_thread_id:
   - 3642806833
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

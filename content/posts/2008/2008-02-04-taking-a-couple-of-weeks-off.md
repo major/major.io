@@ -1,7 +1,6 @@
 ---
 title: Taking a couple of weeks off
 author: Major Hayden
-type: post
 date: 2008-02-05T00:23:30+00:00
 url: /2008/02/04/taking-a-couple-of-weeks-off/
 dsq_thread_id:

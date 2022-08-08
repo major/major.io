@@ -1,13 +1,10 @@
 ---
 title: Fight cynicism with curiosity
 author: Major Hayden
-type: post
 date: 2016-02-17T15:30:14+00:00
 url: /2016/02/17/fight-cynicism-curiosity/
 dsq_thread_id:
   - 4587467280
-categories:
-  - Blog Posts
 tags:
   - development
   - general advice

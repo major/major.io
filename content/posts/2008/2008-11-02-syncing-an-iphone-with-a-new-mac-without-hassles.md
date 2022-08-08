@@ -1,13 +1,10 @@
 ---
 title: Syncing an iPhone with a new Mac without hassles
 author: Major Hayden
-type: post
 date: 2008-11-02T16:56:23+00:00
 url: /2008/11/02/syncing-an-iphone-with-a-new-mac-without-hassles/
 dsq_thread_id:
   - 3642805302
-categories:
-  - Blog Posts
 tags:
   - apple
   - iphone

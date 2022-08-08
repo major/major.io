@@ -1,13 +1,10 @@
 ---
 title: Time Warner Road Runner, Linux, and large IPv6 subnets
 author: Major Hayden
-type: post
 date: 2015-09-11T21:08:44+00:00
 url: /2015/09/11/time-warner-road-runner-linux-and-large-ipv6-subnets/
 dsq_thread_id:
   - 4120810728
-categories:
-  - Blog Posts
 tags:
   - fedora
   - firewall

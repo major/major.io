@@ -1,13 +1,10 @@
 ---
 title: 'Red Hat Summit 2012: Thursday'
 author: Major Hayden
-type: post
 date: 2012-06-29T04:54:41+00:00
 url: /2012/06/28/red-hat-summit-2012-thursday/
 dsq_thread_id:
   - 3643970097
-categories:
-  - Blog Posts
 tags:
   - database
   - fedora

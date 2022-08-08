@@ -1,15 +1,12 @@
 ---
 title: Writing a Ruby on Rails application without using a database
 author: Major Hayden
-type: post
 date: 2009-01-09T17:00:44+00:00
 url: /2009/01/09/writing-a-ruby-on-rails-application-without-using-a-database/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805496
-categories:
-  - Blog Posts
 tags:
   - database
   - ruby on rails

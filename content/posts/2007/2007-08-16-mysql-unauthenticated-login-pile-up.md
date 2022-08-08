@@ -1,7 +1,6 @@
 ---
 title: MySQL unauthenticated login pile-up
 author: Major Hayden
-type: post
 date: 2007-08-16T12:14:21+00:00
 url: /2007/08/16/mysql-unauthenticated-login-pile-up/
 dsq_thread_id:

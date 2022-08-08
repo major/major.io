@@ -1,7 +1,6 @@
 ---
 title: Best PHP and MySQL development book
 author: Major Hayden
-type: post
 date: 2008-04-29T17:00:54+00:00
 url: /2008/04/29/best-php-and-mysql-development-book/
 dsq_thread_id:

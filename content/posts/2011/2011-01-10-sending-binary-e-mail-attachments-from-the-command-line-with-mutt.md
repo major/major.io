@@ -1,13 +1,10 @@
 ---
 title: Sending binary e-mail attachments from the command line with mutt
 author: Major Hayden
-type: post
 date: 2011-01-11T01:10:58+00:00
 url: /2011/01/10/sending-binary-e-mail-attachments-from-the-command-line-with-mutt/
 dsq_thread_id:
   - 3642806418
-categories:
-  - Blog Posts
 tags:
   - command line
   - email

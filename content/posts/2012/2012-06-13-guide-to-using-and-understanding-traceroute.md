@@ -1,13 +1,10 @@
 ---
 title: Great guide for using traceroute and understanding its results
 author: Major Hayden
-type: post
 date: 2012-06-13T12:40:47+00:00
 url: /2012/06/13/guide-to-using-and-understanding-traceroute/
 dsq_thread_id:
   - 3642806996
-categories:
-  - Blog Posts
 tags:
   - fedora
   - general advice

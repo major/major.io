@@ -1,13 +1,10 @@
 ---
 title: 'Impostor syndrome talk: FAQs and follow-ups'
 author: Major Hayden
-type: post
 date: 2015-09-02T15:34:34+00:00
 url: /2015/09/02/impostor-syndrome-talk-faqs-and-follow-ups/
 dsq_thread_id:
   - 4090680314
-categories:
-  - Blog Posts
 tags:
   - fedora
   - general advice

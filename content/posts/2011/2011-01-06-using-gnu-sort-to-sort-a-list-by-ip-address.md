@@ -1,13 +1,10 @@
 ---
 title: Using GNU sort to sort a list by IP address
 author: Major Hayden
-type: post
 date: 2011-01-06T13:52:58+00:00
 url: /2011/01/06/using-gnu-sort-to-sort-a-list-by-ip-address/
 dsq_thread_id:
   - 3648600041
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

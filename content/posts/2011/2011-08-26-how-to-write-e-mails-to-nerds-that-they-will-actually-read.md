@@ -1,13 +1,10 @@
 ---
 title: How to write e-mails to nerds (that they will actually read)
 author: Major Hayden
-type: post
 date: 2011-08-26T13:00:06+00:00
 url: /2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/
 dsq_thread_id:
   - 3642806668
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

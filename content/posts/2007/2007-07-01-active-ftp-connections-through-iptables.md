@@ -1,7 +1,6 @@
 ---
 title: Active FTP connections through iptables
 author: Major Hayden
-type: post
 date: 2007-07-01T16:42:01+00:00
 url: /2007/07/01/active-ftp-connections-through-iptables/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Thoughts on RSA Conference 2013
 author: Major Hayden
-type: post
 date: 2013-03-11T19:23:32+00:00
 url: /2013/03/11/thoughts-on-rsa-conference-2013/
 dsq_thread_id:
   - 3657295406
-categories:
-  - Blog Posts
 
 ---
 ![1]

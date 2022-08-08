@@ -1,13 +1,10 @@
 ---
 title: Lighttpd proxy to Tomcat
 author: Major Hayden
-type: post
 date: 2007-04-06T04:41:05+00:00
 url: /2007/04/05/lighttpd-proxy-to-tomcat/
 dsq_thread_id:
   - 3642766399
-categories:
-  - Blog Posts
 tags:
   - web
 

@@ -1,13 +1,10 @@
 ---
 title: A nerd’s perspective on cloud hosting
 author: Major Hayden
-type: post
 date: 2010-08-25T13:03:52+00:00
 url: /2010/08/25/a-nerds-perspective-on-cloud-hosting/
 dsq_thread_id:
   - 3642806240
-categories:
-  - Blog Posts
 tags:
   - advice
   - cloud

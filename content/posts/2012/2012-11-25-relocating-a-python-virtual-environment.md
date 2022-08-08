@@ -1,13 +1,10 @@
 ---
 title: Relocating a python virtual environment
 author: Major Hayden
-type: post
 date: 2012-11-25T21:27:47+00:00
 url: /2012/11/25/relocating-a-python-virtual-environment/
 dsq_thread_id:
   - 3644199398
-categories:
-  - Blog Posts
 tags:
   - development
   - openstack

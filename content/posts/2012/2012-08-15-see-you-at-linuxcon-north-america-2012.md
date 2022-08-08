@@ -1,13 +1,10 @@
 ---
 title: See you at LinuxCon North America 2012!
 author: Major Hayden
-type: post
 date: 2012-08-15T14:02:43+00:00
 url: /2012/08/15/see-you-at-linuxcon-north-america-2012/
 dsq_thread_id:
   - 3678924376
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux

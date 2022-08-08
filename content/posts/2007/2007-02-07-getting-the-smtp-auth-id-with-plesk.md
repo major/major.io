@@ -1,7 +1,6 @@
 ---
 title: Getting the SMTP Auth ID with Plesk
 author: Major Hayden
-type: post
 date: 2007-02-07T12:54:29+00:00
 url: /2007/02/07/getting-the-smtp-auth-id-with-plesk/
 dsq_thread_id:

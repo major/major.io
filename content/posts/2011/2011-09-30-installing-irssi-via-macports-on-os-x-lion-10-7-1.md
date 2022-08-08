@@ -1,13 +1,10 @@
 ---
 title: Installing irssi via MacPorts on OS X Lion 10.7.1
 author: Major Hayden
-type: post
 date: 2011-09-30T13:24:44+00:00
 url: /2011/09/30/installing-irssi-via-macports-on-os-x-lion-10-7-1/
 dsq_thread_id:
   - 3642806729
-categories:
-  - Blog Posts
 tags:
   - command line
   - gcc

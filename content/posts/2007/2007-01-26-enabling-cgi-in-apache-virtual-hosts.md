@@ -1,7 +1,6 @@
 ---
 title: Enabling CGI in Apache virtual hosts
 author: Major Hayden
-type: post
 date: 2007-01-26T17:12:34+00:00
 url: /2007/01/26/enabling-cgi-in-apache-virtual-hosts/
 dsq_thread_id:

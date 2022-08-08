@@ -1,13 +1,10 @@
 ---
 title: Building vpnc with openssl support via MacPorts on Mac OS X
 author: Major Hayden
-type: post
 date: 2012-08-01T04:16:09+00:00
 url: /2012/07/31/building-vpnc-with-openssl-support-via-macports-on-mac-os-x/
 dsq_thread_id:
   - 3642807054
-categories:
-  - Blog Posts
 tags:
   - command line
   - mac

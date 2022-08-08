@@ -1,7 +1,6 @@
 ---
 title: Arrow keys in iTerm not working in vi/vim
 author: Major Hayden
-type: post
 date: 2007-06-01T03:28:58+00:00
 url: /2007/05/31/arrow-keys-in-iterm-not-working-in-vivim/
 dsq_thread_id:

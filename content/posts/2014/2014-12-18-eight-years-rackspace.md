@@ -1,13 +1,10 @@
 ---
 title: Eight years at Rackspace
 author: Major Hayden
-type: post
 date: 2014-12-18T14:00:38+00:00
 url: /2014/12/18/eight-years-rackspace/
 dsq_thread_id:
   - 3642807778
-categories:
-  - Blog Posts
 tags:
   - rackspace
 

@@ -1,13 +1,10 @@
 ---
 title: Evade the Breach
 author: Major Hayden
-type: post
 date: 2014-05-24T18:36:48+00:00
 url: /2014/05/24/evade-the-breach/
 dsq_thread_id:
   - 3678885571
-categories:
-  - Blog Posts
 tags:
   - general advice
   - security

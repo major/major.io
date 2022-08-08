@@ -1,7 +1,6 @@
 ---
 title: ProFTPD shows incorrect GMT time with Plesk
 author: Major Hayden
-type: post
 date: 2007-02-21T19:13:01+00:00
 url: /2007/02/21/gmt-ftp-timestamps-in-plesk/
 dsq_thread_id:

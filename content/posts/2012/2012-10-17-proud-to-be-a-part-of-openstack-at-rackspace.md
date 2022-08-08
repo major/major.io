@@ -1,13 +1,10 @@
 ---
 title: Proud to be a part of OpenStack at Rackspace
 author: Major Hayden
-type: post
 date: 2012-10-18T03:34:37+00:00
 url: /2012/10/17/proud-to-be-a-part-of-openstack-at-rackspace/
 dsq_thread_id:
   - 3678922995
-categories:
-  - Blog Posts
 tags:
   - openstack
   - rackspace

@@ -1,7 +1,6 @@
 ---
 title: Repair auto_increment in MySQL
 author: Major Hayden
-type: post
 date: 2007-07-01T16:34:03+00:00
 url: /2007/07/01/repair-auto_increment-in-mysql/
 dsq_thread_id:

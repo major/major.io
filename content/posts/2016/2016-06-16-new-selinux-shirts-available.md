@@ -1,13 +1,10 @@
 ---
 title: New SELinux shirts are available
 author: Major Hayden
-type: post
 date: 2016-06-16T21:22:52+00:00
 url: /2016/06/16/new-selinux-shirts-available/
 dsq_thread_id:
   - 4916287595
-categories:
-  - Blog Posts
 tags:
   - fedora
   - red hat

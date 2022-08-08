@@ -1,13 +1,10 @@
 ---
 title: Trust an IP address with firewalld’s rich rules
 author: Major Hayden
-type: post
 date: 2014-11-24T14:44:09+00:00
 url: /2014/11/24/trust-ip-address-firewallds-rich-rules/
 dsq_thread_id:
   - 3642807765
-categories:
-  - Blog Posts
 tags:
   - fedora
   - firewall

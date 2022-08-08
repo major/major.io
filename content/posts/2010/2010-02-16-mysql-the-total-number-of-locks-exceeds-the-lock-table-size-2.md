@@ -1,15 +1,12 @@
 ---
 title: 'MySQL: The total number of locks exceeds the lock table size'
 author: Major Hayden
-type: post
 date: 2010-02-16T18:00:29+00:00
 url: /2010/02/16/mysql-the-total-number-of-locks-exceeds-the-lock-table-size-2/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805988
-categories:
-  - Blog Posts
 tags:
   - configuration
   - database

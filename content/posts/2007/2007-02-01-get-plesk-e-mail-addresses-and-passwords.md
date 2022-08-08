@@ -1,7 +1,6 @@
 ---
 title: Get Plesk e-mail addresses and passwords
 author: Major Hayden
-type: post
 date: 2007-02-01T14:33:59+00:00
 url: /2007/02/01/get-plesk-e-mail-addresses-and-passwords/
 dsq_thread_id:

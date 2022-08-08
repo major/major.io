@@ -1,14 +1,11 @@
 ---
 title: Docker, trusted builds, and Fedora 20
 author: Major Hayden
-type: post
 date: 2014-03-26T05:17:58+00:00
 url: /2014/03/26/docker-trusted-builds-and-fedora-20/
 featured_image: /wp-content/uploads/2014/03/docker-whale.png
 dsq_thread_id:
   - 3642807437
-categories:
-  - Blog Posts
 tags:
   - containers
   - docker

@@ -1,7 +1,6 @@
 ---
 title: Joomla and Plesk permissions
 author: Major Hayden
-type: post
 date: 2007-05-21T03:13:23+00:00
 url: /2007/05/20/joomla-and-plesk-permissions/
 dsq_thread_id:

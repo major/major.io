@@ -1,13 +1,10 @@
 ---
 title: 'Red Hat Summit 2012: Wednesday'
 author: Major Hayden
-type: post
 date: 2012-06-28T06:03:51+00:00
 url: /2012/06/28/red-hat-summit-2012-wednesday/
 dsq_thread_id:
   - 3642807006
-categories:
-  - Blog Posts
 tags:
   - cloud
   - glusterfs

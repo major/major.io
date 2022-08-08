@@ -1,13 +1,10 @@
 ---
 title: Lesser-known but extremely handy Linux tools
 author: Major Hayden
-type: post
 date: 2012-05-11T21:28:58+00:00
 url: /2012/05/11/lesser-known-but-extremely-handy-linux-tools/
 dsq_thread_id:
   - 3642806960
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

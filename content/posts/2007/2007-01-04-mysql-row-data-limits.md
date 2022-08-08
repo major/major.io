@@ -1,7 +1,6 @@
 ---
 title: 'MySQL Row & Data Limits'
 author: Major Hayden
-type: post
 date: 2007-01-05T01:24:17+00:00
 url: /2007/01/04/mysql-row-data-limits/
 dsq_thread_id:

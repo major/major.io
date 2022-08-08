@@ -1,13 +1,10 @@
 ---
 title: Show originating IP address in Apple Mail
 author: Major Hayden
-type: post
 date: 2014-03-18T14:20:13+00:00
 url: /2014/03/18/show-originating-ip-address-in-apple-mail/
 dsq_thread_id:
   - 3642807432
-categories:
-  - Blog Posts
 tags:
   - apple
   - email

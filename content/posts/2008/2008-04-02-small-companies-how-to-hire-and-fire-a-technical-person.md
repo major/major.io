@@ -1,7 +1,6 @@
 ---
 title: 'Small Companies: How to hire and fire a technical person'
 author: Major Hayden
-type: post
 date: 2008-04-02T18:00:06+00:00
 url: /2008/04/02/small-companies-how-to-hire-and-fire-a-technical-person/
 dsq_thread_id:

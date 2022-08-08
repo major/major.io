@@ -1,14 +1,11 @@
 ---
 title: 'IBM Edge 2016: Day 2 Recap'
 author: Major Hayden
-type: post
 date: 2016-09-21T17:27:53+00:00
 url: /2016/09/21/ibm-edge-2016-day-2-recap/
 featured_image: /wp-content/uploads/2016/09/twitter-In-Stream_Wide___IMG_20160920_182456057_HDR.jpg
 dsq_thread_id:
   - 5162099072
-categories:
-  - Blog Posts
 tags:
   - linux
   - power

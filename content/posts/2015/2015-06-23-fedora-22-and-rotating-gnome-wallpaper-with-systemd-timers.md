@@ -1,13 +1,10 @@
 ---
 title: Fedora 22 and rotating GNOME wallpaper with systemd timers
 author: Major Hayden
-type: post
 date: 2015-06-23T17:25:02+00:00
 url: /2015/06/23/fedora-22-and-rotating-gnome-wallpaper-with-systemd-timers/
 dsq_thread_id:
   - 3872578622
-categories:
-  - Blog Posts
 tags:
   - dbus
   - fedora

@@ -1,13 +1,10 @@
 ---
 title: 'Reprint: Stop Disabling SELinux!'
 author: Major Hayden
-type: post
 date: 2013-04-19T05:52:23+00:00
 url: /2013/04/19/reprint-stop-disabling-selinux/
 dsq_thread_id:
   - 3642807229
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

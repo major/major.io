@@ -1,13 +1,10 @@
 ---
 title: Using ZoneMinder with a Logitech C270 webcam
 author: Major Hayden
-type: post
 date: 2015-02-08T04:04:08+00:00
 url: /2015/02/07/using-zoneminder-logitech-c270-webcam/
 dsq_thread_id:
   - 3644031901
-categories:
-  - Blog Posts
 tags:
   - command line
   - linux

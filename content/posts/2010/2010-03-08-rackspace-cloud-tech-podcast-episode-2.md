@@ -1,15 +1,12 @@
 ---
 title: Rackspace Cloud Tech Podcast Episode 2
 author: Major Hayden
-type: post
 date: 2010-03-09T01:51:39+00:00
 url: /2010/03/08/rackspace-cloud-tech-podcast-episode-2/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3678954732
-categories:
-  - Blog Posts
 tags:
   - cloud
   - security

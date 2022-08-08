@@ -1,13 +1,10 @@
 ---
 title: Detect proxies with icanhazproxy
 author: Major Hayden
-type: post
 date: 2014-04-03T15:52:58+00:00
 url: /2014/04/03/detect-proxies-with-icanhazproxy/
 dsq_thread_id:
   - 3664077969
-categories:
-  - Blog Posts
 tags:
   - icanhazip
   - networking

@@ -1,15 +1,12 @@
 ---
 title: Deleting all e-mail messages in your inbox with mutt
 author: Major Hayden
-type: post
 date: 2009-06-19T17:37:58+00:00
 url: /2009/06/19/deleting-all-e-mail-messages-in-your-inbox-with-mutt/
 aktt_notify_twitter:
   - no
 dsq_thread_id:
   - 3642805675
-categories:
-  - Blog Posts
 tags:
   - command line
   - email

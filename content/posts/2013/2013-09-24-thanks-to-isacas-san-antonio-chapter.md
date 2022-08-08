@@ -1,13 +1,10 @@
 ---
 title: Thanks to ISACA’s San Antonio chapter!
 author: Major Hayden
-type: post
 date: 2013-09-25T03:29:30+00:00
 url: /2013/09/24/thanks-to-isacas-san-antonio-chapter/
 dsq_thread_id:
   - 3666689612
-categories:
-  - Blog Posts
 
 ---
 [<img src="http://major.io/wp-content/uploads/2013/09/isaca_logo-300x112.jpg" alt="ISACA logo" width="300" height="112" class="alignright size-medium wp-image-4596" srcset="/wp-content/uploads/2013/09/isaca_logo-300x112.jpg 300w, /wp-content/uploads/2013/09/isaca_logo-1024x385.jpg 1024w, /wp-content/uploads/2013/09/isaca_logo.jpg 1117w" sizes="(max-width: 300px) 100vw, 300px" />][1]I had the pleasure of speaking to [ISACA's][2] [San Antonio chapter][3] today about cloud security. The luncheon sold out and they had some good questions for me.

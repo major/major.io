@@ -1,13 +1,10 @@
 ---
 title: Handy settings for the touchpad/clickpad in the Lenovo X1 Carbon
 author: Major Hayden
-type: post
 date: 2012-12-28T16:15:42+00:00
 url: /2012/12/28/handy-settings-for-the-touchpadclickpad-in-the-lenovo-x1-carbon/
 dsq_thread_id:
   - 3642807115
-categories:
-  - Blog Posts
 tags:
   - fedora
   - lenovo

@@ -1,7 +1,6 @@
 ---
 title: 'BIND: ‘RRset exists (value dependent)’ prerequisite not satisfied (NXRRSET)'
 author: Major Hayden
-type: post
 date: 2007-10-10T18:13:22+00:00
 url: /2007/10/10/bind-rrset-exists-value-dependent-prerequisite-not-satisfied-nxrrset/
 dsq_thread_id:

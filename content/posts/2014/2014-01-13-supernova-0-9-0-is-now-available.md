@@ -1,13 +1,10 @@
 ---
 title: supernova 0.9.0 is now available
 author: Major Hayden
-type: post
 date: 2014-01-13T20:28:44+00:00
 url: /2014/01/13/supernova-0-9-0-is-now-available/
 dsq_thread_id:
   - 3678897270
-categories:
-  - Blog Posts
 tags:
   - openstack
   - python

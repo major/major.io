@@ -1,13 +1,10 @@
 ---
 title: Getting Dell’s racadm working in Fedora 20
 author: Major Hayden
-type: post
 date: 2014-06-20T14:39:19+00:00
 url: /2014/06/20/getting-dells-racadm-working-in-fedora-20/
 dsq_thread_id:
   - 3642807555
-categories:
-  - Blog Posts
 tags:
   - centos
   - dell

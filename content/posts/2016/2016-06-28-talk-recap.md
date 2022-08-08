@@ -1,13 +1,10 @@
 ---
 title: 'Talk recap: The friendship of OpenStack and Ansible'
 author: Major Hayden
-type: post
 date: 2016-06-29T03:43:21+00:00
 url: /2016/06/28/talk-recap/
 dsq_thread_id:
   - 4946863542
-categories:
-  - Blog Posts
 tags:
   - ansible
   - fedora

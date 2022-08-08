@@ -1,7 +1,6 @@
 ---
 title: Changing the default SSL certificate in Plesk
 author: Major Hayden
-type: post
 date: 2007-05-22T02:16:57+00:00
 url: /2007/05/21/changing-the-default-ssl-certificate-in-plesk/
 dsq_thread_id:

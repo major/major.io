@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-10-30'
 summary: >-
   Tailscale provides a handy private network mesh across multiple devices but it
@@ -17,7 +15,6 @@ tags:
 - security
 - tailscale
 title: Secure Tailscale networks with firewalld
-type: post
 ---
 
 {{< figure src="/images/2021-10-30-dark-street.jpg" alt="Dark street at night" position="center" >}}

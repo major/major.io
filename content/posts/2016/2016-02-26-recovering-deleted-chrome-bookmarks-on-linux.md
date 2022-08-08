@@ -1,13 +1,10 @@
 ---
 title: Recovering deleted Chrome bookmarks on Linux
 author: Major Hayden
-type: post
 date: 2016-02-26T15:31:15+00:00
 url: /2016/02/26/recovering-deleted-chrome-bookmarks-on-linux/
 dsq_thread_id:
   - 4613596137
-categories:
-  - Blog Posts
 tags:
   - chrome
   - fedora

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-03-17'
 summary: Feedback from my original options selling post said that the concept
   was too difficult to follow. Let's use an analogy!
@@ -12,7 +10,6 @@ tags:
 - investing
 - options
 title: Selling options made simpler
-type: post
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

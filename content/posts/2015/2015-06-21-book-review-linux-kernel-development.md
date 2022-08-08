@@ -1,13 +1,10 @@
 ---
 title: 'Book Review: Linux Kernel Development'
 author: Major Hayden
-type: post
 date: 2015-06-21T15:26:54+00:00
 url: /2015/06/21/book-review-linux-kernel-development/
 dsq_thread_id:
   - 3866861229
-categories:
-  - Blog Posts
 tags:
   - book
   - fedora

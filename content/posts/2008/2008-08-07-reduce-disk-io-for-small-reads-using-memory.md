@@ -1,13 +1,10 @@
 ---
 title: Reduce disk I/O for small reads using memory
 author: Major Hayden
-type: post
 date: 2008-08-07T17:00:27+00:00
 url: /2008/08/07/reduce-disk-io-for-small-reads-using-memory/
 dsq_thread_id:
   - 3642772096
-categories:
-  - Blog Posts
 tags:
   - iowait
   - kernel

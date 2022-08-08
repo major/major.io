@@ -1,13 +1,10 @@
 ---
 title: Installing Xen on Fedora 20
 author: Major Hayden
-type: post
 date: 2014-02-28T03:43:27+00:00
 url: /2014/02/27/installing-xen-on-fedora-20/
 dsq_thread_id:
   - 3642807420
-categories:
-  - Blog Posts
 tags:
   - linux
   - sysadmin

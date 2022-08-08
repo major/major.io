@@ -1,13 +1,10 @@
 ---
 title: A response to Infoworld’s confusing article about Fedora
 author: Major Hayden
-type: post
 date: 2014-11-19T14:24:57+00:00
 url: /2014/11/19/response-infoworlds-confusing-article-fedora/
 dsq_thread_id:
   - 3642807762
-categories:
-  - Blog Posts
 tags:
   - development
   - fedora

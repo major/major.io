@@ -1,13 +1,10 @@
 ---
 title: PXE boot Fedora 19 using a Mikrotik firewall
 author: Major Hayden
-type: post
 date: 2013-07-23T21:47:33+00:00
 url: /2013/07/23/pxe-boot-fedora-19-using-a-mikrotik-firewall/
 dsq_thread_id:
   - 3642807335
-categories:
-  - Blog Posts
 tags:
   - fedora
   - mikro

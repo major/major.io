@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner is the Debian Package of the Day!
 author: Major Hayden
-type: post
 date: 2008-05-29T02:23:30+00:00
 url: /2008/05/28/mysqltuner-is-the-debian-package-of-the-day/
 dsq_thread_id:

@@ -1,7 +1,6 @@
 ---
 title: Parsing HTML through PHP in Plesk
 author: Major Hayden
-type: post
 date: 2007-09-28T18:17:00+00:00
 url: /2007/09/28/parsing-html-through-php-in-plesk/
 dsq_thread_id:

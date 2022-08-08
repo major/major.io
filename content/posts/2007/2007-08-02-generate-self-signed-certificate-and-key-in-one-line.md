@@ -1,13 +1,10 @@
 ---
 title: Generate self-signed certificate and key in one line
 author: Major Hayden
-type: post
 date: 2007-08-03T02:48:25+00:00
 url: /2007/08/02/generate-self-signed-certificate-and-key-in-one-line/
 dsq_thread_id:
   - 3642768896
-categories:
-  - Blog Posts
 tags:
   - web
 

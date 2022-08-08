@@ -1,12 +1,9 @@
 ---
 title: Install testing kernels in Fedora
 author: Major Hayden
-type: post
 date: 2018-02-28T13:53:48+00:00
 url: /2018/02/28/install-testing-kernels-in-fedora/
 featured_image: /wp-content/uploads/2018/02/120928-F-YV474-917.jpg
-categories:
-  - Blog Posts
 tags:
   - centos
   - dnf

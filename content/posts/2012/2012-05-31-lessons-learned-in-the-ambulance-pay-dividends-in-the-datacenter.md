@@ -1,13 +1,10 @@
 ---
 title: Lessons learned in the ambulance pay dividends in the datacenter
 author: Major Hayden
-type: post
 date: 2012-05-31T15:00:47+00:00
 url: /2012/05/31/lessons-learned-in-the-ambulance-pay-dividends-in-the-datacenter/
 dsq_thread_id:
   - 3642806959
-categories:
-  - Blog Posts
 tags:
   - emergency
   - general advice

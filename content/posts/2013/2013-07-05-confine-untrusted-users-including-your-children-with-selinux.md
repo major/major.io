@@ -1,13 +1,10 @@
 ---
 title: Confine untrusted users (including your children) with SELinux
 author: Major Hayden
-type: post
 date: 2013-07-05T18:50:43+00:00
 url: /2013/07/05/confine-untrusted-users-including-your-children-with-selinux/
 dsq_thread_id:
   - 3642807316
-categories:
-  - Blog Posts
 tags:
   - centos
   - command line

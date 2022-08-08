@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-04-20'
 summary: >-
   Ham radio is the best (and most frustrating) hobby on the planet! 📻

@@ -1,13 +1,10 @@
 ---
 title: Hierarchy of DevOps Needs from DevOps Weekly
 author: Major Hayden
-type: post
 date: 2014-02-03T02:30:40+00:00
 url: /2014/02/02/hierarchy-of-devops-needs-from-devops-weekly/
 dsq_thread_id:
   - 3659639955
-categories:
-  - Blog Posts
 tags:
   - development
   - security

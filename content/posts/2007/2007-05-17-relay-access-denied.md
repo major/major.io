@@ -1,7 +1,6 @@
 ---
 title: Relay access denied
 author: Major Hayden
-type: post
 date: 2007-05-18T03:16:06+00:00
 url: /2007/05/17/relay-access-denied/
 dsq_thread_id:

@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-04-07'
 summary: >-
   Upgrade your Supermicro BIOS firmware from Linux using their SUM utility. 🔧
@@ -12,10 +10,13 @@ tags:
   - supermicro
   - terminal
 title: Update Supermicro BIOS firmware from Linux
-type: post
 ---
 
-*Photo credit: [Étienne Beauregard-Riverin](https://unsplash.com/photos/B0aCvAVSX8E)*
+{{< figure
+    src="cover.jpg"
+    alt="Modern building with a porch on the top floor"       
+    caption="Photo credit: [Étienne Beauregard-Riverin](https://unsplash.com/photos/B0aCvAVSX8E)"
+    >}}
 
 The [Linux Vendor Firmware Service] (LVFS) and [fwupd] turned the troublesome and time
 consuming activities of updating all kinds of firmware for laptops, desktops, and

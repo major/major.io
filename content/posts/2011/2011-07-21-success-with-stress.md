@@ -1,14 +1,11 @@
 ---
 title: Success with stress
 author: Major Hayden
-type: post
 date: 2011-07-22T01:50:34+00:00
 url: /2011/07/21/success-with-stress/
 featured_image: /wp-content/uploads/2011/07/BustTheKeyboard.jpg
 dsq_thread_id:
   - 3642806592
-categories:
-  - Blog Posts
 tags:
   - general advice
   - sysadmin

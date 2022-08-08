@@ -1,13 +1,10 @@
 ---
 title: Going back to Linux as a desktop
 author: Major Hayden
-type: post
 date: 2012-10-12T13:43:01+00:00
 url: /2012/10/12/going-back-to-linux-as-a-desktop/
 dsq_thread_id:
   - 3642807078
-categories:
-  - Blog Posts
 tags:
   - linux
   - mac

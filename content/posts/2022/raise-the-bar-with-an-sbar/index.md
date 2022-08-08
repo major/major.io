@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-08-02'
 summary: >-
   Efficiently communicate a problem and your recommendation in record time with
@@ -14,10 +12,14 @@ tags:
   - engineering
   - writing
 title: Raise the bar with an SBAR
-type: post
 ---
 
-*Photo credit: [Sebastiano Corti](https://unsplash.com/photos/qx2AwbUOovQ)*
+{{< figure 
+    src="cover.jpg"
+    alt="Long exposure photograph at night of lights in front of old buildings, likely European"
+    caption="Photo credit: [Sebastiano Corti](https://unsplash.com/photos/qx2AwbUOovQ)"
+    >}}
+
 
 You discovered a problem at work.
 If left unchecked, the problem could affect customers and impact revenue.

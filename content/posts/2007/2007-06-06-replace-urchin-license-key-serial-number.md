@@ -1,13 +1,10 @@
 ---
 title: Replace Urchin license key / serial number
 author: Major Hayden
-type: post
 date: 2007-06-07T04:47:52+00:00
 url: /2007/06/06/replace-urchin-license-key-serial-number/
 dsq_thread_id:
   - 3642767624
-categories:
-  - Blog Posts
 tags:
   - web
 

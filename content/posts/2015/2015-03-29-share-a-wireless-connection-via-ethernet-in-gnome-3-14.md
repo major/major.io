@@ -1,13 +1,10 @@
 ---
 title: Share a wireless connection via ethernet in GNOME 3.14
 author: Major Hayden
-type: post
 date: 2015-03-30T02:31:19+00:00
 url: /2015/03/29/share-a-wireless-connection-via-ethernet-in-gnome-3-14/
 dsq_thread_id:
   - 3643821307
-categories:
-  - Blog Posts
 tags:
   - fedora
   - gnome

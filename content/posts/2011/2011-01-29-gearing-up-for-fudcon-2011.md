@@ -1,13 +1,10 @@
 ---
 title: Gearing up for FUDCon 2011
 author: Major Hayden
-type: post
 date: 2011-01-29T15:01:20+00:00
 url: /2011/01/29/gearing-up-for-fudcon-2011/
 dsq_thread_id:
   - 3678943958
-categories:
-  - Blog Posts
 tags:
   - fedora
   - fudcon

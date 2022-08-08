@@ -1,13 +1,10 @@
 ---
 title: Privacy and icanhazip.com
 author: Major Hayden
-type: post
 date: 2012-08-05T04:26:50+00:00
 url: /2012/08/04/privacy-and-icanhazip-com/
 dsq_thread_id:
   - 3664854402
-categories:
-  - Blog Posts
 tags:
   - general advice
   - icanhazip

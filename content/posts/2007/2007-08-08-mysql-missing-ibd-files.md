@@ -1,7 +1,6 @@
 ---
 title: 'MySQL: Missing *.ibd files'
 author: Major Hayden
-type: post
 date: 2007-08-09T00:22:40+00:00
 url: /2007/08/08/mysql-missing-ibd-files/
 dsq_thread_id:

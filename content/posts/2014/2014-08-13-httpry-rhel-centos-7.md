@@ -1,13 +1,10 @@
 ---
 title: httpry 0.1.8 available for RHEL and CentOS 7
 author: Major Hayden
-type: post
 date: 2014-08-13T13:20:28+00:00
 url: /2014/08/13/httpry-rhel-centos-7/
 dsq_thread_id:
   - 3642807708
-categories:
-  - Blog Posts
 tags:
   - centos
   - fedora

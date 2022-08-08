@@ -1,7 +1,6 @@
 ---
 title: Enabling SSL in ProFTPD
 author: Major Hayden
-type: post
 date: 2007-02-08T23:28:18+00:00
 url: /2007/02/08/enabling-ssl-in-proftpd/
 dsq_thread_id:

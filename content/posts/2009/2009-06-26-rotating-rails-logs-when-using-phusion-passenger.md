@@ -1,13 +1,10 @@
 ---
 title: Rotating rails logs when using Phusion Passenger
 author: Major Hayden
-type: post
 date: 2009-06-26T15:09:54+00:00
 url: /2009/06/26/rotating-rails-logs-when-using-phusion-passenger/
 dsq_thread_id:
   - 3664516884
-categories:
-  - Blog Posts
 tags:
   - apache
   - logrotate

@@ -1,13 +1,10 @@
 ---
 title: SELinux, Xen, and block devices in Fedora 17
 author: Major Hayden
-type: post
 date: 2012-07-10T05:05:33+00:00
 url: /2012/07/10/selinux-xen-and-block-devices-in-fedora-17/
 dsq_thread_id:
   - 3642807008
-categories:
-  - Blog Posts
 tags:
   - fedora
   - security

@@ -1,12 +1,9 @@
 ---
 title: OpenStack-Ansible networking on CentOS 7 with systemd-networkd
 author: Major Hayden
-type: post
 date: 2017-04-13T13:18:09+00:00
 url: /2017/04/13/openstack-ansible-on-centos-7-with-systemd-networkd/
 featured_image: /wp-content/uploads/2017/04/MaxPixel.freegreatpicture.com-Chip-Nsa-Distributor-Switch-It-Network-Ethernet-490027-e1492089463954.jpg
-categories:
-  - Blog Posts
 tags:
   - ansible
   - linux

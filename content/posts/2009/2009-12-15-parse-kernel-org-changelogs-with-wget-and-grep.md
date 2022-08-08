@@ -1,13 +1,10 @@
 ---
 title: Parse kernel.org changelogs with wget and grep
 author: Major Hayden
-type: post
 date: 2009-12-15T23:14:47+00:00
 url: /2009/12/15/parse-kernel-org-changelogs-with-wget-and-grep/
 dsq_thread_id:
   - 3674886086
-categories:
-  - Blog Posts
 tags:
   - grep
   - kernel

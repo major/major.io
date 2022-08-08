@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-  - Blog Posts
 date: '2022-05-06'
 summary: >-
   Learn how to customize a CentOS Stream 9 cloud image with the stuff you want and
@@ -14,10 +12,13 @@ tags:
   - imagebuilder
   - linux
 title: Build a custom CentOS Stream 9 cloud image
-type: post
 ---
 
-*Photo credit: [Alina Fedorchenko](https://unsplash.com/photos/RT9c80cycn8)*
+{{< figure 
+    src="cover.jpg"
+    alt="Hiker with a backpack in a deep forest with some snow" 
+    caption="Photo credit: [Alina Fedorchenko](https://unsplash.com/photos/RT9c80cycn8)"
+    >}}
 
 This is my [third post] about [Image Builder], so I guess you could say that I enjoy
 using it[^biased]. It's a great way to define a custom cloud image, build it, and

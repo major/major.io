@@ -1,13 +1,10 @@
 ---
 title: MySQLTuner mentioned at the O’Reilly MySQL Conference
 author: Major Hayden
-type: post
 date: 2011-04-16T01:56:31+00:00
 url: /2011/04/15/mysqltuner-mentioned-at-the-oreilly-mysql-conference/
 dsq_thread_id:
   - 3642806559
-categories:
-  - Blog Posts
 tags:
   - command line
   - database

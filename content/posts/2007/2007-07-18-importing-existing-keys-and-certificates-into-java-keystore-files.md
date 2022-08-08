@@ -1,7 +1,6 @@
 ---
 title: Importing existing keys and certificates into java keystore files
 author: Major Hayden
-type: post
 date: 2007-07-18T15:05:37+00:00
 url: /2007/07/18/importing-existing-keys-and-certificates-into-java-keystore-files/
 dsq_thread_id:

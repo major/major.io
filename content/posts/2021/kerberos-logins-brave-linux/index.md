@@ -1,7 +1,5 @@
 ---
 author: Major Hayden
-categories:
-- Blog Posts
 date: '2021-12-18'
 summary: >-
   Brave recently changed how their browser reads managed policy configuration,
@@ -12,10 +10,13 @@ tags:
 - kerberos
 - linux
 title: Kerberos logins with Brave on Linux
-type: post
 ---
 
-*Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)*
+{{< figure
+    src="cover.jpg"
+    alt="Old building in the woods with long exposure star movement in the background"
+    caption="Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)"
+    >}}
 
 My primary browser flips back and forth between [Brave] and [Firefox] depending
 on my current tasks, but [kerberos] logins are integral to my workflow at work

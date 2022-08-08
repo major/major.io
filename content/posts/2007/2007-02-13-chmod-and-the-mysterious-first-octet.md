@@ -1,7 +1,6 @@
 ---
 title: Chmod and the mysterious first octet
 author: Major Hayden
-type: post
 date: 2007-02-14T04:00:52+00:00
 url: /2007/02/13/chmod-and-the-mysterious-first-octet/
 dsq_thread_id:

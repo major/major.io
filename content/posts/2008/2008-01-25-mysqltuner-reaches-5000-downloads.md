@@ -1,7 +1,6 @@
 ---
 title: MySQLTuner reaches 5,000 downloads!
 author: Major Hayden
-type: post
 date: 2008-01-25T17:01:18+00:00
 url: /2008/01/25/mysqltuner-reaches-5000-downloads/
 dsq_thread_id:

@@ -1,13 +1,10 @@
 ---
 title: Xerox ColorQube 9302 and Linux
 author: Major Hayden
-type: post
 date: 2015-03-16T02:23:07+00:00
 url: /2015/03/15/xerox-colorqube-9302-and-linux/
 dsq_thread_id:
   - 3644153325
-categories:
-  - Blog Posts
 tags:
   - fedora
   - linux
