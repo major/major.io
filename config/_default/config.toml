@@ -10,5 +10,8 @@ enableRobotsTXT = true
 paginate = 50
 summaryLength = 0
 
+[permalinks]
+  posts = "/:year/:month/:day/:slug/" 
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
