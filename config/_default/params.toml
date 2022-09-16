@@ -12,7 +12,7 @@ autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["post"]
+mainSections = ["post"]
 # robots = ""
 
 [header]
