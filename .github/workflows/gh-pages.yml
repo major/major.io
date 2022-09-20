@@ -25,6 +25,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Fix RSS feed
+        run: |
+          mkdir -vp public/feed
+          cp public/index.xml public/feed/index.xml
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
