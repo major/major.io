@@ -56,16 +56,16 @@ for our default JDK:</p><div class=highlight><pre tabindex=0 class=chroma><code 
 </span></span></span><span class=line><span class=cl><span class=err></span><span class=gp>$</span> sudo dnf install alsa-plugins-pulseaudio
 </span></span></code></pre></div><p>Now that we have ALSA support, let&rsquo;s move on to configuring the JDK to use it properly.
 Keith Packard <a href=https://keithp.com/blogs/Java-Sound-on-Linux/>ran into sound problems in Ubuntu</a> and fixed it with a small change to
-his <code>sound.properties</code> file:</p><pre tabindex=0><code class=language-properties data-lang=properties>#javax.sound.sampled.Clip=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider
-#javax.sound.sampled.Port=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider
-#javax.sound.sampled.SourceDataLine=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider
-#javax.sound.sampled.TargetDataLine=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider
-
-javax.sound.sampled.Clip=com.sun.media.sound.DirectAudioDeviceProvider
-javax.sound.sampled.Port=com.sun.media.sound.PortMixerProvider
-javax.sound.sampled.SourceDataLine=com.sun.media.sound.DirectAudioDeviceProvider
-javax.sound.sampled.TargetDataLine=com.sun.media.sound.DirectAudioDeviceProvider
-</code></pre><p>Let&rsquo;s double check that this will work for the Azul JDK. We need to see if these
+his <code>sound.properties</code> file:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-properties data-lang=properties><span class=line><span class=cl><span class=c1>#javax.sound.sampled.Clip=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider</span>
+</span></span><span class=line><span class=cl><span class=c1>#javax.sound.sampled.Port=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider</span>
+</span></span><span class=line><span class=cl><span class=c1>#javax.sound.sampled.SourceDataLine=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider</span>
+</span></span><span class=line><span class=cl><span class=c1>#javax.sound.sampled.TargetDataLine=org.classpath.icedtea.pulseaudio.PulseAudioMixerProvider</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=na>javax.sound.sampled.Clip</span><span class=o>=</span><span class=s>com.sun.media.sound.DirectAudioDeviceProvider</span>
+</span></span><span class=line><span class=cl><span class=na>javax.sound.sampled.Port</span><span class=o>=</span><span class=s>com.sun.media.sound.PortMixerProvider</span>
+</span></span><span class=line><span class=cl><span class=na>javax.sound.sampled.SourceDataLine</span><span class=o>=</span><span class=s>com.sun.media.sound.DirectAudioDeviceProvider</span>
+</span></span><span class=line><span class=cl><span class=na>javax.sound.sampled.TargetDataLine</span><span class=o>=</span><span class=s>com.sun.media.sound.DirectAudioDeviceProvider</span>
+</span></span></code></pre></div><p>Let&rsquo;s double check that this will work for the Azul JDK. We need to see if these
 <code>com.sun.media.sound</code> import paths exists for us:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=gp>$</span> find /usr/lib/j* <span class=p>|</span>grep -i sound
 </span></span><span class=line><span class=cl><span class=go>/usr/lib/jvm/java-17-openjdk-17.0.2.0.8-7.fc36.x86_64/lib/libjsound.so
 </span></span></span><span class=line><span class=cl><span class=go>/usr/lib/jvm/zulu11-ca/conf/sound.properties
