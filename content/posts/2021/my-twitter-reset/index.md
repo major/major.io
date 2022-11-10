@@ -11,12 +11,7 @@ tags:
 title: My Twitter reset
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Lonely highway towards mountains under a dark orange smoky sky"
-    caption="Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)*"
-    >}}
-
+_Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)_
 
 Let's start this post with a quote:
 

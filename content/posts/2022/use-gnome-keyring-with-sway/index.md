@@ -14,11 +14,7 @@ tags:
 title: Use GNOME Keyring with Sway
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Cute chipmunk-looking animal on a big green leaf" 
-    caption="Photo credit: [Isuru Ranasinha](https://unsplash.com/photos/WC0zbuOofRs)"
-    >}}
+_Photo credit: [Isuru Ranasinha](https://unsplash.com/photos/WC0zbuOofRs)_
 
 [SSH key authentication] makes it easier to secure SSH servers and it opens the door to automation with projects such as [Ansible].
 However, working with encrypted SSH keys becomes tedious when you have several of them for different services.

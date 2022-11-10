@@ -16,11 +16,7 @@ tags:
 title: Build a Tailscale exit node with firewalld
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="View through abandoned cement pipes on a plain" 
-    caption="Photo credit: [Patrick Hendry](https://unsplash.com/photos/Tv5lpMsuvoI)"
-    >}}
+_Photo credit: [Patrick Hendry](https://unsplash.com/photos/Tv5lpMsuvoI)_
 
 Once upon a time, I spent hours and hours fumbling through openvpn configurations, certificates, and firewalls to get VPNs working between servers.
 One small configuration error led to lots of debugging.

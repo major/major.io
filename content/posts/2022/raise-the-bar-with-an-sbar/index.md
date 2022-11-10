@@ -14,12 +14,7 @@ tags:
 title: Raise the bar with an SBAR
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="Long exposure photograph at night of lights in front of old buildings, likely European"
-    caption="Photo credit: [Sebastiano Corti](https://unsplash.com/photos/qx2AwbUOovQ)"
-    >}}
-
+_Photo credit: [Sebastiano Corti](https://unsplash.com/photos/qx2AwbUOovQ)_
 
 You discovered a problem at work.
 If left unchecked, the problem could affect customers and impact revenue.

@@ -12,12 +12,7 @@ tags:
 title: Build a URL shortener with Cloudflare Workers
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Street sign showing different destinations in Germany"
-    caption="Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)"
-    >}}
-
+_Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)_
 
 Shortened URLs make it easier to quickly reference complicated URLs and share them with
 other people. For example, https://url.major.io/reviews is definitely an easier method

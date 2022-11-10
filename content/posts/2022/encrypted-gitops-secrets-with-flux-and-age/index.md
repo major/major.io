@@ -13,12 +13,7 @@ tags:
 title: Encrypted gitops secrets with flux and age
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Castle wall with turrets in front of a light blue sky background"                              
-    caption="Photo credit: [Mert Kahveci](https://unsplash.com/photos/uoU9NySvCks)"
-    >}}
-
+_Photo credit: [Mert Kahveci](https://unsplash.com/photos/uoU9NySvCks)_
 
 Kubernetes has always felt like an enigma to me. On one hand, I love containers and I
 use them daily for personal and work projects. On the other hand, kubernetes feels like

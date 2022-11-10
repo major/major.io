@@ -13,11 +13,7 @@ tags:
 title: Monitor a UPS with a Mikrotik router via SNMP
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="Tropical trees at night photographed from below" 
-    caption="Photo credit: [Jake Kokot](https://unsplash.com/photos/7yEVbxtXPwM)"
-    >}}
+_Photo credit: [Jake Kokot](https://unsplash.com/photos/7yEVbxtXPwM)_
 
 Cyberpower UPS units saved me from plenty of issues in the past with power outages.
 However, although I love the units themselves, I found that the quality of replacement batteries varies widely.

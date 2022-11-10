@@ -13,11 +13,7 @@ tags:
 title: Migrating from vscode to vim
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Hot air balloons in a dusty, yellow sky" 
-    caption="Photo credit: [Sean Lee](https://unsplash.com/photos/NoDWcqosyLU)"
-    >}}
+_Photo credit: [Sean Lee](https://unsplash.com/photos/NoDWcqosyLU)_
 
 Every Linux user experienced at least one "battle of the text editors" once in their lifetime.
 I even participated in a few!

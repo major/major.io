@@ -12,11 +12,7 @@ tags:
 title: Sway reload causes a Firefox crash
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="Broken flowerpot on a windowsill" 
-    caption="Photo credit: [Daniel Tafjord](https://unsplash.com/photos/9p7nBsrcCt0)"
-    >}}
+_Photo credit: [Daniel Tafjord](https://unsplash.com/photos/9p7nBsrcCt0)_
 
 My workday takes me from email to terminals to browsers to documents. I love tiling
 window managers because they keep me organized and less distracted. Many are less

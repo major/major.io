@@ -14,11 +14,7 @@ tags:
 title: Install ThinkOrSwim on Fedora Linux
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Street sign showing Wall St and Broad St."
-    caption="Photo credit: [Robert Linder](https://unsplash.com/photos/YzNehPDLAa8)"
-    >}}
+_Photo credit: [Robert Linder](https://unsplash.com/photos/YzNehPDLAa8)_
 
 Over the past two years, I picked up stock trading and general finance knowledge as a
 hobby. There are plenty of things I enjoy here: complex math, understanding trends, and
