@@ -12,11 +12,7 @@ tags:
 title: Amateur Guide to Running
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="Path in a dark forest" 
-    caption="Photo credit: [Jeff Finley](https://unsplash.com/photos/FfGSxv4lITs)"
-    >}}
+_Photo credit: [Jeff Finley](https://unsplash.com/photos/FfGSxv4lITs)_
 
 I love to run.
 It gives me an opportunity go outside and create challenges for myself.

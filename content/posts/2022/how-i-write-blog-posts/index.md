@@ -11,11 +11,7 @@ tags:
 title: How I write blog posts 
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="White cliffs near the ocean with a church on top" 
-    caption="Photo credit: [Dylan Leagh](https://unsplash.com/photos/JtSU_LNa6e4)"
-    >}}
+_Photo credit: [Dylan Leagh](https://unsplash.com/photos/JtSU_LNa6e4)_
 
 During a mentoring meeting today at work, my mentee asked me how I make time to write blog posts.
 I hadn't really thought about it before, so I joked that I needed to write a blog post on that.

@@ -14,11 +14,7 @@ tags:
 title: Efficient emoji experience in Wayland
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Old steam engine called Golden Arrow at a train station" 
-    caption="Photo credit: [Ashley Richards](https://unsplash.com/photos/60HjyvXHbpo)"
-    >}}
+_Photo credit: [Ashley Richards](https://unsplash.com/photos/60HjyvXHbpo)_
 
 I recently moved over to the Sway window manager (as I mentioned in my [last post]) and
 it runs on Wayland. That means bidding farewell to X. Although this is a step forward,

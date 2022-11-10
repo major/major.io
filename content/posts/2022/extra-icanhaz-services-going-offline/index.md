@@ -11,11 +11,7 @@ title: Extra icanhazip services going offline
 showtableofcontents: false
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Dark stairway going up" 
-    caption="Photo credit: [Atanas Teodosiev](https://unsplash.com/photos/EzoGykQmUYI)"
-    >}}
+_Photo credit: [Atanas Teodosiev](https://unsplash.com/photos/EzoGykQmUYI)_
 
 Every great thing has its end, and the extra services I launched along with [icanhazip.com] are no exception.
 I started [icanhazip.com] way back in 2009 and detailed much of the history when I [transferred ownership to Cloudflare].

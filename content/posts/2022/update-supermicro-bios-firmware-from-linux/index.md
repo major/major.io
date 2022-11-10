@@ -12,11 +12,7 @@ tags:
 title: Update Supermicro BIOS firmware from Linux
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Modern building with a porch on the top floor"       
-    caption="Photo credit: [Étienne Beauregard-Riverin](https://unsplash.com/photos/B0aCvAVSX8E)"
-    >}}
+_Photo credit: [Étienne Beauregard-Riverin](https://unsplash.com/photos/B0aCvAVSX8E)_
 
 The [Linux Vendor Firmware Service] (LVFS) and [fwupd] turned the troublesome and time
 consuming activities of updating all kinds of firmware for laptops, desktops, and

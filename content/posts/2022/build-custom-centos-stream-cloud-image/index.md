@@ -14,11 +14,7 @@ tags:
 title: Build a custom CentOS Stream 9 cloud image
 ---
 
-{{< figure 
-    src="cover.jpg"
-    alt="Hiker with a backpack in a deep forest with some snow" 
-    caption="Photo credit: [Alina Fedorchenko](https://unsplash.com/photos/RT9c80cycn8)"
-    >}}
+_Photo credit: [Alina Fedorchenko](https://unsplash.com/photos/RT9c80cycn8)_
 
 This is my [third post] about [Image Builder], so I guess you could say that I enjoy
 using it[^biased]. It's a great way to define a custom cloud image, build it, and

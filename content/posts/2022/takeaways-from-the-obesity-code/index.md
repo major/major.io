@@ -10,11 +10,7 @@ tags:
 title: Takeaways from The Obesity Code
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Man walking on a mountain with rocks" 
-    caption="Photo credit: [Andy Salazar](https://unsplash.com/photos/Nb5fWcjbjto)"
-    >}}
+_Photo credit: [Andy Salazar](https://unsplash.com/photos/Nb5fWcjbjto)_
 
 I finished Dr. Jason Fung's _[The Obesity Code]_ earlier this week and it really made me think about how the nature of food and eating have changed over time.
 At a high level, the book focuses on not only *what* we eat, but *when* we eat.

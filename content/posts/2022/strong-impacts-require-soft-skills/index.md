@@ -11,11 +11,7 @@ tags:
 title: Strong impacts require soft skills
 ---
 
-{{< figure 
-    src="cover.jpg" 
-    alt="Deer standing under the sunlight in a grove of trees" 
-    caption="Photo credit: [Siska Vrijburg](https://unsplash.com/photos/AjyF1e_AGmc)"
-    >}}
+_Photo credit: [Siska Vrijburg](https://unsplash.com/photos/AjyF1e_AGmc)_
 
 My first full-time job was purely technical.
 Most of my interview centered around my abilities to manage and maintain Linux servers since the company had very limited Linux knowledge.

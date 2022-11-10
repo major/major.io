@@ -14,11 +14,7 @@ tags:
 title: Basic authentication with Traefik on kubernetes
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Fence and gate in front of a grassy pasture"
-    caption="Photo credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)"
-    >}}
+_Photo credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)_
 
 [Basic access authentication] dates back to 1993 and it's still heavily used today. The
 server provides a `WWW-Authenticate` header to the client and the client responds with

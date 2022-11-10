@@ -12,11 +12,7 @@ tags:
 title: Kerberos logins with Brave on Linux
 ---
 
-{{< figure
-    src="cover.jpg"
-    alt="Old building in the woods with long exposure star movement in the background"
-    caption="Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)"
-    >}}
+_Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)_
 
 My primary browser flips back and forth between [Brave] and [Firefox] depending
 on my current tasks, but [kerberos] logins are integral to my workflow at work
