@@ -16,6 +16,11 @@
   weight = 10
 
 [[main]]
+  name = "Archive"
+  pageRef = "oldposts"
+  weight = 11
+
+[[main]]
   name = "Tags"
   pageRef = "tags"
   weight = 20
@@ -24,11 +29,6 @@
   name = "CV"
   pageRef = "cv"
   weight = 40
-
-[[main]]
-  name = "W5WUT"
-  pageRef = "w5wut"
-  weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

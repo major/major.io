@@ -12,7 +12,7 @@ autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["post"]
+mainSections = ["posts", "oldposts"]
 # robots = ""
 
 [header]
@@ -26,7 +26,7 @@ mainSections = ["post"]
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
 
 [article]
   showDate = true

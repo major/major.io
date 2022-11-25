@@ -11,7 +11,11 @@ paginate = 50
 summaryLength = 0
 
 [permalinks]
-  posts = "/:year/:month/:day/:slug/" 
+  # Posts before November 2022 use the old (and very long) permalink structure
+  # from my old days of Wordpress.
+  oldposts = "/:year/:month/:day/:slug/" 
+  # Posts after November 2022 use the new, shorter permalink structure.
+  posts = "/p/:filename/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
