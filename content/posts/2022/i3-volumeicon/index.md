@@ -74,7 +74,6 @@ I've changed a few things from the defaults:
 i3 takes care of starting the icon for me with `exec`:
 
 ```text
- Tray icons
 exec --no-startup-id volumeicon
 ```
 
