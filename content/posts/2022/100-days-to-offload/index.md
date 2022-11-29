@@ -3,6 +3,7 @@ author: Major Hayden
 date: '2022-11-25'
 summary: Sometimes the best way to get past a persistent writer's block is to challenge yourself to write. 📝
 tags:
+  - 100DaysToOffload
   - blog
   - writing
 title: Taking the 100 Days to Offload challenge

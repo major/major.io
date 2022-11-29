@@ -3,8 +3,10 @@ author: Major Hayden
 date: '2022-11-27'
 summary: Simplify your i3 configuration and monitor sound levels with volumeicon in your tray with the i3 window manager. 🔈 
 tags:
-  - blog
-  - writing
+  - 100DaysToOffload
+  - i3
+  - sound
+  - volumeicon
 title: Manage sound volume with volumeicon in i3 
 ---
 
@@ -83,3 +85,5 @@ Log out and log in again to test the changes.
 [i3 spin]: https://spins.fedoraproject.org/en/i3/
 [pasystray]: https://github.com/christophgysin/pasystray
 [volumeicon]: https://github.com/Maato/volumeicon
+
+_This is post 2 of 100 in the [#100DaysToOffload](/p/100-days-to-offload/) challenge._
