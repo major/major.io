@@ -45,6 +45,10 @@ tztime berlin {
 The `hide_if_equals_localtime` configuration ensures that I only see one clock if my local timezone switches to CET.
 Emoji flags add a little bit of flair to the clocks in the status bar. 😉
 
+Here's how it looks (with the [Hack](https://github.com/source-foundry/Hack) font):
+
+{{< figure src="i3status.png" alt="i3status screenshot" default=true >}}
+
 ## Apply the change
 
 Reload the i3 configuration with `Mod+Shift+c` and restart i3 with `Mod+Shift+r`.
