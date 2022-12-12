@@ -13,8 +13,6 @@ tags:
 title: Make diacritics easy in Linux
 ---
 
-{{< figure src="/images/2020-02-13-diacritics-on-license-plate.jpg" alt="Brno skyline" position="center" >}}
-
 [Diacritics] are all of the small things that are added on, above, or below
 certain characters in various languages. Some examples include tildes (ñ),
 accents (á), or other marks (š). These marks are little hints that help you
@@ -94,5 +92,3 @@ Take a look at [AltGr] on Wikipedia for lots more combinations.
 [Diacritics]: https://en.wikipedia.org/wiki/Diacritic
 [online character maps]: https://www.online-toolz.com/tools/character-map.php
 [AltGr]: https://en.wikipedia.org/wiki/AltGr_key
-
-*Photo credit: naleag_deco on [Flickr](https://www.flickr.com/photos/53088812@N00/1304824528/)*
