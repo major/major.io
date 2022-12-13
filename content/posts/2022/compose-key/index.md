@@ -12,7 +12,7 @@ Much of my work is driven by my keyboard, and I love finding new ways to do comp
 That's why I'm drawn towards tiling window managers like [i3](https://i3wm.org/) and [sway](https://swaywm.org/).
 
 My team at work spans the globe and speaks many different languages.
-Many of these languages have diacritics (such as accents, tildes, or other marks) that completely change the pronunciation (or even the meaning!)_ of the word.
+Many of these languages have diacritics (such as accents, tildes, or other marks) that completely change the pronunciation _(or even the meaning!)_ of the word.
 Sure, I can type Tomas (TOM-oss) quickly, but it's not the same as Tomaš (TOM-osh).
 
 Using diacritics shows respect for someone's name, their language and their culture.
