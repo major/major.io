@@ -12,8 +12,6 @@ tags:
 title: Build a URL shortener with Cloudflare Workers
 ---
 
-_Photo credit: [Robin Glauser](https://unsplash.com/photos/DFqxXsj56Sk)_
-
 Shortened URLs make it easier to quickly reference complicated URLs and share them with
 other people. For example, https://url.major.io/reviews is definitely an easier method
 for sharing my [Fedora package review] list with other people instead of the full Bugzilla

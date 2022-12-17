@@ -4,7 +4,6 @@ date: '2022-10-27'
 summary: >-
   Tailscale exit nodes allow you to route your traffic through nearly any system in your
   tailnet. Learn how to build an exit node using firewalld. 🕳️
-cover: cover.jpg
 tags:
   - centos
   - cloud
@@ -15,8 +14,6 @@ tags:
   - tailscale
 title: Build a Tailscale exit node with firewalld
 ---
-
-_Photo credit: [Patrick Hendry](https://unsplash.com/photos/Tv5lpMsuvoI)_
 
 Once upon a time, I spent hours and hours fumbling through openvpn configurations, certificates, and firewalls to get VPNs working between servers.
 One small configuration error led to lots of debugging.

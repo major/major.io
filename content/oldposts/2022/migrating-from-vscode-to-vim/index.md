@@ -13,8 +13,6 @@ tags:
 title: Migrating from vscode to vim
 ---
 
-_Photo credit: [Sean Lee](https://unsplash.com/photos/NoDWcqosyLU)_
-
 Every Linux user experienced at least one "battle of the text editors" once in their lifetime.
 I even participated in a few!
 Text editors form the foundation of nearly every Linux user's workflow.
@@ -32,11 +30,7 @@ But before I could say anything else, he said:
 
 > And, naturally, emacs is the best editor out there, anyway.
 
-{{< figure
-    src="bob-odenkirk-better-call-saul.gif"
-    alt="Bob Odenkirk as Better Call Saul with an exasperated facepalm"
-    default=true
-    >}}
+🤦‍♂️
 
 # Why migrate to vim?
 

@@ -4,14 +4,11 @@ date: '2022-09-08'
 summary: >-
   Success at work depends on more than your technical ability. Improve your
   soft skills to increase your impact. 💪
-cover: cover.jpg
 tags:
   - advice
   - mentorship
 title: Strong impacts require soft skills
 ---
-
-_Photo credit: [Siska Vrijburg](https://unsplash.com/photos/AjyF1e_AGmc)_
 
 My first full-time job was purely technical.
 Most of my interview centered around my abilities to manage and maintain Linux servers since the company had very limited Linux knowledge.

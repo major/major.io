@@ -4,15 +4,12 @@ date: '2022-11-06'
 summary: >-
   Running gets me outside and gives me a challenge where I can compete against myself.
   Here are my tips for becoming an amateur runner. 🎽
-cover: cover.jpg
 tags:
   - advice
   - exercise
   - running
 title: Amateur Guide to Running
 ---
-
-_Photo credit: [Jeff Finley](https://unsplash.com/photos/FfGSxv4lITs)_
 
 I love to run.
 It gives me an opportunity go outside and create challenges for myself.

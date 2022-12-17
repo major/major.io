@@ -13,8 +13,6 @@ tags:
 title: Encrypted gitops secrets with flux and age
 ---
 
-_Photo credit: [Mert Kahveci](https://unsplash.com/photos/uoU9NySvCks)_
-
 Kubernetes has always felt like an enigma to me. On one hand, I love containers and I
 use them daily for personal and work projects. On the other hand, kubernetes feels like
 a heavy, burdensome set of tools that can be difficult to maintain over time. Keeping

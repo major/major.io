@@ -4,7 +4,6 @@ date: '2022-08-05'
 summary: >-
   Add encrypted ssh keys to your workflow more efficiently with gnome-keyring
   in the sway window manager.
-cover: cover.jpg
 tags:
   - fedora
   - gnome
@@ -13,8 +12,6 @@ tags:
   - sway
 title: Use GNOME Keyring with Sway
 ---
-
-_Photo credit: [Isuru Ranasinha](https://unsplash.com/photos/WC0zbuOofRs)_
 
 [SSH key authentication] makes it easier to secure SSH servers and it opens the door to automation with projects such as [Ansible].
 However, working with encrypted SSH keys becomes tedious when you have several of them for different services.

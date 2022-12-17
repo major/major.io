@@ -11,8 +11,6 @@ tags:
 title: Mount NFS shares in kubernetes
 ---
 
-_Photo credit: [the blowup](https://unsplash.com/photos/hiK8FD142XU)_
-
 Kubernetes offers a plethora of [storage options] for mounting volumes in pods, and NFS
 is included. I have a Synology NAS at home and some of my pods in my home kubernetes
 deployment need access to files via NFS.

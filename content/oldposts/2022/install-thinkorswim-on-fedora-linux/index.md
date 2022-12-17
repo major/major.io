@@ -14,8 +14,6 @@ tags:
 title: Install ThinkOrSwim on Fedora Linux
 ---
 
-_Photo credit: [Robert Linder](https://unsplash.com/photos/YzNehPDLAa8)_
-
 Over the past two years, I picked up stock trading and general finance knowledge as a
 hobby. There are plenty of things I enjoy here: complex math, understanding trends, and
 making educated guesses on what happens next. Getting the right tools makes this job a

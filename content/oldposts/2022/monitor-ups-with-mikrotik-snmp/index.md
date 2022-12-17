@@ -4,7 +4,6 @@ date: '2022-10-28'
 summary: >-
   Mikrotik routers and switches serve as efficient network devices, but they know other
   tricks, too. Monitor your UPS with a Mikrotik device and query it via SNMP. 🔌
-cover: cover.jpg
 tags:
   - mikrotik
   - networking
@@ -12,8 +11,6 @@ tags:
   - ups
 title: Monitor a UPS with a Mikrotik router via SNMP
 ---
-
-_Photo credit: [Jake Kokot](https://unsplash.com/photos/7yEVbxtXPwM)_
 
 Cyberpower UPS units saved me from plenty of issues in the past with power outages.
 However, although I love the units themselves, I found that the quality of replacement batteries varies widely.

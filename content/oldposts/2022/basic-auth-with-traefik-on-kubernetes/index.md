@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-04-20'
 summary: >-
   Keep prying eyes away from your sites behind Traefik with basic authentication. 🛃
-cover: cover.jpg
 tags:
   - flux
   - gitops
@@ -13,8 +12,6 @@ tags:
   - traefik
 title: Basic authentication with Traefik on kubernetes
 ---
-
-_Photo credit: [Annie Spratt](https://unsplash.com/photos/FyQX5fX2hZc)_
 
 [Basic access authentication] dates back to 1993 and it's still heavily used today. The
 server provides a `WWW-Authenticate` header to the client and the client responds with

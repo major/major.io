@@ -4,7 +4,6 @@ date: '2022-11-11'
 summary: >-
   Ongoing changes at Twitter led me to take a second look at mastodon,
   including running my own mastodon instance. 🐘
-cover: cover.jpg
 tags:
   - containers
   - docker
@@ -14,8 +13,6 @@ tags:
   - twitter
 title: Adventures with the mastodon herd
 ---
-
-_Photo credit: [Hu Chen](https://unsplash.com/photos/-9JAqVxg3vs)_
 
 All of the recent changes at Twitter inspired me to take a second look at [mastodon].
 In short, mastodon is a federated social network that feels a bit like someone took Twitter and split it up into a vast network of independent servers.

@@ -14,8 +14,6 @@ tags:
 title: Disable HiDPI in alacritty
 ---
 
-_Photo credit: [Tim Stief](https://unsplash.com/photos/YFFGkE3y4F8)_
-
 The [alacritty] terminal remains my favorite terminal because of its simple
 configuration, regular expression hints, and incredible performance. It's written in
 Rust and it uses OpenGL to accelerate the terminal output.

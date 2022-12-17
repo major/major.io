@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-05-27'
 summary: >-
   Because nobody wants an inefficient emoji workflow. 🙈
-cover: cover.jpg
 tags:
   - emoji
   - fedora
@@ -13,8 +12,6 @@ tags:
   - wayland
 title: Efficient emoji experience in Wayland
 ---
-
-_Photo credit: [Ashley Richards](https://unsplash.com/photos/60HjyvXHbpo)_
 
 I recently moved over to the Sway window manager (as I mentioned in my [last post]) and
 it runs on Wayland. That means bidding farewell to X. Although this is a step forward,

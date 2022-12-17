@@ -4,7 +4,6 @@ date: '2022-09-02'
 summary: >-
   Get systems online quickly or rescue a broken system by PXE booting from
   netboot.xyz using a Mikrotik router. 🛠
-cover: cover.jpg
 tags:
   - fedora
   - linux
@@ -13,8 +12,6 @@ tags:
   - pxe
 title: PXE boot netboot.xyz on a Mikrotik router
 ---
-
-_Photo credit: [Stephen Leonardi](https://unsplash.com/photos/oZtm7fd1aaA)_
 
 The first RFCs for [PXE], or preboot execution environment, showed up in June 1981 and it's still a popular tool today.
 It enables computers to boot up and download some software that runs early in the boot process.

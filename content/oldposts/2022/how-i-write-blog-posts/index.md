@@ -4,14 +4,11 @@ date: '2022-08-17'
 summary: >-
   This feels very meta, but I thought it would be a good idea to share my blog
   post writing process anyway. 📝
-cover: cover.jpg
 tags:
   - advice
   - writing
 title: How I write blog posts 
 ---
-
-_Photo credit: [Dylan Leagh](https://unsplash.com/photos/JtSU_LNa6e4)_
 
 During a mentoring meeting today at work, my mentee asked me how I make time to write blog posts.
 I hadn't really thought about it before, so I joked that I needed to write a blog post on that.

@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-05-24'
 summary: >-
   Reload your sway config without disrupting Firefox. 🔥
-cover: cover.jpg
 tags:
   - fedora
   - firefox
@@ -11,8 +10,6 @@ tags:
   - wayland
 title: Sway reload causes a Firefox crash
 ---
-
-_Photo credit: [Daniel Tafjord](https://unsplash.com/photos/9p7nBsrcCt0)_
 
 My workday takes me from email to terminals to browsers to documents. I love tiling
 window managers because they keep me organized and less distracted. Many are less

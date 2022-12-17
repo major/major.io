@@ -4,7 +4,6 @@ date: '2022-08-02'
 summary: >-
   Efficiently communicate a problem and your recommendation in record time with
   an SBAR. 📝
-cover: cover.jpg
 tags:
   - advice
   - communication
@@ -13,8 +12,6 @@ tags:
   - writing
 title: Raise the bar with an SBAR
 ---
-
-_Photo credit: [Sebastiano Corti](https://unsplash.com/photos/qx2AwbUOovQ)_
 
 You discovered a problem at work.
 If left unchecked, the problem could affect customers and impact revenue.
