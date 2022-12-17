@@ -26,7 +26,7 @@ mainSections = ["posts", "oldposts"]
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = true
+  showRecent = false
 
 [article]
   showDate = true
