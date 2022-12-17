@@ -156,7 +156,7 @@ Start the containers once more:
 ```console
 $ id
 uid=1000(core) gid=1000(core) groups=1000(core),4(adm),10(wheel),16(sudo),190(systemd-journal),982(docker) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
-[core@static ~]$ docker-compose up -d
+$ docker-compose up -d
 [+] Running 4/4
  ⠿ whoami Pulled
    ⠿ 029cd1bf7e7c Pull complete
