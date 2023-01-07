@@ -113,7 +113,7 @@ If not, then your best choice might be to walk away.
 
 Quality means something different to everyone.
 When I talk about quality here, I am talking about delivering a high quality product and talking to customers about it honestly.
-Every product in the world has bugs and shortcomings thatg everyone wishes were better.
+Every product in the world has bugs and shortcomings that everyone wishes were better.
 
 If a product needs to ship with ten features, but only eight are ready, then it might make sense to ship what you have.
 The key is that you're honest with customers and say "Okay, we have 80% of what you wanted and we wanted to get it to you now so you can get started sooner."
