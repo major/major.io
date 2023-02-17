@@ -13,9 +13,26 @@ summaryLength = 0
 [permalinks]
   # Posts before November 2022 use the old (and very long) permalink structure
   # from my old days of Wordpress.
-  oldposts = "/:year/:month/:day/:slug/" 
+  oldposts = "/:year/:month/:day/:slug/"
   # Posts after November 2022 use the new, shorter permalink structure.
   posts = "/p/:filename/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# Deployment configuration for S3/CloudFront
+[deployment]
+
+[[deployment.targets]]
+name = "major.io"
+URL = "s3://major.io?region=eu-west-1"
+cloudFrontDistributionID =	"E2CVUP8JO07HJ2"
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+cacheControl = "max-age=2592000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
