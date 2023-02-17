@@ -45,7 +45,7 @@ mainSections = ["posts", "oldposts"]
   showTaxonomies = true
   showWordCount = true
   showComments = false
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  sharingLinks = ["mastodon", "email", "reddit", "facebook", "twitter", "pinterest", "linkedin"]
 
 [list]
   showBreadcrumbs = true
@@ -58,10 +58,6 @@ mainSections = ["posts", "oldposts"]
 
 [taxonomy]
   showTermCount = true
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
 
 [verification]
   # google = ""
