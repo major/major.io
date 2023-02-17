@@ -25,7 +25,7 @@ summaryLength = 0
 
 [[deployment.targets]]
 name = "major.io"
-URL = "s3://major.io?region=eu-west-1"
+URL = "s3://major.io?region=us-east-1"
 cloudFrontDistributionID =	"E2CVUP8JO07HJ2"
 
 [[deployment.matchers]]
