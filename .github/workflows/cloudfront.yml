@@ -52,6 +52,7 @@ jobs:
         run: |
           mkdir -vp public/feed
           cp public/index.xml public/feed/index.xml
+          cp public/index.xml public/feed/index.html
 
       - name: Deploy to S3
         run: hugo deploy --force --maxDeletes -1 --invalidateCDN
