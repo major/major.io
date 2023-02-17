@@ -46,7 +46,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: hugo --minify --baseURL major.io
+        run: hugo --minify
 
       - name: Fix RSS feed
         run: |
