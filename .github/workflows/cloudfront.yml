@@ -55,4 +55,4 @@ jobs:
           cp public/index.xml public/feed/index.html
 
       - name: Deploy to S3
-        run: hugo deploy --verbose --force --maxDeletes -1 --invalidateCDN
+        run: hugo deploy --force --maxDeletes -1 --invalidateCDN
