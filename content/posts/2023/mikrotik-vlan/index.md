@@ -77,11 +77,13 @@ but my default is usually `10-254`:
 add name=vlan15 ranges=192.168.15.10-192.168.15.254
 ```
 
-Add a DHCP server:
+Add a DHCP server and a DHCP network configuration:
 
 ```
 /ip dhcp-server \
 add address-pool=vlan15 interface=vlan15 name=vlan15
+/ip dhcp-server network
+add address=192.168.15.0/24 dns-server=192.168.15.1 gateway=192.168.15.1
 ```
 
 The DHCP server uses our `vlan15` address pool for handing out addresses to devices on
