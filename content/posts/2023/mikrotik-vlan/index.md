@@ -130,21 +130,35 @@ network coming through the switch port.
 This is called an _access port_. Devices on the port have no idea that VLAN tagging is
 happening on the switch, but the switch tags all traffic coming from the port.
 
-In this example, I set up switch port `ether20` to take VLAN 15 and make it available as
-VLAN 0 (the native VLAN) to anything connected to that switch port:
+In this example, I set up switch port `ether18` to take VLAN 15 and make it available as
+the native VLAN to anything connected to that switch port:
 
 ```
+# Translate VLAN 15 to the native VLAN on ether18
+# This is creating the access port
 /interface ethernet switch ingress-vlan-translation \
-add ports=ether20 customer-vid=0 new-customer-vid=15 sa-learning=yes
+add ports=ether18 customer-vid=0 new-customer-vid=15
+
+# Ensure that traffic tagged with VLAN 15 can exit the switch
+# through the uplink to the router
+/interface ethernet switch egress-vlan-tag \
+add tagged-ports=ether1 vlan-id=15
+
+# Add VLAN table entries to show which ports are members of the VLAN
+/interface ethernet switch vlan \
+add ports=ether1,ether18 vlan-id=15
+
+# Don't allow anyone on port ether18 to tag their traffic with a
+# different VLAN ID and circumvent our access port settings
+/interface ethernet switch \
+set drop-if-invalid-or-src-port-not-member-of-vlan-on-ports=ether1,ether18
 ```
 
-The `sa-learning` configuration tells the switch to learn the source MAC addresses after
-the VLAN translation occurs. I'm not sure if this is explicitly required, but I've
-always enabled this setting for access ports. You don't need it for non-VLAN-aware
-ports, though.
-
-At this point, I can connect a device to port `ether20` and it gets an IP address via
+At this point, I can connect a device to port `ether18` and it gets an IP address via
 DHCP on the `192.168.15.1` network automatically!
+
+For further reading on these settings, check out Mikrotik's wiki page of
+[switch configuration examples](https://wiki.mikrotik.com/wiki/Manual:CRS1xx/2xx_series_switches_examples).
 
 # Extra credit
 
