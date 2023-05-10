@@ -169,7 +169,7 @@ You also get the opportunity to build that intermission summary from the previou
 
 ## Let it go
 
-Just like Anna said in [Frozen](https://en.wikipedia.org/wiki/Frozen_(2013_film)), sometimes you have to let it go:
+Just like Elsa sang in [Frozen](https://en.wikipedia.org/wiki/Frozen_(2013_film)), sometimes you have to let it go:
 
 > Let it go, let it go
 >
