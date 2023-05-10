@@ -56,7 +56,7 @@ dateFormat = "2 January 2006"
   #   { tiktok = "https://tiktok.com/@username" },
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
-   { twitter = "https://twitter.com/majorhayden" },
+  #   { twitter = "https://twitter.com/majorhayden" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   ]
