@@ -11,5 +11,6 @@ tags:
 ---
 To make Apache write logs similar to IIS, toss this into your Apache configuration:
 
-```LogFormat "%{%Y-%m-%d %H:%M:%S}t %h %u %m %U %q %>s %b %T %H %{Host}i %{User-Agent}i %{Cookie}i %{Referer}i" iis
+```
+LogFormat "%{%Y-%m-%d %H:%M:%S}t %h %u %m %U %q %>s %b %T %H %{Host}i %{User-Agent}i %{Cookie}i %{Referer}i" iis
 ```

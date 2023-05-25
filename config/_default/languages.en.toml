@@ -1,16 +1,20 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "Major Hayden"
 # logo = "/images/major_twitter_avatar.jpg"
-description = "A social nerd writing about everything"
 copyright = "All content licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)"
 
-dateFormat = "2 January 2006"
+[params]
+  isoCode = "en"
+  displayName = "EN"
+  rtl = false
+
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  description = "A social nerd writing about everything"
 
 [author]
   name = "Major Hayden"
