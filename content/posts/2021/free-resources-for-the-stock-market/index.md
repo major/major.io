@@ -3,17 +3,17 @@ aliases:
 - /2021/04/22/free-resources-for-the-stock-market/
 author: Major Hayden
 date: '2021-04-22'
-images:
-- images/2021-04-22-free-stock-market-resources-vienna.jpg
 summary: Investing in stock or trading options is complicated, but there are plenty
   of free resources available to make research easier.
 tags:
 - investing
 - options
 title: Free resources for the stock market
+coverAlt: Photo of downtown Vienna, Austria
+coverCaption: >
+  [Jacek Dylag](https://unsplash.com/photos/5SjAaqqCCmY)
+  on [Unsplash](https://unsplash.com)
 ---
-
-{{< figure src="/images/2021-04-22-free-stock-market-resources-vienna.jpg" alt="Vienna, Austria skyline" position="center" >}}
 
 Every new trader in the stock market must wade through a myriad of tools,
 platforms, and websites that claim to have the best stock market research
@@ -26,7 +26,7 @@ ones I rely on most often.
 
 ## Charting
 
-It's difficult to beat the charting features on [Yahoo! Finance]. Load up a
+It's difficult to beat the charting features on [Yahoo Finance]. Load up a
 particular stock, fund, or index and click on *Full screen* above the small
 chart. Take a look at the [chart for SPY] and click *Indicators* at the top
 left. You get tons of options for the basics, such as moving averages and
@@ -157,5 +157,3 @@ can be acquired for free or at a very low cost. Good luck!
 should make your own decisions around stock research and trades. Investing
 comes with plenty of risk and I'm the last person who should be giving anyone
 investment advice.* 😜
-
-*Photo credit: [Jacek Dylag on Unsplash](https://unsplash.com/photos/5SjAaqqCCmY)*

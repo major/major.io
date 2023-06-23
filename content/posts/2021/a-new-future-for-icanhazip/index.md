@@ -3,17 +3,16 @@ aliases:
 - /2021/06/06/a-new-future-for-icanhazip/
 author: Major Hayden
 date: '2021-06-06'
-images:
-- images/2021-06-16-sunrise-ocean.jpg
 summary: icanhazip.com lives on with the same mission, but with a new owner 🤗
 tags:
 - icanhazip
 - linux
 - python
 title: A new future for icanhazip
+coverAlt: Photo of downtown Vienna, Austria
+coverCaption: >
+  [Sebastien Gabriel on Unsplash](https://unsplash.com/photos/6p6WDodvR2Y)
 ---
-
-{{< figure src="/images/2021-06-16-sunrise-ocean.jpg" alt="Soft emoji items hanging on a rack" position="center" >}}
 
 In the summer of 2009, I had an idea. My workdays were spent deploying tons of
 cloud infrastructure as Rackspace acquired Slicehost and we rushed to keep up
