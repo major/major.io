@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 theme = "congo"
 
 enableRobotsTXT = true
-paginate = 250
+paginate = 50
 summaryLength = 0
 
 [permalinks]
