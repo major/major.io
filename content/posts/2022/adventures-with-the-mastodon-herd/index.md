@@ -54,7 +54,7 @@ One of my first questions after joining mastodon was: "How do I find the people 
 Many Twitter users are adding their mastodon accounts to their bio to make them easier to find on mastodon.
 For example, I added my mastodon account, [@major@fosstodon.org], to my [twitter bio]:
 
-{{< figure src="twitter_bio.png" alt="Major's twitter bio" default="true" >}}
+![twitter_bio.png](twitter_bio.png "Twitter bio showing off my mastodon link")
 
 Adding this to your bio makes it easier for people to find you via some helpful tools.
 I used [debirdify] to look through my Twitter account for mastodon handles of the people I follow.
@@ -285,7 +285,7 @@ Every mastodon instance is going through growing pains recently due to really hi
 
 The last count from the [Mastodon Users bot] shows massive interest:
 
-{{< figure src="mastodon_users.png" alt="Mastodon user count bot" default="true" >}}
+![mastodon_users.png](mastodon_users.png "🤖 Mastodon user count bot")
 
 If you're on a server that isn't performing well: **be patient**.
 
