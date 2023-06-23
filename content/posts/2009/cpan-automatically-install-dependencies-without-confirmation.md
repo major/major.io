@@ -1,0 +1,37 @@
+---
+aktt_notify_twitter:
+- false
+aliases:
+- /2009/01/01/cpan-automatically-install-dependencies-without-confirmation/
+author: Major Hayden
+date: 2009-01-02 01:44:51
+dsq_thread_id:
+- 3642805471
+tags:
+- cpan
+- perl
+title: 'CPAN: Automatically install dependencies without confirmation'
+---
+
+I enjoy using [CPAN][1] because it installs Perl modules with a simple interface, fetches dependencies, and warns you when things are about to end badly. However, one of my biggest complaints is when it constantly confirms installing dependencies. While this is an annoyance if you have to install a module with many dependencies (or if you're working with CPAN on a new server), you can tell CPAN to automatically confirm the installation of dependencies.
+
+To do this, simply bring up a CPAN shell:
+
+<pre lang="html">perl -MCPAN -e shell</pre>
+
+Run these two commands in the CPAN shell:
+
+<pre lang="html">o conf prerequisites_policy follow
+o conf commit</pre>
+
+Now, exit the CPAN shell, start the CPAN shell, and try to install a module that you need. All dependencies will be automatically confirmed, downloaded and installed.
+
+The first line sets your dependency policy to _follow_ rather than _ask_ (the default). The second line tells CPAN to write the changes to your user's CPAN configuration file to make them permanent.
+
+A big thanks goes out to [Lee Hambley][2] for the [fix][3].
+
+**WARNING:** _There are some occasions where you would not want to install dependencies from CPAN. Examples of these situations are when your operating system's package manager (yum, up2date, apt-get, aptitude, etc) has installed Perl modules in an alternative location or when you have manually installed modules in a non-standard way. I'm a Red Hat guy, and these problems rarely arise on Red Hat/Fedora systems, but your mileage may vary._
+
+ [1]: http://www.cpan.org/
+ [2]: http://lee.hambley.name/about
+ [3]: http://lee.hambley.name/2008/05/cpan-automatically-accept-dependencies
