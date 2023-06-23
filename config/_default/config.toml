@@ -15,20 +15,3 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# Deployment configuration for S3/CloudFront
-[deployment]
-
-[[deployment.targets]]
-name = "major.io"
-URL = "s3://major.io?region=us-east-1"
-cloudFrontDistributionID =	"E2CVUP8JO07HJ2"
-
-[[deployment.matchers]]
-pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
-cacheControl = "max-age=2592000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
