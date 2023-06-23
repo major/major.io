@@ -13,6 +13,9 @@ tags:
   - s3
   - security
 title: Migrating to AWS CloudFront
+coverAlt: View of a beach by the ocean from the air
+coverCaption: |
+  [Simon Barber](https://unsplash.com/photos/JJspmVquopU)_
 ---
 
 This blog moved from Wordpress to Hugo back in 2020 and that was a great decision.
@@ -381,5 +384,3 @@ Hopefully you enjoyed it, too! 💕
 
 [^cache_invalidate]:
     Invalidating the cache is not required, but it does help with getting new content served by the CDN as soon after a deployment as possible.
-
-_Cover photo by [Simon Barber](https://unsplash.com/photos/JJspmVquopU)_

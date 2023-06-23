@@ -9,6 +9,9 @@ tags:
   - cloud
   - cost
 title: Monitor your AWS bill
+coverAlt: Tall waterfall with a huge splash at the bottom that is making lots of fog
+coverCaption: |
+  [Stephen Walker](https://unsplash.com/photos/onIXxjH56AA)
 ---
 
 Public clouds are the all-you-can-eat buffet of infrastructure.
@@ -116,5 +119,3 @@ Infracost analyzes each pull request and explains the billing changes based on w
 It replies in the PR with a comment detailing the potential charges that your change might incur.
 
 This is a great way to avoid really painful charges (like the $600 dedicated IP charge for CloudFront) and track your cloud infrastructure costs over time.
-
-_Cover photo credit: [Stephen Walker](https://unsplash.com/photos/onIXxjH56AA)_

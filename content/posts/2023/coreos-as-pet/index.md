@@ -14,6 +14,9 @@ tags:
   - toolbox
   - wireguard
 title: CoreOS as a pet
+coverAlt: Cozy fireplace in a cabin
+coverCaption: |
+  Cover image: [Hans Isaacson](https://unsplash.com/photos/bQTVoJHrkO0) on Unsplash
 ---
 
 Anyone working with containers has likely heard of [CoreOS](https://fedoraproject.org/coreos/) by this point
@@ -158,5 +161,3 @@ Go check out [Fedora Silverblue](https://fedoraproject.org/silverblue/). 💻
 
 [^no_live]: When you apply some packages and make them available immediately, you may lose track of which ones were applied live and which ones are available on the next reboot.
   Things can get a bit confusing if you suddenly change your mind about applying a package live or not.
-
-_Cover image: [Hans Isaacson](https://unsplash.com/photos/bQTVoJHrkO0) on Unsplash_

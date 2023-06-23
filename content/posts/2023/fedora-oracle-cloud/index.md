@@ -8,6 +8,9 @@ tags:
   - fedora
   - oracle
 title: Fedora on Oracle Cloud
+coverAlt: Stairway with stone walls
+coverCaption: |
+  [James Wood](https://unsplash.com/photos/GoArxJdvQ6Q)
 ---
 
 I enjoy taking Fedora with me to various clouds and ensuring that it works well on all
@@ -236,8 +239,6 @@ Fedora release 38 (Thirty Eight)
 ```
 
 Enjoy running Fedora on Oracle Cloud! 🎉
-
-_Cover photo: [James Wood](https://unsplash.com/photos/GoArxJdvQ6Q)_
 
 [^cantconnect]: If you aren't able to access the instance, you might be missing an internet gateway or a security group to allow traffic through to your instance. 
     Here are direct links to the console instructions for those items:

@@ -8,6 +8,9 @@ tags:
   - phone
   - voip
 title: My home phone costs 85 cents a month
+coverAlt: Tree branch with leaves in front of a telephone pole with wires
+coverCaption: |
+  [Patrick Ho](https://unsplash.com/photos/8P3Ivyi59aI)
 ---
 
 I [aired my grievances](https://tootchute.com/@major/110196965372403816) about Ooma's
@@ -207,5 +210,3 @@ billing](https://voip.ms/m/payment.php)! You can tell voip.ms to fill your accou
 some money when it crosses a certain threshold. I have mine set to add $25 each time I
 drop under $10. They will send you nag emails as soon as your balance gets low but you
 don't want to forget about it.
-
-_Cover photo by [Patrick Ho](https://unsplash.com/photos/8P3Ivyi59aI)_

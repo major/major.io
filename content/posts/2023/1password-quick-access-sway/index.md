@@ -10,6 +10,9 @@ tags:
   - security
   - sway
 title: 1Password quick access in Sway
+coverAlt: Reflective box in the grass
+coverCaption: |
+  [Parker Coffman](https://unsplash.com/photos/LuS0JpIGGbw)
 ---
 
 [1Password](https://1password.com/downloads/linux/) remains a core part of my
@@ -49,5 +52,3 @@ bindsym Control+Shift+Space exec /usr/bin/1password --quick-access
 Save the file and reload Sway's configuration with `mod+shift+c` _(mod is usually your
 Windows key unless you changed it)_. Now press `ctrl-shift-space` and the quick access
 menu should appear!
-
-_Cover photo credit: [Parker Coffman](https://unsplash.com/photos/LuS0JpIGGbw)_

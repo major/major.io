@@ -9,6 +9,9 @@ tags:
   - fedora
   - open source
 title: My beef with mailing lists
+coverAlt: Tree with tons of branches
+coverCaption: |
+   [Brandon Green](https://unsplash.com/photos/GEyXGTY2e9w)
 ---
 
 🥵 _**This post is long.** If you need a TL;DR, just [hop down to the end](#tldr)._
@@ -213,5 +216,3 @@ Just to summarize:
 [^self-reply]: Some people frown on replying to yourself in a mailing list thread.
     Are you adding value to the thread?
     If so, ignore them.
-
-_Photo credit: [Brandon Green](https://unsplash.com/photos/GEyXGTY2e9w)_

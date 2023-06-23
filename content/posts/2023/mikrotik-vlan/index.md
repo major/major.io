@@ -9,6 +9,9 @@ tags:
   - networking
   - vlan
 title: Add a VLAN on a Mikrotik router
+coverAlt: Truck driving on a path through the bush at sunset
+coverCaption: |
+  [Kartabya Aryal](https://unsplash.com/photos/dHw-xRahyLY)
 ---
 
 If your house is like mine, you have devices that you really trust and then there are
@@ -177,5 +180,3 @@ too.
 
 Even if you think that you aren't using IPv6 internally, [you might actually be using
 it](https://en.wikipedia.org/wiki/Link-local_address). 😉
-
-_Cover photo credit: [Kartabya Aryal](https://unsplash.com/photos/dHw-xRahyLY)_
