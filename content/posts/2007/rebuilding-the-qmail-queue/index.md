@@ -10,13 +10,11 @@ tags:
 title: Repairing the qmail queue
 ---
 
-There's three main things to remember when it comes to the qmail queue:
+There are three main things to remember when it comes to the qmail queue:
 
-> **1.** Don't mess with the qmail queue while qmail is running.
-
-> **2.** Don't mess with the qmail queue while qmail is stopped.
-
-> **3.** Don't mess with the qmail queue **ever**.
+1. Don't mess with the qmail queue while qmail is running.
+2. Don't mess with the qmail queue while qmail is stopped.
+3. Don't mess with the qmail queue **ever**.
 
 The qmail application keeps a database (sort of) of the pieces of mail it expects to be in the queue (and on the filesystem). Many python scripts (like mailRemove.py) claim they will speed up your qmail queue by removing failure notices and tidying up the queue files. Most of the time, these scripts work just fine, but sometimes they remove something they shouldn't and then qmail can't find the file.
 

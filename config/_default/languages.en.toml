@@ -4,23 +4,20 @@ weight = 1
 
 title = "Major Hayden"
 # logo = "/images/major_twitter_avatar.jpg"
-copyright = "All content licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)"
+copyright = "All content licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 💜"
 
 [params]
   isoCode = "en"
   displayName = "EN"
   rtl = false
-
   dateFormat = "2 January 2006"
-
-  # mainSections = ["section1", "section2"]
-  description = "A social nerd writing about everything"
+  description = "A social nerd writing about everything 🤓"
 
 [author]
   name = "Major Hayden"
-  image = "/images/major_twitter_avatar.jpg"
-  headline = "A social nerd writing about everything"
-  bio = "A social nerd writing about everything"
+  image = "major_avatar.png"
+  headline = "A social nerd writing about everything 🤓"
+  bio = "I love sharing what I've learned with others and I hope you find something here that's useful."
   links = [
     { email = "mailto:major@mhtx.net" },
   #   { link = "https://link-to-some-website.com/" },
