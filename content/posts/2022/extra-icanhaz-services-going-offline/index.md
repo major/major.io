@@ -11,6 +11,10 @@ tags:
 - linux
 - python
 title: Extra icanhazip services going offline
+coverAlt:
+coverCaption: >
+  Photo by <a href="https://unsplash.com/@claudiasoraya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Soraya</a>
+  on <a href="https://unsplash.com/photos/13MzGKuJYSw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
 
 Every great thing has its end, and the extra services I launched along with [icanhazip.com] are no exception.
