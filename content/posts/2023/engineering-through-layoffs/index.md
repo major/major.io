@@ -72,8 +72,9 @@ No, as it turns out, he was laid off at lunch and the call was scheduled for 2PM
 A choice was made to reduce engineering staff by some percentage, so the business essentially did this:
 
 ```sql
-SELECT * FROM employees
-WHERE job_family == "engineering"
+SELECT *
+FROM employees
+WHERE job_family = "engineering"
 ORDER BY RAND()
 LIMIT 100
 ```
@@ -124,8 +125,9 @@ _(This last one seems crazy, but I've seen it happen once.)_
 The problem shows up when the company tries to do a layoff like this:
 
 ```sql
-SELECT * FROM employees
-WHERE performance_level == "unacceptable"
+SELECT *
+FROM employees
+WHERE performance_level = "unacceptable"
 ORDER BY RAND()
 LIMIT 100
 ```
