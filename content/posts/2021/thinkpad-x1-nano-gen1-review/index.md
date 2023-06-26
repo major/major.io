@@ -3,8 +3,6 @@ aliases:
 - /2021/10/23/thinkpad-x1-nano-gen1-review/
 author: Major Hayden
 date: '2021-10-23'
-images:
-- images/2021-10-23-thinkpad-x1-nano.png
 summary: One of the smallest ThinkPads delivers one of the best experiences I've had
   on a laptop. 💻
 tags:
@@ -14,8 +12,6 @@ tags:
 - linux
 title: ThinkPad X1 Nano Gen 1 Review
 ---
-
-{{< figure src="/images/2021-10-23-thinkpad-x1-nano.png" alt="ThinkPad X1 Nano Gen 1" position="center" >}}
 
 My ThinkPad T490 was showing its age and [wrestling with the internal NVIDIA
 GPU] was a constant pain. Other than some unexpected early battery wear, it has

@@ -3,8 +3,6 @@ aliases:
 - /2020/12/07/the-dark-side-selling-options/
 author: Major Hayden
 date: '2020-12-07'
-images:
-- images/2020-12-07-dark-hills.jpg
 summary: Selling options puts you on the other side of the options contract from buyers,
   but it comes with obligations.
 tags:
@@ -12,8 +10,6 @@ tags:
 - options
 title: 'The Dark Side: Selling Options'
 ---
-
-{{< figure src="/images/2020-12-07-dark-hills.jpg" alt="Dark Hills" position="center" >}}
 
 I've started a [series of posts on options trading] and if you haven't read
 yesterdays post, [Options trading introduction], you should start there first.

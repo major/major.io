@@ -3,8 +3,6 @@ aliases:
 - /2021/10/30/secure-tailscale-networks-with-firewalld/
 author: Major Hayden
 date: '2021-10-30'
-images:
-- images/2021-10-30-dark-street.jpg
 summary: Tailscale provides a handy private network mesh across multiple devices but
   it needs security just like any other network. 🕵
 tags:
@@ -16,8 +14,6 @@ tags:
 - tailscale
 title: Secure Tailscale networks with firewalld
 ---
-
-{{< figure src="/images/2021-10-30-dark-street.jpg" alt="Dark street at night" position="center" >}}
 
 Much of my daily work involves using multiple clouds and I do the same for my
 personal infrastructure, too. Building mesh networks between each piece of cloud

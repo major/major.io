@@ -3,8 +3,6 @@ aliases:
 - /2016/01/20/tinkering-with-systemds-predictable-network-names/
 author: Major Hayden
 date: 2016-01-20 19:46:52
-medium_post:
-- O:11:"Medium_Post":9:{s:16:"author_image_url";N;s:10:"author_url";N;s:10:"cross_link";s:3:"yes";s:2:"id";N;s:21:"follower_notification";s:3:"yes";s:7:"license";s:11:"cc-40-by-sa";s:14:"publication_id";s:2:"-1";s:6:"status";s:4:"none";s:3:"url";N;}
 tags:
 - command line
 - fedora
@@ -16,8 +14,6 @@ tags:
 - udev
 title: Tinkering with systemd’s predictable network names
 ---
-
-<a href="/wp-content/uploads/2016/01/461574071_5d79d1a951_o-e1453319191847.jpg" rel="attachment wp-att-6042"><img src="/wp-content/uploads/2016/01/461574071_5d79d1a951_o-e1453319191847.jpg" alt="Tinkering Tools" class="aligncenter size-full wp-image-6042" /></a>
 
 I've talked about [predictable network names][1] (and [seemingly unpredictable ones][2]) on the blog before, but some readers asked me how they could alter the network naming to fit a particular situation. Oddly enough, my [Supermicro 5028D-T4NT][3] has a problem with predictable names and it's a great example to use here.
 

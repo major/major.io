@@ -3,8 +3,6 @@ aliases:
 - /2021/07/28/dhcpv6-prefix-delegation-with-systemd-networkd/
 author: Major Hayden
 date: '2021-07-28'
-images:
-- images/2021-07-28-pipes.jpg
 summary: Use the new DHCPv6 prefix delegation features in systemd-networkd to make
   IPv6 subnetting easy! 🎉
 tags:
@@ -13,8 +11,6 @@ tags:
 - networking
 title: DHCPv6 prefix delegation with systemd-networkd
 ---
-
-{{< figure src="/images/2021-07-28-pipes.jpg" alt="Industrial pipes on a wall" position="center" >}}
 
 My home internet comes from Spectrum (formerly Time Warner Cable) and they offer
 IPv6 addresses for cable modem subscribers. One of the handy features they

@@ -217,5 +217,3 @@ IDX LINK             TYPE               OPERATIONAL SETUP
 ```
 
 You should have `configured` in the `SETUP` column for all of the interfaces you created. Some interfaces will show as `degraded` because they are missing an IP address (which is intentional for most of these interfaces).
-
- [1]: https://major.io/wp-content/uploads/2017/04/MaxPixel.freegreatpicture.com-Chip-Nsa-Distributor-Switch-It-Network-Ethernet-490027-e1492089463954.jpg

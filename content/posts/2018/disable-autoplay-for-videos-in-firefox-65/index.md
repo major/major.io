@@ -14,8 +14,7 @@ disable autoplay for videos. We've all had one of those moments: your
 speakers are turned up and you browse to a website with an annoying
 advertisement that plays immediately.
 
-<img src='/gifs/2018-12-18-just-want-it-to-stop.gif' alt="GIF: I just want it to stop." style="display: block; margin: auto;">
-
+![2018-12-18-just-want-it-to-stop.gif](2018-12-18-just-want-it-to-stop.gif "I just want it to stop")
 
 This feature stopped working for me somewhere in the Firefox 65 beta
 releases. Also, the usual setting in the preference page (under *Privacy &

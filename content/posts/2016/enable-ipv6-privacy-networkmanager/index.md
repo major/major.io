@@ -12,8 +12,6 @@ tags:
 title: Enable IPv6 privacy in NetworkManager
 ---
 
-![1]
-
 On most IPv6-enabled networks, network addresses are distributed via [stateless address autoconfiguration (SLAAC)][2]. That is a fancy way to say that hosts on an IPv6 network will configure their own IP addresses.
 
 The process usually works like this:
@@ -63,7 +61,6 @@ Temporary addresses are built based on the MAC address and a random time string,
 
 Photo Credit: [UnknownNet Photography][7]
 
- [1]: /wp-content/uploads/2016/04/25587307903_3ec82a6dde_b-e1460910591232.jpg
  [2]: https://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration
  [3]: https://en.wikipedia.org/wiki/IPv6_address#Modified_EUI-64
  [4]: https://standards.ieee.org/develop/regauth/tut/eui64.pdf

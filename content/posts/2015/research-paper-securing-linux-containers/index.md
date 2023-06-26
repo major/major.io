@@ -31,8 +31,6 @@ I've written about launching secure containers on this blog many times before:
   * [Try out LXC with an Ansible playbook][3]
   * [CoreOS vs. Project Atomic: A Review][4]
 
-[<img src="/wp-content/uploads/2015/08/GCUX.Gold_.hi_.res_-150x150.png" alt="GCUX Gold Certification" width="150" height="150" class="alignright size-thumbnail wp-image-5796" srcset="/wp-content/uploads/2015/08/GCUX.Gold_.hi_.res_-150x150.png 150w, /wp-content/uploads/2015/08/GCUX.Gold_.hi_.res_-300x300.png 300w, /wp-content/uploads/2015/08/GCUX.Gold_.hi_.res_.png 638w" sizes="(max-width: 150px) 100vw, 150px" />][5]
-
 However, my goal this time around was to do something more comprehensive and slightly more formal. After getting my [GSEC and GCUX][6] certifications from [SANS/GIAC][7], there was an option to enhance the certification to a gold status by [writing a peer-reviewed research paper][8] on a topic related to the exam. It was a great experience to go through the review process and get feedback on the technical material as well as the structure of the paper itself.
 
 ### The paper
@@ -48,7 +46,7 @@ It starts with an overview of Linux containers and how they differ from other ty
 
 ### Licensing
 
-[<img src="/wp-content/uploads/2015/08/by-sa-300x105.png" alt="by-sa" width="150" class="alignright size-medium wp-image-5790" srcset="/wp-content/uploads/2015/08/by-sa-300x105.png 300w, /wp-content/uploads/2015/08/by-sa.png 403w" sizes="(max-width: 300px) 100vw, 300px" />][11]I'm also very proud to announce that the paper is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)][12]. You are free to quote it as much as you like (even for commercial purposes), but I'd ask that you maintain the same license and attribute me as the author.
+I'm also very proud to announce that the paper is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)][12]. You are free to quote it as much as you like (even for commercial purposes), but I'd ask that you maintain the same license and attribute me as the author.
 
 ### Thank you
 

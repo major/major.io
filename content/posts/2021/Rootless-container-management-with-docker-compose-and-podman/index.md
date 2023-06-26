@@ -3,8 +3,6 @@ aliases:
 - /2021/07/09/Rootless-container-management-with-docker-compose-and-podman/
 author: Major Hayden
 date: '2021-07-09'
-images:
-- images/2021-07-09-hallway-arches.jpg
 summary: Run rootless Linux containers without any daemons using docker-compose and
   podman on Fedora! 📦
 tags:
@@ -14,8 +12,6 @@ tags:
 - podman
 title: Rootless container management with docker-compose and podman
 ---
-
-{{< figure src="/images/2021-07-09-hallway-arches.jpg" alt="Long stone hallway with arches and light pouring in from one side" position="center" >}}
 
 Everyone has an opinion for the best way to manage containers, and there are
 many contenders depending on how much complexity you can handle and how much
@@ -167,7 +163,7 @@ Sweet! 🥳
 If we've come this far, we might as well test our internet speed to ensure the
 container works!
 
-{{< figure src="/images/2021-07-09-speedtest-prior.png" alt="Librespeed speed test interface before testing" position="center" >}}
+![2021-07-09-speedtest-prior.png](2021-07-09-speedtest-prior.png "Librespeed speed test interface before testing")
 
 Remember that we used port 8080 as a replacement for 80 in our docker-compose
 file to avoid issues with regular users being denied access to create a listener
@@ -175,7 +171,7 @@ on ports under 1024.
 
 Let's see how fast my connection is today:
 
-{{< figure src="/images/2021-07-09-speedtest-after.png" alt="Librespeed speed test interface after testing" position="center" >}}
+![2021-07-09-speedtest-prior.png](2021-07-09-speedtest-prior.png "Librespeed speed test interface after testing")
 
 [librespeed]: https://github.com/librespeed/speedtest
 [LinuxServer librespeed container]: https://docs.linuxserver.io/images/docker-librespeed

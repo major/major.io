@@ -21,12 +21,12 @@ food. This was my first trip to any DevConf and it was my second trip to
 Lots of snow showed up on the second day and more snow arrived later in the
 week!
 
-[![devconf-snow-small]](/images/20190131-devconf-2019-snow.jpg)
+[![devconf-snow-small]](20190131-devconf-2019-snow.jpg)
 
 [DevConf.CZ 2019]: http://devconf.info/cz
 [Brno]: https://en.wikipedia.org/wiki/Brno
-[devconf-snow-small]: /images/20190131-devconf-2019-snow-720.jpg
-[devconf-snow]: /images/20190131-devconf-2019-snow.jpg
+[devconf-snow-small]: 20190131-devconf-2019-snow-720.jpg
+[devconf-snow]: 20190131-devconf-2019-snow.jpg
 
 ## First talk of 2019
 
@@ -47,7 +47,7 @@ want to go in the future.
 
 Feel free to [view our slides] and watch the video (which should be up soon.)
 
-[devconf-major-nikolai]: /images/20190131-devconf-major-nikolai.jpg
+[devconf-major-nikolai]: 20190131-devconf-major-nikolai.jpg
 [view our slides]: https://www.slideshare.net/MajorHayden/cookies-for-kernel-developers
 
 ## Great talks from DevConf
@@ -111,13 +111,13 @@ Some of the other news included:
 The next DevConf.US is in Boston, USA this summer. I hope to see you there!
 
 [Laura Abbott's]: https://twitter.com/openlabbott
-[devconf-laura-abbott]: /images/20190131-devconf-laura-abbott-720.jpg
+[devconf-laura-abbott]: 20190131-devconf-laura-abbott-720.jpg
 [plenty of good points in my Twitter thread]: https://twitter.com/majorhayden/status/1089507679977046017
 [notes on Dan's talk]: https://twitter.com/majorhayden/status/1088715555635220481
 [firewalld Twitter thread]: https://twitter.com/majorhayden/status/1088807448817876992
 [freezer capability]: https://www.kernel.org/doc/Documentation/cgroup-v1/freezer-subsystem.txt
 [CRIU]: https://criu.org/Main_Page
 [Twitter thread of the main points]: https://twitter.com/majorhayden/status/1089470907607928833
-[devconf-openshift-pun]: /images/20190131-devconf-openshif-pun-720.jpg
+[devconf-openshift-pun]: 20190131-devconf-openshif-pun-720.jpg
 [real-time linux patches]: https://wiki.linuxfoundation.org/realtime/start
 [extra finger or toe]: https://www.theregister.co.uk/2019/01/07/linux_reaches_the_big_five_point_oh/

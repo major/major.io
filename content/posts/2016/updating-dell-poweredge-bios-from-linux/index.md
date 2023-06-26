@@ -3,8 +3,6 @@ aliases:
 - /2016/01/18/updating-dell-poweredge-bios-from-linux/
 author: Major Hayden
 date: 2016-01-18 20:53:38
-medium_post:
-- O:11:"Medium_Post":9:{s:16:"author_image_url";s:68:"https://cdn-images-1.medium.com/fit/c/200/200/0*0oSauxLPsThabN5E.jpg";s:10:"author_url";s:31:"https://medium.com/@majorhayden";s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"6c534896241f";s:21:"follower_notification";s:3:"yes";s:7:"license";s:11:"cc-40-by-sa";s:14:"publication_id";s:2:"-1";s:6:"status";s:6:"public";s:3:"url";s:84:"https://medium.com/@majorhayden/updating-dell-poweredge-bios-from-linux-6c534896241f";}
 tags:
 - centos
 - dell
@@ -14,8 +12,6 @@ tags:
 - ubuntu
 title: Updating Dell PowerEdge BIOS from Linux
 ---
-
-![cover]
 
 Updating Dell PowerEdge firmware from Linux is quite easy, but it isn't documented very well. I ended up with a set of PowerEdge R710's at work for a lab environment and the BIOS versions were different on each server.
 
@@ -102,4 +98,3 @@ _Photo Credit: [vaxomatic][3] via [Compfight][4] [cc][5]_
  [3]: https://www.flickr.com/photos/21881956@N05/2466171910/
  [4]: http://compfight.com
  [5]: https://creativecommons.org/licenses/by/2.0/
- [cover]: /wp-content/uploads/2016/01/2466171910_7d18907322_o-e1453148385165.jpg

@@ -10,8 +10,6 @@ tags:
 title: Fight cynicism with curiosity
 ---
 
-![cover]
-
 I'm [always interested to talk to college students][1] about technology and business in general. They have amazing ideas and they don't place any limits on themselves. In particular, their curiosity is limitless.
 
 ## A great question
@@ -62,7 +60,7 @@ Being curious has taken me down this path less traveled many times. Almost every
 
 Anyone who works in technology, especially software development or system administration, has found themselves looking over a block of code or a server deployment that someone else has prepared. Many of us have had one of these moments:
 
-<a href="/wp-content/uploads/2016/02/clint_eastwood_disgusted.gif" rel="attachment wp-att-6087"><img src="/wp-content/uploads/2016/02/clint_eastwood_disgusted.gif" alt="I shall be telling this with a sigh Somewhere ages and ages hence: Two roads diverged in a wood, and I-- I took the one less traveled by, And that has made all the difference." width="240" height="228" class="aligncenter size-full wp-image-6087" /></a>
+![clint_eastwood_disgusted.gif](clint_eastwood_disgusted.gif "Clint Eastwood is disgusted")
 
 That's totally natural. _It's human nature._
 
@@ -99,4 +97,3 @@ _Photo Credit: [jinterwas][6] via [Compfight][7] [cc][8]_
  [6]: https://www.flickr.com/photos/32135758@N02/15447911129/
  [7]: http://compfight.com
  [8]: https://creativecommons.org/licenses/by-nc/2.0/
- [cover]: /wp-content/uploads/2016/02/15447911129_b53e184b14_b-e1455722957400.jpg

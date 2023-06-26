@@ -3,8 +3,6 @@ aliases:
 - /2021/03/17/selling-options-made-simpler/
 author: Major Hayden
 date: '2021-03-17'
-images:
-- images/2021-03-crazy-air-conditioners.jpg
 summary: Feedback from my original options selling post said that the concept was
   too difficult to follow. Let's use an analogy!
 tags:
@@ -17,8 +15,6 @@ title: Selling options made simpler
 new to options trading, you may want to start with some of my earlier posts.*
 
 [options trading]: /tags/options/
-
-{{< figure src="/images/2021-03-crazy-air-conditioners.jpg" alt="Power plant with four towers" position="center" >}}
 
 After writing my original blog post about [selling options contracts in the
 stock market], I received some feedback saying that the post jumped over too

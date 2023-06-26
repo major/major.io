@@ -3,7 +3,6 @@ aliases:
 - /2017/07/21/apply-stig-operating-systems-ansible-hardening/
 author: Major Hayden
 date: 2017-07-21 17:38:46
-featured_image: /wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake.jpg
 tags:
 - ansible
 - debian
@@ -38,7 +37,6 @@ If you have any of these operating systems deployed, please test the role on you
 
 _Photo credit: [Wikipedia][8]_
 
- [1]: /wp-content/uploads/2017/07/1024px-Samuils_Fortress_and_Ohrid_Lake.jpg
  [2]: https://github.com/openstack/ansible-hardening
  [3]: https://releases.openstack.org/pike/schedule.html
  [4]: /2017/06/27/old-role-new-name-ansible-hardening/

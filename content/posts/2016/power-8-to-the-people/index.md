@@ -82,7 +82,7 @@ _Photo credit: [Wikipedia][8]_
 
  [1]: /2016/09/20/ibm-edge-2016-day-1-recap/
  [2]: https://major.io/2016/09/21/ibm-edge-2016-day-2-recap/
- [3]: /wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg
+ [3]: IBMPowerSystemE870-2.jpg
  [4]: http://www-03.ibm.com/systems/power/hardware/s821lc/index.html
  [5]: http://www-912.ibm.com/see/EnergyEstimator
  [6]: https://www.google.com/search?q=learning+AIX

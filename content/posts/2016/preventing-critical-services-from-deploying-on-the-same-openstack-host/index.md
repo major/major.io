@@ -12,8 +12,6 @@ tags:
 title: Preventing critical services from deploying on the same OpenStack host
 ---
 
-![1]
-
 OpenStack's compute service, nova, manages all of the virtual machines within a OpenStack cloud. When you ask nova to build an instance, or a group of instances, nova's scheduler system determines which hypervisors should run each instance. The scheduler uses [filters][2] to figure out where each instance belongs.
 
 However, there are situations where the scheduler might put more than one of your instances on the same host, especially when resources are constrained. This can be a problem when you deploy certain highly available applications, like MariaDB and Galera. If more than one of your database instances landed on the same physical host, a failure of that physical host could take down more than one database instance.
@@ -111,7 +109,6 @@ The scheduler couldn't find a valid host for a fifth server in the anti-affinity
 
 _Photo credit: ["crowded houses" from jesuscm on Flickr][6]_
 
- [1]: /wp-content/uploads/2016/08/6312423035_2c53fe78e7_b-e1470762211193.jpg
  [2]: http://docs.openstack.org/mitaka/config-reference/compute/scheduler.html#filters
  [3]: http://docs.openstack.org/mitaka/config-reference/compute/scheduler.html#servergroupantiaffinityfilter
  [4]: http://docs.openstack.org/developer/openstack-ansible/

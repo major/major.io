@@ -12,8 +12,6 @@ tags:
 title: Getting started with gertty
 ---
 
-![1]
-
 When you're ready to commit code in an OpenStack project, your patch will eventually land in a [Gerrit][2] queue for review. The web interface works well for most users, but it can be challenging to use when you have a large amount of projects to monitor. I recently became a core developer on the OpenStack-Ansible project and I searched for a better solution to handle lots of active reviews.
 
 This is where [gertty][3] can help. It's a console-based application that helps you navigate reviews efficiently. I'll walk you through the installation and configuration process in the remainder of this post.
@@ -69,7 +67,6 @@ You can also create custom dashboards for gertty based on custom queries. In my 
 
 _Photo credit: [Frank Taillandier][7]_
 
- [1]: /wp-content/uploads/2016/05/2191026054_2780871e26_b-e1462974197375.jpg
  [2]: https://www.gerritcodereview.com/
  [3]: https://github.com/openstack/gertty
  [4]: https://pypi.python.org/pypi/gertty

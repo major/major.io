@@ -3,19 +3,14 @@ aliases:
 - /2019/12/16/bring-back-fedora-beefy-miracle-boot-splash/
 author: Major Hayden
 date: '2019-12-16'
-images:
-- images/2019-12-16-beefy-miracle.png
-summary: 'Fedora 17''s code name was Beefy Miracle and it had a great mascot. You
-  can see it at boot time with a few quick changes.
-
-  '
+summary: >
+  Fedora 17's code name was Beefy Miracle and it had a great mascot.
+  You can see it at boot time with a few quick changes.
 tags:
 - fedora
 - linux
 title: Bring Back Fedora's Beefy Miracle boot splash
 ---
-
-{{< figure src="/images/2019-12-16-beefy-miracle.png" alt="Beefy miracle" position="center" >}}
 
 Way back in 2012 when Fedora releases had names, there was one release that
 many of us in the Fedora community will never forget. Fedora 17's [code name]
@@ -24,7 +19,7 @@ was "Beefy Miracle" and it caused plenty of giggles and lots of consternation
 
 No matter how you feel about the code name, the mascot was really good:
 
-{{< figure src="/images/2019-12-16-major-and-beefy-miracle.jpg" caption="Major and the beefy miracle in 2012" alt="Major and the beefy miracle in 2012" position="center" >}}
+![2019-12-16-major-and-beefy-miracle.jpg](2019-12-16-major-and-beefy-miracle.jpg "Major and the beefy miracle in 2012")
 
 ## The mustard
 
@@ -52,6 +47,6 @@ sudo plymouth-set-default-theme --rebuild-initrd hot-dog
 This step takes a few moments to finish since it causes `dracut` to rebuild
 the entire initrd with the new plymouth theme. Once it finishes, reboot your computer and you should get something like this:
 
-{{< figure src="/images/2019-12-16-hot-dog-boot-splash.jpg" caption="Hot dog boot splash" alt="Hot dog boot splash" position="center" >}}
+![2019-12-16-hot-dog-boot-splash.jpg](2019-12-16-hot-dog-boot-splash.jpg "Hot dog boot splash")
 
 [code name]: https://fedoraproject.org/wiki/History_of_Fedora_release_names#Fedora_17_.28Beefy_Miracle.29

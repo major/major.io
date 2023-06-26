@@ -66,7 +66,6 @@ As for me: **bring on the boring**. Let's crush the hard stuff.
 
 _Photo credit: By Mike (Flickr: DSC\_6831\_2\_3\_tonemapped) [[CC BY 2.0][10]], [via Wikimedia Commons][11]_
 
- [1]: /wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280.jpg
  [2]: https://www.openstack.org/ptg/
  [3]: http://www.thisdayinquotes.com/2010/06/reports-of-my-death-are-greatly.html
  [4]: http://fortune.com/2016/12/19/openstack-public-cloud/

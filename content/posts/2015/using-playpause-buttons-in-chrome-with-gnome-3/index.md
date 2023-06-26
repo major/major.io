@@ -14,7 +14,7 @@ I [wrote a post last summer][1] about preventing Chrome from stealing the media 
 
 The fix is quite simple. Press the SUPER key (Windows key or Mac Command key), type settings, and press enter. Click on **Keyboard** and then on the **Shortcuts** tab. You should now see something like this:
 
-[<img src="/wp-content/uploads/2015/02/Keyboard_002.png" alt="GNOME keyboard settings" width="792" height="499" class="aligncenter size-full wp-image-5394" srcset="/wp-content/uploads/2015/02/Keyboard_002.png 792w, /wp-content/uploads/2015/02/Keyboard_002-300x189.png 300w" sizes="(max-width: 792px) 100vw, 792px" />][3]
+![Keyboard_002.png](Keyboard_002.png)
 
 Click on each entry that shows _Disabled_ above. After clicking on the entry, press your backspace key to clear the shortcut. If you're using a Mac keyboard, that's your oddly-named delete key that sits right above the pipe/backslash key.
 
@@ -22,4 +22,3 @@ You should be set to go once they're all cleared out. If you disabled the media 
 
  [1]: /2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/
  [2]: /2014/12/29/two-months-google-play-music-access/
- [3]: /wp-content/uploads/2015/02/Keyboard_002.png

@@ -3,8 +3,6 @@ aliases:
 - /2021/08/20/set-network-interface-speed-systemd-networkd/
 author: Major Hayden
 date: '2021-08-20'
-images:
-- images/2021-08-20-handshake-neon-sign.jpg
 summary: Sometimes network interface autonegotiation doesn't work as well as it should.
   Luckily, you can fix it with systemd-networkd. 🔧
 tags:
@@ -15,8 +13,6 @@ tags:
 - systemd-networkd
 title: Set network interface speed with systemd-networkd
 ---
-
-{{< figure src="/images/2021-08-20-handshake-neon-sign.jpg" alt="Neon sign handshake" position="center" >}}
 
 Sometimes automation is your best friend and sometimes it isn't. Typically, when
 two devices are connected via ethernet cables, [they negotiate] the best speed

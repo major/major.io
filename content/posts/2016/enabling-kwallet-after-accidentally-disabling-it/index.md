@@ -11,8 +11,6 @@ tags:
 title: Enabling kwallet after accidentally disabling it
 ---
 
-![cover]
-
 Although I use GNOME 3 as my desktop environment, I prefer KDE's [kwallet][1] service to gnome-keyring for some functions. The user interface is a little easier to use and it's easier to link up to the [keyring module][2] in Python.
 
 ## Accidentally disabling kwallet
@@ -41,7 +39,7 @@ kcmshell4 kwalletconfig
 
 You should see kwallet's configuration panel appear:
 
-<a href="/wp-content/uploads/2016/01/kwallet-control-module-e1453998029696.png" rel="attachment wp-att-6054"><img src="/wp-content/uploads/2016/01/kwallet-control-module-e1453998029696.png" alt="KDE wallet control module for kwallet" width="700" height="513" class="aligncenter size-full wp-image-6054" /></a>
+![kwallet-control-module-e1453998029696.png](kwallet-control-module-e1453998029696.png "KDE wallet control module for kwallet")
 
 Click on **Enable the KDE wallet subsystem** and then click OK. Once the window closes, start kwalletmanager and you should be able to access your secrets in kwallet again.
 
@@ -52,4 +50,3 @@ _Photo Credit: [Wei][4] via [Compfight][5] [cc][6]_
  [4]: https://www.flickr.com/photos/73589829@N00/14283880173/
  [5]: http://compfight.com
  [6]: https://creativecommons.org/licenses/by-nc-nd/2.0/
- [cover]: /wp-content/uploads/2016/01/14283880173_bc12e718fe_b-e1453998408758.jpg

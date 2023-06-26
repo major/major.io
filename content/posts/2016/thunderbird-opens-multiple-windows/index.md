@@ -14,7 +14,7 @@ When I started [Thunderbird][1] today, it opened three windows. Each window was 
 
 As soon as I started Thunderbird, I had **three windows again**.
 
-[<img src="/wp-content/uploads/2016/04/ugh.gif" alt="Ugh thunderbird!" width="480" height="270" class="aligncenter size-full wp-image-6157" />][2]
+![ugh.gif](ugh.gif)
 
 I found a [Mozilla bug report from 2015][3] that had some tips for getting the additional windows closed.
 

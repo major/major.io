@@ -3,8 +3,6 @@ aliases:
 - /2021/02/10/defending-losing-options-trades/
 author: Major Hayden
 date: '2021-02-10'
-images:
-- images/2020-02-10-defending-losing-options-trades.jpg
 summary: You did your research and made a great options trade, but now it is a losing
   trade. What can you do now?
 tags:
@@ -17,8 +15,6 @@ title: Defending losing options trades
 new to options trading, you may want to start with some of my earlier posts.*
 
 [options trading]: /tags/options/
-
-{{< figure src="/images/2020-02-10-defending-losing-options-trades.jpg" alt="River running under a bridge with lots of trees" position="center" >}}
 
 You did your research. You waited for a good time to sell a put option. You
 received a decent premium for your option trade. Now your trade has turned

@@ -3,8 +3,6 @@ aliases:
 - /2021/10/14/backlight-control-with-i3/
 author: Major Hayden
 date: '2021-10-14'
-images:
-- images/2021-10-14-window-blinds-curtains.jpg
 summary: Adjust the LED backlight on your laptop quickly in i3 on Linux. 💡
 tags:
 - fedora
@@ -13,8 +11,6 @@ tags:
 - linux
 title: Backlight control with i3
 ---
-
-{{< figure src="/images/2021-10-14-window-blinds-curtains.jpg" alt="Light shining through blinds and a curtain against a wall" position="center" >}}
 
 Controlling the LED backlight brightness on a laptop in Linux used to be a
 chore, but most window managers automatically configure the brightness buttons

@@ -179,6 +179,5 @@ Success!
 
 _Photo credit: [Wikipedia][3]_
 
- [1]: /wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg
  [2]: https://www.cyberpowersystems.com/product/ups/brg1350avrlcd/
  [3]: https://commons.wikimedia.org/wiki/File%3ASierra_Blanca_and_electricity_pole.jpg

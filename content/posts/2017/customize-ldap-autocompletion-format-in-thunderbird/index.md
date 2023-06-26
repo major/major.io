@@ -12,8 +12,6 @@ tags:
 title: Customize LDAP autocompletion format in Thunderbird
 ---
 
-![1]
-
 Thunderbird can connect to an LDAP server and autocomplete email addresses as you type, but it needs some adjustment for some LDAP servers. One of the LDAP servers that I use regularly returns email addresses like this in the thunderbird interface:
 
 ```
@@ -64,5 +62,3 @@ ldap_2.servers.default.attrmap.DisplayName: displayName
 ```
 
 After making the change, quit Thunderbird and relaunch it. Compose a new email and start typing in the email address field. The user's first and last name should appear!
-
- [1]: /wp-content/uploads/2017/07/1280px-Mailbox_USA-e1500401199427.jpg

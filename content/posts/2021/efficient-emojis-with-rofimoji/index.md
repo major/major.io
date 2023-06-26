@@ -3,8 +3,6 @@ aliases:
 - /2021/05/15/efficient-emojis-with-rofimoji/
 author: Major Hayden
 date: '2021-05-15'
-images:
-- images/2021-05-15-efficient-emojis-with-rofimoji.jpg
 summary: Emojis brighten up any message or document. 🌻 Search, select, and use emojis
   quickly on Linux with rofimoji. 🤗
 tags:
@@ -15,8 +13,6 @@ tags:
 - rpm
 title: Efficient emojis with rofimoji
 ---
-
-{{< figure src="/images/2021-05-15-efficient-emojis-with-rofimoji.jpg" alt="Soft emoji items hanging on a rack" position="center" >}}
 
 Emojis brighten up any message or document. They also serve as excellent methods
 for testing whether your application handles strings appropriately. _(This can

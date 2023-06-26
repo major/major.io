@@ -3,8 +3,6 @@ aliases:
 - /2021/01/24/which-stock-broker-should-you-use/
 author: Major Hayden
 date: '2021-01-24'
-images:
-- images/2021-01-24-street-buildings.jpg
 summary: Not all stock brokerages are the same. Think about your requirements, shop
   around, and read the fine print.
 tags:
@@ -17,8 +15,6 @@ title: Which stock broker should you use?
 new to options trading, you may want to start with some of my earlier posts.*
 
 [options trading]: /tags/options/
-
-{{< figure src="/images/2021-01-24-street-buildings.jpg" alt="Street with buildings" position="center" >}}
 
 One of my sports coaches in high school used to say: "It's not the tool, it's
 the fool." This was his reminder that when something goes wrong in the game,

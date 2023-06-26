@@ -3,8 +3,6 @@ aliases:
 - /2021/07/19/enable-dark-mode-in-firefox/
 author: Major Hayden
 date: '2021-07-19'
-images:
-- images/2021-07-19-dark-city-street.jpg
 summary: Firefox allows you to set dark mode as the default without changing themes
   or changing your desktop configuration. 😎
 tags:
@@ -14,8 +12,6 @@ tags:
 - linux
 title: Enable dark mode in Firefox without changing themes
 ---
-
-{{< figure src="/images/2021-07-19-dark-city-street.jpg" alt="Dark city street in Tokyo, Japan" position="center" >}}
 
 Most modern web browsers, such as Firefox, take cues from the desktop
 environment or from themes applied to the browser to determine whether a user

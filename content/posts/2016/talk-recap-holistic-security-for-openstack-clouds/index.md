@@ -63,7 +63,6 @@ The video of the talk (including Q&A) is up on YouTube:
 
 I love feedback about my talks! I'm still a novice presenter and every little bit of feedback - positive or negative - really helps. Feel free to [email me][4] or talk to me on [Twitter][5].
 
- [1]: /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2.png
  [2]: http://www.slideshare.net/MajorHayden/holistic-security-for-openstack-clouds
  [3]: https://creativecommons.org/licenses/by-sa/2.0/?
  [4]: mailto:major@mhtx.net

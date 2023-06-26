@@ -3,8 +3,6 @@ aliases:
 - /2021/09/06/my-summer-2021-reading-list/
 author: Major Hayden
 date: '2021-09-06'
-images:
-- images/2021-09-06-cozy-library.jpg
 summary: I set out to read a bunch of books this summer and succeeded! Here's my reading
   list. 📚
 tags:
@@ -12,8 +10,6 @@ tags:
 - reading
 title: My summer 2021 reading list
 ---
-
-{{< figure src="/images/2021-09-06-cozy-library.jpg" alt="Cozy home library with books and a chair" position="center" >}}
 
 I set a goal this summer to read a little each day and work through my reading
 list on Goodreads. I managed to make it through nine books! If you're looking

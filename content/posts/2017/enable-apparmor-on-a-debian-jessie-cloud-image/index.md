@@ -137,7 +137,6 @@ There is a [discussion that ended last year][5] around how to automate the AppAr
 
 _Photo credit: [Max Pixel][6]_
 
- [1]: /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942.jpg
  [2]: https://github.com/openstack/openstack-ansible-security/commit/4e9a8a1d6ab556628555063402dd5f491814b9db
  [3]: https://cdimage.debian.org/cdimage/openstack/
  [4]: https://wiki.debian.org/AppArmor/HowToUse#Enable_AppArmor

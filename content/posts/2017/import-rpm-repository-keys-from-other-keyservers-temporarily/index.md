@@ -106,6 +106,5 @@ If you want to override the value permanently, create a `~/.rpmmacros` file and 
 
 _Photo credit: [Wikipedia][3]_
 
- [1]: /wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg
  [2]: https://github.com/openstack/openstack-ansible
  [3]: https://commons.wikimedia.org/wiki/File:Close-up_of_keys.jpg

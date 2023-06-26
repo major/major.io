@@ -3,8 +3,6 @@ aliases:
 - /2021/08/16/wildcard-letsencrypt-certificates-traefik-cloudflare/
 author: Major Hayden
 date: '2021-08-16'
-images:
-- images/2021-08-16-stoplights-in-rain.jpg
 summary: Re-use the same wildcard TLS certificate for multiple containers running
   behind traefik. 🚦
 tags:
@@ -16,8 +14,6 @@ tags:
 - tls
 title: Wildcard LetsEncrypt certificates with Traefik and Cloudflare
 ---
-
-{{< figure src="/images/2021-08-16-stoplights-in-rain.jpg" alt="Tanker ship in a blue green ocean" position="center" >}}
 
 Wildcard certificates make it easy to secure lots of subdomains under a single
 domain. For example, you can secure `web.example.com` and `mail.example.com`

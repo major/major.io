@@ -3,8 +3,6 @@ aliases:
 - /2020/06/19/build-aws-images-with-imagebuilder/
 author: Major Hayden
 date: '2020-06-19'
-images:
-- images/2020-06-19-aluminum-factory.jpg
 summary: Build a customized image for AWS with Image Builder and use the built-in
   automatic uploader and importer.
 tags:
@@ -14,8 +12,6 @@ tags:
 - linux
 title: Build AWS images with Image Builder
 ---
-
-{{< figure src="/images/2020-06-19-aluminum-factory.jpg" alt="Aluminum factory" position="center" >}}
 
 The AMIs provided by most Linux distributions in AWS work well for most use
 cases. However, there are those times when you need a customized image to

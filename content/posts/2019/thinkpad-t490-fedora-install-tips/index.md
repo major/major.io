@@ -3,8 +3,6 @@ aliases:
 - /2019/12/12/thinkpad-t490-fedora-install-tips/
 author: Major Hayden
 date: '2019-12-12'
-images:
-- images/20191212-t490.png
 summary: My new T490 with a 10th generation Intel CPU and a discrete NVIDIA MX250
   has arrived! Installing Linux creates some interesting challenges.
 tags:
@@ -17,8 +15,6 @@ title: Thinkpad T490 Fedora install tips
 
 > 🔨 **WORK IN PROGRESS!** I'm still finding some additional issues and I'll
 > write those up here as soon as I find some solutions.
-
-{{< figure src="/images/20191212-t490.png" title="Thinkpad T490" >}}
 
 With my 4th Gen X1 Carbon beginning to age (especially the battery), it was
 time for an upgrade. I now have a T490 with a 10th gen Intel CPU and a

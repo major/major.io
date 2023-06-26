@@ -27,34 +27,34 @@ I came to Rackspace as an entry-level Linux administrator and was amazed by the 
 
 From there, I served in several different roles. I was a manager of technicians on a support team and had the opportunity to learn how to mentor. One of my favorite leaders said that "good managers know when to put their arm around to people and when to put a boot in their rear." I reluctantly learned how to do both and I watched my people grow into senior engineers and great leaders.
 
-![/wp-content/uploads/2018/03/6519121761_ab65bab3c1_b.jpg](/wp-content/uploads/2018/03/6519121761_ab65bab3c1_b.jpg)
+![6519121761_ab65bab3c1_b.jpg](6519121761_ab65bab3c1_b.jpg)
 Datapoint office closing in 2011
 
 I was pulled to Mosso, Rackspace's first cloud offering, shortly after that and discovered an entirely new world. Rackers force-fed me "Why's (Poignant) Guide to Ruby" and I started building scripts and web front-ends for various services. Rackspace acquired Slicehost after that and I jumped at the chance to work as an operations engineer on the new infrastructure. That led to a lot of late nights diagnosing problems with Xen hypervisors and rails applications. I met some amazing people and began to realize that St. Louis has some pretty good barbecue (but Texas still has them beat).
 
-![/wp-content/uploads/2018/03/4171091103_7150ded95f_b.jpg](/wp-content/uploads/2018/03/4171091103_7150ded95f_b.jpg)
+![4171091103_7150ded95f_b.jpg](4171091103_7150ded95f_b.jpg)
 Slicehost humor in 2009
 
 Not long after that, I found myself managing an operations team that cared for Slicehost's infrastructure and Rackspace's growing Cloud Servers infrastructure. OpenStack appeared later and I jumped at the chance to do operations there. It was an extremely rough experience in the Diablo release, but it taught me a lot. My start with OpenStack involved fixing lots of broken Keystone tests that didn't run on Python 2.6.
 
-![/wp-content/uploads/2018/03/7730840100_01257c5fa4_b.jpg](/wp-content/uploads/2018/03/7730840100_01257c5fa4_b.jpg)
+![7730840100_01257c5fa4_b.jpg](7730840100_01257c5fa4_b.jpg)
 Working on OpenStack in 2012
 
 If you've attended some of my talks on impostor syndrome, you may know what came next. We had a security issue and I sent some direct feedback to our CSO about how it was handled. I expected to be told to "pack a box" after that, but I was actually asked to lead a security architecture team in the corporate security group. It was definitely a surprise. I accepted and joined the team as Chief Security Architect. My coworkers called it "joining the dark side", but I did my best to build bridges between security teams and the rest of the company.
 
-![/wp-content/uploads/2018/03/24142777780_5196ca622b_h.jpg](/wp-content/uploads/2018/03/24142777780_5196ca622b_h.jpg)
+![24142777780_5196ca622b_h.jpg](24142777780_5196ca622b_h.jpg)
 Talking at Rackspace::Solve in 2015
 
 This role really challenged me. I had never operated at the Director level before and our team had a ton of work to do. I found myself stumbling (and floundering) fairly often and I leaned on other leaders in the business for advice. This led me to take some courses on critical thinking, accounting, finance, and tough conversations. I've never had a role as difficult as this one.
 
 Our cloud team came calling and asked me to come back and help with some critical projects in the public cloud. We worked on some awesome skunkworks projects that could really change the business. Although they didn't get deployed in one piece, we found ways to take chunks of the work and optimize different areas of our work. An opportunity came up to bring public cloud experience to the private cloud team and I jumped on that one. I discovered the awesome OpenStack-Ansible project and a strong set of Rackers who were dedicated to bringing high-touch service to customers who wanted OpenStack in their own datacenter.
 
-![/wp-content/uploads/2018/03/imposter-syndrome_hayden.jpg](/wp-content/uploads/2018/03/imposter-syndrome_hayden.jpg)
+![imposter-syndrome_hayden.jpg](imposter-syndrome_hayden.jpg)
 Impostor syndrome talk at the Boston OpenStack Summit in 2017
 
 During this time, I had the opportunity to deliver several conference talks about OpenStack, Fedora, security, and Ansible. My favorite topic was impostor syndrome and I set out on a mission to help people understand it. My first big talk was at the Fedora Flock conference in Rochester in 2015. This led to deep conversations with technical people in conference hallways, evening events, and even airport terminals about how impostor syndrome affects them. I took those conversations and refined my message several times over.
 
-![/wp-content/uploads/2018/03/DSCF0425.jpg](/wp-content/uploads/2018/03/DSCF0425.jpg)
+![DSCF0425.jpg](DSCF0425.jpg)
 Talking about impostor syndrome at Fedora Flock 2015 (Photo credit: Kushal Das)
 
 ## Gratitude
@@ -75,5 +75,5 @@ I plan to talk more on this later, but I will be working from home on some proje
 
 _Top photo credit: [Wikipedia][2]_
 
- [1]: /wp-content/uploads/2018/03/1024px-Mountain_trail_in_Panachaiko_mountains_Greece.jpg
+ [1]: 1024px-Mountain_trail_in_Panachaiko_mountains_Greece.jpg
  [2]: https://commons.wikimedia.org/wiki/File:Mountain_trail_in_Panachaiko_mountains,_Greece.jpg

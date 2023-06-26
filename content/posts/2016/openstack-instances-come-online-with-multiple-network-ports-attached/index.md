@@ -13,8 +13,6 @@ tags:
 title: OpenStack instances come online with multiple network ports attached
 ---
 
-![1]
-
 I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port.
 
 ## The problem
@@ -141,7 +139,7 @@ He asked about how I had deployed glance and what storage backend I was using. I
 
 Then it hit me.
 
-[<img src="/wp-content/uploads/2016/08/stitch_frustrated.gif" alt="Frustrated Stitch" width="260" height="179" class="aligncenter size-full wp-image-6367" />][3]
+![stitch_frustrated.gif](stitch_frustrated.gif)
 
 Although both glance nodes knew about the image (since that data is in the database), **only one of the glance nodes had the actual image content (the actual qcow2 file) stored**. That means that if a hypervisor requests the image from a glance node that knows about the image but doesn't have it stored, the hypervisor won't be able to retrieve the image.
 
@@ -167,7 +165,6 @@ Since I'm not eager to deploy swift in my environment for now, I decided to remo
 
 _Photo credit: [Flickr: pascalcharest][5]_
 
- [1]: /wp-content/uploads/2016/08/308357541_222d1b2e2a_b-e1470234736818.jpg
  [2]: https://twitter.com/cloudnull
  [3]: /wp-content/uploads/2016/08/stitch_frustrated.gif
  [4]: https://bugs.launchpad.net/nova/+bug/1609526

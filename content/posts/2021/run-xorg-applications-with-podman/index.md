@@ -3,8 +3,6 @@ aliases:
 - /2021/10/17/run-xorg-applications-with-podman/
 author: Major Hayden
 date: '2021-10-17'
-images:
-- images/2021-10-17-green-field-sunrise.jpg
 summary: Package up graphical applications in containers and run them with podman.
   🚢
 tags:
@@ -15,8 +13,6 @@ tags:
 - xorg
 title: Run Xorg applications with podman
 ---
-
-{{< figure src="/images/2021-10-17-green-field-sunrise.jpg" alt="Sunrise over green hills with grass and trees" position="center" >}}
 
 Containers are a great way to deliver and run all kinds of applications.
 Although many people build containers for server applications, you can also use
@@ -113,7 +109,7 @@ $ podman run --rm -e DISPLAY \
 
 I now have a set of eyeballs on my desktop! 👀
 
-{{< figure src="/images/2021-10-17-xeyes.png" alt="xeyes running on my desktop" position="center" >}}
+![2021-10-17-xeyes.png](2021-10-17-xeyes.png "xeyes running on my desktop")
 
 [container-selinux project]: https://github.com/containers/container-selinux/blob/main/container.te#L77
 

@@ -10,8 +10,6 @@ tags:
 title: Nobody is using your software project. Now what?
 ---
 
-![cover]
-
 Working with open source software is an amazing experience. The collaborative process around creation, refinement, and even maintenance, drives more developers to work on open source software more often. However, every developer finds themselves writing code that very few people _actually use_.
 
 For some developers, this can be really bothersome. You offer your code up to the world only to find that the world is much less interested than you expected. We see projects that fit the ["build it, and they will come"][1] methodology all the time, but it can hurt when our projects don't have the same impact.
@@ -76,4 +74,3 @@ _Photo Credit: [Wanaku][11] via [Compfight][12] [cc][13]_
  [11]: https://www.flickr.com/photos/56944665@N00/8627526293/
  [12]: http://compfight.com
  [13]: https://creativecommons.org/licenses/by-nc-nd/2.0/
- [cover]: /wp-content/uploads/2016/01/8627526293_6d3f0edd17_b-e1452879213307.jpg

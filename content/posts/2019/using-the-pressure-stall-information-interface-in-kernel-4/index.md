@@ -10,8 +10,6 @@ tags:
 title: Using the pressure stall information interface in kernel 4.20
 ---
 
-![pressure_cooker]
-
 Fedora 29 now has kernel 4.20 available and it has [lots of new features].
 One of the more interesting and easy to use features is the [pressure stall
 information] interface.

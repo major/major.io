@@ -11,8 +11,6 @@ tags:
 title: 'Automated security hardening with Ansible: May updates'
 ---
 
-![1]
-
 Lots of work has gone into the [openstack-ansible-security][2] Ansible role since I delivered [a talk about it last month][3] at the OpenStack Summit in Austin. Attendees asked for quite a few new features and I've seen quite a few bug reports (and that's a good thing).
 
 Here's a list of the newest additions since the Summit:
@@ -47,7 +45,6 @@ If you have any other ideas, feel free to stop by `#openstack-ansible` or `#open
 
 _Photo credit: [Mikecogh][4]_
 
- [1]: /wp-content/uploads/2016/05/15843531002_f92f4e6c50_o-e1464316716989.jpg
  [2]: https://github.com/openstack/openstack-ansible-security
  [3]: /2016/04/26/talk-recap-automated-security-hardening-openstack-ansible/
  [4]: https://www.flickr.com/photos/89165847@N00/15843531002/

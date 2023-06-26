@@ -3,8 +3,6 @@ aliases:
 - /2021/08/20/deploy-fedora-coreos-in-hetzner-cloud/
 author: Major Hayden
 date: '2021-08-20'
-images:
-- images/2021-09-01-house-mountains-germany.jpg
 summary: Launch your containers on Fedora CoreOS instances in Hetzner cloud with a
   few workarounds. 🚀
 tags:
@@ -15,8 +13,6 @@ tags:
 - linux
 title: Deploy Fedora CoreOS in Hetzner cloud
 ---
-
-{{< figure src="/images/2021-09-01-house-mountains-germany.jpg" alt="Small cabin near the mountains in Germany" position="center" >}}
 
 [Hetzner] has always been a reliable and cost-effective hosting company for me
 for several years. I've run [icanhazip.com] on their dedicated servers and I run
@@ -206,7 +202,7 @@ delay isn't too bad here: the instances usually take about 90 seconds to boot.
 Once it boots, you should see notes from ignition on bootup about your
 configuration:
 
-{{< figure src="/images/2021-09-01-fedora-coreos-console.png" alt="Fedora CoreOS console" position="center" >}}
+![2021-09-01-fedora-coreos-console.png](2021-09-01-fedora-coreos-console.png "Fedora CoreOS console")
 
 Use ssh to login as the `core` user:
 

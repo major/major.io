@@ -12,7 +12,7 @@ tags:
 title: Lessons learned from a kernel bisection
 ---
 
-[<img src="/wp-content/uploads/2015/02/Git-Logo-1788C-300x125.png" alt="Git-Logo-1788C" width="300" height="125" class="alignright size-medium wp-image-5365" srcset="/wp-content/uploads/2015/02/Git-Logo-1788C-300x125.png 300w, /wp-content/uploads/2015/02/Git-Logo-1788C.png 910w" sizes="(max-width: 300px) 100vw, 300px" />][1]I'm far from being a kernel developer, but I found myself staring down a [peculiar touchpad problem][2] with my new Dell XPS 13. Before kernel 3.17, the touchpad showed up as a standard PS/2 mouse, which certainly wasn't ideal. That robbed the pad of its multi-touch capabilities. Kernel 3.17 added the right support for the pad but freezes began to occur somewhere between 3.17 and 3.19.
+I'm far from being a kernel developer, but I found myself staring down a [peculiar touchpad problem][2] with my new Dell XPS 13. Before kernel 3.17, the touchpad showed up as a standard PS/2 mouse, which certainly wasn't ideal. That robbed the pad of its multi-touch capabilities. Kernel 3.17 added the right support for the pad but freezes began to occur somewhere between 3.17 and 3.19.
 
 ## Bisecting
 
@@ -41,6 +41,6 @@ You can protect yourself from many mistakes by writing the list of revisions in 
 
 That file will help in case you accidentally run a `git bisect reset` or delete the repository. I cannot confirm or deny that anything like that happened during my work. :)
 
- [1]: /wp-content/uploads/2015/02/Git-Logo-1788C.png
+
  [2]: /2015/02/03/linux-support-dell-xps-13-9343-2015-model/
  [3]: http://git-scm.com/docs/git-bisect

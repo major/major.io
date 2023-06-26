@@ -3,8 +3,6 @@ aliases:
 - /2021/01/23/choosing-options-to-sell/
 author: Major Hayden
 date: '2021-01-23'
-images:
-- images/2020-01-23-paragliding-mountains.jpg
 summary: Taking the leap and selling your first options contract takes a lot of thought
   and preparation.
 tags:
@@ -17,8 +15,6 @@ title: Choosing options to sell
 new to options trading, you may want to start with some of my earlier posts.*
 
 [options trading]: /tags/options/
-
-{{< figure src="/images/2020-01-23-paragliding-mountains.jpg" alt="Paragliding in the mountains" position="center" >}}
 
 You know your terminology, you know your max loss, and you are ready to start.
 Now you're faced with the difficult question all new options traders face:

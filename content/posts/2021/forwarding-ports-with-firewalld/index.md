@@ -3,8 +3,6 @@ aliases:
 - /2021/10/11/forwarding-ports-with-firewalld/
 author: Major Hayden
 date: '2021-10-11'
-images:
-- images/2021-10-11-subway-gates.jpg
 summary: Learn how to forward ports with firewalld for IPv4 and IPv6 destinations.
   🕵🏻
 tags:
@@ -16,8 +14,6 @@ tags:
 - security
 title: Forwarding ports with firewalld
 ---
-
-{{< figure src="/images/2021-10-11-subway-gates.jpg" alt="Access gates at a subway station" position="center" >}}
 
 I've tamed many of my complex firewall rules with [firewalld] over the years. It
 allows you to divide your devices, destinations, and network interfaces into

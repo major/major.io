@@ -11,14 +11,11 @@ tags:
 title: Mouse cursor disappears in GNOME 3
 ---
 
-![mouse_photo]
-
 **UPDATE:** The fixed version of mutter is now in the Fedora updates repository. You should be able to update the package with `dnf`:
 
 ```
 dnf -y upgrade mutter
 ```
-
 
 * * *
 
@@ -63,4 +60,3 @@ _Photo Credit: [Perfectance][5] via [Compfight][6] [cc][7]_
  [5]: https://www.flickr.com/photos/77395664@N00/7575830232/
  [6]: http://compfight.com
  [7]: https://creativecommons.org/licenses/by-nc-sa/2.0/
- [mouse_photo]: /wp-content/uploads/2016/03/7575830232_19678e9d5c_b-e1457710296562.jpg

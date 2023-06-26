@@ -48,7 +48,6 @@ Many thanks to my [coworkers][3] for helping to compile the list. If you have an
 
 _Photo Credit: [stevehuang7][4] via [Compfight][5] [cc][6]_
 
- [1]: /wp-content/uploads/2015/01/bookshelf-flickr-stevehuang7-e1420725220602.jpg
  [2]: https://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt
  [3]: http://rackspace.jobs/
  [4]: https://www.flickr.com/photos/25400462@N04/2393673332/

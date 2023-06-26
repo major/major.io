@@ -3,8 +3,6 @@ aliases:
 - /2021/07/18/tray-icons-in-i3/
 author: Major Hayden
 date: '2021-07-18'
-images:
-- images/2021-07-18-touchpad-tapping-i3.jpg
 summary: Enable tap-to-click on your laptop's touchpad in i3 with one of two methods.
   💻
 tags:
@@ -13,8 +11,6 @@ tags:
 - linux
 title: Enable touchpad tap to click in i3
 ---
-
-{{< figure src="/images/2021-07-18-touchpad-tapping-i3.jpg" alt="Fog in a forest near a stream" position="center" >}}
 
 One of the first things I look for on a fresh installation of a laptop is how to
 enable tap-to-click automatically. Most window managers and desktop environments

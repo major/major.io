@@ -3,8 +3,6 @@ aliases:
 - /2021/03/15/monitor-ups-with-raspberry-pi-zero-w/
 author: Major Hayden
 date: '2021-03-15'
-images:
-- images/2021-03-power-plant.jpg
 summary: Monitor nearly any uninterruptible power supply (UPS) with a Raspberry Pi
   Zero W and HomeAssistant
 tags:
@@ -12,8 +10,6 @@ tags:
 - raspberrypi
 title: Monitor a UPS with a Raspberry Pi Zero W
 ---
-
-{{< figure src="/images/2021-03-power-plant.jpg" alt="Power plant with four towers" position="center" >}}
 
 After the recent [snow apocalypse that swept through Texas] followed by
 [widespread power crisis], I realized that my UPS monitoring strategy needed
@@ -248,7 +244,7 @@ steps to add your UPS to HomeAssistant:
 Once HomeAssistant monitors your UPS for a while, you should have some useful
 data! Here's a graph of my UPS load during my workday:
 
-{{< figure src="/images/2021-03-homeassistant-screenshot.png" alt="Graph of UPS load from HomeAsssistant" position="center" >}}
+![2021-03-homeassistant-screenshot.png](2021-03-homeassistant-screenshot.png "Graph of UPS load from HomeAssistant")
 
 You can see that my workday starts just after 6AM and ends after 4PM. Using
 this data, you can set up all kinds of automations when UPS load is too high,

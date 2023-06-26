@@ -3,8 +3,6 @@ aliases:
 - /2020/02/13/make-diacritics-easy-in-linux/
 author: Major Hayden
 date: '2020-02-13'
-images:
-- images/2020-02-13-diacritics-on-license-plate.jpg
 summary: Making an effort to use diacritics is always a good idea, but how can you
   make it easier in Linux?
 tags:

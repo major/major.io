@@ -3,8 +3,6 @@ aliases:
 - /2021/08/06/build-fedora-aws-images-in-github-actions-with-image-builder/
 author: Major Hayden
 date: '2021-08-06'
-images:
-- images/2021-08-06-tanker-in-ocean.jpg
 summary: Build images for AWS and deploy them to your AWS account all within GitHub
   Actions. 🤖
 tags:
@@ -16,8 +14,6 @@ tags:
 - linux
 title: Build Fedora AWS images in GitHub Actions with Image Builder
 ---
-
-{{< figure src="/images/2021-08-06-tanker-in-ocean.jpg" alt="Tanker ship in a blue green ocean" position="center" >}}
 
 [GitHub Actions] provides infrastructure for all kinds of amazing automation.
 Anyone can test software, build packages, deploy applications, or even publish a
@@ -266,9 +262,9 @@ done
 Once the images finish building and they deploy to AWS (usally less than 15
 minutes altogether), you should be able to see them inside your AWS account:
 
-{{< figure src="/images/aws-ami.png" alt="AWS console showing AMIs registered by Image Builder in GitHub Actions" position="center" >}}
+![aws-ami.png](aws-ami.png "AWS console showing AMIs registered by Image Builder in GitHub Actions")
 
-{{< figure src="/images/aws-snapshot.png" alt="AWS console showing snapshots imported by Image Builder in GitHub Actions" position="center" >}}
+![aws-snapshot.png](aws-snapshot.png "AWS console showing snapshots imported by Image Builder in GitHub Actions")
 
 [major/imagebuilder-fedora]: https://github.com/major/imagebuilder-fedora
 [basic template in TOML format]: https://github.com/major/imagebuilder-fedora/blob/main/shared/aws-template.toml

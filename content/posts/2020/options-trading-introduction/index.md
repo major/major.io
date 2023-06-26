@@ -3,8 +3,6 @@ aliases:
 - /2020/12/06/options-trading-introduction/
 author: Major Hayden
 date: '2020-12-06'
-images:
-- images/2020-12-06-snow-mountain.jpg
 summary: Trading options contracts feels incredibly daunting, but you can learn the
   terminology and make good choices in the market.
 tags:
@@ -12,8 +10,6 @@ tags:
 - options
 title: Options trading introduction
 ---
-
-{{< figure src="/images/2020-12-06-snow-mountain.jpg" alt="Snowy Mountain" position="center" >}}
 
 I'm always on the hunt for new things to learn and one of my newer interests
 is around trading options on the stock market. Much like technology, it

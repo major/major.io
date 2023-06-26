@@ -3,8 +3,6 @@ aliases:
 - /2021/07/11/persuasion-engineering/
 author: Major Hayden
 date: '2021-07-11'
-images:
-- images/2021-07-11-uk-hill.jpg
 summary: Improve your persuasive skills to get your team on board with solutions to
   tough problems. 🤔
 tags:
@@ -13,8 +11,6 @@ tags:
 - mentorship
 title: Persuasion engineering
 ---
-
-{{< figure src="/images/2021-07-11-uk-hill.jpg" alt="Hill in Derbyshire, UK" position="center" >}}
 
 Mentorship stands out as one of my favorite parts of working in technology and
 I've been fortunate to be on both sides of mentoring relationships over the

@@ -10,8 +10,6 @@ tags:
 title: Linux support for the Dell XPS 13 9343 (2015 model)
 ---
 
-![1]
-
 _<span style="color: #D42020;"><b>I'M ALL DONE:</b></span> I'm not working on Linux compatibility for the XPS 13 any longer. I've purchased a Lenovo X1 Carbon (3rd gen) and that's my preferred laptop. More on this change later._
 
 * * *
@@ -265,7 +263,6 @@ Stay tuned for a more in-depth write-up soon.
 
 After a few more reboots, I can't get sound working again. I'm wondering if I had an errant `acpi_osi` setting somewhere during my testing that brought sound up on the HDA bus. :/
 
- [1]: https://major.io/wp-content/uploads/2015/02/dellXPS13-9343_2.jpg
  [2]: http://arstechnica.com/gadgets/2015/01/hands-on-dell-xps-13-packs-a-13-inch-screen-into-an-11-inch-laptop/
  [3]: http://en.community.dell.com/techcenter/b/techcenter/archive/2015/01/27/you-asked-for-it-ubuntu-officially-on-the-precision-m3800-worldwide
  [4]: https://gist.github.com/semenko/60015029e13c1de65ff6

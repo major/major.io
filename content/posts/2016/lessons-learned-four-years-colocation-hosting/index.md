@@ -14,8 +14,6 @@ tags:
 title: 'Lessons learned: Five years of colocation'
 ---
 
-![1]
-
 Back in 2011, I decided to try out a new method for hosting my websites and other applications: [colocation][2]. Before that, I used shared hosting, VPS providers ("cloud" wasn't a popular thing back then), and dedicated servers. Each had their drawbacks in different areas. Some didn't perform well, some couldn't recover from failure well, and some were terribly time consuming to maintain.
 
 This post will explain why I decided to try colocation and will hopefully help you avoid some of my mistakes.

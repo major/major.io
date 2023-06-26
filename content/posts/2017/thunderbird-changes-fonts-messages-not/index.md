@@ -18,12 +18,11 @@ The fonts in monospace messages didn't change. I quit Thunderbird, opened it aga
 
 I went back into Thunderbird's preferences and took another look:
 
-[<img src="/wp-content/uploads/2017/08/Screenshot-from-2017-08-02-07-48-18.png" alt="thunderbird fonts and colors panel" width="457" height="583" class="aligncenter size-full wp-image-6803" srcset="/wp-content/uploads/2017/08/Screenshot-from-2017-08-02-07-48-18.png 457w, /wp-content/uploads/2017/08/Screenshot-from-2017-08-02-07-48-18-235x300.png 235w" sizes="(max-width: 457px) 100vw, 457px" />][2]
+![Screenshot-from-2017-08-02-07-48-18.png](Screenshot-from-2017-08-02-07-48-18.png "thunderbird fonts and colors panel")
 
 Everything was set as I expected. I started with some Google searches and stumbled upon a Mozilla Bug: [Changing monospace font doesn't affect all messages][3]. One of the participants in the bug mentioned that any emails received without ISO-8859-1 encoding would be unaffected since Thunderbird allows you set fonts for each encoding.
 
 I clicked the dropdown where "Latin" was selected and I selected "Other Writing Systems". After changing the monospace font there, the changes went into effect for all of my monospaced messages!
 
  [1]: https://www.mozilla.org/en-US/thunderbird/
- [2]: /wp-content/uploads/2017/08/Screenshot-from-2017-08-02-07-48-18.png
  [3]: https://bug1234567.bugzilla.mozilla.org/show_bug.cgi?id=546877

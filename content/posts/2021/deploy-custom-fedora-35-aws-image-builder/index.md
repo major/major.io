@@ -3,8 +3,6 @@ aliases:
 - /2021/11/16/deploy-custom-fedora-35-aws-image-builder/
 author: Major Hayden
 date: '2021-11-16'
-images:
-- images/2021-11-16-construction-cranes.jpg
 summary: Want to build your own Fedora 35 image for AWS? Use Image Builder to build
   and deploy an image made just for you. 🏗
 tags:
@@ -16,8 +14,6 @@ tags:
 - linux
 title: Deploy a custom Fedora 35 AMI to AWS with Image Builder
 ---
-
-{{< figure src="/images/2021-11-16-construction-cranes.jpg" alt="Construction cranes over city landscape" position="center" >}}
 
 [Fedora] reigns supreme as my Linux distribution of choice when I deploy new
 workloads to public clouds. It gives me a well-tested, modern Linux system with

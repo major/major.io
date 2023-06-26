@@ -21,7 +21,7 @@ Completing a deployment of an OpenStack cloud is an **amazing feeling**. There i
 
 It's the same feeling I get when I hang Christmas lights every year only to find that a whole section didn't light up. If you've ever seen [National Lampoon's Christmas Vacation][1], you know what I'm talking about:
 
-[<img src="/wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation-1024x576.jpg" alt="Chevy-Chase-in-National-Lampoons-Christmas-Vacation" width="512" height="288" class="aligncenter size-large wp-image-6224" srcset="/wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation-1024x576.jpg 1024w, /wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation-300x169.jpg 300w, /wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation-768x432.jpg 768w, /wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg 1280w" sizes="(max-width: 512px) 100vw, 512px" />][2]
+![Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg](Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg)
 
 I've stumbled into plenty of problems (and solutions) along the way and I'll detail them here in the hopes that it can help someone avoid throwing a keyboard across the room.
 
@@ -107,7 +107,6 @@ As with any other troubleshooting, I go back to this quote from [Dr. Theodore Wo
 Look for the simplest solutions and work from the smallest domain (the instance) to the widest (the wider network). Make small changes and go back to the instance each time to verify that something changed. Once you find the solution, document it! Someone will surely appreciate it later.
 
  [1]: https://en.wikipedia.org/wiki/National_Lampoon%27s_Christmas_Vacation
- [2]: /wp-content/uploads/2016/05/Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg
  [3]: http://docs.openstack.org/openstack-ops/content/security_groups.html
  [4]: http://docs.openstack.org/user-guide/cli_access_instance_through_a_console.html
  [5]: https://en.wikipedia.org/wiki/Address_Resolution_Protocol#ARP_announcements

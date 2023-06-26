@@ -3,8 +3,6 @@ aliases:
 - /2019/11/18/monitoring-openshift-cron-jobs/
 author: Major Hayden
 date: '2019-11-18'
-images:
-- images/2019-11-18-clock.png
 summary: Openshift (and Kubernetes) allow you to run jobs on schedule, but these jobs
   can fail from time to time. You can monitor them from bash!
 tags:
@@ -14,8 +12,6 @@ tags:
 - shell
 title: Monitoring OpenShift cron jobs
 ---
-
-![clock]
 
 Moving applications into an entirely containerized deployment, such as
 OpenShift or Kubernetes, requires care and attention. One aspect of both that
@@ -148,7 +144,3 @@ $ echo $?
 ```
 
 [OpenShift's Authentication documentation]: https://docs.openshift.com/container-platform/3.11/rest_api/index.html#rest-api-authentication
-
-*Photo credit: [pxhere](https://pxhere.com/en/photo/757871)*
-
-[clock]: /images/2019-11-18-clock.jpg

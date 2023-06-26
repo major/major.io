@@ -3,8 +3,6 @@ aliases:
 - /2021/11/01/install-azure-cli-fedora-35/
 author: Major Hayden
 date: '2021-11-01'
-images:
-- images/2021-11-01-ocean-through-porthole.jpg
 summary: Provision services on Microsoft's Azure CLI on Fedora 35. 💙
 tags:
 - azure
@@ -14,8 +12,6 @@ tags:
 - python
 title: Install Azure CLI on Fedora 35
 ---
-
-{{< figure src="/images/2021-11-01-ocean-through-porthole.jpg" alt="Blue ocean viewed through a boat's porthole" position="center" >}}
 
 I started work on packaging the [Azure CLI] and all of its components in Fedora
 back in July 2021 and the work finally finished just as the Fedora 35

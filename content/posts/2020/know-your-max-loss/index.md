@@ -3,8 +3,6 @@ aliases:
 - /2020/12/09/know-your-max-loss/
 author: Major Hayden
 date: '2020-12-09'
-images:
-- images/2020-12-09-subway-tunnel.jpg
 summary: Knowing your maximum amount of loss on trade is the difference between taking
   a calculated risk and blowing up your account.
 tags:
@@ -12,8 +10,6 @@ tags:
 - options
 title: Know your max loss
 ---
-
-{{< figure src="/images/2020-12-09-subway-tunnel.jpg" alt="Subway Tunnel" position="center" >}}
 
 This is the third post in a [series of posts on options trading]. You can read
 this one out of order since it applies to almost everything you do in the

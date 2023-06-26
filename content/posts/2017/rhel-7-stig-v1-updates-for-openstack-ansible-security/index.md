@@ -14,7 +14,7 @@ tags:
 title: RHEL 7 STIG v1 updates for openstack-ansible-security
 ---
 
-[<img src="/wp-content/uploads/2017/04/OpenStack-Logo-Horizontal-e1491414195297-300x67.png" alt="OpenStack Logo" width="300" height="67" class="alignright size-medium wp-image-6674" srcset="/wp-content/uploads/2017/04/OpenStack-Logo-Horizontal-e1491414195297-300x67.png 300w, /wp-content/uploads/2017/04/OpenStack-Logo-Horizontal-e1491414195297.png 510w" sizes="(max-width: 300px) 100vw, 300px" />][1]DISA's final release of the Red Hat Enterprise Linux (RHEL) 7 Security Technical Implementation Guide (STIG) [came out a few weeks ago][2] and it has plenty of improvements and changes. The openstack-ansible-security role has already been updated with these changes.
+DISA's final release of the Red Hat Enterprise Linux (RHEL) 7 Security Technical Implementation Guide (STIG) [came out a few weeks ago][2] and it has plenty of improvements and changes. The openstack-ansible-security role has already been updated with these changes.
 
 Quite a few duplicated STIG controls were removed and a few new ones were added. Some of the controls in the pre-release were difficult to implement, especially those that changed parameters for PKI-based authentication.
 
@@ -30,7 +30,6 @@ Have feedback? Found a bug? Let us know!
   * Bugs: [LaunchPad][5]
   * E-mail: <openstack-dev@lists.rackspace.com> with the subject line `[openstack-ansible][security]`
 
- [1]: /wp-content/uploads/2017/04/OpenStack-Logo-Horizontal-e1491414195297.png
  [2]: https://public.cyber.mil/stigs/
  [3]: https://github.com/openstack/openstack-ansible-security/commit/dccce1d5cc06985a58f0ecba4fd0d977388592b2
  [4]: https://docs.openstack.org/developer/openstack-ansible-security/controls-rhel7.html

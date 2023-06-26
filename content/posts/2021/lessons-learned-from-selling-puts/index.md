@@ -3,8 +3,6 @@ aliases:
 - /2021/01/04/lessons-learned-from-selling-puts/
 author: Major Hayden
 date: '2021-01-04'
-images:
-- images/2021-01-04-dark-road-mountains.jpg
 summary: Learn from my successes and mistakes while selling puts in the stock market
   in 2020.
 tags:
@@ -16,8 +14,6 @@ title: Lessons learned from selling puts
 🤔 *This is another post in a set of posts on [options trading] on the blog.
 If you are confused on terminology, go back and start with the first post and
 the series and work your way to this one.*
-
-{{< figure src="/images/2021-01-04-dark-road-mountains.jpg" alt="Dark Road with Mountains" position="center" >}}
 
 My options trading journey started back in September 2020 and I learned a lot
 in a short amount of time. This post covers some of the lessons I've learned

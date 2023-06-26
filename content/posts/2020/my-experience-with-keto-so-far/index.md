@@ -3,8 +3,6 @@ aliases:
 - /2020/06/11/my-experience-with-keto-so-far/
 author: Major Hayden
 date: '2020-06-11'
-images:
-- images/2020-06-11-plates-and-bowls.jpg
 summary: Moving to the keto lifestyle is a big change. It's more than just a diet
   and I'll share my ups and downs from my journey.
 tags:
@@ -13,8 +11,6 @@ tags:
 - keto
 title: My experience with keto so far
 ---
-
-{{< figure src="/images/2020-06-11-plates-and-bowls.jpg" alt="Brno skyline" position="center" >}}
 
 I've talked about some of my experiences with altering my diet on Twitter and
 many people have asked about my experiences with keto so far. Note that I
