@@ -3,8 +3,6 @@ aliases:
 - /2019/08/07/fedora-30-on-google-compute-engine/
 author: Major Hayden
 date: '2019-08-07'
-images:
-- images/2019-08-07-google-hq.jpg
 summary: Fedora 30 is a great Linux distribution for cloud platforms, but it needs
   a little work to perform well on Google Compute Engine.
 tags:
@@ -14,8 +12,6 @@ tags:
 - linux
 title: Fedora 30 on Google Compute Engine
 ---
-
-![Google building]
 
 Fedora 30 is my primary operating system for desktops and servers, so I
 usually try to take it everywhere I go. I was recently doing some
@@ -201,7 +197,6 @@ instance-2 login:
 
 Yes! A ten second boot with networking is exactly what I needed.
 
-[Google building]: /images/2019-08-07-google-hq.jpg
 [pre-built AMI's]: https://alt.fedoraproject.org/cloud/
 [Google Compute Engine console]: https://console.cloud.google.com/compute/
 [GitHub page]: https://github.com/GoogleCloudPlatform/compute-image-packages

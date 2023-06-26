@@ -3,8 +3,6 @@ aliases:
 - /2019/10/20/install-chromium-with-vaapi-on-fedora-30/
 author: Major Hayden
 date: '2019-10-20'
-images:
-- images/2019-10-20-film.jpg
 summary: Lower your CPU usage and increase battery life when you watch certain videos
   by using Chromium with VAAPI support.
 tags:
@@ -13,8 +11,6 @@ tags:
 - linux
 title: Install Chromium with VAAPI on Fedora 30
 ---
-
-![film]
 
 ***UPDATE:*** *The `chromium-vaapi` package is now `chromium-freeworld`.
 This post was updated on 2019-11-06 to include the change. See the end of the
@@ -193,15 +189,9 @@ sudo cp /usr/lib64/chromium-vaapi/libwidevinecdm.so /usr/lib64/chromium-freeworl
 
 Restart `chromium-freeworld` and you're good to go again.
 
-*Photo credit: Pixabay[^1]*
-
-[film]: /images/2019-10-20-film.jpg
 [VA API]: https://en.wikipedia.org/wiki/Video_Acceleration_API
 [chrome://flags]: chrome://flags
 [YouTube]: https://youtube.com/
 [DailyMotion]: http://dailymotion.com
 [h264ify]: https://github.com/erkserkserks/h264ify
 [Widefine]: https://www.widevine.com/
-
-[^1]: The content was on pixabay at the time of writing, but it has since been
-removed.

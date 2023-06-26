@@ -3,8 +3,6 @@ aliases:
 - /2019/09/22/customize-gnome-from-i3/
 author: Major Hayden
 date: '2019-09-22'
-images:
-- images/2019-09-22-wrenches.jpg
 summary: All of your GNOME and gtk applications are configured in i3 with a few simple
   tricks.
 tags:
@@ -13,8 +11,6 @@ tags:
 - linux
 title: Customize GNOME from i3
 ---
-
-![wrenches]
 
 i3 has been my window manager of choice for a while and I really enjoy its
 simplicity and ease of use. I use plenty of gtk applications, such as Firefox
@@ -84,8 +80,5 @@ You can also open up `dconf-editor` and make these changes manually in
 `/org/gnome/desktop/interface`, but gnome-tweaks has a much more user-friendly
 interface.
 
-*Photo credit: [Julia Manzerova]*
-
-[wrenches]: /images/2019-09-22-wrenches.jpg
 [lxappearance]: https://wiki.lxde.org/en/LXAppearance
 [Julia Manzerova]: https://www.flickr.com/photos/julia_manzerova/932055546

@@ -3,15 +3,11 @@ aliases:
 - /2019/03/17/pixel-3-wifi-drops-constantly/
 author: Major Hayden
 date: '2019-03-17'
-images:
-- images/2019-03-17-google-pixel-phones.jpg
 tags:
 - android
 - networking
 title: Pixel 3 Wi-Fi drops constantly
 ---
-
-![pixel_phones]
 
 We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both
 of them drop off our home wireless network regularly. It causes lots of
@@ -211,7 +207,6 @@ date: Mon, 18 Mar 2019 12:35:18 GMT
 alt-svc: quic=":443"; ma=2592000; v="46,44,43,39"
 ```
 
-[pixel_phones]: /images/2019-03-17-google-pixel-phones.jpg
 [EAP600]: https://www.engeniustech.com/engenius-products/indoor-wireless-ceiling-ap-eap600/
 [EAP1200H]: https://www.engeniustech.com/engenius-products/indoor-wireless-ceiling-ap-eap1200h/
 [NetGear Orbi]: https://www.netgear.com/support/product/RBR50.aspx

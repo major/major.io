@@ -3,8 +3,6 @@ aliases:
 - /2019/08/16/get-faster-gitlab-runners-with-a-ramdisk/
 author: Major Hayden
 date: '2019-08-16'
-images:
-- images/2019-08-16-jet-ski.jpg
 summary: Many cloud providers give you lots of memory with each instance and you can
   speed up tests and builds by using a ramdisk.
 tags:
@@ -16,8 +14,6 @@ tags:
 - podman
 title: Get faster GitLab runners with a ramdisk
 ---
-
-![Jet ski moving fast]
 
 When you build tons of kernels every day like my team does, you look for
 speed improvements anywhere you can. Caching repositories, artifacts, and
@@ -112,13 +108,9 @@ are really fast when they're done in tmpfs.
   critically low on available RAM, you could see a huge drop in performance,
   system instability, or even a crash. 🔥
 
-*[Photo credit]*
-
 [caching]: https://docs.gitlab.com/runner/configuration/advanced-configuration.html#the-runnerscache-section
 [configuration for the docker executor]: https://docs.gitlab.com/runner/configuration/advanced-configuration.html#the-runnersdocker-section
 [great wiki page for tmpfs]: https://wiki.archlinux.org/index.php/Tmpfs
 [well-written blog post]: https://www.jamescoyle.net/knowledge/951-the-difference-between-a-tmpfs-and-ramfs-ram-disk
 [great interactive latency page]: https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html
 [docker executor documentation]: https://docs.gitlab.com/runner/executors/docker.html#mounting-a-directory-in-ram
-[Photo credit]: https://www.maxpixel.net/Water-Jet-Ski-Fast-Speed-Summer-Fun-Sport-1470072
-[Jet ski moving fast]: /images/2019-08-16-jet-ski.jpg

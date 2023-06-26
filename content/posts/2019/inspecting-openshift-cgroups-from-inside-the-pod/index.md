@@ -3,8 +3,6 @@ aliases:
 - /2019/04/05/inspecting-openshift-cgroups-from-inside-the-pod/
 author: Major Hayden
 date: '2019-04-05'
-images:
-- images/2019-04-05-inspecting-cgroups.jpg
 tags:
 - openshift
 - ansible
@@ -12,8 +10,6 @@ tags:
 - linux
 title: Inspecting OpenShift cgroups from inside the pod
 ---
-
-![walking_through_rock_valley]
 
 My team at Red Hat builds a lot of kernels in OpenShift pods as part of our
 work with the [Continuous Kernel Integration (CKI)] project. We have lots of
@@ -198,7 +194,6 @@ will cause Java to look at the cgroups to determine its heap size.
 
 *Photo credit: [Wikipedia]*
 
-[walking_through_rock_valley]: /images/2019-04-05-inspecting-cgroups.jpg
 [Continuous Kernel Integration (CKI)]: https://cki-project.org/
 [sched_getaffinity]: https://linux.die.net/man/2/sched_getaffinity
 [Completely Fair Scheduler (CFS)]: https://en.wikipedia.org/wiki/Completely_Fair_Scheduler

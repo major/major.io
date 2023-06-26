@@ -3,8 +3,6 @@ aliases:
 - /2019/03/22/running-ansible-in-openshift-with-arbitrary-uids/
 author: Major Hayden
 date: '2019-03-22'
-images:
-- images/2019-03-22-blacksmith-anvil-hammer.jpg
 tags:
 - openshift
 - ansible
@@ -12,8 +10,6 @@ tags:
 - gitlab
 title: Running Ansible in OpenShift with arbitrary UIDs
 ---
-
-![blacksmith_anvil_hammer]
 
 My work at Red Hat involves testing lots and lots of kernels from various
 sources and we use [GitLab CE] to manage many of our repositories and run our
@@ -142,7 +138,6 @@ localhost                  : ok=2    changed=1    unreachable=0    failed=0
 
 Success!
 
-[blacksmith_anvil_hammer]: /images/2019-03-22-blacksmith-anvil-hammer.jpg
 [GitLab CE]: https://gitlab.com/gitlab-org/gitlab-ce/
 [OpenShift]: https://www.openshift.com/
 [arbitrarily assigned user IDs]: https://docs.openshift.com/container-platform/3.11/creating_images/guidelines.html#openshift-specific-guidelines

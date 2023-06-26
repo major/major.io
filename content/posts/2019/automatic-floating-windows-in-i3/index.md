@@ -3,16 +3,12 @@ aliases:
 - /2019/02/08/automatic-floating-windows-in-i3/
 author: Major Hayden
 date: '2019-02-08'
-images:
-- images/2019-02-08-floating-leaf.jpg
 tags:
 - linux
 - i3
 - fedora
 title: Automatic floating windows in i3
 ---
-
-![floating leaf]
 
 The [i3 window manager] is a fast window manager that helps you keep all of
 your applications in the right place. It automatically tiles windows and can
@@ -123,9 +119,5 @@ for_window [class="vlc"] move to workspace $ws2
 Restart i3 to pick up the new changes (usually *Mod + Shift + R*) and start
 VLC. It should appear on workspace 2 as a floating window!
 
-*[Photo source]*
-
-[floating leaf]: /images/2019-02-08-floating-leaf.jpg
 [i3 window manager]: https://i3wm.org/
 [archived i3 faq thread]: https://faq.i3wm.org/question/2172/how-do-i-find-the-criteria-for-use-with-i3-config-commands-like-for_window-eg-to-force-splashscreens-and-dialogs-to-show-in-floating-mode.1.html
-[Photo source]: https://www.maxpixel.net/Floating-Sea-Leaf-Water-Cute-Leaf-Floating-2438419

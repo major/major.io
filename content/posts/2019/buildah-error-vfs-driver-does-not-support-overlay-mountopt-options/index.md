@@ -3,8 +3,6 @@ aliases:
 - /2019/08/13/buildah-error-vfs-driver-does-not-support-overlay-mountopt-options/
 author: Major Hayden
 date: '2019-08-13'
-images:
-- images/2019-08-13-storage-bins.jpg
 summary: Buildah and podman work well with the vfs storage driver, but the default
   mount options can cause problems.
 tags:
@@ -16,8 +14,6 @@ tags:
 - podman
 title: 'buildah error: vfs driver does not support overlay.mountopt options'
 ---
-
-![Storage bins]
 
 Buildah and podman make a great pair for building, managing and running
 containers on a Linux system. You can even [use them with GitLab CI] with a
@@ -73,7 +69,6 @@ sed -i '/^mountopt =.*/d' /etc/containers/storage.conf
 
 My containers are happily building again in GitLab.
 
-[Storage bins]: /images/2019-08-13-storage-bins.jpg
 [use them with GitLab CI]: /2019/05/24/build-containers-in-gitlab-ci-with-buildah/
 
 [^1]: The original build script is no longer available, but the [remainder of

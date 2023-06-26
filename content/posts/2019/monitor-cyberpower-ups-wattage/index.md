@@ -3,8 +3,6 @@ aliases:
 - /2019/11/08/monitor-cyberpower-ups-wattage/
 author: Major Hayden
 date: '2019-11-08'
-images:
-- images/2019-11-08-cyberpower-ups.png
 summary: Monitor the power consumption of your CyberPower UPS and display the live
   output in your Linux desktop's status bar.
 tags:
@@ -14,8 +12,6 @@ tags:
 - ups
 title: Monitor CyberPower UPS wattage
 ---
-
-![ups]
 
 I have a CyberPower [CP1350AVRLCD] under my desk at home and I use it to run my
 computer, monitors, speakers, and a lamp. My new computer is a little more
@@ -167,9 +163,8 @@ There's live power monitoring right there in my polybar!
 
 ![polybar wattage]
 
-[ups]: /images/2019-11-08-cyberpower-ups.png
 [CP1350AVRLCD]: https://www.cyberpowersystems.com/product/ups/intelligent-lcd/cp1350avrlcd/
 [polybar]: https://github.com/polybar/polybar
 [PowerPanel]: https://www.cyberpowersystems.com/products/software/power-panel-personal/
 [Troubleshooting CyberPower PowerPanel issues in Linux]: /2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/
-[polybar wattage]: /images/2019-11-08-polybar-wattage.jpg
+[polybar wattage]: 2019-11-08-polybar-wattage.jpg

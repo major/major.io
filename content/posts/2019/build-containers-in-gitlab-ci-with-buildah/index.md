@@ -3,8 +3,6 @@ aliases:
 - /2019/05/24/build-containers-in-gitlab-ci-with-buildah/
 author: Major Hayden
 date: '2019-05-24'
-images:
-- images/2019-05-24-cranes-skycrapers.jpg
 tags:
 - buildah
 - containers
@@ -14,8 +12,6 @@ tags:
 - podman
 title: Build containers in GitLab CI with buildah
 ---
-
-![cranes and skyscrapers]
 
 My team at Red Hat depends heavily on [GitLab CI] and we build containers
 often to run all kinds of tests. Fortunately, GitLab offers up CI to build
@@ -164,5 +160,3 @@ date before I can run tests.
 
 If the container build fails for some reason, GitLab will send me an email to
 let me know.
-
-[_Photo Source_](https://pxhere.com/en/photo/942096)

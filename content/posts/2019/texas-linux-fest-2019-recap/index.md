@@ -3,15 +3,11 @@ aliases:
 - /2019/06/02/texas-linux-fest-2019-recap/
 author: Major Hayden
 date: '2019-06-02'
-images:
-- images/2019-06-02-irving-las-colinas.jpg
 tags:
 - linux
 - conferences
 title: Texas Linux Fest 2019 Recap
 ---
-
-![Las Colinas in Irving]
 
 Another Texas Linux Fest has come and gone! The [2019 Texas Linux Fest] was
 held in Irving at the Irving Convention Center. It was a great venue surrounded
@@ -27,7 +23,6 @@ are more of a typical conference format with a keynote in the morning and
 45-minute talks through the day. Saturday nights have lightning talks as well
 as "Birds of a Feather" events for people with similar interests.
 
-[Las Colinas in Irving]: /images/2019-06-02-irving-las-colinas.jpg
 [2019 Texas Linux Fest]: https://2019.texaslinuxfest.org/
 
 ## Highlights
@@ -79,9 +74,9 @@ being done.
 [You're Worth More Than You Know, Matching your Skills to Employers]: https://2019.texaslinuxfest.org/presentations.html#trackf3_2
 [Thomas Cameron]: https://twitter.com/thomasdcameron
 [Adam Miller]: https://twitter.com/themaxamillion
-[Adam Miller Ansible talk]: /images/2019-06-02-adam-miller-ansible.jpg
+[Adam Miller Ansible talk]: 2019-06-02-adam-miller-ansible.jpg
 [José Miguel Parrella]: https://twitter.com/bureado
-[Debian at Microsoft slide]: /images/2019-06-02-debian-at-microsoft.jpg
+[Debian at Microsoft slide]: 2019-06-02-debian-at-microsoft.jpg
 
 ## My talks
 

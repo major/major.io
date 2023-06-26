@@ -3,16 +3,12 @@ aliases:
 - /2019/03/04/stop-audio-pops-on-intel-hd-audio/
 author: Major Hayden
 date: '2019-03-04'
-images:
-- images/2019-03-04-headphones.jpg
 tags:
 - linux
 - fedora
 - sound
 title: Stop audio pops on Intel HD Audio
 ---
-
-![headphones]
 
 I recently picked up a Dell Optiplex 7060 and I'm using it as my main
 workstation now. The Fedora installation was easy, but I noticed a variety of
@@ -148,7 +144,3 @@ default). If so, the proper auto suspend delays are set.
 
 If the delay is 0, then autosuspend is disabled and removed from power
 management entirely. This is the option I chose and it's working great.
-
-_Photo source: [Max Pixel](https://www.maxpixel.net/Headphone-Caption-Music-Sound-Listing-Music-2694489)_
-
-[headphones]: /images/2019-03-04-headphones.jpg

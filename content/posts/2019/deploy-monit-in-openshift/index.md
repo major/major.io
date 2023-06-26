@@ -3,8 +3,6 @@ aliases:
 - /2019/09/11/deploy-monit-in-openshift/
 author: Major Hayden
 date: '2019-09-11'
-images:
-- images/2019-09-11-cctv-cameras.jpg
 summary: Monit is a tried-and-true monitoring daemon that is easy to deploy. Add it
   to OpenShift to make monitoring even easier.
 tags:
@@ -14,8 +12,6 @@ tags:
 - openshift
 title: Deploy monit in OpenShift
 ---
-
-![cctv cameras]
 
 [Monit] is a tried-and-true method for monitoring all kinds of systems,
 services, and network endpoints. Deploying monit is easy. There's only one
@@ -335,5 +331,3 @@ monit should be up and running within seconds!
 [Monit]: https://mmonit.com/monit/
 [Running Ansible in OpenShift with arbitrary UIDs]: /2019/03/22/running-ansible-in-openshift-with-arbitrary-uids/
 [monit GitLab repository]: https://gitlab.com/majorhayden/container-monit
-
-[_Photo credit_](https://commons.wikimedia.org/wiki/File:CCTV_cameras_in_Mumbai.jpg)
