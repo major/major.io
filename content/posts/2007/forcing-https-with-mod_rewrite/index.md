@@ -3,8 +3,6 @@ aliases:
 - /2007/03/21/forcing-https-with-mod_rewrite/
 author: Major Hayden
 date: 2007-03-21 15:00:15
-dsq_thread_id:
-- 3679062141
 tags:
 - development
 - security

@@ -3,8 +3,6 @@ aliases:
 - /2007/08/14/automated-mysql-performance-tuning-script/
 author: Major Hayden
 date: 2007-08-15 03:22:29
-dsq_thread_id:
-- 3679032213
 tags:
 - database
 title: 'It’s on Digg: Automated MySQL Performance Tuning Script'

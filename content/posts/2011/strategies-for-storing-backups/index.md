@@ -3,8 +3,6 @@ aliases:
 - /2011/01/09/strategies-for-storing-backups/
 author: Major Hayden
 date: 2011-01-10 01:20:44
-dsq_thread_id:
-- 3642806480
 tags:
 - emergency
 - general advice

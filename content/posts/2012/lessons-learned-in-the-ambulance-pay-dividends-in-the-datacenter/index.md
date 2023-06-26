@@ -3,8 +3,6 @@ aliases:
 - /2012/05/31/lessons-learned-in-the-ambulance-pay-dividends-in-the-datacenter/
 author: Major Hayden
 date: 2012-05-31 15:00:47
-dsq_thread_id:
-- 3642806959
 tags:
 - emergency
 - general advice

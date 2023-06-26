@@ -3,8 +3,6 @@ aliases:
 - /2016/05/03/802-1x-networkmanager-using-nmcli/
 author: Major Hayden
 date: 2016-05-03 19:23:24
-dsq_thread_id:
-- 4797468804
 tags:
 - networking
 - security

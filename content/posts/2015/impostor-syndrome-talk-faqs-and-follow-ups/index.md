@@ -3,8 +3,6 @@ aliases:
 - /2015/09/02/impostor-syndrome-talk-faqs-and-follow-ups/
 author: Major Hayden
 date: 2015-09-02 15:34:34
-dsq_thread_id:
-- 4090680314
 tags:
 - fedora
 - general advice

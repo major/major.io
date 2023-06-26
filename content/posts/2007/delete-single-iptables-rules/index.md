@@ -3,8 +3,6 @@ aliases:
 - /2007/02/09/delete-single-iptables-rules/
 author: Major Hayden
 date: 2007-02-09 19:03:18
-dsq_thread_id:
-- 3642765103
 tags:
 - command line
 - security

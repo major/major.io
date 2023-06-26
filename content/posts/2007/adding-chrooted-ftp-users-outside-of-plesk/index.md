@@ -3,8 +3,6 @@ aliases:
 - /2007/04/27/adding-chrooted-ftp-users-outside-of-plesk/
 author: Major Hayden
 date: 2007-04-27 15:51:59
-dsq_thread_id:
-- 3642766718
 tags:
 - ftp
 - plesk

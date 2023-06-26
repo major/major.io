@@ -3,8 +3,6 @@ aliases:
 - /2016/05/26/automated-security-hardening-with-ansible-may-updates/
 author: Major Hayden
 date: 2016-05-27 02:40:33
-dsq_thread_id:
-- 4860980174
 tags:
 - centos
 - openstack

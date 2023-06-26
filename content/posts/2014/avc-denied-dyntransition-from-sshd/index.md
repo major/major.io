@@ -3,8 +3,6 @@ aliases:
 - /2014/07/03/avc-denied-dyntransition-from-sshd/
 author: Major Hayden
 date: 2014-07-03 19:52:51
-dsq_thread_id:
-- 3646864438
 tags:
 - fedora
 - security

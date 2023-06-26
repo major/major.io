@@ -3,8 +3,6 @@ aliases:
 - /2009/02/24/a-new-customer-service-blog-dontbeafraidofcustomerscom/
 author: Major Hayden
 date: 2009-02-25 03:36:25
-dsq_thread_id:
-- 3642805573
 title: 'A new customer service blog: dontbeafraidofcustomers.com'
 ---
 

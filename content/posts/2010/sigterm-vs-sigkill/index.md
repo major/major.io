@@ -5,8 +5,6 @@ aliases:
 - /2010/03/18/sigterm-vs-sigkill/
 author: Major Hayden
 date: 2010-03-18 13:25:59
-dsq_thread_id:
-- 3642806049
 title: SIGTERM vs. SIGKILL
 ---
 

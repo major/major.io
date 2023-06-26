@@ -5,8 +5,6 @@ aliases:
 - /2010/05/26/how-to-sell-a-guide-for-technical-people/
 author: Major Hayden
 date: 2010-05-27 02:12:39
-dsq_thread_id:
-- 3678951221
 tags:
 - guidance
 - rackspace

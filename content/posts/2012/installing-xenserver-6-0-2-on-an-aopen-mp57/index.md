@@ -3,8 +3,6 @@ aliases:
 - /2012/03/12/installing-xenserver-6-0-2-on-an-aopen-mp57/
 author: Major Hayden
 date: 2012-03-12 17:00:56
-dsq_thread_id:
-- 3648618936
 tags:
 - virtualization
 - xen

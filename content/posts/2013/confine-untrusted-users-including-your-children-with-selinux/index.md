@@ -3,8 +3,6 @@ aliases:
 - /2013/07/05/confine-untrusted-users-including-your-children-with-selinux/
 author: Major Hayden
 date: 2013-07-05 18:50:43
-dsq_thread_id:
-- 3642807316
 tags:
 - centos
 - command line

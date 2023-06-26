@@ -3,8 +3,6 @@ aliases:
 - /2008/11/07/importing-excel-files-into-mysql-with-php/
 author: Major Hayden
 date: 2008-11-07 19:42:45
-dsq_thread_id:
-- 3642805368
 tags:
 - mysql
 - php

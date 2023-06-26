@@ -3,8 +3,6 @@ aliases:
 - /2012/10/17/proud-to-be-a-part-of-openstack-at-rackspace/
 author: Major Hayden
 date: 2012-10-18 03:34:37
-dsq_thread_id:
-- 3678922995
 tags:
 - openstack
 - rackspace

@@ -3,8 +3,6 @@ aliases:
 - /2011/01/26/single-boot-linux-on-an-intel-mac-mini/
 author: Major Hayden
 date: 2011-01-26 13:32:53
-dsq_thread_id:
-- 3642806490
 tags:
 - apple
 - command line

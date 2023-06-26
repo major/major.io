@@ -3,8 +3,6 @@ aliases:
 - /2015/03/29/share-a-wireless-connection-via-ethernet-in-gnome-3-14/
 author: Major Hayden
 date: 2015-03-30 02:31:19
-dsq_thread_id:
-- 3643821307
 tags:
 - fedora
 - gnome

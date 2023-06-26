@@ -3,8 +3,6 @@ aliases:
 - /2009/09/19/twitter-direct-message-notifications-with-prowl/
 author: Major Hayden
 date: 2009-09-19 17:48:27
-dsq_thread_id:
-- 3642805826
 title: Twitter direct message notifications with Prowl
 ---
 

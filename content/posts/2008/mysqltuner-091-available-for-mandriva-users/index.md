@@ -3,8 +3,6 @@ aliases:
 - /2008/06/21/mysqltuner-091-available-for-mandriva-users/
 author: Major Hayden
 date: 2008-06-22 02:54:03
-dsq_thread_id:
-- 3678982437
 tags:
 - database
 - mandriva

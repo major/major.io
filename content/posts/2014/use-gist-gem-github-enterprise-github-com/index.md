@@ -3,8 +3,6 @@ aliases:
 - /2014/08/08/use-gist-gem-github-enterprise-github-com/
 author: Major Hayden
 date: 2014-08-08 21:13:07
-dsq_thread_id:
-- 3642807707
 tags:
 - bash
 - github

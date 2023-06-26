@@ -5,8 +5,6 @@ aliases:
 - /2010/07/26/adding-comments-to-iptables-rules/
 author: Major Hayden
 date: 2010-07-26 15:00:52
-dsq_thread_id:
-- 3642806200
 tags:
 - iptables
 - network

@@ -3,8 +3,6 @@ aliases:
 - /2013/05/14/changing-your-ssh-servers-port-from-the-default-is-it-worth-it/
 author: Major Hayden
 date: 2013-05-15 04:43:41
-dsq_thread_id:
-- 3642807244
 tags:
 - command line
 - fedora

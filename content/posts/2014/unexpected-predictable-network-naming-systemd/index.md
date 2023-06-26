@@ -3,8 +3,6 @@ aliases:
 - /2014/08/06/unexpected-predictable-network-naming-systemd/
 author: Major Hayden
 date: 2014-08-06 21:09:34
-dsq_thread_id:
-- 3642807703
 tags:
 - centos
 - debian

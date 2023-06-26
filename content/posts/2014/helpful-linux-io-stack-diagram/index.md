@@ -3,8 +3,6 @@ aliases:
 - /2014/04/30/helpful-linux-io-stack-diagram/
 author: Major Hayden
 date: 2014-04-30 15:03:46
-dsq_thread_id:
-- 3642807487
 tags:
 - command line
 - linux

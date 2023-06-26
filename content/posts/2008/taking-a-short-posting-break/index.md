@@ -3,8 +3,6 @@ aliases:
 - /2008/05/08/taking-a-short-posting-break/
 author: Major Hayden
 date: 2008-05-08 23:24:41
-dsq_thread_id:
-- 3642771251
 tags:
 - fun
 title: Taking a short posting break

@@ -3,8 +3,6 @@ aliases:
 - /2016/07/22/setting-up-a-telnet-handler-in-gnome-3/
 author: Major Hayden
 date: 2016-07-22 19:44:07
-dsq_thread_id:
-- 5006635590
 tags:
 - fedora
 - gnome

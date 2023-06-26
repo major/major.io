@@ -3,8 +3,6 @@ aliases:
 - /2007/02/28/change-primary-ip-address-in-plesk/
 author: Major Hayden
 date: 2007-02-28 15:36:19
-dsq_thread_id:
-- 3650618373
 tags:
 - plesk
 title: Change Primary IP Address in Plesk

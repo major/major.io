@@ -3,8 +3,6 @@ aliases:
 - /2008/02/04/taking-a-couple-of-weeks-off/
 author: Major Hayden
 date: 2008-02-05 00:23:30
-dsq_thread_id:
-- 3642770927
 tags:
 - development
 title: Taking a couple of weeks off

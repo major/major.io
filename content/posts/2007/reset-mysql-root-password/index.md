@@ -3,8 +3,6 @@ aliases:
 - /2007/03/25/reset-mysql-root-password/
 author: Major Hayden
 date: 2007-03-26 03:27:33
-dsq_thread_id:
-- 3679060411
 tags:
 - database
 - security

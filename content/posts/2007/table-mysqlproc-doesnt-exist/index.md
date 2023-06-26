@@ -3,8 +3,6 @@ aliases:
 - /2007/11/29/table-mysqlproc-doesnt-exist/
 author: Major Hayden
 date: 2007-11-29 18:37:55
-dsq_thread_id:
-- 3642773410
 tags:
 - database
 - mysql

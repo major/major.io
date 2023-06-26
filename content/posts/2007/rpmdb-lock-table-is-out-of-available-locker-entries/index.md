@@ -5,8 +5,6 @@ aliases:
 - /2007/05/27/rpmdb-lock-table-is-out-of-available-locker-entries/
 author: Major Hayden
 date: 2007-05-27 16:38:32
-dsq_thread_id:
-- 3642767513
 tags:
 - bdb
 - command line

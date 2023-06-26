@@ -3,8 +3,6 @@ aliases:
 - /2006/12/27/raising-maxclients-change-serverlimit/
 author: Major Hayden
 date: 2006-12-27 14:36:40
-dsq_thread_id:
-- 3643953969
 tags:
 - web
 title: Raising MaxClients?  Change ServerLimit.

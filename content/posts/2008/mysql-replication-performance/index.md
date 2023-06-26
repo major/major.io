@@ -3,8 +3,6 @@ aliases:
 - /2008/01/02/mysql-replication-performance/
 author: Major Hayden
 date: 2008-01-02 18:20:05
-dsq_thread_id:
-- 3679006537
 tags:
 - database
 - mysql

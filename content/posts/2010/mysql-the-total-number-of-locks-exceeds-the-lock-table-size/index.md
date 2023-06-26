@@ -3,8 +3,6 @@ aliases:
 - /2010/01/29/mysql-the-total-number-of-locks-exceeds-the-lock-table-size/
 author: Major Hayden
 date: 2010-01-29 13:12:21
-dsq_thread_id:
-- 3645404822
 tags:
 - command line
 - database

@@ -3,8 +3,6 @@ aliases:
 - /2015/05/08/tweetdecks-chrome-notifications-stopped-working/
 author: Major Hayden
 date: 2015-05-08 13:55:55
-dsq_thread_id:
-- 3747288500
 tags:
 - chrome
 - fedora

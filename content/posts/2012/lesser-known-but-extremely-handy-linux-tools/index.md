@@ -3,8 +3,6 @@ aliases:
 - /2012/05/11/lesser-known-but-extremely-handy-linux-tools/
 author: Major Hayden
 date: 2012-05-11 21:28:58
-dsq_thread_id:
-- 3642806960
 tags:
 - command line
 - linux

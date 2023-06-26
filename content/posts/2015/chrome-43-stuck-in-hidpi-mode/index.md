@@ -3,8 +3,6 @@ aliases:
 - /2015/06/10/chrome-43-stuck-in-hidpi-mode/
 author: Major Hayden
 date: 2015-06-10 12:36:03
-dsq_thread_id:
-- 3837065488
 featured_image: /wp-content/uploads/2015/06/Google_Chrome_icon_2011.png
 tags:
 - chrome

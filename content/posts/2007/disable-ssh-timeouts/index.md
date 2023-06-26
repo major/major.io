@@ -5,8 +5,6 @@ aliases:
 - /2007/04/12/disable-ssh-timeouts/
 author: Major Hayden
 date: 2007-04-12 16:15:02
-dsq_thread_id:
-- 3642766550
 tags:
 - command line
 - security

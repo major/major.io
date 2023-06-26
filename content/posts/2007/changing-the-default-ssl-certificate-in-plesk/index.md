@@ -3,8 +3,6 @@ aliases:
 - /2007/05/21/changing-the-default-ssl-certificate-in-plesk/
 author: Major Hayden
 date: 2007-05-22 02:16:57
-dsq_thread_id:
-- 3642767490
 tags:
 - plesk
 - security

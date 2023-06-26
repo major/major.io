@@ -5,8 +5,6 @@ aliases:
 - /2008/12/02/simple-server-monitoring-with-xinetd/
 author: Major Hayden
 date: 2008-12-03 00:13:10
-dsq_thread_id:
-- 3642805445
 tags:
 - monitoring
 - xinetd

@@ -3,8 +3,6 @@ aliases:
 - /2008/05/28/mysqltuner-is-the-debian-package-of-the-day/
 author: Major Hayden
 date: 2008-05-29 02:23:30
-dsq_thread_id:
-- 3642772309
 tags:
 - database
 - development

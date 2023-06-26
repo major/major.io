@@ -3,8 +3,6 @@ aliases:
 - /2007/02/01/get-plesk-e-mail-addresses-and-passwords/
 author: Major Hayden
 date: 2007-02-01 14:33:59
-dsq_thread_id:
-- 3642765027
 tags:
 - plesk
 title: Get Plesk e-mail addresses and passwords

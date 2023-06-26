@@ -3,8 +3,6 @@ aliases:
 - /2015/06/11/time-for-a-new-gpg-key/
 author: Major Hayden
 date: 2015-06-11 19:14:03
-dsq_thread_id:
-- 3840975357
 tags:
 - fedora
 - security

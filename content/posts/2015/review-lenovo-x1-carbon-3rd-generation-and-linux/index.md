@@ -3,8 +3,6 @@ aliases:
 - /2015/03/30/review-lenovo-x1-carbon-3rd-generation-and-linux/
 author: Major Hayden
 date: 2015-03-30 14:15:52
-dsq_thread_id:
-- 3642808074
 tags:
 - fedora
 - general advice

@@ -3,8 +3,6 @@ aliases:
 - /2008/09/25/working-hard-on-pleskhacker/
 author: Major Hayden
 date: 2008-09-25 17:00:19
-dsq_thread_id:
-- 3678971406
 tags:
 - plesk
 - wordpress

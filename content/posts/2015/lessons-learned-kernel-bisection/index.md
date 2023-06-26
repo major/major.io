@@ -3,8 +3,6 @@ aliases:
 - /2015/02/09/lessons-learned-kernel-bisection/
 author: Major Hayden
 date: 2015-02-09 14:39:08
-dsq_thread_id:
-- 3647904237
 tags:
 - development
 - fedora

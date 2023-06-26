@@ -3,8 +3,6 @@ aliases:
 - /2014/02/09/puppy-linux-icanhazip-and-tin-foil-hats/
 author: Major Hayden
 date: 2014-02-10 04:04:27
-dsq_thread_id:
-- 3642807416
 tags:
 - icanhazip
 - linux

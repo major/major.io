@@ -3,8 +3,6 @@ aliases:
 - /2007/07/01/redirect-e-mails-in-postfix-based-on-subject-line/
 author: Major Hayden
 date: 2007-07-01 16:37:31
-dsq_thread_id:
-- 3642768276
 tags:
 - mail
 title: Redirect e-mails in postfix based on subject line

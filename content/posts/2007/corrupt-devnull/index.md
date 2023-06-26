@@ -5,8 +5,6 @@ aliases:
 - /2007/06/18/corrupt-devnull/
 author: Major Hayden
 date: 2007-06-19 02:49:56
-dsq_thread_id:
-- 3642768042
 tags:
 - command line
 - emergency

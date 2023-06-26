@@ -3,8 +3,6 @@ aliases:
 - /2011/04/15/mysqltuner-mentioned-at-the-oreilly-mysql-conference/
 author: Major Hayden
 date: 2011-04-16 01:56:31
-dsq_thread_id:
-- 3642806559
 tags:
 - command line
 - database

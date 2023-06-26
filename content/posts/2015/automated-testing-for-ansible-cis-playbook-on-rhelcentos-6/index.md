@@ -3,8 +3,6 @@ aliases:
 - /2015/08/05/automated-testing-for-ansible-cis-playbook-on-rhelcentos-6/
 author: Major Hayden
 date: 2015-08-05 13:13:52
-dsq_thread_id:
-- 4005367241
 tags:
 - ansible
 - centos

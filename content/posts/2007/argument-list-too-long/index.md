@@ -3,8 +3,6 @@ aliases:
 - /2007/01/24/argument-list-too-long/
 author: Major Hayden
 date: 2007-01-24 15:35:24
-dsq_thread_id:
-- 3642764789
 tags:
 - command line
 title: Argument list too long

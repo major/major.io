@@ -3,8 +3,6 @@ aliases:
 - /2011/03/30/lifehacker-effect-on-icanhazip-com/
 author: Major Hayden
 date: 2011-03-30 13:28:55
-dsq_thread_id:
-- 3678941872
 tags:
 - command line
 - icanhazip

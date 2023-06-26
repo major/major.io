@@ -3,8 +3,6 @@ aliases:
 - /2009/03/24/enabling-vnc-as-a-pseudo-kvm-with-vmware-server/
 author: Major Hayden
 date: 2009-03-25 01:28:59
-dsq_thread_id:
-- 3642805581
 tags:
 - linux
 - mac

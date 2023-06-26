@@ -3,8 +3,6 @@ aliases:
 - /2012/03/28/mysql-json-bridge-a-simple-json-api-for-mysql/
 author: Major Hayden
 date: 2012-03-29 02:34:53
-dsq_thread_id:
-- 3644401717
 tags:
 - development
 - github

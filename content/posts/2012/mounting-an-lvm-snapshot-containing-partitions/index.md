@@ -3,8 +3,6 @@ aliases:
 - /2012/07/15/mounting-an-lvm-snapshot-containing-partitions/
 author: Major Hayden
 date: 2012-07-15 20:11:38
-dsq_thread_id:
-- 3642807041
 tags:
 - emergency
 - fedora

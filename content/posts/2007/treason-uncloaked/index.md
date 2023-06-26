@@ -3,8 +3,6 @@ aliases:
 - /2007/01/31/treason-uncloaked/
 author: Major Hayden
 date: 2007-01-31 21:58:48
-dsq_thread_id:
-- 3669475230
 tags:
 - security
 title: Treason Uncloaked

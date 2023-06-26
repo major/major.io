@@ -3,8 +3,6 @@ aliases:
 - /2008/05/19/parallels-summit-2008-day-1/
 author: Major Hayden
 date: 2008-05-20 03:52:38
-dsq_thread_id:
-- 3642771385
 tags:
 - development
 - plesk

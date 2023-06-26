@@ -3,8 +3,6 @@ aliases:
 - /2008/09/05/listing-of-vmware-configuration-parameters/
 author: Major Hayden
 date: 2008-09-05 17:09:54
-dsq_thread_id:
-- 3645708670
 tags:
 - vmware
 title: Listing of VMWare configuration parameters

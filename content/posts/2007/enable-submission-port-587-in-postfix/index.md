@@ -3,8 +3,6 @@ aliases:
 - /2007/07/04/enable-submission-port-587-in-postfix/
 author: Major Hayden
 date: 2007-07-05 00:29:36
-dsq_thread_id:
-- 3642768522
 tags:
 - mail
 - postfix

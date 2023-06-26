@@ -3,8 +3,6 @@ aliases:
 - /2012/09/21/automatic-package-updates-in-centos-6/
 author: Major Hayden
 date: 2012-09-21 13:21:01
-dsq_thread_id:
-- 3642807073
 tags:
 - centos
 - security

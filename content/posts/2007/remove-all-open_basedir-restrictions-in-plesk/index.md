@@ -3,8 +3,6 @@ aliases:
 - /2007/06/30/remove-all-open_basedir-restrictions-in-plesk/
 author: Major Hayden
 date: 2007-06-30 15:54:49
-dsq_thread_id:
-- 3642768370
 tags:
 - plesk
 - security

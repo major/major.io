@@ -3,8 +3,6 @@ aliases:
 - /2014/05/24/evade-the-breach/
 author: Major Hayden
 date: 2014-05-24 18:36:48
-dsq_thread_id:
-- 3678885571
 tags:
 - general advice
 - security

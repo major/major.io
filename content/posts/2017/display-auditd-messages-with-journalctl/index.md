@@ -3,8 +3,6 @@ aliases:
 - /2017/01/05/display-auditd-messages-with-journalctl/
 author: Major Hayden
 date: 2017-01-05 15:53:13
-dsq_thread_id:
-- 5438007712
 tags:
 - auditd
 - centos

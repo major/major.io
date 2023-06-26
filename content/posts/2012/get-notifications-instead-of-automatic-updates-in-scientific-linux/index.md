@@ -3,8 +3,6 @@ aliases:
 - /2012/02/04/get-notifications-instead-of-automatic-updates-in-scientific-linux/
 author: Major Hayden
 date: 2012-02-04 19:01:54
-dsq_thread_id:
-- 3647298205
 tags:
 - fedora
 - scientific linux

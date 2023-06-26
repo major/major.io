@@ -3,8 +3,6 @@ aliases:
 - /2007/10/09/dovecot-mbox-cant-create-root-imap-folder/
 author: Major Hayden
 date: 2007-10-10 01:05:52
-dsq_thread_id:
-- 3659565922
 tags:
 - dovecot
 - mail

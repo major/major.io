@@ -3,8 +3,6 @@ aliases:
 - /2012/03/15/compare-commits-between-two-git-branches/
 author: Major Hayden
 date: 2012-03-15 15:00:24
-dsq_thread_id:
-- 3642806905
 tags:
 - bash
 - command line

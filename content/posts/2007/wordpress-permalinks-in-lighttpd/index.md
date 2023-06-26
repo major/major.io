@@ -3,8 +3,6 @@ aliases:
 - /2007/04/08/wordpress-permalinks-in-lighttpd/
 author: Major Hayden
 date: 2007-04-08 23:21:17
-dsq_thread_id:
-- 3642766515
 tags:
 - web
 title: WordPress permalinks in Lighttpd

@@ -3,8 +3,6 @@ aliases:
 - /2016/09/21/ibm-edge-2016-day-2-recap/
 author: Major Hayden
 date: 2016-09-21 17:27:53
-dsq_thread_id:
-- 5162099072
 featured_image: /wp-content/uploads/2016/09/twitter-In-Stream_Wide___IMG_20160920_182456057_HDR.jpg
 tags:
 - linux

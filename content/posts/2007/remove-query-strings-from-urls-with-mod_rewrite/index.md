@@ -3,8 +3,6 @@ aliases:
 - /2007/05/18/remove-query-strings-from-urls-with-mod_rewrite/
 author: Major Hayden
 date: 2007-05-18 14:07:37
-dsq_thread_id:
-- 3679049078
 tags:
 - development
 - web

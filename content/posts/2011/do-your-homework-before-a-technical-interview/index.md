@@ -3,8 +3,6 @@ aliases:
 - /2011/05/02/do-your-homework-before-a-technical-interview/
 author: Major Hayden
 date: 2011-05-03 02:05:05
-dsq_thread_id:
-- 3642806566
 tags:
 - general advice
 - interview

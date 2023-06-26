@@ -3,8 +3,6 @@ aliases:
 - /2008/01/28/rebuilding-the-initial-ram-disk-initrd/
 author: Major Hayden
 date: 2008-01-28 18:23:39
-dsq_thread_id:
-- 3647708564
 tags:
 - command line
 - kernel

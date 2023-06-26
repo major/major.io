@@ -3,8 +3,6 @@ aliases:
 - /2011/03/29/how-to-survive-as-a-technical-manager/
 author: Major Hayden
 date: 2011-03-29 14:25:59
-dsq_thread_id:
-- 3642806562
 tags:
 - general advice
 - management

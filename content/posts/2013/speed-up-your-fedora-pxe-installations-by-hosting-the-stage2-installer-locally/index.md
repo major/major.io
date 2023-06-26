@@ -3,8 +3,6 @@ aliases:
 - /2013/11/03/speed-up-your-fedora-pxe-installations-by-hosting-the-stage2-installer-locally/
 author: Major Hayden
 date: 2013-11-03 17:04:33
-dsq_thread_id:
-- 3642807417
 tags:
 - fedora
 - network

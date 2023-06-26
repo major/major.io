@@ -3,8 +3,6 @@ aliases:
 - /2006/12/26/rootkit-checks-on-rhel/
 author: Major Hayden
 date: 2006-12-27 04:01:45
-dsq_thread_id:
-- 3679082461
 tags:
 - security
 title: Rootkit Checks on RHEL

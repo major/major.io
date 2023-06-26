@@ -3,8 +3,6 @@ aliases:
 - /2016/06/15/whats-happening-openstack-ansible-whoa-june-2016/
 author: Major Hayden
 date: 2016-06-15 19:58:52
-dsq_thread_id:
-- 4913204592
 tags:
 - ansible
 - containers

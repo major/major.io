@@ -3,8 +3,6 @@ aliases:
 - /2012/01/11/native-ipv6-connectivity-in-mikrotiks-routeros/
 author: Major Hayden
 date: 2012-01-11 13:30:07
-dsq_thread_id:
-- 3642806753
 tags:
 - command line
 - ipv6

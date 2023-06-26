@@ -3,8 +3,6 @@ aliases:
 - /2012/05/30/fedora-17-released-xenserver-kickstarts-updated/
 author: Major Hayden
 date: 2012-05-30 20:50:42
-dsq_thread_id:
-- 3642806968
 tags:
 - development
 - fedora

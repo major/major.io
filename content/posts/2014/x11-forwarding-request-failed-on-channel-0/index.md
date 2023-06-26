@@ -3,8 +3,6 @@ aliases:
 - /2014/07/24/x11-forwarding-request-failed-on-channel-0/
 author: Major Hayden
 date: 2014-07-24 19:24:32
-dsq_thread_id:
-- 3642807637
 tags:
 - debian
 - ipv6

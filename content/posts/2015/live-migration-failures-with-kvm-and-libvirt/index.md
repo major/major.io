@@ -3,8 +3,6 @@ aliases:
 - /2015/08/03/live-migration-failures-with-kvm-and-libvirt/
 author: Major Hayden
 date: 2015-08-03 13:13:30
-dsq_thread_id:
-- 3998873295
 tags:
 - fedora
 - kvm

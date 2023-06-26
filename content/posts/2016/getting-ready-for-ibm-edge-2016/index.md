@@ -3,8 +3,6 @@ aliases:
 - /2016/09/14/getting-ready-for-ibm-edge-2016/
 author: Major Hayden
 date: 2016-09-14 13:00:28
-dsq_thread_id:
-- 5143657337
 tags:
 - open source
 - openstack

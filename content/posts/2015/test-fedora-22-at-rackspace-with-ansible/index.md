@@ -3,8 +3,6 @@ aliases:
 - /2015/03/24/test-fedora-22-at-rackspace-with-ansible/
 author: Major Hayden
 date: 2015-03-24 13:55:08
-dsq_thread_id:
-- 3643818992
 tags:
 - ansible
 - fedora

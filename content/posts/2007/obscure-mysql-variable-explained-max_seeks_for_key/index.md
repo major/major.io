@@ -3,8 +3,6 @@ aliases:
 - /2007/08/03/obscure-mysql-variable-explained-max_seeks_for_key/
 author: Major Hayden
 date: 2007-08-03 22:01:33
-dsq_thread_id:
-- 3642769029
 tags:
 - database
 title: 'Obscure MySQL variable explained: max_seeks_for_key'

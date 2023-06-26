@@ -5,8 +5,6 @@ aliases:
 - /2010/03/08/rackspace-cloud-tech-podcast-episode-2/
 author: Major Hayden
 date: 2010-03-09 01:51:39
-dsq_thread_id:
-- 3678954732
 tags:
 - cloud
 - security

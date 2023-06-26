@@ -3,8 +3,6 @@ aliases:
 - /2014/07/21/icanhazip-and-cors/
 author: Major Hayden
 date: 2014-07-21 14:31:45
-dsq_thread_id:
-- 3642807634
 tags:
 - ajax
 - cors

@@ -3,8 +3,6 @@ aliases:
 - /2012/02/14/five-years-of-rackerhacker-com/
 author: Major Hayden
 date: 2012-02-14 14:45:43
-dsq_thread_id:
-- 3642806903
 featured_image: /wp-content/uploads/2012/02/birthday_cake.jpg
 tags:
 - blog

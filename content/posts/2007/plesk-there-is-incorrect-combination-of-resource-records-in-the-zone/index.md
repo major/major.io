@@ -3,8 +3,6 @@ aliases:
 - /2007/10/02/plesk-there-is-incorrect-combination-of-resource-records-in-the-zone/
 author: Major Hayden
 date: 2007-10-03 03:21:19
-dsq_thread_id:
-- 3642770256
 tags:
 - plesk
 title: 'Plesk: There is incorrect combination of resource records in the zone'

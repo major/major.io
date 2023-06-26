@@ -3,8 +3,6 @@ aliases:
 - /2012/11/20/fixing-finicky-bluetooth-on-the-samsung-galaxy-s-iii/
 author: Major Hayden
 date: 2012-11-20 13:47:51
-dsq_thread_id:
-- 3659845406
 title: Fixing finicky Bluetooth on the Samsung Galaxy S III
 ---
 

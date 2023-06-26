@@ -3,8 +3,6 @@ aliases:
 - /2008/03/24/setting-the-maximum-mail-size-in-qmail/
 author: Major Hayden
 date: 2008-03-24 18:54:35
-dsq_thread_id:
-- 3642772584
 tags:
 - mail
 - plesk

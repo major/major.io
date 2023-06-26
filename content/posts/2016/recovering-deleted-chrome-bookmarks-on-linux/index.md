@@ -3,8 +3,6 @@ aliases:
 - /2016/02/26/recovering-deleted-chrome-bookmarks-on-linux/
 author: Major Hayden
 date: 2016-02-26 15:31:15
-dsq_thread_id:
-- 4613596137
 tags:
 - chrome
 - fedora

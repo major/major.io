@@ -3,8 +3,6 @@ aliases:
 - /2015/05/27/xen-4-5-crashes-during-boot-on-fedora-22/
 author: Major Hayden
 date: 2015-05-27 12:33:21
-dsq_thread_id:
-- 3797709360
 tags:
 - fedora
 - gcc

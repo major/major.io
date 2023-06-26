@@ -3,8 +3,6 @@ aliases:
 - /2015/08/06/less-than-a-week-until-fedora-flock-2015/
 author: Major Hayden
 date: 2015-08-06 12:36:47
-dsq_thread_id:
-- 4008419200
 tags:
 - fedora
 title: Less than a week until Fedora Flock 2015

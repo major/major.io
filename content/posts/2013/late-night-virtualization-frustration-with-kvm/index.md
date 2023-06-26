@@ -3,8 +3,6 @@ aliases:
 - /2013/03/20/late-night-virtualization-frustration-with-kvm/
 author: Major Hayden
 date: 2013-03-20 05:07:21
-dsq_thread_id:
-- 3642807146
 tags:
 - command line
 - fedora

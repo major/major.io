@@ -3,8 +3,6 @@ aliases:
 - /2014/05/20/switching-to-systemd-on-debian-jessie/
 author: Major Hayden
 date: 2014-05-20 13:47:33
-dsq_thread_id:
-- 3642807546
 tags:
 - command line
 - debian

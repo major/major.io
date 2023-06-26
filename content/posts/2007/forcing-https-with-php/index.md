@@ -3,8 +3,6 @@ aliases:
 - /2007/03/21/forcing-https-with-php/
 author: Major Hayden
 date: 2007-03-21 14:27:35
-dsq_thread_id:
-- 3642765993
 tags:
 - development
 - security

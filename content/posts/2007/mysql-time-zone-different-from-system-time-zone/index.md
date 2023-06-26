@@ -3,8 +3,6 @@ aliases:
 - /2007/07/01/mysql-time-zone-different-from-system-time-zone/
 author: Major Hayden
 date: 2007-07-01 16:29:11
-dsq_thread_id:
-- 3642768403
 tags:
 - database
 title: MySQL time zone different from system time zone

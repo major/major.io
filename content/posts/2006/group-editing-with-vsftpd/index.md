@@ -3,8 +3,6 @@ aliases:
 - /2006/12/26/group-editing-with-vsftpd/
 author: Major Hayden
 date: 2006-12-27 03:44:55
-dsq_thread_id:
-- 3679083237
 tags:
 - ftp
 title: Group Editing With FTP

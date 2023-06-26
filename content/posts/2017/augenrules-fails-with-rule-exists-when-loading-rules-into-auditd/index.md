@@ -3,8 +3,6 @@ aliases:
 - /2017/01/03/augenrules-fails-with-rule-exists-when-loading-rules-into-auditd/
 author: Major Hayden
 date: 2017-01-03 19:01:46
-dsq_thread_id:
-- 5432449334
 tags:
 - ansible
 - auditd

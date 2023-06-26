@@ -3,8 +3,6 @@ aliases:
 - /2007/09/09/getting-growlmail-working-with-apple-mail-in-growl-11/
 author: Major Hayden
 date: 2007-09-10 04:44:10
-dsq_thread_id:
-- 3679025001
 tags:
 - mail
 title: Getting GrowlMail working with Apple Mail in Growl 1.1

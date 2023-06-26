@@ -3,8 +3,6 @@ aliases:
 - /2008/09/01/encrypted-filesystems-and-partitions-on-rhel-5/
 author: Major Hayden
 date: 2008-09-02 01:55:36
-dsq_thread_id:
-- 3642771829
 tags:
 - encryption
 - red hat

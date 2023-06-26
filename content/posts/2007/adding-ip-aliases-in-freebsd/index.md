@@ -3,8 +3,6 @@ aliases:
 - /2007/08/08/adding-ip-aliases-in-freebsd/
 author: Major Hayden
 date: 2007-08-09 00:35:44
-dsq_thread_id:
-- 3642769069
 tags:
 - command line
 title: Adding IP aliases in FreeBSD

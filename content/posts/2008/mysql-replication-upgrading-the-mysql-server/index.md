@@ -3,8 +3,6 @@ aliases:
 - /2008/01/11/mysql-replication-upgrading-the-mysql-server/
 author: Major Hayden
 date: 2008-01-11 23:44:54
-dsq_thread_id:
-- 3679003389
 tags:
 - database
 - mysql

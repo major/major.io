@@ -3,8 +3,6 @@ aliases:
 - /2016/05/05/preventing-ubuntu-16-04-starting-daemons-package-installed/
 author: Major Hayden
 date: 2016-05-05 15:54:27
-dsq_thread_id:
-- 4802584995
 tags:
 - security
 - systemd

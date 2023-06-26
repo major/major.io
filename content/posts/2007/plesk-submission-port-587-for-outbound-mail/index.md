@@ -3,8 +3,6 @@ aliases:
 - /2007/05/15/plesk-submission-port-587-for-outbound-mail/
 author: Major Hayden
 date: 2007-05-15 14:28:17
-dsq_thread_id:
-- 3642766833
 tags:
 - mail
 - plesk

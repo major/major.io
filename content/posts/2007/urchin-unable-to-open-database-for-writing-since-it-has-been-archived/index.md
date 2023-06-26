@@ -3,8 +3,6 @@ aliases:
 - /2007/08/09/urchin-unable-to-open-database-for-writing-since-it-has-been-archived/
 author: Major Hayden
 date: 2007-08-10 01:43:55
-dsq_thread_id:
-- 3642769239
 tags:
 - web
 title: 'Urchin: Unable to open database for writing since it has been archived'

@@ -3,8 +3,6 @@ aliases:
 - /2007/08/21/qmail-smtpd-spawns-many-processes-and-uses-100-of-cpu/
 author: Major Hayden
 date: 2007-08-22 02:47:18
-dsq_thread_id:
-- 3672428806
 tags:
 - emergency
 - mail

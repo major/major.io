@@ -3,8 +3,6 @@ aliases:
 - /2007/02/07/fighting-ddos-attacks-in-linux/
 author: Major Hayden
 date: 2007-02-07 13:45:43
-dsq_thread_id:
-- 3658454187
 tags:
 - command line
 - security

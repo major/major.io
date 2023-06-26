@@ -3,8 +3,6 @@ aliases:
 - /2012/06/26/first-day-of-the-red-hat-summit/
 author: Major Hayden
 date: 2012-06-27 02:49:46
-dsq_thread_id:
-- 3678927826
 tags:
 - cloud
 - linux

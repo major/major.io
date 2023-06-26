@@ -3,8 +3,6 @@ aliases:
 - /2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/
 author: Major Hayden
 date: 2011-08-17 12:36:52
-dsq_thread_id:
-- 3642806611
 title: Inspire a sysadmin, get a ThinkGeek gift certificate
 ---
 

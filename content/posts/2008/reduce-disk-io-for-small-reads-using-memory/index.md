@@ -3,8 +3,6 @@ aliases:
 - /2008/08/07/reduce-disk-io-for-small-reads-using-memory/
 author: Major Hayden
 date: 2008-08-07 17:00:27
-dsq_thread_id:
-- 3642772096
 tags:
 - iowait
 - kernel

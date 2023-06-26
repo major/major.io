@@ -3,8 +3,6 @@ aliases:
 - /2013/04/14/remove-sensitive-information-from-email-headers-with-postfix/
 author: Major Hayden
 date: 2013-04-15 02:59:34
-dsq_thread_id:
-- 3642807167
 tags:
 - centos
 - command lines

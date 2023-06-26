@@ -3,8 +3,6 @@ aliases:
 - /2012/10/21/lenovo-thinkpad-t430s-review/
 author: Major Hayden
 date: 2012-10-21 21:15:44
-dsq_thread_id:
-- 3642807089
 tags:
 - customer service
 - linux

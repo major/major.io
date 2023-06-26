@@ -3,8 +3,6 @@ aliases:
 - /2012/12/28/handy-settings-for-the-touchpadclickpad-in-the-lenovo-x1-carbon/
 author: Major Hayden
 date: 2012-12-28 16:15:42
-dsq_thread_id:
-- 3642807115
 tags:
 - fedora
 - lenovo

@@ -3,8 +3,6 @@ aliases:
 - /2016/05/24/test-fedora-24-beta-openstack-cloud/
 author: Major Hayden
 date: 2016-05-25 03:17:35
-dsq_thread_id:
-- 4855357724
 tags:
 - fedora
 - openstack

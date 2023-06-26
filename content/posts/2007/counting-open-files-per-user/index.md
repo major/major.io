@@ -3,8 +3,6 @@ aliases:
 - /2007/09/26/counting-open-files-per-user/
 author: Major Hayden
 date: 2007-09-26 17:13:44
-dsq_thread_id:
-- 3642770159
 tags:
 - command line
 title: Counting open files per user

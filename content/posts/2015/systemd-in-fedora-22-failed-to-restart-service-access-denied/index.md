@@ -3,8 +3,6 @@ aliases:
 - /2015/09/18/systemd-in-fedora-22-failed-to-restart-service-access-denied/
 author: Major Hayden
 date: 2015-09-18 19:43:35
-dsq_thread_id:
-- 4142728954
 tags:
 - fedora
 - selinux

@@ -3,8 +3,6 @@ aliases:
 - /2007/01/04/mysql-row-data-limits/
 author: Major Hayden
 date: 2007-01-05 01:24:17
-dsq_thread_id:
-- 3642764622
 tags:
 - database
 title: MySQL Row & Data Limits

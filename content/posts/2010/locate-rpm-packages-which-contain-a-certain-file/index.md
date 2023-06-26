@@ -3,8 +3,6 @@ aliases:
 - /2010/12/08/locate-rpm-packages-which-contain-a-certain-file/
 author: Major Hayden
 date: 2010-12-09 02:30:00
-dsq_thread_id:
-- 3642806375
 tags:
 - centos
 - fedora

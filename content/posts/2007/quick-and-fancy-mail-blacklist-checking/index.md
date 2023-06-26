@@ -3,8 +3,6 @@ aliases:
 - /2007/03/11/quick-and-fancy-mail-blacklist-checking/
 author: Major Hayden
 date: 2007-03-12 00:53:57
-dsq_thread_id:
-- 3642765759
 tags:
 - development
 - mail

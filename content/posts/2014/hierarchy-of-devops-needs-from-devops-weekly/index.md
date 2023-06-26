@@ -3,8 +3,6 @@ aliases:
 - /2014/02/02/hierarchy-of-devops-needs-from-devops-weekly/
 author: Major Hayden
 date: 2014-02-03 02:30:40
-dsq_thread_id:
-- 3659639955
 tags:
 - development
 - security

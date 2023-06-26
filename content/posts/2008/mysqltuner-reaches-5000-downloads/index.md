@@ -3,8 +3,6 @@ aliases:
 - /2008/01/25/mysqltuner-reaches-5000-downloads/
 author: Major Hayden
 date: 2008-01-25 17:01:18
-dsq_thread_id:
-- 3642772809
 tags:
 - database
 - fun

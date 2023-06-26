@@ -3,8 +3,6 @@ aliases:
 - /2011/06/05/measure-traffic-flows-with-mikrotiks-routeros-and-ntop-on-fedora-15/
 author: Major Hayden
 date: 2011-06-05 14:58:26
-dsq_thread_id:
-- 3642806573
 tags:
 - fedora
 - linux

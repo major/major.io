@@ -3,8 +3,6 @@ aliases:
 - /2014/11/24/trust-ip-address-firewallds-rich-rules/
 author: Major Hayden
 date: 2014-11-24 14:44:09
-dsq_thread_id:
-- 3642807765
 tags:
 - fedora
 - firewall

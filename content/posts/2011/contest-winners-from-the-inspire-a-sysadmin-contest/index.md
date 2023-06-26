@@ -3,8 +3,6 @@ aliases:
 - /2011/08/22/contest-winners-from-the-inspire-a-sysadmin-contest/
 author: Major Hayden
 date: 2011-08-22 12:43:53
-dsq_thread_id:
-- 3642806666
 tags:
 - general advice
 - sysadmin

@@ -3,8 +3,6 @@ aliases:
 - /2007/07/05/automatic-plesk-login/
 author: Major Hayden
 date: 2007-07-06 03:09:27
-dsq_thread_id:
-- 3642768631
 tags:
 - plesk
 title: Automatic Plesk login

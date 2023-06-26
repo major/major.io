@@ -5,8 +5,6 @@ aliases:
 - /2008/11/05/viewing-documentation-for-your-ruby-gems/
 author: Major Hayden
 date: 2008-11-06 00:14:57
-dsq_thread_id:
-- 3642805362
 tags:
 - ruby
 title: Viewing documentation for your ruby gems

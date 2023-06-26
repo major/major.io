@@ -5,8 +5,6 @@ aliases:
 - /2011/03/09/strategies-for-detecting-a-compromised-linux-server/
 author: Major Hayden
 date: 2011-03-10 02:52:16
-dsq_thread_id:
-- 3642806498
 tags:
 - general advice
 - linux

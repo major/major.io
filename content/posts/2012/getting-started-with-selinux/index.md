@@ -3,8 +3,6 @@ aliases:
 - /2012/01/25/getting-started-with-selinux/
 author: Major Hayden
 date: 2012-01-26 04:28:41
-dsq_thread_id:
-- 3642806820
 tags:
 - centos
 - command line

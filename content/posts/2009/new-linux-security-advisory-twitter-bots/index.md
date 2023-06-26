@@ -3,8 +3,6 @@ aliases:
 - /2009/02/05/new-linux-security-advisory-twitter-bots/
 author: Major Hayden
 date: 2009-02-05 17:00:03
-dsq_thread_id:
-- 3642805562
 tags:
 - debian
 - linux

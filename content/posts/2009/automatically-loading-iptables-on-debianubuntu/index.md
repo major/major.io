@@ -3,8 +3,6 @@ aliases:
 - /2009/11/16/automatically-loading-iptables-on-debianubuntu/
 author: Major Hayden
 date: 2009-11-17 04:39:52
-dsq_thread_id:
-- 3642805844
 tags:
 - debian
 - iptables

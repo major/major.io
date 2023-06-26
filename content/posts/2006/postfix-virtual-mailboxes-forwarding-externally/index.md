@@ -3,8 +3,6 @@ aliases:
 - /2006/12/26/postfix-virtual-mailboxes-forwarding-externally/
 author: Major Hayden
 date: 2006-12-27 02:47:46
-dsq_thread_id:
-- 3642766117
 tags:
 - mail
 title: Postfix – Forwarding Virtual Mailboxes

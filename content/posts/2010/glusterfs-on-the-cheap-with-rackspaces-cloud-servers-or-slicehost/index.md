@@ -5,8 +5,6 @@ aliases:
 - /2010/05/27/glusterfs-on-the-cheap-with-rackspaces-cloud-servers-or-slicehost/
 author: Major Hayden
 date: 2010-05-28 00:34:10
-dsq_thread_id:
-- 3642806159
 tags:
 - command line
 - filesystem

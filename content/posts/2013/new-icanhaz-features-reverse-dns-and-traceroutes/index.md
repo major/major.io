@@ -3,8 +3,6 @@ aliases:
 - /2013/03/16/new-icanhaz-features-reverse-dns-and-traceroutes/
 author: Major Hayden
 date: 2013-03-17 03:13:53
-dsq_thread_id:
-- 3663067936
 tags:
 - command line
 - development

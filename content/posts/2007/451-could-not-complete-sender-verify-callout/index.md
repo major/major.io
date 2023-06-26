@@ -3,8 +3,6 @@ aliases:
 - /2007/03/29/451-could-not-complete-sender-verify-callout/
 author: Major Hayden
 date: 2007-03-29 14:17:06
-dsq_thread_id:
-- 3642766216
 tags:
 - mail
 title: 451 Could not complete sender verify callout

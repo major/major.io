@@ -5,8 +5,6 @@ aliases:
 - /2010/03/20/testing-network-throughput-with-iperf/
 author: Major Hayden
 date: 2010-03-20 21:38:07
-dsq_thread_id:
-- 3642806092
 tags:
 - command line
 - linux

@@ -3,8 +3,6 @@ aliases:
 - /2015/03/15/xerox-colorqube-9302-and-linux/
 author: Major Hayden
 date: 2015-03-16 02:23:07
-dsq_thread_id:
-- 3644153325
 tags:
 - fedora
 - linux

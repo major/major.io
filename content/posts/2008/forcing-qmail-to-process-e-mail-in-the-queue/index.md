@@ -3,8 +3,6 @@ aliases:
 - /2008/05/02/forcing-qmail-to-process-e-mail-in-the-queue/
 author: Major Hayden
 date: 2008-05-02 17:00:51
-dsq_thread_id:
-- 3642771211
 tags:
 - mail
 - plesk

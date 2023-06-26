@@ -3,8 +3,6 @@ aliases:
 - /2008/06/16/adjusting-cpan-mirror-list/
 author: Major Hayden
 date: 2008-06-16 17:00:01
-dsq_thread_id:
-- 3642771573
 tags:
 - perl
 title: Adjusting CPAN mirror list

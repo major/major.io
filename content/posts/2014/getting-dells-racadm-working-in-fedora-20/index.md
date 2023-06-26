@@ -3,8 +3,6 @@ aliases:
 - /2014/06/20/getting-dells-racadm-working-in-fedora-20/
 author: Major Hayden
 date: 2014-06-20 14:39:19
-dsq_thread_id:
-- 3642807555
 tags:
 - centos
 - dell

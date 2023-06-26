@@ -3,8 +3,6 @@ aliases:
 - /2012/02/13/looking-back-at-the-long-road-to-becoming-a-red-hat-certified-architect/
 author: Major Hayden
 date: 2012-02-13 15:00:41
-dsq_thread_id:
-- 3642806878
 tags:
 - centos
 - certifications

@@ -3,8 +3,6 @@ aliases:
 - /2014/10/03/easily-test-fedora-21-rackspace-cloud/
 author: Major Hayden
 date: 2014-10-03 20:24:19
-dsq_thread_id:
-- 3651144027
 tags:
 - ansible
 - fedora

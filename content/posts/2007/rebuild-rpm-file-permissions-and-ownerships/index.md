@@ -3,8 +3,6 @@ aliases:
 - /2007/06/14/rebuild-rpm-file-permissions-and-ownerships/
 author: Major Hayden
 date: 2007-06-14 22:36:47
-dsq_thread_id:
-- 3642773914
 tags:
 - command line
 - emergency

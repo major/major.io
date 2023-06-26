@@ -5,8 +5,6 @@ aliases:
 - /2009/01/01/cpan-automatically-install-dependencies-without-confirmation/
 author: Major Hayden
 date: 2009-01-02 01:44:51
-dsq_thread_id:
-- 3642805471
 tags:
 - cpan
 - perl

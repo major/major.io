@@ -3,8 +3,6 @@ aliases:
 - /2015/05/01/howto-mikrotik-openvpn-server/
 author: Major Hayden
 date: 2015-05-01 15:33:35
-dsq_thread_id:
-- 3728295785
 tags:
 - mikrotik
 - networking

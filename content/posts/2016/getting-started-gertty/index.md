@@ -3,8 +3,6 @@ aliases:
 - /2016/05/11/getting-started-gertty/
 author: Major Hayden
 date: 2016-05-11 13:45:53
-dsq_thread_id:
-- 4817918506
 tags:
 - development
 - fedora

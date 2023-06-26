@@ -3,8 +3,6 @@ aliases:
 - /2007/08/27/use-a-different-ip-for-sending-mail/
 author: Major Hayden
 date: 2007-08-28 03:13:21
-dsq_thread_id:
-- 3642769413
 tags:
 - command line
 - mail

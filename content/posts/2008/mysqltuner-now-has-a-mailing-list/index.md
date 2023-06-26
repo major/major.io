@@ -3,8 +3,6 @@ aliases:
 - /2008/02/19/mysqltuner-now-has-a-mailing-list/
 author: Major Hayden
 date: 2008-02-20 02:23:15
-dsq_thread_id:
-- 3678994929
 tags:
 - database
 - mysqltuner

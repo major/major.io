@@ -3,8 +3,6 @@ aliases:
 - /2010/01/07/change-the-escape-keystrokes-in-screen/
 author: Major Hayden
 date: 2010-01-07 14:11:23
-dsq_thread_id:
-- 3642805940
 tags:
 - command line
 - linux

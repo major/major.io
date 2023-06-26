@@ -3,8 +3,6 @@ aliases:
 - /2014/12/18/eight-years-rackspace/
 author: Major Hayden
 date: 2014-12-18 14:00:38
-dsq_thread_id:
-- 3642807778
 tags:
 - rackspace
 title: Eight years at Rackspace

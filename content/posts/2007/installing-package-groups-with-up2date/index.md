@@ -3,8 +3,6 @@ aliases:
 - /2007/10/16/installing-package-groups-with-up2date/
 author: Major Hayden
 date: 2007-10-17 01:14:53
-dsq_thread_id:
-- 3679016591
 tags:
 - command line
 - red hat

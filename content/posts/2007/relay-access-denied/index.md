@@ -3,8 +3,6 @@ aliases:
 - /2007/05/17/relay-access-denied/
 author: Major Hayden
 date: 2007-05-18 03:16:06
-dsq_thread_id:
-- 3661467397
 tags:
 - mail
 - security

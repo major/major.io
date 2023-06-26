@@ -3,8 +3,6 @@ aliases:
 - /2009/06/15/two-great-signals-sigstop-and-sigcont/
 author: Major Hayden
 date: 2009-06-15 18:16:19
-dsq_thread_id:
-- 3642805656
 tags:
 - kernel
 - processes

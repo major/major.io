@@ -3,8 +3,6 @@ aliases:
 - /2015/09/11/time-warner-road-runner-linux-and-large-ipv6-subnets/
 author: Major Hayden
 date: 2015-09-11 21:08:44
-dsq_thread_id:
-- 4120810728
 tags:
 - fedora
 - firewall

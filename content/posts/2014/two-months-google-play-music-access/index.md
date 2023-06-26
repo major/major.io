@@ -3,8 +3,6 @@ aliases:
 - /2014/12/29/two-months-google-play-music-access/
 author: Major Hayden
 date: 2014-12-29 21:26:37
-dsq_thread_id:
-- 3642807793
 tags:
 - android
 - general advice

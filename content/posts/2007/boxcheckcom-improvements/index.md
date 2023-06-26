@@ -3,8 +3,6 @@ aliases:
 - /2007/09/18/boxcheckcom-improvements/
 author: Major Hayden
 date: 2007-09-18 22:57:31
-dsq_thread_id:
-- 3642770112
 tags:
 - development
 title: Boxcheck.com improvements

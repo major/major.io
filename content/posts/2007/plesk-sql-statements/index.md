@@ -3,8 +3,6 @@ aliases:
 - /2007/04/27/plesk-sql-statements/
 author: Major Hayden
 date: 2007-04-27 15:52:17
-dsq_thread_id:
-- 3642766664
 tags:
 - plesk
 title: Plesk SQL Statements

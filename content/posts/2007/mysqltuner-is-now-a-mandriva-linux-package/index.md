@@ -3,8 +3,6 @@ aliases:
 - /2007/11/30/mysqltuner-is-now-a-mandriva-linux-package/
 author: Major Hayden
 date: 2007-11-30 18:49:32
-dsq_thread_id:
-- 3642770740
 tags:
 - database
 - development

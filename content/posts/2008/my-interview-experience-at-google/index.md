@@ -3,8 +3,6 @@ aliases:
 - /2008/06/19/my-interview-experience-at-google/
 author: Major Hayden
 date: 2008-06-19 17:00:10
-dsq_thread_id:
-- 3642772213
 tags:
 - rackspace
 title: Why I interviewed at Google and stayed at Rackspace

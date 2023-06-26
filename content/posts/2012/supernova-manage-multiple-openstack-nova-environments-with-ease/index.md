@@ -3,8 +3,6 @@ aliases:
 - /2012/06/05/supernova-manage-multiple-openstack-nova-environments-with-ease/
 author: Major Hayden
 date: 2012-06-05 13:12:17
-dsq_thread_id:
-- 3642806988
 tags:
 - development
 - nova

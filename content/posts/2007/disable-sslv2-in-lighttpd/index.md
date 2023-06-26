@@ -3,8 +3,6 @@ aliases:
 - /2007/04/08/disable-sslv2-in-lighttpd/
 author: Major Hayden
 date: 2007-04-08 23:26:07
-dsq_thread_id:
-- 3676739093
 tags:
 - security
 - web

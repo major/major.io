@@ -3,8 +3,6 @@ aliases:
 - /2015/03/26/creating-a-bridge-for-virtual-machines-using-systemd-networkd/
 author: Major Hayden
 date: 2015-03-26 13:17:08
-dsq_thread_id:
-- 3642808072
 tags:
 - centos
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2008/07/15/calling-all-creative-types-i-need-a-slogan/
 author: Major Hayden
 date: 2008-07-15 20:37:00
-dsq_thread_id:
-- 3642772078
 tags:
 - mysqltuner
 title: 'Calling all creative types: I need a slogan'

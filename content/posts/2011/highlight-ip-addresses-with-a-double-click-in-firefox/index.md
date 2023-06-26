@@ -3,8 +3,6 @@ aliases:
 - /2011/08/16/highlight-ip-addresses-with-a-double-click-in-firefox/
 author: Major Hayden
 date: 2011-08-16 12:46:07
-dsq_thread_id:
-- 3642806607
 tags:
 - firefox
 - linux

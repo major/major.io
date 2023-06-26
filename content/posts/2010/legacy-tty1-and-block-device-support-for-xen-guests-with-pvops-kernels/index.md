@@ -5,8 +5,6 @@ aliases:
 - /2010/05/14/legacy-tty1-and-block-device-support-for-xen-guests-with-pvops-kernels/
 author: Major Hayden
 date: 2010-05-14 13:24:34
-dsq_thread_id:
-- 3678952235
 tags:
 - development
 - kernel

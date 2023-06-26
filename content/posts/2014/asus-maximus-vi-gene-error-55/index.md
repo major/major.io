@@ -3,8 +3,6 @@ aliases:
 - /2014/08/22/asus-maximus-vi-gene-error-55/
 author: Major Hayden
 date: 2014-08-22 14:20:23
-dsq_thread_id:
-- 3642807732
 tags:
 - asus
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2011/09/07/getting-apache-php-and-memcached-working-with-selinux/
 author: Major Hayden
 date: 2011-09-08 03:55:00
-dsq_thread_id:
-- 3642806694
 tags:
 - apache
 - centos

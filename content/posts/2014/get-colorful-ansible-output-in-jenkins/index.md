@@ -3,8 +3,6 @@ aliases:
 - /2014/06/25/get-colorful-ansible-output-in-jenkins/
 author: Major Hayden
 date: 2014-06-25 21:32:18
-dsq_thread_id:
-- 3642807618
 tags:
 - ansible
 - jenkins

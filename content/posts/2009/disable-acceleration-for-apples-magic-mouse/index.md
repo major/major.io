@@ -3,8 +3,6 @@ aliases:
 - /2009/12/03/disable-acceleration-for-apples-magic-mouse/
 author: Major Hayden
 date: 2009-12-03 13:55:41
-dsq_thread_id:
-- 3642805870
 tags:
 - apple
 - mac

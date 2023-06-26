@@ -3,8 +3,6 @@ aliases:
 - /2007/04/17/telnet-pop3-commands/
 author: Major Hayden
 date: 2007-04-17 22:28:19
-dsq_thread_id:
-- 3679055268
 tags:
 - command line
 - mail

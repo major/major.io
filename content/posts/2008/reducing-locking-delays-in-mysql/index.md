@@ -3,8 +3,6 @@ aliases:
 - /2008/04/16/reducing-locking-delays-in-mysql/
 author: Major Hayden
 date: 2008-04-16 17:32:50
-dsq_thread_id:
-- 3642772478
 tags:
 - database
 title: Reducing locking delays in MySQL

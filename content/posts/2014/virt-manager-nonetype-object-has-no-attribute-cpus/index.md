@@ -3,8 +3,6 @@ aliases:
 - /2014/03/06/virt-manager-nonetype-object-has-no-attribute-cpus/
 author: Major Hayden
 date: 2014-03-06 18:44:58
-dsq_thread_id:
-- 3642807431
 tags:
 - fedora
 - python

@@ -3,8 +3,6 @@ aliases:
 - /2013/09/22/one-month-using-a-linux-laptop-at-work-back-to-the-mac/
 author: Major Hayden
 date: 2013-09-23 02:38:59
-dsq_thread_id:
-- 3642807386
 tags:
 - email
 - fedora

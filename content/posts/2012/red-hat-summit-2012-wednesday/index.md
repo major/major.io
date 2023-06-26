@@ -3,8 +3,6 @@ aliases:
 - /2012/06/28/red-hat-summit-2012-wednesday/
 author: Major Hayden
 date: 2012-06-28 06:03:51
-dsq_thread_id:
-- 3642807006
 tags:
 - cloud
 - glusterfs

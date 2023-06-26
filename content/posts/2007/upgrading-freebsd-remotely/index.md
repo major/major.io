@@ -3,8 +3,6 @@ aliases:
 - /2007/07/18/upgrading-freebsd-remotely/
 author: Major Hayden
 date: 2007-07-18 15:10:59
-dsq_thread_id:
-- 3679042644
 tags:
 - command line
 title: Upgrading FreeBSD remotely

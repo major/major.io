@@ -5,8 +5,6 @@ aliases:
 - /2010/08/13/very-unscientific-glusterfs-benchmarks/
 author: Major Hayden
 date: 2010-08-13 20:55:24
-dsq_thread_id:
-- 3642806229
 tags:
 - benchmarks
 - glusterfs

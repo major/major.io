@@ -3,8 +3,6 @@ aliases:
 - /2007/08/22/pop3-server-disconnects-immediately-after-login/
 author: Major Hayden
 date: 2007-08-23 03:54:52
-dsq_thread_id:
-- 3679029872
 tags:
 - mail
 title: POP3 server disconnects immediately after login

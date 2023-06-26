@@ -3,8 +3,6 @@ aliases:
 - /2014/02/04/be-an-inspiration-not-an-impostor/
 author: Major Hayden
 date: 2014-02-05 03:44:18
-dsq_thread_id:
-- 3642807414
 tags:
 - general advice
 - sysadmin

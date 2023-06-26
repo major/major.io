@@ -3,8 +3,6 @@ aliases:
 - /2015/08/21/understanding-systemds-predictable-network-device-names/
 author: Major Hayden
 date: 2015-08-21 21:15:36
-dsq_thread_id:
-- 4054862382
 tags:
 - centos
 - command line

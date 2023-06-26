@@ -5,8 +5,6 @@ aliases:
 - /2010/06/17/reincarnation-of-twitters-realtime-xmpp-search-term-tracking-with-ruby/
 author: Major Hayden
 date: 2010-06-17 18:40:48
-dsq_thread_id:
-- 3678950044
 tags:
 - command line
 - jabber

@@ -3,8 +3,6 @@ aliases:
 - /2007/11/15/change-the-default-apache-character-set/
 author: Major Hayden
 date: 2007-11-15 18:09:01
-dsq_thread_id:
-- 3642770583
 tags:
 - apache
 - web

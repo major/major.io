@@ -3,8 +3,6 @@ aliases:
 - /2007/06/06/freebsd-limiting-closed-port-rst-response/
 author: Major Hayden
 date: 2007-06-07 04:42:13
-dsq_thread_id:
-- 3642767754
 tags:
 - command line
 - security

@@ -5,8 +5,6 @@ aliases:
 - /2010/04/12/best-practices-iptables/
 author: Major Hayden
 date: 2010-04-12 13:35:31
-dsq_thread_id:
-- 3642806121
 title: 'Best practices: iptables'
 ---
 

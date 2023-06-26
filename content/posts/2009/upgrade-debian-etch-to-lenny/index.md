@@ -3,8 +3,6 @@ aliases:
 - /2009/02/18/upgrade-debian-etch-to-lenny/
 author: Major Hayden
 date: 2009-02-18 13:28:39
-dsq_thread_id:
-- 3642805560
 tags:
 - debian
 - linux

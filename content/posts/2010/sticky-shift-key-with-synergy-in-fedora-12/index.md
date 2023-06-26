@@ -5,8 +5,6 @@ aliases:
 - /2010/03/03/sticky-shift-key-with-synergy-in-fedora-12/
 author: Major Hayden
 date: 2010-03-04 02:44:12
-dsq_thread_id:
-- 3642806043
 tags:
 - fedora
 - gdm

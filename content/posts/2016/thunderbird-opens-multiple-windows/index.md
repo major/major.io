@@ -3,8 +3,6 @@ aliases:
 - /2016/04/20/thunderbird-opens-multiple-windows/
 author: Major Hayden
 date: 2016-04-20 13:31:56
-dsq_thread_id:
-- 4762350720
 tags:
 - fedora
 - mail

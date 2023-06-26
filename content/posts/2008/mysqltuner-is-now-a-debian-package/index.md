@@ -3,8 +3,6 @@ aliases:
 - /2008/01/08/mysqltuner-is-now-a-debian-package/
 author: Major Hayden
 date: 2008-01-08 16:37:32
-dsq_thread_id:
-- 3642773205
 tags:
 - database
 - development

@@ -3,8 +3,6 @@ aliases:
 - /2008/01/08/mysql-replication-delayed-slaves/
 author: Major Hayden
 date: 2008-01-09 03:11:11
-dsq_thread_id:
-- 3647309543
 tags:
 - database
 - mysql

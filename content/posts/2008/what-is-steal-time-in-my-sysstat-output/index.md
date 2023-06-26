@@ -3,8 +3,6 @@ aliases:
 - /2008/11/04/what-is-steal-time-in-my-sysstat-output/
 author: Major Hayden
 date: 2008-11-04 17:19:08
-dsq_thread_id:
-- 3642805295
 tags:
 - sar
 - xen

@@ -5,8 +5,6 @@ aliases:
 - /2010/03/01/private-network-interfaces-the-forgotten-security-hole/
 author: Major Hayden
 date: 2010-03-02 00:55:07
-dsq_thread_id:
-- 3642806042
 tags:
 - apache
 - cloud

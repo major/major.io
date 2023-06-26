@@ -3,8 +3,6 @@ aliases:
 - /2013/08/26/moving-from-os-x-to-linux-day-one/
 author: Major Hayden
 date: 2013-08-27 03:05:46
-dsq_thread_id:
-- 3642807361
 tags:
 - command line
 - fedora

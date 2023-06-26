@@ -3,8 +3,6 @@ aliases:
 - /2015/07/19/restoring-wireless-and-bluetooth-state-after-reboot-in-fedora-22/
 author: Major Hayden
 date: 2015-07-19 22:14:30
-dsq_thread_id:
-- 3950628747
 tags:
 - bluetooth
 - fedora

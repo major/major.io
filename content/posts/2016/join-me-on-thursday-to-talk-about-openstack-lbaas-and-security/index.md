@@ -3,8 +3,6 @@ aliases:
 - /2016/07/19/join-me-on-thursday-to-talk-about-openstack-lbaas-and-security/
 author: Major Hayden
 date: 2016-07-19 14:09:40
-dsq_thread_id:
-- 4997538148
 tags:
 - load balancing
 - networking

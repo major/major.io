@@ -3,8 +3,6 @@ aliases:
 - /2013/04/25/limit-access-to-the-su-command/
 author: Major Hayden
 date: 2013-04-26 04:05:46
-dsq_thread_id:
-- 3642807235
 tags:
 - centos
 - command line

@@ -3,8 +3,6 @@ aliases:
 - /2015/09/10/chronicles-of-selinux-dealing-with-web-content-in-unusual-directories/
 author: Major Hayden
 date: 2015-09-10 13:40:35
-dsq_thread_id:
-- 4116197538
 tags:
 - centos
 - command line

@@ -3,8 +3,6 @@ aliases:
 - /2008/02/18/sendmail-savemail-panic/
 author: Major Hayden
 date: 2008-02-18 18:56:37
-dsq_thread_id:
-- 3642770955
 tags:
 - mail
 - sendmail

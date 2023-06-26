@@ -3,8 +3,6 @@ aliases:
 - /2012/03/10/handy-hints-for-using-dtrace-on-the-mac/
 author: Major Hayden
 date: 2012-03-10 18:49:59
-dsq_thread_id:
-- 3642806916
 tags:
 - dtrace
 - mac

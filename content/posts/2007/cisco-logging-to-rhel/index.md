@@ -3,8 +3,6 @@ aliases:
 - /2007/02/06/cisco-logging-to-rhel/
 author: Major Hayden
 date: 2007-02-06 21:48:54
-dsq_thread_id:
-- 3658783327
 tags:
 - command line
 - security

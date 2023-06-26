@@ -3,8 +3,6 @@ aliases:
 - /2007/06/06/replace-urchin-license-key-serial-number/
 author: Major Hayden
 date: 2007-06-07 04:47:52
-dsq_thread_id:
-- 3642767624
 tags:
 - web
 title: Replace Urchin license key / serial number

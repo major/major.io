@@ -3,8 +3,6 @@ aliases:
 - /2007/06/06/postgres-process-listing/
 author: Major Hayden
 date: 2007-06-07 04:44:39
-dsq_thread_id:
-- 3642767706
 tags:
 - database
 title: Postgres process listing

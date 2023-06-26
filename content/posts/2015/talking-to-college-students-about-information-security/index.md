@@ -3,8 +3,6 @@ aliases:
 - /2015/11/10/talking-to-college-students-about-information-security/
 author: Major Hayden
 date: 2015-11-10 14:50:52
-dsq_thread_id:
-- 4306420686
 tags:
 - general advice
 - information security

@@ -3,8 +3,6 @@ aliases:
 - /2014/11/19/response-infoworlds-confusing-article-fedora/
 author: Major Hayden
 date: 2014-11-19 14:24:57
-dsq_thread_id:
-- 3642807762
 tags:
 - development
 - fedora

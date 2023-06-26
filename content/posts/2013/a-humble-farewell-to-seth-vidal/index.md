@@ -3,8 +3,6 @@ aliases:
 - /2013/07/09/a-humble-farewell-to-seth-vidal/
 author: Major Hayden
 date: 2013-07-10 02:58:36
-dsq_thread_id:
-- 3642807330
 tags:
 - cloud
 - fedora

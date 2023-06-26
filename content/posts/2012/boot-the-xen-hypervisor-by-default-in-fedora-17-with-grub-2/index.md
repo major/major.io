@@ -3,8 +3,6 @@ aliases:
 - /2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/
 author: Major Hayden
 date: 2012-07-16 15:00:44
-dsq_thread_id:
-- 3642807030
 tags:
 - fedora
 - grub2

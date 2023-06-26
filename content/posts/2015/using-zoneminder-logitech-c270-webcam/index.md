@@ -3,8 +3,6 @@ aliases:
 - /2015/02/07/using-zoneminder-logitech-c270-webcam/
 author: Major Hayden
 date: 2015-02-08 04:04:08
-dsq_thread_id:
-- 3644031901
 tags:
 - command line
 - linux

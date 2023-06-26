@@ -3,8 +3,6 @@ aliases:
 - /2007/04/17/ssl-connection-to-a-non-secure-port/
 author: Major Hayden
 date: 2007-04-17 22:27:12
-dsq_thread_id:
-- 3645464360
 tags:
 - security
 - web

@@ -3,8 +3,6 @@ aliases:
 - /2014/03/26/docker-trusted-builds-and-fedora-20/
 author: Major Hayden
 date: 2014-03-26 05:17:58
-dsq_thread_id:
-- 3642807437
 featured_image: /wp-content/uploads/2014/03/docker-whale.png
 tags:
 - containers

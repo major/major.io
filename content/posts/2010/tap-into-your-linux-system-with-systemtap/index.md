@@ -3,8 +3,6 @@ aliases:
 - /2010/12/07/tap-into-your-linux-system-with-systemtap/
 author: Major Hayden
 date: 2010-12-08 02:27:02
-dsq_thread_id:
-- 3642806365
 tags:
 - advanced
 - centos

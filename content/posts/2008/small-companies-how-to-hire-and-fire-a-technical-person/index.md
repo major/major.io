@@ -3,8 +3,6 @@ aliases:
 - /2008/04/02/small-companies-how-to-hire-and-fire-a-technical-person/
 author: Major Hayden
 date: 2008-04-02 18:00:06
-dsq_thread_id:
-- 3642772500
 tags:
 - general advice
 title: 'Small Companies: How to hire and fire a technical person'

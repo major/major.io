@@ -3,8 +3,6 @@ aliases:
 - /2008/01/03/mysql-replication-redundancy/
 author: Major Hayden
 date: 2008-01-04 02:39:11
-dsq_thread_id:
-- 3642770868
 tags:
 - database
 - mysql

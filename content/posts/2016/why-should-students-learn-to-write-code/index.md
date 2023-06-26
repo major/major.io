@@ -3,8 +3,6 @@ aliases:
 - /2016/10/10/why-should-students-learn-to-write-code/
 author: Major Hayden
 date: 2016-10-11 04:08:19
-dsq_thread_id:
-- 5213394197
 featured_image: /wp-content/uploads/2016/10/computers-332238_1920-e1476155887912.jpg
 tags:
 - development

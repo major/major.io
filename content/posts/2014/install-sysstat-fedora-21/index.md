@@ -3,8 +3,6 @@ aliases:
 - /2014/12/12/install-sysstat-fedora-21/
 author: Major Hayden
 date: 2014-12-12 17:55:57
-dsq_thread_id:
-- 3642807769
 tags:
 - centos
 - command line

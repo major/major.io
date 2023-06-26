@@ -3,8 +3,6 @@ aliases:
 - /2012/09/06/one-week-with-android/
 author: Major Hayden
 date: 2012-09-07 03:53:42
-dsq_thread_id:
-- 3642807056
 tags:
 - android
 - apple

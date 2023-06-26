@@ -3,8 +3,6 @@ aliases:
 - /2014/04/21/launch-secure-lxc-containers-on-fedora-20-using-selinux-and-svirt/
 author: Major Hayden
 date: 2014-04-22 04:11:00
-dsq_thread_id:
-- 3642807460
 tags:
 - centos
 - containers

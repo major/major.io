@@ -3,8 +3,6 @@ aliases:
 - /2014/05/01/small-update-for-supernova-0-9-6/
 author: Major Hayden
 date: 2014-05-01 14:32:13
-dsq_thread_id:
-- 3646747077
 tags:
 - openstack
 - python

@@ -3,8 +3,6 @@ aliases:
 - /2008/06/12/screencast-topic-requests/
 author: Major Hayden
 date: 2008-06-12 16:00:14
-dsq_thread_id:
-- 3642771496
 tags:
 - mysql
 - screencasts

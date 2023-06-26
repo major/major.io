@@ -3,8 +3,6 @@ aliases:
 - /2013/11/17/information-security-nuggets-from-devops-weekly-150/
 author: Major Hayden
 date: 2013-11-17 21:31:10
-dsq_thread_id:
-- 3642807411
 tags:
 - devops
 - general advice

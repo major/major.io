@@ -3,8 +3,6 @@ aliases:
 - /2011/02/13/dual-primary-drbd-with-ocfs2/
 author: Major Hayden
 date: 2011-02-14 02:12:58
-dsq_thread_id:
-- 3642806535
 tags:
 - centos
 - cluster

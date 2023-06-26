@@ -3,8 +3,6 @@ aliases:
 - /2016/06/26/almost-time-red-hat-summit-2016/
 author: Major Hayden
 date: 2016-06-26 10:52:38
-dsq_thread_id:
-- 4939675096
 tags:
 - ansible
 - fedora

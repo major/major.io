@@ -3,8 +3,6 @@ aliases:
 - /2007/12/03/mysqltuner-revision-22-is-now-available/
 author: Major Hayden
 date: 2007-12-03 18:09:32
-dsq_thread_id:
-- 3642773328
 tags:
 - database
 - development

@@ -3,8 +3,6 @@ aliases:
 - /2016/09/21/power-8-to-the-people/
 author: Major Hayden
 date: 2016-09-22 00:00:21
-dsq_thread_id:
-- 5162895836
 featured_image: /wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg
 tags:
 - aix

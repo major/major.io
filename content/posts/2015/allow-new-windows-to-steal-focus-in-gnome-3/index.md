@@ -3,8 +3,6 @@ aliases:
 - /2015/07/06/allow-new-windows-to-steal-focus-in-gnome-3/
 author: Major Hayden
 date: 2015-07-06 12:36:05
-dsq_thread_id:
-- 3909180756
 tags:
 - centos
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2016/01/28/enabling-kwallet-after-accidentally-disabling-it/
 author: Major Hayden
 date: 2016-01-28 16:27:44
-dsq_thread_id:
-- 4531177006
 tags:
 - fedora
 - kde

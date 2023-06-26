@@ -3,8 +3,6 @@ aliases:
 - /2013/02/08/quick-access-to-openpgp-tasks-with-gpgtools-in-os-x/
 author: Major Hayden
 date: 2013-02-08 19:05:30
-dsq_thread_id:
-- 3678918217
 tags:
 - encryption
 - mac

@@ -3,8 +3,6 @@ aliases:
 - /2014/05/27/enjoy-supernova-1-0-0/
 author: Major Hayden
 date: 2014-05-27 13:19:31
-dsq_thread_id:
-- 3642807549
 tags:
 - development
 - openstack

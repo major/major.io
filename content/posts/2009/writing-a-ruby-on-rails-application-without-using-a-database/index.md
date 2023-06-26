@@ -5,8 +5,6 @@ aliases:
 - /2009/01/09/writing-a-ruby-on-rails-application-without-using-a-database/
 author: Major Hayden
 date: 2009-01-09 17:00:44
-dsq_thread_id:
-- 3642805496
 tags:
 - database
 - ruby on rails

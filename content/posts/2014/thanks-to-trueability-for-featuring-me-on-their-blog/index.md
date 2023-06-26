@@ -3,8 +3,6 @@ aliases:
 - /2014/05/14/thanks-to-trueability-for-featuring-me-on-their-blog/
 author: Major Hayden
 date: 2014-05-14 18:27:22
-dsq_thread_id:
-- 3676588273
 title: Thanks to TrueAbility for featuring me on their blog!
 ---
 

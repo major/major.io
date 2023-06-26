@@ -3,8 +3,6 @@ aliases:
 - /2007/04/26/install-payflowpro-for-php-on-rhel/
 author: Major Hayden
 date: 2007-04-26 22:06:35
-dsq_thread_id:
-- 3679052713
 tags:
 - development
 - web

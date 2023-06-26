@@ -3,8 +3,6 @@ aliases:
 - /2008/01/31/mysqltuner-v080-is-now-available/
 author: Major Hayden
 date: 2008-02-01 01:01:35
-dsq_thread_id:
-- 3678997833
 tags:
 - database
 - mysql

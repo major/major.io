@@ -3,8 +3,6 @@ aliases:
 - /2010/11/03/upgrading-fedora-13-to-fedora-14-on-slicehost-and-rackspace-cloud-servers/
 author: Major Hayden
 date: 2010-11-03 20:02:45
-dsq_thread_id:
-- 3642806284
 tags:
 - cloud servers
 - command line

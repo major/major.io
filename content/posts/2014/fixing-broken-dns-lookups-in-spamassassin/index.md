@@ -3,8 +3,6 @@ aliases:
 - /2014/06/20/fixing-broken-dns-lookups-in-spamassassin/
 author: Major Hayden
 date: 2014-06-20 13:20:56
-dsq_thread_id:
-- 3642807551
 tags:
 - dns
 - fedora

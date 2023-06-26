@@ -3,8 +3,6 @@ aliases:
 - /2012/03/11/the-startupbus-stops-at-rackspace/
 author: Major Hayden
 date: 2012-03-11 17:00:29
-dsq_thread_id:
-- 3678934052
 title: The StartupBus stops at Rackspace
 ---
 

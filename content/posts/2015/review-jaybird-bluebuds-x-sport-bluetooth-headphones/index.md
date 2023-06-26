@@ -3,8 +3,6 @@ aliases:
 - /2015/08/07/review-jaybird-bluebuds-x-sport-bluetooth-headphones/
 author: Major Hayden
 date: 2015-08-07 13:36:20
-dsq_thread_id:
-- 4011785468
 tags:
 - android
 - exercise

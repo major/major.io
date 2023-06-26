@@ -3,8 +3,6 @@ aliases:
 - /2007/08/16/mysql-unauthenticated-login-pile-up/
 author: Major Hayden
 date: 2007-08-16 12:14:21
-dsq_thread_id:
-- 3642769361
 tags:
 - database
 title: MySQL unauthenticated login pile-up

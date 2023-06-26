@@ -3,8 +3,6 @@ aliases:
 - /2007/05/27/forward-e-mail-sent-to-non-existent-users-in-postfix/
 author: Major Hayden
 date: 2007-05-27 16:43:08
-dsq_thread_id:
-- 3649295405
 tags:
 - mail
 title: Forward e-mail sent to non-existent users in Postfix

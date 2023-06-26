@@ -3,8 +3,6 @@ aliases:
 - /2008/10/13/ext3_dx_add_entry-directory-index-full/
 author: Major Hayden
 date: 2008-10-13 17:00:51
-dsq_thread_id:
-- 3642805293
 tags:
 - emergency
 - filesystem

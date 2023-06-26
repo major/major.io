@@ -3,8 +3,6 @@ aliases:
 - /2015/05/27/adventures-with-gre-and-ipsec-on-mikrotik-routers/
 author: Major Hayden
 date: 2015-05-27 13:46:28
-dsq_thread_id:
-- 3797893733
 tags:
 - general advice
 - ipsec

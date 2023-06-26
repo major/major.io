@@ -3,8 +3,6 @@ aliases:
 - /2008/04/29/best-php-and-mysql-development-book/
 author: Major Hayden
 date: 2008-04-29 17:00:54
-dsq_thread_id:
-- 3642772375
 tags:
 - database
 - development

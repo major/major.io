@@ -3,8 +3,6 @@ aliases:
 - /2016/03/11/mouse-cursor-disappears-gnome-3/
 author: Major Hayden
 date: 2016-03-11 15:36:25
-dsq_thread_id:
-- 4653768365
 tags:
 - desktop
 - fedora

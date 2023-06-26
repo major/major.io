@@ -3,8 +3,6 @@ aliases:
 - /2007/10/15/mysqltuner-revision-19-is-available/
 author: Major Hayden
 date: 2007-10-16 01:54:34
-dsq_thread_id:
-- 3642770476
 tags:
 - database
 - development

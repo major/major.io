@@ -3,8 +3,6 @@ aliases:
 - /2007/08/02/freeing-up-file-descriptors-in-plesk-82-with-piped-apache-logs/
 author: Major Hayden
 date: 2007-08-03 02:39:45
-dsq_thread_id:
-- 3679038255
 tags:
 - plesk
 - web

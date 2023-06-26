@@ -3,8 +3,6 @@ aliases:
 - /2013/09/24/thanks-to-isacas-san-antonio-chapter/
 author: Major Hayden
 date: 2013-09-25 03:29:30
-dsq_thread_id:
-- 3666689612
 title: Thanks to ISACA’s San Antonio chapter!
 ---
 

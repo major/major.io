@@ -3,8 +3,6 @@ aliases:
 - /2015/05/11/automatic-package-updates-with-dnf/
 author: Major Hayden
 date: 2015-05-12 01:22:10
-dsq_thread_id:
-- 3756007006
 featured_image: /wp-content/uploads/2015/05/12428002945_bc47ae3529_b-e1431393503428.jpg
 tags:
 - dnf

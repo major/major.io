@@ -3,8 +3,6 @@ aliases:
 - /2012/07/10/selinux-xen-and-block-devices-in-fedora-17/
 author: Major Hayden
 date: 2012-07-10 05:05:33
-dsq_thread_id:
-- 3642807008
 tags:
 - fedora
 - security

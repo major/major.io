@@ -3,8 +3,6 @@ aliases:
 - /2015/10/26/systemd-networkd-and-macvlan-interfaces/
 author: Major Hayden
 date: 2015-10-26 13:50:36
-dsq_thread_id:
-- 4260851829
 tags:
 - fedora
 - kvm

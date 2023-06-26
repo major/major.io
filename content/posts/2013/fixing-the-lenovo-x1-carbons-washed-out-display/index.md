@@ -3,8 +3,6 @@ aliases:
 - /2013/01/08/fixing-the-lenovo-x1-carbons-washed-out-display/
 author: Major Hayden
 date: 2013-01-08 16:30:54
-dsq_thread_id:
-- 3642807124
 tags:
 - display
 - fedora

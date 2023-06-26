@@ -3,8 +3,6 @@ aliases:
 - /2007/05/16/add-ssltls-support-to-proftpd/
 author: Major Hayden
 date: 2007-05-17 01:45:37
-dsq_thread_id:
-- 3660466517
 tags:
 - ftp
 - security

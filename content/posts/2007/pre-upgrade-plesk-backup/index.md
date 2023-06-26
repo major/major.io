@@ -3,8 +3,6 @@ aliases:
 - /2007/04/10/pre-upgrade-plesk-backup/
 author: Major Hayden
 date: 2007-04-10 18:55:06
-dsq_thread_id:
-- 3679056283
 tags:
 - command line
 - plesk

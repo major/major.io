@@ -3,8 +3,6 @@ aliases:
 - /2012/06/13/guide-to-using-and-understanding-traceroute/
 author: Major Hayden
 date: 2012-06-13 12:40:47
-dsq_thread_id:
-- 3642806996
 tags:
 - fedora
 - general advice

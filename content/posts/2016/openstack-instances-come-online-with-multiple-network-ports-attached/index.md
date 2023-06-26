@@ -3,8 +3,6 @@ aliases:
 - /2016/08/03/openstack-instances-come-online-with-multiple-network-ports-attached/
 author: Major Hayden
 date: 2016-08-03 14:40:16
-dsq_thread_id:
-- 5037029729
 tags:
 - kvm
 - network

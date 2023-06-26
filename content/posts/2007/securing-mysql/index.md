@@ -3,8 +3,6 @@ aliases:
 - /2007/01/04/securing-mysql/
 author: Major Hayden
 date: 2007-01-05 01:46:19
-dsq_thread_id:
-- 3679079088
 tags:
 - database
 - security

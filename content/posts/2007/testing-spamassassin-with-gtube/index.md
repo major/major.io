@@ -3,8 +3,6 @@ aliases:
 - /2007/09/15/testing-spamassassin-with-gtube/
 author: Major Hayden
 date: 2007-09-15 17:14:24
-dsq_thread_id:
-- 3648781441
 tags:
 - mail
 title: Testing SpamAssassin with GTUBE

@@ -3,8 +3,6 @@ aliases:
 - /2011/09/30/installing-irssi-via-macports-on-os-x-lion-10-7-1/
 author: Major Hayden
 date: 2011-09-30 13:24:44
-dsq_thread_id:
-- 3642806729
 tags:
 - command line
 - gcc

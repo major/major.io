@@ -3,8 +3,6 @@ aliases:
 - /2011/01/15/icanhazip-com-now-supports-both-ipv4-and-ipv6-addresses/
 author: Major Hayden
 date: 2011-01-15 14:08:12
-dsq_thread_id:
-- 3642806485
 tags:
 - icanhazip
 - ipv6

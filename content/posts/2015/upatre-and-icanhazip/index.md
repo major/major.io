@@ -3,8 +3,6 @@ aliases:
 - /2015/06/04/upatre-and-icanhazip/
 author: Major Hayden
 date: 2015-06-05 02:01:19
-dsq_thread_id:
-- 3822319786
 tags:
 - icanhazip
 - security

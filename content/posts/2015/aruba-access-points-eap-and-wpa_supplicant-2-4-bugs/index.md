@@ -3,8 +3,6 @@ aliases:
 - /2015/07/17/aruba-access-points-eap-and-wpa_supplicant-2-4-bugs/
 author: Major Hayden
 date: 2015-07-17 12:29:29
-dsq_thread_id:
-- 3943180683
 tags:
 - fedora
 - networking

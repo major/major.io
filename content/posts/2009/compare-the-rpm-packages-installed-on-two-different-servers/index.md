@@ -5,8 +5,6 @@ aliases:
 - /2009/03/10/compare-the-rpm-packages-installed-on-two-different-servers/
 author: Major Hayden
 date: 2009-03-10 23:31:49
-dsq_thread_id:
-- 3642805494
 tags:
 - diff
 - fedora

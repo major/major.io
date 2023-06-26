@@ -3,8 +3,6 @@ aliases:
 - /2007/06/27/basic-snmp-configuration/
 author: Major Hayden
 date: 2007-06-27 23:06:21
-dsq_thread_id:
-- 3679045558
 tags:
 - command line
 title: Basic SNMP Configuration

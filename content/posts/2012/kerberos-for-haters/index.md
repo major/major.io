@@ -3,8 +3,6 @@ aliases:
 - /2012/02/02/kerberos-for-haters/
 author: Major Hayden
 date: 2012-02-03 04:29:32
-dsq_thread_id:
-- 3642806825
 tags:
 - command line
 - fedora

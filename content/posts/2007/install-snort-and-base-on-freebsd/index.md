@@ -3,8 +3,6 @@ aliases:
 - /2007/05/27/install-snort-and-base-on-freebsd/
 author: Major Hayden
 date: 2007-05-27 22:23:17
-dsq_thread_id:
-- 3642767609
 tags:
 - command line
 - security

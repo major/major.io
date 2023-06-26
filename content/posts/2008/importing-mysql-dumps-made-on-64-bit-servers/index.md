@@ -3,8 +3,6 @@ aliases:
 - /2008/03/21/importing-mysql-dumps-made-on-64-bit-servers/
 author: Major Hayden
 date: 2008-03-21 17:51:56
-dsq_thread_id:
-- 3642772606
 tags:
 - database
 - mysql

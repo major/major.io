@@ -3,8 +3,6 @@ aliases:
 - /2007/05/16/show-hidden-dot-files-in-proftpd/
 author: Major Hayden
 date: 2007-05-17 01:46:59
-dsq_thread_id:
-- 3642766762
 tags:
 - ftp
 title: Show hidden dot files in proftpd

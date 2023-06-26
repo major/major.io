@@ -3,8 +3,6 @@ aliases:
 - /2013/07/06/boot-vms-with-virt-manager-and-libvirt-with-isos-stored-remotely-via-sambacifs/
 author: Major Hayden
 date: 2013-07-07 01:51:10
-dsq_thread_id:
-- 3642807321
 tags:
 - command line
 - fedora

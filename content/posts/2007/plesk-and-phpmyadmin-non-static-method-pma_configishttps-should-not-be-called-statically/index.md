@@ -3,8 +3,6 @@ aliases:
 - /2007/07/01/plesk-and-phpmyadmin-non-static-method-pma_configishttps-should-not-be-called-statically/
 author: Major Hayden
 date: 2007-07-01 16:27:21
-dsq_thread_id:
-- 3642768474
 tags:
 - database
 - plesk

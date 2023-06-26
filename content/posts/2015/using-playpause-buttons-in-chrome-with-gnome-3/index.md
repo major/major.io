@@ -3,8 +3,6 @@ aliases:
 - /2015/02/20/using-playpause-buttons-in-chrome-with-gnome-3/
 author: Major Hayden
 date: 2015-02-20 14:21:44
-dsq_thread_id:
-- 3642808071
 tags:
 - chrome
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2009/12/15/parse-kernel-org-changelogs-with-wget-and-grep/
 author: Major Hayden
 date: 2009-12-15 23:14:47
-dsq_thread_id:
-- 3674886086
 tags:
 - grep
 - kernel

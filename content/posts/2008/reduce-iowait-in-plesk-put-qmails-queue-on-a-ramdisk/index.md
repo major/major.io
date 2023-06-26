@@ -3,8 +3,6 @@ aliases:
 - /2008/03/14/reduce-iowait-in-plesk-put-qmails-queue-on-a-ramdisk/
 author: Major Hayden
 date: 2008-03-14 18:16:57
-dsq_thread_id:
-- 3642771041
 tags:
 - iowait
 - mail

@@ -3,8 +3,6 @@ aliases:
 - /2007/02/22/new-dst-changes-for-2007/
 author: Major Hayden
 date: 2007-02-23 00:54:25
-dsq_thread_id:
-- 3679066289
 tags:
 - command line
 title: New DST changes for 2007

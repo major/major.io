@@ -3,8 +3,6 @@ aliases:
 - /2008/06/11/mysql-cant-drop-one-or-more-of-the-requested-users/
 author: Major Hayden
 date: 2008-06-11 23:59:37
-dsq_thread_id:
-- 3642771353
 tags:
 - mysql
 - security

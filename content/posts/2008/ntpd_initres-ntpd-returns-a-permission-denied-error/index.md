@@ -3,8 +3,6 @@ aliases:
 - /2008/02/20/ntpd_initres-ntpd-returns-a-permission-denied-error/
 author: Major Hayden
 date: 2008-02-20 18:30:02
-dsq_thread_id:
-- 3645134438
 tags:
 - command line
 - ntp

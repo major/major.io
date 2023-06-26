@@ -3,8 +3,6 @@ aliases:
 - /2015/04/14/woot-eight-years-of-my-blog/
 author: Major Hayden
 date: 2015-04-14 18:53:34
-dsq_thread_id:
-- 3681645176
 tags:
 - apache
 - fedora

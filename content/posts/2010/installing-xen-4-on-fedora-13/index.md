@@ -3,8 +3,6 @@ aliases:
 - /2010/09/10/installing-xen-4-on-fedora-13/
 author: Major Hayden
 date: 2010-09-10 13:56:49
-dsq_thread_id:
-- 3642824400
 tags:
 - fedora
 - linux

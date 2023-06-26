@@ -3,8 +3,6 @@ aliases:
 - /2012/11/26/reaching-a-new-milestone-and-making-some-big-changes/
 author: Major Hayden
 date: 2012-11-26 15:00:04
-dsq_thread_id:
-- 3642807107
 tags:
 - blog
 - fedora

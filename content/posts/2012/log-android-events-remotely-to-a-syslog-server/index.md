@@ -3,8 +3,6 @@ aliases:
 - /2012/11/04/log-android-events-remotely-to-a-syslog-server/
 author: Major Hayden
 date: 2012-11-04 20:47:39
-dsq_thread_id:
-- 3644905683
 tags:
 - android
 - bluetooth

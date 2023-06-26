@@ -3,8 +3,6 @@ aliases:
 - /2008/01/24/ip_conntrack-table-full-dropping-packet/
 author: Major Hayden
 date: 2008-01-24 18:26:40
-dsq_thread_id:
-- 3642773011
 tags:
 - command line
 - iptables

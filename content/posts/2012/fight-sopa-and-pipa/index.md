@@ -3,8 +3,6 @@ aliases:
 - /2012/01/12/fight-sopa-and-pipa/
 author: Major Hayden
 date: 2012-01-12 13:36:38
-dsq_thread_id:
-- 3678937352
 tags:
 - open source
 - sopa

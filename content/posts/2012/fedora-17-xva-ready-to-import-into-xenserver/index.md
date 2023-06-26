@@ -3,8 +3,6 @@ aliases:
 - /2012/06/03/fedora-17-xva-ready-to-import-into-xenserver/
 author: Major Hayden
 date: 2012-06-04 02:25:45
-dsq_thread_id:
-- 3642806975
 featured_image: /wp-content/uploads/2012/06/xen_logo_small.png
 tags:
 - fedora

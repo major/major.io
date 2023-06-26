@@ -3,8 +3,6 @@ aliases:
 - /2007/12/31/seven-step-mysql-replication/
 author: Major Hayden
 date: 2007-12-31 17:51:03
-dsq_thread_id:
-- 3642773309
 tags:
 - database
 - mysql

@@ -3,8 +3,6 @@ aliases:
 - /2008/09/08/squirrelmail-127-cant-execute-command/
 author: Major Hayden
 date: 2008-09-08 17:16:00
-dsq_thread_id:
-- 3642771963
 tags:
 - php
 - plesk

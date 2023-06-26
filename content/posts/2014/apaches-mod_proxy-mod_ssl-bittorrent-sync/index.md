@@ -3,8 +3,6 @@ aliases:
 - /2014/09/27/apaches-mod_proxy-mod_ssl-bittorrent-sync/
 author: Major Hayden
 date: 2014-09-28 02:08:18
-dsq_thread_id:
-- 3642807763
 tags:
 - apache
 - fedora

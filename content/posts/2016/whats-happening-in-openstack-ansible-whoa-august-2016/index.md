@@ -3,8 +3,6 @@ aliases:
 - /2016/08/23/whats-happening-in-openstack-ansible-whoa-august-2016/
 author: Major Hayden
 date: 2016-08-23 20:35:19
-dsq_thread_id:
-- 5089544451
 tags:
 - ansible
 - development

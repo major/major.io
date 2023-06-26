@@ -3,8 +3,6 @@ aliases:
 - /2007/08/12/huge-mysqltuner-overhaul/
 author: Major Hayden
 date: 2007-08-12 23:51:05
-dsq_thread_id:
-- 3679033029
 tags:
 - database
 - development

@@ -3,8 +3,6 @@ aliases:
 - /2007/01/29/make-apache-logs-mimic-iis/
 author: Major Hayden
 date: 2007-01-29 17:45:22
-dsq_thread_id:
-- 3679076122
 tags:
 - web
 title: Make Apache logs mimic IIS

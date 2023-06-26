@@ -3,8 +3,6 @@ aliases:
 - /2012/08/04/privacy-and-icanhazip-com/
 author: Major Hayden
 date: 2012-08-05 04:26:50
-dsq_thread_id:
-- 3664854402
 tags:
 - general advice
 - icanhazip

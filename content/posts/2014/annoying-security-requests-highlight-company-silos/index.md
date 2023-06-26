@@ -3,8 +3,6 @@ aliases:
 - /2014/03/10/annoying-security-requests-highlight-company-silos/
 author: Major Hayden
 date: 2014-03-10 13:39:53
-dsq_thread_id:
-- 3678894044
 tags:
 - general advice
 - security

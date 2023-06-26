@@ -3,8 +3,6 @@ aliases:
 - /2011/11/23/automatically-upgrading-to-new-point-releases-of-scientific-linux/
 author: Major Hayden
 date: 2011-11-23 13:20:12
-dsq_thread_id:
-- 3642806730
 tags:
 - centos
 - red hat

@@ -3,8 +3,6 @@ aliases:
 - /2007/09/08/hunting-down-annoying-web-spiders/
 author: Major Hayden
 date: 2007-09-08 22:16:07
-dsq_thread_id:
-- 3679025841
 tags:
 - web
 title: Hunting down annoying web spiders

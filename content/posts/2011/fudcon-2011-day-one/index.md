@@ -3,8 +3,6 @@ aliases:
 - /2011/01/30/fudcon-2011-day-one/
 author: Major Hayden
 date: 2011-01-30 07:33:38
-dsq_thread_id:
-- 3678943146
 enclosure:
 - "|\n    http://fedoraproject.org/w/uploads/4/44/State_of_fedora_tempe_2011.ogg\n\
   \    8032960\n    audio/ogg\n"

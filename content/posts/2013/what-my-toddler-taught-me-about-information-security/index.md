@@ -3,8 +3,6 @@ aliases:
 - /2013/01/13/what-my-toddler-taught-me-about-information-security/
 author: Major Hayden
 date: 2013-01-13 17:15:47
-dsq_thread_id:
-- 3678919731
 tags:
 - general advice
 - security

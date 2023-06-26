@@ -5,8 +5,6 @@ aliases:
 - /2010/05/05/taking-a-posting-break/
 author: Major Hayden
 date: 2010-05-05 23:06:43
-dsq_thread_id:
-- 3642806160
 title: Taking a posting break
 ---
 

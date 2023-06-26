@@ -3,8 +3,6 @@ aliases:
 - /2015/10/16/gre-tunnels-with-systemd-networkd/
 author: Major Hayden
 date: 2015-10-16 23:54:52
-dsq_thread_id:
-- 4232183402
 tags:
 - command line
 - fedora

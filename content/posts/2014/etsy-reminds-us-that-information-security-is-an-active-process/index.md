@@ -3,8 +3,6 @@ aliases:
 - /2014/07/22/etsy-reminds-us-that-information-security-is-an-active-process/
 author: Major Hayden
 date: 2014-07-22 13:06:23
-dsq_thread_id:
-- 3678883483
 tags:
 - devops
 - security

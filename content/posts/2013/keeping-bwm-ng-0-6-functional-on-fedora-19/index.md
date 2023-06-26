@@ -3,8 +3,6 @@ aliases:
 - /2013/09/19/keeping-bwm-ng-0-6-functional-on-fedora-19/
 author: Major Hayden
 date: 2013-09-20 02:51:31
-dsq_thread_id:
-- 3670162883
 tags:
 - fedora
 - networking

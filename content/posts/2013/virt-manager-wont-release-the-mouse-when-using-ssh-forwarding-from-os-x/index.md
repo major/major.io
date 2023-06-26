@@ -3,8 +3,6 @@ aliases:
 - /2013/03/20/virt-manager-wont-release-the-mouse-when-using-ssh-forwarding-from-os-x/
 author: Major Hayden
 date: 2013-03-20 05:26:56
-dsq_thread_id:
-- 3642807155
 tags:
 - centos
 - fedora

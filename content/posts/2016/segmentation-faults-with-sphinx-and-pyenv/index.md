@@ -3,8 +3,6 @@ aliases:
 - /2016/02/09/segmentation-faults-with-sphinx-and-pyenv/
 author: Major Hayden
 date: 2016-02-09 14:09:44
-dsq_thread_id:
-- 4564662885
 tags:
 - development
 - fedora

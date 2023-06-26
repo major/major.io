@@ -3,8 +3,6 @@ aliases:
 - /2014/06/03/configure-remote-syslog-for-xenserver-via-the-command-line/
 author: Major Hayden
 date: 2014-06-03 17:55:59
-dsq_thread_id:
-- 3648141445
 tags:
 - security
 - sysadmin

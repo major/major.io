@@ -3,8 +3,6 @@ aliases:
 - /2013/06/19/my-interview-on-the-dave-and-gunnar-show/
 author: Major Hayden
 date: 2013-06-19 12:04:06
-dsq_thread_id:
-- 3678906262
 enclosure:
 - "|\n    http://major.io/wp-content/uploads/2013/06/david-and-gunnar-ep16.mp3\n \
   \   32856104\n    audio/mpeg\n"

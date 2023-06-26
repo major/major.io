@@ -3,8 +3,6 @@ aliases:
 - /2014/07/29/adventures-in-live-booting-linux-distributions/
 author: Major Hayden
 date: 2014-07-29 13:05:54
-dsq_thread_id:
-- 3642807638
 tags:
 - arch
 - centos

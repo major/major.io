@@ -3,8 +3,6 @@ aliases:
 - /2009/01/29/linux-emergency-reboot-or-shutdown-with-magic-commands/
 author: Major Hayden
 date: 2009-01-30 02:07:06
-dsq_thread_id:
-- 3642805529
 tags:
 - command line
 - emergency

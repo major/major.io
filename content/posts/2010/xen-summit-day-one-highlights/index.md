@@ -5,8 +5,6 @@ aliases:
 - /2010/04/29/xen-summit-day-one-highlights/
 author: Major Hayden
 date: 2010-04-29 15:52:41
-dsq_thread_id:
-- 3678953133
 title: 'Xen Summit: Day One Highlights'
 ---
 

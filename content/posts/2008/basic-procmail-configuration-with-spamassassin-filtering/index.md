@@ -3,8 +3,6 @@ aliases:
 - /2008/08/13/basic-procmail-configuration-with-spamassassin-filtering/
 author: Major Hayden
 date: 2008-08-13 17:00:48
-dsq_thread_id:
-- 3678975558
 tags:
 - postfix
 - procmail

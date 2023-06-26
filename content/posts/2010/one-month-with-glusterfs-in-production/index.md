@@ -5,8 +5,6 @@ aliases:
 - /2010/08/11/one-month-with-glusterfs-in-production/
 author: Major Hayden
 date: 2010-08-11 13:29:02
-dsq_thread_id:
-- 3642806209
 tags:
 - glusterfs
 - linux

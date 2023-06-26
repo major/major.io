@@ -3,8 +3,6 @@ aliases:
 - /2014/12/17/try-lxc-ansible-playbook/
 author: Major Hayden
 date: 2014-12-17 13:50:26
-dsq_thread_id:
-- 3642807773
 tags:
 - ansible
 - command line

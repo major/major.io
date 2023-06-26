@@ -3,8 +3,6 @@ aliases:
 - /2011/08/05/xen-4-1-on-fedora-15-with-linux-3-0/
 author: Major Hayden
 date: 2011-08-06 04:34:06
-dsq_thread_id:
-- 3642806601
 tags:
 - cloud
 - command line

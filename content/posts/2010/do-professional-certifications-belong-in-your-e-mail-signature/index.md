@@ -3,8 +3,6 @@ aliases:
 - /2010/10/16/do-professional-certifications-belong-in-your-e-mail-signature/
 author: Major Hayden
 date: 2010-10-16 15:53:25
-dsq_thread_id:
-- 3642806273
 tags:
 - advice
 - certifications

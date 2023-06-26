@@ -5,8 +5,6 @@ aliases:
 - /2009/06/11/upgrading-from-fedora-10-cambridge-to-fedora-11-leonidas/
 author: Major Hayden
 date: 2009-06-11 17:48:39
-dsq_thread_id:
-- 3642805630
 tags:
 - fedora
 - rpm

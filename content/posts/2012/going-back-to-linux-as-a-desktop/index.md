@@ -3,8 +3,6 @@ aliases:
 - /2012/10/12/going-back-to-linux-as-a-desktop/
 author: Major Hayden
 date: 2012-10-12 13:43:01
-dsq_thread_id:
-- 3642807078
 tags:
 - linux
 - mac

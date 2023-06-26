@@ -3,8 +3,6 @@ aliases:
 - /2012/07/31/building-vpnc-with-openssl-support-via-macports-on-mac-os-x/
 author: Major Hayden
 date: 2012-08-01 04:16:09
-dsq_thread_id:
-- 3642807054
 tags:
 - command line
 - mac

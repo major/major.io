@@ -3,8 +3,6 @@ aliases:
 - /2014/08/13/httpry-rhel-centos-7/
 author: Major Hayden
 date: 2014-08-13 13:20:28
-dsq_thread_id:
-- 3642807708
 tags:
 - centos
 - fedora

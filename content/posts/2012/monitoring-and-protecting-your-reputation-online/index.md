@@ -3,8 +3,6 @@ aliases:
 - /2012/08/06/monitoring-and-protecting-your-reputation-online/
 author: Major Hayden
 date: 2012-08-06 14:00:50
-dsq_thread_id:
-- 3642807052
 tags:
 - general advice
 - security

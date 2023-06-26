@@ -3,8 +3,6 @@ aliases:
 - /2012/10/24/using-git-clean-to-remove-subdirectories-containing-git-repositories/
 author: Major Hayden
 date: 2012-10-24 20:44:59
-dsq_thread_id:
-- 3645275793
 tags:
 - development
 - git

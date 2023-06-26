@@ -3,8 +3,6 @@ aliases:
 - /2013/10/14/im-on-the-hunt-for-experienced-security-analysts/
 author: Major Hayden
 date: 2013-10-15 02:17:13
-dsq_thread_id:
-- 3678901022
 tags:
 - infosec
 - linux

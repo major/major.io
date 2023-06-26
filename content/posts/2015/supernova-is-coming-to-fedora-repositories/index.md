@@ -3,8 +3,6 @@ aliases:
 - /2015/09/11/supernova-is-coming-to-fedora-repositories/
 author: Major Hayden
 date: 2015-09-11 13:13:42
-dsq_thread_id:
-- 4119453604
 tags:
 - epel
 - fedora

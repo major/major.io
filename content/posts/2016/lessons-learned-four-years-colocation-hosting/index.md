@@ -3,8 +3,6 @@ aliases:
 - /2016/04/22/lessons-learned-four-years-colocation-hosting/
 author: Major Hayden
 date: 2016-04-22 13:30:52
-dsq_thread_id:
-- 4766778323
 tags:
 - colocation
 - general advice

@@ -5,8 +5,6 @@ aliases:
 - /2009/06/19/deleting-all-e-mail-messages-in-your-inbox-with-mutt/
 author: Major Hayden
 date: 2009-06-19 17:37:58
-dsq_thread_id:
-- 3642805675
 tags:
 - command line
 - email

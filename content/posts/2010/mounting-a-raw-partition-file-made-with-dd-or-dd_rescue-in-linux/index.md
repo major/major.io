@@ -3,8 +3,6 @@ aliases:
 - /2010/12/14/mounting-a-raw-partition-file-made-with-dd-or-dd_rescue-in-linux/
 author: Major Hayden
 date: 2010-12-15 01:07:24
-dsq_thread_id:
-- 3642806385
 tags:
 - command line
 - emergency

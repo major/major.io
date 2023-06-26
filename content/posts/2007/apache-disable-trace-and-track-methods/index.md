@@ -3,8 +3,6 @@ aliases:
 - /2007/08/28/apache-disable-trace-and-track-methods/
 author: Major Hayden
 date: 2007-08-29 00:27:59
-dsq_thread_id:
-- 3642769871
 tags:
 - security
 - web

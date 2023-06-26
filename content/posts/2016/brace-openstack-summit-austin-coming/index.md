@@ -3,8 +3,6 @@ aliases:
 - /2016/04/21/brace-openstack-summit-austin-coming/
 author: Major Hayden
 date: 2016-04-21 13:16:02
-dsq_thread_id:
-- 4765053007
 tags:
 - ansible
 - openstack

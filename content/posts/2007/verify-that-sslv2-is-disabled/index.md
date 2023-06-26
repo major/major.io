@@ -3,8 +3,6 @@ aliases:
 - /2007/01/24/verify-that-sslv2-is-disabled/
 author: Major Hayden
 date: 2007-01-24 15:57:51
-dsq_thread_id:
-- 3642764816
 tags:
 - mail
 - security

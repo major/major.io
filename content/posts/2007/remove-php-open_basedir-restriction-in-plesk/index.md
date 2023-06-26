@@ -3,8 +3,6 @@ aliases:
 - /2007/05/23/remove-php-open_basedir-restriction-in-plesk/
 author: Major Hayden
 date: 2007-05-23 17:21:58
-dsq_thread_id:
-- 3642767504
 tags:
 - plesk
 - security

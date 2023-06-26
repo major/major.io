@@ -3,8 +3,6 @@ aliases:
 - /2016/10/31/talk-recap-holistic-security-for-openstack-clouds/
 author: Major Hayden
 date: 2016-10-31 15:52:47
-dsq_thread_id:
-- 5267743335
 featured_image: /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2.png
 tags:
 - network

@@ -3,8 +3,6 @@ aliases:
 - /2011/01/29/gearing-up-for-fudcon-2011/
 author: Major Hayden
 date: 2011-01-29 15:01:20
-dsq_thread_id:
-- 3678943958
 tags:
 - fedora
 - fudcon

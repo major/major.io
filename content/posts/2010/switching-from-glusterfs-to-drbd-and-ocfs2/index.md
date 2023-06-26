@@ -3,8 +3,6 @@ aliases:
 - /2010/11/10/switching-from-glusterfs-to-drbd-and-ocfs2/
 author: Major Hayden
 date: 2010-11-10 13:55:50
-dsq_thread_id:
-- 3642806318
 tags:
 - command line
 - drbd

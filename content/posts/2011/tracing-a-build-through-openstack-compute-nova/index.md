@@ -3,8 +3,6 @@ aliases:
 - /2011/11/07/tracing-a-build-through-openstack-compute-nova/
 author: Major Hayden
 date: 2011-11-07 15:05:42
-dsq_thread_id:
-- 3649935759
 tags:
 - cloud
 - nova

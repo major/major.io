@@ -3,8 +3,6 @@ aliases:
 - /2013/06/14/red-hat-summit-2013-recap/
 author: Major Hayden
 date: 2013-06-15 00:25:50
-dsq_thread_id:
-- 3642807315
 enclosure:
 - "|\n    http://videos.cdn.redhat.com/2013-summit-keynotes-hohndel.mp4\n    127535004\n\
   \    video/mp4\n"

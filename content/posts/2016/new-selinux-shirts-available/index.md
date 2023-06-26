@@ -3,8 +3,6 @@ aliases:
 - /2016/06/16/new-selinux-shirts-available/
 author: Major Hayden
 date: 2016-06-16 21:22:52
-dsq_thread_id:
-- 4916287595
 tags:
 - fedora
 - red hat

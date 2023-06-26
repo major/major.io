@@ -3,8 +3,6 @@ aliases:
 - /2007/09/01/mysql-and-innodb-orphaned-frm-files/
 author: Major Hayden
 date: 2007-09-02 01:52:00
-dsq_thread_id:
-- 3642769753
 tags:
 - database
 title: 'MySQL and InnoDB: Orphaned .frm files'

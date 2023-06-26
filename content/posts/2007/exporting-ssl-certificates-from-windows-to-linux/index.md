@@ -3,8 +3,6 @@ aliases:
 - /2007/03/23/exporting-ssl-certificates-from-windows-to-linux/
 author: Major Hayden
 date: 2007-03-23 13:11:16
-dsq_thread_id:
-- 3642765870
 tags:
 - command line
 - security

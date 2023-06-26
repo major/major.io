@@ -3,8 +3,6 @@ aliases:
 - /2008/01/07/mysql-replication-horizontal-data-partitioning/
 author: Major Hayden
 date: 2008-01-07 17:57:56
-dsq_thread_id:
-- 3659030084
 tags:
 - database
 - mysql

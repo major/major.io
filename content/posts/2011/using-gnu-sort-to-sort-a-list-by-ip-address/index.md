@@ -3,8 +3,6 @@ aliases:
 - /2011/01/06/using-gnu-sort-to-sort-a-list-by-ip-address/
 author: Major Hayden
 date: 2011-01-06 13:52:58
-dsq_thread_id:
-- 3648600041
 tags:
 - command line
 - linux

@@ -3,8 +3,6 @@ aliases:
 - /2008/01/29/limiting-which-commands-are-kept-in-the-bash-history-file/
 author: Major Hayden
 date: 2008-01-29 18:33:55
-dsq_thread_id:
-- 3642772791
 tags:
 - bash
 - command line

@@ -3,8 +3,6 @@ aliases:
 - /2015/08/14/research-paper-securing-linux-containers/
 author: Major Hayden
 date: 2015-08-14 20:45:50
-dsq_thread_id:
-- 4033484381
 tags:
 - centos
 - containers

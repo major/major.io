@@ -3,8 +3,6 @@ aliases:
 - /2014/06/26/install-debian-packages-without-starting-daemons/
 author: Major Hayden
 date: 2014-06-26 20:39:44
-dsq_thread_id:
-- 3642807616
 tags:
 - centos
 - debian

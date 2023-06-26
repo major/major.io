@@ -3,8 +3,6 @@ aliases:
 - /2016/11/04/openpower-summit-europe-2016-recap/
 author: Major Hayden
 date: 2016-11-04 14:07:17
-dsq_thread_id:
-- 5278255584
 featured_image: /wp-content/uploads/2016/11/barcelona_morning.jpg
 tags:
 - hardware

@@ -3,8 +3,6 @@ aliases:
 - /2014/04/17/devops-and-enterprise-inertia/
 author: Major Hayden
 date: 2014-04-17 17:46:25
-dsq_thread_id:
-- 3671467717
 tags:
 - development
 - devops

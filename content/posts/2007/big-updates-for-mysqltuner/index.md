@@ -3,8 +3,6 @@ aliases:
 - /2007/08/02/big-updates-for-mysqltuner/
 author: Major Hayden
 date: 2007-08-03 02:35:16
-dsq_thread_id:
-- 3679039006
 tags:
 - database
 title: Big updates for mysqltuner

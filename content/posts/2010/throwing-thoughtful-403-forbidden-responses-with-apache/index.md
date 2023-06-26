@@ -3,8 +3,6 @@ aliases:
 - /2010/11/17/throwing-thoughtful-403-forbidden-responses-with-apache/
 author: Major Hayden
 date: 2010-11-17 13:47:19
-dsq_thread_id:
-- 3642806340
 tags:
 - apache
 - command line

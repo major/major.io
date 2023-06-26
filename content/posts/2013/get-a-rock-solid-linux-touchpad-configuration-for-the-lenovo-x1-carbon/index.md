@@ -3,8 +3,6 @@ aliases:
 - /2013/08/24/get-a-rock-solid-linux-touchpad-configuration-for-the-lenovo-x1-carbon/
 author: Major Hayden
 date: 2013-08-24 20:28:35
-dsq_thread_id:
-- 3642807338
 tags:
 - fedora
 - thinkpad

@@ -3,8 +3,6 @@ aliases:
 - /2011/01/10/sending-binary-e-mail-attachments-from-the-command-line-with-mutt/
 author: Major Hayden
 date: 2011-01-11 01:10:58
-dsq_thread_id:
-- 3642806418
 tags:
 - command line
 - email

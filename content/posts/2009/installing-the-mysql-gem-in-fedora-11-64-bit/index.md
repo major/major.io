@@ -3,8 +3,6 @@ aliases:
 - /2009/08/07/installing-the-mysql-gem-in-fedora-11-64-bit/
 author: Major Hayden
 date: 2009-08-07 18:57:22
-dsq_thread_id:
-- 3678960123
 title: Installing the mysql gem in Fedora 11 64-bit
 ---
 

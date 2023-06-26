@@ -3,8 +3,6 @@ aliases:
 - /2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/
 author: Major Hayden
 date: 2011-08-26 13:00:06
-dsq_thread_id:
-- 3642806668
 tags:
 - general advice
 - sysadmin

@@ -3,8 +3,6 @@ aliases:
 - /2007/04/19/too-many-languages-cant-upgrade-plesk-license/
 author: Major Hayden
 date: 2007-04-19 13:40:12
-dsq_thread_id:
-- 3679054442
 tags:
 - plesk
 title: Too many languages – can’t upgrade Plesk license

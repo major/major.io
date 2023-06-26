@@ -3,8 +3,6 @@ aliases:
 - /2007/09/11/rhel-limitations-cheat-sheet/
 author: Major Hayden
 date: 2007-09-12 01:01:49
-dsq_thread_id:
-- 3642769925
 tags:
 - command line
 title: RHEL limitations cheat sheet

@@ -3,8 +3,6 @@ aliases:
 - /2006/12/27/phplive-has-no-sessionsave_path/
 author: Major Hayden
 date: 2006-12-27 17:29:52
-dsq_thread_id:
-- 3679081622
 tags:
 - web
 title: PHPLive Has No session.save_path

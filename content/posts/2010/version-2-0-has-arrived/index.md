@@ -5,8 +5,6 @@ aliases:
 - /2010/07/14/version-2-0-has-arrived/
 author: Major Hayden
 date: 2010-07-14 17:48:54
-dsq_thread_id:
-- 3642806184
 title: Version 2.0 has arrived
 ---
 

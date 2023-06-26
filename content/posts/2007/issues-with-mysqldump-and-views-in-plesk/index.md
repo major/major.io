@@ -3,8 +3,6 @@ aliases:
 - /2007/08/18/issues-with-mysqldump-and-views-in-plesk/
 author: Major Hayden
 date: 2007-08-18 17:40:00
-dsq_thread_id:
-- 3642769593
 tags:
 - database
 - plesk

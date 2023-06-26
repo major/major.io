@@ -3,8 +3,6 @@ aliases:
 - /2013/07/18/come-and-get-your-selinux-shirts/
 author: Major Hayden
 date: 2013-07-18 12:14:45
-dsq_thread_id:
-- 3642807326
 tags:
 - fedora
 - linux

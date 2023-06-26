@@ -3,8 +3,6 @@ aliases:
 - /2015/05/20/you-have-a-problem-and-icanhazip-com-isnt-one-of-them/
 author: Major Hayden
 date: 2015-05-20 12:50:41
-dsq_thread_id:
-- 3779544516
 tags:
 - icanhazip
 - security

@@ -3,8 +3,6 @@ aliases:
 - /2009/04/23/re-scan-the-scsi-bus-in-linux-after-hot-swapping-a-drive/
 author: Major Hayden
 date: 2009-04-23 17:00:54
-dsq_thread_id:
-- 3642805583
 tags:
 - emergency
 - hard disk

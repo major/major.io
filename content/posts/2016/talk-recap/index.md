@@ -3,8 +3,6 @@ aliases:
 - /2016/06/28/talk-recap/
 author: Major Hayden
 date: 2016-06-29 03:43:21
-dsq_thread_id:
-- 4946863542
 tags:
 - ansible
 - fedora

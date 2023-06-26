@@ -3,8 +3,6 @@ aliases:
 - /2007/02/13/understanding-lvm/
 author: Major Hayden
 date: 2007-02-14 03:34:06
-dsq_thread_id:
-- 3642765328
 tags:
 - command line
 title: Understanding LVM

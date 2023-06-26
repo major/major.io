@@ -5,8 +5,6 @@ aliases:
 - /2010/05/19/idiots-guide-to-oauth-logins-for-twitter/
 author: Major Hayden
 date: 2010-05-20 01:26:07
-dsq_thread_id:
-- 3642806163
 tags:
 - command line
 - oauth

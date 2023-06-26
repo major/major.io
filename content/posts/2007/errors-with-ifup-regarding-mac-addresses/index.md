@@ -3,8 +3,6 @@ aliases:
 - /2007/05/27/errors-with-ifup-regarding-mac-addresses/
 author: Major Hayden
 date: 2007-05-27 16:44:55
-dsq_thread_id:
-- 3648198985
 tags:
 - command line
 title: Errors with ifup regarding MAC addresses

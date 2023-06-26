@@ -3,8 +3,6 @@ aliases:
 - /2008/01/04/mysql-replication-backups-data-integrity/
 author: Major Hayden
 date: 2008-01-04 19:39:12
-dsq_thread_id:
-- 3679005510
 tags:
 - database
 - mysql

@@ -3,8 +3,6 @@ aliases:
 - /2012/06/28/red-hat-summit-2012-thursday/
 author: Major Hayden
 date: 2012-06-29 04:54:41
-dsq_thread_id:
-- 3643970097
 tags:
 - database
 - fedora

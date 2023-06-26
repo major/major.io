@@ -3,8 +3,6 @@ aliases:
 - /2012/07/18/connecting-to-openstack-swift-with-cyberduck-using-swauth/
 author: Major Hayden
 date: 2012-07-18 20:21:54
-dsq_thread_id:
-- 3647737146
 tags:
 - mac
 - openstack

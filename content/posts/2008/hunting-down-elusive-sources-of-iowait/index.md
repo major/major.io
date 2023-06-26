@@ -3,8 +3,6 @@ aliases:
 - /2008/03/11/hunting-down-elusive-sources-of-iowait/
 author: Major Hayden
 date: 2008-03-11 18:00:18
-dsq_thread_id:
-- 3642772707
 tags:
 - iowait
 - performance

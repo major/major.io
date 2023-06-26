@@ -3,8 +3,6 @@ aliases:
 - /2008/01/21/removing-news-feeds-in-horde/
 author: Major Hayden
 date: 2008-01-21 18:36:49
-dsq_thread_id:
-- 3642772891
 tags:
 - horde
 - mail

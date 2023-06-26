@@ -3,8 +3,6 @@ aliases:
 - /2007/01/27/moving-mail-between-some-plesk-servers/
 author: Major Hayden
 date: 2007-01-27 18:29:24
-dsq_thread_id:
-- 3642764990
 tags:
 - plesk
 title: Moving mail between some Plesk servers

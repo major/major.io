@@ -3,8 +3,6 @@ aliases:
 - /2007/04/05/lighttpd-proxy-to-tomcat/
 author: Major Hayden
 date: 2007-04-06 04:41:05
-dsq_thread_id:
-- 3642766399
 tags:
 - web
 title: Lighttpd proxy to Tomcat

@@ -5,8 +5,6 @@ aliases:
 - /2010/02/28/system-administration-inspiration-if-its-broken-break-it-a-little-more/
 author: Major Hayden
 date: 2010-02-28 16:47:16
-dsq_thread_id:
-- 3642805937
 tags:
 - general advice
 - sysadmin

@@ -3,8 +3,6 @@ aliases:
 - /2009/02/26/prevent-gnome-keyring-from-asking-for-a-password-when-networkmanager-starts/
 author: Major Hayden
 date: 2009-02-27 00:21:21
-dsq_thread_id:
-- 3642805580
 tags:
 - annoyances
 - gnome-keyring

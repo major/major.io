@@ -3,8 +3,6 @@ aliases:
 - /2010/12/02/keep-web-servers-in-sync-with-drbd-and-ocfs2/
 author: Major Hayden
 date: 2010-12-03 02:01:12
-dsq_thread_id:
-- 3642806288
 featured_image: /wp-content/uploads/2010/12/drbd-and-ocfs2-e1291337653403.png
 tags:
 - command line

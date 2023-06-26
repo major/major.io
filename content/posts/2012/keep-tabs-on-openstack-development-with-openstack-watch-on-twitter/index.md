@@ -3,8 +3,6 @@ aliases:
 - /2012/06/08/keep-tabs-on-openstack-development-with-openstack-watch-on-twitter/
 author: Major Hayden
 date: 2012-06-08 12:19:26
-dsq_thread_id:
-- 3678930456
 tags:
 - development
 - openstack

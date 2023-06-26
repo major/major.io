@@ -3,8 +3,6 @@ aliases:
 - /2008/06/05/backing-up-mysql-to-amazons-s3/
 author: Major Hayden
 date: 2008-06-06 00:18:49
-dsq_thread_id:
-- 3657372042
 tags:
 - mysql
 - perl

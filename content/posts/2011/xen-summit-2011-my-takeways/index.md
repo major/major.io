@@ -3,8 +3,6 @@ aliases:
 - /2011/08/08/xen-summit-2011-my-takeways/
 author: Major Hayden
 date: 2011-08-08 12:58:54
-dsq_thread_id:
-- 3642806613
 tags:
 - cloud
 - fun

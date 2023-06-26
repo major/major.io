@@ -5,8 +5,6 @@ aliases:
 - /2008/12/01/mysqltuner-100-is-now-available/
 author: Major Hayden
 date: 2008-12-02 00:31:43
-dsq_thread_id:
-- 3642805444
 tags:
 - database
 - development

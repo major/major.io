@@ -3,8 +3,6 @@ aliases:
 - /2008/07/28/plesk-840-unable-to-use-short-names-for-pop3imap/
 author: Major Hayden
 date: 2008-07-28 16:08:50
-dsq_thread_id:
-- 3644424358
 tags:
 - courier-imap
 - imap

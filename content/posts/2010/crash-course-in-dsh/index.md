@@ -3,8 +3,6 @@ aliases:
 - /2010/01/20/crash-course-in-dsh/
 author: Major Hayden
 date: 2010-01-20 14:47:56
-dsq_thread_id:
-- 3642805961
 tags:
 - command line
 - dsh

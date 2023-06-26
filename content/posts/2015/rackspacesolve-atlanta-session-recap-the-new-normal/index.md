@@ -3,8 +3,6 @@ aliases:
 - /2015/04/15/rackspacesolve-atlanta-session-recap-the-new-normal/
 author: Major Hayden
 date: 2015-04-15 14:00:56
-dsq_thread_id:
-- 3683831581
 title: 'Rackspace::Solve Atlanta Session Recap: “The New Normal”'
 ---
 

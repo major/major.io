@@ -3,8 +3,6 @@ aliases:
 - /2007/02/11/measuring-raw-shell-bandwidth/
 author: Major Hayden
 date: 2007-02-12 04:20:06
-dsq_thread_id:
-- 3642765296
 tags:
 - command line
 title: Measuring raw shell bandwidth

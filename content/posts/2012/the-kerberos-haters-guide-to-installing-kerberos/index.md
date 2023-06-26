@@ -3,8 +3,6 @@ aliases:
 - /2012/02/05/the-kerberos-haters-guide-to-installing-kerberos/
 author: Major Hayden
 date: 2012-02-05 21:03:52
-dsq_thread_id:
-- 3642806833
 tags:
 - centos
 - command line

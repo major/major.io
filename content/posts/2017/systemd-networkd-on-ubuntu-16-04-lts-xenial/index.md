@@ -3,8 +3,6 @@ aliases:
 - /2017/01/15/systemd-networkd-on-ubuntu-16-04-lts-xenial/
 author: Major Hayden
 date: 2017-01-15 15:24:40
-dsq_thread_id:
-- 5464778870
 tags:
 - networking
 - openstack

@@ -3,8 +3,6 @@ aliases:
 - /2008/01/30/plesk-and-mysql-5/
 author: Major Hayden
 date: 2008-01-30 18:29:18
-dsq_thread_id:
-- 3678998777
 tags:
 - database
 - mysql

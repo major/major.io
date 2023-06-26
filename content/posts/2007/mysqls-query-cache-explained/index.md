@@ -3,8 +3,6 @@ aliases:
 - /2007/08/08/mysqls-query-cache-explained/
 author: Major Hayden
 date: 2007-08-09 01:42:58
-dsq_thread_id:
-- 3642769142
 tags:
 - database
 title: MySQL’s query cache explained

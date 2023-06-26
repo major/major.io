@@ -3,8 +3,6 @@ aliases:
 - /2007/06/14/adjusting-sendmail-queue-time-lifetime/
 author: Major Hayden
 date: 2007-06-14 22:56:27
-dsq_thread_id:
-- 3644160199
 tags:
 - mail
 title: Adjusting sendmail queue time / lifetime

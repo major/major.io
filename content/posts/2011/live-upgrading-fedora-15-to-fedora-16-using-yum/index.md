@@ -3,8 +3,6 @@ aliases:
 - /2011/11/14/live-upgrading-fedora-15-to-fedora-16-using-yum/
 author: Major Hayden
 date: 2011-11-15 04:37:39
-dsq_thread_id:
-- 3642806736
 tags:
 - centos
 - command line

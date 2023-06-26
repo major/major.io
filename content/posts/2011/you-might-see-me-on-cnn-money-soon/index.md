@@ -3,8 +3,6 @@ aliases:
 - /2011/09/02/you-might-see-me-on-cnn-money-soon/
 author: Major Hayden
 date: 2011-09-02 15:40:42
-dsq_thread_id:
-- 3678939603
 featured_image: /wp-content/uploads/2011/09/cnnmoneyinterview.jpg
 tags:
 - fun

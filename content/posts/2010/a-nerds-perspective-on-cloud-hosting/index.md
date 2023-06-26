@@ -3,8 +3,6 @@ aliases:
 - /2010/08/25/a-nerds-perspective-on-cloud-hosting/
 author: Major Hayden
 date: 2010-08-25 13:03:52
-dsq_thread_id:
-- 3642806240
 tags:
 - advice
 - cloud

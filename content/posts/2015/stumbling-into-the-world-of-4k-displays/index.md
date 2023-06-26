@@ -3,8 +3,6 @@ aliases:
 - /2015/06/30/stumbling-into-the-world-of-4k-displays/
 author: Major Hayden
 date: 2015-07-01 04:33:43
-dsq_thread_id:
-- 3894070814
 tags:
 - fedora
 - kernel

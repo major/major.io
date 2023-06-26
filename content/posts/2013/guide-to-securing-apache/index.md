@@ -3,8 +3,6 @@ aliases:
 - /2013/10/22/guide-to-securing-apache/
 author: Major Hayden
 date: 2013-10-22 12:30:51
-dsq_thread_id:
-- 3642807412
 tags:
 - apache
 - infosec

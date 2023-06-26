@@ -3,8 +3,6 @@ aliases:
 - /2007/06/14/php-cli-memory-limit-is-different-between-users-and-root/
 author: Major Hayden
 date: 2007-06-14 22:53:33
-dsq_thread_id:
-- 3648463080
 tags:
 - command line
 title: PHP CLI memory limit is different between users and root

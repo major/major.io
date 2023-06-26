@@ -3,8 +3,6 @@ aliases:
 - /2007/06/14/500-oops-error-from-vsftpd/
 author: Major Hayden
 date: 2007-06-14 23:14:51
-dsq_thread_id:
-- 3642767953
 tags:
 - ftp
 - security

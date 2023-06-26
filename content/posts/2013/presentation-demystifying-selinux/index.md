@@ -3,8 +3,6 @@ aliases:
 - /2013/05/28/presentation-demystifying-selinux/
 author: Major Hayden
 date: 2013-05-29 01:01:09
-dsq_thread_id:
-- 3678908057
 tags:
 - command line
 - security

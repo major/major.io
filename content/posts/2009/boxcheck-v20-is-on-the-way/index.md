@@ -5,8 +5,6 @@ aliases:
 - /2009/02/24/boxcheck-v20-is-on-the-way/
 author: Major Hayden
 date: 2009-02-24 13:20:32
-dsq_thread_id:
-- 3642805568
 tags:
 - boxcheck
 - development

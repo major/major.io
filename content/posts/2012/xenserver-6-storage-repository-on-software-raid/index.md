@@ -3,8 +3,6 @@ aliases:
 - /2012/01/16/xenserver-6-storage-repository-on-software-raid/
 author: Major Hayden
 date: 2012-01-16 15:00:21
-dsq_thread_id:
-- 3642806794
 tags:
 - command line
 - linux

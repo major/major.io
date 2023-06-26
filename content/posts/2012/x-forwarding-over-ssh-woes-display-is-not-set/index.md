@@ -3,8 +3,6 @@ aliases:
 - /2012/07/14/x-forwarding-over-ssh-woes-display-is-not-set/
 author: Major Hayden
 date: 2012-07-14 19:56:09
-dsq_thread_id:
-- 3642807009
 tags:
 - centos
 - fedora

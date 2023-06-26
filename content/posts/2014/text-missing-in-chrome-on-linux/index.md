@@ -3,8 +3,6 @@ aliases:
 - /2014/05/17/text-missing-in-chrome-on-linux/
 author: Major Hayden
 date: 2014-05-18 04:33:14
-dsq_thread_id:
-- 3642807526
 tags:
 - fedora
 - red hat

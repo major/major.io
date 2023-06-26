@@ -3,8 +3,6 @@ aliases:
 - /2007/01/26/finding-usernames-and-passwords-in-plesk-db/
 author: Major Hayden
 date: 2007-01-26 15:12:22
-dsq_thread_id:
-- 3642764938
 tags:
 - plesk
 title: Finding usernames and passwords in Plesk DB

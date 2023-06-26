@@ -3,8 +3,6 @@ aliases:
 - /2016/04/17/enable-ipv6-privacy-networkmanager/
 author: Major Hayden
 date: 2016-04-17 16:35:57
-dsq_thread_id:
-- 4754510226
 tags:
 - fedora
 - ipv6

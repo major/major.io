@@ -3,8 +3,6 @@ aliases:
 - /2015/01/08/helpful-low-fud-information-security-sites-mailing-lists-blogs/
 author: Major Hayden
 date: 2015-01-08 13:55:43
-dsq_thread_id:
-- 3643766237
 tags:
 - blog
 - general advice

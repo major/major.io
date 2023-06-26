@@ -3,8 +3,6 @@ aliases:
 - /2007/10/04/preventing-plesk-82x-from-adding-up2date-sources/
 author: Major Hayden
 date: 2007-10-04 18:29:14
-dsq_thread_id:
-- 3679019557
 tags:
 - plesk
 title: Preventing Plesk 8.2.x from adding up2date sources

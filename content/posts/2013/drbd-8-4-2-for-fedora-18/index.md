@@ -3,8 +3,6 @@ aliases:
 - /2013/03/15/drbd-8-4-2-for-fedora-18/
 author: Major Hayden
 date: 2013-03-15 12:28:33
-dsq_thread_id:
-- 3678913522
 tags:
 - drbd
 - fedora

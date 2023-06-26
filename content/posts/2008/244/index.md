@@ -3,8 +3,6 @@ aliases:
 - /2008/01/01/244/
 author: Major Hayden
 date: 2008-01-01 23:05:41
-dsq_thread_id:
-- 3642773216
 tags:
 - database
 - mysql

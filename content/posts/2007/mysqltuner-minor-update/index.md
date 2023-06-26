@@ -3,8 +3,6 @@ aliases:
 - /2007/09/06/mysqltuner-minor-update/
 author: Major Hayden
 date: 2007-09-07 01:41:14
-dsq_thread_id:
-- 3679026867
 tags:
 - database
 - development

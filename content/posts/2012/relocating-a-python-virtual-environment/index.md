@@ -3,8 +3,6 @@ aliases:
 - /2012/11/25/relocating-a-python-virtual-environment/
 author: Major Hayden
 date: 2012-11-25 21:27:47
-dsq_thread_id:
-- 3644199398
 tags:
 - development
 - openstack

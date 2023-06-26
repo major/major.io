@@ -3,8 +3,6 @@ aliases:
 - /2007/07/05/bintar-argument-list-too-long/
 author: Major Hayden
 date: 2007-07-06 03:11:43
-dsq_thread_id:
-- 3642768598
 tags:
 - command line
 title: '/bin/tar: Argument list too long'

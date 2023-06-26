@@ -3,8 +3,6 @@ aliases:
 - /2007/08/08/mysql-missing-ibd-files/
 author: Major Hayden
 date: 2007-08-09 00:22:40
-dsq_thread_id:
-- 3644065371
 tags:
 - database
 title: 'MySQL: Missing *.ibd files'

@@ -3,8 +3,6 @@ aliases:
 - /2008/01/31/high-iowait-on-rhel-4-with-plesk-and-spamassassin/
 author: Major Hayden
 date: 2008-01-31 18:38:58
-dsq_thread_id:
-- 3650401676
 tags:
 - iowait
 - mail

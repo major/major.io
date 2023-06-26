@@ -3,8 +3,6 @@ aliases:
 - /2007/02/11/move-domain-between-clients-in-plesk/
 author: Major Hayden
 date: 2007-02-12 01:29:18
-dsq_thread_id:
-- 3642765215
 tags:
 - plesk
 title: Move domain between clients in Plesk

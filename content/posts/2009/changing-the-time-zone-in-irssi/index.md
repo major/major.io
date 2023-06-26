@@ -3,8 +3,6 @@ aliases:
 - /2009/11/03/changing-the-time-zone-in-irssi/
 author: Major Hayden
 date: 2009-11-03 14:34:42
-dsq_thread_id:
-- 3642805831
 tags:
 - irc
 - irssi

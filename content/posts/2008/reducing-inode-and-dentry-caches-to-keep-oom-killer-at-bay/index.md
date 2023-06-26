@@ -5,8 +5,6 @@ aliases:
 - /2008/12/03/reducing-inode-and-dentry-caches-to-keep-oom-killer-at-bay/
 author: Major Hayden
 date: 2008-12-04 00:44:20
-dsq_thread_id:
-- 3642805446
 tags:
 - emergency
 - kernel

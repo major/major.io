@@ -3,8 +3,6 @@ aliases:
 - /2007/06/14/adjusting-qmail-queue-time-lifetime/
 author: Major Hayden
 date: 2007-06-14 22:58:01
-dsq_thread_id:
-- 3648243943
 tags:
 - mail
 title: Adjusting qmail queue time / lifetime

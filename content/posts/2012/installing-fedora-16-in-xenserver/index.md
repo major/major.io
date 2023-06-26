@@ -3,8 +3,6 @@ aliases:
 - /2012/02/11/installing-fedora-16-in-xenserver/
 author: Major Hayden
 date: 2012-02-12 03:39:11
-dsq_thread_id:
-- 3642806861
 tags:
 - fedora
 - kickstart

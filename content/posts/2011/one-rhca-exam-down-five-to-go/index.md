@@ -3,8 +3,6 @@ aliases:
 - /2011/01/06/one-rhca-exam-down-five-to-go/
 author: Major Hayden
 date: 2011-01-07 02:24:49
-dsq_thread_id:
-- 3642806431
 featured_image: /wp-content/uploads/2011/01/Major_Hayden_EX442.jpg
 tags:
 - career

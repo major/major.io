@@ -3,8 +3,6 @@ aliases:
 - /2009/07/31/get-the-public-facing-ip-for-any-server-with-icanhazip-com/
 author: Major Hayden
 date: 2009-07-31 13:41:38
-dsq_thread_id:
-- 3642805693
 tags:
 - curl
 - networking

@@ -3,8 +3,6 @@ aliases:
 - /2013/04/26/automate-centos-6-deployments-with-cis-security-benchmarks-already-applied/
 author: Major Hayden
 date: 2013-04-26 14:15:24
-dsq_thread_id:
-- 3642807251
 tags:
 - centos
 - development

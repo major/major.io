@@ -3,8 +3,6 @@ aliases:
 - /2014/04/23/configure-static-ip-addresses-for-project-atomics-kvm-image/
 author: Major Hayden
 date: 2014-04-23 15:14:39
-dsq_thread_id:
-- 3642807478
 tags:
 - docker
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2012/12/27/launch-applications-quickly-with-dmenu-in-xfce/
 author: Major Hayden
 date: 2012-12-27 21:09:43
-dsq_thread_id:
-- 3642807110
 tags:
 - linux
 - xfce

@@ -3,8 +3,6 @@ aliases:
 - /2009/06/26/rotating-rails-logs-when-using-phusion-passenger/
 author: Major Hayden
 date: 2009-06-26 15:09:54
-dsq_thread_id:
-- 3664516884
 tags:
 - apache
 - logrotate

@@ -3,8 +3,6 @@ aliases:
 - /2011/11/17/displaylink-usb-to-dvi-issues-in-os-x-lion/
 author: Major Hayden
 date: 2011-11-17 13:38:48
-dsq_thread_id:
-- 3642806731
 tags:
 - mac
 title: DisplayLink USB to DVI issues in OS X Lion

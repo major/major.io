@@ -3,8 +3,6 @@ aliases:
 - /2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/
 author: Major Hayden
 date: 2014-07-30 14:31:04
-dsq_thread_id:
-- 3642807640
 featured_image: /wp-content/uploads/2014/07/apple_keyboard_from_flickr-e1406730573439.jpg
 tags:
 - chrome

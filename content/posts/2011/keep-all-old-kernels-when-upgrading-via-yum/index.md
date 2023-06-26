@@ -3,8 +3,6 @@ aliases:
 - /2011/06/16/keep-all-old-kernels-when-upgrading-via-yum/
 author: Major Hayden
 date: 2011-06-16 12:50:46
-dsq_thread_id:
-- 3642806585
 tags:
 - command line
 - fedora

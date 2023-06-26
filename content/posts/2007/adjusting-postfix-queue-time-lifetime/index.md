@@ -3,8 +3,6 @@ aliases:
 - /2007/09/18/adjusting-postfix-queue-time-lifetime/
 author: Major Hayden
 date: 2007-09-18 22:55:38
-dsq_thread_id:
-- 3642770079
 tags:
 - mail
 title: Adjusting postfix queue time / lifetime

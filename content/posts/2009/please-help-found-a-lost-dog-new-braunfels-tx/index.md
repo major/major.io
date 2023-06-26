@@ -3,8 +3,6 @@ aliases:
 - /2009/10/14/please-help-found-a-lost-dog-new-braunfels-tx/
 author: Major Hayden
 date: 2009-10-15 02:06:53
-dsq_thread_id:
-- 3642805827
 title: Please help! Found a lost dog – New Braunfels, TX
 ---
 

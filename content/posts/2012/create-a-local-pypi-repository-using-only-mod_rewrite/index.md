@@ -3,8 +3,6 @@ aliases:
 - /2012/01/31/create-a-local-pypi-repository-using-only-mod_rewrite/
 author: Major Hayden
 date: 2012-02-01 04:02:49
-dsq_thread_id:
-- 3642806824
 tags:
 - apache
 - command line

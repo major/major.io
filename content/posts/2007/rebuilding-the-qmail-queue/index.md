@@ -3,8 +3,6 @@ aliases:
 - /2007/01/11/rebuilding-the-qmail-queue/
 author: Major Hayden
 date: 2007-01-11 22:37:07
-dsq_thread_id:
-- 3642764714
 tags:
 - mail
 title: Repairing the qmail queue

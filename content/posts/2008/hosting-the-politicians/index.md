@@ -3,8 +3,6 @@ aliases:
 - /2008/04/24/hosting-the-politicians/
 author: Major Hayden
 date: 2008-04-24 17:12:24
-dsq_thread_id:
-- 3678989800
 tags:
 - fun
 title: Hosting the politicians

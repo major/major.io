@@ -3,8 +3,6 @@ aliases:
 - /2008/08/11/enabling-ruby-on-rails-support-for-a-domain-in-plesk/
 author: Major Hayden
 date: 2008-08-12 01:16:18
-dsq_thread_id:
-- 3642771889
 tags:
 - mod_rewrite
 - plesk

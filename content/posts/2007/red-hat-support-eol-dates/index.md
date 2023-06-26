@@ -3,8 +3,6 @@ aliases:
 - /2007/12/05/red-hat-support-eol-dates/
 author: Major Hayden
 date: 2007-12-05 18:27:03
-dsq_thread_id:
-- 3658548748
 tags:
 - red hat
 - security

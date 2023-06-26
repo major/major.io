@@ -3,8 +3,6 @@ aliases:
 - /2013/04/19/reprint-stop-disabling-selinux/
 author: Major Hayden
 date: 2013-04-19 05:52:23
-dsq_thread_id:
-- 3642807229
 tags:
 - centos
 - fedora

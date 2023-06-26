@@ -3,8 +3,6 @@ aliases:
 - /2016/09/13/http2-for-the-blog-and-icanhazip-com/
 author: Major Hayden
 date: 2016-09-13 13:47:05
-dsq_thread_id:
-- 5141039527
 tags:
 - blog
 - encryption

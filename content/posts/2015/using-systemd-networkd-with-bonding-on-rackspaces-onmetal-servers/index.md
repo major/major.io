@@ -3,8 +3,6 @@ aliases:
 - /2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/
 author: Major Hayden
 date: 2015-08-21 14:00:46
-dsq_thread_id:
-- 4052546195
 tags:
 - bonding
 - command line

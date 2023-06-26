@@ -3,8 +3,6 @@ aliases:
 - /2012/05/25/fedora-17-is-a-go/
 author: Major Hayden
 date: 2012-05-25 12:54:13
-dsq_thread_id:
-- 3642806958
 tags:
 - development
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2016/05/16/troubleshooting-openstack-network-connectivity/
 author: Major Hayden
 date: 2016-05-17 02:43:41
-dsq_thread_id:
-- 4833149630
 tags:
 - general advice
 - network

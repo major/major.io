@@ -3,8 +3,6 @@ aliases:
 - /2012/04/09/getting-a-technical-job-at-rackspace/
 author: Major Hayden
 date: 2012-04-09 14:00:56
-dsq_thread_id:
-- 3642806933
 tags:
 - general advice
 - interview

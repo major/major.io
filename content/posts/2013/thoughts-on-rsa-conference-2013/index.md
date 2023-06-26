@@ -3,8 +3,6 @@ aliases:
 - /2013/03/11/thoughts-on-rsa-conference-2013/
 author: Major Hayden
 date: 2013-03-11 19:23:32
-dsq_thread_id:
-- 3657295406
 title: Thoughts on RSA Conference 2013
 ---
 

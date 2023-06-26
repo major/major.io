@@ -3,8 +3,6 @@ aliases:
 - /2012/01/02/selinux-and-forward-files/
 author: Major Hayden
 date: 2012-01-02 22:44:43
-dsq_thread_id:
-- 3642806728
 tags:
 - command line
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2015/05/18/keep-old-kernels-with-yum-and-dnf/
 author: Major Hayden
 date: 2015-05-18 14:22:56
-dsq_thread_id:
-- 3774046868
 tags:
 - centos
 - dnf

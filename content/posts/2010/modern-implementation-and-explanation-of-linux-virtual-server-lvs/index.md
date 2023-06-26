@@ -5,8 +5,6 @@ aliases:
 - /2010/06/27/modern-implementation-and-explanation-of-linux-virtual-server-lvs/
 author: Major Hayden
 date: 2010-06-27 16:03:27
-dsq_thread_id:
-- 3642806177
 tags:
 - general advice
 - high availability

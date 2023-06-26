@@ -3,8 +3,6 @@ aliases:
 - /2007/04/07/plesk-database-schematic/
 author: Major Hayden
 date: 2007-04-07 15:00:03
-dsq_thread_id:
-- 3642766461
 tags:
 - plesk
 title: Plesk Database Schematic

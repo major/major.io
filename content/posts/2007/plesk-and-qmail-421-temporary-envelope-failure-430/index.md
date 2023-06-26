@@ -3,8 +3,6 @@ aliases:
 - /2007/12/04/plesk-and-qmail-421-temporary-envelope-failure-430/
 author: Major Hayden
 date: 2007-12-04 18:21:23
-dsq_thread_id:
-- 3661560834
 tags:
 - mail
 - plesk

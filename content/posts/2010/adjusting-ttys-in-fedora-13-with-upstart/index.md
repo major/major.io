@@ -5,8 +5,6 @@ aliases:
 - /2010/03/26/adjusting-ttys-in-fedora-13-with-upstart/
 author: Major Hayden
 date: 2010-03-26 14:09:13
-dsq_thread_id:
-- 3642806114
 tags:
 - command line
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2012/03/30/why-technical-people-should-blog-but-dont/
 author: Major Hayden
 date: 2012-03-30 14:30:45
-dsq_thread_id:
-- 3642806918
 tags:
 - blog
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2007/07/01/repair-auto_increment-in-mysql/
 author: Major Hayden
 date: 2007-07-01 16:34:03
-dsq_thread_id:
-- 3649654525
 tags:
 - database
 - emergency

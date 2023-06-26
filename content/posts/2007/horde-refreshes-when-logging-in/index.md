@@ -3,8 +3,6 @@ aliases:
 - /2007/05/07/horde-refreshes-when-logging-in/
 author: Major Hayden
 date: 2007-05-07 21:20:51
-dsq_thread_id:
-- 3679051727
 tags:
 - mail
 - plesk

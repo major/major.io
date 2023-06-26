@@ -5,8 +5,6 @@ aliases:
 - /2008/07/30/automatically-starting-synergy-in-gdm-in-ubuntufedora/
 author: Major Hayden
 date: 2008-07-30 17:00:09
-dsq_thread_id:
-- 3642772155
 tags:
 - desktop
 - synergy

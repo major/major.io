@@ -3,8 +3,6 @@ aliases:
 - /2013/02/22/six-years-of-rackerhacker-com/
 author: Major Hayden
 date: 2013-02-22 18:10:20
-dsq_thread_id:
-- 3678916401
 title: Six years of rackerhacker.com
 ---
 

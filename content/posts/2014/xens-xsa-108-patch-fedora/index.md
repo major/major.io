@@ -3,8 +3,6 @@ aliases:
 - /2014/10/02/xens-xsa-108-patch-fedora/
 author: Major Hayden
 date: 2014-10-02 12:39:11
-dsq_thread_id:
-- 3642807761
 tags:
 - fedora
 - security

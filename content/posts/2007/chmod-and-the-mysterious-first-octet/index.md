@@ -3,8 +3,6 @@ aliases:
 - /2007/02/13/chmod-and-the-mysterious-first-octet/
 author: Major Hayden
 date: 2007-02-14 04:00:52
-dsq_thread_id:
-- 3642765415
 tags:
 - command line
 - security

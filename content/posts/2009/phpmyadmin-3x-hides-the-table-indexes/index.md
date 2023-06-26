@@ -3,8 +3,6 @@ aliases:
 - /2009/04/03/phpmyadmin-3x-hides-the-table-indexes/
 author: Major Hayden
 date: 2009-04-04 00:51:48
-dsq_thread_id:
-- 3642805605
 tags:
 - database
 - mysql

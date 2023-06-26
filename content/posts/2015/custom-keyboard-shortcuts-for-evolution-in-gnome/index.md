@@ -3,8 +3,6 @@ aliases:
 - /2015/11/27/custom-keyboard-shortcuts-for-evolution-in-gnome/
 author: Major Hayden
 date: 2015-11-28 05:33:29
-dsq_thread_id:
-- 4357033486
 tags:
 - email
 - evolution

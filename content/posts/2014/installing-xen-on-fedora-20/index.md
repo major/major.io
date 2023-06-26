@@ -3,8 +3,6 @@ aliases:
 - /2014/02/27/installing-xen-on-fedora-20/
 author: Major Hayden
 date: 2014-02-28 03:43:27
-dsq_thread_id:
-- 3642807420
 tags:
 - linux
 - sysadmin

@@ -3,8 +3,6 @@ aliases:
 - /2014/03/27/xen-hackathon-coming-up-in-london/
 author: Major Hayden
 date: 2014-03-27 13:20:34
-dsq_thread_id:
-- 3678892868
 featured_image: /wp-content/uploads/2014/03/MA0139_N60_medium.jpg
 tags:
 - development

@@ -3,8 +3,6 @@ aliases:
 - /2009/05/26/simple-socks-proxy-using-ssh/
 author: Major Hayden
 date: 2009-05-26 19:29:55
-dsq_thread_id:
-- 3642805621
 tags:
 - proxy
 - security

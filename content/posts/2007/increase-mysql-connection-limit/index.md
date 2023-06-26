@@ -3,8 +3,6 @@ aliases:
 - /2007/01/24/increase-mysql-connection-limit/
 author: Major Hayden
 date: 2007-01-24 17:21:37
-dsq_thread_id:
-- 3642764892
 tags:
 - database
 title: Increase MySQL connection limit

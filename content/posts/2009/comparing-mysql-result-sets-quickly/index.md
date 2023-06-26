@@ -3,8 +3,6 @@ aliases:
 - /2009/05/05/comparing-mysql-result-sets-quickly/
 author: Major Hayden
 date: 2009-05-05 15:51:09
-dsq_thread_id:
-- 3678965357
 title: Comparing MySQL result sets quickly
 ---
 

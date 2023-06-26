@@ -3,8 +3,6 @@ aliases:
 - /2007/09/17/yum-equivalents-of-up2date-arguments/
 author: Major Hayden
 date: 2007-09-17 22:50:01
-dsq_thread_id:
-- 3679023678
 tags:
 - command line
 title: Yum equivalents of up2date arguments

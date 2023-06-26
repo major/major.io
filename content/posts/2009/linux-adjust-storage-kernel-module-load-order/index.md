@@ -3,8 +3,6 @@ aliases:
 - /2009/01/26/linux-adjust-storage-kernel-module-load-order/
 author: Major Hayden
 date: 2009-01-26 20:40:01
-dsq_thread_id:
-- 3642805511
 tags:
 - drivers
 - kernel

@@ -3,8 +3,6 @@ aliases:
 - /2007/01/31/wave-the-plesk-magic-wand/
 author: Major Hayden
 date: 2007-01-31 16:01:22
-dsq_thread_id:
-- 3679073679
 tags:
 - plesk
 title: Wave the Plesk magic wand

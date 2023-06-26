@@ -3,8 +3,6 @@ aliases:
 - /2016/02/17/fight-cynicism-curiosity/
 author: Major Hayden
 date: 2016-02-17 15:30:14
-dsq_thread_id:
-- 4587467280
 tags:
 - development
 - general advice

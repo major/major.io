@@ -3,8 +3,6 @@ aliases:
 - /2013/03/03/controlling-sensitive-company-data-means-losing-some-control-of-it/
 author: Major Hayden
 date: 2013-03-03 17:18:13
-dsq_thread_id:
-- 3678915271
 tags:
 - general advice
 - security

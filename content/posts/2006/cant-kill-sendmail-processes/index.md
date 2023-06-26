@@ -3,8 +3,6 @@ aliases:
 - /2006/12/28/cant-kill-sendmail-processes/
 author: Major Hayden
 date: 2006-12-29 00:35:18
-dsq_thread_id:
-- 3651535328
 tags:
 - mail
 title: Can’t Kill Sendmail Processes

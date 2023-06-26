@@ -3,8 +3,6 @@ aliases:
 - /2010/11/12/raising-money-for-prostate-cancer-research-and-survivor-support/
 author: Major Hayden
 date: 2010-11-13 03:19:07
-dsq_thread_id:
-- 3642806326
 tags:
 - blog
 title: Raising money for prostate cancer research and survivor support

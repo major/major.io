@@ -3,8 +3,6 @@ aliases:
 - /2013/11/13/one-year-in-information-security/
 author: Major Hayden
 date: 2013-11-13 15:15:12
-dsq_thread_id:
-- 3678900001
 tags:
 - general advice
 - infosec

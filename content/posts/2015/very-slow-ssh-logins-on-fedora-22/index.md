@@ -3,8 +3,6 @@ aliases:
 - /2015/07/27/very-slow-ssh-logins-on-fedora-22/
 author: Major Hayden
 date: 2015-07-27 12:09:44
-dsq_thread_id:
-- 3975604560
 tags:
 - fedora
 - ssh

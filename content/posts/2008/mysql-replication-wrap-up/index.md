@@ -3,8 +3,6 @@ aliases:
 - /2008/01/15/mysql-replication-wrap-up/
 author: Major Hayden
 date: 2008-01-15 18:20:02
-dsq_thread_id:
-- 3679001644
 tags:
 - database
 - mysql

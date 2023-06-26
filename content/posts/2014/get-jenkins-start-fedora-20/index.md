@@ -3,8 +3,6 @@ aliases:
 - /2014/08/13/get-jenkins-start-fedora-20/
 author: Major Hayden
 date: 2014-08-13 14:39:52
-dsq_thread_id:
-- 3642807711
 tags:
 - fedora
 - java

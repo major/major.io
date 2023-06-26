@@ -3,8 +3,6 @@ aliases:
 - /2007/07/18/installing-lighttpd-php-fastcgi-on-freebsd/
 author: Major Hayden
 date: 2007-07-18 15:12:06
-dsq_thread_id:
-- 3653853939
 tags:
 - command line
 - web

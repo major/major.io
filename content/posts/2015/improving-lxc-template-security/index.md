@@ -3,8 +3,6 @@ aliases:
 - /2015/06/18/improving-lxc-template-security/
 author: Major Hayden
 date: 2015-06-18 19:52:11
-dsq_thread_id:
-- 3859849191
 tags:
 - centos
 - containers

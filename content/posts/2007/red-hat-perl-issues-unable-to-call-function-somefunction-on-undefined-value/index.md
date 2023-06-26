@@ -3,8 +3,6 @@ aliases:
 - /2007/11/19/red-hat-perl-issues-unable-to-call-function-somefunction-on-undefined-value/
 author: Major Hayden
 date: 2007-11-19 18:19:12
-dsq_thread_id:
-- 3679012604
 tags:
 - command line
 - perl

@@ -3,8 +3,6 @@ aliases:
 - /2017/01/11/icc-color-profile-lenovo-thinkpad-x1-carbon-4th-generation/
 author: Major Hayden
 date: 2017-01-11 18:42:26
-dsq_thread_id:
-- 5454618435
 tags:
 - fedora
 - gnome

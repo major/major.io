@@ -3,8 +3,6 @@ aliases:
 - /2010/01/21/switching-between-audible-and-visual-bells-in-screen/
 author: Major Hayden
 date: 2010-01-21 14:37:09
-dsq_thread_id:
-- 3646701431
 tags:
 - command line
 - irc

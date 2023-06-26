@@ -3,8 +3,6 @@ aliases:
 - /2007/11/04/attractive-atermrxvt-xdefaults-configuration/
 author: Major Hayden
 date: 2007-11-04 18:04:27
-dsq_thread_id:
-- 3642773765
 tags:
 - command line
 title: Attractive aterm/rxvt .Xdefaults configuration

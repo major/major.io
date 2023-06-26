@@ -3,8 +3,6 @@ aliases:
 - /2016/08/09/preventing-critical-services-from-deploying-on-the-same-openstack-host/
 author: Major Hayden
 date: 2016-08-09 17:07:35
-dsq_thread_id:
-- 5052783217
 tags:
 - database
 - fedora

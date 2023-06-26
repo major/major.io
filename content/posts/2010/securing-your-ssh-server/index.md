@@ -5,8 +5,6 @@ aliases:
 - /2010/10/12/securing-your-ssh-server/
 author: Major Hayden
 date: 2010-10-12 22:39:15
-dsq_thread_id:
-- 3642806250
 tags:
 - advice
 - command line

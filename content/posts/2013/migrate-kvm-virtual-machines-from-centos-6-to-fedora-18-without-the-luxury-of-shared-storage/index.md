@@ -3,8 +3,6 @@ aliases:
 - /2013/05/22/migrate-kvm-virtual-machines-from-centos-6-to-fedora-18-without-the-luxury-of-shared-storage/
 author: Major Hayden
 date: 2013-05-22 15:15:36
-dsq_thread_id:
-- 3642807287
 tags:
 - centos
 - command line

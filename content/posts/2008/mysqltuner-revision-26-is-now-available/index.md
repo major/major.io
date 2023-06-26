@@ -3,8 +3,6 @@ aliases:
 - /2008/01/15/mysqltuner-revision-26-is-now-available/
 author: Major Hayden
 date: 2008-01-15 14:00:22
-dsq_thread_id:
-- 3679002502
 tags:
 - database
 - development

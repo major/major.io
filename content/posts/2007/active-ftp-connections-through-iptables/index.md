@@ -3,8 +3,6 @@ aliases:
 - /2007/07/01/active-ftp-connections-through-iptables/
 author: Major Hayden
 date: 2007-07-01 16:42:01
-dsq_thread_id:
-- 3642768278
 tags:
 - command line
 - security

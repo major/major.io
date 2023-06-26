@@ -3,8 +3,6 @@ aliases:
 - /2007/05/20/speeding-up-mysql/
 author: Major Hayden
 date: 2007-05-21 03:44:33
-dsq_thread_id:
-- 3642766997
 tags:
 - database
 - development

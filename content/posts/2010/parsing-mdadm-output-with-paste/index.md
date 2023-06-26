@@ -5,8 +5,6 @@ aliases:
 - /2010/06/14/parsing-mdadm-output-with-paste/
 author: Major Hayden
 date: 2010-06-14 14:05:57
-dsq_thread_id:
-- 3642806171
 tags:
 - command line
 - mdadm

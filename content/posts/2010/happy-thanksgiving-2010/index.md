@@ -3,8 +3,6 @@ aliases:
 - /2010/11/25/happy-thanksgiving-2010/
 author: Major Hayden
 date: 2010-11-25 16:00:18
-dsq_thread_id:
-- 3678946261
 tags:
 - general advice
 - holiday

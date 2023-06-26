@@ -3,8 +3,6 @@ aliases:
 - /2010/01/03/a-new-year-system-administrator-inspiration/
 author: Major Hayden
 date: 2010-01-04 02:53:53
-dsq_thread_id:
-- 3642805921
 tags:
 - apache
 - general advice

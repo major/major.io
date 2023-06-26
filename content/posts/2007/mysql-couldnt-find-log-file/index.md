@@ -3,8 +3,6 @@ aliases:
 - /2007/08/23/mysql-couldnt-find-log-file/
 author: Major Hayden
 date: 2007-08-24 00:24:28
-dsq_thread_id:
-- 3642769531
 tags:
 - database
 - emergency

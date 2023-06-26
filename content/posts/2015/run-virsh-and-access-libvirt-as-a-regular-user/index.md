@@ -3,8 +3,6 @@ aliases:
 - /2015/04/11/run-virsh-and-access-libvirt-as-a-regular-user/
 author: Major Hayden
 date: 2015-04-11 15:30:54
-dsq_thread_id:
-- 3673129597
 tags:
 - fedora
 - libvirt

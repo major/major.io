@@ -3,8 +3,6 @@ aliases:
 - /2008/01/10/mysql-replication-across-an-external-network/
 author: Major Hayden
 date: 2008-01-10 18:51:39
-dsq_thread_id:
-- 3654636923
 tags:
 - database
 - mysql

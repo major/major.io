@@ -3,8 +3,6 @@ aliases:
 - /2008/09/23/apache-22-internal-dummy-connection/
 author: Major Hayden
 date: 2008-09-24 01:42:21
-dsq_thread_id:
-- 3642771707
 tags:
 - apache
 - mod_rewrite

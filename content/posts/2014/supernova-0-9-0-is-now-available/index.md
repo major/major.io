@@ -3,8 +3,6 @@ aliases:
 - /2014/01/13/supernova-0-9-0-is-now-available/
 author: Major Hayden
 date: 2014-01-13 20:28:44
-dsq_thread_id:
-- 3678897270
 tags:
 - openstack
 - python

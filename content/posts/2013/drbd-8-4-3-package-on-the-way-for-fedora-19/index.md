@@ -3,8 +3,6 @@ aliases:
 - /2013/08/02/drbd-8-4-3-package-on-the-way-for-fedora-19/
 author: Major Hayden
 date: 2013-08-02 16:57:00
-dsq_thread_id:
-- 3678904816
 tags:
 - development
 - drbd

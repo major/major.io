@@ -3,8 +3,6 @@ aliases:
 - /2008/10/23/installing-microsofts-truetype-fonts-on-linux-servers/
 author: Major Hayden
 date: 2008-10-24 00:31:23
-dsq_thread_id:
-- 3649065573
 tags:
 - fonts
 - rpm

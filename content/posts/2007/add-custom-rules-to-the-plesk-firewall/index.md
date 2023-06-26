@@ -3,8 +3,6 @@ aliases:
 - /2007/08/02/add-custom-rules-to-the-plesk-firewall/
 author: Major Hayden
 date: 2007-08-03 02:54:01
-dsq_thread_id:
-- 3642768940
 tags:
 - plesk
 - security

@@ -3,8 +3,6 @@ aliases:
 - /2013/06/02/installing-the-xen-hypervisor-on-fedora-19/
 author: Major Hayden
 date: 2013-06-03 04:27:43
-dsq_thread_id:
-- 3642807297
 tags:
 - command line
 - fedora

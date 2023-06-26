@@ -3,8 +3,6 @@ aliases:
 - /2008/03/12/what-is-the-difference-between-file-data-and-metadata/
 author: Major Hayden
 date: 2008-03-12 18:01:59
-dsq_thread_id:
-- 3654725665
 tags:
 - command line
 - filesystem

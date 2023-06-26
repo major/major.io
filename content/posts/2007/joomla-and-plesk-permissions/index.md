@@ -3,8 +3,6 @@ aliases:
 - /2007/05/20/joomla-and-plesk-permissions/
 author: Major Hayden
 date: 2007-05-21 03:13:23
-dsq_thread_id:
-- 3642766883
 tags:
 - plesk
 - security

@@ -3,8 +3,6 @@ aliases:
 - /2016/07/05/bring-back-two-three-finger-taps-fedora-24/
 author: Major Hayden
 date: 2016-07-06 04:54:13
-dsq_thread_id:
-- 4964036192
 tags:
 - fedora
 - gnome

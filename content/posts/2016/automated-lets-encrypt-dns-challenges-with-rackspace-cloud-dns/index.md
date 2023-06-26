@@ -3,8 +3,6 @@ aliases:
 - /2016/03/31/automated-lets-encrypt-dns-challenges-with-rackspace-cloud-dns/
 author: Major Hayden
 date: 2016-03-31 19:39:50
-dsq_thread_id:
-- 4709461797
 tags:
 - ansible
 - bash

@@ -3,8 +3,6 @@ aliases:
 - /2008/03/10/strange-error-with-horde-313-and-plesk-811/
 author: Major Hayden
 date: 2008-03-11 02:49:05
-dsq_thread_id:
-- 3678993852
 tags:
 - horde
 - php

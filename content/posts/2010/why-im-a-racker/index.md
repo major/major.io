@@ -5,8 +5,6 @@ aliases:
 - /2010/03/26/why-im-a-racker/
 author: Major Hayden
 date: 2010-03-26 13:38:07
-dsq_thread_id:
-- 3642806113
 tags:
 - blog
 - rackspace

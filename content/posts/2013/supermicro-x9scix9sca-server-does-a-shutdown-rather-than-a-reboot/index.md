@@ -3,8 +3,6 @@ aliases:
 - /2013/06/03/supermicro-x9scix9sca-server-does-a-shutdown-rather-than-a-reboot/
 author: Major Hayden
 date: 2013-06-03 14:45:34
-dsq_thread_id:
-- 3642807305
 tags:
 - centos
 - command line

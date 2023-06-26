@@ -3,8 +3,6 @@ aliases:
 - /2007/02/21/gmt-ftp-timestamps-in-plesk/
 author: Major Hayden
 date: 2007-02-21 19:13:01
-dsq_thread_id:
-- 3642765406
 tags:
 - ftp
 - plesk

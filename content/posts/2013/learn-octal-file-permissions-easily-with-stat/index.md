@@ -3,8 +3,6 @@ aliases:
 - /2013/12/10/learn-octal-file-permissions-easily-with-stat/
 author: Major Hayden
 date: 2013-12-10 13:41:40
-dsq_thread_id:
-- 3671596051
 tags:
 - command line
 - linux

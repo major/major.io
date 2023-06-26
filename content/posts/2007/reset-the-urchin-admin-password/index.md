@@ -3,8 +3,6 @@ aliases:
 - /2007/08/08/reset-the-urchin-admin-password/
 author: Major Hayden
 date: 2007-08-09 00:50:45
-dsq_thread_id:
-- 3679035181
 tags:
 - command line
 - web

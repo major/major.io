@@ -3,8 +3,6 @@ aliases:
 - /2008/09/19/compress-your-web-content-for-better-performance/
 author: Major Hayden
 date: 2008-09-19 17:00:47
-dsq_thread_id:
-- 3642771672
 tags:
 - apache
 - development

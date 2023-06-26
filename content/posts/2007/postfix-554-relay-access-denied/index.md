@@ -3,8 +3,6 @@ aliases:
 - /2007/08/30/postfix-554-relay-access-denied/
 author: Major Hayden
 date: 2007-08-31 01:06:02
-dsq_thread_id:
-- 3642769837
 tags:
 - mail
 title: 'Postfix: 554 Relay access denied'

@@ -3,8 +3,6 @@ aliases:
 - /2014/09/11/howto-time-warner-cable-ipv6/
 author: Major Hayden
 date: 2014-09-11 14:43:03
-dsq_thread_id:
-- 3642807746
 tags:
 - fedora
 - ipv6

@@ -3,8 +3,6 @@ aliases:
 - /2010/11/24/monitor-mysql-restore-progress-with-pv/
 author: Major Hayden
 date: 2010-11-24 16:43:28
-dsq_thread_id:
-- 3642806347
 tags:
 - command line
 - database

@@ -3,8 +3,6 @@ aliases:
 - /2014/12/05/send-weechat-notifications-via-pushover/
 author: Major Hayden
 date: 2014-12-05 16:11:13
-dsq_thread_id:
-- 3642807768
 tags:
 - fedora
 - irc

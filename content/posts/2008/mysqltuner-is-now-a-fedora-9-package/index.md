@@ -3,8 +3,6 @@ aliases:
 - /2008/06/27/mysqltuner-is-now-a-fedora-9-package/
 author: Major Hayden
 date: 2008-06-27 17:16:56
-dsq_thread_id:
-- 3678981397
 tags:
 - database
 - fedora

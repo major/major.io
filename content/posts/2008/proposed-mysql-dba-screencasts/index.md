@@ -3,8 +3,6 @@ aliases:
 - /2008/04/30/proposed-mysql-dba-screencasts/
 author: Major Hayden
 date: 2008-04-30 23:33:12
-dsq_thread_id:
-- 3642771152
 tags:
 - database
 title: Proposed MySQL DBA Screencasts

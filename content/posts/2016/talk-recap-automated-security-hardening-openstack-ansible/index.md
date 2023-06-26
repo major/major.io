@@ -3,8 +3,6 @@ aliases:
 - /2016/04/26/talk-recap-automated-security-hardening-openstack-ansible/
 author: Major Hayden
 date: 2016-04-26 21:19:02
-dsq_thread_id:
-- 4779343713
 tags:
 - ansible
 - openstack

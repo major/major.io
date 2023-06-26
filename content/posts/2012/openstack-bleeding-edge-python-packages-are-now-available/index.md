@@ -3,8 +3,6 @@ aliases:
 - /2012/02/01/openstack-bleeding-edge-python-packages-are-now-available/
 author: Major Hayden
 date: 2012-02-01 15:05:16
-dsq_thread_id:
-- 3678936040
 tags:
 - apache
 - command line

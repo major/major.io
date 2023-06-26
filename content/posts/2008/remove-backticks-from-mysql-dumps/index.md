@@ -3,8 +3,6 @@ aliases:
 - /2008/06/18/remove-backticks-from-mysql-dumps/
 author: Major Hayden
 date: 2008-06-18 17:00:01
-dsq_thread_id:
-- 3645469818
 tags:
 - mysql
 - sed

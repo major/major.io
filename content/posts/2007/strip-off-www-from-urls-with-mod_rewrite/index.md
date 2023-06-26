@@ -3,8 +3,6 @@ aliases:
 - /2007/01/15/strip-off-www-from-urls-with-mod_rewrite/
 author: Major Hayden
 date: 2007-01-15 19:45:55
-dsq_thread_id:
-- 3646736558
 tags:
 - web
 title: Strip off www from URLs with mod_rewrite

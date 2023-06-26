@@ -3,8 +3,6 @@ aliases:
 - /2008/01/14/mysql-replication-slave-performance/
 author: Major Hayden
 date: 2008-01-14 18:26:40
-dsq_thread_id:
-- 3645415021
 tags:
 - database
 - mysql

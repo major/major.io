@@ -3,8 +3,6 @@ aliases:
 - /2012/04/18/performance-and-redundancy-boost-for-icanhazip-com/
 author: Major Hayden
 date: 2012-04-18 23:30:06
-dsq_thread_id:
-- 3642806948
 tags:
 - networking
 - web

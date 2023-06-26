@@ -3,8 +3,6 @@ aliases:
 - /2007/06/18/sub-par-dns-stuff-at-dnsstuff/
 author: Major Hayden
 date: 2007-06-19 02:56:06
-dsq_thread_id:
-- 3642768070
 tags:
 - development
 title: Sub-par DNS stuff at DNSStuff

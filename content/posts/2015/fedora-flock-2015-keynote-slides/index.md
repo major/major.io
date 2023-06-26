@@ -3,8 +3,6 @@ aliases:
 - /2015/08/14/fedora-flock-2015-keynote-slides/
 author: Major Hayden
 date: 2015-08-14 15:10:08
-dsq_thread_id:
-- 4032637655
 tags:
 - fedora
 - general advice

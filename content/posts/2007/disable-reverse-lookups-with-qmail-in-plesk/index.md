@@ -3,8 +3,6 @@ aliases:
 - /2007/04/05/disable-reverse-lookups-with-qmail-in-plesk/
 author: Major Hayden
 date: 2007-04-05 16:00:53
-dsq_thread_id:
-- 3642766313
 tags:
 - mail
 - plesk

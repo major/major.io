@@ -3,8 +3,6 @@ aliases:
 - /2015/06/08/pulseaudio-popping-with-multiple-sounds-in-fedora-22/
 author: Major Hayden
 date: 2015-06-08 13:37:24
-dsq_thread_id:
-- 3831330407
 tags:
 - fedora
 - pulseaudio

@@ -3,8 +3,6 @@ aliases:
 - /2007/02/23/hide-apache-version/
 author: Major Hayden
 date: 2007-02-23 21:07:48
-dsq_thread_id:
-- 3679065452
 tags:
 - security
 - web

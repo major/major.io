@@ -3,8 +3,6 @@ aliases:
 - /2007/03/23/apaches-mysterious-trailing-slash/
 author: Major Hayden
 date: 2007-03-23 13:20:27
-dsq_thread_id:
-- 3679061133
 tags:
 - web
 title: Apache’s mysterious trailing slash

@@ -3,8 +3,6 @@ aliases:
 - /2012/02/28/preparing-for-red-hat-exams/
 author: Major Hayden
 date: 2012-02-28 21:35:28
-dsq_thread_id:
-- 3642806911
 tags:
 - fedora
 - general advice

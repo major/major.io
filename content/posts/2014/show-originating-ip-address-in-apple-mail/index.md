@@ -3,8 +3,6 @@ aliases:
 - /2014/03/18/show-originating-ip-address-in-apple-mail/
 author: Major Hayden
 date: 2014-03-18 14:20:13
-dsq_thread_id:
-- 3642807432
 tags:
 - apple
 - email

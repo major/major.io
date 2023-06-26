@@ -3,8 +3,6 @@ aliases:
 - /2011/09/15/receive-e-mail-reports-for-selinux-avc-denials/
 author: Major Hayden
 date: 2011-09-16 04:17:04
-dsq_thread_id:
-- 3642806700
 tags:
 - centos
 - command line

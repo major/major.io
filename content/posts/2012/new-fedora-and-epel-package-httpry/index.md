@@ -3,8 +3,6 @@ aliases:
 - /2012/03/14/new-fedora-and-epel-package-httpry/
 author: Major Hayden
 date: 2012-03-14 14:00:29
-dsq_thread_id:
-- 3642806930
 tags:
 - centos
 - command line

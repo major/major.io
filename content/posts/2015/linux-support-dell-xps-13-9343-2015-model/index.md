@@ -3,8 +3,6 @@ aliases:
 - /2015/02/03/linux-support-dell-xps-13-9343-2015-model/
 author: Major Hayden
 date: 2015-02-03 15:23:24
-dsq_thread_id:
-- 3642807788
 tags:
 - dell
 - fedora

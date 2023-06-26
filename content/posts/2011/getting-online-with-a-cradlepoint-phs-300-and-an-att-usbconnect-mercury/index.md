@@ -3,8 +3,6 @@ aliases:
 - /2011/12/16/getting-online-with-a-cradlepoint-phs-300-and-an-att-usbconnect-mercury/
 author: Major Hayden
 date: 2011-12-16 07:07:08
-dsq_thread_id:
-- 3642806733
 featured_image: /wp-content/uploads/2011/12/phs300.jpg
 tags:
 - linux

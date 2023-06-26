@@ -3,8 +3,6 @@ aliases:
 - /2008/11/02/syncing-an-iphone-with-a-new-mac-without-hassles/
 author: Major Hayden
 date: 2008-11-02 16:56:23
-dsq_thread_id:
-- 3642805302
 tags:
 - apple
 - iphone

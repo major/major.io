@@ -3,8 +3,6 @@ aliases:
 - /2012/06/11/what-installing-a-ceiling-fan-can-teach-you-about-administering-servers/
 author: Major Hayden
 date: 2012-06-11 16:00:57
-dsq_thread_id:
-- 3678929611
 tags:
 - general advice
 - sysadmin

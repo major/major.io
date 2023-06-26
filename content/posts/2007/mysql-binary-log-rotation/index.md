@@ -5,8 +5,6 @@ aliases:
 - /2007/09/07/mysql-binary-log-rotation/
 author: Major Hayden
 date: 2007-09-07 22:07:17
-dsq_thread_id:
-- 3642770029
 tags:
 - database
 title: MySQL binary log rotation

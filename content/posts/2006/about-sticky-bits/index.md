@@ -3,8 +3,6 @@ aliases:
 - /2006/12/30/about-sticky-bits/
 author: Major Hayden
 date: 2006-12-31 03:35:26
-dsq_thread_id:
-- 3676680184
 tags:
 - security
 title: About Sticky Bits

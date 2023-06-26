@@ -3,8 +3,6 @@ aliases:
 - /2009/04/21/piping-log-files-to-a-syslog-server/
 author: Major Hayden
 date: 2009-04-21 22:59:21
-dsq_thread_id:
-- 3642717915
 tags:
 - logs
 - syslog

@@ -3,8 +3,6 @@ aliases:
 - /2012/06/26/off-to-the-2012-red-hat-summit/
 author: Major Hayden
 date: 2012-06-26 10:11:33
-dsq_thread_id:
-- 3678928682
 tags:
 - linux
 - red hat

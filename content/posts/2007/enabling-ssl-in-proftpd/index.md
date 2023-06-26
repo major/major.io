@@ -3,8 +3,6 @@ aliases:
 - /2007/02/08/enabling-ssl-in-proftpd/
 author: Major Hayden
 date: 2007-02-08 23:28:18
-dsq_thread_id:
-- 3679068279
 tags:
 - ftp
 - plesk

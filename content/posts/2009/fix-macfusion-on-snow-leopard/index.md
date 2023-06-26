@@ -5,8 +5,6 @@ aliases:
 - /2009/08/28/fix-macfusion-on-snow-leopard/
 author: Major Hayden
 date: 2009-08-28 16:21:23
-dsq_thread_id:
-- 3642805719
 tags:
 - ftp
 - mac

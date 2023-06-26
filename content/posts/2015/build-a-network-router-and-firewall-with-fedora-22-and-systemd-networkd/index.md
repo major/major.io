@@ -3,8 +3,6 @@ aliases:
 - /2015/08/27/build-a-network-router-and-firewall-with-fedora-22-and-systemd-networkd/
 author: Major Hayden
 date: 2015-08-27 12:38:43
-dsq_thread_id:
-- 4071756196
 tags:
 - fedora
 - firewall

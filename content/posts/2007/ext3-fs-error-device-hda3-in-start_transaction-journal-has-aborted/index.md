@@ -3,8 +3,6 @@ aliases:
 - /2007/11/20/ext3-fs-error-device-hda3-in-start_transaction-journal-has-aborted/
 author: Major Hayden
 date: 2007-11-20 18:23:40
-dsq_thread_id:
-- 3642773582
 tags:
 - command line
 - emergency

@@ -3,8 +3,6 @@ aliases:
 - /2007/08/10/correcting-horde-problems-after-upgrading-to-php-5-on-plesk-75x/
 author: Major Hayden
 date: 2007-08-11 02:08:49
-dsq_thread_id:
-- 3679034003
 tags:
 - plesk
 - web

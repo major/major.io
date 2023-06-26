@@ -3,8 +3,6 @@ aliases:
 - /2007/08/10/using-wildcard-subdomains-in-plesk/
 author: Major Hayden
 date: 2007-08-11 02:19:09
-dsq_thread_id:
-- 3642769296
 tags:
 - plesk
 title: Using wildcard subdomains in Plesk

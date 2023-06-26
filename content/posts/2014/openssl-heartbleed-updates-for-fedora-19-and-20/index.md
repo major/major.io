@@ -3,8 +3,6 @@ aliases:
 - /2014/04/07/openssl-heartbleed-updates-for-fedora-19-and-20/
 author: Major Hayden
 date: 2014-04-08 01:18:19
-dsq_thread_id:
-- 3642807443
 tags:
 - fedora
 - security

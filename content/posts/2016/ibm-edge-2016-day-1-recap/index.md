@@ -3,8 +3,6 @@ aliases:
 - /2016/09/20/ibm-edge-2016-day-1-recap/
 author: Major Hayden
 date: 2016-09-20 20:19:48
-dsq_thread_id:
-- 5159712495
 tags:
 - hardware
 - ibm

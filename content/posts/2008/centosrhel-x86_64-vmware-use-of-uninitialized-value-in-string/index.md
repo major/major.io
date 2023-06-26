@@ -3,8 +3,6 @@ aliases:
 - /2008/09/03/centosrhel-x86_64-vmware-use-of-uninitialized-value-in-string/
 author: Major Hayden
 date: 2008-09-03 17:06:20
-dsq_thread_id:
-- 3642771926
 tags:
 - perl
 - vmware

@@ -3,8 +3,6 @@ aliases:
 - /2012/01/13/xenserver-6-disable-gpt-and-get-a-larger-root-partition/
 author: Major Hayden
 date: 2012-01-13 15:00:10
-dsq_thread_id:
-- 3642806778
 tags:
 - command line
 - linux

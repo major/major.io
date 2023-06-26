@@ -3,8 +3,6 @@ aliases:
 - /2008/09/20/new-look/
 author: Major Hayden
 date: 2008-09-20 20:19:05
-dsq_thread_id:
-- 3642805288
 tags:
 - blog
 - wordpress

@@ -3,8 +3,6 @@ aliases:
 - /2006/12/26/fixing-invalid-helos/
 author: Major Hayden
 date: 2006-12-27 03:02:40
-dsq_thread_id:
-- 3642764602
 tags:
 - mail
 title: Fixing Invalid HELO’s

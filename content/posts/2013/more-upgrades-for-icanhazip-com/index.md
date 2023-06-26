@@ -3,8 +3,6 @@ aliases:
 - /2013/02/23/more-upgrades-for-icanhazip-com/
 author: Major Hayden
 date: 2013-02-23 20:15:24
-dsq_thread_id:
-- 3642807123
 title: More upgrades for icanhazip.com
 ---
 

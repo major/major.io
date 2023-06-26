@@ -3,8 +3,6 @@ aliases:
 - /2013/05/21/handling-terminal-color-escape-sequences-in-less/
 author: Major Hayden
 date: 2013-05-22 02:33:00
-dsq_thread_id:
-- 3642807277
 tags:
 - centos
 - command line

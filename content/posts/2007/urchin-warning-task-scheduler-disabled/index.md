@@ -3,8 +3,6 @@ aliases:
 - /2007/08/08/urchin-warning-task-scheduler-disabled/
 author: Major Hayden
 date: 2007-08-09 00:48:20
-dsq_thread_id:
-- 3679035976
 tags:
 - web
 title: 'Urchin: Warning! Task scheduler disabled.'

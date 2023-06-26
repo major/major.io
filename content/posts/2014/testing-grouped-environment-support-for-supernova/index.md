@@ -3,8 +3,6 @@ aliases:
 - /2014/05/04/testing-grouped-environment-support-for-supernova/
 author: Major Hayden
 date: 2014-05-05 02:43:04
-dsq_thread_id:
-- 3678887916
 tags:
 - openstack
 - python

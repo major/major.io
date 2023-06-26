@@ -3,8 +3,6 @@ aliases:
 - /2015/08/28/build-a-high-performance-kvm-hypervisor-on-rackspaces-onmetal-servers/
 author: Major Hayden
 date: 2015-08-28 14:00:16
-dsq_thread_id:
-- 4075341357
 tags:
 - fedora
 - kvm

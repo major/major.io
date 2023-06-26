@@ -3,8 +3,6 @@ aliases:
 - /2007/02/11/bulk-ip-update-in-plesk/
 author: Major Hayden
 date: 2007-02-12 01:41:49
-dsq_thread_id:
-- 3642765266
 tags:
 - plesk
 title: Bulk IP update in Plesk

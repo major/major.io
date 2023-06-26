@@ -3,8 +3,6 @@ aliases:
 - /2007/03/18/awstats-icons-dont-appear-in-plesk-81/
 author: Major Hayden
 date: 2007-03-18 19:17:26
-dsq_thread_id:
-- 3642765835
 tags:
 - plesk
 - web

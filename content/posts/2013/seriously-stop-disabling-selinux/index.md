@@ -3,8 +3,6 @@ aliases:
 - /2013/04/15/seriously-stop-disabling-selinux/
 author: Major Hayden
 date: 2013-04-16 04:40:10
-dsq_thread_id:
-- 3642807184
 tags:
 - centos
 - command line

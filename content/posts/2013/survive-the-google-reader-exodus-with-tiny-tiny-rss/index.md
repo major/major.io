@@ -3,8 +3,6 @@ aliases:
 - /2013/03/17/survive-the-google-reader-exodus-with-tiny-tiny-rss/
 author: Major Hayden
 date: 2013-03-17 21:27:38
-dsq_thread_id:
-- 3642807132
 tags:
 - general advice
 - google reader

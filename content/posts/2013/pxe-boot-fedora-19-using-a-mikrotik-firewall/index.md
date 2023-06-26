@@ -3,8 +3,6 @@ aliases:
 - /2013/07/23/pxe-boot-fedora-19-using-a-mikrotik-firewall/
 author: Major Hayden
 date: 2013-07-23 21:47:33
-dsq_thread_id:
-- 3642807335
 tags:
 - fedora
 - mikro

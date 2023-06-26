@@ -3,8 +3,6 @@ aliases:
 - /2016/09/30/whats-happening-in-openstack-ansible-whoa-september-2016/
 author: Major Hayden
 date: 2016-09-30 14:33:33
-dsq_thread_id:
-- 5185817584
 featured_image: /wp-content/uploads/2016/09/1024px-Arc_de_Triomf_Barcelona.jpg
 tags:
 - ansible

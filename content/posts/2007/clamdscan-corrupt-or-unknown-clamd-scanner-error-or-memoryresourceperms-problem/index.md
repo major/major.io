@@ -3,8 +3,6 @@ aliases:
 - /2007/11/16/clamdscan-corrupt-or-unknown-clamd-scanner-error-or-memoryresourceperms-problem/
 author: Major Hayden
 date: 2007-11-16 18:11:05
-dsq_thread_id:
-- 3642773671
 tags:
 - clamd
 - mail

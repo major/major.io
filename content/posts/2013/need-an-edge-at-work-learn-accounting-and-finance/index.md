@@ -3,8 +3,6 @@ aliases:
 - /2013/09/16/need-an-edge-at-work-learn-accounting-and-finance/
 author: Major Hayden
 date: 2013-09-17 04:06:18
-dsq_thread_id:
-- 3642807385
 tags:
 - general advice
 - infosec

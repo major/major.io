@@ -3,8 +3,6 @@ aliases:
 - /2007/10/11/mysqldump-got-packet-bigger-than-max_allowed_packet-bytes/
 author: Major Hayden
 date: 2007-10-12 01:28:17
-dsq_thread_id:
-- 3642770347
 tags:
 - database
 - mysql

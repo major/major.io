@@ -3,8 +3,6 @@ aliases:
 - /2014/06/22/performance-benchmarks-kvm-vs-xen/
 author: Major Hayden
 date: 2014-06-22 17:00:14
-dsq_thread_id:
-- 3642807559
 tags:
 - centos
 - fedora

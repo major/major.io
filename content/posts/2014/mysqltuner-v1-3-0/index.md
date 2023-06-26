@@ -3,8 +3,6 @@ aliases:
 - /2014/02/21/mysqltuner-v1-3-0/
 author: Major Hayden
 date: 2014-02-22 02:30:53
-dsq_thread_id:
-- 3644643656
 tags:
 - database
 - mariadb

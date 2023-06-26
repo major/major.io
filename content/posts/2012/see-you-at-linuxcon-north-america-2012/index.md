@@ -3,8 +3,6 @@ aliases:
 - /2012/08/15/see-you-at-linuxcon-north-america-2012/
 author: Major Hayden
 date: 2012-08-15 14:02:43
-dsq_thread_id:
-- 3678924376
 tags:
 - fedora
 - linux

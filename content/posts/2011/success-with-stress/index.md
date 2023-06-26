@@ -3,8 +3,6 @@ aliases:
 - /2011/07/21/success-with-stress/
 author: Major Hayden
 date: 2011-07-22 01:50:34
-dsq_thread_id:
-- 3642806592
 featured_image: /wp-content/uploads/2011/07/BustTheKeyboard.jpg
 tags:
 - general advice

@@ -3,8 +3,6 @@ aliases:
 - /2015/06/21/book-review-linux-kernel-development/
 author: Major Hayden
 date: 2015-06-21 15:26:54
-dsq_thread_id:
-- 3866861229
 tags:
 - book
 - fedora

@@ -3,8 +3,6 @@ aliases:
 - /2009/12/07/upgrading-fedora-11-to-12-using-yum/
 author: Major Hayden
 date: 2009-12-08 02:28:06
-dsq_thread_id:
-- 3646629767
 tags:
 - fedora
 - rpm

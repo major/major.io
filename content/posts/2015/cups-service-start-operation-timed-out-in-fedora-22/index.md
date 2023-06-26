@@ -3,8 +3,6 @@ aliases:
 - /2015/06/09/cups-service-start-operation-timed-out-in-fedora-22/
 author: Major Hayden
 date: 2015-06-09 14:35:48
-dsq_thread_id:
-- 3834462486
 tags:
 - dns
 - fedora

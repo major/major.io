@@ -3,8 +3,6 @@ aliases:
 - /2008/06/17/why-i-use-plesk/
 author: Major Hayden
 date: 2008-06-17 17:00:47
-dsq_thread_id:
-- 3642772274
 tags:
 - plesk
 title: Why I use Plesk

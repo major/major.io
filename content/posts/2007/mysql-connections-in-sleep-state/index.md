@@ -3,8 +3,6 @@ aliases:
 - /2007/05/20/mysql-connections-in-sleep-state/
 author: Major Hayden
 date: 2007-05-21 03:26:11
-dsq_thread_id:
-- 3642767167
 tags:
 - database
 - development

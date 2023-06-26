@@ -3,8 +3,6 @@ aliases:
 - /2010/11/16/accessing-rackspace-cloud-servers-and-slicehost-slices-privately-via-openvpn/
 author: Major Hayden
 date: 2010-11-16 13:52:53
-dsq_thread_id:
-- 3642806336
 tags:
 - cloud
 - command line
