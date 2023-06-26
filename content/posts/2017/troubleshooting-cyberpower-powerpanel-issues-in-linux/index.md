@@ -3,7 +3,6 @@ aliases:
 - /2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/
 author: Major Hayden
 date: 2017-07-25 18:16:11
-featured_image: /wp-content/uploads/2017/07/1024px-Sierra_Blanca_and_electricity_pole-e1501006440664.jpg
 tags:
 - cyberpower
 - fedora
@@ -13,8 +12,6 @@ tags:
 - usb
 title: Troubleshooting CyberPower PowerPanel issues in Linux
 ---
-
-![1]
 
 I have a [CyberPower BRG1350AVRLCD][2] at home and I've just connected it to a new device. However, the `pwrstat` command doesn't retrieve any useful data on the new system:
 

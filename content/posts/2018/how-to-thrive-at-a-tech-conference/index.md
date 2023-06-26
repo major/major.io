@@ -3,7 +3,6 @@ aliases:
 - /2018/05/09/how-to-thrive-at-a-tech-conference/
 author: Major Hayden
 date: 2018-05-09 23:54:28
-featured_image: /wp-content/uploads/2018/05/IMG_20180508_202748.jpg
 tags:
 - conferences
 - fedora
@@ -11,8 +10,6 @@ tags:
 - red hat
 title: How to thrive at a technical conference
 ---
-
-![1]
 
 I'm at the [2018 Red Hat Summit][2] this week in San Francisco and I am enjoying the interactions between developers, executives, vendors, and engineers. It's my seventh Summit (but my first as a Red Hat employee!), but I regularly meet people who are attending their first technical conference.
 

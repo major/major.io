@@ -3,7 +3,6 @@ aliases:
 - /2015/06/10/chrome-43-stuck-in-hidpi-mode/
 author: Major Hayden
 date: 2015-06-10 12:36:03
-featured_image: /wp-content/uploads/2015/06/Google_Chrome_icon_2011.png
 tags:
 - chrome
 - fedora
@@ -11,7 +10,7 @@ tags:
 title: Chrome 43 stuck in HiDPI mode
 ---
 
-[<img src="/wp-content/uploads/2015/06/Google_Chrome_icon_2011-300x300.png" alt="Google Chrome icon" width="300" height="300" class="alignright size-medium wp-image-5642" srcset="/wp-content/uploads/2015/06/Google_Chrome_icon_2011-300x300.png 300w, /wp-content/uploads/2015/06/Google_Chrome_icon_2011-150x150.png 150w, /wp-content/uploads/2015/06/Google_Chrome_icon_2011.png 512w" sizes="(max-width: 300px) 100vw, 300px" />][1]I ran some package updates last night and ended up with a new version of Google Chrome from the stable branch. After restarting Chrome, everything in the interface was **huge**. The icons in the bookmark bar, the text, the padding - all of it looked enormous.
+I ran some package updates last night and ended up with a new version of Google Chrome from the stable branch. After restarting Chrome, everything in the interface was **huge**. The icons in the bookmark bar, the text, the padding - all of it looked enormous.
 
 After a little searching, I found a [helpful line][2] in the ArchLinux HiDPI documentation:
 

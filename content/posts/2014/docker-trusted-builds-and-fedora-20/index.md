@@ -3,7 +3,6 @@ aliases:
 - /2014/03/26/docker-trusted-builds-and-fedora-20/
 author: Major Hayden
 date: 2014-03-26 05:17:58
-featured_image: /wp-content/uploads/2014/03/docker-whale.png
 tags:
 - containers
 - docker
@@ -16,9 +15,7 @@ tags:
 title: Docker, trusted builds, and Fedora 20
 ---
 
-[<img src="/wp-content/uploads/2014/03/docker-whale-150x150.png" alt="Docker whale logo" width="150" height="150" class="alignright size-thumbnail wp-image-4782" srcset="/wp-content/uploads/2014/03/docker-whale-150x150.png 150w, /wp-content/uploads/2014/03/docker-whale.png 256w" sizes="(max-width: 150px) 100vw, 150px" />][1]
-
-[<img src="/wp-content/uploads/2012/01/fedorainfinity.png" alt="Fedora Infinity Logo" width="105" height="102" class="alignright size-full wp-image-2712" />][2]Docker is a hot topic in the Linux world at the moment and I decided to try out the new [trusted build process][3]. Long story short, you put your Dockerfile along with any additional content into your GitHub repository, link your GitHub account with Docker, and then fire off a build. The Docker index labels it as "trusted" since it was build from source files in your repository.
+Docker is a hot topic in the Linux world at the moment and I decided to try out the new [trusted build process][3]. Long story short, you put your Dockerfile along with any additional content into your GitHub repository, link your GitHub account with Docker, and then fire off a build. The Docker index labels it as "trusted" since it was build from source files in your repository.
 
 I set off to build a Dockerfile to provision a container that would run all of the [icanhazip][4] services. Getting httpd running was a little tricky, but I soon had a [working Dockerfile][5] that built and ran successfully on Fedora 20.
 

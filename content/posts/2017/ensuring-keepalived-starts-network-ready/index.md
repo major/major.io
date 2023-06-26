@@ -3,7 +3,6 @@ aliases:
 - /2017/12/15/ensuring-keepalived-starts-network-ready/
 author: Major Hayden
 date: 2017-12-15 21:18:37
-featured_image: /wp-content/uploads/2017/12/wait.jpg
 tags:
 - ansible
 - centos
@@ -15,8 +14,6 @@ tags:
 - systemd
 title: Ensuring keepalived starts after the network is ready
 ---
-
-![1]
 
 After a recent [OpenStack-Ansible (OSA)][2] deployment on CentOS, I found that keepalived was not starting properly at boot time:
 
@@ -75,6 +72,5 @@ Save the file in the editor and reboot the server. The keepalived service should
 
 Learn more by reading the upstream [NetworkTarget][3] documentation.
 
- [1]: /wp-content/uploads/2017/12/wait.jpg
  [2]: https://github.com/openstack/openstack-ansible
  [3]: https://www.freedesktop.org/wiki/Software/systemd/NetworkTarget/

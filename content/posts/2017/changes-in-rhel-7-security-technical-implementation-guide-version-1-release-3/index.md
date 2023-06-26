@@ -17,11 +17,11 @@ tags:
 - security
 - suse
 - ubuntu
-title: Changes in RHEL 7 Security Technical Implementation Guide Version 1, Release
-  3
+title: Changes in RHEL 7 Security Technical Implementation Guide Version 1, Release 3
 ---
 
-[<img src="/wp-content/uploads/2017/06/2-300x91.jpg" alt="ansible-hardening logo" width="300" height="91" class="alignright size-medium wp-image-6744" srcset="/wp-content/uploads/2017/06/2-300x91.jpg 300w, /wp-content/uploads/2017/06/2-768x233.jpg 768w, /wp-content/uploads/2017/06/2-1024x311.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]The latest release of the Red Hat Enterprise Linux Security Technical Implementation Guide (STIG) [was published last week][2]. This release is Version 1, Release 3, and it contains four main changes:
+The latest release of the Red Hat Enterprise Linux Security Technical Implementation Guide (STIG) [was published last week][2].
+This release is Version 1, Release 3, and it contains four main changes:
 
   * V-77819 - Multifactor authentication is required for graphical logins
   * V-77821 - Datagram Congestion Control Protocol (DCCP) kernel module must be disabled

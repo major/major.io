@@ -3,7 +3,6 @@ aliases:
 - /2018/03/07/reaching-the-fork-in-the-road/
 author: Major Hayden
 date: 2018-03-07 16:18:51
-featured_image: /wp-content/uploads/2018/03/1024px-Mountain_trail_in_Panachaiko_mountains_Greece.jpg
 tags:
 - cloud
 - fedora
@@ -13,8 +12,6 @@ tags:
 - rackspace
 title: Reaching the fork in the road
 ---
-
-![1]
 
 Walt Disney said it best:
 

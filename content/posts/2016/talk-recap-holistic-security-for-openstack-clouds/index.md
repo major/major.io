@@ -3,7 +3,6 @@ aliases:
 - /2016/10/31/talk-recap-holistic-security-for-openstack-clouds/
 author: Major Hayden
 date: 2016-10-31 15:52:47
-featured_image: /wp-content/uploads/2016/10/Holistic-Security-for-OpenStack-Clouds-OpenStack-Summit-Barcelona-2.png
 tags:
 - network
 - networking
@@ -12,8 +11,6 @@ tags:
 - security
 title: 'Talk Recap: Holistic Security for OpenStack Clouds'
 ---
-
-![1]
 
 Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards.
 

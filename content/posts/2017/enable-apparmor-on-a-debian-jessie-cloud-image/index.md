@@ -3,7 +3,6 @@ aliases:
 - /2017/05/24/enable-apparmor-on-a-debian-jessie-cloud-image/
 author: Major Hayden
 date: 2017-05-24 16:14:03
-featured_image: /wp-content/uploads/2017/05/MaxPixel.freegreatpicture.com-Knights-Glove-Middle-Ages-Knight-Historically-Armor-2010659-e1495641903942.jpg
 tags:
 - ansible
 - apparmor
@@ -13,8 +12,6 @@ tags:
 - security
 title: Enable AppArmor on a Debian Jessie cloud image
 ---
-
-![1]
 
 I merged some [initial Debian support][2] into the openstack-ansible-security role and ran into an issue enabling AppArmor. The `apparmor` service failed to start and I found this output in the system journal:
 

@@ -3,14 +3,11 @@ aliases:
 - /2018/01/06/takeaways-from-my-foray-into-amateur-radio/
 author: Major Hayden
 date: 2018-01-06 19:26:53
-featured_image: /wp-content/uploads/2018/01/kenwood_mobile_radio.jpg
 tags:
 - fedora
 - radio
 title: Takeaways from my foray into amateur radio
 ---
-
-![1]
 
 The [Overland Expo in Asheville][2] last year was a great event, and one of my favorite sessions covered the basics about radio communications while overlanding. The instructors shared their radios with us and taught us some tips and tricks for how to save power and communicate effectively on the trail.
 

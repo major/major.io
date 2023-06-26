@@ -3,7 +3,6 @@ aliases:
 - /2017/02/24/openstack-isnt-dead-its-boring-thats-a-good-thing/
 author: Major Hayden
 date: 2017-02-24 16:06:24
-featured_image: /wp-content/uploads/2017/02/1024px-Midtown_HDR_Atlanta-e1487943722280.jpg
 tags:
 - cloud
 - development
@@ -12,8 +11,6 @@ tags:
 - virtualization
 title: OpenStack isn’t dead. It’s boring. That’s a good thing.
 ---
-
-![1]
 
 _NOTE: The opinions shared in this post are mine alone and are not related to my employer in any way._
 

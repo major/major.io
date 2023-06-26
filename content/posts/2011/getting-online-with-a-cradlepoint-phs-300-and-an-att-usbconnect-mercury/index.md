@@ -3,7 +3,6 @@ aliases:
 - /2011/12/16/getting-online-with-a-cradlepoint-phs-300-and-an-att-usbconnect-mercury/
 author: Major Hayden
 date: 2011-12-16 07:07:08
-featured_image: /wp-content/uploads/2011/12/phs300.jpg
 tags:
 - linux
 - mac
@@ -13,8 +12,6 @@ title: Getting online with a CradlePoint PHS-300 and an AT&T USBConnect Mercury
 ---
 
 Anyone who has used a 3G ExpressCard or USB stick knows how handy they can be when you need internet access away from home (and away from Wi-Fi). I've run into some situations recently where I needed to share my 3G connection with more than one device without using internet sharing on my MacBook Pro.
-
-![1]
 
 That led me to pick up a CradlePoint PHS-300 (discontinued by the manufacturer, but available from [Amazon][2] for about $35). It's compatible with my AT&T USBConnect Mercury (a.k.a. Sierra Wireless Compass 885/885U) USB stick.
 

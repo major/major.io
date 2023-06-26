@@ -3,7 +3,6 @@ aliases:
 - /2011/07/21/success-with-stress/
 author: Major Hayden
 date: 2011-07-22 01:50:34
-featured_image: /wp-content/uploads/2011/07/BustTheKeyboard.jpg
 tags:
 - general advice
 - sysadmin
@@ -12,9 +11,9 @@ title: Success with stress
 
 _This is a [copy of a post][1] I wrote for the [Rackspace Talent][2] blog. Much of it probably applies to the job of a system administrator, so I figured it would be a good idea to post it here as well. Let me know what you think!_
 
-* * *
+----
 
-[<img src="/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg" alt="sledgehammer hitting a keyboard" title="success with stress" width="199" height="300" class="alignright size-medium wp-image-2356" srcset="/wp-content/uploads/2011/07/BustTheKeyboard-199x300.jpg 199w, /wp-content/uploads/2011/07/BustTheKeyboard.jpg 682w" sizes="(max-width: 199px) 100vw, 199px" />][3]Although Rackspace has one of the best work environments of any company I’ve worked for, there are plenty of opportunities to become stressed.</p>
+Although Rackspace has one of the best work environments of any company I’ve worked for, there are plenty of opportunities to become stressed.</p>
 
 Stress can come from a variety of sources. Some of the obvious ones involve dealing with outages or tight deadlines, but there are some that aren’t so obvious, such as maintaining the customers’ trust and interpersonal issues.
 

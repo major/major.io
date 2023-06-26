@@ -3,7 +3,6 @@ aliases:
 - /2018/02/28/install-testing-kernels-in-fedora/
 author: Major Hayden
 date: 2018-02-28 13:53:48
-featured_image: /wp-content/uploads/2018/02/120928-F-YV474-917.jpg
 tags:
 - centos
 - dnf
@@ -14,8 +13,6 @@ tags:
 - yum
 title: Install testing kernels in Fedora
 ---
-
-![1]
 
 If you're on the latest Fedora release, you're already running lots of modern packages. However, there are those times when you may want to help with testing efforts or try out a new feature in a newer package.
 

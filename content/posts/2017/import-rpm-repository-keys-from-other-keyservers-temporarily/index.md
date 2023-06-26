@@ -3,7 +3,6 @@ aliases:
 - /2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/
 author: Major Hayden
 date: 2017-09-20 15:24:13
-featured_image: /wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg
 tags:
 - ansible
 - centos
@@ -13,7 +12,7 @@ tags:
 title: Import RPM repository GPG keys from other keyservers temporarily
 ---
 
-[<img src="/wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg" alt="Keys, but not gpg keys" width="1024" height="399" class="aligncenter size-full wp-image-6815" srcset="/wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611.jpg 1024w, /wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611-300x117.jpg 300w, /wp-content/uploads/2017/09/Close-up_of_keys-e1505920978611-768x299.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]I've been working through some patches to [OpenStack-Ansible][2] lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.
+I've been working through some patches to [OpenStack-Ansible][2] lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.
 
 Ansible was returning this error:
 

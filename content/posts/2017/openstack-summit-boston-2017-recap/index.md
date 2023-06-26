@@ -3,7 +3,6 @@ aliases:
 - /2017/05/11/openstack-summit-boston-2017-recap/
 author: Major Hayden
 date: 2017-05-12 00:25:55
-featured_image: /wp-content/uploads/2017/05/1280px-Bunker_Hill_Monument_by_night_dfv-e1494544221347.jpg
 tags:
 - ansible
 - development
@@ -13,8 +12,6 @@ tags:
 - rackspace
 title: OpenStack Summit Boston 2017 Recap
 ---
-
-![1]
 
 The OpenStack Summit wrapped up today in Boston and it was a great week! There were plenty of informative breakouts and some interesting keynotes.
 
