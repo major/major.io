@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2013-10-22 12:30:51
 tags:
 - apache
-- infosec
+- information security
 - security
 - web
 title: Guide to securing apache
