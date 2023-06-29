@@ -1,6 +1,7 @@
 ---
 aliases:
 - /2022/07/28/extra-icanhaz-services-going-offline/
+- /2022/07/28/extra-icanhazip-services-going-offline/
 author: Major Hayden
 date: '2022-07-28'
 showtableofcontents: false
