@@ -1,6 +1,7 @@
 ---
 aliases:
 - /2022/10/27/build-tailscale-exit-node-firewalld/
+- /2022/10/27/build-a-tailscale-exit-node-with-firewalld/
 author: Major Hayden
 date: '2022-10-27'
 summary: Tailscale exit nodes allow you to route your traffic through nearly any system
