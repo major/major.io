@@ -3,10 +3,8 @@ author: Major Hayden
 date: '2022-11-27'
 summary: Simplify your i3 configuration and monitor sound levels with volumeicon in your tray with the i3 window manager. 🔈 
 tags:
-  - 100DaysToOffload
   - i3
   - sound
-  - volumeicon
 title: Manage sound volume with volumeicon in i3 
 ---
 

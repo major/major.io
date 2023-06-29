@@ -4,12 +4,10 @@ aliases:
 author: Major Hayden
 date: 2017-07-25 18:16:11
 tags:
-- cyberpower
 - fedora
 - linux
 - serial
 - ups
-- usb
 title: Troubleshooting CyberPower PowerPanel issues in Linux
 ---
 

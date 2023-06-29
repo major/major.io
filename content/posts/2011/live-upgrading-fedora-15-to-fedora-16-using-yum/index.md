@@ -8,7 +8,6 @@ tags:
 - command line
 - fedora
 - linux
-- preupgrade
 - raid
 - red hat
 - scientific linux

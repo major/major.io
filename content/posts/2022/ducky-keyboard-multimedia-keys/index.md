@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-12-05'
 summary: Setting up the multimedia keys on Ducky One keyboards lets you manage your music quickly. ⌨ 
 tags:
-  - 100DaysToOffload
   - i3
   - keyboard
   - multimedia

@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-11-29'
 summary: Take quick screenshots and send them to the clipboard in i3 with maim. 📸 
 tags:
-  - 100DaysToOffload
   - clipboard
   - i3
   - maim

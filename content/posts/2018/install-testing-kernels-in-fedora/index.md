@@ -9,7 +9,6 @@ tags:
 - fedora
 - kernel
 - linux
-- testing
 - yum
 title: Install testing kernels in Fedora
 ---

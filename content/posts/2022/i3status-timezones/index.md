@@ -3,7 +3,6 @@ author: Major Hayden
 date: '2022-12-04'
 summary: Have family or coworkers in multiple time zones? Get multiple clocks with i3status. ⌚ 
 tags:
-  - 100DaysToOffload
   - i3
   - i3status
   - timezones
