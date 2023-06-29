@@ -28,7 +28,7 @@ cloudFrontDistributionID =	"E2CVUP8JO07HJ2"
 # Cache static assets for 1 year.
 pattern = "^.+\\.(js|css|svg|ttf)$"
 cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
+gzip = false
 
 [[deployment.matchers]]
 pattern = "^.+\\.(png|jpg)$"
@@ -39,8 +39,8 @@ gzip = false
 # Set custom content type for /sitemap.xml
 pattern = "^sitemap\\.xml$"
 contentType = "application/xml"
-gzip = true
+gzip = false
 
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
-gzip = true
+gzip = false
