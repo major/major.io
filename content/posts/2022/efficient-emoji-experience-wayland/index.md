@@ -5,10 +5,9 @@ author: Major Hayden
 date: '2022-05-27'
 summary: Because nobody wants an inefficient emoji workflow. 🙈
 tags:
-- emoji
+- emojis
 - fedora
 - linux
-- rofimoji
 - swaywm
 - wayland
 title: Efficient emoji experience in Wayland
