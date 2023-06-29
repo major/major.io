@@ -6,7 +6,6 @@ aliases:
 author: Major Hayden
 date: 2009-01-02 01:44:51
 tags:
-- cpan
 - perl
 title: 'CPAN: Automatically install dependencies without confirmation'
 ---

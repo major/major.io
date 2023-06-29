@@ -6,9 +6,6 @@ summary: >-
 images:
   - images/2021-08-06-tanker-in-ocean.jpg
 slug: cv
-tags:
-  - about
-  - cv
 title: Major's CV
 type: page
 ---

@@ -5,7 +5,6 @@ author: Major Hayden
 date: 2016-09-22 00:00:21
 featured_image: /wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg
 tags:
-- aix
 - ibm
 - linux
 - power
