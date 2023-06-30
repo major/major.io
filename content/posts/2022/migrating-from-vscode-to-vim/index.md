@@ -12,6 +12,11 @@ tags:
 - vim
 - vscode
 title: Migrating from vscode to vim
+coverAlt: Dark mountains in the background behind sandy hills in the shadows
+coverCaption: >
+  Photo by <a href="https://unsplash.com/pt-br/@hudsonj142?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Hudson</a>
+  on <a href="https://unsplash.com/photos/a-desert-landscape-with-mountains-in-the-background-wtUkQ2MrbiY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 ---
 
 Every Linux user experienced at least one "battle of the text editors" once in their lifetime.
