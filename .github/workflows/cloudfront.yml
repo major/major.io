@@ -68,6 +68,3 @@ jobs:
             --bucket major.io \
             --source public \
             --distribution-id E2CVUP8JO07HJ2
-
-      # - name: Deploy to S3 using hugo's built-in deploy command
-      #   run: hugo deploy --force --maxDeletes -1 --invalidateCDN
