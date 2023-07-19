@@ -53,5 +53,24 @@ jobs:
           cp public/index.xml public/feed/index.xml
           cp public/index.xml public/feed/index.html
 
-      - name: Deploy to S3
-        run: hugo deploy --force --maxDeletes -1 --invalidateCDN
+      - name: Download s3deploy
+        run: |
+          export S3DEPLOY_VERSION=2.11.0
+          curl -sLO https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz
+          tar -xzf s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz s3deploy
+          chmod +x s3deploy
+
+      - name: Deploy to S3 using s3deploy
+        run: |
+          ./s3deploy \
+            --try \
+            --acl public-read \
+            --region us-east-1 \
+            --bucket major.io \
+            --source public \
+            --deleteRemoved \
+            --invalidateCloudfront \
+            --distribution-id E2CVUP8JO07HJ2
+
+      # - name: Deploy to S3 using hugo's built-in deploy command
+      #   run: hugo deploy --force --maxDeletes -1 --invalidateCDN
