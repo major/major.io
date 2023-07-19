@@ -68,8 +68,6 @@ jobs:
             --region us-east-1 \
             --bucket major.io \
             --source public \
-            --deleteRemoved \
-            --invalidateCloudfront \
             --distribution-id E2CVUP8JO07HJ2
 
       # - name: Deploy to S3 using hugo's built-in deploy command
