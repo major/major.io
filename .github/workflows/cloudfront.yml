@@ -63,7 +63,6 @@ jobs:
       - name: Deploy to S3 using s3deploy
         run: |
           ./s3deploy \
-            --try \
             --acl public-read \
             --region us-east-1 \
             --bucket major.io \
