@@ -6,7 +6,7 @@ date: 2016-06-29 03:43:21
 tags:
 - ansible
 - fedora
-- general advice
+- advice
 - openstack
 - python
 - rackspace

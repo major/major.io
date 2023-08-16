@@ -6,7 +6,7 @@ date: 2016-08-09 17:07:35
 tags:
 - database
 - fedora
-- general advice
+- advice
 - openstack
 - python
 title: Preventing critical services from deploying on the same OpenStack host

@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2011-03-29 14:25:59
 tags:
-- general advice
+- advice
 - management
 - rackspace
 - strategy

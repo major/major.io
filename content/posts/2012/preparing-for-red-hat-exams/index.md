@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2012-02-28 21:35:28
 tags:
 - fedora
-- general advice
+- advice
 - linux
 - red hat
 - sysadmin

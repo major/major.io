@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2013-03-17 21:27:38
 tags:
-- general advice
+- advice
 - google reader
 - mysql
 - php

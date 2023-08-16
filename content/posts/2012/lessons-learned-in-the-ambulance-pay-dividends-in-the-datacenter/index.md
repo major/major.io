@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2012-05-31 15:00:47
 tags:
 - emergency
-- general advice
+- advice
 - operations
 - sysadmin
 title: Lessons learned in the ambulance pay dividends in the datacenter

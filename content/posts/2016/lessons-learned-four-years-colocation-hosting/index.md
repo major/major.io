@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2016-04-22 13:30:52
 tags:
 - colocation
-- general advice
+- advice
 - hardware
 - hosting
 - linux

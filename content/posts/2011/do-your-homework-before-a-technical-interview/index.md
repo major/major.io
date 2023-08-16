@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2011-05-03 02:05:05
 tags:
-- general advice
+- advice
 - interview
 - rackspace
 - sysadmin

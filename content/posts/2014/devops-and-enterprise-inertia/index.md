@@ -6,7 +6,7 @@ date: 2014-04-17 17:46:25
 tags:
 - development
 - devops
-- general advice
+- advice
 title: DevOps and enterprise inertia
 ---
 

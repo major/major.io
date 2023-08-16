@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2012-08-06 14:00:50
 tags:
-- general advice
+- advice
 - security
 - sysadmin
 title: Monitoring and protecting your reputation online

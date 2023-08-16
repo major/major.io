@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2011-07-22 01:50:34
 tags:
-- general advice
+- advice
 - sysadmin
 title: Success with stress
 ---

@@ -7,7 +7,7 @@ tags:
 - centos
 - command line
 - fedora
-- general advice
+- advice
 - redhat
 - security
 - selinux

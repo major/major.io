@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2013-09-17 04:06:18
 tags:
-- general advice
+- advice
 - information security
 - security
 title: Need an edge at work? Learn accounting and finance.

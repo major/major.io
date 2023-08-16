@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2016-02-17 15:30:14
 tags:
 - development
-- general advice
+- advice
 - sysadmin
 title: Fight cynicism with curiosity
 ---

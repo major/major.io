@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2013-11-13 15:15:12
 tags:
-- general advice
+- advice
 - information security
 - security
 title: One year in information security

@@ -6,7 +6,7 @@ date: 2015-06-21 15:26:54
 tags:
 - book
 - fedora
-- general advice
+- advice
 - kernel
 - linux
 title: 'Book Review: Linux Kernel Development'

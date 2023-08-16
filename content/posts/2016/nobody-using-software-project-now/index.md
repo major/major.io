@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2016-01-15 17:35:48
 tags:
 - development
-- general advice
+- advice
 - python
 title: Nobody is using your software project. Now what?
 ---

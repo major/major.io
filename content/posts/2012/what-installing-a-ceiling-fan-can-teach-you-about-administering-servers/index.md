@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2012-06-11 16:00:57
 tags:
-- general advice
+- advice
 - sysadmin
 title: What installing a ceiling fan can teach you about administering servers
 ---

@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2015-11-10 14:50:52
 tags:
-- general advice
+- advice
 - information security
 - presentation
 - security

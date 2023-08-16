@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-09-02 15:34:34
 tags:
 - fedora
-- general advice
+- advice
 - impostor syndrome
 - presentation
 title: 'Impostor syndrome talk: FAQs and follow-ups'

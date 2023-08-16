@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2013-03-03 17:18:13
 tags:
-- general advice
+- advice
 - security
 title: Controlling sensitive company data means losing some control of it
 ---

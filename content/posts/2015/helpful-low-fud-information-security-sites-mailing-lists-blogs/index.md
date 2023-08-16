@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-01-08 13:55:43
 tags:
 - blog
-- general advice
+- advice
 - security
 - sysadmin
 title: Helpful, low-FUD information security sites, mailing lists, and blogs

@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2015-05-27 13:46:28
 tags:
-- general advice
+- advice
 - ipsec
 - mikrotik
 - networking

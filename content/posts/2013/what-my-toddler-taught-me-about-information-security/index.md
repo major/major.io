@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2013-01-13 17:15:47
 tags:
-- general advice
+- advice
 - security
 title: What my toddler taught me about information security
 ---

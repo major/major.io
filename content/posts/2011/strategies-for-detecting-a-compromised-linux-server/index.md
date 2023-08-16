@@ -6,7 +6,7 @@ aliases:
 author: Major Hayden
 date: 2011-03-10 02:52:16
 tags:
-- general advice
+- advice
 - linux
 - networking
 - security

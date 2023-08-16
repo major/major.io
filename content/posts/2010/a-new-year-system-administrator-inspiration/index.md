@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2010-01-04 02:53:53
 tags:
 - apache
-- general advice
+- advice
 - kernel
 - linux
 - networking

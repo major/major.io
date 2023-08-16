@@ -6,7 +6,7 @@ date: 2012-03-30 14:30:45
 tags:
 - blog
 - fedora
-- general advice
+- advice
 - red hat
 - rhca
 - sysadmin

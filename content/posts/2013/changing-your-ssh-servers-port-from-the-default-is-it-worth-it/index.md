@@ -6,7 +6,7 @@ date: 2013-05-15 04:43:41
 tags:
 - command line
 - fedora
-- general advice
+- advice
 - linux
 - network
 - networking

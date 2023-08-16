@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2014-03-10 13:39:53
 tags:
-- general advice
+- advice
 - security
 title: Annoying security requests highlight company silos
 ---

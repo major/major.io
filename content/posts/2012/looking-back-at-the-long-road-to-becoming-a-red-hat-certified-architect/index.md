@@ -7,7 +7,7 @@ tags:
 - centos
 - certifications
 - fedora
-- general advice
+- advice
 - linux
 - rackspace
 - red hat

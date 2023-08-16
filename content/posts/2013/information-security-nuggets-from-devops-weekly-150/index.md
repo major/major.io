@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2013-11-17 21:31:10
 tags:
 - devops
-- general advice
+- advice
 - networking
 - security
 title: 'Information security nuggets from DevOps Weekly #150'

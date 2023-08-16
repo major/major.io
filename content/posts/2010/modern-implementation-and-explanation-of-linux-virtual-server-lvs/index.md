@@ -6,7 +6,7 @@ aliases:
 author: Major Hayden
 date: 2010-06-27 16:03:27
 tags:
-- general advice
+- advice
 - high availability
 - linux
 - networking

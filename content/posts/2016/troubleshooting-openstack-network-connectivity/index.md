@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2016-05-17 02:43:41
 tags:
-- general advice
+- advice
 - network
 - networking
 - openstack

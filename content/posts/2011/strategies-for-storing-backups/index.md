@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2011-01-10 01:20:44
 tags:
 - emergency
-- general advice
+- advice
 - sysadmin
 title: Strategies for storing backups
 ---

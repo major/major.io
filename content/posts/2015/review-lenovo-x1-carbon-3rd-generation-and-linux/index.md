@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-03-30 14:15:52
 tags:
 - fedora
-- general advice
+- advice
 - kernel
 - laptop
 - lenovo

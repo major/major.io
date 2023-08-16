@@ -6,7 +6,7 @@ date: 2016-10-11 04:08:19
 tags:
 - development
 - education
-- general advice
+- advice
 - information security
 title: Why should students learn to write code?
 ---

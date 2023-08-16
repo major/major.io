@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2014-02-05 03:44:18
 tags:
-- general advice
+- advice
 - sysadmin
 title: Be an inspiration, not an impostor
 ---

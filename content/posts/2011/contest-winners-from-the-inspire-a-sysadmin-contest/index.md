@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2011-08-22 12:43:53
 tags:
-- general advice
+- advice
 - sysadmin
 title: Contest winners from the “Inspire a sysadmin” contest
 ---

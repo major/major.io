@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2011-08-26 13:00:06
 tags:
-- general advice
+- advice
 - sysadmin
 title: How to write e-mails to nerds (that they will actually read)
 ---

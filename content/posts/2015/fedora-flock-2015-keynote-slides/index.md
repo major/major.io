@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-08-14 15:10:08
 tags:
 - fedora
-- general advice
+- advice
 - impostor syndrome
 - presentation
 title: 'Fedora Flock 2015: Keynote slides'

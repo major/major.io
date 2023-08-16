@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2012-04-09 14:00:56
 tags:
-- general advice
+- advice
 - interview
 - rackspace
 title: Getting a Technical Job at Rackspace

@@ -6,7 +6,7 @@ date: 2013-04-19 05:52:23
 tags:
 - centos
 - fedora
-- general advice
+- advice
 - red hat
 - security
 - selinux

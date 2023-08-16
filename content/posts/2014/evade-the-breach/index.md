@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2014-05-24 18:36:48
 tags:
-- general advice
+- advice
 - security
 title: Evade the Breach
 ---

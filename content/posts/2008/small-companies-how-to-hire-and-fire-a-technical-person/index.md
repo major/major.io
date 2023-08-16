@@ -4,7 +4,7 @@ aliases:
 author: Major Hayden
 date: 2008-04-02 18:00:06
 tags:
-- general advice
+- advice
 title: 'Small Companies: How to hire and fire a technical person'
 ---
 
