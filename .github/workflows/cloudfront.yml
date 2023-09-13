@@ -1,0 +1,70 @@
+name: Deploy to AWS S3/CloudFront
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: "cloudfront"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Checkout
+        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4
+        with:
+          submodules: recursive
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4.0.0
+        with:
+          role-to-assume: arn:aws:iam::911986281031:role/github-actions-major.io-blog
+          role-duration-seconds: 900
+          aws-region: us-east-1
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --minify
+
+      - name: Fix RSS feed
+        run: |
+          mkdir -vp public/feed
+          cp public/index.xml public/feed/index.xml
+          cp public/index.xml public/feed/index.html
+
+      - name: Download s3deploy
+        run: |
+          export S3DEPLOY_VERSION=2.11.0
+          curl -sLO https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz
+          tar -xzf s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz s3deploy
+          chmod +x s3deploy
+
+      - name: Deploy to S3 using s3deploy
+        run: |
+          ./s3deploy \
+            --acl public-read \
+            --region us-east-1 \
+            --bucket major.io \
+            --source public \
+            --distribution-id E2CVUP8JO07HJ2
