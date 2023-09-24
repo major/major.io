@@ -2,6 +2,7 @@ github.com/gohugoio/go-i18n/v2 v2.1.3-0.20230805085216-e63c13218d0e h1:QArsSubW7
 github.com/gohugoio/go-i18n/v2 v2.1.3-0.20230805085216-e63c13218d0e/go.mod h1:3Ltoo9Banwq0gOtcOwxuHG6omk+AwsQPADyw2vQYOJQ=
 github.com/gohugoio/hugo v0.118.2 h1:N+Gf+Zs74xuURsBN/Q1mevb68SgH77bapkREDjW4/Ss=
 github.com/gohugoio/hugo v0.118.2/go.mod h1:loOGCp1OeKj3qCxrUe6L/FP1m0qF0EA9QbZ6ARXVoho=
+github.com/gohugoio/hugo v0.119.0/go.mod h1:pXwmL2lFumAkr3qS2D262seu4SWDLphQLvYfhdGdLRU=
 github.com/gohugoio/locales v0.14.0 h1:Q0gpsZwfv7ATHMbcTNepFd59H7GoykzWJIxi113XGDc=
 github.com/gohugoio/locales v0.14.0/go.mod h1:ip8cCAv/cnmVLzzXtiTpPwgJ4xhKZranqNqtoIu0b/4=
 github.com/gohugoio/localescompressed v1.0.1 h1:KTYMi8fCWYLswFyJAeOtuk/EkXR/KPTHHNN9OS+RTxo=
