@@ -23,14 +23,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Hugo
-        run: |
-          # Get the latest hugo version from the go.mod
-          LATEST_HUGO_VERSION=$(grep github.com/gohugoio/hugo go.mod | awk '{print $NF}' | sed 's/^v//')
-          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${LATEST_HUGO_VERSION}/hugo_extended_${LATEST_HUGO_VERSION}_linux-amd64.tar.gz"
-          curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
-          ./hugo version
-
       - name: Checkout
         uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
         with:
@@ -42,6 +34,13 @@ jobs:
           role-to-assume: arn:aws:iam::911986281031:role/github-actions-major.io-blog
           role-duration-seconds: 900
           aws-region: us-east-1
+
+      - name: Setup Hugo
+        run: |
+          LATEST_HUGO_VERSION=$(grep github.com/gohugoio/hugo go.mod | awk '{print $NF}' | sed 's/^v//')
+          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${LATEST_HUGO_VERSION}/hugo_extended_${LATEST_HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
+          ./hugo version
 
       - name: Build with Hugo
         env:
@@ -57,7 +56,7 @@ jobs:
 
       - name: Download s3deploy
         run: |
-          export S3DEPLOY_VERSION=2.11.0
+          LATEST_HUGO_VERSION=$(grep s3deploy go.mod | awk '{print $NF}' | sed 's/^v//')
           curl -sLO https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz
           tar -xzf s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz s3deploy
           chmod +x s3deploy
