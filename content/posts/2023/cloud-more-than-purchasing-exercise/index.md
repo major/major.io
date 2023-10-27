@@ -2,7 +2,8 @@
 author: Major Hayden
 date: '2023-10-27'
 summary: >
-  Here's a blog post to answer the question: Why do you write so much about CoreOS? 📦
+  Moving to cloud is about much more than just capital efficiency. It enables your teams
+  to do more if they're willing to adopt some new practices.
 tags:
   - cloud
 title: Moving to cloud is more than just a purchasing exercise
