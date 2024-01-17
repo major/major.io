@@ -6,6 +6,7 @@ summary: >
   to do more if they're willing to adopt some new practices.
 tags:
   - cloud
+  - terraform
 title: Moving to cloud is more than just a purchasing exercise
 coverAlt: Glass jars of herbs on a shelf with labels of their contents
 coverCaption: |
