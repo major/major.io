@@ -17,6 +17,7 @@ tags:
 - virtualization
 - web
 title: 'Changing your ssh server’s port from the default: Is it worth it?'
+description: Moving ssh to a port other than port 22 can make it slightly more difficult to attack your server. 🛡️
 ---
 
 Changing my ssh port from the default port (22) has been one of my standard processes for quite some time when I build new servers or virtual machines. However, I see arguments crop up regularly about it (like [this reddit thread][1] or [this other one][2]).
