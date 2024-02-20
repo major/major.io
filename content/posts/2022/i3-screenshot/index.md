@@ -50,6 +50,3 @@ Let's break this down:
 I'm able to go to my favorite application or browser window with Slack, Discord, or Mastodon open and simply paste the image into my message. 🏁
 
 [^maimname]: Before you get upset with the name, keep in mind that it's the shortened version of **make image**. 😉
-
-----
-_This is post 3 of 100 in the [#100DaysToOffload](/p/100-days-to-offload/) challenge._

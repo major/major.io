@@ -131,6 +131,3 @@ If `playerctl` works on the command line, but doesn't work via the keyboard macr
 You can also clear a macro from a key by holding `Fn+Ctrl` for three seconds, tapping the misconfigured key, tapping the same key again, and pressing `Fn+Ctrl`.
 
 Enjoy your quick access to multimedia keys! ⌨ 🎶
-
-----
-_This is post 5 of 100 in the [#100DaysToOffload](/p/100-days-to-offload/) challenge._

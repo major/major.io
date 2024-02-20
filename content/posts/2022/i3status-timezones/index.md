@@ -51,6 +51,3 @@ Here's how it looks (with the [Hack](https://github.com/source-foundry/Hack) fon
 ## Apply the change
 
 Reload the i3 configuration with `Mod+Shift+c` and restart i3 with `Mod+Shift+r`.
-
-----
-_This is post 4 of 100 in the [#100DaysToOffload](/p/100-days-to-offload/) challenge._

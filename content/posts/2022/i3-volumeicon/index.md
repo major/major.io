@@ -83,5 +83,3 @@ Log out and log in again to test the changes.
 [i3 spin]: https://spins.fedoraproject.org/en/i3/
 [pasystray]: https://github.com/christophgysin/pasystray
 [volumeicon]: https://github.com/Maato/volumeicon
-
-_This is post 2 of 100 in the [#100DaysToOffload](/p/100-days-to-offload/) challenge._
