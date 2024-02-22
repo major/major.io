@@ -12,7 +12,7 @@ tags:
 title: Power 8 to the people
 ---
 
-IBM Edge 2016 is almost over and I've learned a lot about Power 8 this week. I've talked about some of the learnings in my recaps of days [one][1] and [two][2]. The performance arguments sound really interesting and some of the choices in AIX's design seem to make a lot of sense.
+IBM Edge 2016 is almost over and I've learned a lot about Power 8 this week. The performance arguments sound really interesting and some of the choices in AIX's design seem to make a lot of sense.
 
 However, there's one remaining barrier for me: **Power 8 isn't really accessible for a tinkerer**.
 
@@ -79,8 +79,6 @@ IBM has something truly unique with Power 8. The raw performance of the chip its
 
 _Photo credit: [Wikipedia][8]_
 
- [1]: /2016/09/20/ibm-edge-2016-day-1-recap/
- [2]: https://major.io/2016/09/21/ibm-edge-2016-day-2-recap/
  [3]: IBMPowerSystemE870-2.jpg
  [4]: http://www-03.ibm.com/systems/power/hardware/s821lc/index.html
  [5]: http://www-912.ibm.com/see/EnergyEstimator
