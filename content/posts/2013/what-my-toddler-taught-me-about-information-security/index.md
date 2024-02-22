@@ -9,7 +9,7 @@ tags:
 title: What my toddler taught me about information security
 ---
 
-My [new role][1] has caused me to look at information security in a different way. It's always been a hobby for me but I enjoy the challenge of making it my focus each day.
+My new role has caused me to look at information security in a different way. It's always been a hobby for me but I enjoy the challenge of making it my focus each day.
 
 Many companies seem to make a natural progression in security as they grow larger, bring on larger accounts, or find themselves subject to regulation or compliance requirements. That gradual process is usually more straightforward than the reactive process brought on by a security breach and it ends up delivering better overall results for the company.
 
@@ -42,5 +42,3 @@ Companies that reach this stage have now realized the risks involved in the oper
 **So let's summarize&#8230;**
 
 Some readers may think this post is way too generalized. However, the generalization is the point I'm trying to make. Creating a security mindset within a company is generally the easy part; applying it is where things get tough. The concept of information security is actually quite simple: ensure that information is readily available to people who should be able to access it and ensure it's not available for people who shouldn't. If you're starting a small business or you're working for one right now, build your products and your infrastructure with security in mind. Your other option is to retrofit it later, but you'll surely make a mess.
-
- [1]: /2012/11/26/reaching-a-new-milestone-and-making-some-big-changes/
