@@ -21,7 +21,7 @@ coverCaption: >
 Every great thing has its end, and the extra services I launched along with [icanhazip.com] are no exception.
 I started [icanhazip.com] way back in 2009 and detailed much of the history when I [transferred ownership to Cloudflare].
 
-The [extra services], such as `icanhazptr.com`, `icanhaztrace.com`, and `icanhaztraceroute.com`, came online in 2013 and they weren't part of the Cloudflare transfer.
+The extra services, such as `icanhazptr.com`, `icanhaztrace.com`, and `icanhaztraceroute.com`, came online in 2013 and they weren't part of the Cloudflare transfer.
 These services add extra challenges since they need IPv6 connectivity and they don't play well with containers.
 Relative to icanhazip.com, these services receive very little traffic.
 
@@ -76,8 +76,7 @@ server {
 Thanks for all the support over the last 13 years! 🫂
 
 [transferred ownership to Cloudflare]: /2021/06/06/a-new-future-for-icanhazip/
-[extra services]: /2013/03/16/new-icanhaz-features-reverse-dns-and-traceroutes/
-[icanhazip.com]: icanhazip.com
+[icanhazip.com]: https://icanhazip.com
 [major/icanhaz]: https://github.com/major/icanhaz
 [gunicorn]: https://gunicorn.org/
 [nginx]: https://www.nginx.com/

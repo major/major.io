@@ -12,7 +12,7 @@ tags:
 title: Keep web servers in sync with DRBD and OCFS2
 ---
 
-The [guide to redundant cloud hosting][1] that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option.
+The guide to redundant cloud hosting that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option.
 
 I've shared my configuration with my coworkers and I've received many good questions about it. Let's get to the Q&A:
 
@@ -44,4 +44,3 @@ You've got me there. I'm not a fan of how they treat the open source community w
 
 It's coming soon! Stay tuned.
 
- [1]: /redundant-cloud-hosting-configuration-guide/

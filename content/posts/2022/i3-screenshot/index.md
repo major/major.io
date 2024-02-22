@@ -14,7 +14,7 @@ My daily workflow includes taking tons of screenshots.
 I'm constantly relaying views of different data or results of various work between different chat systems and emails.
 As with all things that I do often, I look for ways to optimize them as much as possible.
 
-_(I'm that guy who wrote a post on an [efficient emoji workflow in Wayland](/2022/05/27/efficient-emoji-experience-in-wayland/).)_ 😂
+_(I'm that guy who wrote a post on an [efficient emoji workflow in Wayland](/p/efficient-emoji-experience-wayland/).)_ 😂
 
 # Goals
 

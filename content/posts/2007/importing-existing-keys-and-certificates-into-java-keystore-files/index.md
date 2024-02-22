@@ -18,6 +18,5 @@ openssl pkcs12 -export -inkey server.key -in server.crt \
     -name tomcat-domain.com -certfile cacert.crt -out domain.com.p12
 ```
 
-To perform the rest of the work, you will need a copy of the [KeyTool GUI][1]. In the GUI, make a new keystore in JKS format. Import the PKCS #12 key pair, and save the keystore as a JKS. Upload the keystore to the server and then configure the keystore within Tomcat/JBoss.
+To perform the rest of the work, you will need a copy of the KeyTool GUI. In the GUI, make a new keystore in JKS format. Import the PKCS #12 key pair, and save the keystore as a JKS. Upload the keystore to the server and then configure the keystore within Tomcat/JBoss.
 
- [1]: /wp-content/ktg.tgz

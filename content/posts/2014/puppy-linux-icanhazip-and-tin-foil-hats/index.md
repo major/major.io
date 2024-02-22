@@ -11,7 +11,7 @@ tags:
 title: Puppy Linux, icanhazip, and tin foil hats
 ---
 
-I figured that the [Puppy Linux and icanhazip.com fiasco was over][1], but I was wrong:
+I figured that the Puppy Linux and icanhazip.com fiasco was over, but I was wrong:
 
 <blockquote class="twitter-tweet tw-align-center" width="500">
   <p>
@@ -41,7 +41,6 @@ Let's get three things straight:
 
 Before I forget, thanks to all of the folks who came forward in the forums to explain what was actually happening and defend the work I've done. I'm tremendously flattered to receive that kind of support.
 
- [1]: /2012/08/04/privacy-and-icanhazip-com/
  [2]: http://murga-linux.com/puppy/viewtopic.php?t=90151
  [3]: http://murga-linux.com/puppy/viewtopic.php?p=748928#748928
  [4]: http://murga-linux.com/puppy/viewtopic.php?p=749399#749399

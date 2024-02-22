@@ -29,7 +29,6 @@ I've written about launching secure containers on this blog many times before:
   * [Launch secure LXC containers on Fedora 20 using SELinux and sVirt][1]
   * [Improving LXC template security][2]
   * [Try out LXC with an Ansible playbook][3]
-  * [CoreOS vs. Project Atomic: A Review][4]
 
 However, my goal this time around was to do something more comprehensive and slightly more formal. After getting my [GSEC and GCUX][6] certifications from [SANS/GIAC][7], there was an option to enhance the certification to a gold status by [writing a peer-reviewed research paper][8] on a topic related to the exam. It was a great experience to go through the review process and get feedback on the technical material as well as the structure of the paper itself.
 
@@ -64,7 +63,6 @@ Please let me know if you spot any errors or areas that need clarification. This
  [1]: /2014/04/21/launch-secure-lxc-containers-on-fedora-20-using-selinux-and-svirt/
  [2]: /2015/06/18/improving-lxc-template-security/
  [3]: /2014/12/17/try-lxc-ansible-playbook/
- [4]: /2014/05/13/coreos-vs-project-atomic-a-review/
  [5]: /wp-content/uploads/2015/08/GCUX.Gold_.hi_.res_.png
  [6]: http://www.giac.org/certified-professional/major-hayden/138471
  [7]: http://www.giac.org/

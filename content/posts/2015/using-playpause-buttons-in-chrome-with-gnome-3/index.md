@@ -10,7 +10,7 @@ tags:
 title: Using play/pause buttons in Chrome with GNOME 3
 ---
 
-I [wrote a post last summer][1] about preventing Chrome from stealing the media buttons (like play, pause, previous track and next track) from OS X. Now that I'm using Linux regularly and I [fell in love with Google Play Music All Access][2], I found that GNOME was stealing the media keys from Chrome.
+I [wrote a post last summer][1] about preventing Chrome from stealing the media buttons (like play, pause, previous track and next track) from OS X. Now that I'm using Linux regularly and I fell in love with Google Play Music All Access, I found that GNOME was stealing the media keys from Chrome.
 
 The fix is quite simple. Press the SUPER key (Windows key or Mac Command key), type settings, and press enter. Click on **Keyboard** and then on the **Shortcuts** tab. You should now see something like this:
 
@@ -21,4 +21,3 @@ Click on each entry that shows _Disabled_ above. After clicking on the entry, pr
 You should be set to go once they're all cleared out. If you disabled the media keys in Chrome, [go to this post][1] and do all of the steps in reverse. ;)
 
  [1]: /2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/
- [2]: /2014/12/29/two-months-google-play-music-access/

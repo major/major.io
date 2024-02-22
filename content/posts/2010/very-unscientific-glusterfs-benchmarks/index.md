@@ -13,7 +13,7 @@ tags:
 title: Very unscientific GlusterFS benchmarks
 ---
 
-I've been getting requests for GlusterFS benchmarks from every direction lately and I've been a bit slow on getting them done. You may suspect that you know the [cause of the delays][1], and you're probably correct. ;-)
+I've been getting requests for GlusterFS benchmarks from every direction lately and I've been a bit slow on getting them done. You may suspect that you know the cause of the delays, and you're probably correct. ;-)
 
 Quite a few different sites argue that the default GlusterFS performance translator configuration from glusterfs-volgen doesn't allow for good performance. You can find other sites which say you should stick with the defaults that come from the script. I decided to run some simple tests to see which was true in my environment.
 
@@ -41,7 +41,6 @@ The graphs show that running without any translators at all will drastically hin
 
 Keep in mind that this test was very unscientific and your results may vary depending on your configuration. While I hope to have more detailed benchmarks soon, this should help some of the folks who have been asking for something basic and easy to understand.
 
- [1]: /2010/07/14/version-2-0-has-arrived/
  [2]: http://pastebin.com/MAX1kWDg
  [3]: http://pastebin.com/uyE6qkZ6
  [4]: http://pastebin.com/gqMquRpB

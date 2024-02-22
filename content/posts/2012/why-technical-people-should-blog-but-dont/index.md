@@ -54,7 +54,7 @@ I'll wrap up with the second most common response:
 
 I've done both of these. Most Linux system administrators worth their salt know how to add and remove iptables rules, and they'd consider it to be pretty trivial work. Would it surprise you to know that out of over 450 posts, my post about [deleting a single iptables rule][4] is in the top five most accessed posts per month? I receive just over 11 percent of my monthly hits to this post. People are either learning from it or they can't remember how to delete the rule and they want to use the post as a quick reference. Either way, the post is valuable to many people even if I think it's the simplest topic possible.
 
-On the flip side, I went nuts and wrote up a [complete how-to][5] for a redundant cloud hosting configuration complete with LVS, glusterfs, MySQL on DRBD, memcached, haproxy and ldirectord. I thought it would be valuable knowledge to a few folks but that it might sail over the heads of most of my readers. Again, I was wrong. The post is constantly in the top 10 most visited posts on the blog and I've probably received more feedback via comments, email and IRC about that post than any other. Once again, a post I thought would be mostly useless turned into a real conversation starter.
+On the flip side, I went nuts and wrote up a complete how-to for a redundant cloud hosting configuration complete with LVS, glusterfs, MySQL on DRBD, memcached, haproxy and ldirectord. I thought it would be valuable knowledge to a few folks but that it might sail over the heads of most of my readers. Again, I was wrong. The post is constantly in the top 10 most visited posts on the blog and I've probably received more feedback via comments, email and IRC about that post than any other. Once again, a post I thought would be mostly useless turned into a real conversation starter.
 
 **Let's conclude and wrap up.** Keep these things in mind if you feel discouraged about writing:
 
@@ -68,4 +68,3 @@ On the flip side, I went nuts and wrote up a [complete how-to][5] for a redundan
  [2]: http://en.wikipedia.org/wiki/The_Elements_of_Style
  [3]: http://fiverr.com/categories/all/tags/proofreading/order/latest/pages/1
  [4]: /2007/02/09/delete-single-iptables-rules/
- [5]: /redundant-cloud-hosting-configuration-guide/

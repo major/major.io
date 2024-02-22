@@ -21,7 +21,7 @@ My original post about my [efficient emoji workflow] inspired many people to giv
 try. Everything was great until I moved to Wayland and suddenly [rofimoji] stopped
 pasting emojis on demand. 😱
 
-[last post]: /2022/05/24/sway-reload-causes-a-firefox-crash/
+[last post]: /p/sway-reload-causes-firefox-crash/
 [efficient emoji workflow]: /2021/05/15/efficient-emojis-with-rofimoji/
 [rofimoji]: https://github.com/fdw/rofimoji
 [colorful emoji symbols]: https://www.spinics.net/lists/linux-block/msg68704.html
