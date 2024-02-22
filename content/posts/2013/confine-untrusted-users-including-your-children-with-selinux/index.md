@@ -14,7 +14,7 @@ tags:
 title: Confine untrusted users (including your children) with SELinux
 ---
 
-[<img src="http://major.io/wp-content/uploads/2011/09/selinux-penguin-125.png" alt="SELinux Penguin" width="125" height="113" class="alignright size-full wp-image-2532" />][1]The [confined user support in SELinux][2] is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his [SELinux in the Enterprise][3] talk from this year's Red Hat Summit.
+[<img src="https://major.io/wp-content/uploads/2011/09/selinux-penguin-125.png" alt="SELinux Penguin" width="125" height="113" class="alignright size-full wp-image-2532" />][1]The [confined user support in SELinux][2] is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his [SELinux in the Enterprise][3] talk from this year's Red Hat Summit.
 
 There are five main SELinux user types (and a [handy chart][4] in the Fedora documentation):
 
@@ -153,7 +153,7 @@ I didn't add selinuxtest to sudoers, so this command would fail. However, I'm ac
 
 These restrictions could be very helpful when dealing with users that you don't fully trust on your system. You could use these restrictions to add a kiosk user to a Linux machine and allow family members or coworkers to surf the web using your device. In addition, you could use the restrictions as an extra layer of protection on heavily shared servers to prevent users from consuming resources or generating malicious traffic.
 
- [1]: http://major.io/wp-content/uploads/2011/09/selinux-penguin-125.png
- [2]: http://danwalsh.livejournal.com/10461.html?thread=88029
- [3]: http://rhsummit.files.wordpress.com/2013/06/summitselinuxenterprise.pdf
+ [1]: https://major.io/wp-content/uploads/2011/09/selinux-penguin-125.png
+ [2]: https://danwalsh.livejournal.com/10461.html?thread=88029
+ [3]: https://rhsummit.files.wordpress.com/2013/06/summitselinuxenterprise.pdf
  [4]: https://docs.fedoraproject.org/en-US/Fedora/12/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Targeted_Policy-Confined_and_Unconfined_Users.html

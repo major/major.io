@@ -23,7 +23,7 @@ He took the time to pull some balance sheets from 10K's of various companies rep
 The second day was centered around finance and [Dr. Nolen][11] led the class. He gave us a model (the [DuPont Formula][12]) for understanding a firm's return on equity that made sense. As he broke the model apart, he showed us what all of our C-level executives care about:
 
 <div id="attachment_4574" style="width: 579px" class="wp-caption aligncenter">
-  <a href="http://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png"><img src="http://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png" alt="DuPont Formula" width="569" height="46" class="size-full wp-image-4574" srcset="/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png 569w, /wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664-300x24.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></a>
+  <a href="https://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png"><img src="http://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png" alt="DuPont Formula" width="569" height="46" class="size-full wp-image-4574" srcset="/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png 569w, /wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664-300x24.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></a>
 
   <p class="wp-caption-text">
     The DuPont Formula (from Wikipedia)
@@ -51,13 +51,13 @@ If you get the opportunity to spend some of your training budget next February, 
  [1]: /wp-content/uploads/2013/09/finance_and_accounting_book_cover.jpg
  [2]: https://www.mccombs.utexas.edu/ExecED/Accounting-and-Finance.aspx
  [3]: https://www.mccombs.utexas.edu/execed
- [4]: http://books.google.com/books/about/Finance_and_Accounting_for_Nonfinancial.html?id=SiS3NAEACAAJ
- [5]: http://www.mccombs.utexas.edu/ExecED/Participant-Resources/Faculty/Hirst.aspx
- [6]: http://www.solvaychemicals.com/
- [7]: http://www.omnicell.com/
- [8]: http://apple.com
- [9]: http://rackspace.com
- [10]: http://en.wikipedia.org/wiki/MCI_Inc.#Accounting_scandals
+ [4]: https://books.google.com/books/about/Finance_and_Accounting_for_Nonfinancial.html?id=SiS3NAEACAAJ
+ [5]: https://www.mccombs.utexas.edu/ExecED/Participant-Resources/Faculty/Hirst.aspx
+ [6]: https://www.solvaychemicals.com/
+ [7]: https://www.omnicell.com/
+ [8]: https://apple.com
+ [9]: https://rackspace.com
+ [10]: https://en.wikipedia.org/wiki/MCI_Inc.#Accounting_scandals
  [11]: https://www.mccombs.utexas.edu/ExecED/Participant-Resources/Faculty/Nolen.aspx
- [12]: http://en.wikipedia.org/wiki/Return_on_equity#The_DuPont_formula
- [13]: http://en.wikipedia.org/wiki/Net_present_value
+ [12]: https://en.wikipedia.org/wiki/Return_on_equity#The_DuPont_formula
+ [13]: https://en.wikipedia.org/wiki/Net_present_value

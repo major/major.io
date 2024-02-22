@@ -9,7 +9,7 @@ tags:
 title: Get a rock-solid Linux touchpad configuration for the Lenovo X1 Carbon
 ---
 
-[<img src="http://major.io/wp-content/uploads/2013/08/X1_closed-300x200.jpg" alt="Lenovo ThinkPad X1 Carbon" width="300" height="200" class="alignright size-medium wp-image-4546" srcset="/wp-content/uploads/2013/08/X1_closed-300x200.jpg 300w, /wp-content/uploads/2013/08/X1_closed-1024x682.jpg 1024w, /wp-content/uploads/2013/08/X1_closed.jpg 1348w" sizes="(max-width: 300px) 100vw, 300px" />][1]The X1 Carbon's touchpad has been my nemesis in Linux for quite some time because of its high sensitivity. I'd often find the cursor jumping over a few pixels each time I tried to tap to click. This was aggravating at first, but then I found myself closing windows when I wanted them minimized or confirming something in a dialog that I didn't want to confirm.
+[<img src="https://major.io/wp-content/uploads/2013/08/X1_closed-300x200.jpg" alt="Lenovo ThinkPad X1 Carbon" width="300" height="200" class="alignright size-medium wp-image-4546" srcset="/wp-content/uploads/2013/08/X1_closed-300x200.jpg 300w, /wp-content/uploads/2013/08/X1_closed-1024x682.jpg 1024w, /wp-content/uploads/2013/08/X1_closed.jpg 1348w" sizes="(max-width: 300px) 100vw, 300px" />][1]The X1 Carbon's touchpad has been my nemesis in Linux for quite some time because of its high sensitivity. I'd often find the cursor jumping over a few pixels each time I tried to tap to click. This was aggravating at first, but then I found myself closing windows when I wanted them minimized or confirming something in a dialog that I didn't want to confirm.
 
 Last December, [I wrote a post about some fixes][2]. However, as I force myself to migrate to Linux (no turning back this time) again, my fixes didn't work well enough. I [stumbled upon a post][3] about the X1's touchpad and how an Ubuntu user found a configuration file that seemed to work well.
 
@@ -57,7 +57,7 @@ EndSection
 
 Many many thanks to [Nathan Hamblen][4] for assembling this configuration and offering it out to the masses on his blog.
 
- [1]: http://major.io/wp-content/uploads/2013/08/X1_closed.jpg
+ [1]: https://major.io/wp-content/uploads/2013/08/X1_closed.jpg
  [2]: /2012/12/28/handy-settings-for-the-touchpadclickpad-in-the-lenovo-x1-carbon/
- [3]: http://code.technically.us/post/50837506478/senistive-touchpads-and-ubuntu
+ [3]: https://code.technically.us/post/50837506478/senistive-touchpads-and-ubuntu
  [4]: https://twitter.com/n8han

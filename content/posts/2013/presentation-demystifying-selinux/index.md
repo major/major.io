@@ -17,7 +17,7 @@ You can find the presentation over on [Speaker Deck][1]. I've also mirrored a [P
 **UPDATE:** If you're going to [OSCON 2013][3] this year, it appears that [David][4] will be [presenting this topic][5] during the event.
 
  [1]: https://speakerdeck.com/dpquigl/demystifying-selinux
- [2]: http://major.io/wp-content/uploads/2013/05/demystifying_selinux.pdf
- [3]: http://www.oscon.com/oscon2013
- [4]: http://www.oscon.com/oscon2013/public/schedule/speaker/151833
- [5]: http://www.oscon.com/oscon2013/public/schedule/detail/29473
+ [2]: https://major.io/wp-content/uploads/2013/05/demystifying_selinux.pdf
+ [3]: https://www.oscon.com/oscon2013
+ [4]: https://www.oscon.com/oscon2013/public/schedule/speaker/151833
+ [5]: https://www.oscon.com/oscon2013/public/schedule/detail/29473

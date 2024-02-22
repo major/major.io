@@ -36,7 +36,7 @@ python setup.py install
 
 All of the [configuration instructions and usage examples are over in GitHub][4]. As with any of the code I write, if you find a problem or spot an idea for an improvement, submit an issue or pull request. I try to jump on those as soon as I can.
 
- [1]: http://major.io/wp-content/uploads/2012/06/firstworldproblems-multiplenovaenvironments.jpg
- [2]: http://openstack.org/projects/compute/
+ [1]: https://major.io/wp-content/uploads/2012/06/firstworldproblems-multiplenovaenvironments.jpg
+ [2]: https://openstack.org/projects/compute/
  [3]: https://github.com/openstack/python-novaclient
- [4]: http://major.github.com/supernova/
+ [4]: https://major.github.com/supernova/

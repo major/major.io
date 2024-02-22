@@ -22,7 +22,7 @@ Let's get one thing straight: I'm not a Windows or Mac basher. Windows 7 has bee
 
 My main goal for switching to Linux is to reduce clutter. I moved away from the iPhone to Android last year because the Android gave me finer-grained controls over my phone and allowed me to troubleshoot my own problems. The Mac was working well for me, but as each release passed, it seems like more things were out of my control and I was constantly notified of something that my computer wanted me to do.
 
-[<img src="http://major.io/wp-content/uploads/2013/08/Tux-253x300.png" alt="Tux" width="253" height="300" class="alignright size-medium wp-image-4556" srcset="/wp-content/uploads/2013/08/Tux-253x300.png 253w, /wp-content/uploads/2013/08/Tux.png 265w" sizes="(max-width: 253px) 100vw, 253px" />][1]While at this year's Red Hat Summit, I saw someone using Linux on a laptop and I asked: "How do you survive on Linux at your office?" He confided that his office is extremely Windows-centric and that it was tough to overcome in the beginning. When I asked why he stuck with Linux, he smiled and responded quickly: "When I use Linux, I feel like I can do my work without being bothered. Reducing clutter has saved me a ton of time."
+[<img src="https://major.io/wp-content/uploads/2013/08/Tux-253x300.png" alt="Tux" width="253" height="300" class="alignright size-medium wp-image-4556" srcset="/wp-content/uploads/2013/08/Tux-253x300.png 253w, /wp-content/uploads/2013/08/Tux.png 265w" sizes="(max-width: 253px) 100vw, 253px" />][1]While at this year's Red Hat Summit, I saw someone using Linux on a laptop and I asked: "How do you survive on Linux at your office?" He confided that his office is extremely Windows-centric and that it was tough to overcome in the beginning. When I asked why he stuck with Linux, he smiled and responded quickly: "When I use Linux, I feel like I can do my work without being bothered. Reducing clutter has saved me a ton of time."
 
 In an effort to free up my time at work for the important stuff, I'm moving to Linux. I'm hoping that the move is permanent, but time will tell. If you're eager to make the same change, here's the workflow I'm using:
 
@@ -86,16 +86,16 @@ All of my required VPN capabilities worked right out of the box, including OpenV
 
 With one day on Linux under my belt, I'm glad I made the change. I'm able to sit down with my work laptop and use it for what I want to do with it: work. Sure, there are still notification popups from time to time, but they're either notifications that I've configured intentionally or my laptop is trying to tell me something that I really need to know. So far, the switch has caused me to think about my software in a more minimalistic way. I regularly have my browser, IM client, and IRC client open - that's all. I'm hoping that less clutter and fewer applications lead to better focus and increased productivity.
 
- [1]: http://major.io/wp-content/uploads/2013/08/Tux.png
- [2]: http://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/
- [3]: http://www.mozilla.org/en-US/thunderbird/
- [4]: http://davmail.sourceforge.net/download.html
+ [1]: https://major.io/wp-content/uploads/2013/08/Tux.png
+ [2]: https://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/
+ [3]: https://www.mozilla.org/en-US/thunderbird/
+ [4]: https://davmail.sourceforge.net/download.html
  [5]: https://projects.gnome.org/evolution/
  [6]: https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg
- [7]: http://satya164.github.io/fedorautils/
- [8]: http://tt-rss.org/redmine/projects/tt-rss/wiki
- [9]: http://www.pidgin.im/
- [10]: http://konversation.kde.org/
- [11]: http://www.irssi.org/
+ [7]: https://satya164.github.io/fedorautils/
+ [8]: https://tt-rss.org/redmine/projects/tt-rss/wiki
+ [9]: https://www.pidgin.im/
+ [10]: https://konversation.kde.org/
+ [11]: https://www.irssi.org/
  [12]: https://chrome.google.com/webstore/detail/tweetdeck/hbdpomandigafcibbmofojjchbcdagbl?hl=en-US
- [13]: http://www.clementine-player.org/
+ [13]: https://www.clementine-player.org/
