@@ -1,6 +1,6 @@
 ---
 aliases:
-- /2022/09/02/pxeboot-netboot.xyz-on-mikrotik-router/
+- /2022/09/02/pxe-boot-netboot.xyz-on-a-mikrotik-router/
 author: Major Hayden
 date: '2022-09-02'
 summary: Get systems online quickly or rescue a broken system by PXE booting from
