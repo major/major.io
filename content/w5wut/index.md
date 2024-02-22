@@ -46,4 +46,4 @@ I enjoy SSB and FT8 on 20m on the weekends, but during the week, you can find me
 
 [W5WUT]: https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3980566
 [Overland Expo]: https://www.overlandexpo.com/
-[ham radio FAQ]: /ham-radio-faq/
+[ham radio FAQ]: /p/ham-radio-faq/
