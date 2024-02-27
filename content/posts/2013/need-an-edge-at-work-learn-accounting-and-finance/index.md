@@ -22,14 +22,6 @@ He took the time to pull some balance sheets from 10K's of various companies rep
 
 The second day was centered around finance and [Dr. Nolen][11] led the class. He gave us a model (the [DuPont Formula][12]) for understanding a firm's return on equity that made sense. As he broke the model apart, he showed us what all of our C-level executives care about:
 
-<div id="attachment_4574" style="width: 579px" class="wp-caption aligncenter">
-  <a href="https://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png"><img src="http://major.io/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png" alt="DuPont Formula" width="569" height="46" class="size-full wp-image-4574" srcset="/wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664.png 569w, /wp-content/uploads/2013/09/96dbbffb0eeee4ea12a03b64c9999664-300x24.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></a>
-
-  <p class="wp-caption-text">
-    The DuPont Formula (from Wikipedia)
-  </p>
-</div>
-
   * CEO: return on equity
   * COO: asset efficiency (net income over assets)
   * CFO: leverage (assets over shareholder equity)
