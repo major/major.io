@@ -16,7 +16,7 @@ tags:
 title: PXE boot Fedora 19 using a Mikrotik firewall
 ---
 
-Outside of the RHCA exams, I haven't configured a [PXE][1] system for my personal needs. A colleague demoed his PXE setup for me and I was hooked. Once I realized how much time I could save when I'm building and tearing down virtual machines, it made complete sense. This post will show you how to configure PXE and tftpd in [Mikrotik's RouterOS][2] to boot and install Fedora 19 (as well as provide rescue environments).
+Outside of the RHCA exams, I haven't configured a [PXE][1] system for my personal needs. A colleague demoed his PXE setup for me and I was hooked. Once I realized how much time I could save when I'm building and tearing down virtual machines, it made complete sense. This post will show you how to configure PXE and tftpd in Mikrotik's RouterOS to boot and install Fedora 19 (as well as provide rescue environments).
 
 The first thing you'll need are a few files from a working Fedora installation. Install the `syslinux-tftpboot` package and grab the following files:
 
@@ -106,7 +106,6 @@ Once the VM boots, you'll be sent straight to the PXE boot screen:
 The installer should now boot up normally and you can install your Fedora system via kickstart or via the anaconda interface.
 
  [1]: http://en.wikipedia.org/wiki/Preboot_Execution_Environment
- [2]: http://major.io/?s=mikrotik
  [3]: http://mirrors.kernel.org/fedora/releases/19/Fedora/x86_64/os/images/pxeboot/vmlinuz
  [4]: http://mirrors.kernel.org/fedora/releases/19/Fedora/x86_64/os/images/pxeboot/initrd.img
  [5]: https://fedoraproject.org/wiki/Dracut/Options#Network
