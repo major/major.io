@@ -1,0 +1,60 @@
+name: Deploy to BunnyCDN
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "bunnycdn"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install lftp
+        run: sudo apt -y install lftp
+
+      - name: Setup Hugo
+        run: |
+          LATEST_HUGO_VERSION=$(grep github.com/gohugoio/hugo go.mod | awk '{print $NF}' | sed 's/^v//')
+          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${LATEST_HUGO_VERSION}/hugo_extended_${LATEST_HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
+          ./hugo version
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: ./hugo --minify --gc
+
+      - name: Fix RSS feed
+        run: |
+          pushd public
+          mkdir -vp blog/rss
+          cp index.xml blog/rss/index.xml
+          cp index.xml blog/rss/index.html
+
+      - name: Build lftp configuration
+        run: echo "machine storage.bunnycdn.com login major-io password ${{ secrets.BUNNY_FTP_PASSWORD }}" > ~/.netrc
+
+      - name: Deploy blog
+        run: lftp -e "mirror --continue --verbose --parallel=25 --ignore-time --reverse --delete public/ ." storage.bunnycdn.com
+        continue-on-error: true
+
+      - name: Purge BunnyCDN cache
+        run: |
+          curl --request POST \
+            --url https://api.bunny.net/pullzone/${{ secrets.BUNNY_PULL_ZONE }}/purgeCache \
+            --header 'AccessKey: ${{ secrets.BUNNY_API_KEY }}' \
+            --header 'content-type: application/json'
