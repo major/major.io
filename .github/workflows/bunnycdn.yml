@@ -41,9 +41,9 @@ jobs:
       - name: Fix RSS feed
         run: |
           pushd public
-          mkdir -vp blog/rss
-          cp index.xml blog/rss/index.xml
-          cp index.xml blog/rss/index.html
+          mkdir -vp feed
+          cp index.xml feed/index.xml
+          cp index.xml feed/index.html
 
       - name: Build lftp configuration
         run: echo "machine storage.bunnycdn.com login major-io password ${{ secrets.BUNNY_FTP_PASSWORD }}" > ~/.netrc
