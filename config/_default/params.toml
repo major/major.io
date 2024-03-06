@@ -53,11 +53,7 @@ showTableOfContents = true
 showTaxonomies = true
 showWordCount = true
 showComments = false
-sharingLinks = [
-  "mastodon",
-  "email",
-  "linkedin",
-]
+sharingLinks = []
 
 [list]
 showBreadcrumbs = true
