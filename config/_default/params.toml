@@ -56,10 +56,6 @@ showComments = false
 sharingLinks = [
   "mastodon",
   "email",
-  "reddit",
-  "facebook",
-  "twitter",
-  "pinterest",
   "linkedin",
 ]
 
