@@ -52,5 +52,5 @@ jobs:
           accessKey: "${{ secrets.BUNNY_API_KEY }}"
           pullZoneId: "${{ secrets.BUNNY_PULL_ZONE }}"
           upload: "true"
-          remove: "true"
+          remove: "false"
           purgePullZone: "true"
