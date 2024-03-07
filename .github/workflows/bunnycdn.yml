@@ -46,7 +46,7 @@ jobs:
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.1
         with:
           source: "public"
-          destination: "/"
+          destination: ""
           storageZoneName: "major-io"
           storagePassword: "${{ secrets.BUNNY_FTP_PASSWORD }}"
           accessKey: "${{ secrets.BUNNY_API_KEY }}"
