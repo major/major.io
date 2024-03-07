@@ -22,9 +22,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Install lftp
-        run: sudo apt -y install lftp
-
       - name: Setup Hugo
         run: |
           LATEST_HUGO_VERSION=$(grep github.com/gohugoio/hugo go.mod | awk '{print $NF}' | sed 's/^v//')
@@ -45,16 +42,15 @@ jobs:
           cp index.xml feed/index.xml
           cp index.xml feed/index.html
 
-      - name: Build lftp configuration
-        run: echo "machine storage.bunnycdn.com login major-io password ${{ secrets.BUNNY_FTP_PASSWORD }}" > ~/.netrc
-
-      - name: Deploy blog
-        run: lftp -e "mirror --continue --verbose --parallel=25 --ignore-time --reverse --delete public/ ." storage.bunnycdn.com
-        continue-on-error: true
-
-      - name: Purge BunnyCDN cache
-        run: |
-          curl --request POST \
-            --url https://api.bunny.net/pullzone/${{ secrets.BUNNY_PULL_ZONE }}/purgeCache \
-            --header 'AccessKey: ${{ secrets.BUNNY_API_KEY }}' \
-            --header 'content-type: application/json'
+      - name: Deploy to BunnyCDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.2.1
+        with:
+          source: "public"
+          destination: "/"
+          storageZoneName: "major-io"
+          storagePassword: "${{ secrets.BUNNY_FTP_PASSWORD }}"
+          accessKey: "${{ secrets.BUNNY_API_KEY }}"
+          pullZoneId: "${{ secrets.BUNNY_PULL_ZONE }}"
+          upload: "true"
+          remove: "true"
+          purgePullZone: "true"
