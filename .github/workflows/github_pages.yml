@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: [$default-branch]
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -14,7 +14,7 @@ permissions:
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 # Default to bash
 defaults:
@@ -42,11 +42,17 @@ jobs:
           curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
           ./hugo version
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: ./hugo --minify --gc --baseURL https://major.io
+        run: ./hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Fix RSS feed
         run: |
