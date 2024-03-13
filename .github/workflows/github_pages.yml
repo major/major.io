@@ -42,12 +42,6 @@ jobs:
           curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
           ./hugo version
 
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
-
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
