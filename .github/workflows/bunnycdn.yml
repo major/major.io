@@ -43,7 +43,7 @@ jobs:
           cp index.xml feed/index.html
 
       - name: Deploy to BunnyCDN
-        uses: ayeressian/bunnycdn-storage-deploy@v2.2.1
+        uses: ayeressian/bunnycdn-storage-deploy@v2.2.2
         with:
           source: "public"
           destination: ""
