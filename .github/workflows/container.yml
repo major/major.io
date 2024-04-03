@@ -63,6 +63,7 @@ jobs:
         run: |
           mkdir -vp public/feed
           cp public/index.xml public/feed/index.xml
+          cp public/index.xml public/feed/index.html
 
       - name: Build and push Docker image
         id: build-and-push
