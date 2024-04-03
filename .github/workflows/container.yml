@@ -81,3 +81,11 @@ jobs:
           TAGS: ${{ steps.meta.outputs.tags }}
           DIGEST: ${{ steps.build-and-push.outputs.digest }}
         run: echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST}
+
+      - name: Update the blog container
+        if: github.event_name != 'pull_request'
+        run: |
+            curl -H "Authorization: Bearer ${WATCHTOWER_TOKEN}" \
+                https://watchtower.thetanerd.com/v1/update
+        env:
+            WATCHTOWER_TOKEN: ${{ secrets.WATCHTOWER_TOKEN }}
