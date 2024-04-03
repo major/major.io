@@ -57,7 +57,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: ./hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: ./hugo --gc --minify --baseURL https://major.io/
 
       - name: Fix RSS feed
         run: |
