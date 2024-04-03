@@ -85,7 +85,7 @@ jobs:
       - name: Update the blog container
         if: github.event_name != 'pull_request'
         run: |
-            curl -H "Authorization: Bearer ${WATCHTOWER_TOKEN}" \
+            curl -s -H "Authorization: Bearer ${WATCHTOWER_TOKEN}" \
                 https://watchtower.thetanerd.com/v1/update
         env:
             WATCHTOWER_TOKEN: ${{ secrets.WATCHTOWER_TOKEN }}
