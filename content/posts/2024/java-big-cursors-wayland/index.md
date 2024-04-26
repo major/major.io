@@ -11,7 +11,7 @@ tags:
   - sway
   - systemd
   - wayland
-title: Big cursors in Java applications in Wayland
+title: Fix big cursors in Java applications in Wayland
 coverAlt: Lights hanging in a tree
 coverCaption: |
   [Hendrik Cornelissen](https://unsplash.com/photos/black-elephant-BaFAfMR6kF0) via Unsplash
