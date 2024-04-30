@@ -15,7 +15,7 @@ description = "A social nerd writing about everything 🤓"
 
 [params.author]
 name = "Major Hayden"
-image = "major_avatar.png"
+image = "major_avatar.webp"
 headline = "A social nerd writing about everything 🤓"
 bio = "I love sharing what I've learned with others and I hope you find something here that's useful."
 links = [

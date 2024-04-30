@@ -21,8 +21,8 @@ fingerprintAlgorithm = "sha256"
 
 [header]
 layout = "hybrid"
-logo = "major-hayden-high-resolution-logo-white-on-transparent-background.png"
-logoDark = "major-hayden-high-resolution-logo-black-on-transparent-background.png"
+logo = "major-hayden-high-resolution-logo-white-on-transparent-background.webp"
+logoDark = "major-hayden-high-resolution-logo-black-on-transparent-background.webp"
 showTitle = false
 
 [footer]
