@@ -5,6 +5,7 @@
 baseURL = "https://major.io/"
 defaultContentLanguage = "en"
 theme = "congo"
+rssLimit = "25"
 
 enableGitInfo = true
 
