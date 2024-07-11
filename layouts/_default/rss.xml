@@ -58,9 +58,6 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-      {{- $images := .Resources.ByType "image" }}
-      {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
-      {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
