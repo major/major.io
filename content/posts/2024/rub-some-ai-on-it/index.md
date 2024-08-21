@@ -2,7 +2,7 @@
 author: Major Hayden
 date: '2024-08-21'
 summary: >-
-  If you have a problem, be sure to add artificial intelligence to it.
+  If you have a problem, be sure to add artificial intelligence (AI) to it.
   Then you have two problems.
 tags: 
   - advice
