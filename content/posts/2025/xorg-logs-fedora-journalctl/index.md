@@ -4,9 +4,9 @@ date: '2025-02-16'
 summary: |
   A recent switch back to i3 (from sway) left me wondering how to examine just the Xorg logs sent to journald.
 tags: 
-  - 4runner
-  - repair
-  - toyota
+  - i3
+  - fedora
+  - linux
 title: Viewing Xorg logs with journalctl in Fedora
 coverAlt: High altitude view of an island with mountains and a beach
 coverCaption: |

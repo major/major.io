@@ -10,11 +10,13 @@ rssLimit = "25"
 enableGitInfo = true
 
 enableRobotsTXT = true
-paginate = 50
 summaryLength = 0
 
+[pagination]
+pagerSize = 50
+
 [permalinks]
-  posts = "/p/:filename/"
+posts = "/p/:filename/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
