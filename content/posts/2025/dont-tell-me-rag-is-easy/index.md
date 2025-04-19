@@ -24,7 +24,7 @@ This post covers the basics of RAG, some assumptions I made, and what I've learn
 Large language models, or LLMs, are trained on huge amounts of information.
 This information could come from just about anywhere, including books, online resources, and even this blog!
 There are plenty of ethical questions here, especially around LLM providers that train their models on copyrighted or otherwise restricted material.
-The gain ground on their competitors in the short run, but this is not ideal in the long run.
+They gain ground on their competitors in the short run, but this is not ideal in the long run.
 
 Sometimes training a model isn't feasible.
 That's where RAG comes in.
