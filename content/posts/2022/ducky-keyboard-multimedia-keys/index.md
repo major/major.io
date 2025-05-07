@@ -72,14 +72,14 @@ We need a macro to get the multimedia keys working and that process isn't easy t
 
 The good stuff starts at page 41 in my manual:
 
-{{< figure src="manual-page-41.png" alt="Manual page explaining how to switch between profiles" default=true >}}
+![Manual page explaining how to switch between profiles](manual-page-41.png)
 
 First, determine which profile you want to use.
 In my case, I chose profile 2.
 
 Next, we need to know which multimedia function keys are hidden away in the keyboard's firmware:
 
-{{< figure src="manual-page-43.png" alt="Manual page covering multimedia keys" default=true >}}
+![Manual page covering multimedia keys](manual-page-43.png)
 
 For each key combination, we need to know which keys we want to press to trigger the multimedia key (letters above).
 I'm most interested in play/pause, previous track, and next track, so I'm building out my configuration like this:

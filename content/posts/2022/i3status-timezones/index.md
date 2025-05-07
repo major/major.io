@@ -46,7 +46,7 @@ Emoji flags add a little bit of flair to the clocks in the status bar. 😉
 
 Here's how it looks (with the [Hack](https://github.com/source-foundry/Hack) font):
 
-{{< figure src="i3status.png" alt="i3status screenshot" default=true >}}
+![i3status screenshot](i3status.png)
 
 ## Apply the change
 

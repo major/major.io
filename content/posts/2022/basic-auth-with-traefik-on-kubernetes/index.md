@@ -228,7 +228,7 @@ apply -f` _(and consider embracing gitops later)_.
 Access your Traefik dashboard URL and you should see a basic authentication prompt.
 Enter the credentials you set with `htpasswd` and you should see your Traefik dashboard!
 
-{{< figure src="traefik_dashboard.png" alt="Traefik Dashboard" default=true >}}
+![Traefik Dashboard](traefik_dashboard.png)
 
 [flux]: https://fluxcd.io/
 [yesterday's post]: /2022/04/19/encrypted-gitops-secrets-with-flux-and-age/

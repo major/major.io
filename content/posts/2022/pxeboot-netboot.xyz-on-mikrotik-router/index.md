@@ -47,12 +47,7 @@ netboot.xyz offers [pre-built ipxe binaries] that already connect you to netboot
 
 Here's what you'll see from netboot.xyz on your first boot:
 
-{{< figure 
-    default=true
-    src="netboot.xyz.gif" 
-    alt="Animation of selecting menu items from netboot.xyz" 
-    caption="Animation from netboot.xyz's website"
-    >}}
+![Animation of selecting menu items from netboot.xyz](netboot.xyz.gif)
 
 # PXE ingredients
 

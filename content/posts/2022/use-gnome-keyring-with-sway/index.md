@@ -20,7 +20,7 @@ This is where an SSH agent can help!
 
 But before we talk about SSH agents:
 
-{{< figure src="padme-encrypts-ssh-keys.jpg" alt="Padme meme where she asks Anakin about encrypting his ssh keys" default="true" class="text-center" >}}
+![Padme meme where she asks Anakin about encrypting his ssh keys](padme-encrypts-ssh-keys.jpg)
 
 _You do, don't you?_ 🤔
 
@@ -186,7 +186,7 @@ export SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 Open a new terminal or reload your shell with `source ~/.bashrc` or `source ~/.zshrc`.
 Run `ssh` to connect to a server with an encrypted key and you should get a password prompt like this one:
 
-{{< figure src="password-prompt.png" alt="Password prompt from GNOME Keyring" class="justify-center" default="true" >}}
+![Password prompt from GNOME Keyring](password-prompt.png)
 
 # Extra credit
 

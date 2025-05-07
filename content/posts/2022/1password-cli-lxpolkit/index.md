@@ -136,7 +136,7 @@ major      20432  0.0  0.0 393124 12304 pts/3    Sl   11:54   0:00 lxpolkit
 
 I tried the 1Password command line application one more time...
 
-{{< figure src="auth-prompt.png" alt="1Password auth prompt via policykit" default=true >}}
+![1Password auth prompt via policykit](auth-prompt.png)
 
 It worked!
 As long as the 1Password application is running and unlocked, I can use the `op` CLI tool with my normal Linux system authentication.
