@@ -9,7 +9,7 @@ tags:
   - repair
   - toyota
 title: Don't tell me RAG is easy
-coverAlt: Small plants growing on a sandy surfact
+coverAlt: Small plants growing on a sandy surface
 coverCaption: |
   [Annie Spratt](https://unsplash.com/photos/brown-grass-on-white-sand-during-daytime-FuTY0Q6OQmM) via Unsplash
 ---
