@@ -2,7 +2,8 @@
 author: Major Hayden
 date: '2025-06-01'
 summary: |
-  Summary!
+  Although Scrum is a popular agile methodology, it often becomes a theater of activity
+  that distracts teams from what customers actually need. 📅
 tags: 
   - agile
   - general advice
