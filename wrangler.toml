@@ -1,0 +1,12 @@
+# Configure Cloudflare Worker
+# https://github.com/jmooring/hosting-cloudflare-worker?tab=readme-ov-file
+
+name = 'major-io-cloudflare-worker'
+compatibility_date = "2025-05-26"
+
+[build]
+command = "./build.sh"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
