@@ -1,7 +1,7 @@
 # Configure Cloudflare Worker
 # https://github.com/jmooring/hosting-cloudflare-worker?tab=readme-ov-file
 
-name = 'major-io-cloudflare-worker'
+name = 'major-io-static-blog'
 compatibility_date = "2025-05-26"
 
 [build]
