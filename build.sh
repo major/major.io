@@ -2,6 +2,9 @@
 # Build the site properly in Cloudflare pages.
 set -euxo pipefail
 
+# Dump the environment variables for debugging.
+env | sort
+
 # Determine our current branch.
 BRANCH=${CF_PAGES_BRANCH:-main}
 
