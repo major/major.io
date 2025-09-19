@@ -38,6 +38,7 @@ Then create your quadlet file:
 ```ini
 # ~/.config/containers/systemd/valkey.container
 [Container]
+ContainerName=valkey
 Image=docker.io/valkey/valkey:latest
 Label=io.containers.autoupdate=registry
 PublishPort=16379:6379
