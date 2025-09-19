@@ -9,7 +9,7 @@ tags:
   - fedora
   - linux
   - systemd
-title: Automatic container updates with Podman quadlets on Fedora
+title: Automatic container updates with Podman quadlets
 coverAlt: Leopard staring into the distance
 coverCaption: |
   Photo by <a href="https://unsplash.com/@fabbel78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien BELLANGER</a> on <a href="https://unsplash.com/photos/a-cheetah-cub-looks-attentively-into-the-distance-45xy4ugmnsM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
