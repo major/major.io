@@ -7,7 +7,7 @@ summary: |
 tags:
   - ai
   - presentations
-title: Don't tell me RAG is easy - DevConf.US 2025
+title: RAG talk recap from DevConf.US 2025
 coverAlt: The old statehouse in Boston, MA
 coverCaption: |
   Photo by <a href="https://unsplash.com/@leoheisenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo Heisenberg</a> on <a href="https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-brown-concrete-building-during-daytime-LgHghP14qeU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
