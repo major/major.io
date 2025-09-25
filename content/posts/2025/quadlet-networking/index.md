@@ -189,7 +189,8 @@ round-trip min/avg/max = 0.026/0.046/0.088 ms
 
 ## Extra credit
 
-If you want to deploy your system with automation and avoid the manual network creation, you can add one extra file to your `~/.config/containers/systemd/` directory:
+If you want to deploy your system with automation and avoid the manual network creation, you can add one extra file to your `~/.config/containers/systemd/` directory.
+Save this as `db-network.network`:
 
 ```ini
 [Network]
