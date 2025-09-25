@@ -42,7 +42,7 @@ sudo systemctl status pmcd
 
 These two services work together like a team:
 
-* `pmcd` (Performance Metrics Collection Daemon) gathers real-time metrics from various sources on your system.
+* `pmcd` (Performance Metrics Collection Daemon) gathers real-time metrics from various sources on your system when you request them.
 * `pmlogger` records these metrics to log files for historical analysis.
 
 You can verify that the services are working as expected:
@@ -226,6 +226,5 @@ nvidia-smi  # for NVIDIA
 ## Further reading
 
 * [Performance Co-Pilot documentation](https://pcp.io/documentation.html) - Official PCP documentation and quick reference guides
-* [PCP GPU monitoring guide](https://pcp.io/docs/guides/howto-nvidia.html) - Detailed setup for NVIDIA GPU metrics
 * [Red Hat's PCP guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/monitoring_and_managing_system_status_and_performance/monitoring-performance-with-performance-co-pilot_monitoring-and-managing-system-status-and-performance) - Enterprise deployment patterns and best practices
-* [PCP Python API](https://pcp.io/man/man3/python.3.html) - Building custom monitoring tools with Python
+* [PMAPI](https://pcp.readthedocs.io/en/latest/PG/PMAPI.html) - Performance metrics API
