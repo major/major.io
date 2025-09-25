@@ -8,6 +8,7 @@ tags:
   - podman
   - fedora
   - linux
+  - quadlet
   - systemd
 title: Automatic container updates with Podman quadlets
 coverAlt: Leopard staring into the distance
