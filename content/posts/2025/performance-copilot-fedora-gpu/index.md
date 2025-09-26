@@ -92,6 +92,10 @@ sudo ./Install
 The installer will prompt you for configuration options.
 Accept the defaults unless you have specific requirements.
 
+{{< alert >}}
+Thanks to Will Cohen for helping me get these NVIDIA steps corrected! 👏
+{{< /alert >}}
+
 After installation, verify GPU metrics are available:
 
 ```bash
@@ -99,10 +103,10 @@ After installation, verify GPU metrics are available:
 pminfo nvidia
 
 # Check GPU utilization
-pmval nvidia.gpuutil
+pmval nvidia.gpuactive
 
 # Monitor GPU memory usage
-pmval nvidia.fb.used
+pmval nvidia.memused
 ```
 
 ### AMD GPUs
@@ -146,19 +150,13 @@ It's much like `iostat` or `vmstat` from the sysstat package, but you get a lot 
 
 ```bash
 # System overview with 1-second updates
-pmrep -t 1 kernel.all.load kernel.all.cpu.user mem.util.used
+pmrep --space-scale=MB -t 1 kernel.all.load kernel.all.cpu.user mem.util.used
 
 # GPU metrics for LLM monitoring (NVIDIA)
-pmrep -t 1 nvidia.gpuutil nvidia.fb.used nvidia.temp
+pmrep --space-scale=MB -t1 nvidia.gpuactive nvidia.memused nvidia.temperature
 
 # GPU metrics for LLM monitoring (AMD)
-pmrep -t 1 amdgpu.gpu.load amdgpu.memory.used amdgpu.gpu.temperature
-
-# Custom format for specific metrics (NVIDIA)
-pmrep -p -t 2 nvidia.power nvidia.clocks.sm nvidia.temp
-
-# Custom format for specific metrics (AMD)
-pmrep -p -t 2 amdgpu.gpu.load amdgpu.memory.used amdgpu.gpu.temperature
+pmrep --space-scale=MB -t 1 amdgpu.gpu.load amdgpu.memory.used amdgpu.gpu.temperature
 ```
 
 ### Historical analysis with pmlogsummary
@@ -168,40 +166,13 @@ Again, you can do a lot more with `pmlogsummary` than with `sar`, but the basic 
 
 ```bash
 # Summarize yesterday's GPU utilization (NVIDIA)
-pmlogsummary -S @yesterday -T @today /var/log/pcp/pmlogger/$(hostname)/$(date -d yesterday +%Y%m%d) nvidia.gpuutil
+pmlogsummary -S @yesterday -T @today /var/log/pcp/pmlogger/$(hostname)/$(date -d yesterday +%Y%m%d) nvidia.gpuactive
 
 # Summarize yesterday's GPU utilization (AMD)
 pmlogsummary -S @yesterday -T @today /var/log/pcp/pmlogger/$(hostname)/$(date -d yesterday +%Y%m%d) amdgpu.gpu.load
 
 # Find peak memory usage over the last hour
 pmlogsummary -S -1hour /var/log/pcp/pmlogger/$(hostname)/$(date +%Y%m%d) mem.util.used
-```
-
-## Monitoring LLM workloads
-
-You can create a custom configuration if you want to pull certain metrics frequently with a specific format.
-This is great for monitoring scripts or dashboards.
-
-```bash
-cat > ~/.pcp/pmrep/llm-monitor.conf << 'EOF'
-[llm-metrics]
-timestamp = %%H:%%M:%%S
-kernel.all.cpu.user = CPU,,,,8
-mem.util.used = Memory,,,,8
-# For NVIDIA GPUs:
-#nvidia.gpuutil = GPU,,,,6
-#nvidia.fb.used = VRAM,MB,,,8
-#nvidia.temp = Temp,C,,,6
-#nvidia.power = Power,W,,,7
-# For AMD GPUs (comment out NVIDIA lines and uncomment these):
-#amdgpu.gpu.load = GPU,,,,6
-#amdgpu.memory.used = VRAM,MB,,,8
-#amdgpu.gpu.temperature = Temp,C,,,6
-#amdgpu.gpu.average_power = Power,W,,,7
-EOF
-
-# Use the custom configuration
-pmrep -c ~/.pcp/pmrep/llm-monitor.conf -t 1 :llm-metrics
 ```
 
 ## Troubleshooting tips
