@@ -26,7 +26,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Checkout
@@ -55,7 +55,7 @@ jobs:
 
       - name: Download s3deploy
         run: |
-          export S3DEPLOY_VERSION=2.11.0
+          export S3DEPLOY_VERSION=2.12.1
           curl -sLO https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz
           tar -xzf s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz s3deploy
           chmod +x s3deploy
