@@ -4,5 +4,8 @@
   ],
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": true
 }
