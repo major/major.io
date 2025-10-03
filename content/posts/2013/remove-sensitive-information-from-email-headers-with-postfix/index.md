@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2013-04-15 02:59:34
 tags:
 - centos
-- command lines
+- command line
 - fedora
 - mail
 - postfix
