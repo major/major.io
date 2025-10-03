@@ -7,7 +7,7 @@ tags:
 - fedora
 - gnome
 - linux
-- network
+- networking
 - networkmanager
 title: Share a wireless connection via ethernet in GNOME 3.14
 ---

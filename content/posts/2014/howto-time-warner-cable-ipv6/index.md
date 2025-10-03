@@ -7,7 +7,7 @@ tags:
 - fedora
 - ipv6
 - mikrotik
-- network
+- networking
 - networking
 title: 'HOWTO: Time Warner Cable and IPv6'
 ---

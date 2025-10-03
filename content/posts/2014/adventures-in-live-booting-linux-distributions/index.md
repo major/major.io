@@ -11,7 +11,7 @@ tags:
 - fedora
 - filesystem
 - live
-- network
+- networking
 - opensuse
 - red hat
 - squashfs

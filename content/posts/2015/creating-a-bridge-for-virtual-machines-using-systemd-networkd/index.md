@@ -6,7 +6,7 @@ date: 2015-03-26 13:17:08
 tags:
 - centos
 - fedora
-- network
+- networking
 - red hat
 - systemd
 title: Creating a bridge for virtual machines using systemd-networkd

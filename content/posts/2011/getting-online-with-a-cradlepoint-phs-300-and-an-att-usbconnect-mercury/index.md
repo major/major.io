@@ -6,7 +6,7 @@ date: 2011-12-16 07:07:08
 tags:
 - linux
 - mac
-- network
+- networking
 - wireless
 title: Getting online with a CradlePoint PHS-300 and an AT&T USBConnect Mercury
 ---

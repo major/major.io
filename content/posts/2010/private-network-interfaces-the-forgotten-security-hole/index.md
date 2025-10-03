@@ -12,7 +12,7 @@ tags:
 - encryption
 - iptables
 - mysql
-- network
+- networking
 - security
 - ssl
 - sysadmin

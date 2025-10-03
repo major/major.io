@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-09-29 02:08:22
 tags:
 - fedora
-- network
+- networking
 - supermicro
 - systemd
 - udev

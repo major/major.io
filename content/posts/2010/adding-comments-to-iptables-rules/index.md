@@ -7,7 +7,7 @@ author: Major Hayden
 date: 2010-07-26 15:00:52
 tags:
 - iptables
-- network
+- networking
 - security
 - sysadmin
 title: Adding comments to iptables rules

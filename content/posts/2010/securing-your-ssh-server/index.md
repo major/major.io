@@ -11,7 +11,7 @@ tags:
 - firewall
 - iptables
 - linux
-- network
+- networking
 - security
 - ssh
 - sysadmin

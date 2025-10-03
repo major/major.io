@@ -8,7 +8,7 @@ tags:
 - fedora
 - advice
 - linux
-- network
+- networking
 - networking
 - red hat
 - security

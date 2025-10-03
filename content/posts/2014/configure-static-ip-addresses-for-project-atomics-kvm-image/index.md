@@ -6,7 +6,7 @@ date: 2014-04-23 15:14:39
 tags:
 - docker
 - fedora
-- network
+- networking
 - sysadmin
 - virtualization
 title: Configure static IP addresses for Project Atomic’s KVM image

@@ -8,7 +8,7 @@ tags:
 - centos
 - fedora
 - linux
-- network
+- networking
 - networking
 - openstack
 - systemd

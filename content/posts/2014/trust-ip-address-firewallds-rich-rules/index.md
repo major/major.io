@@ -6,7 +6,7 @@ date: 2014-11-24 14:44:09
 tags:
 - fedora
 - firewall
-- network
+- networking
 - red hat
 - security
 title: Trust an IP address with firewalld’s rich rules

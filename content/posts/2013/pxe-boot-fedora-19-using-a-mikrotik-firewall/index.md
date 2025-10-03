@@ -6,7 +6,7 @@ date: 2013-07-23 21:47:33
 tags:
 - fedora
 - mikro
-- network
+- networking
 - pxe
 - red hat
 - ssh

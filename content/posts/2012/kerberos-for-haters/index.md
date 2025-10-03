@@ -8,7 +8,7 @@ tags:
 - fedora
 - kerberos
 - linux
-- network
+- networking
 - networking
 - red hat
 - rhca

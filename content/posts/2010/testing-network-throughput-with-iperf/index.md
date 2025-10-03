@@ -8,7 +8,7 @@ date: 2010-03-20 21:38:07
 tags:
 - command line
 - linux
-- network
+- networking
 title: Testing network throughput with iperf
 ---
 

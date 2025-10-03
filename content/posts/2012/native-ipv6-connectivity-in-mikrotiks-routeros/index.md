@@ -8,7 +8,7 @@ tags:
 - ipv6
 - linux
 - mikrotik
-- network
+- networking
 title: Native IPv6 connectivity in Mikrotik’s RouterOS
 ---
 

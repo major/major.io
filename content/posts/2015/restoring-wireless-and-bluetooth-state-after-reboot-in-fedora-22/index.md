@@ -6,7 +6,7 @@ date: 2015-07-19 22:14:30
 tags:
 - bluetooth
 - fedora
-- network
+- networking
 - networkmanager
 - thinkpad
 - wireless

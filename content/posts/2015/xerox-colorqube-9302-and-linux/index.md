@@ -6,7 +6,7 @@ date: 2015-03-16 02:23:07
 tags:
 - fedora
 - linux
-- network
+- networking
 - printing
 title: Xerox ColorQube 9302 and Linux
 ---

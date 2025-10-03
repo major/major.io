@@ -8,7 +8,7 @@ date: 2010-08-11 13:29:02
 tags:
 - glusterfs
 - linux
-- network
+- networking
 - sysadmin
 - web
 - wordpress

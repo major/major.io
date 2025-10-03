@@ -7,7 +7,7 @@ tags:
 - command line
 - filesystem
 - kernel
-- network
+- networking
 - sysadmin
 title: Keep web servers in sync with DRBD and OCFS2
 ---
