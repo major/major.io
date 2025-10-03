@@ -6,7 +6,7 @@ date: 2017-06-27 20:49:44
 tags:
 - ansible
 - information security
-- pythons
+- python
 - security
 title: 'Old role, new name: ansible-hardening'
 ---
