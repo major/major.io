@@ -6,7 +6,7 @@ summary: |
   Let's dig into how _(and why)_ I do it. 🤖
 tags: 
   - ai
-  - general advice
+  - advice
   - vscode
 title: Vibe-free coding with AI
 coverAlt: Extremely cute french bulldog looking out the window of a Jeep Wrangler

@@ -6,7 +6,7 @@ summary: |
   that distracts teams from what customers actually need. 📅
 tags: 
   - agile
-  - general advice
+  - advice
   - software
 title: Scrum, sprints, and outcomes
 coverAlt: Red poppies bloom against a dark blurred background

@@ -6,7 +6,7 @@ summary: |
   A new tool called fabric and Claude can help.
 tags:
   - ai
-  - general advice
+  - advice
 title: Summarize YouTube videos with Fabric
 coverAlt: Branch of a tree with orange leaves
 coverCaption: |

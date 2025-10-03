@@ -5,7 +5,7 @@ summary: |
   Developing software with a critcal date comes with its own set of challenges.
 tags: 
   - software development
-  - general advice
+  - advice
 title: Date driven development
 coverAlt: Small plants growing on a sandy surface
 coverCaption: |

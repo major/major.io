@@ -6,8 +6,8 @@ aliases:
 author: Major Hayden
 date: 2010-02-28 16:47:16
 tags:
-- general advice
-- sysadmin
+  - advice
+  - sysadmin
 title: 'System Administration Inspiration: If it’s broken, break it a little more'
 ---
 
