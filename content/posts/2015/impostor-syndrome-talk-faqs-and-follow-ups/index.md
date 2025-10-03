@@ -7,7 +7,7 @@ tags:
 - fedora
 - advice
 - impostor syndrome
-- presentation
+- presentations
 title: 'Impostor syndrome talk: FAQs and follow-ups'
 ---
 

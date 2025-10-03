@@ -7,7 +7,7 @@ tags:
 - networking
 - networking
 - openstack
-- presentation
+- presentations
 - security
 title: 'Talk Recap: Holistic Security for OpenStack Clouds'
 ---

@@ -7,7 +7,7 @@ tags:
   - centos
   - fedora
   - linux
-  - presentation
+  - presentations
 title: Texas Linux Fest 2024 recap 🤠
 coverAlt: Austin skyline as seen from the south side of the river
 coverCaption: |

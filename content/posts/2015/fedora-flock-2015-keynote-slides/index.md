@@ -7,7 +7,7 @@ tags:
 - fedora
 - advice
 - impostor syndrome
-- presentation
+- presentations
 title: 'Fedora Flock 2015: Keynote slides'
 ---
 

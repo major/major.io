@@ -5,7 +5,7 @@ author: Major Hayden
 date: 2015-08-22 19:42:52
 tags:
 - impostor syndrome
-- presentation
+- presentations
 title: Slides from my Texas Linux Fest 2015 talk
 ---
 

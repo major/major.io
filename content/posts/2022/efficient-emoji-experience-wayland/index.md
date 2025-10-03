@@ -8,7 +8,7 @@ tags:
 - emojis
 - fedora
 - linux
-- swaywm
+- sway
 - wayland
 title: Efficient emoji experience in Wayland
 ---

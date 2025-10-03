@@ -6,7 +6,7 @@ date: 2015-11-10 14:50:52
 tags:
 - advice
 - information security
-- presentation
+- presentations
 - security
 title: Talking to college students about information security
 ---

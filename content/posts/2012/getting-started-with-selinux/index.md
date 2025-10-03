@@ -9,7 +9,7 @@ tags:
 - fedora
 - red hat
 - security
-- seliux
+- selinux
 - sysadmin
 title: Getting started with SELinux
 ---

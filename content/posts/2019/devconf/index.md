@@ -5,7 +5,7 @@ author: Major Hayden
 date: '2019-01-31'
 tags:
 - events
-- presentation
+- presentations
 - linux
 - open source
 - devconf

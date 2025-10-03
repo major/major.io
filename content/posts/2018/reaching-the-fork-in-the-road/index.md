@@ -8,7 +8,7 @@ tags:
 - fedora
 - impostor syndrome
 - openstack
-- presentation
+- presentations
 - rackspace
 title: Reaching the fork in the road
 ---
