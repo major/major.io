@@ -6,7 +6,7 @@ date: 2008-08-12 01:16:18
 tags:
 - mod_rewrite
 - plesk
-- ruby on rails
+- ruby
 title: Enabling Ruby on Rails support for a domain in Plesk
 ---
 

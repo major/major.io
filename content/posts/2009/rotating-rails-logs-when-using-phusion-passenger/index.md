@@ -7,7 +7,7 @@ tags:
 - apache
 - logrotate
 - passenger
-- rails
+- ruby
 title: Rotating rails logs when using Phusion Passenger
 ---
 

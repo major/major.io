@@ -7,7 +7,7 @@ author: Major Hayden
 date: 2009-01-09 17:00:44
 tags:
 - database
-- ruby on rails
+- ruby
 title: Writing a Ruby on Rails application without using a database
 ---
 
