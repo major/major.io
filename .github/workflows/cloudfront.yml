@@ -23,16 +23,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "latest"
-          extended: true
-
       - name: Checkout
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
         with:
           submodules: recursive
+
+      - name: Extract versions from go.mod
+        id: versions
+        run: |
+          HUGO_VERSION=$(grep 'github.com/gohugoio/hugo' go.mod | awk '{print $2}' | sed 's/^v//')
+          S3DEPLOY_VERSION=$(grep 'github.com/bep/s3deploy' go.mod | awk '{print $2}' | sed 's/^v//')
+          echo "hugo=${HUGO_VERSION}" >> $GITHUB_OUTPUT
+          echo "s3deploy=${S3DEPLOY_VERSION}" >> $GITHUB_OUTPUT
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "${{ steps.versions.outputs.hugo }}"
+          extended: true
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v5.0.0
@@ -53,13 +61,19 @@ jobs:
           cp public/index.xml public/feed/index.xml
           cp public/index.xml public/feed/index.html
 
+      - name: Cache s3deploy
+        id: cache-s3deploy
+        uses: actions/cache@v4
+        with:
+          path: s3deploy
+          key: s3deploy-${{ steps.versions.outputs.s3deploy }}-linux-amd64
+
       - name: Download s3deploy
+        if: steps.cache-s3deploy.outputs.cache-hit != 'true'
         run: |
-          export S3DEPLOY_VERSION=2.12.1
-          export S3DEPLOY_CHECKSUM=069084aef02cd3e532edec82fc24595adaacf5479b1674de764a03ff2d8d332e
-          curl -sLO https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz
-          echo "${S3DEPLOY_CHECKSUM}  s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz" | sha256sum -c -
-          tar -xzf s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz s3deploy
+          curl -sLO https://github.com/bep/s3deploy/releases/download/v${{ steps.versions.outputs.s3deploy }}/s3deploy_${{ steps.versions.outputs.s3deploy }}_linux-amd64.tar.gz
+          curl -sL https://github.com/bep/s3deploy/releases/download/v${{ steps.versions.outputs.s3deploy }}/s3deploy_${{ steps.versions.outputs.s3deploy }}_checksums.txt | grep linux-amd64.tar.gz | sha256sum -c -
+          tar -xzf s3deploy_${{ steps.versions.outputs.s3deploy }}_linux-amd64.tar.gz s3deploy
           chmod +x s3deploy
 
       - name: Deploy to S3 using s3deploy
