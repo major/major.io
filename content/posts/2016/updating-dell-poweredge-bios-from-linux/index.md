@@ -8,7 +8,7 @@ tags:
 - dell
 - fedora
 - hardware
-- redhat
+- red hat
 - ubuntu
 title: Updating Dell PowerEdge BIOS from Linux
 ---

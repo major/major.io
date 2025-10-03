@@ -8,7 +8,7 @@ tags:
 - fedora
 - httpry
 - network
-- redhat
+- red hat
 title: httpry 0.1.8 available for RHEL and CentOS 7
 ---
 

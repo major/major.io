@@ -10,7 +10,7 @@ tags:
 - openstack
 - rackspace
 - red hat
-- redhat
+- red hat
 - rpm
 - xen
 - yum

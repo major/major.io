@@ -8,7 +8,7 @@ tags:
 - mikro
 - network
 - pxe
-- redhat
+- red hat
 - ssh
 - sysadmin
 - virt-manager

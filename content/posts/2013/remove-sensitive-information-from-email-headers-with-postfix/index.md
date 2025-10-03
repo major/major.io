@@ -9,7 +9,7 @@ tags:
 - fedora
 - mail
 - postfix
-- redhat
+- red hat
 - security
 - sysadmin
 title: Remove sensitive information from email headers with postfix

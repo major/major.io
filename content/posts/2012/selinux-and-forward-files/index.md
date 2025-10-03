@@ -8,7 +8,7 @@ tags:
 - fedora
 - mail
 - postfix
-- redhat
+- red hat
 - security
 - selinux
 - sysadmin

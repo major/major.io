@@ -8,7 +8,7 @@ tags:
 - debian
 - fedora
 - network
-- redhat
+- red hat
 - systemd
 title: Unexpected predictable network naming with systemd
 ---

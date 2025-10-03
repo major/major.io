@@ -7,7 +7,7 @@ tags:
 - centos
 - fedora
 - linux
-- redhat
+- red hat
 - security
 - ssh
 - sysadmin

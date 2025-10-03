@@ -8,7 +8,7 @@ summary: Brno is a beautiful city in the Czech Republic. Learn some travel tips 
 tags:
 - travel
 - brno
-- redhat
+- red hat
 title: My Travel Guide to Brno
 ---
 

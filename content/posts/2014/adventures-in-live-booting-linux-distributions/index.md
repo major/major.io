@@ -13,7 +13,7 @@ tags:
 - live
 - network
 - opensuse
-- redhat
+- red hat
 - squashfs
 - sysadmin
 - ubuntu

@@ -7,7 +7,7 @@ tags:
 - command line
 - fedora
 - linux
-- redhat
+- red hat
 - samba
 - virtualization
 title: Boot VM’s with virt-manager and libvirt with ISO’s stored remotely via samba/cifs

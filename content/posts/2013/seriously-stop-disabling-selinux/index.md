@@ -8,7 +8,7 @@ tags:
 - command line
 - fedora
 - advice
-- redhat
+- red hat
 - security
 - selinux
 title: Seriously, stop disabling SELinux

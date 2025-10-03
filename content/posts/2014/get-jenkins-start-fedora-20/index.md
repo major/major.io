@@ -7,7 +7,7 @@ tags:
 - fedora
 - java
 - jenkins
-- redhat
+- red hat
 - yum
 title: Start Jenkins on Fedora 20
 ---
