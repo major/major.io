@@ -6,6 +6,7 @@ github.com/gohugoio/hugo v0.118.2/go.mod h1:loOGCp1OeKj3qCxrUe6L/FP1m0qF0EA9QbZ6
 github.com/gohugoio/hugo v0.119.0/go.mod h1:pXwmL2lFumAkr3qS2D262seu4SWDLphQLvYfhdGdLRU=
 github.com/gohugoio/hugo v0.151.0/go.mod h1:vG8YNzOxrX7tgry5MO4IZ52Dd44ypWpCsnycbFh8I1Y=
 github.com/gohugoio/hugo v0.151.1/go.mod h1:7QPFu7oOioiXlmy9hfgnhCg3LixGXthnZQmmBUdjs/4=
+github.com/gohugoio/hugo v0.151.2/go.mod h1:7QPFu7oOioiXlmy9hfgnhCg3LixGXthnZQmmBUdjs/4=
 github.com/gohugoio/locales v0.14.0 h1:Q0gpsZwfv7ATHMbcTNepFd59H7GoykzWJIxi113XGDc=
 github.com/gohugoio/locales v0.14.0/go.mod h1:ip8cCAv/cnmVLzzXtiTpPwgJ4xhKZranqNqtoIu0b/4=
 github.com/gohugoio/localescompressed v1.0.1 h1:KTYMi8fCWYLswFyJAeOtuk/EkXR/KPTHHNN9OS+RTxo=
