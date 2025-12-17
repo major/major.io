@@ -117,7 +117,7 @@ I also have cloud instances on Hetzner, VULTR, and Digital Ocean that have run C
 
 # More questions?
 
-Feel free to [send me an email](mailto:major+coreos@mhtx.net) or [drop me a toot on Mastodon](https://tootloop.com/@major).
+Feel free to [send me an email](mailto:major+coreos@mhtx.net).
 I'll update this post if I get some good ones!
 
 [^running]: Completing a half marathon without keeling over is the current goal! 👟
