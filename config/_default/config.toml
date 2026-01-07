@@ -16,7 +16,7 @@ summaryLength = 0
 pagerSize = 50
 
 [permalinks]
-posts = "/p/:filename/"
+posts = "/p/:contentbasename/"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
