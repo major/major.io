@@ -19,7 +19,7 @@ Munger passed away in November 2023 at the age of 99, just weeks before his 100t
 The book consists of many of Munger's speeches over the years, most of which were delivered at graduation ceremonies or to alumni groups.
 Although his speeches cover different topics, including investing, business, and life advice, they all share common themes.
 
-If you had put in $100 when Munger joined in 1978, wou'd be sitting on $396,000 today.
+If you had put in $100 when Munger joined in 1978, would be sitting on $396,000 today.
 It goes without saying that he was really successful at what he did.
 It's **how he did it** that I found most interesting.
 
