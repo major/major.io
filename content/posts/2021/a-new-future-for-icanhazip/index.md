@@ -110,7 +110,7 @@ I received emails from companies, US state governments, and even US three letter
 agencies (TLA). Most were very friendly and they had lots of questions. I explained how the site worked and rarely heard a lot more communication after that.
 
 Not all of the interactions were positive, however. One CISO of a US state
-emailed me and threatened all kinds of legal action claming that icanhazip.com
+emailed me and threatened all kinds of legal action claiming that icanhazip.com
 was involved in a malware infection in his state's computer systems. I tried
 repeatedly to explain how the site worked and that the malware authors were
 calling out to my site and I was powerless to stop it.
