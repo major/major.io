@@ -65,7 +65,7 @@ jobs:
 
       - name: Cache s3deploy
         id: cache-s3deploy
-        uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5
+        uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7 # v5
         with:
           path: s3deploy
           key: s3deploy-${{ steps.versions.outputs.s3deploy }}-linux-amd64
