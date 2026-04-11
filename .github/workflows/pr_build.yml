@@ -11,19 +11,25 @@ defaults:
   run:
     shell: bash
 
+# renovate: datasource=github-releases depName=gohugoio/hugo
+env:
+  HUGO_VERSION: "0.160.1"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Setup Go
+        uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5
         with:
-          submodules: recursive
+          go-version: stable
 
       - name: Setup Hugo
         run: |
-          LATEST_HUGO_VERSION=$(grep github.com/gohugoio/hugo go.mod | awk '{print $NF}' | sed 's/^v//')
-          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${LATEST_HUGO_VERSION}/hugo_extended_${LATEST_HUGO_VERSION}_linux-amd64.tar.gz"
+          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
           curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
           ./hugo version
 
