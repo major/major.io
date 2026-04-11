@@ -1,0 +1,44 @@
+/* Source Sans 3 - variable font */
+@font-face {
+    font-display: swap;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 200 900;
+    src: url('/fonts/SourceSans3.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 200 900;
+    src: url('/fonts/SourceSans3-Italic.woff2') format('woff2');
+}
+
+/* Source Code Pro - variable font */
+@font-face {
+    font-display: swap;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 200 900;
+    src: url('/fonts/SourceCodePro.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Source Code Pro';
+    font-style: italic;
+    font-weight: 200 900;
+    src: url('/fonts/SourceCodePro-Italic.woff2') format('woff2');
+}
+
+body {
+    font-family: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+
+code,
+kbd,
+samp,
+pre {
+    font-family: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, liberation mono, courier new, monospace;
+}

@@ -1,0 +1,9 @@
+/* Show cover images on taxonomy (tag) list pages */
+.tag-entry .entry-cover {
+    display: block;
+}
+
+/* Widen the default content area from 720px */
+:root {
+    --main-width: 840px;
+}
