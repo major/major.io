@@ -1,0 +1,169 @@
+baseURL: https://major.io/
+languageCode: en
+title: Major Hayden
+copyright: "All content licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+
+enableGitInfo: true
+enableRobotsTXT: true
+summaryLength: 0
+
+pagination:
+  pagerSize: 50
+
+permalinks:
+  posts: /p/:contentbasename/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+services:
+  rss:
+    limit: 25
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.146.0
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+params:
+  env: production
+  description: "A social nerd writing about everything"
+  DateFormat: "2 January 2006"
+
+  mainSections:
+    - posts
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableScrollToTop: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  UseHugoToc: true
+  TocOpen: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowFullTextinRSS: true
+
+  editPost:
+    URL: "https://github.com/major/major.io/blob/main/content/"
+    Text: "Edit"
+    appendFilePath: true
+
+  profileMode:
+    enabled: true
+    title: "Major Hayden"
+    subtitle: "I love sharing what I've learned with others and I hope you find something here that's useful."
+    imageUrl: "major_avatar.webp"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: Posts
+        url: /posts/
+      - name: Tags
+        url: /tags/
+
+  socialIcons:
+    - name: email
+      title: Email
+      url: "mailto:major@mhtx.net"
+    - name: github
+      title: GitHub
+      url: "https://github.com/major"
+    - name: gitlab
+      title: GitLab
+      url: "https://gitlab.com/majorhayden"
+    - name: linkedin
+      title: LinkedIn
+      url: "https://linkedin.com/in/majorhayden"
+    - name: telegram
+      title: Telegram
+      url: "https://t.me/majorhayden"
+    - name: rss
+      title: RSS
+      url: "/index.xml"
+
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
+    disableHLJS: true
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: false
+    linkFullImages: true
+    responsiveImages: true
+
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://github.com/major"
+      - "https://gitlab.com/majorhayden"
+      - "https://linkedin.com/in/majorhayden"
+      - "https://t.me/majorhayden"
+
+  label:
+    text: "Major Hayden"
+
+  author:
+    name: "Major Hayden"
+    email: "major@mhtx.net"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 20
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
