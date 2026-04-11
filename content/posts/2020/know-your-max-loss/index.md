@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: Know your max loss
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 This is the third post in a [series of posts on options trading]. You can read

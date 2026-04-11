@@ -10,6 +10,10 @@ tags:
 - career
 - mentorship
 title: Persuasion engineering
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Mentorship stands out as one of my favorite parts of working in technology and

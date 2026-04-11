@@ -10,6 +10,10 @@ tags:
 - laptop
 - linux
 title: Backlight control with i3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Controlling the LED backlight brightness on a laptop in Linux used to be a

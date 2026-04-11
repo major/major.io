@@ -10,6 +10,10 @@ tags:
 - openstack
 - rpm
 title: Import RPM repository GPG keys from other keyservers temporarily
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I've been working through some patches to [OpenStack-Ansible][2] lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys.

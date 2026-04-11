@@ -11,6 +11,10 @@ tags:
 - linux
 - podman
 title: Build containers in GitLab CI with buildah
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 My team at Red Hat depends heavily on [GitLab CI] and we build containers

@@ -13,6 +13,10 @@ tags:
 - virtualization
 - web
 title: Docker, trusted builds, and Fedora 20
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Docker is a hot topic in the Linux world at the moment and I decided to try out the new [trusted build process][3]. Long story short, you put your Dockerfile along with any additional content into your GitHub repository, link your GitHub account with Docker, and then fire off a build. The Docker index labels it as "trusted" since it was build from source files in your repository.

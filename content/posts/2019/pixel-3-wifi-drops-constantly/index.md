@@ -7,6 +7,10 @@ tags:
 - android
 - networking
 title: Pixel 3 Wi-Fi drops constantly
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both

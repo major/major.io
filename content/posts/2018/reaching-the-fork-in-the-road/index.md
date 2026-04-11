@@ -11,6 +11,10 @@ tags:
 - presentations
 - rackspace
 title: Reaching the fork in the road
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Walt Disney said it best:

@@ -9,6 +9,10 @@ tags:
 - serial
 - ups
 title: Troubleshooting CyberPower PowerPanel issues in Linux
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I have a [CyberPower BRG1350AVRLCD][2] at home and I've just connected it to a new device. However, the `pwrstat` command doesn't retrieve any useful data on the new system:

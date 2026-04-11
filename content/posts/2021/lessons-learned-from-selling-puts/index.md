@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: Lessons learned from selling puts
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 🤔 *This is another post in a set of posts on [options trading] on the blog.

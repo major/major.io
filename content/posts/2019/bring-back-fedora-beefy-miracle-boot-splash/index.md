@@ -10,6 +10,10 @@ tags:
 - fedora
 - linux
 title: Bring Back Fedora's Beefy Miracle boot splash
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Way back in 2012 when Fedora releases had names, there was one release that

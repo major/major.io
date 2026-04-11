@@ -10,6 +10,10 @@ tags:
 - fedora
 - linux
 title: Install Chromium with VAAPI on Fedora 30
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 ***UPDATE:*** *The `chromium-vaapi` package is now `chromium-freeworld`.

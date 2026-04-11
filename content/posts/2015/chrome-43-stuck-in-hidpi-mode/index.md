@@ -8,6 +8,10 @@ tags:
 - fedora
 - gnome
 title: Chrome 43 stuck in HiDPI mode
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I ran some package updates last night and ended up with a new version of Google Chrome from the stable branch. After restarting Chrome, everything in the interface was **huge**. The icons in the bookmark bar, the text, the padding - all of it looked enormous.

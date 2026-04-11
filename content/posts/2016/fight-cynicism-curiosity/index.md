@@ -8,6 +8,10 @@ tags:
 - advice
 - sysadmin
 title: Fight cynicism with curiosity
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I'm [always interested to talk to college students][1] about technology and business in general. They have amazing ideas and they don't place any limits on themselves. In particular, their curiosity is limitless.

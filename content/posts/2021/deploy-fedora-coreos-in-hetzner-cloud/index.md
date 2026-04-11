@@ -12,6 +12,10 @@ tags:
 - hetzner
 - linux
 title: Deploy Fedora CoreOS in Hetzner cloud
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 [Hetzner] has always been a reliable and cost-effective hosting company for me

@@ -9,10 +9,12 @@ tags:
 - mac
 title: Play/pause button stopped working in OS X Mavericks
 cover:
+  image: feature.jpg
   alt: Mac chiclet keyboard
   caption: '<a href="https://www.flickr.com/photos/26572975@N00/1371111259/">Andrew*</a>
 
     via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>'
+  relative: true
 ---
 
 My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week.

@@ -10,6 +10,10 @@ tags:
 - exercise
 - running
 title: Amateur Guide to Running
+cover:
+  image: vancouver.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I love to run.

@@ -12,6 +12,10 @@ tags:
 - ssh
 - sway
 title: Use GNOME Keyring with Sway
+cover:
+  image: padme-encrypts-ssh-keys.jpg
+  alt: Cover image
+  relative: true
 ---
 
 [SSH key authentication] makes it easier to secure SSH servers and it opens the door to automation with projects such as [Ansible].

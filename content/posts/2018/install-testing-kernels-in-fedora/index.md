@@ -11,6 +11,10 @@ tags:
 - linux
 - yum
 title: Install testing kernels in Fedora
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 If you're on the latest Fedora release, you're already running lots of modern packages. However, there are those times when you may want to help with testing efforts or try out a new feature in a newer package.

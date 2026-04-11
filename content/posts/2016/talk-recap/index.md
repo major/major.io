@@ -12,6 +12,10 @@ tags:
 - rackspace
 - red hat
 title: 'Talk recap: The friendship of OpenStack and Ansible'
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 The 2016 Red Hat Summit is underway in San Francisco this week and I delivered a talk with [Robyn Bergeron][2] earlier today. Our talk, _[When flexibility met simplicity: The friendship of OpenStack and Ansible][3]_, explained how Ansible can reduce the complexity of OpenStack environments without sacrificing the flexibility that private clouds offer.

@@ -9,6 +9,10 @@ tags:
 - security
 - gitlab
 title: Running Ansible in OpenShift with arbitrary UIDs
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 My work at Red Hat involves testing lots and lots of kernels from various

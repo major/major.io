@@ -7,6 +7,10 @@ tags:
 - linux
 - conferences
 title: Texas Linux Fest 2019 Recap
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Another Texas Linux Fest has come and gone! The [2019 Texas Linux Fest] was

@@ -9,6 +9,10 @@ tags:
 - python
 - security
 title: Enabling kwallet after accidentally disabling it
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Although I use GNOME 3 as my desktop environment, I prefer KDE's [kwallet][1] service to gnome-keyring for some functions. The user interface is a little easier to use and it's easier to link up to the [keyring module][2] in Python.

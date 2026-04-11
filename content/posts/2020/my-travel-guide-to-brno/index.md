@@ -10,6 +10,10 @@ tags:
 - brno
 - red hat
 title: My Travel Guide to Brno
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Come to the Czech Republic and discover the beautiful city of [Brno]. I just

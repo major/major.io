@@ -9,6 +9,10 @@ tags:
 - books
 - reading
 title: My summer 2021 reading list
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I set a goal this summer to read a little each day and work through my reading

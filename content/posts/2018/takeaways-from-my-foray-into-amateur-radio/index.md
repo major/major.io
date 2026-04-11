@@ -7,6 +7,10 @@ tags:
 - fedora
 - radio
 title: Takeaways from my foray into amateur radio
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 The [Overland Expo in Asheville][2] last year was a great event, and one of my favorite sessions covered the basics about radio communications while overlanding. The instructors shared their radios with us and taught us some tips and tricks for how to save power and communicate effectively on the trail.

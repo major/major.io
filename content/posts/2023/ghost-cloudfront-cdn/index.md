@@ -14,10 +14,12 @@ tags:
 - ssl
 title: Add CloudFront CDN to a Ghost blog
 cover:
+  image: feature.jpg
   alt: Blue neon lights along a dark hallway
   caption: 'Photo by <a href="https://unsplash.com/@bappie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bappie</a>
 
     on <a href="https://unsplash.com/wallpapers/colors/neon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+  relative: true
 ---
 
 After I launched my new [stock market blog](https://thetanerd.com/) on a self-hosted [Ghost](https://ghost.org/), I wrote up the [deployment process](/p/deploy-ghost/) in containers last week.

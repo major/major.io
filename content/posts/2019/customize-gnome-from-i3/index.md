@@ -10,6 +10,10 @@ tags:
 - i3
 - linux
 title: Customize GNOME from i3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 i3 has been my window manager of choice for a while and I really enjoy its

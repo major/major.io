@@ -13,6 +13,10 @@ tags:
 - redis
 - twitter
 title: Adventures with the mastodon herd
+cover:
+  image: mastodon_users.png
+  alt: Cover image
+  relative: true
 ---
 
 All of the recent changes at Twitter inspired me to take a second look at [mastodon].

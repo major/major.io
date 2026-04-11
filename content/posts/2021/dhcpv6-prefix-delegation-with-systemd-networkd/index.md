@@ -10,6 +10,10 @@ tags:
 - linux
 - networking
 title: DHCPv6 prefix delegation with systemd-networkd
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 My home internet comes from Spectrum (formerly Time Warner Cable) and they offer

@@ -8,6 +8,10 @@ tags:
 - mail
 - thunderbird
 title: Thunderbird changes fonts in some messages, not all
+cover:
+  image: Screenshot-from-2017-08-02-07-48-18.png
+  alt: Cover image
+  relative: true
 ---
 
 [Thunderbird][1] is a great choice for a mail client on Linux systems if you prefer a GUI, but I had some problems with fonts in the most recent releases. The monospace font used for plain text messages was difficult to read.

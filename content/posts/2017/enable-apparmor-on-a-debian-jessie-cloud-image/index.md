@@ -11,6 +11,10 @@ tags:
 - openstack
 - security
 title: Enable AppArmor on a Debian Jessie cloud image
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I merged some [initial Debian support][2] into the openstack-ansible-security role and ran into an issue enabling AppArmor. The `apparmor` service failed to start and I found this output in the system journal:

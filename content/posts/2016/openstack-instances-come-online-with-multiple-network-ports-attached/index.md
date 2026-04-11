@@ -11,6 +11,10 @@ tags:
 - python
 - virtualization
 title: OpenStack instances come online with multiple network ports attached
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port.

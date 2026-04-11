@@ -8,6 +8,10 @@ tags:
   - policykit
   - security
 title: Connect 1Password's CLI and app in i3 with lxpolkit 
+cover:
+  image: auth-prompt.png
+  alt: Cover image
+  relative: true
 ---
 
 [Bitwarden](https://bitwarden.com/) became my go-to password manager a few years ago after I finally abandoned LastPass.

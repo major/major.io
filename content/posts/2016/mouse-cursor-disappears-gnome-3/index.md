@@ -9,6 +9,10 @@ tags:
 - gnome
 - linux
 title: Mouse cursor disappears in GNOME 3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 **UPDATE:** The fixed version of mutter is now in the Fedora updates repository. You should be able to update the package with `dnf`:

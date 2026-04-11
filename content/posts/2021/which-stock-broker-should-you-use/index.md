@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: Which stock broker should you use?
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

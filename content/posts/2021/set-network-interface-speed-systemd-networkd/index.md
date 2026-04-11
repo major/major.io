@@ -12,6 +12,10 @@ tags:
 - systemd
 - systemd-networkd
 title: Set network interface speed with systemd-networkd
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Sometimes automation is your best friend and sometimes it isn't. Typically, when

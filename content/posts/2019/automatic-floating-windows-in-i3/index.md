@@ -8,6 +8,10 @@ tags:
 - i3
 - fedora
 title: Automatic floating windows in i3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 The [i3 window manager] is a fast window manager that helps you keep all of

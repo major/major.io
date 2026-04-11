@@ -16,10 +16,12 @@ title: 'Deploy a containerized Ghost blog 👻
 
   '
 cover:
+  image: feature.jpg
   alt: 'Lots of gold-colored beams in the ceiling of a building in Lisbon, Porgugal with a blue sky behind them
 
     '
   caption: Photo by <a href="https://unsplash.com/@rgaleriacom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/photos/8RNmPVhbmEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 There's no shortage of options for starting a self-hosted blog.

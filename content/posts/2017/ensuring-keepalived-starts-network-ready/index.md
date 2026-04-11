@@ -13,6 +13,10 @@ tags:
 - openstack
 - systemd
 title: Ensuring keepalived starts after the network is ready
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 After a recent [OpenStack-Ansible (OSA)][2] deployment on CentOS, I found that keepalived was not starting properly at boot time:
