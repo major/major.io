@@ -9,6 +9,10 @@ tags:
 - networking
 - wireless
 title: Getting online with a CradlePoint PHS-300 and an AT&T USBConnect Mercury
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Anyone who has used a 3G ExpressCard or USB stick knows how handy they can be when you need internet access away from home (and away from Wi-Fi). I've run into some situations recently where I needed to share my 3G connection with more than one device without using internet sharing on my MacBook Pro.

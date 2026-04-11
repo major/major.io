@@ -10,6 +10,10 @@ tags:
 - i3
 - linux
 title: Enable touchpad tap to click in i3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 One of the first things I look for on a fresh installation of a laptop is how to

@@ -12,6 +12,10 @@ tags:
 - python
 - rpm
 title: Efficient emojis with rofimoji
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Emojis brighten up any message or document. They also serve as excellent methods

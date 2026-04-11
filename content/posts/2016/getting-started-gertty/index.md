@@ -10,6 +10,10 @@ tags:
 - python
 - sqlite
 title: Getting started with gertty
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 When you're ready to commit code in an OpenStack project, your patch will eventually land in a [Gerrit][2] queue for review. The web interface works well for most users, but it can be challenging to use when you have a large amount of projects to monitor. I recently became a core developer on the OpenStack-Ansible project and I searched for a better solution to handle lots of active reviews.

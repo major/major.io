@@ -7,6 +7,10 @@ tags:
 - advice
 - sysadmin
 title: Success with stress
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 _This is a [copy of a post][1] I wrote for the [Rackspace Talent][2] blog. Much of it probably applies to the job of a system administrator, so I figured it would be a good idea to post it here as well. Let me know what you think!_

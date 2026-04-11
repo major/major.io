@@ -10,6 +10,10 @@ tags:
 - presentations
 - security
 title: 'Talk Recap: Holistic Security for OpenStack Clouds'
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards.

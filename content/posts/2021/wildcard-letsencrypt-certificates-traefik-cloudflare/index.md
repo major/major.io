@@ -13,6 +13,10 @@ tags:
 - traefik
 - tls
 title: Wildcard LetsEncrypt certificates with Traefik and Cloudflare
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Wildcard certificates make it easy to secure lots of subdomains under a single

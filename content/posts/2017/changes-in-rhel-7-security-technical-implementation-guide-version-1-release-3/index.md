@@ -3,7 +3,6 @@ aliases:
 - /2017/11/02/changes-in-rhel-7-security-technical-implementation-guide-version-1-release-3/
 author: Major Hayden
 date: 2017-11-02 15:00:25
-featured_image: /wp-content/uploads/2017/06/2.jpg
 tags:
 - ansible
 - centos
@@ -18,6 +17,10 @@ tags:
 - suse
 - ubuntu
 title: Changes in RHEL 7 Security Technical Implementation Guide Version 1, Release 3
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 The latest release of the Red Hat Enterprise Linux Security Technical Implementation Guide (STIG) [was published last week][2].

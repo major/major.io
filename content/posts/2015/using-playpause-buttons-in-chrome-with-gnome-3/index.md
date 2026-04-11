@@ -8,6 +8,10 @@ tags:
 - fedora
 - gnome
 title: Using play/pause buttons in Chrome with GNOME 3
+cover:
+  image: Keyboard_002.png
+  alt: Cover image
+  relative: true
 ---
 
 I [wrote a post last summer][1] about preventing Chrome from stealing the media buttons (like play, pause, previous track and next track) from OS X. Now that I'm using Linux regularly and I fell in love with Google Play Music All Access, I found that GNOME was stealing the media keys from Chrome.

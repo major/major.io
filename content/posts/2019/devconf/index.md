@@ -11,6 +11,10 @@ tags:
 - devconf
 - red hat
 title: DevConf.CZ 2019 Recap
+cover:
+  image: 20190131-devconf-2019-snow-720.jpg
+  alt: Cover image
+  relative: true
 ---
 
 [DevConf.CZ 2019] wrapped up last weekend and it was a great event packed

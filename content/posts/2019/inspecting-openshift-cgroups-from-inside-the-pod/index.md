@@ -9,6 +9,10 @@ tags:
 - security
 - linux
 title: Inspecting OpenShift cgroups from inside the pod
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 My team at Red Hat builds a lot of kernels in OpenShift pods as part of our

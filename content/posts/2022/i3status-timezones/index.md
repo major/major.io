@@ -7,6 +7,10 @@ tags:
   - i3status
   - timezones
 title: Clocks in multiple time zones with i3status 
+cover:
+  image: i3status.png
+  alt: Cover image
+  relative: true
 ---
 
 Many of my coworkers are on Central European Time (CET) and they're seven hours ahead of me _(most of the time)_.

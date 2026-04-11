@@ -11,6 +11,10 @@ tags:
 - linux
 - python
 title: Install Azure CLI on Fedora 35
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I started work on packaging the [Azure CLI] and all of its components in Fedora

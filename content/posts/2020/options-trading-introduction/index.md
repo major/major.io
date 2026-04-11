@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: Options trading introduction
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I'm always on the hunt for new things to learn and one of my newer interests

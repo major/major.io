@@ -9,6 +9,10 @@ tags:
 - advice
 - information security
 title: Why should students learn to write code?
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 There are lots of efforts underway to get students (young and old) to learn to write code. There are far-reaching efforts, like the [Hour of Code][2], and plenty of smaller, more focused projects, such as the [Design and Technology Academy][3] (part of [Northeast ISD][4] here in San Antonio, Texas). These are excellent programs that enrich the education of many students.

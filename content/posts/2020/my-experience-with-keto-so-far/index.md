@@ -10,6 +10,10 @@ tags:
 - lifestyle
 - keto
 title: My experience with keto so far
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I've talked about some of my experiences with altering my diet on Twitter and

@@ -11,6 +11,10 @@ tags:
 - red hat
 - ubuntu
 title: Updating Dell PowerEdge BIOS from Linux
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Updating Dell PowerEdge firmware from Linux is quite easy, but it isn't documented very well. I ended up with a set of PowerEdge R710's at work for a lab environment and the BIOS versions were different on each server.

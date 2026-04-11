@@ -11,6 +11,10 @@ tags:
 - security
 - troubleshooting
 title: Troubleshooting OpenStack network connectivity
+cover:
+  image: Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg
+  alt: Cover image
+  relative: true
 ---
 
 _NOTE: This post is a work in progress. If you find something that I missed, feel free to leave a comment. I've made plenty of silly mistakes, but I'm sure I'll make a few more. :)_

@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: 'The Dark Side: Selling Options'
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I've started a [series of posts on options trading] and if you haven't read

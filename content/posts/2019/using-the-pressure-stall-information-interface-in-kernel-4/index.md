@@ -8,6 +8,10 @@ tags:
 - fedora
 - linux
 title: Using the pressure stall information interface in kernel 4.20
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Fedora 29 now has kernel 4.20 available and it has [lots of new features].

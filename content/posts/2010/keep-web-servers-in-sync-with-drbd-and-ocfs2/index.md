@@ -10,6 +10,10 @@ tags:
 - networking
 - sysadmin
 title: Keep web servers in sync with DRBD and OCFS2
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 The guide to redundant cloud hosting that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option.

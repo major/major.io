@@ -12,6 +12,10 @@ tags:
 - thinkpad
 - nvidia
 title: Disable Nvidia GPU on the Thinkpad T490
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I wrote about [installing Linux on the Lenovo ThinkPad T490 last month] and

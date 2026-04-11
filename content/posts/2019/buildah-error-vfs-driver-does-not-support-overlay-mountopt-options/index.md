@@ -13,6 +13,10 @@ tags:
 - linux
 - podman
 title: 'buildah error: vfs driver does not support overlay.mountopt options'
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Buildah and podman make a great pair for building, managing and running

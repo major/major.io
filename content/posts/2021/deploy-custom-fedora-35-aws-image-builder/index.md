@@ -13,6 +13,10 @@ tags:
 - fedora
 - linux
 title: Deploy a custom Fedora 35 AMI to AWS with Image Builder
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 [Fedora] reigns supreme as my Linux distribution of choice when I deploy new

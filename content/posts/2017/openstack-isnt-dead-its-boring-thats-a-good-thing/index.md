@@ -10,6 +10,10 @@ tags:
 - servers
 - virtualization
 title: OpenStack isn’t dead. It’s boring. That’s a good thing.
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 _NOTE: The opinions shared in this post are mine alone and are not related to my employer in any way._

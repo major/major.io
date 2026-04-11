@@ -10,6 +10,10 @@ tags:
 - privacy
 - security
 title: Enable IPv6 privacy in NetworkManager
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 On most IPv6-enabled networks, network addresses are distributed via [stateless address autoconfiguration (SLAAC)][2]. That is a fancy way to say that hosts on an IPv6 network will configure their own IP addresses.

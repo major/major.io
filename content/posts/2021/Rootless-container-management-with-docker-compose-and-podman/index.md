@@ -11,6 +11,10 @@ tags:
 - linux
 - podman
 title: Rootless container management with docker-compose and podman
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Everyone has an opinion for the best way to manage containers, and there are

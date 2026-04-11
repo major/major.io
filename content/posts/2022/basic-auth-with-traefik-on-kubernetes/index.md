@@ -13,6 +13,10 @@ tags:
 - security
 - traefik
 title: Basic authentication with Traefik on kubernetes
+cover:
+  image: traefik_dashboard.png
+  alt: Cover image
+  relative: true
 ---
 
 [Basic access authentication] dates back to 1993 and it's still heavily used today. The

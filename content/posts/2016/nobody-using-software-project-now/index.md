@@ -8,6 +8,10 @@ tags:
 - advice
 - python
 title: Nobody is using your software project. Now what?
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Working with open source software is an amazing experience. The collaborative process around creation, refinement, and even maintenance, drives more developers to work on open source software more often. However, every developer finds themselves writing code that very few people _actually use_.

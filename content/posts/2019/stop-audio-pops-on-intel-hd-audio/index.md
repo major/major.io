@@ -8,6 +8,10 @@ tags:
 - fedora
 - sound
 title: Stop audio pops on Intel HD Audio
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I recently picked up a Dell Optiplex 7060 and I'm using it as my main

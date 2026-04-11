@@ -8,6 +8,10 @@ tags:
   - multimedia
   - sway
 title: Configure multimedia keys on a Ducky One keyboard 
+cover:
+  image: manual-page-41.png
+  alt: Cover image
+  relative: true
 ---
 
 My Ducky One 2 keyboard arrived around two years ago and I love it.

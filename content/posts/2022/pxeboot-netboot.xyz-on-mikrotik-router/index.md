@@ -12,6 +12,10 @@ tags:
 - networking
 - pxe
 title: PXE boot netboot.xyz on a Mikrotik router
+cover:
+  image: netboot.xyz.gif
+  alt: Cover image
+  relative: true
 ---
 
 The first RFCs for [PXE], or preboot execution environment, showed up in June 1981 and it's still a popular tool today.

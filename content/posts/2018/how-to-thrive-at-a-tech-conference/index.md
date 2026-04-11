@@ -9,6 +9,10 @@ tags:
 - guidance
 - red hat
 title: How to thrive at a technical conference
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I'm at the [2018 Red Hat Summit][2] this week in San Francisco and I am enjoying the interactions between developers, executives, vendors, and engineers. It's my seventh Summit (but my first as a Red Hat employee!), but I regularly meet people who are attending their first technical conference.

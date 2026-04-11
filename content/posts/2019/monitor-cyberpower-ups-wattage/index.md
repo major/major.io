@@ -11,6 +11,10 @@ tags:
 - shell
 - ups
 title: Monitor CyberPower UPS wattage
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I have a CyberPower [CP1350AVRLCD] under my desk at home and I use it to run my

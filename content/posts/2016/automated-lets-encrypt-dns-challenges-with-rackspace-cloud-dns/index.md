@@ -14,6 +14,10 @@ tags:
 - ssl
 - web
 title: Automated Let’s Encrypt DNS challenges with Rackspace Cloud DNS
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 [Let's Encrypt][1] has taken the world by storm by providing free SSL certificates that can be renewed via automated methods. They have issued [over 1.4 million certificates][2] since launch in the fall of 2015.

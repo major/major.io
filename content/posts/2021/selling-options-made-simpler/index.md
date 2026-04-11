@@ -9,6 +9,10 @@ tags:
 - investing
 - options
 title: Selling options made simpler
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 🤔 *This is another post in a set of posts on [options trading]. If you are

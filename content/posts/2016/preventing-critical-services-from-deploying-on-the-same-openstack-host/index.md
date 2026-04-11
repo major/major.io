@@ -10,6 +10,10 @@ tags:
 - openstack
 - python
 title: Preventing critical services from deploying on the same OpenStack host
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 OpenStack's compute service, nova, manages all of the virtual machines within a OpenStack cloud. When you ask nova to build an instance, or a group of instances, nova's scheduler system determines which hypervisors should run each instance. The scheduler uses [filters][2] to figure out where each instance belongs.

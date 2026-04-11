@@ -11,6 +11,10 @@ tags:
 - systemd
 - vlan
 title: OpenStack-Ansible networking on CentOS 7 with systemd-networkd
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Although OpenStack-Ansible doesn't fully support CentOS 7 yet, the support is almost ready. I have a four node Ocata cloud deployed on CentOS 7, but I decided to change things around a bit and use systemd-networkd instead of NetworkManager or the old rc scripts.

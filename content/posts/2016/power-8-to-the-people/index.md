@@ -3,13 +3,16 @@ aliases:
 - /2016/09/21/power-8-to-the-people/
 author: Major Hayden
 date: 2016-09-22 00:00:21
-featured_image: /wp-content/uploads/2016/09/IBMPowerSystemE870-2.jpg
 tags:
 - ibm
 - linux
 - power
 - python
 title: Power 8 to the people
+cover:
+  image: IBMPowerSystemE870-2.jpg
+  alt: Cover image
+  relative: true
 ---
 
 IBM Edge 2016 is almost over and I've learned a lot about Power 8 this week. The performance arguments sound really interesting and some of the choices in AIX's design seem to make a lot of sense.

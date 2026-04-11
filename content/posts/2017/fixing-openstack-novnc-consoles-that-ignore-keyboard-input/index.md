@@ -10,6 +10,10 @@ tags:
 - python
 - vnc
 title: Fixing OpenStack noVNC consoles that ignore keyboard input
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 I opened up a noVNC console to a virtual machine today in my OpenStack cloud but found that the console wouldn't take keyboard input. The **Send Ctrl-Alt-Del** button in the top right of the window worked just fine, but I couldn't type anywhere in the console. This happened on an Ocata OpenStack cloud deployed with [OpenStack-Ansible][2] on CentOS 7.

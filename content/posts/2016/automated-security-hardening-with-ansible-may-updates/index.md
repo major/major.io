@@ -9,6 +9,10 @@ tags:
 - security
 - ubuntu
 title: 'Automated security hardening with Ansible: May updates'
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Lots of work has gone into the [openstack-ansible-security][2] Ansible role since I delivered [a talk about it last month][3] at the OpenStack Summit in Austin. Attendees asked for quite a few new features and I've seen quite a few bug reports (and that's a good thing).

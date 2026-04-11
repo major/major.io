@@ -12,6 +12,10 @@ tags:
 - podman
 - xorg
 title: Run Xorg applications with podman
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 Containers are a great way to deliver and run all kinds of applications.

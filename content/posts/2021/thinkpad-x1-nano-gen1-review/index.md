@@ -11,6 +11,10 @@ tags:
 - lenovo
 - linux
 title: ThinkPad X1 Nano Gen 1 Review
+cover:
+  image: feature.jpg
+  alt: Cover image
+  relative: true
 ---
 
 My ThinkPad T490 was showing its age and [wrestling with the internal NVIDIA
