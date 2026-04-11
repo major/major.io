@@ -1,15 +1,18 @@
 ---
 author: Major Hayden
 date: '2023-09-04'
-summary: >
-  If you love to nerd out on just about anything, give it a try the next time you buy a car.
+summary: 'If you love to nerd out on just about anything, give it a try the next time you buy a car.
+
+  '
 tags:
-  - advice
-  - finance
+- advice
+- finance
 title: Car buying guide
-coverAlt: Toyota 4runner in the snow on a mountain
-coverCaption: |
-  [Holly Mandarich](https://unsplash.com/photos/t8zeFR65vNg)
+cover:
+  image: feature.jpg
+  alt: Toyota 4runner in the snow on a mountain
+  caption: '[Holly Mandarich](https://unsplash.com/photos/t8zeFR65vNg)'
+  relative: true
 ------
 
 I love optimizing nearly everything in my life.

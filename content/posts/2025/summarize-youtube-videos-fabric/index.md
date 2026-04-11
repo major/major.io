@@ -1,16 +1,20 @@
 ---
 author: Major Hayden
 date: '2025-09-22'
-summary: |
-  Some of my favorite YouTube videos are really informative with lots of useful content, but I struggle to extract the most important concepts as I'm watching.
+summary: 'Some of my favorite YouTube videos are really informative with lots of useful content, but I struggle to extract the most important concepts as I''m watching.
+
   A new tool called fabric and Claude can help.
+
+  '
 tags:
-  - ai
-  - advice
+- ai
+- advice
 title: Summarize YouTube videos with Fabric
-coverAlt: Branch of a tree with orange leaves
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@cinematicbyfuji?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ingmar</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-branch-with-leaves-HbkzVNT2i_M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Branch of a tree with orange leaves
+  caption: Photo by <a href="https://unsplash.com/@cinematicbyfuji?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ingmar</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-branch-with-leaves-HbkzVNT2i_M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 I watch plenty of YouTube videos with instructional content.

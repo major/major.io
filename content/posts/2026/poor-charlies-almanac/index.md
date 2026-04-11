@@ -1,16 +1,16 @@
 ---
 author: Major Hayden
 date: '2026-01-07'
-summary: |
-  Charlie Munger's speeches and wisdom are collected in Poor Charlie's Almanac, 
-  a book that has changed how I think about decisions and life.
-tags: 
-  - advice
-  - books
+summary: "Charlie Munger's speeches and wisdom are collected in Poor Charlie's Almanac, \na book that has changed how I think about decisions and life.\n"
+tags:
+- advice
+- books
 title: Thoughts on "Poor Charlie's Almanac"
-coverAlt: Looking at a city skyline upside down through a camera lens
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@tavi004?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian Rosca</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-person-holding-camera-lens-SYbD0jfSF3s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Looking at a city skyline upside down through a camera lens
+  caption: Photo by <a href="https://unsplash.com/@tavi004?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian Rosca</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-person-holding-camera-lens-SYbD0jfSF3s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 I recently finished reading [Poor Charlie's Almanac], a collection of speeches and writings from [Charlie Munger], Warren Buffett's long-time business partner at Berkshire Hathaway.

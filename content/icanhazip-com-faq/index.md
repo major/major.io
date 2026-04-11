@@ -1,18 +1,19 @@
 ---
 author: Major Hayden
 date: '2021-07-05'
-summary: >
-  The family of icanhaz sites help you get more information about your network connection.
+summary: 'The family of icanhaz sites help you get more information about your network connection.
+
+  '
 tags:
 - icanhazip
 - linux
 title: icanhazip.com FAQ
 type: page
-coverAlt: Glasses sitting on a laptop in front of the screen
-coverCaption: >
-  Photo by <a href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a>
-  on <a href="https://unsplash.com/photos/w7ZyuGYNpRQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+cover:
+  image: feature.jpg
+  alt: Glasses sitting on a laptop in front of the screen
+  caption: Photo by <a href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a href="https://unsplash.com/photos/w7ZyuGYNpRQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 ## icanhazip.com has a new owner!

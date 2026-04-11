@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2025-04-18'
-summary: |
-  Retrieval-augmented generation (RAG) is helpful for AI workflows, but it
+summary: 'Retrieval-augmented generation (RAG) is helpful for AI workflows, but it
+
   certainly is not easy.
-tags: 
-  - 4runner
-  - repair
-  - toyota
+
+  '
+tags:
+- 4runner
+- repair
+- toyota
 title: Don't tell me RAG is easy
-coverAlt: Small plants growing on a sandy surface
-coverCaption: |
-  [Annie Spratt](https://unsplash.com/photos/brown-grass-on-white-sand-during-daytime-FuTY0Q6OQmM) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Small plants growing on a sandy surface
+  caption: '[Annie Spratt](https://unsplash.com/photos/brown-grass-on-white-sand-during-daytime-FuTY0Q6OQmM) via Unsplash'
+  relative: true
 ---
 
 Blog posts have been moving slowly here lately and much of that is due to work demands since the end of 2024.

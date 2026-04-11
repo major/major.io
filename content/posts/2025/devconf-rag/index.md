@@ -1,16 +1,20 @@
 ---
 author: Major Hayden
 date: '2025-09-20'
-summary: |
-  Building a RAG system isn't easy.
-  It's a lot more like a quest.
+summary: 'Building a RAG system isn''t easy.
+
+  It''s a lot more like a quest.
+
+  '
 tags:
-  - ai
-  - presentations
+- ai
+- presentations
 title: RAG talk recap from DevConf.US 2025
-coverAlt: The old statehouse in Boston, MA
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@leoheisenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo Heisenberg</a> on <a href="https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-brown-concrete-building-during-daytime-LgHghP14qeU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: The old statehouse in Boston, MA
+  caption: Photo by <a href="https://unsplash.com/@leoheisenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo Heisenberg</a> on <a href="https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-brown-concrete-building-during-daytime-LgHghP14qeU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 Hello from DevConf.US in Boston, Massachusetts!

@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2023-03-02'
-summary: |
-  Nobody likes a surprise bill. Learn some ways to keep your AWS bill under control and
+summary: 'Nobody likes a surprise bill. Learn some ways to keep your AWS bill under control and
+
   avoid that end of the month panic. 😱
+
+  '
 tags:
-  - aws
-  - cloud
-  - cost
+- aws
+- cloud
+- cost
 title: Monitor your AWS bill
-coverAlt: Tall waterfall with a huge splash at the bottom that is making lots of fog
-coverCaption: |
-  [Stephen Walker](https://unsplash.com/photos/onIXxjH56AA)
+cover:
+  image: feature.jpg
+  alt: Tall waterfall with a huge splash at the bottom that is making lots of fog
+  caption: '[Stephen Walker](https://unsplash.com/photos/onIXxjH56AA)'
+  relative: true
 ---
 
 Public clouds are the all-you-can-eat buffet of infrastructure.

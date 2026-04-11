@@ -1,18 +1,20 @@
 ---
 author: Major Hayden
 date: '2023-01-04'
-summary: Watchtower keeps an eye on your running containers and updates them when new containers appear upstream. 📦 
+summary: Watchtower keeps an eye on your running containers and updates them when new containers appear upstream. 📦
 tags:
-  - containers
-  - coreos
-  - docker
-  - fedora
-  - linux
-  - security
+- containers
+- coreos
+- docker
+- fedora
+- linux
+- security
 title: Automatic container updates with watchtower
-coverAlt: Wooden watchtower with mountains in the background
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@dmotionmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Damian Kamp</a> on <a href="https://unsplash.com/s/photos/watchtower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Wooden watchtower with mountains in the background
+  caption: Photo by <a href="https://unsplash.com/@dmotionmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Damian Kamp</a> on <a href="https://unsplash.com/s/photos/watchtower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 Keeping things updated quickly becomes a monotonous task.

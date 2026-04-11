@@ -3,15 +3,16 @@ aliases:
 - /2021/12/18/kerberos-logins-brave-linux/
 author: Major Hayden
 date: '2021-12-18'
-summary: Brave recently changed how their browser reads managed policy configuration,
-  but luckily the fix is an easy one. 🔧
+summary: Brave recently changed how their browser reads managed policy configuration, but luckily the fix is an easy one. 🔧
 tags:
 - brave
 - kerberos
 - linux
 title: Kerberos logins with Brave on Linux
-coverCaption: |
-  _Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)_
+cover:
+  image: feature.jpg
+  caption: '_Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)_'
+  relative: true
 ---
 
 My primary browser flips back and forth between [Brave] and [Firefox] depending

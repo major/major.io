@@ -1,17 +1,16 @@
 ---
 author: Major Hayden
 date: '2024-08-21'
-summary: >-
-  If you have a problem, be sure to add artificial intelligence (AI) to it.
-  Then you have two problems.
-tags: 
-  - advice
-  - ai
+summary: If you have a problem, be sure to add artificial intelligence (AI) to it. Then you have two problems.
+tags:
+- advice
+- ai
 title: Rub some AI on it
-coverAlt: Mountains in a desert at sunset with a cloudy sky abve
-coverCaption: >-
-  [Wolfgang Hasselmann](https://unsplash.com/photos/a-view-of-a-mountain-range-with-clouds-in-the-sky-_ErnK8mhJTI)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: Mountains in a desert at sunset with a cloudy sky abve
+  caption: '[Wolfgang Hasselmann](https://unsplash.com/photos/a-view-of-a-mountain-range-with-clouds-in-the-sky-_ErnK8mhJTI) via Unsplash'
+  relative: true
 ---
 
 *Author's note: This post is all about my personal thoughts on artificial intelligence (AI) and they don't represent the views of any employer or group.*

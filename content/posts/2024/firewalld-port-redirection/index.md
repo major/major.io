@@ -1,19 +1,23 @@
 ---
 author: Major Hayden
 date: '2024-06-28'
-summary: |
-  Redirecting local ports with iptables directly isn't too difficult,
+summary: 'Redirecting local ports with iptables directly isn''t too difficult,
+
   but can we use firewalld to get the same result? 🧱
-tags: 
-  - fedora
-  - firewalld
-  - linux
-  - networking
-  - security
+
+  '
+tags:
+- fedora
+- firewalld
+- linux
+- networking
+- security
 title: Redirect local ports with firewalld
-coverAlt: Night sky over New Mexico
-coverCaption: |
-  [Jake Weirick](https://unsplash.com/photos/silhouette-photography-of-trees-hIV2CAyCPI4) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Night sky over New Mexico
+  caption: '[Jake Weirick](https://unsplash.com/photos/silhouette-photography-of-trees-hIV2CAyCPI4) via Unsplash'
+  relative: true
 ---
 
 Linux networking and firewalls give us plenty of options for redirecting traffic from one port to another.

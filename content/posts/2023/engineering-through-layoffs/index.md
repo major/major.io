@@ -1,22 +1,26 @@
 ---
 author: Major Hayden
 date: '2023-06-25'
-summary: |
-  Layoffs create traumatic times for many. Find ways to break through the frustration
+summary: 'Layoffs create traumatic times for many. Find ways to break through the frustration
+
   and pain. For those that stay, your ability to influence the business can grow. 🪴
+
+  '
 tags:
-  - advice
+- advice
 title: Engineering through layoffs
-coverAlt: Old train tracks leading into the sea
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kévin et Laurianne Langlais</a>
-  on <a href="https://unsplash.com/photos/iMRlp_Ldxus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Old train tracks leading into the sea
+  caption: 'Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kévin et Laurianne Langlais</a>
+
+    on <a href="https://unsplash.com/photos/iMRlp_Ldxus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+  relative: true
 ---
 
-{{< alert >}}
-All comments and thoughts in this post are my own and certainly do not reflect the positions of any of my employers, past and present.
-The goal of this post is to help with healing after a layoff event and organizing your thoughts around your decisions afterwards.
-{{< /alert >}}
+> [!NOTE]
+> All comments and thoughts in this post are my own and certainly do not reflect the positions of any of my employers, past and present.
+> The goal of this post is to help with healing after a layoff event and organizing your thoughts around your decisions afterwards.
 
 Whatever you want to call them -- layoffs, reductions in force, or downsizing -- they're terrible.
 
@@ -137,11 +141,10 @@ However, at the executive level, they have no idea about the dubious performance
 
 **This is a fast path to wrongful termination lawsuits.**
 
-{{< alert >}}
-First off, be sure that you're ready to recommit to the company mission.
-If something happened that shook your commitment to the core, take some time to truly understand how you feel about your company.
-My post on [red flags](/p/red-flags) might help.
-{{< /alert >}}
+> [!NOTE]
+> First off, be sure that you're ready to recommit to the company mission.
+> If something happened that shook your commitment to the core, take some time to truly understand how you feel about your company.
+> My post on [red flags](/p/red-flags) might help.
 
 Let's get back on something positive.
 How do we avoid taking these events personally and push through to something better?

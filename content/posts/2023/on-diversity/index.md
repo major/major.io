@@ -1,18 +1,23 @@
 ---
 author: Major Hayden
 date: '2023-12-16'
-summary: |
-  Diverse teams lead to great outcomes, but how we measure diversity
+summary: 'Diverse teams lead to great outcomes, but how we measure diversity
+
   remains a challenge. Enforcing it is even more challenging. 🌎
+
+  '
 tags:
-  - advice
-  - career
-  - diversity
+- advice
+- career
+- diversity
 title: On diversity
-coverAlt: Three tall windows with a view of snow-capped mountains.
-coverCaption: |
-  [Daniel Seßler](https://unsplash.com/photos/fogs-covered-snow-capped-mountain-range-view-outside-window-I_-OwWnUw6w)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: Three tall windows with a view of snow-capped mountains.
+  caption: '[Daniel Seßler](https://unsplash.com/photos/fogs-covered-snow-capped-mountain-range-view-outside-window-I_-OwWnUw6w)
+
+    via Unsplash'
+  relative: true
 ---
 ️
 👋  _This post represents my own views on the topic of diversity and it doesn't represent the views of my employer or any professional group I belong to._

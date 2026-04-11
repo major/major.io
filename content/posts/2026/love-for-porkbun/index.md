@@ -1,18 +1,20 @@
 ---
 author: Major Hayden
 date: '2026-01-22'
-summary: |
-  Porkbun has been a great DNS registrar for me and what better way to show my appreciation than to write some software! ❤️
-  
+summary: 'Porkbun has been a great DNS registrar for me and what better way to show my appreciation than to write some software! ❤️
+
+  '
 tags:
-  - dns
-  - mcp
-  - porkbun
-  - python
+- dns
+- mcp
+- porkbun
+- python
 title: Coding love for Porkbun
-coverAlt: Cute pig in a field
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@bhris1017?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Carson</a> on <a href="https://unsplash.com/photos/white-piglet-chewing-hay-i4XLJmlYit4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Cute pig in a field
+  caption: Photo by <a href="https://unsplash.com/@bhris1017?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Carson</a> on <a href="https://unsplash.com/photos/white-piglet-chewing-hay-i4XLJmlYit4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 [Porkbun] does exactly what I need and nothing more.

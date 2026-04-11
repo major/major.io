@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2025-05-07'
-summary: |
-  Yes, I do write code with help from an LLM, but I wouldn't call it vibe coding.
-  Let's dig into how _(and why)_ I do it. 🤖
-tags: 
-  - ai
-  - advice
-  - vscode
+summary: 'Yes, I do write code with help from an LLM, but I wouldn''t call it vibe coding.
+
+  Let''s dig into how _(and why)_ I do it. 🤖
+
+  '
+tags:
+- ai
+- advice
+- vscode
 title: Vibe-free coding with AI
-coverAlt: Extremely cute french bulldog looking out the window of a Jeep Wrangler
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/dog-looks-out-the-window-of-a-car-Y6AcV8Qdafw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   
+cover:
+  image: feature.jpg
+  alt: Extremely cute french bulldog looking out the window of a Jeep Wrangler
+  caption: Photo by <a href="https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/dog-looks-out-the-window-of-a-car-Y6AcV8Qdafw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 The internet has been in quite a ruckus about _vibe coding_ recently.

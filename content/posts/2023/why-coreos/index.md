@@ -1,19 +1,22 @@
 ---
 author: Major Hayden
 date: '2023-10-13'
-summary: >
-  Here's a blog post to answer the question: Why do you write so much about CoreOS? 📦
+summary: 'Here''s a blog post to answer the question: Why do you write so much about CoreOS? 📦
+
+  '
 tags:
-  - containers
-  - coreos
-  - docker
-  - fedora
-  - linux
-  - podman
+- containers
+- coreos
+- docker
+- fedora
+- linux
+- podman
 title: How I learned to stop worrying and love the CoreOS
-coverAlt: Glass jars of herbs on a shelf with labels of their contents
-coverCaption: |
-  Credit: [Heather McKean](https://unsplash.com/photos/1I9bMlIAIBM) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Glass jars of herbs on a shelf with labels of their contents
+  caption: 'Credit: [Heather McKean](https://unsplash.com/photos/1I9bMlIAIBM) via Unsplash'
+  relative: true
 ------
 
 It's quite clear that I've been on a [CoreOS](/tags/coreos/) blogging streak lately.

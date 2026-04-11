@@ -1,16 +1,20 @@
 ---
 author: Major Hayden
 date: '2023-01-05'
-summary: |
-  Every job has its ups and downs, but when is it the right time to double down
+summary: 'Every job has its ups and downs, but when is it the right time to double down
+
   or the right time to leave? Make a list of red flags that help you decide. 🚩
+
+  '
 tags:
-  - advice
-  - career
+- advice
+- career
 title: Red flags
-coverAlt: Red flag on a short pole on a beach
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@syyeonc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Seoyeon Choi</a> on <a href="https://unsplash.com/photos/Ip6nPbAGqCM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Red flag on a short pole on a beach
+  caption: Photo by <a href="https://unsplash.com/@syyeonc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Seoyeon Choi</a> on <a href="https://unsplash.com/photos/Ip6nPbAGqCM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 As I advance in my career, there's one activity I consistently enjoy: **mentoring**.

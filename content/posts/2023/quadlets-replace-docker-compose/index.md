@@ -1,21 +1,23 @@
 ---
 author: Major Hayden
 date: '2023-09-25'
-summary: >
-  Sure, docker-compose is great, but could we get similar functionality using just the
-  tools that are built into CoreOS? Can we get automatic updates, too? Yes we can! 📦
+summary: 'Sure, docker-compose is great, but could we get similar functionality using just the tools that are built into CoreOS? Can we get automatic updates, too? Yes we can! 📦
+
+  '
 tags:
-  - containers
-  - coreos
-  - docker
-  - fedora
-  - linux
-  - podman
-  - wordpress
+- containers
+- coreos
+- docker
+- fedora
+- linux
+- podman
+- wordpress
 title: Quadlets might make me finally stop using docker-compose
-coverAlt: Triangular road sign showing a turn to the right ahead
-coverCaption: |
-  Credit: [ide alien](https://unsplash.com/photos/daP2TOVFrJ8) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Triangular road sign showing a turn to the right ahead
+  caption: 'Credit: [ide alien](https://unsplash.com/photos/daP2TOVFrJ8) via Unsplash'
+  relative: true
 ------
 
 I've [written a lot about containers] on this blog.

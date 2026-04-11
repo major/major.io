@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2025-06-01'
-summary: |
-  Although Scrum is a popular agile methodology, it often becomes a theater of activity
+summary: 'Although Scrum is a popular agile methodology, it often becomes a theater of activity
+
   that distracts teams from what customers actually need. 📅
-tags: 
-  - agile
-  - advice
-  - software
+
+  '
+tags:
+- agile
+- advice
+- software
 title: Scrum, sprints, and outcomes
-coverAlt: Red poppies bloom against a dark blurred background
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@insungpandora?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">insung yoon</a> on <a href="https://unsplash.com/photos/red-poppies-bloom-against-a-dark-blurred-background-Y9YBsEFZikw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>  
+cover:
+  image: feature.jpg
+  alt: Red poppies bloom against a dark blurred background
+  caption: Photo by <a href="https://unsplash.com/@insungpandora?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">insung yoon</a> on <a href="https://unsplash.com/photos/red-poppies-bloom-against-a-dark-blurred-background-Y9YBsEFZikw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 Most software developers have come across [agile software methodologies] such as [Scrum].

@@ -1,16 +1,19 @@
 ---
 author: Major Hayden
 date: '2024-04-18'
-summary: |
-  Fedora's cloud-init package now uses dhcpcd in place of dhclient, which went end of life in 2022. 💀
-tags: 
-  - cloud
-  - fedora
-  - linux
+summary: 'Fedora''s cloud-init package now uses dhcpcd in place of dhclient, which went end of life in 2022. 💀
+
+  '
+tags:
+- cloud
+- fedora
+- linux
 title: cloud-init and dhcpcd
-coverAlt: Lights hanging in a tree
-coverCaption: |
-  [Artists Eyes](https://unsplash.com/photos/a-bunch-of-lights-that-are-on-a-wall-XWYtZhn_21E) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Lights hanging in a tree
+  caption: '[Artists Eyes](https://unsplash.com/photos/a-bunch-of-lights-that-are-on-a-wall-XWYtZhn_21E) via Unsplash'
+  relative: true
 ---
 
 We're all familiar with the trusty old `dhclient` on our Linux systems, but [it went end-of-life in 2022](https://github.com/isc-projects/dhcp):

@@ -1,19 +1,22 @@
 ---
 author: Major Hayden
 date: '2025-09-19'
-summary: |
-  Podman's quadlet system combined with systemd timers makes container updates easy and automatic.
+summary: 'Podman''s quadlet system combined with systemd timers makes container updates easy and automatic.
+
+  '
 tags:
-  - containers
-  - podman
-  - fedora
-  - linux
-  - quadlet
-  - systemd
+- containers
+- podman
+- fedora
+- linux
+- quadlet
+- systemd
 title: Automatic container updates with Podman quadlets
-coverAlt: Leopard staring into the distance
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@fabbel78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien BELLANGER</a> on <a href="https://unsplash.com/photos/a-cheetah-cub-looks-attentively-into-the-distance-45xy4ugmnsM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Leopard staring into the distance
+  caption: Photo by <a href="https://unsplash.com/@fabbel78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien BELLANGER</a> on <a href="https://unsplash.com/photos/a-cheetah-cub-looks-attentively-into-the-distance-45xy4ugmnsM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 Running containers at home or in production often means juggling updates across multiple services.

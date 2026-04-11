@@ -1,20 +1,25 @@
 ---
 author: Major Hayden
 date: '2024-01-09'
-summary: |
-  Dark mode lovers rejoice! It's possible to get (most) applications to show up
+summary: 'Dark mode lovers rejoice! It''s possible to get (most) applications to show up
+
   in dark mode in the Sway window manager. 😎
-tags: 
-  - gnome
-  - firefox
-  - kde
-  - linux
-  - sway
+
+  '
+tags:
+- gnome
+- firefox
+- kde
+- linux
+- sway
 title: Dark mode in Sway
-coverAlt: Industrial area at night
-coverCaption: |
-  [mos design](https://unsplash.com/photos/a-dark-street-with-a-large-industrial-building-in-the-background-ZrY7oJFUP3Y)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: Industrial area at night
+  caption: '[mos design](https://unsplash.com/photos/a-dark-street-with-a-large-industrial-building-in-the-background-ZrY7oJFUP3Y)
+
+    via Unsplash'
+  relative: true
 ---
 
 Ah, dark mode!

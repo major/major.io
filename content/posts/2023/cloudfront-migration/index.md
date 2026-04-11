@@ -1,21 +1,25 @@
 ---
 author: Major Hayden
 date: '2023-02-17'
-summary: |
-  New experiences bring joy! After working with fun AWS CloudFront hacks at work this week,
+summary: 'New experiences bring joy! After working with fun AWS CloudFront hacks at work this week,
+
   I decided to migrate this blog to AWS S3 and CloudFront. ⛅
+
+  '
 tags:
-  - aws
-  - blog
-  - cloud
-  - hugo
-  - iam
-  - s3
-  - security
+- aws
+- blog
+- cloud
+- hugo
+- iam
+- s3
+- security
 title: Migrating to AWS CloudFront
-coverAlt: View of a beach by the ocean from the air
-coverCaption: |
-  [Simon Barber](https://unsplash.com/photos/JJspmVquopU)_
+cover:
+  image: feature.jpg
+  alt: View of a beach by the ocean from the air
+  caption: '[Simon Barber](https://unsplash.com/photos/JJspmVquopU)_'
+  relative: true
 ---
 
 This blog moved from Wordpress to Hugo back in 2020 and that was a great decision.

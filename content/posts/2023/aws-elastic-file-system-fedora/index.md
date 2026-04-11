@@ -1,21 +1,23 @@
 ---
 author: Major Hayden
 date: '2023-09-13'
-summary: >
-    Fedora now has the AWS Elastic File Store (EFS) mount helper available for Fedora 38
-    and newer releases! It chooses optimized NFS mount options for you and makes
-    mounting and unmounting a breeze.
+summary: 'Fedora now has the AWS Elastic File Store (EFS) mount helper available for Fedora 38 and newer releases! It chooses optimized NFS mount options for you and makes mounting and unmounting a breeze.
+
+  '
 tags:
-    - aws
-    - cloud
-    - fedora
-    - linux
-    - python
+- aws
+- cloud
+- fedora
+- linux
+- python
 title: Mounting the AWS Elastic File Store on Fedora
-coverAlt: Toyota 4runner in the snow on a mountain
-coverCaption: |
-    Photo by [Maxime Agnelli](https://unsplash.com/photos/t8zeFR65vNg) on
-    [Unsplash](https://unsplash.com)
+cover:
+  image: feature.jpg
+  alt: Toyota 4runner in the snow on a mountain
+  caption: 'Photo by [Maxime Agnelli](https://unsplash.com/photos/t8zeFR65vNg) on
+
+    [Unsplash](https://unsplash.com)'
+  relative: true
 ------
 
 I package a few things here and there in [Fedora](https://fedoraproject.org/) and one of my latest packages is [efs-utils](https://src.fedoraproject.org/rpms/efs-utils).
@@ -28,11 +30,10 @@ In this post, I'll explain how to:
 1. Create an EFS volume in the AWS console
 3. Mount the EFS volume inside the Fedora instance
 
-{{< alert "skull-crossbones" >}}
-**Always check the pricing for any cloud service before you use it!**
-[EFS pricing](https://aws.amazon.com/efs/pricing/) is based on how much you store and how often you access it.
-Backups are also enabled by default and they add to the monthly charges.
-{{< /alert >}}
+> [!CAUTION]
+> **Always check the pricing for any cloud service before you use it!**
+> [EFS pricing](https://aws.amazon.com/efs/pricing/) is based on how much you store and how often you access it.
+> Backups are also enabled by default and they add to the monthly charges.
 
 Let's go! 🚀
 
