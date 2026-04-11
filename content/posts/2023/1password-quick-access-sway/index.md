@@ -1,18 +1,22 @@
 ---
 author: Major Hayden
 date: '2023-04-19'
-summary: |
-  1Password has a handy quick access launcher and you can bring it on screen for fast
+summary: '1Password has a handy quick access launcher and you can bring it on screen for fast
+
   access to passwords and two factor codes in Sway. 🔐
+
+  '
 tags:
-  - 1password
-  - fedora
-  - security
-  - sway
+- 1password
+- fedora
+- security
+- sway
 title: 1Password quick access in Sway
-coverAlt: Reflective box in the grass
-coverCaption: |
-  [Parker Coffman](https://unsplash.com/photos/LuS0JpIGGbw)
+cover:
+  image: feature.jpg
+  alt: Reflective box in the grass
+  caption: '[Parker Coffman](https://unsplash.com/photos/LuS0JpIGGbw)'
+  relative: true
 ---
 
 [1Password](https://1password.com/downloads/linux/) remains a core part of my

@@ -1,23 +1,25 @@
 ---
 author: Major Hayden
 date: '2023-06-27'
-summary: |
-  Ghost delivers a great self-hosted blogging platform that deploys well in containers.
-  Let's deploy it on CoreOS along with Caddy. ️📝
+summary: 'Ghost delivers a great self-hosted blogging platform that deploys well in containers.
+
+  Let''s deploy it on CoreOS along with Caddy. ️📝
+
+  '
 tags:
-  - caddy
-  - containers
-  - coreos
-  - fedora
-  - ghost
-title: >
-    Deploy a containerized Ghost blog 👻
-coverAlt: >
-    Lots of gold-colored beams in the ceiling of a building in Lisbon, Porgugal
-    with a blue sky behind them
-coverCaption: >
-  Photo by <a href="https://unsplash.com/@rgaleriacom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ricardo Gomez Angel</a>
-  on <a href="https://unsplash.com/photos/8RNmPVhbmEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- caddy
+- containers
+- coreos
+- fedora
+- ghost
+title: 'Deploy a containerized Ghost blog 👻
+
+  '
+cover:
+  alt: 'Lots of gold-colored beams in the ceiling of a building in Lisbon, Porgugal with a blue sky behind them
+
+    '
+  caption: Photo by <a href="https://unsplash.com/@rgaleriacom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/photos/8RNmPVhbmEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
 
 There's no shortage of options for starting a self-hosted blog.
@@ -31,10 +33,9 @@ Luckily, the Ghost stack doesn't demand a lot of infrastructure:
 * A web server out front
 * TLS certificate
 
-{{< alert >}}
-Although I chose MariaDB for the database here, **Ghost recommends MySQL** and will throw a warning in the admin panel if you're using something else.
-I haven't had any issues so far, but **you've been warned**. 💣
-{{< /alert >}}
+> [!NOTE]
+> Although I chose MariaDB for the database here, **Ghost recommends MySQL** and will throw a warning in the admin panel if you're using something else.
+> I haven't had any issues so far, but **you've been warned**. 💣
 
 I picked Caddy for the webserver since it's so small and the configuration is tremendously simple.
 

@@ -1,12 +1,14 @@
 ---
 author: Major Hayden
 date: '2022-04-20'
-summary: >-
-  Ham radio is the best (and most frustrating) hobby on the planet! 📻
+summary: Ham radio is the best (and most frustrating) hobby on the planet! 📻
 tags:
-  - radio
-title: "W5WUT: My amateur radio station"
+- radio
+title: 'W5WUT: My amateur radio station'
 type: page
+cover:
+  image: feature.jpg
+  relative: true
 ---
 
 I'm an amateur radio operator licensed in the United States under the callsign [W5WUT]

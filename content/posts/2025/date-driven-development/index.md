@@ -1,15 +1,18 @@
 ---
 author: Major Hayden
 date: '2025-08-24'
-summary: |
-  Developing software with a critcal date comes with its own set of challenges.
-tags: 
-  - software development
-  - advice
+summary: 'Developing software with a critcal date comes with its own set of challenges.
+
+  '
+tags:
+- software development
+- advice
 title: Date driven development
-coverAlt: Small plants growing on a sandy surface
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@wildandbeyondbyvivek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vivek Doshi</a> on <a href="https://unsplash.com/photos/shallow-focus-photo-of-black-and-white-butterfly-PNXnfta-6-4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   
+cover:
+  image: feature.jpg
+  alt: Small plants growing on a sandy surface
+  caption: Photo by <a href="https://unsplash.com/@wildandbeyondbyvivek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vivek Doshi</a> on <a href="https://unsplash.com/photos/shallow-focus-photo-of-black-and-white-butterfly-PNXnfta-6-4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 Scrum, kanban, and waterfall seem familiar to most of us who work in software development, but date driven development is a complicated beast.

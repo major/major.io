@@ -1,18 +1,19 @@
 ---
 author: Major Hayden
 date: '2023-01-02'
-summary: >
-  Although my first attempt at self-hosting Mastodon was a failure, I went
-  back for a second attempt with docker-compose. 🧗‍♂️
+summary: 'Although my first attempt at self-hosting Mastodon was a failure, I went back for a second attempt with docker-compose. 🧗‍♂️
+
+  '
 tags:
-  - containers
-  - mastodon
-  - selfhosted
+- containers
+- mastodon
+- selfhosted
 title: Second try at self-hosting Mastodon
-coverAlt: Coffee spilled on the floor
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/photos/QQNQjrKEl6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+cover:
+  image: feature.jpg
+  alt: Coffee spilled on the floor
+  caption: Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/photos/QQNQjrKEl6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 [Mastodon](https://joinmastodon.org/) caught my attention at the end of 2022 in the wake of all the Twitter shenanigans.
@@ -226,12 +227,11 @@ This is going to sound weird, but we need to throw everything away at this point
 I like this step because it allows me to start fresh with a fully generated environments file.
 It's a good simulation of how things might look in a brand new deployment or during a migration from one server to another.
 
-{{< alert >}}
-💣 **WARNING!**
-   This assumes that Mastodon's containers are the only ones running on your system.
-   If you are running other containers for other services, **don't run these commands**.
-   You must go through each container, remove it, and remove the associated volume carefully.
-{{< /alert >}}
+> [!NOTE]
+> 💣 **WARNING!**
+>    This assumes that Mastodon's containers are the only ones running on your system.
+>    If you are running other containers for other services, **don't run these commands**.
+>    You must go through each container, remove it, and remove the associated volume carefully.
 
 
 ```shell

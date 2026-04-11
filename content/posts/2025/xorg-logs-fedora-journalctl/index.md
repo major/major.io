@@ -1,16 +1,19 @@
 ---
 author: Major Hayden
 date: '2025-02-16'
-summary: |
-  A recent switch back to i3 (from sway) left me wondering how to examine just the Xorg logs sent to journald.
-tags: 
-  - i3
-  - fedora
-  - linux
+summary: 'A recent switch back to i3 (from sway) left me wondering how to examine just the Xorg logs sent to journald.
+
+  '
+tags:
+- i3
+- fedora
+- linux
 title: Viewing Xorg logs with journalctl in Fedora
-coverAlt: High altitude view of an island with mountains and a beach
-coverCaption: |
-  [Reinaldo Photography](https://unsplash.com/photos/an-aerial-view-of-a-small-island-in-the-middle-of-the-ocean-4I0kdYvHJAI) via Unsplash
+cover:
+  image: feature.jpg
+  alt: High altitude view of an island with mountains and a beach
+  caption: '[Reinaldo Photography](https://unsplash.com/photos/an-aerial-view-of-a-small-island-in-the-middle-of-the-ocean-4I0kdYvHJAI) via Unsplash'
+  relative: true
 ---
 
 I love being an early adopter and trudging off into the unknown.

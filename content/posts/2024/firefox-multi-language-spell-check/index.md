@@ -1,17 +1,17 @@
 ---
 author: Major Hayden
 date: '2024-08-25'
-summary: >-
-  Get spell checking in multiple languages automatically within input fields in Firefox. 🗣️
-tags: 
-  - fedora
-  - firefox
-  - languages
+summary: Get spell checking in multiple languages automatically within input fields in Firefox. 🗣️
+tags:
+- fedora
+- firefox
+- languages
 title: Spell check in multiple languages with Firefox
-coverAlt: White horse with a saddle standing in front of a mountain
-coverCaption: >-
-  [Damir Kalić](https://unsplash.com/photos/a-white-horse-with-a-saddle-standing-in-front-of-a-mountain-wS5YPMuoDns)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: White horse with a saddle standing in front of a mountain
+  caption: '[Damir Kalić](https://unsplash.com/photos/a-white-horse-with-a-saddle-standing-in-front-of-a-mountain-wS5YPMuoDns) via Unsplash'
+  relative: true
 ---
 
 **Bienvenidos!**[^t1]

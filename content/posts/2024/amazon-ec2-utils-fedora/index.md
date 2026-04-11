@@ -1,18 +1,22 @@
 ---
 author: Major Hayden
 date: '2024-05-08'
-summary: |
-  The amazon-ec2-utils package in Fedora makes it a bit easier to find devices in an
+summary: 'The amazon-ec2-utils package in Fedora makes it a bit easier to find devices in an
+
   AWS EC2 instance. ️🌤️
-tags: 
-  - aws
-  - cloud
-  - fedora
-  - linux
+
+  '
+tags:
+- aws
+- cloud
+- fedora
+- linux
 title: amazon-ec2-utils in Fedora
-coverAlt: Lights hanging in a tree
-coverCaption: |
-  [Jack McCracken](https://unsplash.com/photos/a-lizard-is-sitting-on-a-tree-branch-fYAfyBS7fpI) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Lights hanging in a tree
+  caption: '[Jack McCracken](https://unsplash.com/photos/a-lizard-is-sitting-on-a-tree-branch-fYAfyBS7fpI) via Unsplash'
+  relative: true
 ---
 
 We've all been in that situation where we see a device in Linux and wonder which physical device it corresponds to.

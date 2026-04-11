@@ -3,8 +3,7 @@ aliases:
 - /2022/08/11/migrating-from-vscode-to-vim/
 author: Major Hayden
 date: '2022-08-11'
-summary: Some people say I just enjoy the sound of my mechanical keyboard too much.
-  🤭 I see it as a simpler, more consistent workflow.
+summary: Some people say I just enjoy the sound of my mechanical keyboard too much. 🤭 I see it as a simpler, more consistent workflow.
 tags:
 - development
 - fedora
@@ -12,11 +11,9 @@ tags:
 - vim
 - vscode
 title: Migrating from vscode to vim
-coverAlt: Dark mountains in the background behind sandy hills in the shadows
-coverCaption: >
-  Photo by <a href="https://unsplash.com/pt-br/@hudsonj142?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Hudson</a>
-  on <a href="https://unsplash.com/photos/a-desert-landscape-with-mountains-in-the-background-wtUkQ2MrbiY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+cover:
+  alt: Dark mountains in the background behind sandy hills in the shadows
+  caption: Photo by <a href="https://unsplash.com/pt-br/@hudsonj142?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Hudson</a> on <a href="https://unsplash.com/photos/a-desert-landscape-with-mountains-in-the-background-wtUkQ2MrbiY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
 
 Every Linux user experienced at least one "battle of the text editors" once in their lifetime.

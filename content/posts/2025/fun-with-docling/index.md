@@ -1,16 +1,18 @@
 ---
 author: Major Hayden
 date: '2025-09-26'
-summary: >
-  Docling empowers you to parse lots of different document types into a single format with relationships built in.
-  Let's have some fun with it.
+summary: 'Docling empowers you to parse lots of different document types into a single format with relationships built in. Let''s have some fun with it.
+
+  '
 tags:
-  - python
-  - docling
+- python
+- docling
 title: Fun with docling
-coverAlt: Ducklings sitting together in the grass
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@victoriawelton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Welton</a> on <a href="https://unsplash.com/photos/a-couple-of-ducks-that-are-sitting-in-the-grass-mo-z-4WoFgs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Ducklings sitting together in the grass
+  caption: Photo by <a href="https://unsplash.com/@victoriawelton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Welton</a> on <a href="https://unsplash.com/photos/a-couple-of-ducks-that-are-sitting-in-the-grass-mo-z-4WoFgs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 My team at work does lots of work with retrieval-augmented generation, or RAG, and parsing documents is really painful.

@@ -1,17 +1,20 @@
 ---
 author: Major Hayden
 date: '2025-09-25'
-summary: >
-  Networking between podman quadlets isn't automatic as it is with docker-compose, but the setup only takes a few extra steps.
+summary: 'Networking between podman quadlets isn''t automatic as it is with docker-compose, but the setup only takes a few extra steps.
+
+  '
 tags:
-  - fedora
-  - linux
-  - podman
-  - quadlet
+- fedora
+- linux
+- podman
+- quadlet
 title: Getting podman quadlets talking to each other
-coverAlt: Motion blurred photo of a car driving down a forested road
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@micahandsammiechaffin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Micah & Sammie Chaffin</a> on <a href="https://unsplash.com/photos/driving-down-a-forest-road-surrounded-by-trees-FDljwldfRN0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Motion blurred photo of a car driving down a forested road
+  caption: Photo by <a href="https://unsplash.com/@micahandsammiechaffin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Micah & Sammie Chaffin</a> on <a href="https://unsplash.com/photos/driving-down-a-forest-road-surrounded-by-trees-FDljwldfRN0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 Quadlets are a handy way to manage containers using systemd unit files.

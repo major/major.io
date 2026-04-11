@@ -1,18 +1,22 @@
 ---
 author: Major Hayden
 date: '2024-08-08'
-summary: |
-  The local LLM easy button, ollama, won't work with the AMD Radeon 6600 XT out of the box.
+summary: 'The local LLM easy button, ollama, won''t work with the AMD Radeon 6600 XT out of the box.
+
   The fix is a quick one!
-tags: 
-  - amd
-  - ollama
-  - fedora
-  - linux
+
+  '
+tags:
+- amd
+- ollama
+- fedora
+- linux
 title: Running ollama with an AMD Radeon 6600 XT
-coverAlt: Lights hanging in a tree
-coverCaption: |
-  [Steve Wrzeszczynski](https://unsplash.com/photos/a-panda-in-a-barn-STkFxq9wWCc) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Lights hanging in a tree
+  caption: '[Steve Wrzeszczynski](https://unsplash.com/photos/a-panda-in-a-barn-STkFxq9wWCc) via Unsplash'
+  relative: true
 ---
 
 I'm splitting time between two roles at work now and one of the roles has a heavy focus on [LLMs](https://en.wikipedia.org/wiki/Large_language_model).

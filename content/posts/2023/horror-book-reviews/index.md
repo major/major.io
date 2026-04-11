@@ -1,17 +1,20 @@
 ---
 author: Major Hayden
 date: '2023-11-19'
-summary: >
-  October brings us the Halloween holiday here in the US and I set off on an adventure
-  into some spooky and unsettling books. 👻
+summary: 'October brings us the Halloween holiday here in the US and I set off on an adventure into some spooky and unsettling books. 👻
+
+  '
 tags:
-  - books
-  - reading
+- books
+- reading
 title: Horror book reviews from October 2023
-coverAlt: Human skull on a table in a dark room
-coverCaption: |
-  [Mathew MacQuarrie](https://unsplash.com/photos/white-and-black-skull-figurine-on-black-surface-u6OnpbMuZAs)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: Human skull on a table in a dark room
+  caption: '[Mathew MacQuarrie](https://unsplash.com/photos/white-and-black-skull-figurine-on-black-surface-u6OnpbMuZAs)
+
+    via Unsplash'
+  relative: true
 ---
 
 Reading allows me to travel to other places and times while also reducing my stress and helping me to think more creatively.

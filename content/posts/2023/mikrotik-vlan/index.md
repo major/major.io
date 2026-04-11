@@ -1,17 +1,20 @@
 ---
 author: Major Hayden
 date: '2023-04-20'
-summary: |
-  Segment your home network easily with a VLAN on a Mikrotik router. 🖥️
+summary: 'Segment your home network easily with a VLAN on a Mikrotik router. 🖥️
+
+  '
 tags:
-  - fedora
-  - mikrotik
-  - networking
-  - vlan
+- fedora
+- mikrotik
+- networking
+- vlan
 title: Add a VLAN on a Mikrotik router
-coverAlt: Truck driving on a path through the bush at sunset
-coverCaption: |
-  [Kartabya Aryal](https://unsplash.com/photos/dHw-xRahyLY)
+cover:
+  image: feature.jpg
+  alt: Truck driving on a path through the bush at sunset
+  caption: '[Kartabya Aryal](https://unsplash.com/photos/dHw-xRahyLY)'
+  relative: true
 ---
 
 If your house is like mine, you have devices that you really trust and then there are

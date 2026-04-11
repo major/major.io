@@ -1,21 +1,26 @@
 ---
 author: Major Hayden
 date: '2024-04-04'
-summary: |
-  Static blogs are easy to serve, but so many of the free options have no analytics whatsoever.
+summary: 'Static blogs are easy to serve, but so many of the free options have no analytics whatsoever.
+
   This post talks about how to serve your own blog from a container with live updating analytics
-tags: 
-  - amd
-  - fedora
-  - laptop
-  - linux
-  - sway
-  - thinkpad
+
+  '
+tags:
+- amd
+- fedora
+- laptop
+- linux
+- sway
+- thinkpad
 title: Roll your own static blog analytics
-coverAlt: A small brown deer-like animal hiding in vegetation
-coverCaption: |
-  [visualsofdana](https://unsplash.com/photos/a-small-deer-is-standing-in-the-grass-exEfgnSaX6A)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: A small brown deer-like animal hiding in vegetation
+  caption: '[visualsofdana](https://unsplash.com/photos/a-small-deer-is-standing-in-the-grass-exEfgnSaX6A)
+
+    via Unsplash'
+  relative: true
 ---
 
 Static blogs come with tons of advantages.

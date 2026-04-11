@@ -1,16 +1,18 @@
 ---
 author: Major Hayden
 date: '2023-10-27'
-summary: >
-  Moving to cloud is about much more than just capital efficiency. It enables your teams
-  to do more if they're willing to adopt some new practices.
+summary: 'Moving to cloud is about much more than just capital efficiency. It enables your teams to do more if they''re willing to adopt some new practices.
+
+  '
 tags:
-  - cloud
-  - terraform
+- cloud
+- terraform
 title: Moving to cloud is more than just a purchasing exercise
-coverAlt: Glass jars of herbs on a shelf with labels of their contents
-coverCaption: |
-  Credit: [Piotr Makowski](https://unsplash.com/photos/black-horse-chess-piece-near-roque-chess-piece-27LH_0jXKYI) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Glass jars of herbs on a shelf with labels of their contents
+  caption: 'Credit: [Piotr Makowski](https://unsplash.com/photos/black-horse-chess-piece-near-roque-chess-piece-27LH_0jXKYI) via Unsplash'
+  relative: true
 ---
 
 Much of my work at Red Hat revolves around the RHEL experience in public clouds.

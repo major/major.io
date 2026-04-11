@@ -3,8 +3,7 @@ aliases:
 - /2022/08/02/raise-the-bar-with-an-sbar/
 author: Major Hayden
 date: '2022-08-02'
-summary: Efficiently communicate a problem and your recommendation in record time
-  with an SBAR. 📝
+summary: Efficiently communicate a problem and your recommendation in record time with an SBAR. 📝
 tags:
 - advice
 - communication
@@ -12,9 +11,11 @@ tags:
 - engineering
 - writing
 title: Raise the bar with an SBAR
-coverAlt: Rocky island surrounded by clouds
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@slavajamm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Slava Jamm</a> on <a href="https://unsplash.com/photos/mountain-peak-emerging-from-dense-fog-SlFfF7DO-mA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Rocky island surrounded by clouds
+  caption: Photo by <a href="https://unsplash.com/@slavajamm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Slava Jamm</a> on <a href="https://unsplash.com/photos/mountain-peak-emerging-from-dense-fog-SlFfF7DO-mA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 You discovered a problem at work.

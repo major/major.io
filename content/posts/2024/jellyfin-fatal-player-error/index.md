@@ -1,19 +1,23 @@
 ---
 author: Major Hayden
 date: '2024-07-02'
-summary: |
-  Jellyfin is a great replacement for Plex, but I ran into non-stop problems with the
+summary: 'Jellyfin is a great replacement for Plex, but I ran into non-stop problems with the
+
   Android app with a fatal player error. 🍿
-tags: 
-  - container
-  - docker
-  - docker-compose
-  - jellyfin
-  - synology
+
+  '
+tags:
+- container
+- docker
+- docker-compose
+- jellyfin
+- synology
 title: Jellyfin fatal player error
-coverAlt: Painting of a countryside
-coverCaption: |
-  [Birmingham Museums Trust](https://unsplash.com/photos/photography-of-open-field-during-daytime-SAQl58G-RYs) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Painting of a countryside
+  caption: '[Birmingham Museums Trust](https://unsplash.com/photos/photography-of-open-field-during-daytime-SAQl58G-RYs) via Unsplash'
+  relative: true
 ---
 
 Plex has been a mainstay for serving up media at home but it seems to have changed lately towards a more and more commercial offering.

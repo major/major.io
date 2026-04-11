@@ -1,19 +1,21 @@
 ---
 author: Major Hayden
 date: '2023-08-31'
-summary: >
-  I woke up one morning to find my Ghost blog unresponsive.
-  It required an unexpected fix. 🔧
+summary: 'I woke up one morning to find my Ghost blog unresponsive. It required an unexpected fix. 🔧
+
+  '
 tags:
-  - containers
-  - ghost
-  - mariadb
-  - mysql
-  - podman
+- containers
+- ghost
+- mariadb
+- mysql
+- podman
 title: Fixing a ghost database migration failure
-coverAlt: Rocky cliff in front of a blue green ocean
-coverCaption: |
-  [Mary Ray](https://unsplash.com/photos/l6mLi-iKUW0)
+cover:
+  image: feature.jpg
+  alt: Rocky cliff in front of a blue green ocean
+  caption: '[Mary Ray](https://unsplash.com/photos/l6mLi-iKUW0)'
+  relative: true
 ---
 
 I love learning about the _behind the scenes_ aspects of just about everything.

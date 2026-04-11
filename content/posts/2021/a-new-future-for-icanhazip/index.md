@@ -9,9 +9,11 @@ tags:
 - linux
 - python
 title: A new future for icanhazip
-coverAlt: Photo of downtown Vienna, Austria
-coverCaption: >
-  [Sebastien Gabriel on Unsplash](https://unsplash.com/photos/6p6WDodvR2Y)
+cover:
+  image: feature.jpg
+  alt: Photo of downtown Vienna, Austria
+  caption: '[Sebastien Gabriel on Unsplash](https://unsplash.com/photos/6p6WDodvR2Y)'
+  relative: true
 ---
 
 In the summer of 2009, I had an idea. My workdays were spent deploying tons of

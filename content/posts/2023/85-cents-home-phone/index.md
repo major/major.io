@@ -1,16 +1,19 @@
 ---
 author: Major Hayden
 date: '2023-04-18'
-summary: |
-  After trying several services for home phones, I found a solution that costs me about $0.85 per month. ️️☎️
+summary: 'After trying several services for home phones, I found a solution that costs me about $0.85 per month. ️️☎️
+
+  '
 tags:
-  - android
-  - phone
-  - voip
+- android
+- phone
+- voip
 title: My home phone costs 85 cents a month
-coverAlt: Tree branch with leaves in front of a telephone pole with wires
-coverCaption: |
-  [Patrick Ho](https://unsplash.com/photos/8P3Ivyi59aI)
+cover:
+  image: feature.jpg
+  alt: Tree branch with leaves in front of a telephone pole with wires
+  caption: '[Patrick Ho](https://unsplash.com/photos/8P3Ivyi59aI)'
+  relative: true
 ---
 
 I [aired my grievances](https://tootchute.com/@major/110196965372403816) about Ooma's

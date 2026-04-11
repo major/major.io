@@ -1,17 +1,20 @@
 ---
 author: Major Hayden
 date: '2024-04-16'
-summary: |
-  I gave two talks at this year's event and ran into lots of old friends and colleagues. 🐧
-tags: 
-  - centos
-  - fedora
-  - linux
-  - presentations
+summary: 'I gave two talks at this year''s event and ran into lots of old friends and colleagues. 🐧
+
+  '
+tags:
+- centos
+- fedora
+- linux
+- presentations
 title: Texas Linux Fest 2024 recap 🤠
-coverAlt: Austin skyline as seen from the south side of the river
-coverCaption: |
-  I took this photo in Austin!
+cover:
+  image: feature.jpg
+  alt: Austin skyline as seen from the south side of the river
+  caption: I took this photo in Austin!
+  relative: true
 ---
 
 The 2024 [Texas Linux Festival](https://2024.texaslinuxfest.org/) just ended last weekend and it was a fun event as always.

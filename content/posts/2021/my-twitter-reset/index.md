@@ -3,12 +3,14 @@ aliases:
 - /2021/12/17/my-twitter-reset/
 author: Major Hayden
 date: '2021-12-17'
-summary: At first I thought Twitter was the problem, but then I realized I was making
-  poor choices. 🤔
+summary: At first I thought Twitter was the problem, but then I realized I was making poor choices. 🤔
 tags:
 - social media
 - twitter
 title: My Twitter reset
+cover:
+  image: feature.jpg
+  relative: true
 ---
 
 _Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)_

@@ -1,16 +1,19 @@
 ---
 author: Major Hayden
 date: '2023-05-05'
-summary: |
-  Add a Fedora x86_64 or aarch64 image to Oracle Cloud and launch an instance. 🚀
+summary: 'Add a Fedora x86_64 or aarch64 image to Oracle Cloud and launch an instance. 🚀
+
+  '
 tags:
-  - cloud
-  - fedora
-  - oracle
+- cloud
+- fedora
+- oracle
 title: Fedora on Oracle Cloud
-coverAlt: Stairway with stone walls
-coverCaption: |
-  [James Wood](https://unsplash.com/photos/GoArxJdvQ6Q)
+cover:
+  image: feature.jpg
+  alt: Stairway with stone walls
+  caption: '[James Wood](https://unsplash.com/photos/GoArxJdvQ6Q)'
+  relative: true
 ---
 
 I enjoy taking Fedora with me to various clouds and ensuring that it works well on all
@@ -24,10 +27,9 @@ week in the Fedora community about how to take an image there. I love a good cha
 so buckle up and follow along as we launch a Fedora 38 instance on
 [Oracle Cloud](https://www.oracle.com/cloud/).
 
-{{< alert >}}
-Be sure to create an Oracle Cloud account first!
-The rest of the blog post requires CLI interactions with the Oracle Cloud API.
-{{< /alert >}}
+> [!NOTE]
+> Be sure to create an Oracle Cloud account first!
+> The rest of the blog post requires CLI interactions with the Oracle Cloud API.
 
 Let's go! 🎒
 
@@ -125,10 +127,9 @@ $ oci os bucket create --name majors-fedora-upload-bucket \
     "auto-tiering": null,
     ...
 ```
-{{< alert >}}
-Within the data that is returned, look for the **namespace** key. You will need the
-value from that key when you do the image import step.
-{{< /alert >}}
+> [!NOTE]
+> Within the data that is returned, look for the **namespace** key. You will need the
+> value from that key when you do the image import step.
 
 Now we need a Fedora image. The latest [Fedora 38 QCOW
 image](https://mirrors.kernel.org/fedora/releases/38/Cloud/x86_64/images/Fedora-Cloud-Base-38-1.6.x86_64.qcow2)

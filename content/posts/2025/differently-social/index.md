@@ -1,14 +1,17 @@
 ---
 author: Major Hayden
 date: '2025-12-17'
-summary: |
-  Social media is a lot of fun until it isn't.
+summary: 'Social media is a lot of fun until it isn''t.
+
+  '
 tags:
-  - social media
+- social media
 title: Becomingly differently social
-coverAlt: Small log cabin in the mountains
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@mikepetrucci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Petrucci</a> on <a href="https://unsplash.com/photos/brown-wooden-house-near-mountains-at-daytime-18joWFjUhKw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Small log cabin in the mountains
+  caption: Photo by <a href="https://unsplash.com/@mikepetrucci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Petrucci</a> on <a href="https://unsplash.com/photos/brown-wooden-house-near-mountains-at-daytime-18joWFjUhKw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  relative: true
 ---
 
 Social media caught my attention in early 2008.

@@ -1,21 +1,26 @@
 ---
 author: Major Hayden
 date: '2024-01-14'
-summary: |
-  Now that AMD's Zen 4 CPUs landed in lots of laptops, I picked up a ThinkPad Z13 G2
+summary: 'Now that AMD''s Zen 4 CPUs landed in lots of laptops, I picked up a ThinkPad Z13 G2
+
   with an AMD Ryzen CPU. Did I put Linux on it? Of course I did. 🐧
-tags: 
-  - amd
-  - fedora
-  - laptop
-  - linux
-  - sway
-  - thinkpad
+
+  '
+tags:
+- amd
+- fedora
+- laptop
+- linux
+- sway
+- thinkpad
 title: Linux on the AMD ThinkPad Z13 G2
-coverAlt: A brown highland cow with the sun behind it
-coverCaption: |
-  [Dylan Leagh](https://unsplash.com/photos/brown-yak-on-green-grass-field-during-daytime-UG3L8WAQLBs)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: A brown highland cow with the sun behind it
+  caption: '[Dylan Leagh](https://unsplash.com/photos/brown-yak-on-green-grass-field-during-daytime-UG3L8WAQLBs)
+
+    via Unsplash'
+  relative: true
 ---
 
 AMD's new [Zen 4 processors](https://en.wikipedia.org/wiki/Zen_4) started rolling out in 2022 and I've been watching for the mobile CPUs to reach laptops.

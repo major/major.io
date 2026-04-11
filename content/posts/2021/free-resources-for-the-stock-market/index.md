@@ -3,16 +3,16 @@ aliases:
 - /2021/04/22/free-resources-for-the-stock-market/
 author: Major Hayden
 date: '2021-04-22'
-summary: Investing in stock or trading options is complicated, but there are plenty
-  of free resources available to make research easier.
+summary: Investing in stock or trading options is complicated, but there are plenty of free resources available to make research easier.
 tags:
 - investing
 - options
 title: Free resources for the stock market
-coverAlt: Photo of downtown Vienna, Austria
-coverCaption: >
-  [Jacek Dylag](https://unsplash.com/photos/5SjAaqqCCmY)
-  on [Unsplash](https://unsplash.com)
+cover:
+  image: feature.jpg
+  alt: Photo of downtown Vienna, Austria
+  caption: '[Jacek Dylag](https://unsplash.com/photos/5SjAaqqCCmY) on [Unsplash](https://unsplash.com)'
+  relative: true
 ---
 
 Every new trader in the stock market must wade through a myriad of tools,

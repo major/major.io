@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2024-10-08'
-summary: |
-  I ran into a problem with stripped bolts on a new 4Runner with the TRD skid plate.
+summary: 'I ran into a problem with stripped bolts on a new 4Runner with the TRD skid plate.
+
   A little bit of car repair can be nerdy, too. 🔧
-tags: 
-  - 4runner
-  - repair
-  - toyota
+
+  '
+tags:
+- 4runner
+- repair
+- toyota
 title: Repairing 4Runner skid plate bolts
-coverAlt: Donkey on a beach
-coverCaption: |
-  [Spencer Watson](https://unsplash.com/photos/brown-donkey-near-beach-during-daytime-photo-dm5QuhX8aY4) via Unsplash
+cover:
+  image: feature.jpg
+  alt: Donkey on a beach
+  caption: '[Spencer Watson](https://unsplash.com/photos/brown-donkey-near-beach-during-daytime-photo-dm5QuhX8aY4) via Unsplash'
+  relative: true
 ---
 
 I replaced my old Toyota 4Runner with a new one so I could snag the last run of the 5th generation.

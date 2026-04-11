@@ -1,17 +1,21 @@
 ---
 author: Major Hayden
 date: '2023-05-10'
-summary: |
-  My issues with open source mailing lists aren't with the technology,
+summary: 'My issues with open source mailing lists aren''t with the technology,
+
   but with unorganized pattern of the discourse itself. 🖇️
+
+  '
 tags:
-  - email
-  - fedora
-  - open source
+- email
+- fedora
+- open source
 title: My beef with mailing lists
-coverAlt: Tree with tons of branches
-coverCaption: |
-   [Brandon Green](https://unsplash.com/photos/GEyXGTY2e9w)
+cover:
+  image: feature.jpg
+  alt: Tree with tons of branches
+  caption: '[Brandon Green](https://unsplash.com/photos/GEyXGTY2e9w)'
+  relative: true
 ---
 
 🥵 _**This post is long.** If you need a TL;DR, just [hop down to the end](#tldr)._

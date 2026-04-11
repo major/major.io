@@ -1,22 +1,20 @@
 ---
 author: Major Hayden
 date: '2024-02-29'
-summary: >-
-  Caddy offers a great web and proxy server experience with minimal configuration and
-  automated TLS certificates. Learn how to connect Caddy to Porkbun to get TLS
-  certificates by managing your DNS records for you automatically. 🐷
-tags: 
-  - caddy
-  - containers
-  - coreos
-  - dns
-  - ssl
-  - tls
+summary: Caddy offers a great web and proxy server experience with minimal configuration and automated TLS certificates. Learn how to connect Caddy to Porkbun to get TLS certificates by managing your DNS records for you automatically. 🐷
+tags:
+- caddy
+- containers
+- coreos
+- dns
+- ssl
+- tls
 title: Connect Caddy to Porkbun
-coverAlt: A cute pig walking on the beach
-coverCaption: >-
-  [Forest Simon](https://unsplash.com/photos/pink-piglet-ZKbve9f7Mp4)
-  via Unsplash
+cover:
+  image: feature.jpg
+  alt: A cute pig walking on the beach
+  caption: '[Forest Simon](https://unsplash.com/photos/pink-piglet-ZKbve9f7Mp4) via Unsplash'
+  relative: true
 ---
 
 I recently told a coworker about [Caddy](https://caddyserver.com/), a small web and proxy server with a very simple configuration.
@@ -132,10 +130,9 @@ This normally finishes in less than 30 seconds or so during the first run.
 If you don't see the HTTPS endpoint working within a minute or two, be sure to check the Caddy logs.
 You might have a typo in a Porkbun API key or the domain you're trying to modify doesn't have the **API Access** switch enabled.
 
-{{< alert "circle-info" >}}
-Remember that Porkbun requires you to enable API access for each domain.
-API access is disabled at Porkbun by default.
-{{</ alert >}}
+> [!NOTE]
+> Remember that Porkbun requires you to enable API access for each domain.
+> API access is disabled at Porkbun by default.
 
 **That's it!** 🎉
 

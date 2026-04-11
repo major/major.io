@@ -1,21 +1,26 @@
 ---
-title: "Launch a watchtower container via podman quadlets"
-summary: |
-    Podman's new quadlet feature lets you specify container launch configuration via
-    simple systemd-like unit files. 📦
+title: Launch a watchtower container via podman quadlets
+summary: 'Podman''s new quadlet feature lets you specify container launch configuration via
+
+  simple systemd-like unit files. 📦
+
+  '
 date: 2023-05-31
 tags:
-  - containers
-  - coreos
-  - fedora
-  - podman
-  - quadlet
-  - security
-  - watchtower
-coverAlt: Super cute raccoon standing in front of green foliage
-coverCaption: |
-    Photo by [Toan Chu](https://unsplash.com/photos/VEzDhGMlyb8)
-    on [Unsplash](https://unsplash.com/)
+- containers
+- coreos
+- fedora
+- podman
+- quadlet
+- security
+- watchtower
+cover:
+  image: feature.jpg
+  alt: Super cute raccoon standing in front of green foliage
+  caption: 'Photo by [Toan Chu](https://unsplash.com/photos/VEzDhGMlyb8)
+
+    on [Unsplash](https://unsplash.com/)'
+  relative: true
 ---
 
 Most of my container workloads run on independent CoreOS cloud instances that I [treat like pets](/p/coreos-as-pet/).
@@ -108,11 +113,10 @@ The quadlet file has some important configurations:
 2. The podman socket is mounted inside the watchtower container
 3. Security labels are disabled to allow for communication with the podman socket
 
-{{< alert >}}
-**Mounting the podman socket and disabling security labels is not an ideal security approach.**
-However, I've found that watchtower's configuration and automation fits my needs really well and I retreive the image from a trusted source.
-If this won't work for you, you can use [podman's built-in auto-update](https://docs.podman.io/en/latest/markdown/podman-auto-update.1.html) feature instead.
-{{< /alert >}}
+> [!NOTE]
+> **Mounting the podman socket and disabling security labels is not an ideal security approach.**
+> However, I've found that watchtower's configuration and automation fits my needs really well and I retreive the image from a trusted source.
+> If this won't work for you, you can use [podman's built-in auto-update](https://docs.podman.io/en/latest/markdown/podman-auto-update.1.html) feature instead.
 
 From here, we convert the butane configuration into an ignition configuration.
 I'm launching this CoreOS node on [VULTR](https://www.vultr.com/?ref=6941438), so I've named my files accordingly:

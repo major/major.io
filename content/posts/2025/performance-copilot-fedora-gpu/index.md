@@ -1,19 +1,21 @@
 ---
 author: Major Hayden
 date: '2025-09-23'
-summary: >
-  After trying various performance monitoring tools over the years,
-  I found that Performance Co-Pilot (PCP) provides tons of useful data.
+summary: 'After trying various performance monitoring tools over the years, I found that Performance Co-Pilot (PCP) provides tons of useful data.
+
+  '
 tags:
-  - fedora
-  - linux
-  - monitoring
-  - gpu
-  - performance
+- fedora
+- linux
+- monitoring
+- gpu
+- performance
 title: Monitor system and GPU performance with Performance Co-Pilot
-coverAlt: Metal pieces and springs inside some kind of machine
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@theotherworkspace?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David Fintz</a> on <a href="https://unsplash.com/photos/a-close-up-of-some-pipes-ABboNaq5XXU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+cover:
+  image: feature.jpg
+  alt: Metal pieces and springs inside some kind of machine
+  caption: Photo by <a href="https://unsplash.com/@theotherworkspace?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David Fintz</a> on <a href="https://unsplash.com/photos/a-close-up-of-some-pipes-ABboNaq5XXU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  relative: true
 ---
 
 I've used so many performance monitoring tools and systems over the years.
@@ -66,11 +68,10 @@ These are packaged in Fedora, but they have an interesting installation process.
 
 ### NVIDIA GPUs
 
-{{< alert >}}
-**Unverified instructions:**
-I only have an AMD GPU, but I pulled this NVIDIA information from various places on the internet.
-Please let me know if you find any issues and I'll update the post!
-{{< /alert >}}
+> [!NOTE]
+> **Unverified instructions:**
+> I only have an AMD GPU, but I pulled this NVIDIA information from various places on the internet.
+> Please let me know if you find any issues and I'll update the post!
 
 For NVIDIA GPUs, ensure you have the NVIDIA drivers and `nvidia-ml` library:
 
@@ -92,9 +93,8 @@ sudo ./Install
 The installer will prompt you for configuration options.
 Accept the defaults unless you have specific requirements.
 
-{{< alert >}}
-Thanks to Will Cohen for helping me get these NVIDIA steps corrected! 👏
-{{< /alert >}}
+> [!NOTE]
+> Thanks to Will Cohen for helping me get these NVIDIA steps corrected! 👏
 
 After installation, verify GPU metrics are available:
 

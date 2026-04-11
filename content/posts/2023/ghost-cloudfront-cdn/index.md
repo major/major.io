@@ -1,20 +1,23 @@
 ---
 author: Major Hayden
 date: '2023-07-03'
-summary: |
-  Adding an AWS CloudFront CDN distribution to a Ghost blog improves response times
+summary: 'Adding an AWS CloudFront CDN distribution to a Ghost blog improves response times
+
   on an already fast blogging platform and increases security along the way. ⚡
+
+  '
 tags:
-  - aws
-  - cdn
-  - cloudfront
-  - ghost
-  - ssl
+- aws
+- cdn
+- cloudfront
+- ghost
+- ssl
 title: Add CloudFront CDN to a Ghost blog
-coverAlt: Blue neon lights along a dark hallway
-coverCaption: |
-  Photo by <a href="https://unsplash.com/@bappie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bappie</a>
-  on <a href="https://unsplash.com/wallpapers/colors/neon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cover:
+  alt: Blue neon lights along a dark hallway
+  caption: 'Photo by <a href="https://unsplash.com/@bappie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bappie</a>
+
+    on <a href="https://unsplash.com/wallpapers/colors/neon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 ---
 
 After I launched my new [stock market blog](https://thetanerd.com/) on a self-hosted [Ghost](https://ghost.org/), I wrote up the [deployment process](/p/deploy-ghost/) in containers last week.
@@ -86,9 +89,8 @@ If you use another DNS provider, create a CNAME record with the exact text shown
 Once you create those DNS records, go back to the page with your certificate and wait for it to change from _Pending validation_ to _Issued_.
 This normally takes 2-3 minutes for most DNS providers I use.
 
-{{< alert >}}
-Wait for this to turn green and say _Issued_ before proceeding to the next step!
-{{< /alert >}}
+> [!NOTE]
+> Wait for this to turn green and say _Issued_ before proceeding to the next step!
 
 Now that you have a certificate, it's time to configure our CDN distribution.
 
@@ -199,9 +201,8 @@ Our first step is to set up the origin.
 Ensure your origin server has a proper DNS record so that CloudFront can access it on the backend.
 For example, `origin.example.com` must have a DNS record that points to your backend server running Ghost.
 
-{{< alert >}}
-Verify that the DNS record for your origin works before proceeding. 💣
-{{< /alert >}}
+> [!NOTE]
+> Verify that the DNS record for your origin works before proceeding. 💣
 
 If you followed my [guide for deploying Ghost](/p/deploy-ghost/), then you need to adjust your caddy configuration to answer requests to your origin URL.
 I updated my Caddyfile to contain both the origin and CDN hostnames:
@@ -225,10 +226,9 @@ www.thetanerd.com {
 
 Restart caddy with `sudo docker-compose restart caddy`.
 
-{{< alert >}}
-Verify that caddy responds to requests **to the origin hostname** before going any further.
-It must respond properly with a valid SSL/TLS certificate! 💣
-{{< /alert >}}
+> [!NOTE]
+> Verify that caddy responds to requests **to the origin hostname** before going any further.
+> It must respond properly with a valid SSL/TLS certificate! 💣
 
 ## Big switch
 
@@ -241,9 +241,8 @@ The use of a CNAME or ALIAS record depends on your DNS host and the type of doma
 * If you're using apex domain name (no subdomain) such as `example.com`, you will likely need to use an `ALIAS` record
 * For domain names with a subdomain, such as `blog.example.com`, you will likely need to use a `CNAME` record
 
-{{< alert >}}
-Read your DNS host's documentation if you are unsure about ALIAS vs CNAME records! 💣
-{{< /alert >}}
+> [!NOTE]
+> Read your DNS host's documentation if you are unsure about ALIAS vs CNAME records! 💣
 
 Go your DNS registrar and follow these steps:
 
@@ -275,11 +274,10 @@ If it seems like it's taking a very long time to change over, use a tool like [D
 
 If something went horribly wrong, **DON'T PANIC**. 😱
 
-{{< alert >}}
-**DNS is like IT quicksand.**
-Once you get stuck in a problem with DNS, any level of fighting just makes you more stuck.
-Take a deep breath first. 🫁
-{{< /alert >}}
+> [!NOTE]
+> **DNS is like IT quicksand.**
+> Once you get stuck in a problem with DNS, any level of fighting just makes you more stuck.
+> Take a deep breath first. 🫁
 
 Go back to your DNS provide and remove the ALIAS/CNAME record for your CDN domain name, such as `example.com`.
 Add back in the original A/AAAA/ALIAS/CNAME records that were there previously.

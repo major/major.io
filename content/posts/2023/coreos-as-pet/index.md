@@ -1,22 +1,26 @@
 ---
 author: Major Hayden
 date: '2023-05-25'
-summary: |
-  CoreOS provides a fast track to running containers with a light weight immutable OS
-  underneath. This doesn't mean that you can't keep it around as a pet instance. 🐕
+summary: 'CoreOS provides a fast track to running containers with a light weight immutable OS
+
+  underneath. This doesn''t mean that you can''t keep it around as a pet instance. 🐕
+
+  '
 tags:
-  - cloud
-  - containers
-  - coreos
-  - docker
-  - fedora
-  - podman
-  - toolbox
-  - wireguard
+- cloud
+- containers
+- coreos
+- docker
+- fedora
+- podman
+- toolbox
+- wireguard
 title: CoreOS as a pet
-coverAlt: Cozy fireplace in a cabin
-coverCaption: |
-  Cover image: [Hans Isaacson](https://unsplash.com/photos/bQTVoJHrkO0) on Unsplash
+cover:
+  image: feature.jpg
+  alt: Cozy fireplace in a cabin
+  caption: 'Cover image: [Hans Isaacson](https://unsplash.com/photos/bQTVoJHrkO0) on Unsplash'
+  relative: true
 ---
 
 Anyone working with containers has likely heard of [CoreOS](https://fedoraproject.org/coreos/) by this point
