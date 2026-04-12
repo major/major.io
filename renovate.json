@@ -1,5 +1,5 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended", ":automergeAll", "config:best-practices"],
-    "platformAutomerge": true
+    "platformAutomerge": false
 }
