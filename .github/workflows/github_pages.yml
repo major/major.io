@@ -50,6 +50,14 @@ jobs:
           curl -sL --retry 5 "$HUGO_DOWNLOAD_URL" | tar xvzf - hugo
           ./hugo version
 
+      - name: Cache Hugo resources
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
+        with:
+          path: resources
+          key: hugo-resources-${{ hashFiles('assets/**', 'hugo.yaml') }}
+          restore-keys: |
+            hugo-resources-
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
