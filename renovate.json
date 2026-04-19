@@ -1,5 +1,15 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended", ":automergeAll", "config:best-practices"],
-    "platformAutomerge": false
+    "platformAutomerge": false,
+    "customManagers": [
+        {
+            "customType": "regex",
+            "fileMatch": ["^\\.hugo-version$"],
+            "matchStrings": ["(?<currentValue>\\d+\\.\\d+\\.\\d+)"],
+            "datasourceTemplate": "github-releases",
+            "depNameTemplate": "gohugoio/hugo",
+            "extractVersionTemplate": "^v(?<version>.+)$"
+        }
+    ]
 }
