@@ -18,5 +18,11 @@ curl -sL --retry 5 "${HUGO_URL}" | tar xz hugo
 echo "Hugo version:"
 ./hugo version
 
+BASEURL_FLAG=""
+if [ -n "${CF_PAGES_URL:-}" ]; then
+  echo "Using baseURL: ${CF_PAGES_URL}"
+  BASEURL_FLAG="--baseURL ${CF_PAGES_URL}"
+fi
+
 echo "Building site..."
-./hugo --gc --minify
+./hugo --gc --minify ${BASEURL_FLAG}
