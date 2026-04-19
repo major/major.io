@@ -2,3 +2,10 @@
 public/
 resources/_gen/
 
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
