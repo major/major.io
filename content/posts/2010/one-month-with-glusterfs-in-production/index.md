@@ -15,7 +15,7 @@ tags:
 title: One month with GlusterFS in production
 ---
 
-As many of you might have noticed from my [previous GlusterFS blog post][1] and my [various tweets][2], I've been working with GlusterFS in production for my personal hosting needs for just over a month. I've also been learning quite a bit from some of the folks in the [#gluster][3] channel on [Freenode][4]. On a few occasions I've even been able to help out with some configuration problems from other users.
+As many of you might have noticed from my previous GlusterFS experiments and my [various tweets][2], I've been working with GlusterFS in production for my personal hosting needs for just over a month. I've also been learning quite a bit from some of the folks in the [#gluster][3] channel on [Freenode][4]. On a few occasions I've even been able to help out with some configuration problems from other users.
 
 There has been quite a bit of interest in GlusterFS as of late and I've been inundated with questions from coworkers, other system administrators and developers. Most folks want to know about its reliability and performance in demanding production environments. I'll try to do my best to cover the big points in this post.
 
@@ -61,7 +61,6 @@ There are some things that GlusterFS really needs in order to succeed:
 
 If you're considering GlusterFS for your servers but you still have more questions, feel free to leave a comment or find me on Freenode (I'm 'rackerhacker').
 
- [1]: /2010/05/27/glusterfs-on-the-cheap-with-rackspaces-cloud-servers-or-slicehost/
  [2]: http://twitter.com/rackerhacker
  [3]: http://java.freenode.net/index.php?channel=gluster
  [4]: http://freenode.net/

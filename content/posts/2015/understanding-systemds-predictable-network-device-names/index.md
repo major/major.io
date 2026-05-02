@@ -241,7 +241,7 @@ E: ID_NET_NAME_SLOT=ens9f0
 
 The udev daemon would start with `ID_NET_NAME_FROM_DATABASE`, but that doesn't exist for this card. Next, it would move to `ID_NET_NAME_ONBOARD`, but that's not present. Next comes `ID_NET_NAME_SLOT`, and we have a match! The `ID_NET_NAME_SLOT` entry has _ens9f0_ and that's the final name for the network device.
 
-This loop also handles some special cases. The first check is to see if someone requested for udev to not use predictable naming. We saw this in the [systemd-networkd bonding post][2] when the bootloader configuration contained _net.ifnames=0_. If that kernel command line parameter is present, predictable naming logic is skipped.
+This loop also handles some special cases. The first check is to see if someone requested for udev to not use predictable naming. If the bootloader configuration contains _net.ifnames=0_, predictable naming logic is skipped.
 
 Another special case is `ID_NET_NAME_FROM_DATABASE`. Those ports come from udev's internal hardware database. That file only has one item at the moment and it's for a particular Dell iDRAC network interface.
 
@@ -260,7 +260,6 @@ Are these systemd-related posts interesting? Let me know. I'm a huge fan of syst
 _Photo credit: [University of Michigan Library][7]_
 
  [1]: /wp-content/uploads/2015/08/2229782090_838eaa8574_o-e1440191509854.jpg
- [2]: /2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/
  [3]: /2014/08/06/unexpected-predictable-network-naming-systemd/
  [4]: https://github.com/systemd/systemd/blob/master/src/udev/udev-builtin-net_id.c
  [5]: https://github.com/systemd/systemd/blob/master/src/udev/net/link-config.c#L403
