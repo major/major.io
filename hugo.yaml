@@ -35,18 +35,14 @@ markup:
 
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: Posts
       url: /archives/
-      weight: 30
+      weight: 10
     - identifier: cv
       name: CV
       url: /cv/
@@ -102,7 +98,7 @@ params:
     imageHeight: 150
     buttons:
       - name: Posts
-        url: /posts/
+        url: /archives/
       - name: Tags
         url: /tags/
 
