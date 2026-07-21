@@ -11,10 +11,6 @@ tags:
 - linux
 - thinkpad
 title: Thinkpad T490 Fedora install tips
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 > 🔨 **WORK IN PROGRESS!** I'm still finding some additional issues and I'll

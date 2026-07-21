@@ -13,10 +13,6 @@ tags:
 - imagebuilder
 - linux
 title: Build Fedora AWS images in GitHub Actions with Image Builder
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 [GitHub Actions] provides infrastructure for all kinds of amazing automation.

@@ -11,10 +11,6 @@ tags:
 - openshift
 - shell
 title: Monitoring OpenShift cron jobs
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 Moving applications into an entirely containerized deployment, such as

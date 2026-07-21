@@ -13,10 +13,6 @@ tags:
 - linux
 - security
 title: Forwarding ports with firewalld
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 I've tamed many of my complex firewall rules with [firewalld] over the years. It

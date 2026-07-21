@@ -11,10 +11,6 @@ tags:
 - fedora
 - linux
 title: Build AWS images with Image Builder
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 The AMIs provided by most Linux distributions in AWS work well for most use

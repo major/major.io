@@ -9,10 +9,6 @@ tags:
 - security
 - sysadmin
 title: Helpful, low-FUD information security sites, mailing lists, and blogs
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 ![1]

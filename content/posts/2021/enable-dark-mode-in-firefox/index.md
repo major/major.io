@@ -11,10 +11,6 @@ tags:
 - i3
 - linux
 title: Enable dark mode in Firefox without changing themes
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 Most modern web browsers, such as Firefox, take cues from the desktop

@@ -11,10 +11,6 @@ tags:
 - monitoring
 - openshift
 title: Deploy monit in OpenShift
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 [Monit] is a tried-and-true method for monitoring all kinds of systems,

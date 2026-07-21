@@ -8,9 +8,6 @@ tags:
 - social media
 - twitter
 title: My Twitter reset
-cover:
-  image: feature.jpg
-  relative: true
 ---
 
 _Photo credit: [Marek Piwnicki](https://unsplash.com/photos/w5LSIqzI6tw)_

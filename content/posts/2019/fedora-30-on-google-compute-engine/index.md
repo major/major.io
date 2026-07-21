@@ -11,10 +11,6 @@ tags:
 - google
 - linux
 title: Fedora 30 on Google Compute Engine
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 Fedora 30 is my primary operating system for desktops and servers, so I

@@ -13,10 +13,6 @@ tags:
 - security
 - tailscale
 title: Secure Tailscale networks with firewalld
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 Much of my daily work involves using multiple clouds and I do the same for my

@@ -9,10 +9,6 @@ tags:
 - linux
 - raspberrypi
 title: Monitor a UPS with a Raspberry Pi Zero W
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 After the recent [snow apocalypse that swept through Texas] followed by

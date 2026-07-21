@@ -17,10 +17,6 @@ tags:
 - suse
 - ubuntu
 title: Changes in RHEL 7 Security Technical Implementation Guide Version 1, Release 3
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 The latest release of the Red Hat Enterprise Linux Security Technical Implementation Guide (STIG) [was published last week][2].

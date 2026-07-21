@@ -13,10 +13,6 @@ tags:
 - linux
 - podman
 title: Get faster GitLab runners with a ramdisk
-cover:
-  image: feature.jpg
-  alt: Cover image
-  relative: true
 ---
 
 When you build tons of kernels every day like my team does, you look for
