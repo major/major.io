@@ -1,9 +1,101 @@
-/* Show cover images on taxonomy (tag) list pages */
-.tag-entry .entry-cover {
-    display: block;
+/* Professional dark theme with cleaner aesthetics */
+
+/* JetBrains Mono: legible monospace, replaces theme default Fira Code */
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
 }
 
-/* Widen the default content area from 720px */
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+
 :root {
-    --main-width: 840px;
+    /* Color scheme: Viking preset from terminal-css (panr's curated color tool) */
+    --background: #0E1923;
+    --foreground: #D6E8EE;
+    --accent: #5ACCF0;
+    
+    /* Typography adjustments */
+    --font-size: 1rem;
+    --line-height: 1.6;
+    
+    /* Spacing and layout */
+    --radius: 0;
+}
+
+/* Adjust container width for better reading experience */
+.container {
+    max-width: 800px;
+}
+
+/* Better link styling */
+a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent) 120%, #fff);
+}
+
+/* Improve code block appearance */
+.highlight {
+    background: color-mix(in srgb, var(--background) 150%, var(--foreground));
+    border-radius: 4px;
+}
+
+/* Better button styling */
+button {
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+/* Improve headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--foreground);
+    font-weight: 600;
+}
+
+/* Better readability for post metadata */
+.post-meta {
+    color: color-mix(in srgb, var(--foreground) 70%, transparent);
+    font-size: 0.95rem;
+}
+
+/* Override theme default (Fira Code) with JetBrains Mono site-wide */
+body,
+code,
+kbd {
+    font-family: "JetBrains Mono", Monaco, Consolas, "Ubuntu Mono", monospace;
 }

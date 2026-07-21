@@ -1,14 +1,14 @@
 baseURL: https://major.io/
 locale: en
 title: Major Hayden
-copyright: "All content licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+copyright: 'All content licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
 
 enableGitInfo: true
 enableRobotsTXT: true
 summaryLength: 0
 
 pagination:
-  pagerSize: 50
+  pagerSize: 10
 
 permalinks:
   posts: /p/:contentbasename/
@@ -17,7 +17,6 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
 services:
   rss:
@@ -35,131 +34,67 @@ markup:
 
 menu:
   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Posts
+      name: Archives
       url: /archives/
-      weight: 10
+      weight: 30
     - identifier: cv
       name: CV
       url: /cv/
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 50
 
 module:
   hugoVersion:
     extended: true
     min: 0.146.0
   imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/panr/hugo-theme-terminal/v4
 
 params:
-  env: production
-  description: "A social nerd writing about everything"
-  DateFormat: "2 January 2006"
+  # -- Content / layout --
+  contentTypeName: posts # dir name of main content; listed on the index page
+  showMenuItems: 4 # 0 = only the "show more" submenu trigger is visible
+  showLanguageSelector: false # site is single-language; no switcher needed
+  fullWidthTheme: false # theme default
+  centerTheme: false # left-align content instead of centering it
+  autoCover: false # cover images are disabled site-wide (see layouts/partials/cover.html)
+  showLastUpdated: false # show "last updated" date (uses enableGitInfo above)
+  updatedDatePrefix: "Updated" # theme default
+  readingTime: true # show estimated reading time on posts
+  Toc: false # theme default; table of contents off (overridable per-post)
+  TocTitle: "Table of Contents" # theme default; only used if Toc is enabled
+  dateFormat: "2 January 2006" # theme default is "2006-01-02"
 
-  mainSections:
-    - posts
+  # -- UI strings (no built-in fallback in the theme templates) --
+  subtitle: "A social nerd writing about everything"
+  owner: "" # theme default
+  keywords: "" # theme default
+  menuMore: "Show more" # theme default
+  readMore: "Read more" # theme default
+  readOtherPosts: "Read other posts" # theme default
+  newerPosts: "Newer posts" # theme default
+  olderPosts: "Older posts" # theme default
+  missingContentMessage: "Page not found..." # theme default
+  missingBackButtonLabel: "Back to home page" # theme default
+  minuteReadingTime: "min read" # theme default
+  words: "words" # theme default
 
-  defaultTheme: auto
-  disableThemeToggle: false
-  disableScrollToTop: false
+  logo:
+    logoText: "Major Hayden"
+    logoHomeLink: "/"
 
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  UseHugoToc: true
-  TocOpen: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
-  ShowFullTextinRSS: true
-
-  editPost:
-    URL: "https://github.com/major/major.io/blob/main/content/"
-    Text: "Edit"
-    appendFilePath: true
-
-  profileMode:
-    enabled: true
-    title: "Major Hayden"
-    subtitle: "I love sharing what I've learned with others and I hope you find something here that's useful."
-    imageUrl: "major_avatar.webp"
-    imageWidth: 150
-    imageHeight: 150
-    buttons:
-      - name: Posts
-        url: /archives/
-      - name: Tags
-        url: /tags/
-
-  socialIcons:
-    - name: email
-      title: Email
-      url: "mailto:major@mhtx.net"
-    - name: github
-      title: GitHub
-      url: "https://github.com/major"
-    - name: gitlab
-      title: GitLab
-      url: "https://gitlab.com/majorhayden"
-    - name: linkedin
-      title: LinkedIn
-      url: "https://linkedin.com/in/majorhayden"
-    - name: telegram
-      title: Telegram
-      url: "https://t.me/majorhayden"
-    - name: rss
-      title: RSS
-      url: "/index.xml"
-
-  assets:
-    favicon: /favicon.ico
-    favicon16x16: /favicon-16x16.png
-    favicon32x32: /favicon-32x32.png
-    apple_touch_icon: /apple-touch-icon.png
-    disableHLJS: true
-
-  cover:
-    hiddenInList: false
-    hiddenInSingle: false
-    linkFullImages: true
-    responsiveImages: true
-
-  schema:
-    publisherType: "Person"
-    sameAs:
-      - "https://github.com/major"
-      - "https://gitlab.com/majorhayden"
-      - "https://linkedin.com/in/majorhayden"
-      - "https://t.me/majorhayden"
-
-  label:
-    text: "Major Hayden"
+  twitter:
+    creator: "" # theme default
+    site: "" # theme default
 
   author:
     name: "Major Hayden"
     email: "major@mhtx.net"
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 20
-    keys:
-      - title
-      - permalink
-      - summary
-      - content

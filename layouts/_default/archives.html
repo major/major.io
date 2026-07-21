@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts archives-list">
+    {{- $posts := (where .Site.RegularPages "Type" "posts") -}}
+    {{- $currentYear := "" -}}
+    {{ range $posts }}
+      {{- $postYear := .Date.Format "2006" -}}
+      {{- if ne $currentYear $postYear }}
+        {{- if ne $currentYear "" }}
+          </div>
+        {{- end }}
+        <div class="archive-year">
+          <h3 class="year-header">{{ $postYear }}</h3>
+          <div class="year-posts">
+      {{- $currentYear = $postYear }}
+      {{- end }}
+        <article class="post archive-post">
+          <div class="archive-post-content">
+            <time class="archive-date">{{ .Date.Format "Jan 02" }}</time>
+            <h4 class="archive-title">
+              <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+            </h4>
+            {{- if .Params.tags }}
+              <span class="archive-tags">
+                {{- range .Params.tags }}
+                  #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">{{- . -}}</a>
+                {{- end }}
+              </span>
+            {{- end }}
+          </div>
+        </article>
+    {{- end }}
+    {{- if ne $currentYear "" }}
+          </div>
+        </div>
+    {{- end }}
+  </div>
+{{ end }}
