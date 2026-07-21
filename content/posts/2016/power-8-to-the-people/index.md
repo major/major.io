@@ -9,10 +9,6 @@ tags:
 - power
 - python
 title: Power 8 to the people
-cover:
-  image: IBMPowerSystemE870-2.jpg
-  alt: Cover image
-  relative: true
 ---
 
 IBM Edge 2016 is almost over and I've learned a lot about Power 8 this week. The performance arguments sound really interesting and some of the choices in AIX's design seem to make a lot of sense.

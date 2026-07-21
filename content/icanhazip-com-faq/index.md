@@ -9,11 +9,6 @@ tags:
 - linux
 title: icanhazip.com FAQ
 type: page
-cover:
-  image: feature.jpg
-  alt: Glasses sitting on a laptop in front of the screen
-  caption: Photo by <a href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a href="https://unsplash.com/photos/w7ZyuGYNpRQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 ## icanhazip.com has a new owner!

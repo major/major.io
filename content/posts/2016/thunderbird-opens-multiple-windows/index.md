@@ -8,10 +8,6 @@ tags:
 - mail
 - thunderbird
 title: Thunderbird opens multiple windows
-cover:
-  image: ugh.gif
-  alt: Cover image
-  relative: true
 ---
 
 When I started [Thunderbird][1] today, it opened three windows. Each window was identical. I closed two of them and then quit Thunderbird.
