@@ -6,9 +6,6 @@ tags:
 - radio
 title: 'W5WUT: My amateur radio station'
 type: page
-cover:
-  image: feature.jpg
-  relative: true
 ---
 
 I'm an amateur radio operator licensed in the United States under the callsign [W5WUT]

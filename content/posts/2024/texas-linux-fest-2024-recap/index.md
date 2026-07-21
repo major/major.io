@@ -10,11 +10,6 @@ tags:
 - linux
 - presentations
 title: Texas Linux Fest 2024 recap 🤠
-cover:
-  image: feature.jpg
-  alt: Austin skyline as seen from the south side of the river
-  caption: I took this photo in Austin!
-  relative: true
 ---
 
 The 2024 [Texas Linux Festival](https://2024.texaslinuxfest.org/) just ended last weekend and it was a fun event as always.

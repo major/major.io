@@ -7,10 +7,6 @@ tags:
 - firefox
 - security
 title: Disable autoplay for videos in Firefox 65
-cover:
-  image: 2018-12-18-just-want-it-to-stop.gif
-  alt: Cover image
-  relative: true
 ---
 
 Firefox has some great features, but one of my favorites is the ability to
