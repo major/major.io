@@ -9,13 +9,6 @@ tags:
 - meetings
 - work
 title: My meeting hacks
-cover:
-  image: feature.jpg
-  alt: A small lit candle in a candle holder in front of a frosted window
-  caption: '[Kristina Shvedenko](https://unsplash.com/photos/a-small-candle-sitting-on-top-of-a-table-next-to-a-window-Y_EiHnbysck)
-
-    via Unsplash'
-  relative: true
 ---
 
 Ask anyone about the toughest part of their workday and it usually comes down to one thing: meetings.

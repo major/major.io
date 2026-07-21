@@ -16,11 +16,6 @@ tags:
 - toolbox
 - wireguard
 title: CoreOS as a pet
-cover:
-  image: feature.jpg
-  alt: Cozy fireplace in a cabin
-  caption: 'Cover image: [Hans Isaacson](https://unsplash.com/photos/bQTVoJHrkO0) on Unsplash'
-  relative: true
 ---
 
 Anyone working with containers has likely heard of [CoreOS](https://fedoraproject.org/coreos/) by this point

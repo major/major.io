@@ -9,13 +9,6 @@ summary: 'Layoffs create traumatic times for many. Find ways to break through th
 tags:
 - advice
 title: Engineering through layoffs
-cover:
-  image: feature.jpg
-  alt: Old train tracks leading into the sea
-  caption: 'Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kévin et Laurianne Langlais</a>
-
-    on <a href="https://unsplash.com/photos/iMRlp_Ldxus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
-  relative: true
 ---
 
 > [!NOTE]

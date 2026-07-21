@@ -14,13 +14,6 @@ tags:
 - sway
 - thinkpad
 title: Linux on the AMD ThinkPad Z13 G2
-cover:
-  image: feature.jpg
-  alt: A brown highland cow with the sun behind it
-  caption: '[Dylan Leagh](https://unsplash.com/photos/brown-yak-on-green-grass-field-during-daytime-UG3L8WAQLBs)
-
-    via Unsplash'
-  relative: true
 ---
 
 AMD's new [Zen 4 processors](https://en.wikipedia.org/wiki/Zen_4) started rolling out in 2022 and I've been watching for the mobile CPUs to reach laptops.

@@ -13,11 +13,6 @@ tags:
 - podman
 - wordpress
 title: Quadlets might make me finally stop using docker-compose
-cover:
-  image: feature.jpg
-  alt: Triangular road sign showing a turn to the right ahead
-  caption: 'Credit: [ide alien](https://unsplash.com/photos/daP2TOVFrJ8) via Unsplash'
-  relative: true
 ------
 
 I've [written a lot about containers] on this blog.

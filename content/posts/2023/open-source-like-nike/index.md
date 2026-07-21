@@ -9,11 +9,6 @@ tags:
 - development
 - open source
 title: 'Open source contributions: Just do it'
-cover:
-  image: feature.jpg
-  alt: Red Nike sneaker with a white check/swoosh on a red background
-  caption: '[Domino](https://unsplash.com/photos/164_6wVEHfI)'
-  relative: true
 ---
 
 I had a great time on the [Fedora Podcast](https://www.youtube.com/watch?v=aA-pBYxUPgU) yesterday to talk about Fedora cloud!

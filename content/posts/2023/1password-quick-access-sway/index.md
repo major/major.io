@@ -12,11 +12,6 @@ tags:
 - security
 - sway
 title: 1Password quick access in Sway
-cover:
-  image: feature.jpg
-  alt: Reflective box in the grass
-  caption: '[Parker Coffman](https://unsplash.com/photos/LuS0JpIGGbw)'
-  relative: true
 ---
 
 [1Password](https://1password.com/downloads/linux/) remains a core part of my

@@ -9,11 +9,6 @@ tags:
 - fedora
 - linux
 title: Viewing Xorg logs with journalctl in Fedora
-cover:
-  image: feature.jpg
-  alt: High altitude view of an island with mountains and a beach
-  caption: '[Reinaldo Photography](https://unsplash.com/photos/an-aerial-view-of-a-small-island-in-the-middle-of-the-ocean-4I0kdYvHJAI) via Unsplash'
-  relative: true
 ---
 
 I love being an early adopter and trudging off into the unknown.

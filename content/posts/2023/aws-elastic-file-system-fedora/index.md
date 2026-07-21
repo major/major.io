@@ -11,13 +11,6 @@ tags:
 - linux
 - python
 title: Mounting the AWS Elastic File Store on Fedora
-cover:
-  image: feature.jpg
-  alt: Toyota 4runner in the snow on a mountain
-  caption: 'Photo by [Maxime Agnelli](https://unsplash.com/photos/t8zeFR65vNg) on
-
-    [Unsplash](https://unsplash.com)'
-  relative: true
 ------
 
 I package a few things here and there in [Fedora](https://fedoraproject.org/) and one of my latest packages is [efs-utils](https://src.fedoraproject.org/rpms/efs-utils).

@@ -8,11 +8,6 @@ tags:
 - cloud
 - terraform
 title: Moving to cloud is more than just a purchasing exercise
-cover:
-  image: feature.jpg
-  alt: Glass jars of herbs on a shelf with labels of their contents
-  caption: 'Credit: [Piotr Makowski](https://unsplash.com/photos/black-horse-chess-piece-near-roque-chess-piece-27LH_0jXKYI) via Unsplash'
-  relative: true
 ---
 
 Much of my work at Red Hat revolves around the RHEL experience in public clouds.

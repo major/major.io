@@ -14,13 +14,6 @@ tags:
 - sway
 - thinkpad
 title: Roll your own static blog analytics
-cover:
-  image: feature.jpg
-  alt: A small brown deer-like animal hiding in vegetation
-  caption: '[visualsofdana](https://unsplash.com/photos/a-small-deer-is-standing-in-the-grass-exEfgnSaX6A)
-
-    via Unsplash'
-  relative: true
 ---
 
 Static blogs come with tons of advantages.

@@ -11,11 +11,6 @@ tags:
 - gpu
 - performance
 title: Monitor system and GPU performance with Performance Co-Pilot
-cover:
-  image: feature.jpg
-  alt: Metal pieces and springs inside some kind of machine
-  caption: Photo by <a href="https://unsplash.com/@theotherworkspace?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David Fintz</a> on <a href="https://unsplash.com/photos/a-close-up-of-some-pipes-ABboNaq5XXU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 I've used so many performance monitoring tools and systems over the years.

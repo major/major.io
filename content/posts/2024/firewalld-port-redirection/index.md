@@ -13,11 +13,6 @@ tags:
 - networking
 - security
 title: Redirect local ports with firewalld
-cover:
-  image: feature.jpg
-  alt: Night sky over New Mexico
-  caption: '[Jake Weirick](https://unsplash.com/photos/silhouette-photography-of-trees-hIV2CAyCPI4) via Unsplash'
-  relative: true
 ---
 
 Linux networking and firewalls give us plenty of options for redirecting traffic from one port to another.

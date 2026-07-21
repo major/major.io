@@ -10,11 +10,6 @@ tags:
 - porkbun
 - python
 title: Coding love for Porkbun
-cover:
-  image: feature.jpg
-  alt: Cute pig in a field
-  caption: Photo by <a href="https://unsplash.com/@bhris1017?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Carson</a> on <a href="https://unsplash.com/photos/white-piglet-chewing-hay-i4XLJmlYit4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 [Porkbun] does exactly what I need and nothing more.

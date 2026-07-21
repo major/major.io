@@ -11,11 +11,6 @@ tags:
 - advice
 - software
 title: Scrum, sprints, and outcomes
-cover:
-  image: feature.jpg
-  alt: Red poppies bloom against a dark blurred background
-  caption: Photo by <a href="https://unsplash.com/@insungpandora?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">insung yoon</a> on <a href="https://unsplash.com/photos/red-poppies-bloom-against-a-dark-blurred-background-Y9YBsEFZikw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 Most software developers have come across [agile software methodologies] such as [Scrum].

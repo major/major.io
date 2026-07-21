@@ -14,13 +14,6 @@ tags:
 - quadlet
 - security
 - watchtower
-cover:
-  image: feature.jpg
-  alt: Super cute raccoon standing in front of green foliage
-  caption: 'Photo by [Toan Chu](https://unsplash.com/photos/VEzDhGMlyb8)
-
-    on [Unsplash](https://unsplash.com/)'
-  relative: true
 ---
 
 Most of my container workloads run on independent CoreOS cloud instances that I [treat like pets](/p/coreos-as-pet/).

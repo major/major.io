@@ -11,13 +11,6 @@ tags:
 - career
 - diversity
 title: On diversity
-cover:
-  image: feature.jpg
-  alt: Three tall windows with a view of snow-capped mountains.
-  caption: '[Daniel Seßler](https://unsplash.com/photos/fogs-covered-snow-capped-mountain-range-view-outside-window-I_-OwWnUw6w)
-
-    via Unsplash'
-  relative: true
 ---
 ️
 👋  _This post represents my own views on the topic of diversity and it doesn't represent the views of my employer or any professional group I belong to._

@@ -9,11 +9,6 @@ tags:
 - mastodon
 - selfhosted
 title: Second try at self-hosting Mastodon
-cover:
-  image: feature.jpg
-  alt: Coffee spilled on the floor
-  caption: Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/photos/QQNQjrKEl6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 [Mastodon](https://joinmastodon.org/) caught my attention at the end of 2022 in the wake of all the Twitter shenanigans.

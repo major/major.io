@@ -11,11 +11,6 @@ tags:
 - cloud
 - cost
 title: Monitor your AWS bill
-cover:
-  image: feature.jpg
-  alt: Tall waterfall with a huge splash at the bottom that is making lots of fog
-  caption: '[Stephen Walker](https://unsplash.com/photos/onIXxjH56AA)'
-  relative: true
 ---
 
 Public clouds are the all-you-can-eat buffet of infrastructure.

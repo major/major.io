@@ -9,11 +9,6 @@ tags:
 - phone
 - voip
 title: My home phone costs 85 cents a month
-cover:
-  image: feature.jpg
-  alt: Tree branch with leaves in front of a telephone pole with wires
-  caption: '[Patrick Ho](https://unsplash.com/photos/8P3Ivyi59aI)'
-  relative: true
 ---
 
 I [aired my grievances](https://tootchute.com/@major/110196965372403816) about Ooma's

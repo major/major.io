@@ -8,11 +8,6 @@ tags:
 - investing
 - options
 title: Free resources for the stock market
-cover:
-  image: feature.jpg
-  alt: Photo of downtown Vienna, Austria
-  caption: '[Jacek Dylag](https://unsplash.com/photos/5SjAaqqCCmY) on [Unsplash](https://unsplash.com)'
-  relative: true
 ---
 
 Every new trader in the stock market must wade through a myriad of tools,

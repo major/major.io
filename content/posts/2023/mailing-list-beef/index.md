@@ -11,11 +11,6 @@ tags:
 - fedora
 - open source
 title: My beef with mailing lists
-cover:
-  image: feature.jpg
-  alt: Tree with tons of branches
-  caption: '[Brandon Green](https://unsplash.com/photos/GEyXGTY2e9w)'
-  relative: true
 ---
 
 🥵 _**This post is long.** If you need a TL;DR, just [hop down to the end](#tldr)._

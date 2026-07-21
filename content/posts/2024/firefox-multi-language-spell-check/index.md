@@ -7,11 +7,6 @@ tags:
 - firefox
 - languages
 title: Spell check in multiple languages with Firefox
-cover:
-  image: feature.jpg
-  alt: White horse with a saddle standing in front of a mountain
-  caption: '[Damir Kalić](https://unsplash.com/photos/a-white-horse-with-a-saddle-standing-in-front-of-a-mountain-wS5YPMuoDns) via Unsplash'
-  relative: true
 ---
 
 **Bienvenidos!**[^t1]

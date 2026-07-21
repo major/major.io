@@ -9,11 +9,6 @@ tags:
 - fedora
 - oracle
 title: Fedora on Oracle Cloud
-cover:
-  image: feature.jpg
-  alt: Stairway with stone walls
-  caption: '[James Wood](https://unsplash.com/photos/GoArxJdvQ6Q)'
-  relative: true
 ---
 
 I enjoy taking Fedora with me to various clouds and ensuring that it works well on all

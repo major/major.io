@@ -8,13 +8,6 @@ tags:
 - books
 - reading
 title: Horror book reviews from October 2023
-cover:
-  image: feature.jpg
-  alt: Human skull on a table in a dark room
-  caption: '[Mathew MacQuarrie](https://unsplash.com/photos/white-and-black-skull-figurine-on-black-surface-u6OnpbMuZAs)
-
-    via Unsplash'
-  relative: true
 ---
 
 Reading allows me to travel to other places and times while also reducing my stress and helping me to think more creatively.

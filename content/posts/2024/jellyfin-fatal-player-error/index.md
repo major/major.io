@@ -13,11 +13,6 @@ tags:
 - jellyfin
 - synology
 title: Jellyfin fatal player error
-cover:
-  image: feature.jpg
-  alt: Painting of a countryside
-  caption: '[Birmingham Museums Trust](https://unsplash.com/photos/photography-of-open-field-during-daytime-SAQl58G-RYs) via Unsplash'
-  relative: true
 ---
 
 Plex has been a mainstay for serving up media at home but it seems to have changed lately towards a more and more commercial offering.

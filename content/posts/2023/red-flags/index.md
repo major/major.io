@@ -10,11 +10,6 @@ tags:
 - advice
 - career
 title: Red flags
-cover:
-  image: feature.jpg
-  alt: Red flag on a short pole on a beach
-  caption: Photo by <a href="https://unsplash.com/@syyeonc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Seoyeon Choi</a> on <a href="https://unsplash.com/photos/Ip6nPbAGqCM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 As I advance in my career, there's one activity I consistently enjoy: **mentoring**.

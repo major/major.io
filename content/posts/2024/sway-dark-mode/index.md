@@ -13,13 +13,6 @@ tags:
 - linux
 - sway
 title: Dark mode in Sway
-cover:
-  image: feature.jpg
-  alt: Industrial area at night
-  caption: '[mos design](https://unsplash.com/photos/a-dark-street-with-a-large-industrial-building-in-the-background-ZrY7oJFUP3Y)
-
-    via Unsplash'
-  relative: true
 ---
 
 Ah, dark mode!

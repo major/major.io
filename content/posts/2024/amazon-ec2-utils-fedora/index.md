@@ -12,11 +12,6 @@ tags:
 - fedora
 - linux
 title: amazon-ec2-utils in Fedora
-cover:
-  image: feature.jpg
-  alt: Lights hanging in a tree
-  caption: '[Jack McCracken](https://unsplash.com/photos/a-lizard-is-sitting-on-a-tree-branch-fYAfyBS7fpI) via Unsplash'
-  relative: true
 ---
 
 We've all been in that situation where we see a device in Linux and wonder which physical device it corresponds to.

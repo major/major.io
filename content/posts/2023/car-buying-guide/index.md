@@ -8,11 +8,6 @@ tags:
 - advice
 - finance
 title: Car buying guide
-cover:
-  image: feature.jpg
-  alt: Toyota 4runner in the snow on a mountain
-  caption: '[Holly Mandarich](https://unsplash.com/photos/t8zeFR65vNg)'
-  relative: true
 ------
 
 I love optimizing nearly everything in my life.

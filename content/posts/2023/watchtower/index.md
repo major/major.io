@@ -10,11 +10,6 @@ tags:
 - linux
 - security
 title: Automatic container updates with watchtower
-cover:
-  image: feature.jpg
-  alt: Wooden watchtower with mountains in the background
-  caption: Photo by <a href="https://unsplash.com/@dmotionmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Damian Kamp</a> on <a href="https://unsplash.com/s/photos/watchtower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 Keeping things updated quickly becomes a monotonous task.

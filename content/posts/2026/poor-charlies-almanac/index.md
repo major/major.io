@@ -6,11 +6,6 @@ tags:
 - advice
 - books
 title: Thoughts on "Poor Charlie's Almanac"
-cover:
-  image: feature.jpg
-  alt: Looking at a city skyline upside down through a camera lens
-  caption: Photo by <a href="https://unsplash.com/@tavi004?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Octavian Rosca</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-person-holding-camera-lens-SYbD0jfSF3s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 I recently finished reading [Poor Charlie's Almanac], a collection of speeches and writings from [Charlie Munger], Warren Buffett's long-time business partner at Berkshire Hathaway.

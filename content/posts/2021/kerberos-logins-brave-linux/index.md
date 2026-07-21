@@ -9,10 +9,6 @@ tags:
 - kerberos
 - linux
 title: Kerberos logins with Brave on Linux
-cover:
-  image: feature.jpg
-  caption: '_Photo credit: [Erik Škof](https://unsplash.com/photos/jcP3grvVcPk)_'
-  relative: true
 ---
 
 My primary browser flips back and forth between [Brave] and [Firefox] depending

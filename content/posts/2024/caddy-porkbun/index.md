@@ -10,11 +10,6 @@ tags:
 - ssl
 - tls
 title: Connect Caddy to Porkbun
-cover:
-  image: feature.jpg
-  alt: A cute pig walking on the beach
-  caption: '[Forest Simon](https://unsplash.com/photos/pink-piglet-ZKbve9f7Mp4) via Unsplash'
-  relative: true
 ---
 
 I recently told a coworker about [Caddy](https://caddyserver.com/), a small web and proxy server with a very simple configuration.

@@ -15,11 +15,6 @@ tags:
 - s3
 - security
 title: Migrating to AWS CloudFront
-cover:
-  image: feature.jpg
-  alt: View of a beach by the ocean from the air
-  caption: '[Simon Barber](https://unsplash.com/photos/JJspmVquopU)_'
-  relative: true
 ---
 
 This blog moved from Wordpress to Hugo back in 2020 and that was a great decision.

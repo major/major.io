@@ -10,11 +10,6 @@ tags:
 - podman
 - quadlet
 title: Getting podman quadlets talking to each other
-cover:
-  image: feature.jpg
-  alt: Motion blurred photo of a car driving down a forested road
-  caption: Photo by <a href="https://unsplash.com/@micahandsammiechaffin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Micah & Sammie Chaffin</a> on <a href="https://unsplash.com/photos/driving-down-a-forest-road-surrounded-by-trees-FDljwldfRN0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 Quadlets are a handy way to manage containers using systemd unit files.

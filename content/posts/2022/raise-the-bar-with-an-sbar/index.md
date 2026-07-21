@@ -11,11 +11,6 @@ tags:
 - engineering
 - writing
 title: Raise the bar with an SBAR
-cover:
-  image: feature.jpg
-  alt: Rocky island surrounded by clouds
-  caption: Photo by <a href="https://unsplash.com/@slavajamm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Slava Jamm</a> on <a href="https://unsplash.com/photos/mountain-peak-emerging-from-dense-fog-SlFfF7DO-mA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 You discovered a problem at work.

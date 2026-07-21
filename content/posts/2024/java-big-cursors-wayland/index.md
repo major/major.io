@@ -14,11 +14,6 @@ tags:
 - systemd
 - wayland
 title: Fix big cursors in Java applications in Wayland
-cover:
-  image: feature.jpg
-  alt: Lights hanging in a tree
-  caption: '[Hendrik Cornelissen](https://unsplash.com/photos/black-elephant-BaFAfMR6kF0) via Unsplash'
-  relative: true
 ---
 
 Scroll through the list of [Wayland posts](/tags/wayland/) posts on the blog and you'll see that I've solved plenty of weird problems with Wayland and the [Sway](https://swaywm.org/) compositor.

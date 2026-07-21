@@ -11,11 +11,6 @@ tags:
 - advice
 - vscode
 title: Vibe-free coding with AI
-cover:
-  image: feature.jpg
-  alt: Extremely cute french bulldog looking out the window of a Jeep Wrangler
-  caption: Photo by <a href="https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/dog-looks-out-the-window-of-a-car-Y6AcV8Qdafw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 The internet has been in quite a ruckus about _vibe coding_ recently.

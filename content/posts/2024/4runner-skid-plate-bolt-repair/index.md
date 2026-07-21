@@ -11,11 +11,6 @@ tags:
 - repair
 - toyota
 title: Repairing 4Runner skid plate bolts
-cover:
-  image: feature.jpg
-  alt: Donkey on a beach
-  caption: '[Spencer Watson](https://unsplash.com/photos/brown-donkey-near-beach-during-daytime-photo-dm5QuhX8aY4) via Unsplash'
-  relative: true
 ---
 
 I replaced my old Toyota 4Runner with a new one so I could snag the last run of the 5th generation.

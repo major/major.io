@@ -12,11 +12,6 @@ tags:
 - linux
 - podman
 title: How I learned to stop worrying and love the CoreOS
-cover:
-  image: feature.jpg
-  alt: Glass jars of herbs on a shelf with labels of their contents
-  caption: 'Credit: [Heather McKean](https://unsplash.com/photos/1I9bMlIAIBM) via Unsplash'
-  relative: true
 ------
 
 It's quite clear that I've been on a [CoreOS](/tags/coreos/) blogging streak lately.

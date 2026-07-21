@@ -11,11 +11,6 @@ tags:
 - repair
 - toyota
 title: Don't tell me RAG is easy
-cover:
-  image: feature.jpg
-  alt: Small plants growing on a sandy surface
-  caption: '[Annie Spratt](https://unsplash.com/photos/brown-grass-on-white-sand-during-daytime-FuTY0Q6OQmM) via Unsplash'
-  relative: true
 ---
 
 Blog posts have been moving slowly here lately and much of that is due to work demands since the end of 2024.

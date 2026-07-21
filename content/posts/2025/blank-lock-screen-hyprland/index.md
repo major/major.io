@@ -11,13 +11,6 @@ tags:
 - linux
 - hyprland
 title: Blank lock screen in Hyprland
-cover:
-  image: feature.jpg
-  alt: 'A peaceful winter evening settles over a snow-covered European village, where warm Christmas lights glow softly against the blue tones of dusk. In the foreground, a historic church tower rises above the rooftops, crowned with snow and a golden weather vane, evoking a timeless holiday spirit. The surrounding hills and forests are blanketed in white, creating a serene alpine Christmas scene full of calm, warmth, and seasonal magic.
-
-    '
-  caption: Photo by <a href="https://unsplash.com/@debrupas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pascal Debrunner</a> on <a href="https://unsplash.com/photos/snowy-town-with-church-steeple-at-dusk-3BmQiYQCQEw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  relative: true
 ---
 
 I moved over to Hyprland as my primary desktop environment several months ago after wrestling with some other Wayland desktop environments.

@@ -10,11 +10,6 @@ tags:
 - networking
 - vlan
 title: Add a VLAN on a Mikrotik router
-cover:
-  image: feature.jpg
-  alt: Truck driving on a path through the bush at sunset
-  caption: '[Kartabya Aryal](https://unsplash.com/photos/dHw-xRahyLY)'
-  relative: true
 ---
 
 If your house is like mine, you have devices that you really trust and then there are

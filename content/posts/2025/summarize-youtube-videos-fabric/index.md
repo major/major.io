@@ -10,11 +10,6 @@ tags:
 - ai
 - advice
 title: Summarize YouTube videos with Fabric
-cover:
-  image: feature.jpg
-  alt: Branch of a tree with orange leaves
-  caption: Photo by <a href="https://unsplash.com/@cinematicbyfuji?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ingmar</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-branch-with-leaves-HbkzVNT2i_M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  relative: true
 ---
 
 I watch plenty of YouTube videos with instructional content.
