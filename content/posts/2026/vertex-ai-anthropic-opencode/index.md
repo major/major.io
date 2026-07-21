@@ -13,8 +13,7 @@ title: Using Anthropic's models via Vertex AI in opencode
 cover:
   image: feature.jpg
   alt: Long-billed Curlew, Marshall's Beach, San Francisco, California
-  caption: |
-    Photo by <a href="https://unsplash.com/@tykejones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyke Jones</a> on <a href="https://unsplash.com/photos/a-bird-flying-over-a-body-of-water-6W9H4xNq3hs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>    
+  caption: Photo by <a href="https://unsplash.com/@tykejones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyke Jones</a> on <a href="https://unsplash.com/photos/a-bird-flying-over-a-body-of-water-6W9H4xNq3hs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   relative: true
 ---
 
