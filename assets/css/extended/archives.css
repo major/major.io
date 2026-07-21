@@ -1,0 +1,116 @@
+/* Archives page styling */
+
+.archives-list {
+    padding: 0;
+}
+
+.archive-year {
+    margin-bottom: 40px;
+}
+
+.year-header {
+    position: sticky;
+    top: 0;
+    background: var(--background);
+    color: var(--accent);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 30px 0 15px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    z-index: 10;
+}
+
+.year-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.archive-post {
+    padding: 12px 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+    margin: 0;
+    text-align: left;
+}
+
+.archive-post:last-child {
+    border-bottom: none;
+}
+
+.archive-post-content {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.archive-date {
+    color: color-mix(in srgb, var(--foreground) 60%, transparent);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.archive-title {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    flex: 1;
+    min-width: 200px;
+}
+
+.archive-title a {
+    text-decoration: none;
+    color: var(--foreground);
+}
+
+.archive-title a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.archive-tags {
+    display: inline-flex;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--accent);
+    flex-basis: 100%;
+    margin-left: 90px;
+}
+
+.archive-tags a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.archive-tags a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 684px) {
+    .year-header {
+        font-size: 1.15rem;
+        margin: 25px 0 12px 0;
+    }
+
+    .archive-post-content {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .archive-date {
+        font-size: 0.85rem;
+    }
+
+    .archive-title {
+        font-size: 0.95rem;
+    }
+
+    .archive-tags {
+        margin-left: 0;
+    }
+}

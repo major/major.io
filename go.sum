@@ -10,3 +10,7 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20260503144622-c4ca7ca486ec/go.mod
 github.com/adityatelange/hugo-PaperMod v0.0.0-20260509132516-a1788a7a5921/go.mod h1:sp5WH671pzcVNpWKveBQKlBfu6T9uvcBI/4B3BSojKw=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20260510052646-154d006e0182 h1:wKy2+NZXtaj3qjFwoj4RZfouaAxCAY/oY9iiUmGlCZE=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20260510052646-154d006e0182/go.mod h1:sp5WH671pzcVNpWKveBQKlBfu6T9uvcBI/4B3BSojKw=
+github.com/panr/hugo-theme-terminal/v4 v4.0.0 h1:FNdo66jOsljhT+2WqODntM92kMFSmE71clkG0f+Bdqs=
+github.com/panr/hugo-theme-terminal/v4 v4.0.0/go.mod h1:W0sFodm5ipL5gjRqOFjg4zD+euoQ8hCtyDDtqSpihxM=
+github.com/panr/hugo-theme-terminal/v4 v4.2.3 h1:BU4x0qPDTZao6kzT4hWrOwGVaYgo5GesQZr+ATMsQoM=
+github.com/panr/hugo-theme-terminal/v4 v4.2.3/go.mod h1:W0sFodm5ipL5gjRqOFjg4zD+euoQ8hCtyDDtqSpihxM=
