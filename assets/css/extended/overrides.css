@@ -47,11 +47,9 @@
     --radius: 0;
 }
 
-/* Center the container and let it scale fluidly with the viewport */
+/* Adjust container width for better reading experience */
 .container {
-    max-width: min(1200px, 90vw);
-    margin: 0 auto;
-    border-right: none;
+    max-width: 800px;
 }
 
 /* Better link styling */
