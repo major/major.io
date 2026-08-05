@@ -3,7 +3,7 @@ author: Major Hayden
 date: '2026-08-05'
 summary: >
   Some LLMs are better at some tasks than others.
-  With a little tinkering, you can select your preferred models automatically in OpenCode based on the directory you're working in.
+  With a little tinkering, you can select your preferred models automatically in OpenCode based on your current working directory.
 tags:
   - development
   - opencode
