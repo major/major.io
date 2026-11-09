@@ -13,6 +13,7 @@
 - There is no repo test, lint, pre-commit, Makefile, justfile, or Taskfile suite. Verify content and theme changes with a Hugo build.
 
 ## Build and deploy gotchas
+- GitHub Pages deploys daily at 6:17 AM Eastern using `timezone: America/New_York` in `.github/workflows/github_pages.yml`; GitHub can delay scheduled runs.
 - GitHub Pages deploy builds with `--baseURL` from Pages, then copies `public/index.xml` to `public/feed/index.xml`; keep that RSS compatibility behavior if editing deploy flow.
 - `static/_redirects` maps `/feed`, `/feed/rss`, and `/feed/atom` variants to `/index.xml` for hosts that honor Netlify-style redirects.
 - `wrangler.jsonc` and the BusyBox `Dockerfile` both expect a prebuilt `public/` directory.
