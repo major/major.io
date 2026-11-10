@@ -14,6 +14,10 @@
 
 ## Build and deploy gotchas
 - GitHub Pages deploys daily at 6:17 AM Eastern using `timezone: America/New_York` in `.github/workflows/github_pages.yml`; GitHub can delay scheduled runs.
+- `.github/workflows/bunnycdn.yml` restores stock s3deploy v2.16.0 for `https://de-s3.storage.bunnycdn.com` in region `de`. It is manual-only and defaults to a dry run; clear `dry_run` in Run workflow to upload. The existing GitHub Pages deployment is unchanged.
+- Bunny uses the GitHub Actions secrets `AWS_ACCESS_KEY_ID` (S3-enabled Storage Zone name, also the bucket) and `AWS_SECRET_ACCESS_KEY` (Storage Zone password). S3 must be enabled when creating the zone. A dry run does not validate uploads: stock s3deploy still sends a default ACL header, which Bunny documents as unsupported.
+- `.s3deploy.yml` disables upload-time gzip because Bunny CDN does not yet use stored S3 metadata. Configure compression and cache policy on the Pull Zone, then purge its cache after successful uploads when immediate updates are needed. This workflow does not purge automatically or provide atomic deployment/rollback; s3deploy can delete remote files absent from `public/` (default limit: 256 per deploy).
+- Bunny preserves `/feed/index.xml`; configure legacy feed redirects to `/index.xml` on the Pull Zone because Bunny does not interpret `static/_redirects`.
 - GitHub Pages deploy builds with `--baseURL` from Pages, then copies `public/index.xml` to `public/feed/index.xml`; keep that RSS compatibility behavior if editing deploy flow.
 - `static/_redirects` maps `/feed`, `/feed/rss`, and `/feed/atom` variants to `/index.xml` for hosts that honor Netlify-style redirects.
 - `wrangler.jsonc` and the BusyBox `Dockerfile` both expect a prebuilt `public/` directory.

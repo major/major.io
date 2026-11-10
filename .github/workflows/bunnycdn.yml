@@ -1,0 +1,104 @@
+name: Deploy to Bunny S3
+
+# Keep uploads manual until a real upload confirms stock s3deploy compatibility.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview changes without uploading or deleting files"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bunny-production
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  S3DEPLOY_VERSION: "2.16.0"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Setup Go
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
+        with:
+          go-version: stable
+
+      - name: Setup Hugo
+        run: |
+          HUGO_VERSION=$(cat .hugo-version)
+          HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl --fail --silent --show-error --location --retry 5 "$HUGO_DOWNLOAD_URL" | tar xz hugo
+          ./hugo version
+
+      - name: Cache Hugo resources
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: resources
+          key: hugo-resources-${{ hashFiles('assets/**', 'hugo.yaml') }}
+          restore-keys: |
+            hugo-resources-
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: ./hugo --gc --minify --baseURL "https://major.io/"
+
+      - name: Fix RSS feed
+        run: |
+          mkdir -p public/feed
+          cp public/index.xml public/feed/index.xml
+
+      - name: Cache s3deploy
+        id: cache-s3deploy
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ${{ runner.temp }}/s3deploy
+          key: s3deploy-${{ runner.os }}-${{ runner.arch }}-${{ env.S3DEPLOY_VERSION }}
+
+      - name: Download s3deploy
+        if: steps.cache-s3deploy.outputs.cache-hit != 'true'
+        working-directory: ${{ runner.temp }}
+        run: |
+          ARCHIVE="s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz"
+          RELEASE_URL="https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}"
+          curl --fail --silent --show-error --location --retry 5 --output "$ARCHIVE" "$RELEASE_URL/$ARCHIVE"
+          curl --fail --silent --show-error --location --retry 5 --output checksums.txt "$RELEASE_URL/s3deploy_${S3DEPLOY_VERSION}_checksums.txt"
+          grep " $ARCHIVE$" checksums.txt | sha256sum --check --strict -
+          tar xzf "$ARCHIVE" s3deploy
+          chmod +x s3deploy
+
+      - name: Deploy to Bunny using s3deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          : "${AWS_ACCESS_KEY_ID:?Set AWS_ACCESS_KEY_ID to the S3-enabled Storage Zone name}"
+          : "${AWS_SECRET_ACCESS_KEY:?Set AWS_SECRET_ACCESS_KEY to the Storage Zone password}"
+          test -s public/index.html
+          test -s public/feed/index.xml
+          args=(
+            --endpoint-url https://de-s3.storage.bunnycdn.com
+            --region de
+            --bucket "$AWS_ACCESS_KEY_ID"
+            --source public
+            --workers 8
+          )
+          # Only an explicit false input permits remote changes.
+          if [[ "$DRY_RUN" != false ]]; then
+            args+=(--try)
+          fi
+          "$RUNNER_TEMP/s3deploy" "${args[@]}"
